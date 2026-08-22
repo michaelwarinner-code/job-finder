@@ -15,6 +15,7 @@ def judge_fit(title: str, description: str, company_name: str, candidate_profile
     """Returns {"match": bool, "reason": str}"""
     api_key = os.environ["ANTHROPIC_API_KEY"]
     desc_text = _strip_html(description)[:4000]  # cap length to control token cost
+    print(f"    [debug] description length={len(desc_text)} | last 300 chars: ...{desc_text[-300:]}")
 
     system = (
         "You screen a single job posting against one candidate's profile and target-role criteria. "
@@ -81,6 +82,8 @@ Does this posting match the candidate's target roles and experience level?"""
         stated_years = parsed.get("stated_years_required")
         match = bool(parsed.get("match"))
         reason = parsed.get("reason", "")
+
+        print(f"    [debug] stated_years_required={stated_years!r} | raw_match={parsed.get('match')} | title_check")
 
         if stated_years is not None and stated_years > 3:
             match = False
