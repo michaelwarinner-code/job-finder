@@ -1,0 +1,56 @@
+{
+  "companies": {
+    "doordash": {
+      "name": "DoorDash",
+      "ats": "greenhouse",
+      "board_token": "doordashusa",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "hubspot": {
+      "name": "HubSpot",
+      "ats": "greenhouse",
+      "board_token": "hubspot",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "spotify": {
+      "name": "Spotify",
+      "ats": "lever",
+      "board_token": "spotify",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "clay": {
+      "name": "Clay",
+      "ats": "ashby",
+      "board_token": "claylabs",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "snap": {
+      "name": "Snap Inc.",
+      "ats": "workday",
+      "workday_tenant": "snapchat",
+      "workday_site": "snap",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "cocacola": {
+      "name": "Coca-Cola",
+      "ats": "workday",
+      "workday_tenant": "coke",
+      "workday_site": "coca-cola-careers",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    }
+  },
+  "matches": [],
+  "last_run": null
+}
