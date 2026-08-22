@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -801,7 +801,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Growth, Digital role centers on paid channel optimization and pipeline attribution\u2014core growth marketing work the candidate has demonstrated with Meta Ads, funnel design, and revenue tracking; experience level (3+ years) aligns with candidate's ~3.5 years in growth-focused work."
+      "fit_reason": "Growth, Digital role centers on paid channel optimization and pipeline attribution—core growth marketing work the candidate has demonstrated with Meta Ads, funnel design, and revenue tracking; experience level (3+ years) aligns with candidate's ~3.5 years in growth-focused work."
     },
     {
       "id": "ashby-claylabs-1cd80341-4e0d-4db8-890e-ad916ebba1c0",
