@@ -1,19 +1,48 @@
 # Candidate Profile
 
 ## Target roles
-Product marketing, growth marketing, performance marketing, lifecycle marketing, GTM/go-to-market marketing.
-Also a fit for roles centered on: conversion rate / spend optimization, market feedback synthesis to shape roadmap,
-adoption/growth plans for a product, beta test management for product-market fit, cross-functional GTM execution,
-user research to find friction points, outcome-based measurement (activation/adoption/retention) with lightweight
-experimentation, and owning cross-functional product launches.
+Open to a broad range of analytical, revenue-driving marketing AND sales-adjacent roles --
+not just the five core titles below -- as a path into tech, with intent to pivot toward core
+tech marketing once in. Prioritize roles centered on testing, optimization, and driving
+measurable revenue, adoption, or growth outcomes.
+
+Core target titles: product marketing, growth marketing, performance marketing, lifecycle
+marketing, GTM/go-to-market marketing, revenue operations, demand generation.
+
+Also open to: general "Growth" titles (e.g. "Growth, Adoption", "Growth, Digital", "Growth
+Strategist"), account management, account executive/business development, customer success
+(especially growth/expansion-focused, not pure support), partnerships, and other commercial/
+GTM roles -- as long as the role centers on driving revenue, adoption, conversion, or
+expansion through analytical/testing-based work rather than pure relationship management.
+
+## Explicitly excluded (reject even if otherwise a fit)
+- Event execution / event marketing roles (planning and running in-person events as the core job)
+- Social media management roles (running social channels/content calendars as the core job)
+- Pure creative or copywriting roles (writing/design as the core job, no analytical/testing angle)
+These are hard excludes regardless of how well other requirements match -- the candidate has
+ruled these functions out even though the resume includes some event and social media work.
+
+## How to weigh gaps in required skills/tools
+The candidate wants to be sent postings even when some requirements aren't a clean match, as
+long as the core function and experience level fit:
+- A SINGLE unfamiliar tool/platform -- especially under "Nice to Have" -- should NOT cause a
+  rejection. Treat it as something learnable, discussable honestly in an interview.
+- Multiple STACKED hard requirements (e.g. several specific required tools/languages all
+  mandatory, not nice-to-have) is a real gap -- lean toward rejecting these.
+- Years-of-experience requirements CANNOT be stretched -- if a posting clearly states greater than 4
+  years, it's a hard no regardless of other fit.
+- When genuinely uncertain, lean toward MATCH. A false positive costs a few seconds of
+  skimming; a false negative means missing a real opportunity.
 
 ## Experience level
 Early-career. Total relevant experience is roughly 3 years combined (two ~2.5-month marketing internships plus
-~3.5 years of increasingly senior roles in a operations/marketing hybrid job). Should be evaluated as fitting
-roles that require **less than 3 years of professional experience** (new grad, associate, or "early career" tiers).
-Not a fit for roles requiring 3+ years, "senior," "manager" (people-management-of-marketers), "director," or "lead"
-marketing titles — unless the posting explicitly says something like "3 years OR equivalent practical experience"
-and the candidate's practical experience below clearly covers it.
+~3.5 years of increasingly senior roles in a operations/marketing hybrid job). Should be evaluated as fitting 
+roles that require 3 years of professional experience or fewer,
+including postings phrased as "3+ years" (3 is a floor the candidate meets, not a ceiling that
+excludes them). Not a fit for roles requiring 4+ years, or roles with "senior manager,"
+"director," or "lead" marketing titles — unless the posting explicitly says something like
+"3 years OR equivalent practical experience" and the candidate's practical experience below
+clearly covers it.
 
 ## Relevant experience summary
 
