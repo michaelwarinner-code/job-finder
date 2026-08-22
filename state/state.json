@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -781,7 +781,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
       "first_seen": "2026-08-22T21:23:06.673080+00:00",
-      "fit_reason": "Enterprise Growth Strategist is a core GTM/growth role focused on driving adoption and expansion through strategic partnerships and use-case development\u2014strong fit for candidate's lifecycle/expansion experience; no years requirement stated, so experience level is not a blocker."
+      "fit_reason": "Enterprise Growth Strategist is a core GTM/growth role focused on driving adoption and expansion through strategic partnerships and use-case development—strong fit for candidate's lifecycle/expansion experience; no years requirement stated, so experience level is not a blocker."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -801,7 +801,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-22T21:23:06.673080+00:00",
-      "fit_reason": "Growth, Digital is a core growth marketing role centered on paid channel optimization, measurement, and pipeline-driving work\u2014directly aligned with candidate's target; experience level fits (3 years meets the floor); paid social/Meta Ads and conversion funnel/measurement work are demonstrated strengths."
+      "fit_reason": "Growth, Digital is a core growth marketing role centered on paid channel optimization, measurement, and pipeline-driving work—directly aligned with candidate's target; experience level fits (3 years meets the floor); paid social/Meta Ads and conversion funnel/measurement work are demonstrated strengths."
     },
     {
       "id": "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
@@ -821,7 +821,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T21:23:06.673080+00:00",
-      "fit_reason": "Perfect fit: 'Growth, Adoption' is an explicitly listed open target title; the role centers on lifecycle marketing, conversion optimization, and adoption-driven work (email, in-app, campaign design, dashboards) \u2014 all core to candidate's Chick-fil-A experience with win-back campaigns, conversion funnels, and email sequences; no years requirement stated; no excluded functions (event execution is secondary to lifecycle/adoption focus)."
+      "fit_reason": "Perfect fit: 'Growth, Adoption' is an explicitly listed open target title; the role centers on lifecycle marketing, conversion optimization, and adoption-driven work (email, in-app, campaign design, dashboards) — all core to candidate's Chick-fil-A experience with win-back campaigns, conversion funnels, and email sequences; no years requirement stated; no excluded functions (event execution is secondary to lifecycle/adoption focus)."
     }
   ],
   "last_run": "2026-08-22T21:27:17.404273+00:00"
