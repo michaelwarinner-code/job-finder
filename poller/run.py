@@ -109,6 +109,7 @@ def main():
 
             try:
                 verdict = judge_fit(title, description, cfg["name"], profile)
+                print(f"[{key}] '{title}' -> match={verdict['match']} | {verdict['reason']}")
             except Exception as e:
                 print(f"[{key}] Claude judgment failed for {job['job_id']}: {e}")
                 continue
