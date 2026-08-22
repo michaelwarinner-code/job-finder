@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -802,7 +802,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-22T23:13:16.376427+00:00",
-      "fit_reason": "Growth, Digital role centered on paid channel optimization and pipeline contribution aligns with candidate's performance marketing/growth testing experience; no stated years requirement; candidate's paid social (Meta Ads), analytics rigor, and 0\u21921 channel-building (app sales, catering channel, email sequences) directly transferable."
+      "fit_reason": "Growth, Digital role centered on paid channel optimization and pipeline contribution aligns with candidate's performance marketing/growth testing experience; no stated years requirement; candidate's paid social (Meta Ads), analytics rigor, and 0→1 channel-building (app sales, catering channel, email sequences) directly transferable."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
