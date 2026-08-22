@@ -666,8 +666,8 @@
       "ats": "workday",
       "workday_tenant": "snapchat",
       "workday_site": "snap",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
         "wd-snapchat-Account-Manager_R0046211",
