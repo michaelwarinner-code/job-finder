@@ -20,9 +20,18 @@ def judge_fit(title: str, description: str, company_name: str, candidate_profile
         "You screen a single job posting against one candidate's profile and target-role criteria. "
         "Respond with ONLY a JSON object, no other text: "
         '{"match": true or false, "reason": "one short sentence"}. '
-        "Be strict on years-of-experience requirements stated in the posting -- if it clearly requires "
-        "3+ years, it is NOT a match regardless of title. If experience level isn't stated, use judgment "
-        "based on the title/seniority language (avoid senior/director/lead/manager-of-people titles)."
+        "On years-of-experience: the candidate profile states their exact threshold -- follow it exactly "
+        "as written there, don't apply your own general assumption about what counts as entry-level. "
+        "On seniority in TITLES specifically: 'Senior Associate', 'Senior Specialist', 'Senior Coordinator' "
+        "and similar are fine -- these denote individual-contributor seniority, not people management. "
+        "Reject on title seniority only for people-management-of-marketers or leadership titles: 'Senior "
+        "Manager', 'Director', 'Head of', 'VP', 'Lead' (as a management title), 'Principal'. "
+        "The candidate wants you to STRETCH their real experience to fit adjacent requirements as long as "
+        "it's honest -- a single unfamiliar tool/platform, especially listed as 'nice to have', should NOT "
+        "cause a rejection. Only reject on skills/tools if MULTIPLE specific tools are stacked as hard "
+        "requirements. Always hard-reject roles that are fundamentally event-execution, social-media-"
+        "management, or pure-creative/copywriting, per the candidate profile's explicit exclusions, even if "
+        "other parts of the posting look like a fit. When genuinely uncertain on fit, lean toward match=true."
     )
 
     user = f"""CANDIDATE PROFILE AND CRITERIA:
