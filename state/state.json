@@ -589,7 +589,7 @@
       "ats": "ashby",
       "board_token": "claylabs",
       "enabled": true,
-      "needs_resync": true,
+      "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
         "ashby-claylabs-046cb127-d5fc-444f-a2a9-fb4029d6a503",
@@ -775,54 +775,14 @@
       "fit_reason": "GTM & Lifecycle Specialist aligns directly with candidate's target roles; early-career/specialist-level title matches experience (~3.5 years operationally relevant work); demonstrated lifecycle expertise (win-back campaigns, conversion funnels, retention programs, event-driven acquisition) and cross-functional GTM execution at Chick-fil-A."
     },
     {
-      "id": "ashby-claylabs-c605042d-1bd4-4e0d-aa82-d92a2abecb59",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Growth Strategist, Enterprise (Customer Success)",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth/GTM-focused role with no stated years requirement; candidate's 3+ years of growth/lifecycle/funnel-building work and direct experience with customer success expansion directly aligns with the Enterprise Growth Strategist function."
-    },
-    {
-      "id": "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "GTM Engineer - Seller Efficiency",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "GTM-focused role with heavy emphasis on workflow automation, sales enablement, and data-driven optimization—aligns with candidate's growth/revenue operations trajectory and demonstrated automation/tooling expertise, despite 'Engineer' title requiring honest conversation about technical depth."
-    },
-    {
-      "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Account Executive (GTME - New Business) ",
-      "location": "San Francisco",
-      "url": "https://jobs.ashbyhq.com/claylabs/a6abd176-8afe-4905-a341-15d89f9acd03",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Account Executive / new business sales role with GTM consulting mindset aligns with candidate's target commercial/revenue-driving roles; no stated years requirement; consultative, testing-driven motion matches demonstrated growth/GTM work at Chick-fil-A."
-    },
-    {
-      "id": "ashby-claylabs-08c6786d-0ba5-4799-9259-cfff2d9d0580",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Private Equity Partnerships",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/08c6786d-0ba5-4799-9259-cfff2d9d0580",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "GTM-focused partnerships/business development role with no stated experience requirement; candidate's demonstrated growth, account management, and multi-stakeholder funnel-building work (catering channel, email sequences, campaign optimization) align well with PE portfolio activation and repeatable systems work."
-    },
-    {
       "id": "ashby-claylabs-4272b3bc-0ec3-46bf-8339-142889a97367",
       "company_key": "clay",
       "company_name": "Clay",
       "title": "Growth, ABM",
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/4272b3bc-0ec3-46bf-8339-142889a97367",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth, ABM is a core target title; role centers on strategy, account targeting, and campaign design (not pure event execution); candidate's catering/win-back/lifecycle work and cross-functional sales partnership directly transferable."
+      "first_seen": "2026-08-22T23:13:16.376427+00:00",
+      "fit_reason": "Growth, ABM is a core target role; candidate's 3.5 years driving measurable revenue through segmentation, targeted campaigns, event ROI analysis, and sales enablement directly mirrors the GTM/ABM operator work required, despite no explicit ABM title."
     },
     {
       "id": "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
@@ -831,8 +791,8 @@
       "title": "Growth, Enterprise",
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Account-based growth role with strategic, revenue-focused motion aligns with GTM/growth target; early-career candidate matches implicit seniority; no explicit years requirement stated."
+      "first_seen": "2026-08-22T23:13:16.376427+00:00",
+      "fit_reason": "Growth, Enterprise is a core-target GTM/ABM role centered on revenue and account penetration; candidate's 3.25 years of growth/lifecycle/event-based marketing with demonstrated ROI ownership and cross-functional sales collaboration is a strong fit despite lack of named ABM tooling experience."
     },
     {
       "id": "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
@@ -841,38 +801,8 @@
       "title": "Growth, Digital",
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth, Digital is a core-adjacent target role; candidate has demonstrated paid social (Meta Ads), conversion funnel optimization, attribution, and testing mindset; no years requirement stated; posting incomplete but paid channel ownership and pipeline thinking align with candidate's proven work."
-    },
-    {
-      "id": "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Marketing Analyst",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/ea299008-9502-4ede-96f3-d5cb94627f51",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Marketing Analyst role centered on funnel optimization, performance monitoring, and data-driven GTM work aligns with candidate's growth/lifecycle marketing focus and demonstrated analytics experience; no years requirement stated."
-    },
-    {
-      "id": "ashby-claylabs-17e101f5-5d06-46d1-861c-a7edb71f650d",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Growth Strategist, Strategic (Customer Success) ",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/17e101f5-5d06-46d1-861c-a7edb71f650d",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth-focused customer success role with expansion/revenue-driving mandate aligns with candidate's GTM and lifecycle marketing experience; no stated years requirement; enterprise account strategy work is adjacent to candidate's demonstrated funnel-building, win-back, and growth-channel optimization work."
-    },
-    {
-      "id": "ashby-claylabs-1cd80341-4e0d-4db8-890e-ad916ebba1c0",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Account Executive (GTME - New Business)",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/1cd80341-4e0d-4db8-890e-ad916ebba1c0",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Account Executive / new business sales aligns with candidate's target commercial/GTM roles; no years requirement stated; demonstrated consultative sales, funnel building, and revenue-growth work at Chick-fil-A (catering channel growth, win-back campaigns, multi-touch attribution) translates directly to consultative enterprise selling motion."
+      "first_seen": "2026-08-22T23:13:16.376427+00:00",
+      "fit_reason": "Growth, Digital role centered on paid channel optimization and pipeline contribution aligns with candidate's performance marketing/growth testing experience; no stated years requirement; candidate's paid social (Meta Ads), analytics rigor, and 0\u21921 channel-building (app sales, catering channel, email sequences) directly transferable."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -881,9 +811,9 @@
       "title": "Growth, Adoption",
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
-      "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth, Adoption role centered on lifecycle channels, conversion optimization, and product-driven campaigns aligns directly with candidate's core target roles and demonstrated experience in email/in-app campaigns, conversion funnel building, and adoption metrics—no years requirement stated."
+      "first_seen": "2026-08-22T23:13:16.376427+00:00",
+      "fit_reason": "Growth, Adoption is a core target role; candidate has direct lifecycle/adoption experience (email campaigns, win-back programs, conversion funnels, A/B testing, dashboarding) and builder DNA (Google Apps Script automation, custom tracking tools), with no years floor stated."
     }
   ],
-  "last_run": "2026-08-22T23:02:09.603974+00:00"
+  "last_run": "2026-08-22T23:13:16.376427+00:00"
 }
