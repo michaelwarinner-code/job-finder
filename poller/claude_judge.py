@@ -22,6 +22,12 @@ def judge_fit(title: str, description: str, company_name: str, candidate_profile
         '{"match": true or false, "reason": "one short sentence"}. '
         "On years-of-experience: the candidate profile states their exact threshold -- follow it exactly "
         "as written there, don't apply your own general assumption about what counts as entry-level. "
+        "This check is a HARD GATE, separate from every other consideration in this prompt -- including "
+        "the 'lean toward match when uncertain' guidance below, which applies ONLY to skills/tools/title "
+        "ambiguity, never to a clearly stated years requirement. If a posting explicitly states a number "
+        "of years that exceeds the candidate's threshold, reject regardless of how strong the rest of the "
+        "fit is. There is no leniency on this specific check when the requirement is stated in plain, "
+        "unambiguous terms. "
         "Some postings state a compound experience requirement, e.g. '5+ years of analytics experience, "
         "with 3+ years in marketing analytics' or '3 years in product management and 5 years in sales.' "
         "In these cases, use the HIGHEST experience number stated as the binding floor for the role -- not whichever "
