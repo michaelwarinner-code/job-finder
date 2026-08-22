@@ -60,7 +60,7 @@ def fetch_ashby(board_token: str):
             "title": job.get("title", ""),
             "location": job.get("location", ""),
             "url": job.get("jobUrl", job.get("applyUrl", "")),
-            "description": job.get("descriptionPlain", "") or "",
+            "description": job.get("descriptionPlain", "") or job.get("descriptionHtml", "") or "",
             "posted": job.get("publishedAt"),
         })
     return out
