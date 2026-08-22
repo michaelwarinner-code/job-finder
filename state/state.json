@@ -589,7 +589,7 @@
       "ats": "ashby",
       "board_token": "claylabs",
       "enabled": true,
-      "needs_resync": true,
+      "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
         "ashby-claylabs-046cb127-d5fc-444f-a2a9-fb4029d6a503",
@@ -774,5 +774,5 @@
       "fit_reason": "GTM & Lifecycle Specialist aligns directly with candidate's target roles; early-career/specialist-level title matches experience (~3.5 years operationally relevant work); demonstrated lifecycle expertise (win-back campaigns, conversion funnels, retention programs, event-driven acquisition) and cross-functional GTM execution at Chick-fil-A."
     }
   ],
-  "last_run": "2026-08-22T17:10:14.308564+00:00"
+  "last_run": "2026-08-22T17:15:10.561162+00:00"
 }
