@@ -667,7 +667,7 @@
       "workday_tenant": "snapchat",
       "workday_site": "snap",
       "enabled": true,
-      "needs_resync": true,
+      "needs_resync": false,
       "known_job_ids": [
         "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
         "wd-snapchat-Account-Manager_R0046211",
@@ -762,6 +762,17 @@
       ]
     }
   },
-  "matches": [],
-  "last_run": "2026-08-22T17:04:41.754114+00:00"
+  "matches": [
+    {
+      "id": "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "GTM & Lifecycle Specialist",
+      "location": "Los Angeles, California",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/GTM---Lifecycle-Specialist_R0046420-1",
+      "first_seen": "2026-08-22T17:10:14.308564+00:00",
+      "fit_reason": "GTM & Lifecycle Specialist aligns directly with candidate's target roles; early-career/specialist-level title matches experience (~3.5 years operationally relevant work); demonstrated lifecycle expertise (win-back campaigns, conversion funnels, retention programs, event-driven acquisition) and cross-functional GTM execution at Chick-fil-A."
+    }
+  ],
+  "last_run": "2026-08-22T17:10:14.308564+00:00"
 }
