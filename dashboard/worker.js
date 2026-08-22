@@ -97,7 +97,7 @@ async function getStateFile(env) {
   );
   if (!res.ok) throw new Error(`GitHub read failed: ${res.status}`);
   const data = await res.json();
-  const content = atob(data.content.replace(/\n/g, ""));
+  const content = fromBase64(data.content.replace(/\n/g, ""));
   return { json: JSON.parse(content), sha: data.sha };
 }
 
@@ -105,7 +105,7 @@ async function putStateFile(env, newJson, sha, message) {
   const path = "state/state.json";
   const body = {
     message,
-    content: btoa(JSON.stringify(newJson, null, 2)),
+    content: toBase64(JSON.stringify(newJson, null, 2)),
     sha,
     branch: env.GITHUB_BRANCH,
   };
