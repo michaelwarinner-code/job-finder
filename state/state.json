@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -782,7 +782,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
       "first_seen": "2026-08-22T21:46:54.479164+00:00",
-      "fit_reason": "Enterprise Growth Strategist is a GTM/growth-adjacent role centered on strategic partnership, adoption expansion, and measurable customer outcomes\u2014aligned with candidate's target; no years requirement stated; candidate's 3+ years of growth, lifecycle, and cross-functional work at Chick-fil-A (funnel building, adoption campaigns, retention) and internship experience fit the early-career scope."
+      "fit_reason": "Enterprise Growth Strategist is a GTM/growth-adjacent role centered on strategic partnership, adoption expansion, and measurable customer outcomes—aligned with candidate's target; no years requirement stated; candidate's 3+ years of growth, lifecycle, and cross-functional work at Chick-fil-A (funnel building, adoption campaigns, retention) and internship experience fit the early-career scope."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -812,7 +812,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/4272b3bc-0ec3-46bf-8339-142889a97367",
       "first_seen": "2026-08-22T21:46:54.479164+00:00",
-      "fit_reason": "Growth, ABM role centers on account-based strategy, campaign design, and revenue-driving motion\u2014core target function\u2014with no stated experience requirement; candidate's lifecycle/win-back/funnel work and cross-functional sales collaboration directly transfer."
+      "fit_reason": "Growth, ABM role centers on account-based strategy, campaign design, and revenue-driving motion—core target function—with no stated experience requirement; candidate's lifecycle/win-back/funnel work and cross-functional sales collaboration directly transfer."
     },
     {
       "id": "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
@@ -842,7 +842,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/ea299008-9502-4ede-96f3-d5cb94627f51",
       "first_seen": "2026-08-22T21:46:54.479164+00:00",
-      "fit_reason": "Marketing Analyst role centered on funnel diagnostics, performance metrics, and data-driven GTM insights\u2014a strong fit for growth/revenue-driving work; no years requirement stated, and candidate's 3+ years of campaign optimization, conversion funnel building, and analytics experience aligns well."
+      "fit_reason": "Marketing Analyst role centered on funnel diagnostics, performance metrics, and data-driven GTM insights—a strong fit for growth/revenue-driving work; no years requirement stated, and candidate's 3+ years of campaign optimization, conversion funnel building, and analytics experience aligns well."
     },
     {
       "id": "ashby-claylabs-17e101f5-5d06-46d1-861c-a7edb71f650d",
@@ -872,7 +872,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T21:46:54.479164+00:00",
-      "fit_reason": "Growth, Adoption role centered on lifecycle campaigns, conversion optimization, and adoption funnels \u2014 direct fit to target; no years requirement stated; candidate's 3.5 years of campaign design, email, segmentation, and analytics work maps cleanly to the core function."
+      "fit_reason": "Growth, Adoption role centered on lifecycle campaigns, conversion optimization, and adoption funnels — direct fit to target; no years requirement stated; candidate's 3.5 years of campaign design, email, segmentation, and analytics work maps cleanly to the core function."
     }
   ],
   "last_run": "2026-08-22T22:42:48.453744+00:00"
