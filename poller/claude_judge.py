@@ -54,9 +54,15 @@ Does this posting match the candidate's target roles and experience level?"""
     data = r.json()
     text = "".join(block.get("text", "") for block in data.get("content", []) if block.get("type") == "text")
 
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.split("```")[1]
+        if cleaned.startswith("json"):
+            cleaned = cleaned[4:]
+        cleaned = cleaned.strip()
+
     try:
-        parsed = json.loads(text.strip())
+        parsed = json.loads(cleaned)
         return {"match": bool(parsed.get("match")), "reason": parsed.get("reason", "")}
     except (json.JSONDecodeError, ValueError):
-        # Fail safe: if we can't parse the model's output, don't notify -- log and skip
         return {"match": False, "reason": f"unparsed model output: {text[:200]}"}
