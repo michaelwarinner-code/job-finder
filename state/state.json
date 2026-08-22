@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -792,7 +792,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
       "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "GTM-focused role with heavy emphasis on workflow automation, sales enablement, and data-driven optimization\u2014aligns with candidate's growth/revenue operations trajectory and demonstrated automation/tooling expertise, despite 'Engineer' title requiring honest conversation about technical depth."
+      "fit_reason": "GTM-focused role with heavy emphasis on workflow automation, sales enablement, and data-driven optimization—aligns with candidate's growth/revenue operations trajectory and demonstrated automation/tooling expertise, despite 'Engineer' title requiring honest conversation about technical depth."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -882,7 +882,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T23:00:58.262411+00:00",
-      "fit_reason": "Growth, Adoption role centered on lifecycle channels, conversion optimization, and product-driven campaigns aligns directly with candidate's core target roles and demonstrated experience in email/in-app campaigns, conversion funnel building, and adoption metrics\u2014no years requirement stated."
+      "fit_reason": "Growth, Adoption role centered on lifecycle channels, conversion optimization, and product-driven campaigns aligns directly with candidate's core target roles and demonstrated experience in email/in-app campaigns, conversion funnel building, and adoption metrics—no years requirement stated."
     }
   ],
   "last_run": "2026-08-22T23:02:09.603974+00:00"
