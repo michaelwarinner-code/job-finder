@@ -1,3 +1,5 @@
+from location_filter import is_us_location
+
 """
 Main entrypoint, run by GitHub Actions on a schedule (and on-demand via
 workflow_dispatch when a company is toggled back on for an immediate resync).
@@ -95,6 +97,10 @@ def main():
             title = job["title"]
 
             if not passes_keyword_filter(title, key):
+                known_ids.add(job["job_id"])
+                continue
+              
+            if not is_us_location(job.get("location", "")):
                 known_ids.add(job["job_id"])
                 continue
 
