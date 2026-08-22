@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -781,7 +781,7 @@
       "location": "",
       "url": "https://jobs.ashbyhq.com/claylabs/9d4828b2-8c23-406d-8225-b916ff9174c0",
       "first_seen": "2026-08-22T19:10:34.081844+00:00",
-      "fit_reason": "Enterprise Growth Strategist is a strong fit \u2014 it's GTM/growth-focused, revenue-driving (expansion/adoption), and analytical/strategic rather than pure support; candidate's 3+ years of data-driven campaign design, funnel building, and cross-functional GTM work at Chick-fil-A directly mirrors the core responsibilities."
+      "fit_reason": "Enterprise Growth Strategist is a strong fit — it's GTM/growth-focused, revenue-driving (expansion/adoption), and analytical/strategic rather than pure support; candidate's 3+ years of data-driven campaign design, funnel building, and cross-functional GTM work at Chick-fil-A directly mirrors the core responsibilities."
     },
     {
       "id": "ashby-claylabs-2620226a-13b5-48be-a9a9-ff7769552a21",
@@ -821,7 +821,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
       "first_seen": "2026-08-22T20:31:05.198729+00:00",
-      "fit_reason": "GTM-focused role centered on workflow automation, sales enablement, and revenue motion\u2014aligned with candidate's growth/GTM experience and analytical/testing mindset, though 'Engineer' title and automation-build focus are adjacent to core marketing background."
+      "fit_reason": "GTM-focused role centered on workflow automation, sales enablement, and revenue motion—aligned with candidate's growth/GTM experience and analytical/testing mindset, though 'Engineer' title and automation-build focus are adjacent to core marketing background."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -841,7 +841,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/4272b3bc-0ec3-46bf-8339-142889a97367",
       "first_seen": "2026-08-22T20:31:05.198729+00:00",
-      "fit_reason": "Growth, ABM is a core GTM/commercial role centered on driving revenue and adoption through strategic, analytical account-based work\u2014not event execution\u2014and the candidate's 3+ years of growth/lifecycle/win-back campaign work, cross-functional collaboration, and data-driven funnel building fit the role well."
+      "fit_reason": "Growth, ABM is a core GTM/commercial role centered on driving revenue and adoption through strategic, analytical account-based work—not event execution—and the candidate's 3+ years of growth/lifecycle/win-back campaign work, cross-functional collaboration, and data-driven funnel building fit the role well."
     },
     {
       "id": "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
