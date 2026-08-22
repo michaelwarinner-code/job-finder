@@ -58,7 +58,7 @@ def fetch_ashby(board_token: str):
         out.append({
             "job_id": f"ashby-{board_token}-{job['id']}",
             "title": job.get("title", ""),
-            "location": job.get("locationName", ""),
+            "location": job.get("location", ""),
             "url": job.get("jobUrl", job.get("applyUrl", "")),
             "description": job.get("descriptionPlain", "") or "",
             "posted": job.get("publishedAt"),
