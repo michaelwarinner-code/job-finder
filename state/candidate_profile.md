@@ -29,8 +29,9 @@ long as the core function and experience level fit:
   rejection. Treat it as something learnable, discussable honestly in an interview.
 - Multiple STACKED hard requirements (e.g. several specific required tools/languages all
   mandatory, not nice-to-have) is a real gap -- lean toward rejecting these.
-- Years-of-experience requirements CANNOT be stretched -- if a posting clearly states greater than 4
-  years, it's a hard no regardless of other fit.
+- Years-of-experience requirements CANNOT be stretched -- if a posting clearly states 4+ years (or
+  any higher number), it's a hard no regardless of other fit. Only postings requiring 3 years or
+  fewer are in scope.
 - When genuinely uncertain, lean toward MATCH. A false positive costs a few seconds of
   skimming; a false negative means missing a real opportunity.
 
