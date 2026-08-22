@@ -14,7 +14,7 @@ def _strip_html(text: str) -> str:
 def judge_fit(title: str, description: str, company_name: str, candidate_profile: str) -> dict:
     """Returns {"match": bool, "reason": str}"""
     api_key = os.environ["ANTHROPIC_API_KEY"]
-    desc_text = _strip_html(description)[:4000]  # cap length to control token cost
+    desc_text = _strip_html(description)[:8000]  # cap length to control token cost
     print(f"    [debug] description length={len(desc_text)} | last 300 chars: ...{desc_text[-300:]}")
 
     system = (
