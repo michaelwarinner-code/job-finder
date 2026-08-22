@@ -589,7 +589,7 @@
       "ats": "ashby",
       "board_token": "claylabs",
       "enabled": true,
-      "needs_resync": true,
+      "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
         "ashby-claylabs-046cb127-d5fc-444f-a2a9-fb4029d6a503",
@@ -780,8 +780,8 @@
       "title": "Growth Strategist, Enterprise (Customer Success)",
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
-      "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Growth Strategist role with enterprise GTM focus aligns with candidate's target (growth/GTM/revenue-driving roles), demonstrates analytical testing-based work and expansion strategy matching candidate's catering/app growth experience, and no experience-level blocker at 3 years of relevant work."
+      "first_seen": "2026-08-22T21:23:06.673080+00:00",
+      "fit_reason": "Enterprise Growth Strategist is a core GTM/growth role focused on driving adoption and expansion through strategic partnerships and use-case development\u2014strong fit for candidate's lifecycle/expansion experience; no years requirement stated, so experience level is not a blocker."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -790,8 +790,8 @@
       "title": "Account Executive (GTME - New Business) ",
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/a6abd176-8afe-4905-a341-15d89f9acd03",
-      "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Account Executive role aligns with candidate's commercial/GTM experience (demonstrated pipeline building, conversion optimization, consultative selling at Chick-fil-A); no stated experience floor exceeds 3 years; role centers on revenue/adoption driving rather than excluded functions."
+      "first_seen": "2026-08-22T21:23:06.673080+00:00",
+      "fit_reason": "Account Executive role aligns with candidate's stated openness to 'account management, account executive/business development' and commercial GTM roles; experience demonstrating consultative selling, pipeline building, and revenue-driven decision-making from Chick-fil-A role fits the described motion, and posting requires 0 years explicitly stated (entry-level welcome)."
     },
     {
       "id": "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
@@ -800,18 +800,18 @@
       "title": "Growth, Digital",
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
-      "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Growth, Digital role centers on paid channel optimization and pipeline attribution—core growth marketing work the candidate has demonstrated with Meta Ads, funnel design, and revenue tracking; experience level (3+ years) aligns with candidate's ~3.5 years in growth-focused work."
+      "first_seen": "2026-08-22T21:23:06.673080+00:00",
+      "fit_reason": "Growth, Digital is a core growth marketing role centered on paid channel optimization, measurement, and pipeline-driving work\u2014directly aligned with candidate's target; experience level fits (3 years meets the floor); paid social/Meta Ads and conversion funnel/measurement work are demonstrated strengths."
     },
     {
-      "id": "ashby-claylabs-1cd80341-4e0d-4db8-890e-ad916ebba1c0",
+      "id": "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
       "company_key": "clay",
       "company_name": "Clay",
-      "title": "Account Executive (GTME - New Business)",
+      "title": "Marketing Analyst",
       "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/1cd80341-4e0d-4db8-890e-ad916ebba1c0",
-      "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Account Executive with strong GTM/consultative focus aligns with candidate's target commercial roles; demonstrated growth/revenue-driving work at Chick-fil-A (funnel building, lifecycle campaigns, paid acquisition) and internships (data analysis, segmentation) translate directly to consultative selling and prospect evaluation, despite lack of traditional AE title."
+      "url": "https://jobs.ashbyhq.com/claylabs/ea299008-9502-4ede-96f3-d5cb94627f51",
+      "first_seen": "2026-08-22T21:23:06.673080+00:00",
+      "fit_reason": "Marketing Analyst is a data-driven, measurement-focused role that aligns with the candidate's growth/performance marketing experience; funnel diagnostics, reporting, and operational metrics directly map to their demonstrated work on conversion funnels, campaign ROI, and performance dashboards at Chick-fil-A."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -820,9 +820,9 @@
       "title": "Growth, Adoption",
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
-      "first_seen": "2026-08-22T21:13:43.316562+00:00",
-      "fit_reason": "Growth, Adoption role centered on lifecycle channels, product adoption, and conversion optimization directly aligns with candidate's target titles and demonstrated experience in email campaigns, funnel building, and data-driven retention work at scale."
+      "first_seen": "2026-08-22T21:23:06.673080+00:00",
+      "fit_reason": "Perfect fit: 'Growth, Adoption' is an explicitly listed open target title; the role centers on lifecycle marketing, conversion optimization, and adoption-driven work (email, in-app, campaign design, dashboards) \u2014 all core to candidate's Chick-fil-A experience with win-back campaigns, conversion funnels, and email sequences; no years requirement stated; no excluded functions (event execution is secondary to lifecycle/adoption focus)."
     }
   ],
-  "last_run": "2026-08-22T21:13:43.316562+00:00"
+  "last_run": "2026-08-22T21:23:06.673080+00:00"
 }
