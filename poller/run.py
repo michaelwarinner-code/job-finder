@@ -91,6 +91,16 @@ def main():
             continue
 
         known_ids = set(cfg.get("known_job_ids", []))
+        live_ids = {j["job_id"] for j in live_jobs}
+
+        if is_resync:
+            state["matches"] = [m for m in state["matches"] if m["company_key"] != key]
+        else:
+            # Prune matches for postings that have since closed, even on normal runs
+            state["matches"] = [
+                m for m in state["matches"]
+                if not (m["company_key"] == key and m["id"] not in live_ids)
+            ]
         new_jobs = live_jobs if is_resync else [j for j in live_jobs if j["job_id"] not in known_ids]
 
         print(f"[{key}] {len(live_jobs)} live, {len(new_jobs)} to evaluate")
