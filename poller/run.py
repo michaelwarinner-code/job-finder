@@ -80,6 +80,8 @@ def main():
             continue
 
         is_resync = cfg.get("needs_resync", False)
+        if is_resync:
+            state["matches"] = [m for m in state["matches"] if m["company_key"] != key]
         print(f"[{key}] fetching (resync={is_resync})...")
 
         try:
