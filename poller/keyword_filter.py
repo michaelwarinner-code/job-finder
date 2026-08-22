@@ -1,27 +1,42 @@
 """
 Cheap, free, local pre-filter. Runs on every new posting BEFORE any Claude API call.
-Goal: eliminate the ~90% of postings that are obviously irrelevant (engineering,
-finance, legal, ops, etc.) using only string matching -- zero cost, zero latency.
-
-Only postings that pass this filter get sent to Claude for the real judgment call
-(experience-level nuance + true fit), which is the expensive/slow step.
+This filter's only job is to reject postings from CLEARLY unrelated departments
+(engineering, legal, warehouse ops, HR/recruiting, finance, hardware, etc.) -- it should
+NOT try to judge fit precisely. The real nuance (seniority, stretch-ability, whether it's
+the right flavor of marketing/sales) is Claude's job downstream, not this filter's.
 """
 
-CORE_KEYWORDS = [
+POSITIVE_SIGNALS = [
     "product marketing", "growth marketing", "performance marketing",
     "lifecycle marketing", "go-to-market", "gtm", "brand marketing",
     "marketing manager", "marketing associate", "marketing specialist",
     "growth associate", "growth analyst", "marketing analyst",
     "consumer marketing", "customer marketing", "retention marketing",
+    "growth", "marketing", "demand generation", "demand gen",
+    "revenue", "sales", "business development", "account executive",
+    "account manager", "partnerships", "commercial", "customer success",
+    "growth strategist", "revenue operations", "revops", "client partner",
 ]
 
-# Titles that should never pass, even if they contain a core keyword
-# (e.g. "Senior Director, Product Marketing" contains "product marketing" but
-# is very obviously not an entry-level role -- caught more precisely by Claude,
-# but we can pre-reject the most blatant cases here to save API calls)
+# Reject even if a positive signal above also matches -- explicit exclusions
+# and unrelated departments that occasionally trip a coincidental word match
+# (e.g. "Sales Tax Accountant" contains "sales" but is a finance role).
 HARD_EXCLUDE = [
     "senior director", "vp,", "vice president", "svp", "evp",
     "principal", "head of", "chief marketing officer", "cmo",
+    "event marketing", "events marketing", "event manager", "events manager",
+    "social media manager", "social media specialist", "social media coordinator",
+    "copywriter", "copywriting", "creative director",
+    "software engineer", "hardware engineer", "electrical engineer",
+    "mechanical engineer", "optical engineer", "machine learning engineer",
+    "data engineer", "reliability", "manufacturing", "warehouse",
+    "forklift", "maintenance mechanic", "maintenance technician",
+    "production operator", "production machine operator",
+    "recruiter", "recruiting", "talent acquisition", "immigration",
+    "paralegal", "counsel", "attorney", "legal",
+    "accountant", "accounting", "bookkeeper",
+    "executive assistant", "environmental health", "safety specialist",
+    "human factors", "supply chain", "logistics coordinator",
 ]
 
 
@@ -31,8 +46,7 @@ def passes_keyword_filter(title: str, company_key: str) -> bool:
     if any(bad in t for bad in HARD_EXCLUDE):
         return False
 
-    # Coca-Cola gets the widened net: any marketing role OR any sales role
     if company_key == "cocacola":
         return "marketing" in t or "sales" in t
 
-    return any(kw in t for kw in CORE_KEYWORDS)
+    return any(kw in t for kw in POSITIVE_SIGNALS)
