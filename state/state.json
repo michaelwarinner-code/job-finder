@@ -588,7 +588,7 @@
       "name": "Clay",
       "ats": "ashby",
       "board_token": "claylabs",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
@@ -792,7 +792,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
       "first_seen": "2026-08-22T22:52:41.524182+00:00",
-      "fit_reason": "GTM-focused role centered on workflow automation, revenue motion, and sales enablement\u2014aligns with candidate's GTM/revenue operations target; no years requirement stated; candidate's demonstrated automation-building, stakeholder management, and revenue-driving work at Chick-fil-A map directly to the core function."
+      "fit_reason": "GTM-focused role centered on workflow automation, revenue motion, and sales enablement—aligns with candidate's GTM/revenue operations target; no years requirement stated; candidate's demonstrated automation-building, stakeholder management, and revenue-driving work at Chick-fil-A map directly to the core function."
     },
     {
       "id": "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
@@ -812,7 +812,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/08c6786d-0ba5-4799-9259-cfff2d9d0580",
       "first_seen": "2026-08-22T22:52:41.524182+00:00",
-      "fit_reason": "PE partnerships role centers on GTM infrastructure, portfolio activation, and repeatable systems \u2014 aligned with candidate's GTM/growth/revenue ops interests and demonstrated funnel-building, cross-functional coordination, and analytical rigor, despite no explicit PE experience."
+      "fit_reason": "PE partnerships role centers on GTM infrastructure, portfolio activation, and repeatable systems — aligned with candidate's GTM/growth/revenue ops interests and demonstrated funnel-building, cross-functional coordination, and analytical rigor, despite no explicit PE experience."
     },
     {
       "id": "ashby-claylabs-4272b3bc-0ec3-46bf-8339-142889a97367",
@@ -852,7 +852,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/ea299008-9502-4ede-96f3-d5cb94627f51",
       "first_seen": "2026-08-22T22:52:41.524182+00:00",
-      "fit_reason": "Marketing Analyst role is analytically driven, focused on funnel optimization and performance metrics\u2014core strengths demonstrated through Chick-fil-A lifecycle campaigns, conversion analysis, and data-driven testing; no years stated, and candidate's 3+ years of relevant growth/performance work fits the scope."
+      "fit_reason": "Marketing Analyst role is analytically driven, focused on funnel optimization and performance metrics—core strengths demonstrated through Chick-fil-A lifecycle campaigns, conversion analysis, and data-driven testing; no years stated, and candidate's 3+ years of relevant growth/performance work fits the scope."
     },
     {
       "id": "ashby-claylabs-17e101f5-5d06-46d1-861c-a7edb71f650d",
@@ -882,7 +882,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T22:52:41.524182+00:00",
-      "fit_reason": "Growth, Adoption role centered on lifecycle channels, conversion optimization, and product adoption\u2014core target function; no years stated; candidate's email/in-app campaign, funnel-building, and adoption-focused work (catering conversion sequences, app growth campaigns) directly transferable."
+      "fit_reason": "Growth, Adoption role centered on lifecycle channels, conversion optimization, and product adoption—core target function; no years stated; candidate's email/in-app campaign, funnel-building, and adoption-focused work (catering conversion sequences, app growth campaigns) directly transferable."
     }
   ],
   "last_run": "2026-08-22T22:52:41.524182+00:00"
