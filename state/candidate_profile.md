@@ -10,10 +10,17 @@ Core target titles: product marketing, growth marketing, performance marketing, 
 marketing, GTM/go-to-market marketing, revenue operations, demand generation.
 
 Also open to: general "Growth" titles (e.g. "Growth, Adoption", "Growth, Digital", "Growth
-Strategist"), account management, account executive/business development, customer success
-(especially growth/expansion-focused, not pure support), partnerships, and other commercial/
-GTM roles -- as long as the role centers on driving revenue, adoption, conversion, or
-expansion through analytical/testing-based work rather than pure relationship management.
+Strategist"), account management, account executive/business development, sales roles broadly
+(including closing/quota-carrying roles), partnerships, and other commercial/GTM roles -- as
+a deliberate path into tech, with the intent to pivot toward core marketing roles once in.
+
+Customer success and account management titles ARE in scope when the role is framed around
+driving expansion, adoption, retention, or revenue growth within existing accounts -- e.g. a
+"Growth Strategist (Customer Success)" or "Enterprise Success Manager" who owns an expansion
+number and drives product adoption. Do NOT reject these on title alone just because "customer
+success" or "account management" appears in the name. Only exclude customer success/account
+roles that are purely reactive/transactional support (ticket resolution, basic onboarding
+walkthroughs, no ownership of a growth/expansion/revenue number).
 
 ## Explicitly excluded (reject even if otherwise a fit)
 - Event execution / event marketing roles (planning and running in-person events as the core job)
