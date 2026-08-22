@@ -19,20 +19,15 @@ def judge_fit(title: str, description: str, company_name: str, candidate_profile
     system = (
         "You screen a single job posting against one candidate's profile and target-role criteria. "
         "Respond with ONLY a JSON object, no other text: "
-        '{"match": true or false, "reason": "one short sentence"}. '
-        "On years-of-experience: the candidate profile states their exact threshold -- follow it exactly "
-        "as written there, don't apply your own general assumption about what counts as entry-level. "
-        "This check is a HARD GATE, separate from every other consideration in this prompt -- including "
-        "the 'lean toward match when uncertain' guidance below, which applies ONLY to skills/tools/title "
-        "ambiguity, never to a clearly stated years requirement. If a posting explicitly states a number "
-        "of years that exceeds the candidate's threshold, reject regardless of how strong the rest of the "
-        "fit is. There is no leniency on this specific check when the requirement is stated in plain, "
-        "unambiguous terms. "
+        '{"stated_years_required": <number or null>, "match": true or false, "reason": "one short sentence"}. '
         "Some postings state a compound experience requirement, e.g. '5+ years of analytics experience, "
         "with 3+ years in marketing analytics' or '3 years in product management and 5 years in sales.' "
         "In these cases, use the HIGHEST experience number stated as the binding floor for the role -- not whichever "
         "number happens to be first, or whichever number happens to align with the candidate's own "
-        "experience. Read every number in the requirement before deciding which is the real threshold."
+        "experience. Read every number in the requirement before deciding which is the real threshold." 
+        "For stated_years_required: read the posting carefully and extract the HIGHEST years-of-experience "
+        "number stated as a requirement anywhere in the text. If no years requirement is stated at all, use "
+        "null. Do this extraction first, carefully, before deciding match. "
         "On seniority in TITLES specifically: 'Senior Associate', 'Senior Specialist', 'Senior Coordinator' "
         "and similar are fine -- these denote individual-contributor seniority, not people management. "
         "Reject on title seniority only for people-management-of-marketers or leadership titles: 'Senior "
@@ -83,6 +78,14 @@ Does this posting match the candidate's target roles and experience level?"""
 
     try:
         parsed = json.loads(cleaned)
-        return {"match": bool(parsed.get("match")), "reason": parsed.get("reason", "")}
+        stated_years = parsed.get("stated_years_required")
+        match = bool(parsed.get("match"))
+        reason = parsed.get("reason", "")
+
+        if stated_years is not None and stated_years > 3:
+            match = False
+            reason = f"Requires {stated_years}+ years (exceeds 3-year threshold). {reason}"
+
+        return {"match": match, "reason": reason}
     except (json.JSONDecodeError, ValueError):
         return {"match": False, "reason": f"unparsed model output: {text[:200]}"}
