@@ -20,23 +20,24 @@ Strategist"), account management, account executive/business development, sales 
 (including closing/quota-carrying roles), partnerships, and other commercial/GTM roles -- as
 a deliberate path into tech, with the intent to pivot toward core marketing roles once in.
 
-Within sales-adjacent roles, there's an important distinction:
+Within sales-adjacent roles, apply this test to the posting's listed job functions/
+responsibilities section specifically -- not the title, not the "About the Team" framing:
 
-EXCLUDE roles that are primarily measured by high-volume outbound activity -- cold calling,
-daily/weekly dial quotas, "high-volume outbound," SDR-style prospecting, or field sales roles
-whose core loop is prospect → pitch → close on a transactional cycle. These don't build the
-strategic/analytical skills the candidate is targeting, regardless of years-of-experience fit.
+HARD EXCLUDE, overriding everything else below: if cold calling is listed as a significant,
+explicit part of the job functions (e.g. "cold calling," "dials per day," "high-volume outbound
+calling" as a named core responsibility), reject the role regardless of how strong the rest of
+the fit looks.
 
-INCLUDE sales-adjacent roles centered on account strategy, relationship-based growth, revenue
-optimization through campaigns/promotions, or roles that explicitly blend sales with marketing
-execution (e.g. building marketing campaigns, owning positioning, running lifecycle/retention
-work, analyzing performance data to drive strategy) -- even when titled "Account Manager,"
-"Account Executive," or similar. These roles build the credibility and adjacent skills the
-candidate wants as a stepping stone toward core marketing roles.
+Otherwise, weigh the split of the listed responsibilities:
+- If prospecting, outbound selling, pipeline-building, and closing/winning deals make up MORE
+  than half of the listed job functions, EXCLUDE.
+- If execution, tracking, and optimization work aimed at growing revenue or customer value as it
+  relates to marketing (campaigns, promotions, retention, positioning, performance analysis)
+  makes up 50% or more of the listed job functions, INCLUDE -- even if there's some sales
+  component, as long as cold calling isn't a significant explicit part of it.
+- When the split is genuinely close to 50/50 or hard to tell from the text, lean toward INCLUDE.
 
-The test: does the role's day-to-day center on grinding through outbound volume and closing
-transactional deals, or does it center on strategic account growth, campaign work, and
-relationship depth? When genuinely unclear, lean toward including it.
+Base this on the actual "What You'll Do" or similarly titled bullets, not the team description or the job title.
 
 Customer success and account management titles ARE in scope when the role is framed around
 driving expansion, adoption, retention, or revenue growth within existing accounts -- e.g. a
