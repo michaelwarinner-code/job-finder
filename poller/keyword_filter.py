@@ -12,10 +12,11 @@ POSITIVE_SIGNALS = [
     "marketing manager", "marketing associate", "marketing specialist",
     "growth associate", "growth analyst", "marketing analyst",
     "consumer marketing", "customer marketing", "retention marketing",
-    "growth", "marketing", "demand generation", "demand gen",
+    "growth", "marketing", "campaign", "demand generation", "demand gen",
     "revenue", "sales", "business development", "account executive",
     "account manager", "partnerships", "commercial", "customer success",
     "growth strategist", "revenue operations", "revops", "client partner",
+    "campaign operations", "integrated marketing", "lifecycle", "retention marketing"
 ]
 
 # Reject even if a positive signal above also matches -- explicit exclusions
