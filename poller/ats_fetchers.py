@@ -146,9 +146,13 @@ def fetch_workday_job_description(tenant: str, site: str, external_path: str):
     url = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}/job{external_path}"
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     if not r.ok:
+        print(f"    [workday-desc-debug] FAILED status={r.status_code} url={url}")
         return ""
     data = r.json()
-    return (data.get("jobPostingInfo", {}) or {}).get("jobDescription", "") or ""
+    desc = (data.get("jobPostingInfo", {}) or {}).get("jobDescription", "") or ""
+    if not desc:
+        print(f"    [workday-desc-debug] empty description, response keys: {list(data.keys())}")
+    return desc
 
 
 FETCHERS = {
