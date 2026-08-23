@@ -4,7 +4,7 @@
       "name": "DoorDash",
       "ats": "greenhouse",
       "board_token": "doordashusa",
-      "enabled": true,
+      "enabled": false,
       "needs_resync": false,
       "known_job_ids": [
         "gh-doordashusa-3547200",
@@ -785,7 +785,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Enterprise customer success role framed around GTM expansion, adoption, and revenue growth\u2014directly aligned with candidate's target of commercial/growth roles as a tech entry path; no years requirement stated; candidate's 3+ years of lifecycle marketing, win-back campaigns, adoption-driven event design, and cross-functional GTM work at Chick-fil-A maps clearly to the strategic partnership and expansion mandate."
+      "fit_reason": "Enterprise customer success role framed around GTM expansion, adoption, and revenue growth—directly aligned with candidate's target of commercial/growth roles as a tech entry path; no years requirement stated; candidate's 3+ years of lifecycle marketing, win-back campaigns, adoption-driven event design, and cross-functional GTM work at Chick-fil-A maps clearly to the strategic partnership and expansion mandate."
     },
     {
       "id": "ashby-claylabs-4272b3bc-0ec3-46bf-8339-142889a97367",
@@ -795,7 +795,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/4272b3bc-0ec3-46bf-8339-142889a97367",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, ABM is a core GTM/growth role; candidate has 3.5 years of demonstrated account/channel strategy, campaign design, funnel building, and revenue ownership\u2014no years requirement stated in posting."
+      "fit_reason": "Growth, ABM is a core GTM/growth role; candidate has 3.5 years of demonstrated account/channel strategy, campaign design, funnel building, and revenue ownership—no years requirement stated in posting."
     },
     {
       "id": "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
@@ -815,7 +815,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, Digital role matches core target titles; candidate has demonstrated paid social (Meta Ads), campaign measurement, pipeline thinking, and 0\u21921 channel-building work at Chick-fil-A, with no stated years requirement to block match."
+      "fit_reason": "Growth, Digital role matches core target titles; candidate has demonstrated paid social (Meta Ads), campaign measurement, pipeline thinking, and 0→1 channel-building work at Chick-fil-A, with no stated years requirement to block match."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -825,7 +825,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, Adoption role aligns with target titles; candidate demonstrates lifecycle/email campaign ownership, conversion testing, cross-functional collaboration, and 0\u21921 systems building\u2014no experience floor stated in posting."
+      "fit_reason": "Growth, Adoption role aligns with target titles; candidate demonstrates lifecycle/email campaign ownership, conversion testing, cross-functional collaboration, and 0→1 systems building—no experience floor stated in posting."
     },
     {
       "id": "gh-doordashusa-7852785",
@@ -845,7 +845,7 @@
       "location": "New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Atlanta, GA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8077011",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "Account Manager role centered on partnership strategy, marketing calendar building, campaign creation, and cross-functional ops\u2014fits GTM/revenue-operations trajectory; candidate meets 3-year floor with ~3.5 years of substantive growth/strategy work; analytics/AI fluency and account management experience directly transferable."
+      "fit_reason": "Account Manager role centered on partnership strategy, marketing calendar building, campaign creation, and cross-functional ops—fits GTM/revenue-operations trajectory; candidate meets 3-year floor with ~3.5 years of substantive growth/strategy work; analytics/AI fluency and account management experience directly transferable."
     },
     {
       "id": "gh-doordashusa-7918661",
@@ -875,7 +875,7 @@
       "location": "Chicago, IL; Detroit, MI; New York, NY; Philadelphia, PA; Washington, DC",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7958917",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "Account management role focused on revenue growth, data-driven strategy, and cross-functional work with merchant partners\u2014directly aligned with candidate's demonstrated growth/GTM work at Chick-fil-A (account relationship building, data analysis, campaign optimization); 3-5+ years stated, candidate meets the floor of 3 years; restaurant/hospitality operator background is a strong fit."
+      "fit_reason": "Account management role focused on revenue growth, data-driven strategy, and cross-functional work with merchant partners—directly aligned with candidate's demonstrated growth/GTM work at Chick-fil-A (account relationship building, data analysis, campaign optimization); 3-5+ years stated, candidate meets the floor of 3 years; restaurant/hospitality operator background is a strong fit."
     },
     {
       "id": "gh-doordashusa-7985771",
@@ -905,7 +905,7 @@
       "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington D.C.",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8082760",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "Associate Manager, Integrated Marketing role centered on lifecycle/retention marketing, GTM planning, experimentation, and cross-functional collaboration\u2014core target fit; candidate has 3+ years of demonstrated growth/retention/campaign work; 3\u20135 year range floors at 3, which candidate meets."
+      "fit_reason": "Associate Manager, Integrated Marketing role centered on lifecycle/retention marketing, GTM planning, experimentation, and cross-functional collaboration—core target fit; candidate has 3+ years of demonstrated growth/retention/campaign work; 3–5 year range floors at 3, which candidate meets."
     },
     {
       "id": "gh-doordashusa-8079346",
@@ -915,7 +915,7 @@
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8079346",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "Merchant Success & Growth strategy role with 3\u20136 years required (candidate meets the 3-year floor); owns KPIs, builds operational mechanisms, and drives partner adoption/performance\u2014directly aligned with candidate's demonstrated GTM/revenue operations/account management experience at Chick-fil-A (partner/merchant growth, funnel building, retention campaigns, cross-functional strategy) and early-stage operational structure-building."
+      "fit_reason": "Merchant Success & Growth strategy role with 3–6 years required (candidate meets the 3-year floor); owns KPIs, builds operational mechanisms, and drives partner adoption/performance—directly aligned with candidate's demonstrated GTM/revenue operations/account management experience at Chick-fil-A (partner/merchant growth, funnel building, retention campaigns, cross-functional strategy) and early-stage operational structure-building."
     },
     {
       "id": "gh-doordashusa-7984827",
@@ -935,7 +935,7 @@
       "location": "Los Angeles, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7984775",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "CSM role framed around adoption, retention, expansion, and data-driven customer growth\u2014directly aligned with candidate's lifecycle/GTM target; 3+ years requirement met by candidate's 3.5 years at Chick-fil-A (account/catering growth, retention campaigns, funnel optimization); transferable skills in relationship-building, retention strategy, and data-driven execution are demonstrably present."
+      "fit_reason": "CSM role framed around adoption, retention, expansion, and data-driven customer growth—directly aligned with candidate's lifecycle/GTM target; 3+ years requirement met by candidate's 3.5 years at Chick-fil-A (account/catering growth, retention campaigns, funnel optimization); transferable skills in relationship-building, retention strategy, and data-driven execution are demonstrably present."
     },
     {
       "id": "gh-doordashusa-8148519",
@@ -965,7 +965,7 @@
       "location": "New York, NY; San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8026972",
       "first_seen": "2026-08-23T22:46:05.819896+00:00",
-      "fit_reason": "Senior Associate title is individual-contributor seniority; candidate meets the 3-year floor with 3.25 years relevant experience; role is growth/marketplace strategy with analytics and operations focus\u2014directly aligned with candidate's target GTM/growth/revenue operations objectives and demonstrated skills in data-driven growth, cross-functional execution, and problem-solving."
+      "fit_reason": "Senior Associate title is individual-contributor seniority; candidate meets the 3-year floor with 3.25 years relevant experience; role is growth/marketplace strategy with analytics and operations focus—directly aligned with candidate's target GTM/growth/revenue operations objectives and demonstrated skills in data-driven growth, cross-functional execution, and problem-solving."
     },
     {
       "id": "gh-doordashusa-8120833",
