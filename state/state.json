@@ -4,8 +4,8 @@
       "name": "DoorDash",
       "ats": "greenhouse",
       "board_token": "doordashusa",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "gh-doordashusa-3547200",
         "gh-doordashusa-3547221",
