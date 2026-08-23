@@ -740,6 +740,7 @@
         "wd-coke-Director-Finance--Germany_R-145211",
         "wd-coke-General-Laborer----19-HR--1st-shift-_R-145413",
         "wd-coke-Key-Account-Manager_R-140528",
+        "wd-coke-Machine-Learning-Architect-1_R-144414",
         "wd-coke-Maintenance-Mechanic---Weekends-Sat-Mon--3666-HR--Plus--4-shift-premium-6am-6pm_R-139605",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d---Days_R-137362",
         "wd-coke-Maintenance-Technician--2p-10-30p-_R-145242",
@@ -755,6 +756,8 @@
         "wd-coke-Senior-Director--Franchise-Operations_R-145316",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
+        "wd-coke-Senior-Machine-Learning-Architect_R-144416",
+        "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Manager--Brand-Management_R-141211",
         "wd-coke-Senior-Manager--Sourcing_R-145165",
         "wd-coke-Senior-Manager--Technical-Consumer-Data-Research--Nutrition-_R-144996",
@@ -1065,5 +1068,5 @@
       "fit_reason": "Sr. Associate GTM/RevOps role requiring 2+ years fits candidate's 3.5 years of growth/operations work; strong analytical mindset, AI-tool familiarity, and revenue-focused campaign/funnel-building experience align well despite SQL production gap being learnable."
     }
   ],
-  "last_run": "2026-08-23T11:52:41.787119+00:00"
+  "last_run": "2026-08-23T12:51:12.396818+00:00"
 }
