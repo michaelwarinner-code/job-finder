@@ -9,10 +9,34 @@ measurable revenue, adoption, or growth outcomes.
 Core target titles: product marketing, growth marketing, performance marketing, lifecycle
 marketing, GTM/go-to-market marketing, revenue operations, demand generation.
 
+"Revenue operations" as a target title explicitly includes Sales Planning, Sales Strategy, and
+Sales Operations roles that are analytically/strategically focused (forecasting, quota design,
+data-driven sales performance optimization) -- these should be evaluated as in-scope even though
+the candidate hasn't held a "Sales Ops" title before, the same way a single unfamiliar tool
+shouldn't disqualify an otherwise-fitting role.
+
 Also open to: general "Growth" titles (e.g. "Growth, Adoption", "Growth, Digital", "Growth
 Strategist"), account management, account executive/business development, sales roles broadly
 (including closing/quota-carrying roles), partnerships, and other commercial/GTM roles -- as
 a deliberate path into tech, with the intent to pivot toward core marketing roles once in.
+
+Within sales-adjacent roles, there's an important distinction:
+
+EXCLUDE roles that are primarily measured by high-volume outbound activity -- cold calling,
+daily/weekly dial quotas, "high-volume outbound," SDR-style prospecting, or field sales roles
+whose core loop is prospect → pitch → close on a transactional cycle. These don't build the
+strategic/analytical skills the candidate is targeting, regardless of years-of-experience fit.
+
+INCLUDE sales-adjacent roles centered on account strategy, relationship-based growth, revenue
+optimization through campaigns/promotions, or roles that explicitly blend sales with marketing
+execution (e.g. building marketing campaigns, owning positioning, running lifecycle/retention
+work, analyzing performance data to drive strategy) -- even when titled "Account Manager,"
+"Account Executive," or similar. These roles build the credibility and adjacent skills the
+candidate wants as a stepping stone toward core marketing roles.
+
+The test: does the role's day-to-day center on grinding through outbound volume and closing
+transactional deals, or does it center on strategic account growth, campaign work, and
+relationship depth? When genuinely unclear, lean toward including it.
 
 Customer success and account management titles ARE in scope when the role is framed around
 driving expansion, adoption, retention, or revenue growth within existing accounts -- e.g. a
@@ -41,6 +65,12 @@ long as the core function and experience level fit:
   fewer are in scope.
 - When genuinely uncertain, lean toward MATCH. A false positive costs a few seconds of
   skimming; a false negative means missing a real opportunity.
+This same stretch logic applies to functional/domain background, not just tools: not having held
+the exact job function or team type before (e.g. never worked specifically in "Sales Operations,"
+never worked at a "high-growth SaaS company") should NOT cause a rejection on its own, as long as
+the underlying transferable skills (analytical thinking, strategy design, data-driven
+decision-making, cross-functional execution) are demonstrated elsewhere in the candidate's
+background. Judge the transferable skill, not the literal job-title history.
 
 ## Experience level
 Early-career. Total relevant experience is roughly 3 years combined (two ~2.5-month marketing internships plus
