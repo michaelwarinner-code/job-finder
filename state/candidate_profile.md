@@ -45,7 +45,11 @@ driving expansion, adoption, retention, or revenue growth within existing accoun
 number and drives product adoption. Do NOT reject these on title alone just because "customer
 success" or "account management" appears in the name. Only exclude customer success/account
 roles that are purely reactive/transactional support (ticket resolution, basic onboarding
-walkthroughs, no ownership of a growth/expansion/revenue number).
+walkthroughs, no ownership of a growth/expansion/revenue number). This explicitly includes
+"Merchant Success Manager" / "Customer Success Manager" style titles when the description
+mentions growth strategy, expansion, or revenue outcomes with existing accounts -- these are
+common industry title conventions for exactly this kind of role, not an indication of seniority
+or pure support.
 
 ## Explicitly excluded (reject even if otherwise a fit)
 - Event execution / event marketing roles (planning and running in-person events as the core job)
