@@ -44,6 +44,7 @@ NON_US_SIGNALS = [
     "sweden", "stockholm", "switzerland", "zurich", "belgium", "brussels",
     "israel", "tel aviv", "south korea", "seoul", "taiwan", "hong kong",
     "eu -", "emea", "apac", "latam", "uae", "united arab emirates", "dubai", "abu dhabi",
+    "jakarta", "São Paulo",
 ]
 
 
