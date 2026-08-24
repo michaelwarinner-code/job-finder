@@ -18,7 +18,17 @@ US_STATES = [
     "tennessee", "texas", "utah", "vermont", "virginia", "washington",
     "west virginia", "wisconsin", "wyoming", "district of columbia",
 ]
-US_SIGNALS = US_STATES + [
+
+US_CITIES = [
+    "san francisco", "new york", "los angeles", "chicago", "boston",
+    "seattle", "austin", "denver", "atlanta", "miami", "washington dc",
+    "washington, dc", "san diego", "houston", "dallas", "philadelphia",
+    "phoenix", "portland", "nashville", "san jose", "oakland", "brooklyn",
+    "manhattan", "minneapolis", "detroit", "charlotte", "raleigh",
+    "pittsburgh", "columbus", "salt lake city", "sacramento", "santa monica",
+]
+
+US_SIGNALS = US_STATES + US_CITIES + [
     "united states", "usa", "u.s.", "u.s.a", "remote - us", "remote, us",
     "remote (us)", "remote-usa",
 ]
