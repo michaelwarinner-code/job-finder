@@ -108,7 +108,7 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
     after the locale segment (e.g. 'snap' in snapchat.wd1.myworkdayjobs.com/en-US/snap/...).
     NOTE: verify tenant + site during setup -- see README."""
     base = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
-        out = []
+    out = []
     offset = 0
     limit = 20
     while True:
