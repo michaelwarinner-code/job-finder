@@ -108,7 +108,7 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
     after the locale segment (e.g. 'snap' in snapchat.wd1.myworkdayjobs.com/en-US/snap/...).
     NOTE: verify tenant + site during setup -- see README."""
     base = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
-    out = []
+        out = []
     offset = 0
     limit = 20
     while True:
@@ -130,16 +130,15 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
                 "title": job.get("title", ""),
                 "location": job.get("locationsText", "") or job.get("bulletFields", [""])[0],
                 "url": f"https://{tenant}.wd1.myworkdayjobs.com/{locale}/{site}{path}",
-                "description": "",  # requires a second call per-job; filled in lazily by caller if needed
+                "description": "",
                 "posted": job.get("postedOn"),
                 "_workday_path": path,
             })
-        print(f"    [workday-debug] site={site} offset={offset} got={len(postings)} api_reported_total={data.get('total')}")
         total = data.get("total", 0)
+        print(f"    [workday-debug] site={site} offset={offset} got={len(postings)} api_reported_total={total}")
         offset += limit
-        if offset >= total:
+        if total and offset >= total:
             break
-    return out
 
 
 def fetch_workday_job_description(tenant: str, site: str, external_path: str):
