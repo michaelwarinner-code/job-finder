@@ -147,17 +147,23 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
 
 
 def fetch_workday_job_description(tenant: str, site: str, external_path: str):
-    """Second call needed to get full description text for a single Workday posting."""
-    url = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}{external_path}"
+    """Second call needed to get full description text AND the real location
+    list for a single Workday posting (the list view's location can be a vague
+    'Multiple Locations' summary; this returns the actual eligible locations)."""
+    url = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}/job{external_path}"
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     if not r.ok:
         print(f"    [workday-desc-debug] FAILED status={r.status_code} url={url}")
-        return ""
+        return "", ""
     data = r.json()
-    desc = (data.get("jobPostingInfo", {}) or {}).get("jobDescription", "") or ""
+    info = data.get("jobPostingInfo", {}) or {}
+    desc = info.get("jobDescription", "") or ""
+    primary_loc = info.get("location", "") or ""
+    additional = info.get("additionalLocations", []) or []
+    full_location = ", ".join([primary_loc] + additional) if primary_loc or additional else ""
     if not desc:
         print(f"    [workday-desc-debug] empty description, response keys: {list(data.keys())}")
-    return desc
+    return desc, full_location
 
 
 FETCHERS = {
