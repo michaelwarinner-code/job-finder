@@ -37,12 +37,31 @@ def fetch_lever(board_token: str):
     out = []
     for job in data:
         cat = job.get("categories", {}) or {}
+
+        # Description: Lever splits the intro (descriptionPlain) from the
+        # actual requirements/responsibilities, which live in a separate
+        # `lists` array as {text, content} pairs -- content is raw HTML.
+        parts = [job.get("descriptionPlain", "") or job.get("description", "") or ""]
+        for section in job.get("lists", []) or []:
+            header = section.get("text", "")
+            content = re.sub(r"<[^>]+>", " ", section.get("content", "") or "")
+            if header or content:
+                parts.append(f"{header}\n{content}")
+        full_description = "\n\n".join(p for p in parts if p)
+
+        # Location: combine primary + allLocations so multi-location
+        # postings (e.g. "New York, NY, Stockholm") get evaluated fully.
+        primary_loc = cat.get("location", "") or ""
+        all_locs = cat.get("allLocations", []) or []
+        location_blob = ", ".join(dict.fromkeys([primary_loc] + all_locs)) if (primary_loc or all_locs) else ""
+
         out.append({
             "job_id": f"lever-{board_token}-{job['id']}",
             "title": job.get("text", ""),
-            "location": cat.get("location", ""),
+            "location": primary_loc,
+            "location_blob": location_blob,
             "url": job.get("hostedUrl", ""),
-            "description": job.get("descriptionPlain", "") or job.get("description", "") or "",
+            "description": full_description,
             "posted": job.get("createdAt"),
         })
     return out
