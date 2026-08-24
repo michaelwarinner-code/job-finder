@@ -476,7 +476,7 @@
     "hubspot": {
       "name": "HubSpot",
       "ats": "greenhouse",
-      "board_token": "hubspot",
+      "board_token": "hubspotjobs",
       "enabled": true,
       "needs_resync": false,
       "known_job_ids": []
