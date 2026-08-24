@@ -716,7 +716,7 @@
       "ats": "workday",
       "workday_tenant": "coke",
       "workday_site": "coca-cola-careers",
-      "enabled": false,
+      "enabled": true,
       "needs_resync": true,
       "known_job_ids": [
         "wd-coke-Brand-Manager--Signature-Sodas_R-142131",
