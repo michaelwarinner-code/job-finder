@@ -1003,6 +1003,7 @@
       "enabled": true,
       "needs_resync": false,
       "known_job_ids": [
+        "wd-coke-",
         "wd-coke-Advisor--Employee-Care_R-144690",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
         "wd-coke-Area-Owner_R-138105",
@@ -1539,5 +1540,5 @@
       "fit_reason": "Marketing Technology Manager is a growth/marketing operations role centered on tool selection, automation, and campaign optimization\u2014core candidate strengths; 3+ years requirement matches candidate's ~3.5 years in increasingly senior growth/operations work; hands-on Meta Ads and AI workflow experience demonstrated; fast-growth tech environment fits intent to pivot into tech marketing."
     }
   ],
-  "last_run": "2026-08-24T04:56:26.554216+00:00"
+  "last_run": "2026-08-24T05:45:30.590611+00:00"
 }
