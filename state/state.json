@@ -1247,8 +1247,66 @@
         "wd-coke-Warehouse-Automation-Manager_R-142742",
         "wd-coke-Warehouse-Technician_R-144973"
       ]
+    },
+
+    "perplexity": {
+      "name": "Perplexity",
+      "ats": "ashby",
+      "board_token": "perplexity",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "gamma": {
+      "name": "Gamma",
+      "ats": "ashby",
+      "board_token": "gamma",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "cursor": {
+      "name": "Cursor",
+      "ats": "ashby",
+      "board_token": "cursor",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "runway": {
+      "name": "Runway",
+      "ats": "ashby",
+      "board_token": "runway-ml",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "elevenlabs": {
+      "name": "ElevenLabs",
+      "ats": "ashby",
+      "board_token": "elevenlabs",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "boostly": {
+      "name": "Boostly",
+      "ats": "ashby",
+      "board_token": "boostly",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
+    },
+    "spothopper": {
+      "name": "SpotHopper",
+      "ats": "greenhouse",
+      "board_token": "spothopper",
+      "enabled": true,
+      "needs_resync": true,
+      "known_job_ids": []
     }
   },
+  
   "applied_ids": [
     "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1"
   ],
