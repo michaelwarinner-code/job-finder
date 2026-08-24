@@ -6,6 +6,7 @@
       "board_token": "doordashusa",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "gh-doordashusa-3547200",
         "gh-doordashusa-3547221",
@@ -485,6 +486,7 @@
       "board_token": "hubspotjobs",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": false,
       "known_job_ids": [
         "gh-hubspotjobs-5094673",
         "gh-hubspotjobs-5097150",
@@ -652,6 +654,7 @@
       "board_token": "spotify",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": false,
       "known_job_ids": [
         "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b",
         "lever-spotify-07641cac-402a-44fd-ba42-9cb75473fc0a",
@@ -756,6 +759,7 @@
       "board_token": "claylabs",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
         "ashby-claylabs-046cb127-d5fc-444f-a2a9-fb4029d6a503",
@@ -834,6 +838,7 @@
       "workday_site": "snap",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "wd-snapchat-AR-Engineer_R0046361",
         "wd-snapchat-ASIC-Verification-Engineer_R0045544",
@@ -1023,6 +1028,7 @@
       "workday_site": "coca-cola-careers",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "wd-coke-",
         "wd-coke-Advisor--Employee-Care_R-144690",
@@ -1264,6 +1270,7 @@
       "board_token": "perplexity",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-perplexity-0190699f-010b-44f2-8399-278899fef018",
         "ashby-perplexity-03f8f956-1cb3-4945-81d1-73b7ff048d4e",
@@ -1373,6 +1380,7 @@
       "board_token": "gamma",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-gamma-171f040a-dec1-4129-b0a0-e0e96be8a703",
         "ashby-gamma-1d76bf68-c948-4594-a6f5-b836eaf33c4b",
@@ -1415,6 +1423,7 @@
       "board_token": "cursor",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-cursor-00e98809-a4ec-4f32-91db-0e63ef5778b0",
         "ashby-cursor-010063bd-6083-4fc0-a455-e6f0193b5347",
@@ -1538,6 +1547,7 @@
       "board_token": "runway-ml",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-runway-ml-07c09e07-3dcd-44c3-a59e-86603d9d007d",
         "ashby-runway-ml-09442bd6-8749-45a0-bac3-cb4de65bc6f2",
@@ -1590,6 +1600,7 @@
       "board_token": "elevenlabs",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-elevenlabs-03b07a06-ad0e-4ef6-a516-7d14cc13adf3",
         "ashby-elevenlabs-03cefd49-972f-45b2-b6c7-9a42d133af0c",
@@ -1850,6 +1861,7 @@
       "board_token": "boostly",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": true,
       "known_job_ids": [
         "ashby-boostly-3984ce9f-a067-4ed4-bab6-18611e0fc185",
         "ashby-boostly-ed49ed81-b755-4383-b4ab-5306aa92a26f"
@@ -1861,6 +1873,7 @@
       "board_token": "spothopper",
       "enabled": true,
       "needs_resync": false,
+      "is_priority": false,
       "known_job_ids": [
         "gh-spothopper-4005023009",
         "gh-spothopper-4006465009",
