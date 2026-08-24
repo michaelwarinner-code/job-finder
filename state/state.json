@@ -716,8 +716,8 @@
       "ats": "workday",
       "workday_tenant": "coke",
       "workday_site": "coca-cola-careers",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "wd-coke-Advisor--Employee-Care_R-144690",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
