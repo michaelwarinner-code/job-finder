@@ -162,7 +162,8 @@ def main():
                 if not is_resync:
                     try:
                         send_telegram_alert(
-                            cfg["name"], title, job.get("location", ""), job.get("url", ""), verdict["reason"]
+                            cfg["name"], title, job.get("location", ""), job.get("url", ""), verdict["reason"],
+                            cfg.get("is_priority", True)
                         )
                     except Exception as e:
                         print(f"[{key}] Telegram send failed: {e}")
