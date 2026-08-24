@@ -1588,8 +1588,8 @@
       "name": "ElevenLabs",
       "ats": "ashby",
       "board_token": "elevenlabs",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "ashby-elevenlabs-03b07a06-ad0e-4ef6-a516-7d14cc13adf3",
         "ashby-elevenlabs-03cefd49-972f-45b2-b6c7-9a42d133af0c",
