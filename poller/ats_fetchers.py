@@ -134,6 +134,7 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
                 "posted": job.get("postedOn"),
                 "_workday_path": path,
             })
+        print(f"    [workday-debug] site={site} offset={offset} got={len(postings)} api_reported_total={data.get('total')}")
         total = data.get("total", 0)
         offset += limit
         if offset >= total:
