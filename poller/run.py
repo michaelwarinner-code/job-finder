@@ -115,36 +115,25 @@ def main():
                 known_ids.add(job["job_id"])
                 continue
 
+            description = job.get("description", "")
             loc_string = job.get("location_blob", job.get("location", ""))
 
-            if is_ambiguous_location(loc_string):
-                if cfg["ats"] == "workday" and job.get("_workday_path"):
-                    try:
-                        desc, full_location = fetch_workday_job_description(
-                            cfg["workday_tenant"], cfg["workday_site"], job["_workday_path"]
-                        )
-                        job["description"] = desc
-                        if full_location:
-                            loc_string = full_location
-                    except Exception as e:
-                        print(f"[{key}] location-resolve fetch failed: {e}")
-                if not is_us_location(loc_string):
-                    print(f"[{key}] LOCATION-REJECT (resolved): '{title}' | resolved={loc_string!r}")
-                    known_ids.add(job["job_id"])
-                    continue
-            elif not is_us_location(loc_string):
-                print(f"[{key}] LOCATION-REJECT: '{title}' | location={job.get('location', '')!r}")
-                known_ids.add(job["job_id"])
-                continue
-
-            description = job.get("description", "")
-            if cfg["ats"] == "workday" and not description and job.get("_workday_path"):
+            if cfg["ats"] == "workday" and job.get("_workday_path"):
                 try:
-                    description, _ = fetch_workday_job_description(
+                    fetched_desc, full_location = fetch_workday_job_description(
                         cfg["workday_tenant"], cfg["workday_site"], job["_workday_path"]
                     )
+                    if fetched_desc:
+                        description = fetched_desc
+                    if full_location:
+                        loc_string = full_location
                 except Exception as e:
-                    print(f"[{key}] workday description fetch failed for {job['job_id']}: {e}")
+                    print(f"[{key}] workday detail fetch failed for {job['job_id']}: {e}")
+
+            if not is_us_location(loc_string):
+                print(f"[{key}] LOCATION-REJECT: '{title}' | location={loc_string!r}")
+                known_ids.add(job["job_id"])
+                continue
 
             try:
                 verdict = judge_fit(title, description, cfg["name"], profile)
