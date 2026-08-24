@@ -120,8 +120,12 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
         r.raise_for_status()
         data = r.json()
         postings = data.get("jobPostings", [])
+        total = data.get("total", 0)
+        print(f"    [workday-debug] site={site} offset={offset} got={len(postings)} api_reported_total={total}")
+
         if not postings:
             break
+
         for job in postings:
             path = job.get("externalPath", "")
             job_id = path.rsplit("/", 1)[-1] if path else job.get("title", "")
@@ -130,15 +134,16 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
                 "title": job.get("title", ""),
                 "location": job.get("locationsText", "") or job.get("bulletFields", [""])[0],
                 "url": f"https://{tenant}.wd1.myworkdayjobs.com/{locale}/{site}{path}",
-                "description": "",
+                "description": "",  # requires a second call per-job; filled in lazily by caller if needed
                 "posted": job.get("postedOn"),
                 "_workday_path": path,
             })
-        total = data.get("total", 0)
-        print(f"    [workday-debug] site={site} offset={offset} got={len(postings)} api_reported_total={total}")
+
         offset += limit
-        if total and offset >= total:
-            break
+        if len(postings) < limit:
+            break  # partial page = last page, regardless of what `total` says
+
+    return out
 
 
 def fetch_workday_job_description(tenant: str, site: str, external_path: str):
