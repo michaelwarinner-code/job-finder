@@ -37,7 +37,7 @@ HARD_EXCLUDE = [
     "paralegal", "counsel", "attorney", "legal",
     "accountant", "accounting", "bookkeeper",
     "executive assistant", "environmental health", "safety specialist",
-    "human factors", "supply chain", "logistics coordinator",
+    "human factors", "supply chain", "logistics coordinator", "chief"
 ]
 
 
