@@ -50,3 +50,14 @@ def is_us_location(location: str) -> bool:
     # INCLUDE. Better to send one extra posting to Claude than silently
     # drop a real US match because a location string was unusual.
     return True
+
+def is_ambiguous_location(location: str) -> bool:
+    """Flags cases worth digging deeper into before trusting the default-include
+    behavior -- specifically blank locations and Workday's generic
+    'Multiple Locations' summary string, which hides the real location list."""
+    loc = (location or "").lower().strip()
+    if not loc:
+        return True
+    if "multiple location" in loc:
+        return True
+    return False
