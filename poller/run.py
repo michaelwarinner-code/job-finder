@@ -1,4 +1,4 @@
-from location_filter import is_us_location
+from location_filter import is_us_location, is_ambiguous_location
 
 """
 Main entrypoint, run by GitHub Actions on a schedule (and on-demand via
@@ -115,7 +115,24 @@ def main():
                 known_ids.add(job["job_id"])
                 continue
 
-            if not is_us_location(job.get("location_blob", job.get("location", ""))):
+                        loc_string = job.get("location_blob", job.get("location", ""))
+
+            if is_ambiguous_location(loc_string):
+                if cfg["ats"] == "workday" and job.get("_workday_path"):
+                    try:
+                        desc, full_location = fetch_workday_job_description(
+                            cfg["workday_tenant"], cfg["workday_site"], job["_workday_path"]
+                        )
+                        job["description"] = desc
+                        if full_location:
+                            loc_string = full_location
+                    except Exception as e:
+                        print(f"[{key}] location-resolve fetch failed: {e}")
+                if not is_us_location(loc_string):
+                    print(f"[{key}] LOCATION-REJECT (resolved): '{title}' | resolved={loc_string!r}")
+                    known_ids.add(job["job_id"])
+                    continue
+            elif not is_us_location(loc_string):
                 print(f"[{key}] LOCATION-REJECT: '{title}' | location={job.get('location', '')!r}")
                 known_ids.add(job["job_id"])
                 continue
@@ -123,7 +140,7 @@ def main():
             description = job.get("description", "")
             if cfg["ats"] == "workday" and not description and job.get("_workday_path"):
                 try:
-                    description = fetch_workday_job_description(
+                    description, _ = fetch_workday_job_description(
                         cfg["workday_tenant"], cfg["workday_site"], job["_workday_path"]
                     )
                 except Exception as e:
