@@ -47,6 +47,10 @@ export default {
       return handleToggle(request, env);
     }
 
+    if (url.pathname === "/api/mark-applied" && request.method === "POST") {
+      return handleMarkApplied(request, env);
+    }
+
     if (url.pathname === "/" || url.pathname === "") {
       return htmlResponse(dashboardPage());
     }
@@ -160,6 +164,33 @@ async function handleToggle(request, env) {
   }
 }
 
+async function toggleApplied(jobId, applied) {
+  await fetch('/api/mark-applied', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({job_id: jobId, applied})
+  });
+  await load();
+}
+
+async function handleMarkApplied(request, env) {
+  const { job_id, applied } = await request.json();
+  try {
+    const { json, sha } = await getStateFile(env);
+    const current = new Set(json.applied_ids || []);
+    if (applied) {
+      current.add(job_id);
+    } else {
+      current.delete(job_id);
+    }
+    json.applied_ids = Array.from(current);
+    await putStateFile(env, json, sha, `Mark applied: ${job_id} -> ${applied}`);
+    return jsonResponse({ ok: true });
+  } catch (e) {
+    return jsonResponse({ error: String(e) }, 500);
+  }
+}
+
 // ---------- Responses ----------
 
 function htmlResponse(html) {
@@ -215,6 +246,12 @@ function dashboardPage() {
   .role-title{font-weight:700;font-size:.95rem}
   .role-meta{color:var(--muted);font-size:.8rem;margin-top:.25rem}
   .role-reason{color:var(--muted);font-size:.78rem;margin-top:.4rem;font-style:italic}
+  .role.applied{opacity:.45;border-color:#3d5a3d}
+  .applied-tag{display:inline-block;background:#2d4a2d;color:#8fd98f;font-size:.7rem;
+               font-weight:700;padding:.15rem .5rem;border-radius:999px;margin-left:.5rem}
+  .apply-btn{background:none;border:1px solid var(--border);color:var(--muted);border-radius:8px;
+             padding:.3rem .7rem;font-size:.75rem;cursor:pointer;margin-top:.5rem}
+  .apply-btn:hover{border-color:var(--accent);color:var(--text)}
   .company-row{display:flex;align-items:center;justify-content:space-between;background:var(--card);
                border:1px solid var(--border);border-radius:12px;padding:.9rem 1rem;margin-bottom:.5rem}
   .switch{position:relative;width:46px;height:26px}
@@ -263,13 +300,21 @@ function renderRoles() {
   container.innerHTML = companyNames.map(name => \`
     <div class="company-group">
       <div class="company-name">\${name}</div>
-      \${byCompany[name].map(m => \`
-        <a class="role" href="\${m.url}" target="_blank">
-          <div class="role-title">\${m.title}</div>
-          <div class="role-meta">\${m.location || ''}</div>
-          <div class="role-reason">\${m.fit_reason || ''}</div>
-        </a>
-      \`).join('')}
+      \${byCompany[name].map(m => {
+        const isApplied = (state.applied_ids || []).includes(m.id);
+        return \`
+        <div class="role \${isApplied ? 'applied' : ''}">
+          <a href="\${m.url}" target="_blank" style="text-decoration:none;color:inherit;display:block">
+            <div class="role-title">\${m.title} \${isApplied ? '<span class="applied-tag">Applied</span>' : ''}</div>
+            <div class="role-meta">\${m.location || ''}</div>
+            <div class="role-reason">\${m.fit_reason || ''}</div>
+          </a>
+          <button class="apply-btn" onclick="toggleApplied('\${m.id}', \${!isApplied})">
+            \${isApplied ? 'Undo' : 'Mark Applied'}
+          </button>
+        </div>
+      \`;
+      }).join('')}
     </div>
   \`).join('');
 }
