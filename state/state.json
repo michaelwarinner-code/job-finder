@@ -666,7 +666,7 @@
       "ats": "workday",
       "workday_tenant": "snapchat",
       "workday_site": "snap",
-      "enabled": false,
+      "enabled": true,
       "needs_resync": true,
       "known_job_ids": [
         "wd-snapchat-AR-Engineer_R0046361",
