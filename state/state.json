@@ -667,48 +667,183 @@
       "workday_tenant": "snapchat",
       "workday_site": "snap",
       "enabled": true,
-      "needs_resync": true,
+      "needs_resync": false,
       "known_job_ids": [
+        "wd-snapchat-AR-Engineer_R0046361",
+        "wd-snapchat-ASIC-Verification-Engineer_R0045544",
         "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
+        "wd-snapchat-Account-Manager_Q326AM3-1",
         "wd-snapchat-Account-Manager_R0046211",
         "wd-snapchat-Account-Manager_R0046484-1",
+        "wd-snapchat-Accounts-Receivable-Analyst_R0045979-1",
+        "wd-snapchat-Agency-Partner_R0045546-2",
         "wd-snapchat-Client-Partner--Gaming---Apps_R0046067-1",
+        "wd-snapchat-Client-Partner--SMC_H226SMCP5-1",
+        "wd-snapchat-Client-Partner_Q326CP5-1",
+        "wd-snapchat-Client-Partner_R0045517",
+        "wd-snapchat-Client-Partner_R0046396-1",
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
+        "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
+        "wd-snapchat-Design-Engineer--Core-Snapchat_R0046158-1",
+        "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
+        "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
+        "wd-snapchat-Director-of-Retail--Specs_R0046194-1",
+        "wd-snapchat-Electrical-Engineer--Level-4_H126SWEE3-2",
+        "wd-snapchat-Electrical-Engineer--Spectacles--L5_R0043250",
+        "wd-snapchat-Electrical-Signal-Integrity-Engineer_R0044223-1",
+        "wd-snapchat-Embedded-Software-Firmware-Test-Engineer_R0046086-1",
+        "wd-snapchat-Employee-Relations-Business-Partner_R0044682-1",
+        "wd-snapchat-Enterprise-Partner-Development-Manager_R0045910-1",
+        "wd-snapchat-Equipement-Engineer_R0045386-1",
         "wd-snapchat-Executive-Protection-Specialist_R0044952-1",
         "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
+        "wd-snapchat-Global-Industry-Lead--Healthcare_R0045908-1",
+        "wd-snapchat-Global-Industry-Lead--Higher-Education_R0045912-1",
+        "wd-snapchat-Global-Industry-Lead--Manufacturing_R0045909-1",
+        "wd-snapchat-Global-Industry-Lead--Retail_R0045911-2",
+        "wd-snapchat-Global-Supply-Manager--Silicon---OSAT-_R0045369-1",
+        "wd-snapchat-Graduate---Client-Partners_R0046337-1",
+        "wd-snapchat-Graduate--Partnerships-Associate_R0046339-1",
+        "wd-snapchat-Group-Product-Marketing-Manager_R0045424-1",
+        "wd-snapchat-Head-of-Growth-Strategy---Operations_R0045740",
+        "wd-snapchat-Head-of-Measurement-Partnerships_R0044405",
+        "wd-snapchat-Head-of-Public-Policy-for-Middle-East-and-Africa--MEA-_R0044612",
+        "wd-snapchat-Head-of-Retail_R0046066-1",
+        "wd-snapchat-Health--Safety---Environmental--HSE--Advisor_R0046383-1",
         "wd-snapchat-Human-Factors-Specialist--Fixed-Term--12-Months-_R0046429",
+        "wd-snapchat-Human-Factors-Specialist_R0046393-1",
+        "wd-snapchat-Integrated-Circuit-Design-Verification-Engineer_R0046054-1",
+        "wd-snapchat-Integrated-Circuit-Design-Verification-Engineer_R0046055",
+        "wd-snapchat-Interface-Designer_R0046325",
+        "wd-snapchat-Lead--Food-Program_R0046391-1",
+        "wd-snapchat-Lead--Global-Brand-Experience_R0045541-1",
         "wd-snapchat-Lead--Immigration_R0046179-1",
+        "wd-snapchat-Lead--Operations---Internal-Communications_R0046377",
+        "wd-snapchat-Lead--Pricing---Yield-Management--PYM----Incentive-Programs_R0046280-2",
+        "wd-snapchat-Lead--Proactive-Trust---Safety-Operations_R0045042-1",
         "wd-snapchat-Lead--SMC-Marketing_R0045853-1",
         "wd-snapchat-Lead--Support-Content-Program-Manager_R0046390-1",
+        "wd-snapchat-Lead-Client-Partner_R0046379",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
+        "wd-snapchat-Machine-Learning-Engineer--Causal-Inference--Level-5_R0046007-1",
         "wd-snapchat-Machine-Learning-Engineer--Generative-ML--Level-4_H226SWEGML3",
         "wd-snapchat-Machine-Learning-Engineer--Generative-ML--Level-5_H226SWEGML5",
+        "wd-snapchat-Machine-Learning-Engineer--Level-4_Q326SWEML3-2",
+        "wd-snapchat-Machine-Learning-Engineer--Level-5_Q326SWEML5-2",
         "wd-snapchat-Machine-Learning-Engineer_R0046510",
+        "wd-snapchat-Manager--Business-Development_R0046165-1",
+        "wd-snapchat-Manager--Client-Partner--RMG--Gaming-_R0046104-1",
+        "wd-snapchat-Manager--Client-Partner--SMC_H226MCPSMC10-1",
+        "wd-snapchat-Manager--Client-Partner_H22026MCP10",
+        "wd-snapchat-Manager--Communications--Advertising---B2B-_R0046237-2",
+        "wd-snapchat-Manager--Creative-Strategy_R0046374-1",
+        "wd-snapchat-Manager--Electrical-Engineering--Devices_R0044345-1",
         "wd-snapchat-Manager--Environmental-Health---Safety--Specs-Operations_R0045982",
+        "wd-snapchat-Manager--Executive---Social-Communications_R0046249-1",
+        "wd-snapchat-Manager--Global-Brand-Experience_R0046381",
+        "wd-snapchat-Manager--Machine-Learning-Engineering--Web-Ads-Ranking_R0046000",
+        "wd-snapchat-Manager--Marketing_R0046167-1",
+        "wd-snapchat-Manager--Partnership-Operations_R0046279",
+        "wd-snapchat-Manager--People-Tech-Application-Engineer_R0046186-1",
+        "wd-snapchat-Manager--Privacy-Engineering_R0046161-1",
         "wd-snapchat-Manager--Revenue-Programs--China_R0046084-1",
+        "wd-snapchat-Manager--SMC-Marketing--B2B-_R0046334-1",
+        "wd-snapchat-Manager--Security-Engineering--Identity-Access-Management_R0045588-1",
+        "wd-snapchat-Manager--Software-Engineering--Maps_R0046369-1",
+        "wd-snapchat-Manager--Software-Engineering_H226EM8-1",
+        "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
+        "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Optical-Engineer--Waveguide-Experiments_R0046479-1",
+        "wd-snapchat-PCB-Design-Engineer_R0045397-1",
+        "wd-snapchat-People-Application-Developer_R0045795-1",
+        "wd-snapchat-Principal-Software-Engineer--Ads-Format--Level-7_R0041203",
+        "wd-snapchat-Principal-Software-Engineer--Ads-Platform_H226PEM10-1",
+        "wd-snapchat-Principal-Software-Engineer--Creator-Platform_R0042525-2",
+        "wd-snapchat-Principal-Software-Engineer--Delivery-Platform_R0045213-1",
+        "wd-snapchat-Principal-Software-Engineer--Machine-Learning-Infrastructure_R0046112-1",
+        "wd-snapchat-Principal-Software-Engineer_H226PE10",
+        "wd-snapchat-Privacy-Counsel_R0046401-2",
+        "wd-snapchat-Process-Technician_R0046105",
+        "wd-snapchat-Product-Design-Engineer_R0044316-1",
+        "wd-snapchat-Product-Design-Engineer_R0045464-2",
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
+        "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
+        "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
+        "wd-snapchat-Product-Manager--Sponsored-AR_R0046130-1",
+        "wd-snapchat-Product-Marketing-Manager_R0046085-1",
+        "wd-snapchat-Production-Technician_R0046153-1",
+        "wd-snapchat-Program-Manager_R0046305-1",
+        "wd-snapchat-Prototyping-Design-Software-Engineer_R0045842-1",
+        "wd-snapchat-RF-Test-Engineer_R0043302-1",
+        "wd-snapchat-Regulatory-Counsel_R0046380-2",
         "wd-snapchat-Reliability-and-Failure-Analysis-Engineer_R0045763-1",
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
+        "wd-snapchat-Residential-Security-Officer_R0042844",
+        "wd-snapchat-Residential-Security-Officer_R0044571-1",
+        "wd-snapchat-Security-Engineer---Threat-Intelligence_R0043738-2",
+        "wd-snapchat-Security-Engineer--Level-4_H226SWES2-1",
+        "wd-snapchat-Security-Engineer--Level-5--Detection---Response_R0045495-1",
+        "wd-snapchat-Security-Engineer--Threat-Intelligence_R0045761",
+        "wd-snapchat-Security-Engineer_R0046087-1",
+        "wd-snapchat-Security-Technical-Program-Manager_R0046183-1",
         "wd-snapchat-Senior-Account-Manager--SMC_R0045505-1",
+        "wd-snapchat-Senior-Account-Manager_Q326SAM5-2",
+        "wd-snapchat-Senior-Accountant--SEC-Reporting_R0046307-1",
+        "wd-snapchat-Senior-Accounts-Receivable-Analyst_R0046185-1",
+        "wd-snapchat-Senior-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046262-1",
         "wd-snapchat-Senior-Client-Partner--Business-Development_R0046060-1",
+        "wd-snapchat-Senior-Client-Partner_Q326SCP8-1",
+        "wd-snapchat-Senior-Client-Partner_R0046205-1",
         "wd-snapchat-Senior-Copywriter_R0046488-1",
         "wd-snapchat-Senior-Counsel--Corporate_R0045322-1",
         "wd-snapchat-Senior-Creative-Producer_R0046493-1",
+        "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
+        "wd-snapchat-Senior-Electrical-Engineer_R0046042-1",
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
+        "wd-snapchat-Senior-Indy-Agency-Partner_R0046366",
         "wd-snapchat-Senior-Manager--Ads-Design_R0046431-1",
         "wd-snapchat-Senior-Manager--Agency_R0046414-1",
+        "wd-snapchat-Senior-Manager--Product-Management---Ad-Formats_R0046046-2",
         "wd-snapchat-Senior-Marketing-Scientist--Level-4_H226SMS4-1",
+        "wd-snapchat-Senior-Marketing-Scientist_R0045832",
+        "wd-snapchat-Senior-Marketing-Scientist_R0045833",
         "wd-snapchat-Senior-Trust---Safety-Specialist_R0046434-2",
+        "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
+        "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
+        "wd-snapchat-Software-Engineer--Backend--Level-5_Q326SWEB6-1",
+        "wd-snapchat-Software-Engineer--Backend--Level-5_R0045598",
+        "wd-snapchat-Software-Engineer--C----Level-5--Fixed-Term-_R0045981-2",
+        "wd-snapchat-Software-Engineer--C--_R0045907-1",
+        "wd-snapchat-Software-Engineer--CV_R0046247-1",
+        "wd-snapchat-Software-Engineer--Full-Stack--Level-4_Q326SWEFS2-1",
+        "wd-snapchat-Software-Engineer--Full-Stack--Level-5_Q326SWEFS6-1",
         "wd-snapchat-Software-Engineer--Level-3_Q326SWE-1",
         "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-4_R0045604",
         "wd-snapchat-Software-Engineer--Specs--Level-5_R0046458-1",
         "wd-snapchat-Software-Engineer--iOS--Level-3_R0046335-1",
+        "wd-snapchat-Software-Engineer--iOS--Level-4_Q326SWEI2-1",
         "wd-snapchat-Software-Engineer--iOS--Level-5_Q326SWEI6-1",
+        "wd-snapchat-Spectacles-Student-Worker---Software-Engineering---Graphics_R0043744",
+        "wd-snapchat-Sr-Specialist--Transparency-Reporting_R0046013-1",
+        "wd-snapchat-Staff--SMC-Revenue-Growth_R0046089-1",
+        "wd-snapchat-Staff-Desense-Engineer_R0043679-1",
         "wd-snapchat-Staff-Machine-Learning-Engineer--Generative-AI-Modeling-and-Inference_R0046467",
+        "wd-snapchat-Staff-Machine-Learning-Engineer--Search-Ranking_R0045561-1",
+        "wd-snapchat-Staff-Marketing-Scientist_R0046327",
+        "wd-snapchat-Staff-Product-Manager--Ads-Product---Brand_R0045634-1",
+        "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
+        "wd-snapchat-Staff-Software-Engineer--Core-Infrastructure_R0046092-1",
+        "wd-snapchat-Staff-Software-Engineer--Growth-Notifications--Level-6_R0044414-1",
+        "wd-snapchat-Staff-Software-Engineer--ML-Feature-Store_R0046187-2",
+        "wd-snapchat-Staff-Software-Engineer--Platform-Engineering_R0045781-1",
         "wd-snapchat-Staff-Technical-Program-Manager--ML-Platform_R0046540",
-        "wd-snapchat-Technical-Operations-Manufacturing-Electrical-Engineer_R0044144-1"
+        "wd-snapchat-Technical-Operations-Manufacturing-Electrical-Engineer_R0044144-1",
+        "wd-snapchat-Technical-Partner-Manager--Enterprise-Solutions_H226TPMES-1",
+        "wd-snapchat-Technical-Program-Manager_R0045839",
+        "wd-snapchat-Test-Engineer--Camera-and-Sensing_R0043789",
+        "wd-snapchat-Verification-Engineer-Intern_R0045122",
+        "wd-snapchat-Working-Student---Machine-Learning_R0045234-1"
       ]
     },
     "cocacola": {
@@ -933,16 +1068,6 @@
   },
   "matches": [
     {
-      "id": "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
-      "company_key": "snap",
-      "company_name": "Snap Inc.",
-      "title": "GTM & Lifecycle Specialist",
-      "location": "Los Angeles, California",
-      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/GTM---Lifecycle-Specialist_R0046420-1",
-      "first_seen": "2026-08-22T17:10:14.308564+00:00",
-      "fit_reason": "GTM & Lifecycle Specialist aligns directly with candidate's target roles; early-career/specialist-level title matches experience (~3.5 years operationally relevant work); demonstrated lifecycle expertise (win-back campaigns, conversion funnels, retention programs, event-driven acquisition) and cross-functional GTM execution at Chick-fil-A."
-    },
-    {
       "id": "ashby-claylabs-c605042d-1bd4-4e0d-aa82-d92a2abecb59",
       "company_key": "clay",
       "company_name": "Clay",
@@ -950,7 +1075,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/c605042d-1bd4-4e0d-aa82-d92a2abecb59",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Enterprise customer success role framed around GTM expansion, adoption, and revenue growth—directly aligned with candidate's target of commercial/growth roles as a tech entry path; no years requirement stated; candidate's 3+ years of lifecycle marketing, win-back campaigns, adoption-driven event design, and cross-functional GTM work at Chick-fil-A maps clearly to the strategic partnership and expansion mandate."
+      "fit_reason": "Enterprise customer success role framed around GTM expansion, adoption, and revenue growth\u2014directly aligned with candidate's target of commercial/growth roles as a tech entry path; no years requirement stated; candidate's 3+ years of lifecycle marketing, win-back campaigns, adoption-driven event design, and cross-functional GTM work at Chick-fil-A maps clearly to the strategic partnership and expansion mandate."
     },
     {
       "id": "ashby-claylabs-4272b3bc-0ec3-46bf-8339-142889a97367",
@@ -960,7 +1085,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/4272b3bc-0ec3-46bf-8339-142889a97367",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, ABM is a core GTM/growth role; candidate has 3.5 years of demonstrated account/channel strategy, campaign design, funnel building, and revenue ownership—no years requirement stated in posting."
+      "fit_reason": "Growth, ABM is a core GTM/growth role; candidate has 3.5 years of demonstrated account/channel strategy, campaign design, funnel building, and revenue ownership\u2014no years requirement stated in posting."
     },
     {
       "id": "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
@@ -980,7 +1105,7 @@
       "location": "New York",
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, Digital role matches core target titles; candidate has demonstrated paid social (Meta Ads), campaign measurement, pipeline thinking, and 0→1 channel-building work at Chick-fil-A, with no stated years requirement to block match."
+      "fit_reason": "Growth, Digital role matches core target titles; candidate has demonstrated paid social (Meta Ads), campaign measurement, pipeline thinking, and 0\u21921 channel-building work at Chick-fil-A, with no stated years requirement to block match."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -990,7 +1115,7 @@
       "location": "San Francisco",
       "url": "https://jobs.ashbyhq.com/claylabs/771aabc8-f18e-4890-8813-95132972c2ac",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, Adoption role aligns with target titles; candidate demonstrates lifecycle/email campaign ownership, conversion testing, cross-functional collaboration, and 0→1 systems building—no experience floor stated in posting."
+      "fit_reason": "Growth, Adoption role aligns with target titles; candidate demonstrates lifecycle/email campaign ownership, conversion testing, cross-functional collaboration, and 0\u21921 systems building\u2014no experience floor stated in posting."
     },
     {
       "id": "gh-doordashusa-7852785",
@@ -1000,7 +1125,7 @@
       "location": "San Francisco, CA; New York, NY; Chicago, IL;  Los Angeles, CA; Atlanta, GA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7852785",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Account Manager, CPG role centers on partnership strategy, campaign development, analytics, and revenue growth—aligned with candidate's GTM/account management targets; 3-6 years stated (floor is 3, candidate meets it); no cold calling as explicit core duty; analytics/AI-driven decision-making core fit; unfamiliar tools (Snowflake, Sigma) are learnable and listed alongside general analytics fluency."
+      "fit_reason": "Account Manager, CPG role centers on partnership strategy, campaign development, analytics, and revenue growth\u2014aligned with candidate's GTM/account management targets; 3-6 years stated (floor is 3, candidate meets it); no cold calling as explicit core duty; analytics/AI-driven decision-making core fit; unfamiliar tools (Snowflake, Sigma) are learnable and listed alongside general analytics fluency."
     },
     {
       "id": "gh-doordashusa-8077011",
@@ -1020,7 +1145,7 @@
       "location": "New York, NY; Los Angeles, CA; Atlanta, GA; Chicago, IL; San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7918661",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Account management role with CPG/advertising exposure, 2-3 years required (candidate meets 3), focuses on campaign strategy, partnership building, and data-driven optimization—fits growth/GTM revenue operations intent; no cold-calling or pure-sales execution emphasis in listed responsibilities."
+      "fit_reason": "Account management role with CPG/advertising exposure, 2-3 years required (candidate meets 3), focuses on campaign strategy, partnership building, and data-driven optimization\u2014fits growth/GTM revenue operations intent; no cold-calling or pure-sales execution emphasis in listed responsibilities."
     },
     {
       "id": "gh-doordashusa-8119389",
@@ -1070,7 +1195,7 @@
       "location": "New York, NY; San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7998424",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Product marketing/growth marketing role focused on funnel optimization, messaging, and conversion—core target function. Candidate has ~3 years relevant experience (meets 3–6 range floor) with demonstrated self-serve funnel work, positioning/messaging, email/campaign design, and data-driven optimization; unfamiliar tools (Pendo, Amplitude, FullStory, Sigma, Hightouch) are learnable and listed as 'learn & practice,' not hard requirements."
+      "fit_reason": "Product marketing/growth marketing role focused on funnel optimization, messaging, and conversion\u2014core target function. Candidate has ~3 years relevant experience (meets 3\u20136 range floor) with demonstrated self-serve funnel work, positioning/messaging, email/campaign design, and data-driven optimization; unfamiliar tools (Pendo, Amplitude, FullStory, Sigma, Hightouch) are learnable and listed as 'learn & practice,' not hard requirements."
     },
     {
       "id": "gh-doordashusa-8082760",
@@ -1090,7 +1215,7 @@
       "location": "San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8079346",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Merchant Success & Growth role with ops/strategy focus on adoption, performance KPIs, and feedback loops maps directly to candidate's revenue operations + lifecycle marketing scope; 3–6 years stated (floor: 3), candidate has ~3.5 years of relevant growth/operations work; no cold calling or pure sales execution listed; building operational mechanisms and cross-functional partnering align with demonstrated Chick-fil-A experience."
+      "fit_reason": "Merchant Success & Growth role with ops/strategy focus on adoption, performance KPIs, and feedback loops maps directly to candidate's revenue operations + lifecycle marketing scope; 3\u20136 years stated (floor: 3), candidate has ~3.5 years of relevant growth/operations work; no cold calling or pure sales execution listed; building operational mechanisms and cross-functional partnering align with demonstrated Chick-fil-A experience."
     },
     {
       "id": "gh-doordashusa-7984827",
@@ -1100,7 +1225,7 @@
       "location": "San Francisco, CA; New York, NY; Atlanta, GA; Chicago, IL; Denver, CO; Washington, DC; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7984827",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sales Planning & Strategy is explicitly in-scope as revenue operations; candidate meets the 3-year floor with 3.25 years at Chick-fil-A demonstrating quota strategy, forecasting, incentive design (channel incentives, email campaign ROI), data-driven sales optimization, and cross-functional execution—transferable to the core planning/strategy work even without prior 'Sales Ops' title."
+      "fit_reason": "Sales Planning & Strategy is explicitly in-scope as revenue operations; candidate meets the 3-year floor with 3.25 years at Chick-fil-A demonstrating quota strategy, forecasting, incentive design (channel incentives, email campaign ROI), data-driven sales optimization, and cross-functional execution\u2014transferable to the core planning/strategy work even without prior 'Sales Ops' title."
     },
     {
       "id": "gh-doordashusa-7984775",
@@ -1140,7 +1265,7 @@
       "location": "New York, NY; San Francisco, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8026972",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Candidate meets the 3-year floor with 3+ years at Chick-fil-A in a revenue/growth-focused role; posting is strategically and analytically aligned (marketplace growth, partnership strategy, data-driven optimization) with demonstrated skills in campaign design, funnel building, and cross-functional execution—well within target scope."
+      "fit_reason": "Candidate meets the 3-year floor with 3+ years at Chick-fil-A in a revenue/growth-focused role; posting is strategically and analytically aligned (marketplace growth, partnership strategy, data-driven optimization) with demonstrated skills in campaign design, funnel building, and cross-functional execution\u2014well within target scope."
     },
     {
       "id": "gh-doordashusa-8120833",
@@ -1150,7 +1275,7 @@
       "location": "San Francisco, CA; New York, NY; Atlanta, GA; Chicago, IL; Denver, CO;  Washington D.C.; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8120833",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sales Strategy & Operations role with 2+ years required; candidate has 3+ years relevant experience in data-driven strategy, revenue optimization, funnel design, and cross-functional execution—directly transferable to merchant acquisition strategy, though SQL production experience is limited (nice-to-have proficiency level acceptable)."
+      "fit_reason": "Sales Strategy & Operations role with 2+ years required; candidate has 3+ years relevant experience in data-driven strategy, revenue optimization, funnel design, and cross-functional execution\u2014directly transferable to merchant acquisition strategy, though SQL production experience is limited (nice-to-have proficiency level acceptable)."
     },
     {
       "id": "gh-doordashusa-7980888",
@@ -1160,7 +1285,7 @@
       "location": "New York, NY; Washington D.C.; Los Angeles, CA; San Francisco, CA; Chicago, IL; Denver, CO; Seattle, WA; United States - Remote",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7980888",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Revenue operations role (Sales Strategy & Operations) with 2+ years required—candidate has ~3.5 years of relevant analytical, operations, and growth-focused work; core responsibilities (funnel auditing, goal tracking, process optimization, analytics) align with candidate's demonstrated strengths in data-driven strategy and operational execution; SQL is required but candidate has fundamentals; Salesforce strongly preferred and candidate has Customer 360 experience."
+      "fit_reason": "Revenue operations role (Sales Strategy & Operations) with 2+ years required\u2014candidate has ~3.5 years of relevant analytical, operations, and growth-focused work; core responsibilities (funnel auditing, goal tracking, process optimization, analytics) align with candidate's demonstrated strengths in data-driven strategy and operational execution; SQL is required but candidate has fundamentals; Salesforce strongly preferred and candidate has Customer 360 experience."
     },
     {
       "id": "gh-doordashusa-8128136",
@@ -1170,7 +1295,7 @@
       "location": "San Francisco, New York City, NY; CA;Atlanta, GA; Chicago, IL; Denver, CO;  Washington D.C.; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8128136",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities—data analysis, process design, cross-functional strategy, insights generation—align strongly with demonstrated analytics, operations, and GTM work at Chick-fil-A; 'Senior Associate' is IC seniority, not people management; SQL and AI tools are familiar or learnable."
+      "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities\u2014data analysis, process design, cross-functional strategy, insights generation\u2014align strongly with demonstrated analytics, operations, and GTM work at Chick-fil-A; 'Senior Associate' is IC seniority, not people management; SQL and AI tools are familiar or learnable."
     },
     {
       "id": "gh-doordashusa-7654723",
@@ -1210,7 +1335,7 @@
       "location": "New York, NY; Los Angeles, CA",
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8017176",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sr. Associate GTM Strategy & Operations is a direct fit—core target title, 2+ years requirement is well within candidate's ~3.5 years relevant experience; role emphasizes analytics, operations, AI tooling, and GTM infrastructure (not sales closing), aligning with candidate's demonstrated strengths in campaign analysis, automation, and cross-functional strategy."
+      "fit_reason": "Sr. Associate GTM Strategy & Operations is a direct fit\u2014core target title, 2+ years requirement is well within candidate's ~3.5 years relevant experience; role emphasizes analytics, operations, AI tooling, and GTM infrastructure (not sales closing), aligning with candidate's demonstrated strengths in campaign analysis, automation, and cross-functional strategy."
     },
     {
       "id": "wd-coke-Brand-Manager--Signature-Sodas_R-142131",
@@ -1230,7 +1355,7 @@
       "location": "US - GA - Atlanta",
       "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Sales-Manager_R-145146",
       "first_seen": "2026-08-24T00:40:29.606198+00:00",
-      "fit_reason": "Sales Manager role at Coca-Cola managing existing customer portfolio with growth strategy, business reviews, and cross-functional activation—core revenue-operations work aligned with candidate's target; 3+ years requirement is met; field-sales exclusion waived per Coca-Cola exception in profile."
+      "fit_reason": "Sales Manager role at Coca-Cola managing existing customer portfolio with growth strategy, business reviews, and cross-functional activation\u2014core revenue-operations work aligned with candidate's target; 3+ years requirement is met; field-sales exclusion waived per Coca-Cola exception in profile."
     },
     {
       "id": "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
@@ -1240,8 +1365,38 @@
       "location": "US - DC - Washington",
       "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---DC---Washington/Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
       "first_seen": "2026-08-24T00:40:29.606198+00:00",
-      "fit_reason": "Field sales role at Coca-Cola (candidate's former employer, eligible for exception) centered on managing existing foodservice accounts, business reviews, program activation, and relationship-driven growth—aligns with revenue operations/account management targets and candidate's Coca-Cola internship background and Chick-fil-A account/channel growth experience."
+      "fit_reason": "Field sales role at Coca-Cola (candidate's former employer, eligible for exception) centered on managing existing foodservice accounts, business reviews, program activation, and relationship-driven growth\u2014aligns with revenue operations/account management targets and candidate's Coca-Cola internship background and Chick-fil-A account/channel growth experience."
+    },
+    {
+      "id": "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "Account Manager, Gaming & Apps",
+      "location": "2 Locations",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Beijing-China/Account-Manager--Gaming---Apps_R0046065-2",
+      "first_seen": "2026-08-24T00:42:22.274090+00:00",
+      "fit_reason": "Account management role with data-driven optimization and client success focus aligns with candidate's growth/revenue operations targets; 3+ years requirement matches candidate's ~3 years relevant experience; Mandarin requirement is a gap but not disqualifying for a strong functional fit."
+    },
+    {
+      "id": "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "GTM & Lifecycle Specialist",
+      "location": "Los Angeles, California",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/GTM---Lifecycle-Specialist_R0046420-1",
+      "first_seen": "2026-08-24T00:42:22.274090+00:00",
+      "fit_reason": "Core GTM/lifecycle marketing execution role with campaign operations focus; candidate's 3+ years of lifecycle, email, paid social, and launch-coordination work at Chick-fil-A directly transfers, and internship experience qualifies under the '1+ years' floor stated in minimum qualifications."
+    },
+    {
+      "id": "wd-snapchat-Account-Manager_Q326AM3-1",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "Account Manager",
+      "location": "5 Locations",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Los-Angeles-California/Account-Manager_Q326AM3-1",
+      "first_seen": "2026-08-24T00:42:22.274090+00:00",
+      "fit_reason": "Account Manager role focused on client relationship growth, campaign optimization, data analysis, and product education aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3 years requirement matches candidate's experience level."
     }
   ],
-  "last_run": "2026-08-24T00:40:29.606198+00:00"
+  "last_run": "2026-08-24T00:42:22.274090+00:00"
 }
