@@ -150,7 +150,7 @@ def fetch_workday_job_description(tenant: str, site: str, external_path: str):
     """Second call needed to get full description text AND the real location
     list for a single Workday posting (the list view's location can be a vague
     'Multiple Locations' summary; this returns the actual eligible locations)."""
-    url = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}/job{external_path}"
+    url = f"https://{tenant}.wd1.myworkdayjobs.com/wday/cxs/{tenant}/{site}{external_path}"
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     if not r.ok:
         print(f"    [workday-desc-debug] FAILED status={r.status_code} url={url}")
