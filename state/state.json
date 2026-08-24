@@ -471,6 +471,7 @@
         "gh-doordashusa-8147416",
         "gh-doordashusa-8148457",
         "gh-doordashusa-8148519",
+        "gh-doordashusa-8148531",
         "gh-doordashusa-8152861",
         "gh-doordashusa-8152873"
       ]
@@ -1555,7 +1556,17 @@
       "url": "https://jobs.lever.co/spotify/6c591c8a-9aeb-4760-ace1-1942da31aca9",
       "first_seen": "2026-08-24T02:02:08.797389+00:00",
       "fit_reason": "Marketing Technology Manager is a growth/marketing operations role centered on tool selection, automation, and campaign optimization\u2014core candidate strengths; 3+ years requirement matches candidate's ~3.5 years in increasingly senior growth/operations work; hands-on Meta Ads and AI workflow experience demonstrated; fast-growth tech environment fits intent to pivot into tech marketing."
+    },
+    {
+      "id": "gh-doordashusa-8148531",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Associate, Sales Strategy and Planning",
+      "location": "San Francisco, California, United States",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8148531",
+      "first_seen": "2026-08-24T16:50:40.326685+00:00",
+      "fit_reason": "Revenue operations role (Sales Strategy & Planning) is explicitly in-scope; candidate has ~3.5 years of directly transferable analytical, data-driven sales/growth work with forecasting, goal-setting, and performance optimization; 2-4 year range floor is met; SQL basics + Google Sheets + AI tooling + analytical mindset align well; Anaplan/incentive-design tools are nice-to-have, not hard blockers."
     }
   ],
-  "last_run": "2026-08-24T15:59:50.728823+00:00"
+  "last_run": "2026-08-24T16:50:40.326685+00:00"
 }
