@@ -1413,8 +1413,8 @@
       "name": "Cursor",
       "ats": "ashby",
       "board_token": "cursor",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "ashby-cursor-00e98809-a4ec-4f32-91db-0e63ef5778b0",
         "ashby-cursor-010063bd-6083-4fc0-a455-e6f0193b5347",
