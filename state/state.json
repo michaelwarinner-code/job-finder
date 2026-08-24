@@ -485,7 +485,7 @@
       "name": "Spotify",
       "ats": "lever",
       "board_token": "spotify",
-      "enabled": false,
+      "enabled": true,
       "needs_resync": true,
       "known_job_ids": [
         "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b",
