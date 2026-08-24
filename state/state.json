@@ -3487,7 +3487,17 @@
         "gh-yext-8138263",
         "gh-yext-8146328"
       ]
-    }
+    },
+    "mavenclinic": { "name": "Maven Clinic", "ats": "greenhouse", "board_token": "mavenclinic", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "away": { "name": "Away", "ats": "ashby", "board_token": "away", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "movableink": { "name": "Movable Ink", "ats": "greenhouse", "board_token": "movableink", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "thefarmersdog": { "name": "The Farmer's Dog", "ats": "greenhouse", "board_token": "thefarmersdog", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "kargo": { "name": "Kargo", "ats": "greenhouse", "board_token": "kargo", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "yotpo": { "name": "Yotpo", "ats": "greenhouse", "board_token": "yotpo", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "flatironhealth": { "name": "Flatiron Health", "ats": "greenhouse", "board_token": "flatironhealth", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "bombas": { "name": "Bombas", "ats": "greenhouse", "board_token": "bombas", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "cleo": { "name": "Cleo", "ats": "greenhouse", "board_token": "cleo", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "harrys": { "name": "Harry's", "ats": "greenhouse", "board_token": "harrys", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] }
   },
   "applied_ids": [
     "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1"
