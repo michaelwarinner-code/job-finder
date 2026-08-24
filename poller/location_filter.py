@@ -40,16 +40,13 @@ NON_US_SIGNALS = [
 def is_us_location(location: str) -> bool:
     loc = (location or "").lower()
 
-    if any(sig in loc for sig in NON_US_SIGNALS):
-        return False
-
     if any(sig in loc for sig in US_SIGNALS):
         return True
 
-    # Ambiguous (empty, bare "Remote", or unrecognized) -- default to
-    # INCLUDE. Better to send one extra posting to Claude than silently
-    # drop a real US match because a location string was unusual.
-    return True
+    if any(sig in loc for sig in NON_US_SIGNALS):
+        return False
+
+    return True  # ambiguous/blank -> include, to avoid false negatives
 
 def is_ambiguous_location(location: str) -> bool:
     """Flags cases worth digging deeper into before trusting the default-include
