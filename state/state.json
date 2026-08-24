@@ -477,8 +477,8 @@
       "name": "HubSpot",
       "ats": "greenhouse",
       "board_token": "hubspot",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": []
     },
     "spotify": {
