@@ -5,6 +5,7 @@ Fetchers for each ATS type. Each function returns a list of normalized dicts:
 job_id must be STABLE and UNIQUE per posting per company so we can diff against
 previously-seen IDs to detect "new" postings.
 """
+import re
 import requests
 
 HEADERS = {"User-Agent": "job-alert-bot/1.0 (personal use)"}
