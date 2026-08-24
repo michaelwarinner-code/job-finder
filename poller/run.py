@@ -109,10 +109,12 @@ def main():
             title = job["title"]
 
             if not passes_keyword_filter(title, key):
+                print(f"[{key}] KEYWORD-REJECT: '{title}'")
                 known_ids.add(job["job_id"])
                 continue
-              
-            if not is_us_location(job.get("location", "")):
+
+            if not is_us_location(job.get("location_blob", job.get("location", ""))):
+                print(f"[{key}] LOCATION-REJECT: '{title}' | location={job.get('location', '')!r}")
                 known_ids.add(job["job_id"])
                 continue
 
