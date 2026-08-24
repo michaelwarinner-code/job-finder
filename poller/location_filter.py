@@ -33,7 +33,7 @@ NON_US_SIGNALS = [
     "philippines", "manila", "poland", "warsaw", "italy", "milan",
     "sweden", "stockholm", "switzerland", "zurich", "belgium", "brussels",
     "israel", "tel aviv", "south korea", "seoul", "taiwan", "hong kong",
-    "eu -", "emea", "apac", "latam",
+    "eu -", "emea", "apac", "latam", "uae", "united arab emirates", "dubai", "abu dhabi",
 ]
 
 
