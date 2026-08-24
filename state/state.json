@@ -1934,7 +1934,17 @@
         "gh-spothopper-4378606009",
         "gh-spothopper-4378619009"
       ]
-    }
+    }, 
+    "datadog": { "name": "Datadog", "ats": "greenhouse", "board_token": "datadog", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "mongodb": { "name": "MongoDB", "ats": "greenhouse", "board_token": "mongodb", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "braze": { "name": "Braze", "ats": "greenhouse", "board_token": "braze", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "classpass": { "name": "ClassPass", "ats": "greenhouse", "board_token": "classpass", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "justworks": { "name": "Justworks", "ats": "greenhouse", "board_token": "justworks", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "appsflyer": { "name": "AppsFlyer", "ats": "greenhouse", "board_token": "appsflyer", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "attentive": { "name": "Attentive", "ats": "greenhouse", "board_token": "attentive", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "glossier": { "name": "Glossier", "ats": "greenhouse", "board_token": "glossier", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "thirdlove": { "name": "ThirdLove", "ats": "greenhouse", "board_token": "thirdlove", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] },
+    "yext": { "name": "Yext", "ats": "greenhouse", "board_token": "yext", "enabled": true, "is_priority": false, "needs_resync": true, "known_job_ids": [] }
   },
   "applied_ids": [
     "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1"
