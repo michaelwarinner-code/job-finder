@@ -1855,8 +1855,8 @@
       "name": "SpotHopper",
       "ats": "greenhouse",
       "board_token": "spothopper",
-      "enabled": false,
-      "needs_resync": false,
+      "enabled": true,
+      "needs_resync": true,
       "known_job_ids": [
         "gh-spothopper-4005023009",
         "gh-spothopper-4006465009",
