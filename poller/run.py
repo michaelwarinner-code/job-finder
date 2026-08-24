@@ -104,6 +104,8 @@ def main():
         new_jobs = live_jobs if is_resync else [j for j in live_jobs if j["job_id"] not in known_ids]
 
         print(f"[{key}] {len(live_jobs)} live, {len(new_jobs)} to evaluate")
+        if key == "cocacola":
+            print(f"[{key}] ALL LIVE TITLES: {[j['title'] for j in live_jobs]}")
 
         for job in new_jobs:
             title = job["title"]
