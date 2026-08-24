@@ -75,10 +75,16 @@ def fetch_ashby(board_token: str):
     data = r.json()
     out = []
     for job in data.get("jobs", []):
+        primary_loc = job.get("location", "") or ""
+        secondary = job.get("secondaryLocations", []) or []
+        secondary_names = [s.get("location", "") for s in secondary if s.get("location")]
+        location_blob = ", ".join([primary_loc] + secondary_names) if (primary_loc or secondary_names) else ""
+
         out.append({
             "job_id": f"ashby-{board_token}-{job['id']}",
             "title": job.get("title", ""),
-            "location": job.get("location", ""),
+            "location": primary_loc,
+            "location_blob": location_blob,
             "url": job.get("jobUrl", job.get("applyUrl", "")),
             "description": job.get("descriptionPlain", "") or job.get("descriptionHtml", "") or "",
             "posted": job.get("publishedAt"),
