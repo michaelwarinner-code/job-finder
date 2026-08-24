@@ -115,7 +115,7 @@ def main():
                 known_ids.add(job["job_id"])
                 continue
 
-                        loc_string = job.get("location_blob", job.get("location", ""))
+            loc_string = job.get("location_blob", job.get("location", ""))
 
             if is_ambiguous_location(loc_string):
                 if cfg["ats"] == "workday" and job.get("_workday_path"):
