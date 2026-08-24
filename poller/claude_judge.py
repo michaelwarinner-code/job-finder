@@ -74,11 +74,14 @@ Does this posting match the candidate's target roles and experience level?"""
         json={
             "model": MODEL,
             "max_tokens": 150,
+            "temperature": 0,
             "system": system,
             "messages": [{"role": "user", "content": user}],
         },
         timeout=30,
     )
+    if not r.ok:
+        print(f"    [claude-api-error] status={r.status_code} body={r.text[:500]}")
     r.raise_for_status()
     data = r.json()
     text = "".join(block.get("text", "") for block in data.get("content", []) if block.get("type") == "text")
