@@ -51,6 +51,25 @@ mentions growth strategy, expansion, or revenue outcomes with existing accounts 
 common industry title conventions for exactly this kind of role, not an indication of seniority
 or pure support.
 
+Refine the account-based test above: treat managing/growing a FIXED, EXISTING portfolio of named
+accounts (long-term relationship building, business reviews, renewals, negotiating expansion,
+activating promotional/marketing programs with those accounts) as leaning toward the growth/
+execution side of the test -- even when the posting doesn't use explicit "marketing" language --
+since growing existing accounts inherently involves marketing/promotional activity even when
+unstated. Reserve the prospecting/closing exclusion specifically for roles centered on hunting
+NET-NEW, cold, or largely-unknown accounts from scratch.
+
+Field sales roles -- defined as roles centered on regularly visiting clients on-site, working
+remotely/disconnected from a core team, or otherwise physically isolated from company HQ -- should
+generally be EXCLUDED regardless of the prospecting/closing split, since they don't build the
+internal visibility and relationships needed to pivot into a marketing role later.
+
+EXCEPTION: this field-sales exclusion does NOT apply to Coca-Cola specifically. The candidate
+previously interned at Coca-Cola and views a role there as a temporary bridge position (not a
+long-term destination) until landing a tech-marketing role, so field sales roles AT COCA-COLA
+should be evaluated under the normal existing-portfolio test above, not excluded merely for being
+field-based or client-visiting.
+
 ## Explicitly excluded (reject even if otherwise a fit)
 - Event execution / event marketing roles (planning and running in-person events as the core job)
 - Social media management roles (running social channels/content calendars as the core job)
