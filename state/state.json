@@ -483,7 +483,8 @@
         "gh-doordashusa-8155233",
         "gh-doordashusa-8155308",
         "gh-doordashusa-8155457",
-        "gh-doordashusa-8156042"
+        "gh-doordashusa-8156042",
+        "gh-doordashusa-8156392"
       ]
     },
     "hubspot": {
@@ -2415,7 +2416,9 @@
         "gh-datadog-8144946",
         "gh-datadog-8146927",
         "gh-datadog-8146986",
+        "gh-datadog-8146994",
         "gh-datadog-8146998",
+        "gh-datadog-8147903",
         "gh-datadog-8152488",
         "gh-datadog-8155867"
       ]
@@ -4453,7 +4456,17 @@
       "url": "https://job-boards.greenhouse.io/harrys/jobs/8119608",
       "first_seen": "2026-08-25T00:24:02.256723+00:00",
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
+    },
+    {
+      "id": "gh-datadog-8147903",
+      "company_key": "datadog",
+      "company_name": "Datadog",
+      "title": "Enterprise Customer Success Manager - Denver",
+      "location": "Denver, Colorado, USA",
+      "url": "https://careers.datadoghq.com/detail/8147903/?gh_jid=8147903",
+      "first_seen": "2026-08-25T14:06:07.863476+00:00",
+      "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and strategic value delivery within existing portfolio\u2014core responsibilities align with candidate's demonstrated account management, data-driven optimization, and lifecycle marketing work at Chick-fil-A; 3 years required matches candidate's experience level."
     }
   ],
-  "last_run": "2026-08-25T13:09:48.163719+00:00"
+  "last_run": "2026-08-25T14:06:07.863476+00:00"
 }
