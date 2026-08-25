@@ -484,6 +484,7 @@
         "gh-doordashusa-8155308",
         "gh-doordashusa-8155457",
         "gh-doordashusa-8156042",
+        "gh-doordashusa-8156373",
         "gh-doordashusa-8156392"
       ]
     },
@@ -607,6 +608,8 @@
         "gh-hubspotjobs-7988027",
         "gh-hubspotjobs-7988079",
         "gh-hubspotjobs-7988809",
+        "gh-hubspotjobs-8001806",
+        "gh-hubspotjobs-8013715",
         "gh-hubspotjobs-8019271",
         "gh-hubspotjobs-8027643",
         "gh-hubspotjobs-8027824",
@@ -1337,6 +1340,7 @@
         "ashby-perplexity-7795683f-6c5f-40cd-af2d-51294edddd4b",
         "ashby-perplexity-78675022-c4a7-41d2-9259-7c59be4de93c",
         "ashby-perplexity-7ae341c4-411e-468c-bc26-bbdd8e55d388",
+        "ashby-perplexity-7dedcdea-42be-4bb0-b603-791146ff73f0",
         "ashby-perplexity-7f2b3619-5ffa-467b-be6f-7a6b7d487892",
         "ashby-perplexity-7fdc5304-423a-4504-8036-aafbac685486",
         "ashby-perplexity-82ccb259-a9e7-4fb0-bf9a-04be588e015f",
@@ -2419,8 +2423,10 @@
         "gh-datadog-8146994",
         "gh-datadog-8146998",
         "gh-datadog-8147903",
+        "gh-datadog-8148092",
         "gh-datadog-8152488",
-        "gh-datadog-8155867"
+        "gh-datadog-8155867",
+        "gh-datadog-8156460"
       ]
     },
     "mongodb": {
@@ -2809,6 +2815,7 @@
         "gh-mongodb-8119799",
         "gh-mongodb-8119841",
         "gh-mongodb-8119843",
+        "gh-mongodb-8120181",
         "gh-mongodb-8121324",
         "gh-mongodb-8121863",
         "gh-mongodb-8122025",
@@ -4468,5 +4475,5 @@
       "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and strategic value delivery within existing portfolio\u2014core responsibilities align with candidate's demonstrated account management, data-driven optimization, and lifecycle marketing work at Chick-fil-A; 3 years required matches candidate's experience level."
     }
   ],
-  "last_run": "2026-08-25T14:06:07.863476+00:00"
+  "last_run": "2026-08-25T15:03:43.939820+00:00"
 }
