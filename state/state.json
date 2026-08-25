@@ -1733,6 +1733,7 @@
         "ashby-elevenlabs-6ce3306e-a546-4e11-83d6-3eaff5dd366b",
         "ashby-elevenlabs-6d4c4080-b53b-4b00-8b1d-3ec1e0955135",
         "ashby-elevenlabs-6e1b66a8-8d2e-43b0-9076-9748b84bcfab",
+        "ashby-elevenlabs-6e48c4c7-b6df-496c-a72c-c269ffb7f53a",
         "ashby-elevenlabs-6fb6f3a3-9680-41ac-bcde-e5a7abfc5f5c",
         "ashby-elevenlabs-71992118-5b37-4a4a-a862-99e82e02916f",
         "ashby-elevenlabs-71f84d23-fda9-45af-a249-8bbdb258bc18",
@@ -1827,6 +1828,7 @@
         "ashby-elevenlabs-cb90c8ba-dc35-4e86-9103-9564751ccaf7",
         "ashby-elevenlabs-cd610558-4a8e-4746-81c1-10e3902f5576",
         "ashby-elevenlabs-cdcf48bf-b6cf-41ce-88ee-34674768fb0d",
+        "ashby-elevenlabs-cdf749ed-25b8-46d7-b353-6fcb013e669b",
         "ashby-elevenlabs-ce00fe7b-a93a-436b-bd5e-2eff87c48f23",
         "ashby-elevenlabs-ceb4eb7b-f1ad-429d-a2ec-11fd902948b8",
         "ashby-elevenlabs-cf173c80-b9b9-4e27-85fa-a26c68693ea9",
@@ -1856,6 +1858,7 @@
         "ashby-elevenlabs-eee2abfb-bd2f-410d-a339-3923e9c95043",
         "ashby-elevenlabs-ef0a1e14-40ee-43d2-aab9-59fc9f6a4b8c",
         "ashby-elevenlabs-ef819b07-d617-42c7-873f-798d1a7d4024",
+        "ashby-elevenlabs-f00cd4ae-3429-43a9-9e78-247ca3e4c404",
         "ashby-elevenlabs-f090d901-2305-4e72-b09d-32b7e2e0ca49",
         "ashby-elevenlabs-f0cccf77-a255-4620-9639-2f1cc5f9c0ab",
         "ashby-elevenlabs-f0d1e869-4874-45af-9bc3-81479d88565b",
@@ -2435,6 +2438,7 @@
         "gh-mongodb-6688075",
         "gh-mongodb-6740470",
         "gh-mongodb-6755285",
+        "gh-mongodb-6826191",
         "gh-mongodb-6829771",
         "gh-mongodb-6848268",
         "gh-mongodb-6949764",
@@ -3115,6 +3119,8 @@
         "gh-braze-8145903",
         "gh-braze-8145908",
         "gh-braze-8145911",
+        "gh-braze-8147280",
+        "gh-braze-8147282",
         "gh-braze-8151929",
         "gh-braze-8153924",
         "gh-braze-8155117",
@@ -4444,5 +4450,5 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     }
   ],
-  "last_run": "2026-08-25T10:55:36.846422+00:00"
+  "last_run": "2026-08-25T11:34:35.448580+00:00"
 }
