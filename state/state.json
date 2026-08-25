@@ -1126,6 +1126,7 @@
         "wd-coke-Executive-Administrative-Assistant_R-144884",
         "wd-coke-Forklift-Operator-3rd-Shift----2152_R-144776",
         "wd-coke-Forklift-Operator_R-145181",
+        "wd-coke-Franchise-Manager---Capabilities_R-145239-1",
         "wd-coke-Freestyle-Automated-Warehouse-Operator_R-143819-1",
         "wd-coke-Full-Stack-Engineer---Japan_R-144483-1",
         "wd-coke-General-Laborer----19-HR--1st-shift-_R-145413",
@@ -1222,6 +1223,7 @@
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
         "wd-coke-Senior-Director--Digital-Transformation-GCM_R-144510-1",
         "wd-coke-Senior-Director--Electrical-Subsystem_R-144022-1",
+        "wd-coke-Senior-Director--Engineering---Supply-Chain-Product_R-145318",
         "wd-coke-Senior-Director--Experience-Design---Connection-Planning---Sparkling-Flavors_R-138997-1",
         "wd-coke-Senior-Director--Financial-Planning-and-Analysis_R-144074",
         "wd-coke-Senior-Director--Flavors-Creative-Strategy---IMX--LATAM_R-145247",
@@ -1257,6 +1259,7 @@
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
+        "wd-coke-Senior-Manager--Legal-Counsel---CPS-and-Irish-Entities_R-145021",
         "wd-coke-Senior-Manager--Material-Operations---Sourcing---Japan-Korea_R-135730",
         "wd-coke-Senior-Manager--NSR-Global-Data-Stewardship_R-144504",
         "wd-coke-Senior-Manager--National-Sales---Specialty-Retail_R-143200",
@@ -1646,6 +1649,7 @@
         "ashby-elevenlabs-0e690a2f-0a1a-4c4e-adf6-4dc3c6cbc3bd",
         "ashby-elevenlabs-1034a604-b714-428b-a9fd-fa8c0cd795cf",
         "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8",
+        "ashby-elevenlabs-13dbc714-dc3e-4743-9c25-3400c23b6673",
         "ashby-elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
         "ashby-elevenlabs-144dafdb-03aa-46ff-8555-a16ffec52abc",
         "ashby-elevenlabs-158034c9-eb7c-4348-a0b8-fa9e817b29f1",
@@ -1803,6 +1807,7 @@
         "ashby-elevenlabs-b0a0fdb7-f202-4d58-b2e2-38e847b96e49",
         "ashby-elevenlabs-b16fee34-782a-47e3-85f4-7b3d683fc938",
         "ashby-elevenlabs-b1b4fa6b-ad36-4b0d-be89-32f35fcb420a",
+        "ashby-elevenlabs-b28719ff-833d-49b4-8286-f59082732186",
         "ashby-elevenlabs-b36c7a45-a888-49b5-9130-584eb7c2aa95",
         "ashby-elevenlabs-b42a0f43-f5e9-4a9d-83d0-8b8bc2d669fa",
         "ashby-elevenlabs-b43e388f-f204-41c5-a2bc-ee3bc1281e39",
@@ -1853,6 +1858,7 @@
         "ashby-elevenlabs-db8e1ff9-5a5a-49ed-89ea-93f993e5a65f",
         "ashby-elevenlabs-de0b9e17-6a32-4034-8a38-dba2513ad326",
         "ashby-elevenlabs-e0fdb2f5-54b4-4dff-813d-2c328d990e4c",
+        "ashby-elevenlabs-e3dd4d18-28c5-4923-ae2d-de8a2852d574",
         "ashby-elevenlabs-e53c5be6-5c1a-4870-ad85-8397a1f201de",
         "ashby-elevenlabs-e5c45832-a952-4584-9874-25580b5b4993",
         "ashby-elevenlabs-e5cca48b-1f34-48fe-9ebf-3c6ff526f9ba",
@@ -4105,16 +4111,6 @@
       "fit_reason": "Brand Manager role at Coca-Cola fits candidate's analytics-driven marketing background, leverages Nielsen experience from prior internship, requires 3 years (candidate meets this floor), and aligns with growth/GTM strategy focus; exception applies since candidate interned at Coca-Cola."
     },
     {
-      "id": "wd-coke-Sales-Manager_R-145146",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Sales Manager",
-      "location": "US - GA - Atlanta",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Sales-Manager_R-145146",
-      "first_seen": "2026-08-24T00:40:29.606198+00:00",
-      "fit_reason": "Sales Manager role at Coca-Cola managing existing customer portfolio with growth strategy, business reviews, and cross-functional activation\u2014core revenue-operations work aligned with candidate's target; 3+ years requirement is met; field-sales exclusion waived per Coca-Cola exception in profile."
-    },
-    {
       "id": "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
       "company_key": "snap",
       "company_name": "Snap Inc.",
@@ -4463,17 +4459,7 @@
       "url": "https://job-boards.greenhouse.io/harrys/jobs/8119608",
       "first_seen": "2026-08-25T00:24:02.256723+00:00",
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
-    },
-    {
-      "id": "gh-datadog-8147903",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "Enterprise Customer Success Manager - Denver",
-      "location": "Denver, Colorado, USA",
-      "url": "https://careers.datadoghq.com/detail/8147903/?gh_jid=8147903",
-      "first_seen": "2026-08-25T14:06:07.863476+00:00",
-      "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and strategic value delivery within existing portfolio\u2014core responsibilities align with candidate's demonstrated account management, data-driven optimization, and lifecycle marketing work at Chick-fil-A; 3 years required matches candidate's experience level."
     }
   ],
-  "last_run": "2026-08-25T15:03:43.939820+00:00"
+  "last_run": "2026-08-25T15:58:12.050449+00:00"
 }
