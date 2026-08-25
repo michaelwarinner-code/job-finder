@@ -759,6 +759,7 @@
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
         "lever-spotify-f58775f4-574f-40df-8b25-528381203154",
         "lever-spotify-f7b3c8d4-08b6-4f24-bf10-02b8964f96e8",
+        "lever-spotify-faffd837-edbc-42f8-b4bf-14e1658c18e6",
         "lever-spotify-fc779380-7e9c-48be-a730-e789fed1879e"
       ]
     },
@@ -1991,6 +1992,7 @@
         "gh-datadog-6512586",
         "gh-datadog-6522009",
         "gh-datadog-6522720",
+        "gh-datadog-6522747",
         "gh-datadog-6523631",
         "gh-datadog-6572669",
         "gh-datadog-6632056",
@@ -2414,6 +2416,7 @@
         "gh-datadog-8146927",
         "gh-datadog-8146986",
         "gh-datadog-8146998",
+        "gh-datadog-8152488",
         "gh-datadog-8155867"
       ]
     },
@@ -2747,6 +2750,7 @@
         "gh-mongodb-8081378",
         "gh-mongodb-8081430",
         "gh-mongodb-8081945",
+        "gh-mongodb-8082623",
         "gh-mongodb-8083346",
         "gh-mongodb-8083366",
         "gh-mongodb-8083437",
@@ -3436,7 +3440,8 @@
         "gh-glossier-8128549",
         "gh-glossier-8137933",
         "gh-glossier-8147906",
-        "gh-glossier-8149293"
+        "gh-glossier-8149293",
+        "gh-glossier-8156246"
       ]
     },
     "thirdlove": {
@@ -4450,5 +4455,5 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     }
   ],
-  "last_run": "2026-08-25T12:01:24.580064+00:00"
+  "last_run": "2026-08-25T13:09:48.163719+00:00"
 }
