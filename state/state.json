@@ -3154,6 +3154,7 @@
         "gh-braze-8147282",
         "gh-braze-8151929",
         "gh-braze-8153924",
+        "gh-braze-8154974",
         "gh-braze-8155117",
         "gh-braze-8155118",
         "gh-braze-8155119",
@@ -3330,7 +3331,8 @@
         "gh-justworks-8139346",
         "gh-justworks-8139351",
         "gh-justworks-8139719",
-        "gh-justworks-8139741"
+        "gh-justworks-8139741",
+        "gh-justworks-8147016"
       ]
     },
     "appsflyer": {
@@ -4472,5 +4474,5 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     }
   ],
-  "last_run": "2026-08-25T17:58:30.637544+00:00"
+  "last_run": "2026-08-25T18:51:49.832300+00:00"
 }
