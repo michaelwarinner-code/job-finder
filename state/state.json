@@ -484,6 +484,9 @@
         "gh-doordashusa-8154315",
         "gh-doordashusa-8154443",
         "gh-doordashusa-8154563",
+        "gh-doordashusa-8155046",
+        "gh-doordashusa-8155049",
+        "gh-doordashusa-8155050",
         "gh-doordashusa-8155233",
         "gh-doordashusa-8155308",
         "gh-doordashusa-8155457",
@@ -494,7 +497,8 @@
         "gh-doordashusa-8156875",
         "gh-doordashusa-8156886",
         "gh-doordashusa-8156907",
-        "gh-doordashusa-8157606"
+        "gh-doordashusa-8157606",
+        "gh-doordashusa-8158018"
       ]
     },
     "hubspot": {
@@ -731,6 +735,7 @@
         "lever-spotify-973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b",
         "lever-spotify-9761af44-be41-43ca-8c01-79cdbb2aef93",
         "lever-spotify-9ce12867-8c84-40c5-be40-d8831ab98925",
+        "lever-spotify-9d90d15c-541b-4360-bdaf-c6a5e9479e8a",
         "lever-spotify-9eca14d3-8e0b-46de-8161-704e07f3d9d0",
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
@@ -4485,5 +4490,5 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     }
   ],
-  "last_run": "2026-08-26T00:25:32.748747+00:00"
+  "last_run": "2026-08-26T02:10:28.248489+00:00"
 }
