@@ -669,6 +669,7 @@
         "gh-hubspotjobs-8103709",
         "gh-hubspotjobs-8105358",
         "gh-hubspotjobs-8112940",
+        "gh-hubspotjobs-8118884",
         "gh-hubspotjobs-8118941",
         "gh-hubspotjobs-8119462",
         "gh-hubspotjobs-8120023",
@@ -2707,6 +2708,7 @@
         "gh-mongodb-8020483",
         "gh-mongodb-8021118",
         "gh-mongodb-8023912",
+        "gh-mongodb-8023944",
         "gh-mongodb-8025824",
         "gh-mongodb-8025827",
         "gh-mongodb-8028587",
@@ -2817,6 +2819,7 @@
         "gh-mongodb-8089929",
         "gh-mongodb-8089932",
         "gh-mongodb-8090745",
+        "gh-mongodb-8091796",
         "gh-mongodb-8091841",
         "gh-mongodb-8092253",
         "gh-mongodb-8092317",
@@ -2831,6 +2834,7 @@
         "gh-mongodb-8098473",
         "gh-mongodb-8098695",
         "gh-mongodb-8099122",
+        "gh-mongodb-8100224",
         "gh-mongodb-8105037",
         "gh-mongodb-8106084",
         "gh-mongodb-8106099",
@@ -2890,6 +2894,7 @@
         "gh-mongodb-8143761",
         "gh-mongodb-8152623",
         "gh-mongodb-8152810",
+        "gh-mongodb-8152813",
         "gh-mongodb-8153054",
         "gh-mongodb-8153715",
         "gh-mongodb-8158531"
@@ -3182,10 +3187,15 @@
         "gh-braze-8145903",
         "gh-braze-8145908",
         "gh-braze-8145911",
+        "gh-braze-8146087",
         "gh-braze-8147280",
         "gh-braze-8147282",
         "gh-braze-8151929",
         "gh-braze-8153924",
+        "gh-braze-8154218",
+        "gh-braze-8154251",
+        "gh-braze-8154252",
+        "gh-braze-8154253",
         "gh-braze-8154974",
         "gh-braze-8155117",
         "gh-braze-8155118",
@@ -3195,7 +3205,10 @@
         "gh-braze-8157438",
         "gh-braze-8157621",
         "gh-braze-8157669",
-        "gh-braze-8158102"
+        "gh-braze-8158102",
+        "gh-braze-8159260",
+        "gh-braze-8159264",
+        "gh-braze-8159345"
       ]
     },
     "classpass": {
@@ -3308,6 +3321,7 @@
         "gh-justworks-7914438",
         "gh-justworks-7914440",
         "gh-justworks-7918735",
+        "gh-justworks-7918751",
         "gh-justworks-7920941",
         "gh-justworks-7927887",
         "gh-justworks-7930227",
@@ -4555,5 +4569,5 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     }
   ],
-  "last_run": "2026-08-26T13:03:02.741201+00:00"
+  "last_run": "2026-08-26T14:02:28.671354+00:00"
 }
