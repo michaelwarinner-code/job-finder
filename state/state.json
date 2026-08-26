@@ -386,6 +386,7 @@
         "gh-doordashusa-8090092",
         "gh-doordashusa-8090100",
         "gh-doordashusa-8090114",
+        "gh-doordashusa-8090130",
         "gh-doordashusa-8090184",
         "gh-doordashusa-8091749",
         "gh-doordashusa-8091819",
@@ -505,7 +506,8 @@
         "gh-doordashusa-8159040",
         "gh-doordashusa-8159041",
         "gh-doordashusa-8159042",
-        "gh-doordashusa-8159376"
+        "gh-doordashusa-8159376",
+        "gh-doordashusa-8160193"
       ]
     },
     "hubspot": {
@@ -1138,6 +1140,7 @@
         "wd-coke-Director--Global-Strategy--Planning-and-Business-Insights_R-144750",
         "wd-coke-Director--International-Treasury_R-145047",
         "wd-coke-Director--Leadership-Communications-and-Engagement_R-143582",
+        "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
@@ -1326,6 +1329,7 @@
         "wd-coke-Sr-Data-Engineer_R-144457",
         "wd-coke-Sr-Director--Customer-Sales--Large-Format_R-143344",
         "wd-coke-Sr-Director--Product-Management---Delivery---Flex_R-144580",
+        "wd-coke-Sr-Key-Account-Manager---West-Convenience-Retail_R-145495",
         "wd-coke-Staff-Product-Designer_R-145061",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
         "wd-coke-Trainee-Lawyer_R-144627",
@@ -1414,6 +1418,7 @@
         "ashby-perplexity-acd466ba-536f-49da-968a-15b8c53298f8",
         "ashby-perplexity-ae171702-2f2c-4eaa-9083-29fad618fd92",
         "ashby-perplexity-affd3040-91e4-4e0c-bd2f-4b022c613f91",
+        "ashby-perplexity-b00cbb00-f672-4909-a7be-bbd02c7d7b5f",
         "ashby-perplexity-b349ec0e-be02-47b0-8595-8de0dbb074c5",
         "ashby-perplexity-b404e73c-5aff-4151-a1a8-6593fb6ccabf",
         "ashby-perplexity-b4e14a27-4aa7-4913-91e8-ca88e6310e80",
@@ -1517,6 +1522,7 @@
         "ashby-cursor-1a4d2899-ab97-406b-b0c9-728ced120e72",
         "ashby-cursor-1b422774-a090-455f-a8f8-64f68d7f86e5",
         "ashby-cursor-1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
+        "ashby-cursor-1d56ed97-eee3-406d-91e2-7feed88ce6f0",
         "ashby-cursor-1d6dbbb2-a5af-41a6-a70a-ca97690d9313",
         "ashby-cursor-259d711f-606d-4f1c-a5f6-61e2fa5b52d5",
         "ashby-cursor-27a7ac90-fe2a-4352-ad56-3548a64c9b64",
@@ -2010,7 +2016,8 @@
         "gh-spothopper-4378186009",
         "gh-spothopper-4378604009",
         "gh-spothopper-4378606009",
-        "gh-spothopper-4378619009"
+        "gh-spothopper-4378619009",
+        "gh-spothopper-4383964009"
       ]
     },
     "datadog": {
@@ -2062,6 +2069,7 @@
         "gh-datadog-6686710",
         "gh-datadog-6690499",
         "gh-datadog-6703351",
+        "gh-datadog-6741571",
         "gh-datadog-6759702",
         "gh-datadog-6761448",
         "gh-datadog-6781197",
@@ -2150,7 +2158,9 @@
         "gh-datadog-7548129",
         "gh-datadog-7554877",
         "gh-datadog-7555575",
+        "gh-datadog-7558666",
         "gh-datadog-7560494",
+        "gh-datadog-7560815",
         "gh-datadog-7576831",
         "gh-datadog-7582679",
         "gh-datadog-7582681",
@@ -2514,6 +2524,7 @@
         "gh-mongodb-6987968",
         "gh-mongodb-7027846",
         "gh-mongodb-7028355",
+        "gh-mongodb-7031396",
         "gh-mongodb-7032023",
         "gh-mongodb-7056256",
         "gh-mongodb-7110155",
@@ -3810,7 +3821,9 @@
         "gh-yotpo-8141466",
         "gh-yotpo-8143527",
         "gh-yotpo-8143530",
-        "gh-yotpo-8152786"
+        "gh-yotpo-8152786",
+        "gh-yotpo-8159437",
+        "gh-yotpo-8159485"
       ]
     },
     "flatironhealth": {
@@ -4191,16 +4204,6 @@
       "fit_reason": "Strong fit: GTM/growth strategy role with consultative selling, product positioning, onboarding, and cross-functional work; candidate has directly comparable experience (catering expansion, campaign testing, product feedback loops, stakeholder management at Chick-fil-A); no years floor stated; restaurant/merchant context is a preferred (not required) qualification that candidate has via DoorDash audit work and Chick-fil-A operations."
     },
     {
-      "id": "gh-doordashusa-8105649",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Senior Merchant Success Manager (Drive), Enterprise Sales",
-      "location": "Tempe, AZ; Atlanta, GA; Austin, TX; Chicago, IL; Denver, CO; Philadelphia, PA; Miami, FL; United States - Remote",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8105649",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Enterprise account management role with growth/expansion focus (Drive adoption, partner revenue growth, strategy conversations) aligns with candidate's GTM/account management targets; 3-5+ years stated (floor is 3, which candidate meets); 'Senior' here modifies the compound title 'Merchant Success Manager,' not a standalone people-management role."
-    },
-    {
       "id": "gh-doordashusa-8143360",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -4579,7 +4582,27 @@
       "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
       "first_seen": "2026-08-26T16:34:37.167763+00:00",
       "fit_reason": "Growth, Digital role centered on paid-channel optimization, measurement, and pipeline ownership aligns with candidate's growth/performance marketing targets; candidate has demonstrated paid social (Meta Ads), campaign measurement, funnel design, and cross-functional execution; no years floor stated; single unfamiliar tools (connected TV, Reddit/X at scale, CAPI setup) are learnable and listed as nice-to-have or experimental."
+    },
+    {
+      "id": "ashby-cursor-1d56ed97-eee3-406d-91e2-7feed88ce6f0",
+      "company_key": "cursor",
+      "company_name": "Cursor",
+      "title": "Account Executive, Commercial Expansion - San Francisco",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/cursor/1d56ed97-eee3-406d-91e2-7feed88ce6f0",
+      "first_seen": "2026-08-26T18:24:07.508354+00:00",
+      "fit_reason": "Account expansion/renewal ownership of existing portfolio aligns with revenue operations and account management targets; 2+ years requirement is met by candidate's 3.5 years at Chick-fil-A demonstrating expansion, retention, and multi-stakeholder relationship building; no cold calling listed as core function."
+    },
+    {
+      "id": "gh-yotpo-8159437",
+      "company_key": "yotpo",
+      "company_name": "Yotpo",
+      "title": "Upmarket Customer Success Manager, Discover ",
+      "location": "New York",
+      "url": "https://www.yotpo.com/careers/gid-8159437?gh_jid=8159437",
+      "first_seen": "2026-08-26T18:24:07.508354+00:00",
+      "fit_reason": "Customer Success Manager role focused on retention, expansion, and strategic customer outcomes within existing accounts\u2014core growth/lifecycle work. Candidate has 3+ years relevant experience (Chick-fil-A role demonstrates retention campaigns, win-back programs, relationship building, and data-driven expansion). SEO expertise is listed as a plus, not a hard requirement; candidate's analytical and campaign-optimization background transfers well. Early-stage product-building aspect aligns with candidate's demonstrated ability to create structure and playbooks."
     }
   ],
-  "last_run": "2026-08-26T16:34:37.167763+00:00"
+  "last_run": "2026-08-26T18:24:07.508354+00:00"
 }
