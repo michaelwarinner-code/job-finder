@@ -64,6 +64,7 @@
         "gh-doordashusa-6617009",
         "gh-doordashusa-6631675",
         "gh-doordashusa-6682078",
+        "gh-doordashusa-6706184",
         "gh-doordashusa-6722323",
         "gh-doordashusa-6746075",
         "gh-doordashusa-6770099",
@@ -77,6 +78,7 @@
         "gh-doordashusa-6960483",
         "gh-doordashusa-6972095",
         "gh-doordashusa-6973900",
+        "gh-doordashusa-6978647",
         "gh-doordashusa-7003629",
         "gh-doordashusa-7015062",
         "gh-doordashusa-7028089",
@@ -502,7 +504,8 @@
         "gh-doordashusa-8158018",
         "gh-doordashusa-8159040",
         "gh-doordashusa-8159041",
-        "gh-doordashusa-8159042"
+        "gh-doordashusa-8159042",
+        "gh-doordashusa-8159376"
       ]
     },
     "hubspot": {
@@ -674,8 +677,10 @@
         "gh-hubspotjobs-8119462",
         "gh-hubspotjobs-8120023",
         "gh-hubspotjobs-8120519",
+        "gh-hubspotjobs-8128853",
         "gh-hubspotjobs-8137762",
-        "gh-hubspotjobs-8143908"
+        "gh-hubspotjobs-8143908",
+        "gh-hubspotjobs-8159454"
       ]
     },
     "spotify": {
@@ -696,6 +701,7 @@
         "lever-spotify-1692fccc-29f4-4525-a683-b004c2ec62b9",
         "lever-spotify-17a75d93-835d-40ce-b31e-0c381b49f40a",
         "lever-spotify-1849318a-d2e4-48a6-adad-68f8a4518f7d",
+        "lever-spotify-1961fa91-bdba-450a-bfb6-fc8d8d5c9e9c",
         "lever-spotify-1a01cbcb-1b72-410d-a450-fb3175fa9d2b",
         "lever-spotify-1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
         "lever-spotify-1cafb489-9cae-4417-b272-832617484de0",
@@ -767,6 +773,7 @@
         "lever-spotify-c643c970-a0e5-429b-bedf-48286bace11e",
         "lever-spotify-c73be71c-1a63-4906-9925-95f2115d1f1d",
         "lever-spotify-cab9bb55-7855-45ab-b62f-b40ac2b2cc77",
+        "lever-spotify-cb45b193-9f92-4e9b-b936-8a738eed5fdc",
         "lever-spotify-cc21db45-9354-496b-b1a1-d5f293c4feb8",
         "lever-spotify-cfbb2765-b4e9-445a-b558-d1fa7876863d",
         "lever-spotify-d174a24c-bf16-4661-9b9a-32396e883c25",
@@ -833,6 +840,7 @@
         "ashby-claylabs-7f28a375-eb96-4ff9-a186-387dc709c418",
         "ashby-claylabs-80a86e2b-e875-43fb-8b36-8a2c70a0e5b0",
         "ashby-claylabs-80dcacfb-0a59-42b0-a38d-49abaf51716c",
+        "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
         "ashby-claylabs-82ca7670-1083-46e6-9ab4-a722fe535ef3",
         "ashby-claylabs-84eb158a-b39d-4048-9c9f-66fc55a24224",
         "ashby-claylabs-8ad9e4f3-d9f7-4f9d-bebb-b3f0efd22ac7",
@@ -1150,6 +1158,7 @@
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
         "wd-coke-Director-Finance--Germany_R-145211",
+        "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
         "wd-coke-Forklift-Operator-3rd-Shift----2152_R-144776",
         "wd-coke-Forklift-Operator_R-145181",
@@ -1210,6 +1219,7 @@
         "wd-coke-Production-Manager_R-145528",
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
         "wd-coke-Production-Operator---Training-Facilitator--M-F--11pm---7-30am-_R-145295",
+        "wd-coke-Production-Operator--Filling---Day-Shift--7am---7pm-_R-145400",
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-141911",
         "wd-coke-Production-Operator-I-Packaging---Nights----2150_R-144724",
         "wd-coke-Production-Operator-II----Filling---days_R-144990",
@@ -1687,6 +1697,7 @@
         "ashby-elevenlabs-13dbc714-dc3e-4743-9c25-3400c23b6673",
         "ashby-elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
         "ashby-elevenlabs-144dafdb-03aa-46ff-8555-a16ffec52abc",
+        "ashby-elevenlabs-14d0ad09-fa26-4aa5-9bb3-f22a7f5917b9",
         "ashby-elevenlabs-158034c9-eb7c-4348-a0b8-fa9e817b29f1",
         "ashby-elevenlabs-15eb4b53-fdd8-49e6-8c7c-0951f6e40b99",
         "ashby-elevenlabs-15f537a5-276d-45e3-82a5-49b7ba9f8e67",
@@ -2469,6 +2480,7 @@
         "gh-datadog-8147903",
         "gh-datadog-8148092",
         "gh-datadog-8152488",
+        "gh-datadog-8152975",
         "gh-datadog-8155867",
         "gh-datadog-8156460"
       ]
@@ -3706,7 +3718,8 @@
         "gh-movableink-8127742",
         "gh-movableink-8129544",
         "gh-movableink-8129548",
-        "gh-movableink-8129560"
+        "gh-movableink-8129560",
+        "gh-movableink-8157293"
       ]
     },
     "thefarmersdog": {
@@ -3986,16 +3999,6 @@
       "url": "https://jobs.ashbyhq.com/claylabs/b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
       "first_seen": "2026-08-22T23:21:23.062906+00:00",
       "fit_reason": "Growth, Enterprise is a core GTM/growth role with account-based strategy and revenue ownership that aligns with candidate's demonstrated lifecycle/funnel-building work; no years requirement stated, and candidate's 3+ years of growth/sales hybrid experience is sufficient."
-    },
-    {
-      "id": "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Growth, Digital",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
-      "first_seen": "2026-08-22T23:21:23.062906+00:00",
-      "fit_reason": "Growth, Digital role matches core target titles; candidate has demonstrated paid social (Meta Ads), campaign measurement, pipeline thinking, and 0\u21921 channel-building work at Chick-fil-A, with no stated years requirement to block match."
     },
     {
       "id": "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -4566,7 +4569,17 @@
       "url": "https://job-boards.greenhouse.io/harrys/jobs/8119608",
       "first_seen": "2026-08-25T00:24:02.256723+00:00",
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
+    },
+    {
+      "id": "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
+      "company_key": "clay",
+      "company_name": "Clay",
+      "title": "Growth, Digital",
+      "location": "New York",
+      "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
+      "first_seen": "2026-08-26T16:34:37.167763+00:00",
+      "fit_reason": "Growth, Digital role centered on paid-channel optimization, measurement, and pipeline ownership aligns with candidate's growth/performance marketing targets; candidate has demonstrated paid social (Meta Ads), campaign measurement, funnel design, and cross-functional execution; no years floor stated; single unfamiliar tools (connected TV, Reddit/X at scale, CAPI setup) are learnable and listed as nice-to-have or experimental."
     }
   ],
-  "last_run": "2026-08-26T14:02:28.671354+00:00"
+  "last_run": "2026-08-26T16:34:37.167763+00:00"
 }
