@@ -352,6 +352,7 @@
         "gh-doordashusa-8073181",
         "gh-doordashusa-8073192",
         "gh-doordashusa-8074768",
+        "gh-doordashusa-8075091",
         "gh-doordashusa-8076002",
         "gh-doordashusa-8076068",
         "gh-doordashusa-8076663",
@@ -477,6 +478,7 @@
         "gh-doordashusa-8147201",
         "gh-doordashusa-8147386",
         "gh-doordashusa-8147416",
+        "gh-doordashusa-8148153",
         "gh-doordashusa-8148457",
         "gh-doordashusa-8148519",
         "gh-doordashusa-8148531",
@@ -507,7 +509,10 @@
         "gh-doordashusa-8159041",
         "gh-doordashusa-8159042",
         "gh-doordashusa-8159376",
-        "gh-doordashusa-8160193"
+        "gh-doordashusa-8160170",
+        "gh-doordashusa-8160193",
+        "gh-doordashusa-8160255",
+        "gh-doordashusa-8160362"
       ]
     },
     "hubspot": {
@@ -720,6 +725,7 @@
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
         "lever-spotify-3f6aae92-7ae9-45cc-8b84-85b3bf0241c2",
         "lever-spotify-423ab477-2304-4ea4-bb60-7ac04bc9848c",
+        "lever-spotify-439b6276-df60-4a26-be26-ebdbc0891d4c",
         "lever-spotify-43e0d904-84f7-4cfa-a293-579fb9ac271f",
         "lever-spotify-46c223d0-7b9c-4bff-9035-c0c6cc67bbdf",
         "lever-spotify-47d4eabf-8d5a-4dab-ac72-de7b5b56841c",
@@ -1032,6 +1038,7 @@
         "wd-snapchat-Senior-Marketing-Scientist_R0045833",
         "wd-snapchat-Senior-SMC-Marketing-Specialist_R0046332-1",
         "wd-snapchat-Senior-Trust---Safety-Specialist_R0046434-2",
+        "wd-snapchat-Social-Content-Manager_R0046568-1",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
         "wd-snapchat-Software-Engineer--Backend--Level-5_Q326SWEB6-1",
@@ -1109,6 +1116,8 @@
         "wd-coke-Coca-Cola-Ignite-Intern---Strategy_R-139265",
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
+        "wd-coke-Consultant--Project-Manager_R-144938",
+        "wd-coke-Consultant--Strategy---Operations_R-140478",
         "wd-coke-Data-Engineer_R-144507-1",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
@@ -1161,6 +1170,7 @@
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
         "wd-coke-Director-Finance--Germany_R-145211",
+        "wd-coke-Director-Sales-Systems--Tools---Reporting--Nutrition---0101-NA-Customer-Operations_R-145464",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
         "wd-coke-Forklift-Operator-3rd-Shift----2152_R-144776",
@@ -1191,6 +1201,7 @@
         "wd-coke-Manager--Brand-Management--Fanta_R-143404-1",
         "wd-coke-Manager--Brand-Management--Sweetened-Tea_R-143165-1",
         "wd-coke-Manager--Business-Analysis---Japan_R-144468",
+        "wd-coke-Manager--Communications---Change-Management_R-144552",
         "wd-coke-Manager--Communications_R-144619-1",
         "wd-coke-Manager--Customer-Finance_R-145266-1",
         "wd-coke-Manager--Data-Product-Management---Japan_R-144509",
@@ -1263,6 +1274,7 @@
         "wd-coke-Senior-Director--Coca-Cola-TradeMark-Category-Turkiye_R-134278",
         "wd-coke-Senior-Director--Communication--Change-Leadership-Capability_R-144411",
         "wd-coke-Senior-Director--Creative-Strategist---Content_R-136962",
+        "wd-coke-Senior-Director--Customer---Vendor-Data-Governance_R-144547",
         "wd-coke-Senior-Director--Data-Analytics_R-144573",
         "wd-coke-Senior-Director--Data-Architecture---Engineering_R-145264",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
@@ -1377,6 +1389,7 @@
         "ashby-perplexity-457d84e7-6a36-4499-ae61-db92a2c404b9",
         "ashby-perplexity-4615ca06-bea7-47e3-9e57-f5cee52b75e6",
         "ashby-perplexity-4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8",
+        "ashby-perplexity-50a2def5-adeb-4f13-99c1-88c32482b772",
         "ashby-perplexity-5551fd7b-9ede-460e-9b38-4328c476a521",
         "ashby-perplexity-598e1f7d-b802-4de2-99ac-90eb2bc33315",
         "ashby-perplexity-5ec96ca1-319a-4b85-99ce-e06629099cf9",
@@ -1604,6 +1617,7 @@
         "ashby-cursor-cd4bad0a-e2f6-4a8d-9b57-ce1780efedae",
         "ashby-cursor-cda9256f-e820-4f0a-9e77-e44c61295e1d",
         "ashby-cursor-d0cf5203-2db2-40b6-b1fe-1656ec288ce3",
+        "ashby-cursor-d225fc95-a56f-466a-9588-d75a7f38c426",
         "ashby-cursor-d4308a8f-81b7-4f67-b3ae-111bb0d87197",
         "ashby-cursor-d7f1bf1f-b684-4994-9b70-9ce7c78bacd2",
         "ashby-cursor-d90eb6d1-b1cd-44cd-8115-16e466286c9f",
@@ -1615,6 +1629,7 @@
         "ashby-cursor-e08262e8-c089-488d-9b59-9e21f7702b64",
         "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352",
         "ashby-cursor-e5d8ed7a-b93d-464f-a8d1-a4fa60e808d5",
+        "ashby-cursor-e842b809-a93d-44a3-888c-40c997c71a34",
         "ashby-cursor-eabcff15-deb2-4e5c-a17d-8c36eb7f6c1d",
         "ashby-cursor-eb238291-8a00-4385-8108-4e4d634c2be0",
         "ashby-cursor-f27e0997-e283-4015-be61-e13d844a2834",
@@ -2655,6 +2670,7 @@
         "gh-mongodb-7818635",
         "gh-mongodb-7821316",
         "gh-mongodb-7831454",
+        "gh-mongodb-7835609",
         "gh-mongodb-7838287",
         "gh-mongodb-7843814",
         "gh-mongodb-7843982",
@@ -2919,7 +2935,8 @@
         "gh-mongodb-8152813",
         "gh-mongodb-8153054",
         "gh-mongodb-8153715",
-        "gh-mongodb-8158531"
+        "gh-mongodb-8158531",
+        "gh-mongodb-8160195"
       ]
     },
     "braze": {
@@ -3257,6 +3274,7 @@
         "gh-classpass-4687186006",
         "gh-classpass-4687388006",
         "gh-classpass-4687904006",
+        "gh-classpass-4691074006",
         "gh-classpass-4691247006",
         "gh-classpass-4691559006",
         "gh-classpass-4691899006",
@@ -4604,5 +4622,5 @@
       "fit_reason": "Customer Success Manager role focused on retention, expansion, and strategic customer outcomes within existing accounts\u2014core growth/lifecycle work. Candidate has 3+ years relevant experience (Chick-fil-A role demonstrates retention campaigns, win-back programs, relationship building, and data-driven expansion). SEO expertise is listed as a plus, not a hard requirement; candidate's analytical and campaign-optimization background transfers well. Early-stage product-building aspect aligns with candidate's demonstrated ability to create structure and playbooks."
     }
   ],
-  "last_run": "2026-08-26T18:24:07.508354+00:00"
+  "last_run": "2026-08-26T20:41:03.699219+00:00"
 }
