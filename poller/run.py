@@ -30,6 +30,7 @@ from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 
 from ats_fetchers import FETCHERS, fetch_workday, fetch_workday_job_description
+from manual_source import load_manual_postings
 from keyword_filter import passes_keyword_filter
 from claude_judge import judge_fit
 from telegram import send_telegram_alert
@@ -61,9 +62,9 @@ def fetch_company_jobs(key, cfg):
     ats = cfg["ats"]
     if ats == "workday":
         jobs = fetch_workday(cfg["workday_tenant"], cfg["workday_site"])
-        # Workday needs a 2nd call per job for description -- only do this
-        # lazily, later, for jobs that pass the keyword filter (cost control).
         return jobs
+    if ats == "manual":
+        return load_manual_postings(key)
     fetcher = FETCHERS[ats]
     return fetcher(cfg["board_token"])
 
