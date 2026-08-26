@@ -3873,7 +3873,13 @@
         "gh-harrys-8154215",
         "gh-harrys-8154231"
       ]
-    }
+    },
+    "microsoft": { "name": "Microsoft", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] },
+    "accenture": { "name": "Accenture", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] },
+    "tiktok": { "name": "TikTok", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] },
+    "google": { "name": "Google", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] },
+    "uber": { "name": "Uber", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] },
+    "amazon": { "name": "Amazon", "ats": "manual", "enabled": true, "is_priority": true, "needs_resync": true, "known_job_ids": [] }
   },
   "applied_ids": [
     "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1"
