@@ -497,6 +497,7 @@
         "gh-doordashusa-8155308",
         "gh-doordashusa-8155457",
         "gh-doordashusa-8156042",
+        "gh-doordashusa-8156324",
         "gh-doordashusa-8156373",
         "gh-doordashusa-8156392",
         "gh-doordashusa-8156642",
@@ -512,7 +513,10 @@
         "gh-doordashusa-8160170",
         "gh-doordashusa-8160193",
         "gh-doordashusa-8160255",
-        "gh-doordashusa-8160362"
+        "gh-doordashusa-8160362",
+        "gh-doordashusa-8160437",
+        "gh-doordashusa-8160815",
+        "gh-doordashusa-8160819"
       ]
     },
     "hubspot": {
@@ -831,6 +835,7 @@
         "ashby-claylabs-29f84bd5-71d5-411f-a3dc-3592949a5240",
         "ashby-claylabs-2eba1b88-d3d2-4c80-a506-b367d85110bd",
         "ashby-claylabs-4056afb5-2d66-4ab3-a2b2-205a12f1c55e",
+        "ashby-claylabs-41246b56-fd7c-4b2c-af73-ce64cbfb3b21",
         "ashby-claylabs-4272b3bc-0ec3-46bf-8339-142889a97367",
         "ashby-claylabs-45fbd224-6a30-4b8e-8938-139ae0a0127f",
         "ashby-claylabs-4623405b-1062-4019-9979-129a86408d7b",
@@ -1124,6 +1129,7 @@
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
         "wd-coke-Director--CCTM-Meals-Strategy_R-141714",
         "wd-coke-Director--Care---PACS-Digital-Services---Japan_R-144521-1",
+        "wd-coke-Director--Category-Leadership--Walmart_R-145579",
         "wd-coke-Director--Coca-Cola-TradeMark-Marketing-Pakistan_R-142999",
         "wd-coke-Director--Coffee--Georgia-OTC-Execution_R-139557",
         "wd-coke-Director--Connections---Media_R-144890",
@@ -1389,6 +1395,7 @@
         "ashby-perplexity-457d84e7-6a36-4499-ae61-db92a2c404b9",
         "ashby-perplexity-4615ca06-bea7-47e3-9e57-f5cee52b75e6",
         "ashby-perplexity-4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8",
+        "ashby-perplexity-4fba58de-a168-4948-9d82-a7d4b38f45f2",
         "ashby-perplexity-50a2def5-adeb-4f13-99c1-88c32482b772",
         "ashby-perplexity-5551fd7b-9ede-460e-9b38-4328c476a521",
         "ashby-perplexity-598e1f7d-b802-4de2-99ac-90eb2bc33315",
@@ -3638,6 +3645,7 @@
         "gh-yext-8074743",
         "gh-yext-8077562",
         "gh-yext-8125779",
+        "gh-yext-8130574",
         "gh-yext-8138243",
         "gh-yext-8138263",
         "gh-yext-8146328"
@@ -4622,5 +4630,5 @@
       "fit_reason": "Customer Success Manager role focused on retention, expansion, and strategic customer outcomes within existing accounts\u2014core growth/lifecycle work. Candidate has 3+ years relevant experience (Chick-fil-A role demonstrates retention campaigns, win-back programs, relationship building, and data-driven expansion). SEO expertise is listed as a plus, not a hard requirement; candidate's analytical and campaign-optimization background transfers well. Early-stage product-building aspect aligns with candidate's demonstrated ability to create structure and playbooks."
     }
   ],
-  "last_run": "2026-08-26T20:41:03.699219+00:00"
+  "last_run": "2026-08-27T00:17:22.249437+00:00"
 }
