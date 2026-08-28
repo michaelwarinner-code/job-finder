@@ -388,6 +388,7 @@
         "gh-doordashusa-8090100",
         "gh-doordashusa-8090114",
         "gh-doordashusa-8090130",
+        "gh-doordashusa-8090146",
         "gh-doordashusa-8090184",
         "gh-doordashusa-8091749",
         "gh-doordashusa-8091819",
@@ -516,10 +517,15 @@
         "gh-doordashusa-8160255",
         "gh-doordashusa-8160362",
         "gh-doordashusa-8160437",
+        "gh-doordashusa-8160519",
         "gh-doordashusa-8160815",
         "gh-doordashusa-8160819",
+        "gh-doordashusa-8161300",
+        "gh-doordashusa-8161359",
         "gh-doordashusa-8161478",
-        "gh-doordashusa-8161490"
+        "gh-doordashusa-8161490",
+        "gh-doordashusa-8161604",
+        "gh-doordashusa-8164071"
       ]
     },
     "hubspot": {
@@ -658,6 +664,7 @@
         "gh-hubspotjobs-8036256",
         "gh-hubspotjobs-8038099",
         "gh-hubspotjobs-8038101",
+        "gh-hubspotjobs-8038103",
         "gh-hubspotjobs-8038105",
         "gh-hubspotjobs-8038107",
         "gh-hubspotjobs-8038109",
@@ -688,6 +695,7 @@
         "gh-hubspotjobs-8103709",
         "gh-hubspotjobs-8105358",
         "gh-hubspotjobs-8112940",
+        "gh-hubspotjobs-8114662",
         "gh-hubspotjobs-8118884",
         "gh-hubspotjobs-8118941",
         "gh-hubspotjobs-8119462",
@@ -698,7 +706,9 @@
         "gh-hubspotjobs-8143908",
         "gh-hubspotjobs-8159454",
         "gh-hubspotjobs-8161433",
-        "gh-hubspotjobs-8161436"
+        "gh-hubspotjobs-8161436",
+        "gh-hubspotjobs-8164396",
+        "gh-hubspotjobs-8164420"
       ]
     },
     "spotify": {
@@ -732,6 +742,7 @@
         "lever-spotify-308d127c-e765-4895-9264-3765ddbfc620",
         "lever-spotify-331d11c6-6056-45b4-8bd6-d289978b1919",
         "lever-spotify-337899c1-cf75-4af4-a020-1b2c82347fd6",
+        "lever-spotify-34e3828f-db98-486f-a077-cd67ece45be0",
         "lever-spotify-3895bc9e-ca1c-433c-8604-b58ae84aa577",
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
         "lever-spotify-3f6aae92-7ae9-45cc-8b84-85b3bf0241c2",
@@ -923,6 +934,7 @@
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Client-Partner_R0046583",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
+        "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
         "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
         "wd-snapchat-Design-Engineer--Core-Snapchat_R0046158-1",
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
@@ -1236,6 +1248,7 @@
         "wd-coke-Manager--Field-Execution---Specialty-Retail_R-145227-1",
         "wd-coke-Manager--Finance---Retail-Sales_R-145084",
         "wd-coke-Manager--Formula-Intelligence--R-D_R-143126",
+        "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
         "wd-coke-Manager--Guest-Experience---Operations--World-of-Coca-Cola-_R-144584",
         "wd-coke-Manager--Japan-E2EE_R-141273-1",
         "wd-coke-Manager--Logistics-Auotmation-Engineer_R-144313",
@@ -1249,11 +1262,13 @@
         "wd-coke-Manager--Technical-Readiness_R-144310",
         "wd-coke-Marketing-Director--Sprite---Philippines_R-145209",
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
+        "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
         "wd-coke-Operational-Excellence-Manager_R-144726",
         "wd-coke-Operator---Production--15-Months-Contract-_R-144085",
         "wd-coke-PQA-Specialist--1-Year-Contract-_R-144895",
         "wd-coke-Packaging-Analyst_R-141183",
         "wd-coke-Paralegal--Eurasia---Middle-East_R-145204-1",
+        "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
         "wd-coke-Process-Engineer_R-134009",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
@@ -1295,6 +1310,7 @@
         "wd-coke-Safety-Specialist_R-142205-1",
         "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
         "wd-coke-Sales-Manager_R-145146",
+        "wd-coke-Scientist--Product-Development--GDI_R-145664",
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
         "wd-coke-Senior-Director---Integration-Lead---Japan---South-Korea_R-144572",
         "wd-coke-Senior-Director--AI---Analytical-Engineering_R-145339",
@@ -1379,10 +1395,12 @@
         "wd-coke-Sr-Director--Product-Management---Delivery---Flex_R-144580",
         "wd-coke-Sr-Key-Account-Manager---West-Convenience-Retail_R-145495",
         "wd-coke-Staff-Product-Designer_R-145061",
+        "wd-coke-Strategic-Project--Senior-Manager_R-145739",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
         "wd-coke-Trainee-Lawyer_R-144627",
         "wd-coke-UEFA-EURO-2028-Senior-Project-Manager_R-144808-1",
         "wd-coke-Warehouse-Automation-Manager_R-142742",
+        "wd-coke-Warehouse-Operator_R-145771",
         "wd-coke-Warehouse-Receiver--Retail---The-Coca-Cola-Store-_R-145447",
         "wd-coke-Warehouse-Technician_R-144973"
       ]
@@ -1758,6 +1776,7 @@
         "ashby-elevenlabs-0dbfbe3e-7218-4045-ba78-28b0d2e5ab6d",
         "ashby-elevenlabs-0e690a2f-0a1a-4c4e-adf6-4dc3c6cbc3bd",
         "ashby-elevenlabs-1034a604-b714-428b-a9fd-fa8c0cd795cf",
+        "ashby-elevenlabs-118df45c-32b8-468e-88d4-691b9cae3627",
         "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8",
         "ashby-elevenlabs-13dbc714-dc3e-4743-9c25-3400c23b6673",
         "ashby-elevenlabs-13fcee94-512f-4229-b7ab-f91d3fdd24e3",
@@ -1788,6 +1807,7 @@
         "ashby-elevenlabs-2aa0b7f5-bd25-487f-9831-bcf623d8b11d",
         "ashby-elevenlabs-2c9dfcd0-0aa3-466a-8a5a-2b2351afbf81",
         "ashby-elevenlabs-2d4272f3-8cf3-487a-a399-1d3a5e74dca8",
+        "ashby-elevenlabs-2d7f9a7c-a9e6-4877-bb38-34e4d989054c",
         "ashby-elevenlabs-2d986e5a-4e34-4e58-b7ad-1d335f8d54b8",
         "ashby-elevenlabs-2db2a637-1b47-44d3-a506-069e97216946",
         "ashby-elevenlabs-2de358a6-ebea-4205-be57-33d1191154e3",
@@ -1812,6 +1832,7 @@
         "ashby-elevenlabs-3cfeeeae-fa89-4708-ad93-533953c29486",
         "ashby-elevenlabs-3d0bf739-c71f-42b0-b957-161572bc8e0e",
         "ashby-elevenlabs-3d650946-5ac2-4729-9ae4-129c43fcd0b5",
+        "ashby-elevenlabs-3db51b70-d22b-46f7-8888-763f4d73029a",
         "ashby-elevenlabs-3de325f9-98e1-41df-b34e-9f6fddb34fa4",
         "ashby-elevenlabs-3eede250-d2a7-4f13-b0b2-d8a530cb6130",
         "ashby-elevenlabs-3f10ccc9-56a9-40bf-b5f1-33ab5834ff4a",
@@ -1897,6 +1918,7 @@
         "ashby-elevenlabs-9ce2cd02-c7f2-4705-8b70-accab2f863e1",
         "ashby-elevenlabs-9dc3f256-3c42-4368-8d7e-ba9a3b3505e7",
         "ashby-elevenlabs-9e546bae-d86e-4f47-82cc-5b7b2ea28e12",
+        "ashby-elevenlabs-9fbd9227-57e0-4221-9255-1a1d967be8ed",
         "ashby-elevenlabs-9ff4210a-208d-4e65-a1ed-b2a6926bd4a7",
         "ashby-elevenlabs-a0389dc2-77d8-439b-960b-2acb8712991e",
         "ashby-elevenlabs-a21ec926-88d3-4f95-98be-c551fe1ec49f",
@@ -1910,6 +1932,7 @@
         "ashby-elevenlabs-a5a999e3-17f6-4f1f-aef3-bab73518244a",
         "ashby-elevenlabs-a605e308-0d28-42b6-8cbb-03cc7799cecc",
         "ashby-elevenlabs-a7804250-c35d-4d32-bfab-2ec9694ea13a",
+        "ashby-elevenlabs-a89a7892-3d9d-40ab-a3f1-1c6ed1f7b84f",
         "ashby-elevenlabs-aa387988-9983-46a0-a265-d678af9939cb",
         "ashby-elevenlabs-aa87b7bf-2fd5-4d94-9673-142f6349cf9e",
         "ashby-elevenlabs-aabab672-e4da-4e1f-bdf1-bf7f28622adf",
@@ -2164,6 +2187,7 @@
         "gh-datadog-7131726",
         "gh-datadog-7132132",
         "gh-datadog-7134079",
+        "gh-datadog-7137624",
         "gh-datadog-7142205",
         "gh-datadog-7172466",
         "gh-datadog-7180254",
@@ -2399,6 +2423,7 @@
         "gh-datadog-8035671",
         "gh-datadog-8035726",
         "gh-datadog-8036385",
+        "gh-datadog-8037749",
         "gh-datadog-8038652",
         "gh-datadog-8041182",
         "gh-datadog-8041594",
@@ -2503,6 +2528,7 @@
         "gh-datadog-8110038",
         "gh-datadog-8112183",
         "gh-datadog-8113116",
+        "gh-datadog-8113520",
         "gh-datadog-8113562",
         "gh-datadog-8114585",
         "gh-datadog-8115033",
@@ -2561,7 +2587,8 @@
         "gh-datadog-8152488",
         "gh-datadog-8152975",
         "gh-datadog-8155867",
-        "gh-datadog-8156460"
+        "gh-datadog-8156460",
+        "gh-datadog-8164181"
       ]
     },
     "mongodb": {
@@ -3307,6 +3334,7 @@
         "gh-braze-8159260",
         "gh-braze-8159264",
         "gh-braze-8159345",
+        "gh-braze-8161761",
         "gh-braze-8161894",
         "gh-braze-8161897",
         "gh-braze-8162966"
@@ -3754,7 +3782,8 @@
         "gh-mavenclinic-8726965002",
         "gh-mavenclinic-8756270002",
         "gh-mavenclinic-8756331002",
-        "gh-mavenclinic-8756820002"
+        "gh-mavenclinic-8756820002",
+        "gh-mavenclinic-8760212002"
       ]
     },
     "away": {
@@ -3769,6 +3798,7 @@
         "ashby-away-0fac0a0e-616a-478c-88d9-0897d12a73a8",
         "ashby-away-1cff8cf3-395d-420f-b818-8c783eea3981",
         "ashby-away-1e40fe4f-4b19-42e6-abff-7ad171c393f7",
+        "ashby-away-34625d13-7e6e-487f-81ea-c1767011642d",
         "ashby-away-35e66b86-a446-4f9b-bb6d-a6477603c1f5",
         "ashby-away-441140c4-ceb6-4998-a27a-a288ef8792ec",
         "ashby-away-4d854963-10ac-47b5-9f85-3a5cff8b723d",
@@ -4660,5 +4690,5 @@
       "fit_reason": "Product Marketing Manager is a core target title; candidate meets the 3-year floor (3.5 years relevant experience), demonstrates strong GTM/growth/funnel optimization work, and has transferable skills in campaign strategy, analytics, and cross-functional execution despite lacking gaming/creator-ecosystem specifics."
     }
   ],
-  "last_run": "2026-08-28T04:26:44.446418+00:00"
+  "last_run": "2026-08-28T16:52:46.282864+00:00"
 }
