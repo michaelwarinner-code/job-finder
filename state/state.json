@@ -2052,8 +2052,7 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
-        "ashby-boostly-3984ce9f-a067-4ed4-bab6-18611e0fc185",
-        "ashby-boostly-ed49ed81-b755-4383-b4ab-5306aa92a26f"
+        "ashby-boostly-3984ce9f-a067-4ed4-bab6-18611e0fc185"
       ]
     },
     "spothopper": {
