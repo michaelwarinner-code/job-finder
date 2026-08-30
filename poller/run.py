@@ -1,5 +1,3 @@
-from location_filter import is_us_location, is_ambiguous_location
-
 """
 Main entrypoint, run by GitHub Actions on a schedule (and on-demand via
 workflow_dispatch when a company is toggled back on for an immediate resync).
@@ -18,6 +16,11 @@ Logic per enabled company:
      (matched or not) so we don't re-evaluate it again.
   6. Write state.json back to disk (committed to the repo by the workflow step).
 
+Failed Telegram sends are queued in state["pending_notifications"] and
+retried at the start of every run, up to MAX_NOTIFY_ATTEMPTS times, so a
+transient failure (or a bad character that used to silently eat the alert)
+doesn't just vanish.
+
 Disabled companies are skipped entirely -- no fetch, no cost -- and their
 existing matches are filtered out at DISPLAY time by the dashboard (not
 deleted here), per spec.
@@ -31,12 +34,15 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from ats_fetchers import FETCHERS, fetch_workday, fetch_workday_job_description
 from manual_source import load_manual_postings
+from location_filter import is_us_location, is_ambiguous_location
 from keyword_filter import passes_keyword_filter
 from claude_judge import judge_fit
 from telegram import send_telegram_alert
 
 STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "state.json")
 PROFILE_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "candidate_profile.md")
+
+MAX_NOTIFY_ATTEMPTS = 5
 
 # Optional: restrict this run to a single company (used by the "resync on
 # toggle-on" workflow_dispatch trigger). Set via env var by the workflow.
@@ -69,10 +75,54 @@ def fetch_company_jobs(key, cfg):
     return fetcher(cfg["board_token"])
 
 
+def queue_notification(state, job_id, company_key, company_name, title, location, url, reason, is_priority):
+    state["pending_notifications"].append({
+        "job_id": job_id,
+        "company_key": company_key,
+        "company_name": company_name,
+        "title": title,
+        "location": location,
+        "url": url,
+        "reason": reason,
+        "is_priority": is_priority,
+        "attempts": 1,
+    })
+
+
+def flush_pending_notifications(state):
+    pending = state.get("pending_notifications", [])
+    if not pending:
+        return
+
+    print(f"[notify-retry] {len(pending)} pending notification(s) to retry")
+    still_pending = []
+    for entry in pending:
+        try:
+            send_telegram_alert(
+                entry["company_name"], entry["title"], entry["location"],
+                entry["url"], entry["reason"], entry.get("is_priority", True),
+            )
+            print(f"[notify-retry] sent: {entry['title']} ({entry['company_name']})")
+        except Exception as e:
+            entry["attempts"] += 1
+            if entry["attempts"] >= MAX_NOTIFY_ATTEMPTS:
+                print(f"[notify-retry] GIVING UP after {entry['attempts']} attempts on "
+                      f"'{entry['title']}' ({entry['company_name']}): {e}")
+            else:
+                print(f"[notify-retry] attempt {entry['attempts']} failed for "
+                      f"'{entry['title']}' ({entry['company_name']}): {e}")
+                still_pending.append(entry)
+
+    state["pending_notifications"] = still_pending
+
+
 def main():
     state = load_state()
+    state.setdefault("pending_notifications", [])
     profile = load_profile()
     now = datetime.now(timezone.utc).isoformat()
+
+    flush_pending_notifications(state)
 
     for key, cfg in state["companies"].items():
         if not cfg["enabled"]:
@@ -167,7 +217,12 @@ def main():
                             cfg.get("is_priority", True)
                         )
                     except Exception as e:
-                        print(f"[{key}] Telegram send failed: {e}")
+                        print(f"[{key}] Telegram send failed, queuing for retry: {e}")
+                        queue_notification(
+                            state, job["job_id"], key, cfg["name"], title,
+                            job.get("location", ""), job.get("url", ""), verdict["reason"],
+                            cfg.get("is_priority", True),
+                        )
                 else:
                     print(f"[{key}] resync match (notification suppressed): {title}")
 
