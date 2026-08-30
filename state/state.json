@@ -4062,31 +4062,6 @@
         "gh-cleo-4725537005"
       ]
     },
-    "harrys": {
-      "name": "Harry's",
-      "ats": "greenhouse",
-      "board_token": "harrys",
-      "enabled": true,
-      "is_priority": false,
-      "needs_resync": false,
-      "known_job_ids": [
-        "gh-harrys-7603778",
-        "gh-harrys-7957773",
-        "gh-harrys-7963730",
-        "gh-harrys-8067038",
-        "gh-harrys-8088984",
-        "gh-harrys-8091957",
-        "gh-harrys-8092176",
-        "gh-harrys-8094502",
-        "gh-harrys-8103374",
-        "gh-harrys-8103379",
-        "gh-harrys-8109383",
-        "gh-harrys-8119608",
-        "gh-harrys-8153988",
-        "gh-harrys-8154215",
-        "gh-harrys-8154231"
-      ]
-    },
     "microsoft": {
       "name": "Microsoft",
       "ats": "manual",
