@@ -3049,9 +3049,9 @@
       "name": "Braze",
       "ats": "greenhouse",
       "board_token": "braze",
-      "enabled": false,
+      "enabled": true,
       "is_priority": false,
-      "needs_resync": false,
+      "needs_resync": true,
       "known_job_ids": [
         "gh-braze-7668561",
         "gh-braze-7788980",
