@@ -3049,7 +3049,7 @@
       "name": "Braze",
       "ats": "greenhouse",
       "board_token": "braze",
-      "enabled": true,
+      "enabled": false,
       "is_priority": false,
       "needs_resync": false,
       "known_job_ids": [
