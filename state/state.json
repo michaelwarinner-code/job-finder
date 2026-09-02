@@ -555,8 +555,11 @@
         "gh-doordashusa-8171900",
         "gh-doordashusa-8172335",
         "gh-doordashusa-8172736",
+        "gh-doordashusa-8173994",
         "gh-doordashusa-8174010",
-        "gh-doordashusa-8174022"
+        "gh-doordashusa-8174022",
+        "gh-doordashusa-8174519",
+        "gh-doordashusa-8174594"
       ]
     },
     "hubspot": {
@@ -742,6 +745,7 @@
         "gh-hubspotjobs-8120519",
         "gh-hubspotjobs-8128853",
         "gh-hubspotjobs-8132247",
+        "gh-hubspotjobs-8135945",
         "gh-hubspotjobs-8137762",
         "gh-hubspotjobs-8143908",
         "gh-hubspotjobs-8159454",
@@ -1265,6 +1269,7 @@
         "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
+        "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
         "wd-coke-Director--Omni-Channel-CBL_R-136219-1",
         "wd-coke-Director--Operational-Excellence---Digitalization_R-143299",
@@ -1393,6 +1398,7 @@
         "wd-coke-Quality-Assurance---Tech-II_R-145037",
         "wd-coke-Quality-Assurance-Technician-Night-Shift--2450_R-145067",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
+        "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
         "wd-coke-Retail-Execution-Specialist---Knoxville--TN_R-141062",
         "wd-coke-Retail-Execution-Specialist---Tampa--FL_R-143847",
         "wd-coke-Retail-Execution-Specialist---West-Palm-Beach--FL_R-144385",
@@ -1740,6 +1746,7 @@
         "ashby-cursor-1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
         "ashby-cursor-1d56ed97-eee3-406d-91e2-7feed88ce6f0",
         "ashby-cursor-1d6dbbb2-a5af-41a6-a70a-ca97690d9313",
+        "ashby-cursor-232223c1-913a-4318-982b-1970e2842710",
         "ashby-cursor-259d711f-606d-4f1c-a5f6-61e2fa5b52d5",
         "ashby-cursor-27a7ac90-fe2a-4352-ad56-3548a64c9b64",
         "ashby-cursor-299ce422-0281-4282-aadd-bc22553be0b5",
@@ -2753,11 +2760,14 @@
         "gh-datadog-8157360",
         "gh-datadog-8162552",
         "gh-datadog-8163929",
+        "gh-datadog-8164133",
         "gh-datadog-8164181",
         "gh-datadog-8164215",
         "gh-datadog-8171026",
         "gh-datadog-8171303",
-        "gh-datadog-8172855"
+        "gh-datadog-8172855",
+        "gh-datadog-8173897",
+        "gh-datadog-8174592"
       ]
     },
     "mongodb": {
@@ -3218,7 +3228,8 @@
         "gh-mongodb-8167369",
         "gh-mongodb-8167389",
         "gh-mongodb-8167460",
-        "gh-mongodb-8170615"
+        "gh-mongodb-8170615",
+        "gh-mongodb-8170894"
       ]
     },
     "braze": {
@@ -4921,8 +4932,18 @@
       "url": "https://jobs.ashbyhq.com/perplexity/182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
       "first_seen": "2026-09-02T17:24:15.032395+00:00",
       "fit_reason": "Product Manager role with 2\u20134 years requirement (floor: 2 years); candidate has ~3.5 years substantive growth/marketing ops experience plus internships, demonstrating analytical rigor, campaign design, funnel building, and cross-functional execution\u2014core PM skills; SQL comfort, paid social, lifecycle marketing, and data-driven decision-making all present; agent/automation familiarity via Google Apps Script and AI tooling; no hard exclusions apply."
+    },
+    {
+      "id": "gh-doordashusa-8174594",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Associate Manager, Strategic Partnerships",
+      "location": "San Francisco, CA; New York, NY; Atlanta, GA; Los Angeles, CA; Chicago, IL",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8174594",
+      "first_seen": "2026-09-02T20:02:23.122051+00:00",
+      "fit_reason": "Strategic partnerships role centered on growth strategy, cross-functional execution, and data-driven decision-making with existing major restaurant accounts\u2014directly aligned with candidate's demonstrated GTM/growth/account-management experience at Chick-fil-A; 3 years stated requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-09-02T17:24:15.032395+00:00",
+  "last_run": "2026-09-02T20:02:23.122051+00:00",
   "pending_notifications": []
 }
