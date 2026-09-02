@@ -521,6 +521,7 @@
         "gh-doordashusa-8159376",
         "gh-doordashusa-8160170",
         "gh-doordashusa-8160193",
+        "gh-doordashusa-8160251",
         "gh-doordashusa-8160255",
         "gh-doordashusa-8160362",
         "gh-doordashusa-8160437",
@@ -550,7 +551,8 @@
         "gh-doordashusa-8171620",
         "gh-doordashusa-8171803",
         "gh-doordashusa-8171815",
-        "gh-doordashusa-8171900"
+        "gh-doordashusa-8171900",
+        "gh-doordashusa-8172335"
       ]
     },
     "hubspot": {
@@ -1131,6 +1133,7 @@
         "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-4_R0045604",
         "wd-snapchat-Software-Engineer--ML-Infrastructure_R0046629-1",
         "wd-snapchat-Software-Engineer--Specs--Level-5_R0046458-1",
+        "wd-snapchat-Software-Engineer--Specs-Lenses--Level-5_R0046666",
         "wd-snapchat-Software-Engineer--iOS--Level-3_R0046335-1",
         "wd-snapchat-Software-Engineer--iOS--Level-4_Q326SWEI2-1",
         "wd-snapchat-Software-Engineer--iOS--Level-5_Q326SWEI6-1",
@@ -1821,6 +1824,7 @@
         "ashby-runway-ml-2185626a-657a-4772-9519-50b2e7b2af1a",
         "ashby-runway-ml-28e151ac-cb29-4695-9041-a9e352624111",
         "ashby-runway-ml-2ca5c5d1-725d-4c44-907b-5d808ec248fe",
+        "ashby-runway-ml-3151fb5d-f216-4012-8e3d-23473ec11142",
         "ashby-runway-ml-36b0012b-a995-41c1-9eb4-e39285e0b451",
         "ashby-runway-ml-37a2df3b-dce1-45ea-add1-11967d6d6150",
         "ashby-runway-ml-37be5175-5a9a-4bee-9b5e-fb475350806b",
@@ -3101,6 +3105,7 @@
         "gh-mongodb-8119297",
         "gh-mongodb-8119328",
         "gh-mongodb-8119523",
+        "gh-mongodb-8119628",
         "gh-mongodb-8119756",
         "gh-mongodb-8119799",
         "gh-mongodb-8119841",
@@ -4839,6 +4844,6 @@
       "fit_reason": "Account management and partnerships work with retail/merchant strategy, campaign design, and analytics fit the candidate's growth/GTM target; 3+ years requirement is met by candidate's 3.3 years at Chick-fil-A plus internships; field travel is acceptable for a tech company partnership role, and analytics/AI tool gaps are learnable."
     }
   ],
-  "last_run": "2026-09-01T22:05:02.973009+00:00",
+  "last_run": "2026-09-02T00:10:12.280147+00:00",
   "pending_notifications": []
 }
