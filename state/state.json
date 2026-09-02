@@ -552,7 +552,8 @@
         "gh-doordashusa-8171803",
         "gh-doordashusa-8171815",
         "gh-doordashusa-8171900",
-        "gh-doordashusa-8172335"
+        "gh-doordashusa-8172335",
+        "gh-doordashusa-8172736"
       ]
     },
     "hubspot": {
@@ -960,6 +961,7 @@
         "wd-snapchat-Account-Manager_Q326AM3-1",
         "wd-snapchat-Account-Manager_R0046211",
         "wd-snapchat-Account-Manager_R0046484-1",
+        "wd-snapchat-Account-Manager_R0046668-1",
         "wd-snapchat-Accounts-Receivable-Analyst_R0045979-1",
         "wd-snapchat-Ad-Review---Integrity-Specialist_R0046549-1",
         "wd-snapchat-Agency-Partner_R0045546-2",
@@ -1080,6 +1082,7 @@
         "wd-snapchat-Program-Manager_R0046305-1",
         "wd-snapchat-Prototyping-Design-Software-Engineer_R0045842-1",
         "wd-snapchat-Quality-Engineer_R0046622-1",
+        "wd-snapchat-RF-Hardware-Engineer--Level-6_R0046667-1",
         "wd-snapchat-RF-Test-Engineer_R0043302-1",
         "wd-snapchat-Regulatory-Counsel_R0046380-2",
         "wd-snapchat-Reliability-and-Failure-Analysis-Engineer_R0045763-1",
@@ -1271,6 +1274,7 @@
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
         "wd-coke-Director-Finance--Germany_R-145211",
+        "wd-coke-Director-PACS---Bangladesh_R-145813",
         "wd-coke-Director-Phygital-Route-to-Market_R-144719",
         "wd-coke-Director-Sales-Systems--Tools---Reporting--Nutrition---0101-NA-Customer-Operations_R-145464",
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
@@ -1439,6 +1443,7 @@
         "wd-coke-Senior-Director--Shopper-Marketing_R-136997-1",
         "wd-coke-Senior-Director--Software-Engineering_R-144437",
         "wd-coke-Senior-Director--Strategic-Growth_R-145596",
+        "wd-coke-Senior-Director--Strategy-Integration--RO_R-138751-1",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
@@ -2132,6 +2137,7 @@
         "ashby-elevenlabs-f1427164-3037-47d1-a768-11cfb87953ae",
         "ashby-elevenlabs-f278c1e5-5710-4ed5-8c4f-9808ca1d2975",
         "ashby-elevenlabs-f2ae7fe0-67da-48ae-b126-b942899ec7e9",
+        "ashby-elevenlabs-f2bf078d-d104-4a7b-96fd-5187a550f4a0",
         "ashby-elevenlabs-f330bd23-f909-4e50-bf58-9974aee85fc8",
         "ashby-elevenlabs-f5e4cf91-f444-4b0b-9913-9d749fb9ba85",
         "ashby-elevenlabs-f805267e-2f77-4cdf-8d8a-a3ed5b07e726",
@@ -4847,6 +4853,6 @@
       "fit_reason": "Account management and partnerships work with retail/merchant strategy, campaign design, and analytics fit the candidate's growth/GTM target; 3+ years requirement is met by candidate's 3.3 years at Chick-fil-A plus internships; field travel is acceptable for a tech company partnership role, and analytics/AI tool gaps are learnable."
     }
   ],
-  "last_run": "2026-09-02T04:45:41.561426+00:00",
+  "last_run": "2026-09-02T09:07:35.607971+00:00",
   "pending_notifications": []
 }
