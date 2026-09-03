@@ -813,6 +813,7 @@
         "lever-spotify-76458bae-8a16-4c42-8780-f9452206f0e0",
         "lever-spotify-77526d53-3811-4336-9c0d-72f6ac0242c7",
         "lever-spotify-7aeec299-4653-4c5d-aafb-d537e1232208",
+        "lever-spotify-7ca182dc-9171-4184-bc5b-481c71892210",
         "lever-spotify-7ce8eee9-9371-43dd-b2fd-5759062938f6",
         "lever-spotify-7d57d7dd-be86-452f-8ff4-9aeb67280262",
         "lever-spotify-7f0a8faa-f4f5-4db9-9f51-4101d6a29b34",
@@ -2755,6 +2756,7 @@
         "gh-datadog-8146994",
         "gh-datadog-8146998",
         "gh-datadog-8147235",
+        "gh-datadog-8147614",
         "gh-datadog-8147740",
         "gh-datadog-8147903",
         "gh-datadog-8148092",
@@ -2872,6 +2874,7 @@
         "gh-mongodb-7590547",
         "gh-mongodb-7590587",
         "gh-mongodb-7590735",
+        "gh-mongodb-7593680",
         "gh-mongodb-7597723",
         "gh-mongodb-7599693",
         "gh-mongodb-7607210",
@@ -4965,6 +4968,6 @@
       "fit_reason": "Strategic partnerships role centered on growth strategy, cross-functional execution, and data-driven decision-making aligns with candidate's demonstrated GTM/growth/revenue-operations experience; 3+ years requirement matches candidate's ~3 years relevant experience; SQL is preferred (not hard requirement) and candidate has SQL fundamentals."
     }
   ],
-  "last_run": "2026-09-03T00:40:43.626132+00:00",
+  "last_run": "2026-09-03T05:13:24.026713+00:00",
   "pending_notifications": []
 }
