@@ -156,6 +156,7 @@
         "gh-doordashusa-7778759",
         "gh-doordashusa-7793527",
         "gh-doordashusa-7794002",
+        "gh-doordashusa-7797762",
         "gh-doordashusa-7797773",
         "gh-doordashusa-7797916",
         "gh-doordashusa-7804393",
@@ -561,7 +562,12 @@
         "gh-doordashusa-8174022",
         "gh-doordashusa-8174519",
         "gh-doordashusa-8174594",
-        "gh-doordashusa-8174832"
+        "gh-doordashusa-8174832",
+        "gh-doordashusa-8176849",
+        "gh-doordashusa-8176875",
+        "gh-doordashusa-8177070",
+        "gh-doordashusa-8177106",
+        "gh-doordashusa-8177196"
       ]
     },
     "hubspot": {
@@ -756,7 +762,9 @@
         "gh-hubspotjobs-8161433",
         "gh-hubspotjobs-8161436",
         "gh-hubspotjobs-8164396",
-        "gh-hubspotjobs-8164420"
+        "gh-hubspotjobs-8164420",
+        "gh-hubspotjobs-8175197",
+        "gh-hubspotjobs-8177549"
       ]
     },
     "spotify": {
@@ -776,6 +784,7 @@
         "lever-spotify-159e823e-5a29-4222-94bb-40e97f63cc93",
         "lever-spotify-1692fccc-29f4-4525-a683-b004c2ec62b9",
         "lever-spotify-17a75d93-835d-40ce-b31e-0c381b49f40a",
+        "lever-spotify-181c3eec-8f64-455b-8b9d-fde8c7902d59",
         "lever-spotify-1849318a-d2e4-48a6-adad-68f8a4518f7d",
         "lever-spotify-1961fa91-bdba-450a-bfb6-fc8d8d5c9e9c",
         "lever-spotify-1a01cbcb-1b72-410d-a450-fb3175fa9d2b",
@@ -988,6 +997,7 @@
         "wd-snapchat-Art-Director_R0046610-1",
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046261-1",
         "wd-snapchat-Client-Partner---12-months-Fixed-Term-Contract_R0046541",
+        "wd-snapchat-Client-Partner---Mid-Market_R0046689",
         "wd-snapchat-Client-Partner--7-month-contract_R0046652-1",
         "wd-snapchat-Client-Partner--Business-Development_R0046582-1",
         "wd-snapchat-Client-Partner--Gaming---Apps_R0046067-1",
@@ -1176,6 +1186,7 @@
         "wd-snapchat-Staff-Software-Engineer--ML-Feature-Store_R0046187-2",
         "wd-snapchat-Staff-Software-Engineer--Omnichannel-Notifications-System_R0046651",
         "wd-snapchat-Staff-Software-Engineer--Platform-Engineering_R0045781-1",
+        "wd-snapchat-Staff-Software-Engineer--Storage-and-Caching_R0046690-1",
         "wd-snapchat-Staff-Technical-Program-Manager--ML-Platform_R0046540",
         "wd-snapchat-Technical-Operations-Manufacturing-Electrical-Engineer_R0044144-1",
         "wd-snapchat-Technical-Partner-Manager--Enterprise-Solutions_H226TPMES-1",
@@ -1235,6 +1246,7 @@
         "wd-coke-Coca-Cola-Ignite-Intern---RGM_R-143124",
         "wd-coke-Coca-Cola-Ignite-Intern---Strategy_R-139265",
         "wd-coke-Collaboration---Messaging-Solutions-Engineer_R-145659-1",
+        "wd-coke-Construction-Manager_R-146007-5",
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics_R-145069",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
@@ -1310,6 +1322,7 @@
         "wd-coke-Equipment-Sales---Service-Analyst_R-145631",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
         "wd-coke-Executive-Assistant--Temporary-_R-145825",
+        "wd-coke-Finance-Capex-Manager_R-146005-6",
         "wd-coke-Forklift-Operator-2nd-Shift----2152_R-144639",
         "wd-coke-Forklift-Operator-3rd-Shift----2152_R-144776",
         "wd-coke-Forklift-Operator_R-145181",
@@ -1337,6 +1350,7 @@
         "wd-coke-Maintenance-Engineer_R-144739",
         "wd-coke-Maintenance-Engineer_R-145533",
         "wd-coke-Maintenance-Mechanic---Weekends-Sat-Mon--3666-HR--Plus--4-shift-premium-6am-6pm_R-139605",
+        "wd-coke-Maintenance-Tech-II---Days-Mon-Fri---33-per-hour_R-143762",
         "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-144017",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d---Days_R-137362",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d--Nights_R-142967",
@@ -1382,6 +1396,7 @@
         "wd-coke-Paralegal--Eurasia---Middle-East_R-145204-1",
         "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
+        "wd-coke-Principal--Marketing-AI-Applications_R-145807",
         "wd-coke-Process-Engineer_R-134009",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
         "wd-coke-Product-Portfolio-Specialist--9-months-contract-_R-145343",
@@ -1392,6 +1407,7 @@
         "wd-coke-Production-Operator--Filling---Day-Shift--7am---7pm-_R-145400",
         "wd-coke-Production-Operator--Filling---Night-Shift--7pm---7am-_R-145846",
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-141911",
+        "wd-coke-Production-Operator-I-Packaging---Days----2152_R-145847",
         "wd-coke-Production-Operator-I-Packaging---Nights----2150_R-144724",
         "wd-coke-Production-Operator-II----Filling---days_R-144990",
         "wd-coke-Production-Operator-II---Nights---Filling_R-144603",
@@ -1436,6 +1452,7 @@
         "wd-coke-Senior-Director--AI---Analytical-Engineering_R-145339",
         "wd-coke-Senior-Director--Alcohol_R-136960",
         "wd-coke-Senior-Director--Brand-Category-Insights_R-145402",
+        "wd-coke-Senior-Director--Brand-Management---BODYARMOR_R-142823",
         "wd-coke-Senior-Director--Brand-Management--Sparkling-Flavors_R-138596-1",
         "wd-coke-Senior-Director--Business-Delivery---Coke-ON_R-144466",
         "wd-coke-Senior-Director--Capability-Acceleration_R-144405",
@@ -4163,7 +4180,9 @@
         "gh-thefarmersdog-8756064002",
         "gh-thefarmersdog-8756065002",
         "gh-thefarmersdog-8764832002",
-        "gh-thefarmersdog-8769521002"
+        "gh-thefarmersdog-8769521002",
+        "gh-thefarmersdog-8782116002",
+        "gh-thefarmersdog-8782117002"
       ]
     },
     "kargo": {
@@ -4985,6 +5004,6 @@
       "fit_reason": "Strategic partnerships role centered on growth strategy, cross-functional execution, and data-driven decision-making aligns with candidate's demonstrated GTM/growth/revenue-operations experience; 3+ years requirement matches candidate's ~3 years relevant experience; SQL is preferred (not hard requirement) and candidate has SQL fundamentals."
     }
   ],
-  "last_run": "2026-09-03T14:22:03.023937+00:00",
+  "last_run": "2026-09-03T17:58:21.284845+00:00",
   "pending_notifications": []
 }
