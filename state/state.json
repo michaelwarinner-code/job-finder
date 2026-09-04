@@ -13,6 +13,7 @@
         "gh-doordashusa-3547221",
         "gh-doordashusa-3547688",
         "gh-doordashusa-3623888",
+        "gh-doordashusa-4091671",
         "gh-doordashusa-4441674",
         "gh-doordashusa-4441676",
         "gh-doordashusa-4441678",
@@ -853,6 +854,7 @@
         "lever-spotify-9ce12867-8c84-40c5-be40-d8831ab98925",
         "lever-spotify-9d0ac2f3-1bef-4e8d-a3cb-a3c855d2b2bd",
         "lever-spotify-9d90d15c-541b-4360-bdaf-c6a5e9479e8a",
+        "lever-spotify-9e8b3af7-d0f7-4aa9-ab8d-89b5bd238ccf",
         "lever-spotify-9eca14d3-8e0b-46de-8161-704e07f3d9d0",
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
@@ -1233,6 +1235,7 @@
         "wd-coke-Automation-Engineer_R-127535",
         "wd-coke-Automation-Engineer_R-144968",
         "wd-coke-Automation-Engineer_R-145762",
+        "wd-coke-Automation-and-Controls-Engineering-Tech_R-145959",
         "wd-coke-Blending--Mixing-Operator--Nights--23_R-145512",
         "wd-coke-Blending-II--23--Blending--Mixing-Operator_R-145499",
         "wd-coke-Blow-Mold-Operator---Nights----25_R-144688",
@@ -1302,6 +1305,7 @@
         "wd-coke-Director--GCM-Sparkling--Global-Development---Innovation_R-143920-1",
         "wd-coke-Director--GCM-Stills--Global-Development---Innovation_R-143921-1",
         "wd-coke-Director--Global-Integrated-Creative---Communications-Intelligence_R-144570-1",
+        "wd-coke-Director--Global-Integrated-Creative---IMX-Research-Protocols-and-Intelligence_R-145947",
         "wd-coke-Director--Global-Intelligence-Measurement-Models---Analytic-Frameworks_R-144605",
         "wd-coke-Director--Global-Strategy--Planning-and-Business-Insights_R-144750",
         "wd-coke-Director--International-Treasury_R-145047",
@@ -1329,6 +1333,7 @@
         "wd-coke-Director--Supply-Chain-Warehouse-Architect_R-144433",
         "wd-coke-Director--Sustainability_R-143238-1",
         "wd-coke-Director--Technical-Consumer-Data-Research_R-142555",
+        "wd-coke-Director--UI-UX-Designer_R-145100-1",
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
         "wd-coke-Director-Finance--Germany_R-145211",
@@ -1356,10 +1361,13 @@
         "wd-coke-Guest-Experience-Associate--Part-Time-_R-143664",
         "wd-coke-HR-Business-Partner_R-144976",
         "wd-coke-IQD-Laboratory-Analyst_R-145591",
+        "wd-coke-Innovation-Tech-Lead_R-145106",
         "wd-coke-International-Treasury-Services-Manager_R-145730",
         "wd-coke-Junior-Buyer---Strategic-Sourcing--Ingredients_R-145156",
         "wd-coke-Junior-Buyer--Strategic-Sourcing--Ingredients_R-145160",
         "wd-coke-Junior-Software-Engineer_R-144528-1",
+        "wd-coke-Key-Account-Manager---Kroger_R-145387",
+        "wd-coke-Key-Account-Manager--Albertsons---Phoenix--AZ_R-145386",
         "wd-coke-Key-Account-Manager_R-140528",
         "wd-coke-Lab-Analyst--Temporal-_R-145260",
         "wd-coke-Laboratory-Analyst_R-145915",
@@ -1421,6 +1429,7 @@
         "wd-coke-Principal--Marketing-AI-Applications_R-145807",
         "wd-coke-Process-Engineer_R-134009",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
+        "wd-coke-Product-Manager--Digital_R-145109",
         "wd-coke-Product-Portfolio-Specialist--9-months-contract-_R-145343",
         "wd-coke-Production-Machine-Operator--3rd-Shift--Forklift-Exp-PLUS-_R-145232",
         "wd-coke-Production-Manager_R-145528",
@@ -1509,6 +1518,7 @@
         "wd-coke-Senior-Director--Global-Product-Integrations-GCM_R-144511-1",
         "wd-coke-Senior-Director--Hydration---Advanced-Hydration--Global-Development---Innovation_R-136011",
         "wd-coke-Senior-Director--IMX-Digital_R-139971-1",
+        "wd-coke-Senior-Director--Intelligent-Enterprise-Product-Manager_R-145107-1",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
@@ -2338,7 +2348,11 @@
         "gh-spothopper-4378604009",
         "gh-spothopper-4378606009",
         "gh-spothopper-4378619009",
-        "gh-spothopper-4383964009"
+        "gh-spothopper-4383964009",
+        "gh-spothopper-4396581009",
+        "gh-spothopper-4396608009",
+        "gh-spothopper-4396612009",
+        "gh-spothopper-4396621009"
       ]
     },
     "datadog": {
@@ -2697,6 +2711,7 @@
         "gh-datadog-8065187",
         "gh-datadog-8065192",
         "gh-datadog-8067190",
+        "gh-datadog-8069340",
         "gh-datadog-8069508",
         "gh-datadog-8074211",
         "gh-datadog-8074318",
@@ -3573,6 +3588,7 @@
         "gh-braze-8110410",
         "gh-braze-8112110",
         "gh-braze-8112642",
+        "gh-braze-8114074",
         "gh-braze-8114076",
         "gh-braze-8114176",
         "gh-braze-8115092",
@@ -3641,6 +3657,7 @@
         "gh-braze-8155118",
         "gh-braze-8155119",
         "gh-braze-8155340",
+        "gh-braze-8157337",
         "gh-braze-8157434",
         "gh-braze-8157438",
         "gh-braze-8157621",
@@ -3686,7 +3703,10 @@
         "gh-braze-8173848",
         "gh-braze-8177564",
         "gh-braze-8177660",
-        "gh-braze-8177766"
+        "gh-braze-8177766",
+        "gh-braze-8180530",
+        "gh-braze-8180534",
+        "gh-braze-8180540"
       ]
     },
     "classpass": {
@@ -4077,7 +4097,8 @@
         "gh-yext-8157597",
         "gh-yext-8159736",
         "gh-yext-8160649",
-        "gh-yext-8161871"
+        "gh-yext-8161871",
+        "gh-yext-8174875"
       ]
     },
     "mavenclinic": {
@@ -4386,7 +4407,8 @@
         "gh-cleo-4644523005",
         "gh-cleo-4664509005",
         "gh-cleo-4698914005",
-        "gh-cleo-4725537005"
+        "gh-cleo-4725537005",
+        "gh-cleo-4730980005"
       ]
     },
     "microsoft": {
@@ -5032,6 +5054,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-04T18:13:24.748924+00:00",
+  "last_run": "2026-09-04T20:50:37.400242+00:00",
   "pending_notifications": []
 }
