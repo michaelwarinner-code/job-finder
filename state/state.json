@@ -8,6 +8,7 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
+        "gh-doordashusa-3236374",
         "gh-doordashusa-3547200",
         "gh-doordashusa-3547221",
         "gh-doordashusa-3547688",
@@ -733,6 +734,7 @@
         "gh-hubspotjobs-8081053",
         "gh-hubspotjobs-8081933",
         "gh-hubspotjobs-8082849",
+        "gh-hubspotjobs-8084978",
         "gh-hubspotjobs-8087837",
         "gh-hubspotjobs-8087838",
         "gh-hubspotjobs-8090664",
@@ -759,6 +761,7 @@
         "gh-hubspotjobs-8132247",
         "gh-hubspotjobs-8135945",
         "gh-hubspotjobs-8137762",
+        "gh-hubspotjobs-8143814",
         "gh-hubspotjobs-8143908",
         "gh-hubspotjobs-8159454",
         "gh-hubspotjobs-8161433",
@@ -766,7 +769,9 @@
         "gh-hubspotjobs-8164396",
         "gh-hubspotjobs-8164420",
         "gh-hubspotjobs-8175197",
-        "gh-hubspotjobs-8177549"
+        "gh-hubspotjobs-8176657",
+        "gh-hubspotjobs-8177549",
+        "gh-hubspotjobs-8179640"
       ]
     },
     "spotify": {
@@ -781,6 +786,7 @@
         "lever-spotify-07641cac-402a-44fd-ba42-9cb75473fc0a",
         "lever-spotify-0841fdc0-1702-4ef6-b665-8a825112696c",
         "lever-spotify-0b8ea4d4-57ee-49c1-a57f-9a37248ee24f",
+        "lever-spotify-0d82639f-54c4-4e44-984e-4c9de7e8fffe",
         "lever-spotify-0eebb462-b5a2-4e3a-b830-d8ef7505b014",
         "lever-spotify-142aa205-8ddb-4884-97ba-600d1eb19f4f",
         "lever-spotify-159e823e-5a29-4222-94bb-40e97f63cc93",
@@ -797,6 +803,7 @@
         "lever-spotify-204f6cd7-98a3-4360-87e3-8876adf087da",
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
         "lever-spotify-22437625-9527-4e5a-a6d2-a114a889db90",
+        "lever-spotify-29b0056f-f163-4728-a32a-214bcb3232e8",
         "lever-spotify-2b2ae5a0-f040-4e9a-847c-157b9a41ee29",
         "lever-spotify-308d127c-e765-4895-9264-3765ddbfc620",
         "lever-spotify-331d11c6-6056-45b4-8bd6-d289978b1919",
@@ -859,6 +866,7 @@
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
         "lever-spotify-bcdf7880-6ad8-447d-822a-8265a24fd336",
+        "lever-spotify-bf0984d7-c54f-4a8a-9a15-f870633d62c0",
         "lever-spotify-c152d042-642d-4a48-862b-8be8d6cdc819",
         "lever-spotify-c19b8f17-74f7-42b0-99a6-aced419b5756",
         "lever-spotify-c322d068-5b59-4658-b618-bb2a032eeb9b",
@@ -2832,7 +2840,8 @@
         "gh-datadog-8172855",
         "gh-datadog-8173840",
         "gh-datadog-8173897",
-        "gh-datadog-8174592"
+        "gh-datadog-8174592",
+        "gh-datadog-8179766"
       ]
     },
     "mongodb": {
@@ -3298,13 +3307,16 @@
         "gh-mongodb-8168859",
         "gh-mongodb-8168862",
         "gh-mongodb-8168951",
+        "gh-mongodb-8169006",
         "gh-mongodb-8170615",
         "gh-mongodb-8170628",
         "gh-mongodb-8170665",
         "gh-mongodb-8170894",
+        "gh-mongodb-8173777",
         "gh-mongodb-8173795",
         "gh-mongodb-8173798",
         "gh-mongodb-8173801",
+        "gh-mongodb-8174075",
         "gh-mongodb-8174879",
         "gh-mongodb-8175160",
         "gh-mongodb-8176521"
@@ -3689,6 +3701,7 @@
         "gh-classpass-4687186006",
         "gh-classpass-4687388006",
         "gh-classpass-4687904006",
+        "gh-classpass-4688960006",
         "gh-classpass-4691074006",
         "gh-classpass-4691247006",
         "gh-classpass-4691559006",
@@ -4010,7 +4023,8 @@
         "gh-glossier-8156246",
         "gh-glossier-8162000",
         "gh-glossier-8165285",
-        "gh-glossier-8173297"
+        "gh-glossier-8173297",
+        "gh-glossier-8179465"
       ]
     },
     "yext": {
@@ -5014,6 +5028,6 @@
       "fit_reason": "Product Manager role with 2\u20134 years requirement (floor: 2 years); candidate has ~3.5 years substantive growth/marketing ops experience plus internships, demonstrating analytical rigor, campaign design, funnel building, and cross-functional execution\u2014core PM skills; SQL comfort, paid social, lifecycle marketing, and data-driven decision-making all present; agent/automation familiarity via Google Apps Script and AI tooling; no hard exclusions apply."
     }
   ],
-  "last_run": "2026-09-04T10:59:38.916677+00:00",
+  "last_run": "2026-09-04T14:54:25.172450+00:00",
   "pending_notifications": []
 }
