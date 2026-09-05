@@ -765,6 +765,7 @@
         "gh-hubspotjobs-8132247",
         "gh-hubspotjobs-8135945",
         "gh-hubspotjobs-8137762",
+        "gh-hubspotjobs-8139928",
         "gh-hubspotjobs-8143814",
         "gh-hubspotjobs-8143908",
         "gh-hubspotjobs-8159454",
@@ -1269,6 +1270,7 @@
         "wd-coke-Construction-Manager_R-146007-5",
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics_R-145069",
+        "wd-coke-Consultant--HR-Compliance_R-145174",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
         "wd-coke-Consultant--Project-Manager_R-144938",
         "wd-coke-Consultant--Regulatory_R-145776",
@@ -1518,6 +1520,7 @@
         "wd-coke-Senior-Director--Global-Product-Integrations-GCM_R-144511-1",
         "wd-coke-Senior-Director--Hydration---Advanced-Hydration--Global-Development---Innovation_R-136011",
         "wd-coke-Senior-Director--IMX-Digital_R-139971-1",
+        "wd-coke-Senior-Director--Innovation-Product-Manager_R-145105-1",
         "wd-coke-Senior-Director--Intelligent-Enterprise-Product-Manager_R-145107-1",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
@@ -3286,6 +3289,8 @@
         "gh-mongodb-8128855",
         "gh-mongodb-8129878",
         "gh-mongodb-8129880",
+        "gh-mongodb-8129885",
+        "gh-mongodb-8129887",
         "gh-mongodb-8129890",
         "gh-mongodb-8130589",
         "gh-mongodb-8130878",
@@ -5054,6 +5059,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-04T20:50:37.400242+00:00",
+  "last_run": "2026-09-05T00:48:23.524894+00:00",
   "pending_notifications": []
 }
