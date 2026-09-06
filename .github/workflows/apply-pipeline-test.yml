@@ -1,0 +1,70 @@
+name: Auto-apply pipeline test (dry run)
+
+# workflow_dispatch only -- this tests the full pipeline's runner
+# environment (Node, LibreOffice, Playwright) in the cloud for the first
+# time. run_pipeline.py's own DRY_RUN flag defaults to True, so nothing
+# gets submitted regardless -- this workflow doesn't touch that setting.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-apply-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install LibreOffice
+        run: sudo apt-get update && sudo apt-get install -y libreoffice
+
+      - name: Install Python dependencies
+        run: pip install requests playwright
+
+      - name: Install Playwright's browser
+        run: python -m playwright install --with-deps chromium
+
+      - name: Install resume-builder Node dependencies
+        run: npm ci
+        working-directory: resume-builder
+
+      - name: Restore personal data files (not committed to git)
+        run: |
+          mkdir -p state
+          echo "${{ secrets.CANDIDATE_INFO_JSON_B64 }}" | base64 -d > state/candidate_info.json
+          echo "${{ secrets.EEO_ANSWERS_JSON_B64 }}" | base64 -d > state/eeo_answers.json
+          echo "${{ secrets.ANSWER_BANK_JSON_B64 }}" | base64 -d > state/answer_bank.json
+
+      - name: Run the pipeline (dry run)
+        env:
+          AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
+          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+          SOFFICE_PATH: soffice
+        run: python auto-apply/run_pipeline.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add state/auto_apply_state.json
+          git diff --quiet --cached || git commit -m "Update auto-apply state after pipeline test [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push rejected (attempt $i) -- pulling latest and retrying..."
+            git pull --rebase origin main
+          done
