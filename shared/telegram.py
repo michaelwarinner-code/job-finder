@@ -3,9 +3,9 @@ import os
 import requests
 
 
-def send_telegram_alert(company_name: str, title: str, location: str, url: str, reason: str, is_priority: bool = True):
-    token = os.environ["TELEGRAM_BOT_TOKEN"]
-    chat_id = os.environ["TELEGRAM_CHAT_ID"]
+def send_telegram_alert(company_name: str, title: str, location: str, url: str, reason: str,
+                         bot_token: str, chat_id: str, is_priority: bool = True):
+    token = bot_token
 
     # Job titles and Claude's fit "reason" are freeform text and can contain
     # characters that break Telegram's Markdown parser (_, *, `, [, etc.),

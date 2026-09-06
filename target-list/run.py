@@ -100,7 +100,9 @@ def flush_pending_notifications(state):
         try:
             send_telegram_alert(
                 entry["company_name"], entry["title"], entry["location"],
-                entry["url"], entry["reason"], entry.get("is_priority", True),
+                entry["url"], entry["reason"],
+                os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"],
+                entry.get("is_priority", True),
             )
             print(f"[notify-retry] sent: {entry['title']} ({entry['company_name']})")
         except Exception as e:
@@ -214,6 +216,7 @@ def main():
                     try:
                         send_telegram_alert(
                             cfg["name"], title, job.get("location", ""), job.get("url", ""), verdict["reason"],
+                            os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"],
                             cfg.get("is_priority", True)
                         )
                     except Exception as e:

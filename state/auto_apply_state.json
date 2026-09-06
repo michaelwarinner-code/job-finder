@@ -1,0 +1,510 @@
+{
+  "daily": {
+    "date": "",
+    "count": 0
+  },
+  "jobs": {
+    "https://jobs.ashbyhq.com/suno/5cce8a82-88ff-410f-b4b4-c719891637ae": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Senior Product Marketing Manager",
+      "url": "https://jobs.ashbyhq.com/suno/5cce8a82-88ff-410f-b4b4-c719891637ae",
+      "first_seen": "2026-09-05T23:13:25.833996+00:00",
+      "last_updated": "2026-09-05T23:13:25.834034+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/8ec095a8-286e-4c6a-aeb2-3ec0c6319c48": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Graphic Designer, Performance Marketing (Contractor)",
+      "url": "https://jobs.ashbyhq.com/suno/8ec095a8-286e-4c6a-aeb2-3ec0c6319c48",
+      "first_seen": "2026-09-05T23:13:27.922066+00:00",
+      "last_updated": "2026-09-05T23:13:27.922102+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/7b81d3fa-8a84-4d3a-b681-a6b06974e01e": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Senior / Staff Data Scientist, Growth Product",
+      "url": "https://jobs.ashbyhq.com/suno/7b81d3fa-8a84-4d3a-b681-a6b06974e01e",
+      "first_seen": "2026-09-05T23:13:29.669936+00:00",
+      "last_updated": "2026-09-05T23:13:29.669965+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Sr. Performance Marketing Manager, Paid Social",
+      "url": "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539",
+      "first_seen": "2026-09-05T23:13:31.610792+00:00",
+      "last_updated": "2026-09-05T23:13:31.610831+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/12b86885-63c7-446c-ab5e-514fe8adba01": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Senior Conversion Rate Optimization Manager (CRO Marketing)",
+      "url": "https://jobs.ashbyhq.com/suno/12b86885-63c7-446c-ab5e-514fe8adba01",
+      "first_seen": "2026-09-05T23:13:33.199414+00:00",
+      "last_updated": "2026-09-05T23:13:33.199449+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/f3f67f4d-16f0-4221-a430-45f73e5a4eb9": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Marketing Designer, Performance Creative (Contractor)",
+      "url": "https://jobs.ashbyhq.com/suno/f3f67f4d-16f0-4221-a430-45f73e5a4eb9",
+      "first_seen": "2026-09-05T23:13:35.634308+00:00",
+      "last_updated": "2026-09-05T23:13:35.634344+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/dbc8011c-67d0-4ca5-9204-ec6a6b465462": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Growth Product Manager, Consumer Subscription ",
+      "url": "https://jobs.ashbyhq.com/suno/dbc8011c-67d0-4ca5-9204-ec6a6b465462",
+      "first_seen": "2026-09-05T23:13:37.165124+00:00",
+      "last_updated": "2026-09-05T23:13:37.165150+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/f4bfe672-895a-4cff-93d0-2408afa49f22": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Director, Business Development, Publishing Partnerships",
+      "url": "https://jobs.ashbyhq.com/suno/f4bfe672-895a-4cff-93d0-2408afa49f22",
+      "first_seen": "2026-09-05T23:13:38.761768+00:00",
+      "last_updated": "2026-09-05T23:13:38.761784+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/fc1a2f15-3511-4fa5-9d3a-3eadfc7499e8": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Growth Marketing Manager, Conversion",
+      "url": "https://jobs.ashbyhq.com/suno/fc1a2f15-3511-4fa5-9d3a-3eadfc7499e8",
+      "first_seen": "2026-09-05T23:13:40.278202+00:00",
+      "last_updated": "2026-09-05T23:13:40.278235+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/38e2a0ea-302b-4059-8e86-8b36ef08b352": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Senior Designer, Creative Studio & Brand Campaigns (Contract)",
+      "url": "https://jobs.ashbyhq.com/suno/38e2a0ea-302b-4059-8e86-8b36ef08b352",
+      "first_seen": "2026-09-05T23:13:41.867415+00:00",
+      "last_updated": "2026-09-05T23:13:41.867451+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/68a376bc-5fee-431c-9285-61e2ccfd87a3": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Partnerships and Customer Success Manager (Contractor)",
+      "url": "https://jobs.ashbyhq.com/suno/68a376bc-5fee-431c-9285-61e2ccfd87a3",
+      "first_seen": "2026-09-05T23:13:43.359830+00:00",
+      "last_updated": "2026-09-05T23:13:43.359871+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/31fe4dab-20a5-4da3-be50-07d874b28b97": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Manager, Music Marketing",
+      "url": "https://jobs.ashbyhq.com/suno/31fe4dab-20a5-4da3-be50-07d874b28b97",
+      "first_seen": "2026-09-05T23:13:45.077972+00:00",
+      "last_updated": "2026-09-05T23:13:45.078003+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/6e24662c-2018-46df-b8a9-8790486265ec": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Strategic Partner Manager, Music Business Development",
+      "url": "https://jobs.ashbyhq.com/suno/6e24662c-2018-46df-b8a9-8790486265ec",
+      "first_seen": "2026-09-05T23:13:46.779924+00:00",
+      "last_updated": "2026-09-05T23:13:46.779951+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/32eaac2d-5530-44bf-b0f1-a0e1e82ecf15": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Sr. Growth Marketing Manager, Paid Social Media",
+      "url": "https://jobs.ashbyhq.com/suno/32eaac2d-5530-44bf-b0f1-a0e1e82ecf15",
+      "first_seen": "2026-09-05T23:13:48.693258+00:00",
+      "last_updated": "2026-09-05T23:13:48.693294+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/5759811004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Business Development Representative",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/5759811004",
+      "first_seen": "2026-09-05T23:13:50.682947+00:00",
+      "last_updated": "2026-09-05T23:13:50.682981+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6144337004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Business Development Representative - Canada",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6144337004",
+      "first_seen": "2026-09-05T23:13:52.834180+00:00",
+      "last_updated": "2026-09-05T23:13:52.834214+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6138975004": {
+      "status": "ready_to_submit",
+      "company_name": "BambooHR",
+      "title": "Lifecycle Marketing Operations Specialist",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6138975004",
+      "ats": "greenhouse",
+      "board_token": "bamboohr17",
+      "first_seen": "2026-09-05T23:13:55.168134+00:00",
+      "last_updated": "2026-09-06T00:22:08.299452+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6146497004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Manager, Business Development",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6146497004",
+      "first_seen": "2026-09-05T23:13:57.680643+00:00",
+      "last_updated": "2026-09-05T23:13:57.680661+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6144426004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Manager, Business Development - Canada",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6144426004",
+      "first_seen": "2026-09-05T23:13:59.589521+00:00",
+      "last_updated": "2026-09-05T23:13:59.589556+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/5691329004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Outbound Account Executive",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/5691329004",
+      "first_seen": "2026-09-05T23:14:01.249941+00:00",
+      "last_updated": "2026-09-05T23:14:01.249973+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6144420004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Outbound Account Executive, Canada",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6144420004",
+      "first_seen": "2026-09-05T23:14:02.946316+00:00",
+      "last_updated": "2026-09-05T23:14:02.946342+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6133308004": {
+      "status": "ready_to_submit",
+      "company_name": "BambooHR",
+      "title": "Product Sales Specialist",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6133308004",
+      "ats": "greenhouse",
+      "board_token": "bamboohr17",
+      "first_seen": "2026-09-05T23:14:05.189744+00:00",
+      "last_updated": "2026-09-06T00:25:18.194099+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/5998305004": {
+      "status": "ready_to_submit",
+      "company_name": "BambooHR",
+      "title": "Sales Operations Manager",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/5998305004",
+      "ats": "greenhouse",
+      "board_token": "bamboohr17",
+      "first_seen": "2026-09-05T23:14:07.640928+00:00",
+      "last_updated": "2026-09-06T00:29:10.092278+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6004765004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Sr. Analyst, Marketing Business Intelligence",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6004765004",
+      "first_seen": "2026-09-05T23:14:09.162997+00:00",
+      "last_updated": "2026-09-05T23:14:09.163039+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6110751004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Sr. Director, Integrated & Brand Marketing",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6110751004",
+      "first_seen": "2026-09-05T23:14:11.071003+00:00",
+      "last_updated": "2026-09-05T23:14:11.071023+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6133262004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Sr. Manager, National Partnerships",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6133262004",
+      "first_seen": "2026-09-05T23:14:13.136180+00:00",
+      "last_updated": "2026-09-05T23:14:13.136198+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6011897004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Sr. Marketing Operations Manager - Website",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6011897004",
+      "first_seen": "2026-09-05T23:14:14.826162+00:00",
+      "last_updated": "2026-09-05T23:14:14.826184+00:00"
+    },
+    "https://job-boards.greenhouse.io/bamboohr17/jobs/6119977004": {
+      "status": "judged_reject",
+      "company_name": "BambooHR",
+      "title": "Sr. Revenue Marketing Manager (Field Events)",
+      "url": "https://job-boards.greenhouse.io/bamboohr17/jobs/6119977004",
+      "first_seen": "2026-09-05T23:14:16.407647+00:00",
+      "last_updated": "2026-09-05T23:14:16.407679+00:00"
+    },
+    "https://job-boards.greenhouse.io/roo/jobs/5416179008": {
+      "status": "judged_reject",
+      "company_name": "Roo",
+      "title": "Director of Revenue Operations",
+      "url": "https://job-boards.greenhouse.io/roo/jobs/5416179008",
+      "first_seen": "2026-09-05T23:14:18.590995+00:00",
+      "last_updated": "2026-09-05T23:14:18.591019+00:00"
+    },
+    "https://job-boards.greenhouse.io/roo/jobs/5392022008": {
+      "status": "judged_reject",
+      "company_name": "Roo",
+      "title": "Veterinary Account Manager",
+      "url": "https://job-boards.greenhouse.io/roo/jobs/5392022008",
+      "first_seen": "2026-09-05T23:14:20.666724+00:00",
+      "last_updated": "2026-09-05T23:14:20.666764+00:00"
+    },
+    "https://job-boards.greenhouse.io/roo/jobs/5416180008": {
+      "status": "judged_reject",
+      "company_name": "Roo",
+      "title": "VP of Sales",
+      "url": "https://job-boards.greenhouse.io/roo/jobs/5416180008",
+      "first_seen": "2026-09-05T23:14:22.566732+00:00",
+      "last_updated": "2026-09-05T23:14:22.566751+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8122039?gh_jid=8122039": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "AI Product Sales Manager",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8122039?gh_jid=8122039",
+      "first_seen": "2026-09-05T23:14:24.372189+00:00",
+      "last_updated": "2026-09-05T23:14:24.372212+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8122076?gh_jid=8122076": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Cloud Product Sales Manager",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8122076?gh_jid=8122076",
+      "first_seen": "2026-09-05T23:14:26.036785+00:00",
+      "last_updated": "2026-09-05T23:14:26.036812+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8139767?gh_jid=8139767": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Customer Resilience Manager - Customer Success",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8139767?gh_jid=8139767",
+      "first_seen": "2026-09-05T23:14:27.701436+00:00",
+      "last_updated": "2026-09-05T23:14:27.701467+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7729737?gh_jid=7729737": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Director, Web Marketing",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7729737?gh_jid=7729737",
+      "first_seen": "2026-09-05T23:14:29.584791+00:00",
+      "last_updated": "2026-09-05T23:14:29.584812+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8105054?gh_jid=8105054": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Enterprise Account Executive - NYC",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8105054?gh_jid=8105054",
+      "first_seen": "2026-09-05T23:14:31.289542+00:00",
+      "last_updated": "2026-09-05T23:14:31.289563+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7985010?gh_jid=7985010": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Global Campaigns Manager ",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7985010?gh_jid=7985010",
+      "first_seen": "2026-09-05T23:14:32.999443+00:00",
+      "last_updated": "2026-09-05T23:14:32.999473+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8139407?gh_jid=8139407": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Healthcare Account Executive, TOLA",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8139407?gh_jid=8139407",
+      "first_seen": "2026-09-05T23:14:35.032171+00:00",
+      "last_updated": "2026-09-05T23:14:35.032194+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8114370?gh_jid=8114370": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Inside Sales Engineer (Remote)",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8114370?gh_jid=8114370",
+      "first_seen": "2026-09-05T23:14:36.760062+00:00",
+      "last_updated": "2026-09-05T23:14:36.760082+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7964089?gh_jid=7964089": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Inside Sales Engineer (Remote)",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7964089?gh_jid=7964089",
+      "first_seen": "2026-09-05T23:14:39.110225+00:00",
+      "last_updated": "2026-09-05T23:14:39.110260+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.5605963?gh_jid=5605963": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Join Our Sales Talent Community",
+      "url": "https://www.rubrik.com/company/careers/departments/job.5605963?gh_jid=5605963",
+      "first_seen": "2026-09-05T23:14:40.724708+00:00",
+      "last_updated": "2026-09-05T23:14:40.724736+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8140173?gh_jid=8140173": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Lead, Customer Success Operations Analyst ",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8140173?gh_jid=8140173",
+      "first_seen": "2026-09-05T23:14:42.631333+00:00",
+      "last_updated": "2026-09-05T23:14:42.631352+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8139783?gh_jid=8139783": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Manager, Customer Resilience Management - Customer Success",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8139783?gh_jid=8139783",
+      "first_seen": "2026-09-05T23:14:44.436886+00:00",
+      "last_updated": "2026-09-05T23:14:44.436920+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8140599?gh_jid=8140599": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Professional Services - Services Sales Manager ",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8140599?gh_jid=8140599",
+      "first_seen": "2026-09-05T23:14:45.997372+00:00",
+      "last_updated": "2026-09-05T23:14:45.997406+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7353766?gh_jid=7353766": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Renewals Account Manager, Strategic Accounts - US",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7353766?gh_jid=7353766",
+      "first_seen": "2026-09-05T23:14:47.658124+00:00",
+      "last_updated": "2026-09-05T23:14:47.658161+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.2146030?gh_jid=2146030": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sales Development Representative",
+      "url": "https://www.rubrik.com/company/careers/departments/job.2146030?gh_jid=2146030",
+      "first_seen": "2026-09-05T23:14:49.583185+00:00",
+      "last_updated": "2026-09-05T23:14:49.583205+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8072156?gh_jid=8072156": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sales Engineer, Cloud Product Specialist",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8072156?gh_jid=8072156",
+      "first_seen": "2026-09-05T23:14:51.241563+00:00",
+      "last_updated": "2026-09-05T23:14:51.241582+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7668585?gh_jid=7668585": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Senior People Partner, GTM",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7668585?gh_jid=7668585",
+      "first_seen": "2026-09-05T23:14:53.007705+00:00",
+      "last_updated": "2026-09-05T23:14:53.007740+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8130460?gh_jid=8130460": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Senior Product Manager, IT - GTM, CPQ",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8130460?gh_jid=8130460",
+      "first_seen": "2026-09-05T23:14:54.811528+00:00",
+      "last_updated": "2026-09-05T23:14:54.811544+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8092042?gh_jid=8092042": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "SLED Account Executive (ATX)",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8092042?gh_jid=8092042",
+      "first_seen": "2026-09-05T23:14:56.692692+00:00",
+      "last_updated": "2026-09-05T23:14:56.692723+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8074751?gh_jid=8074751": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr. Manager, Digital Marketing ",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8074751?gh_jid=8074751",
+      "first_seen": "2026-09-05T23:14:58.493822+00:00",
+      "last_updated": "2026-09-05T23:14:58.493850+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8053682?gh_jid=8053682": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr Product Marketing Manager, Cloud Data Protection",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8053682?gh_jid=8053682",
+      "first_seen": "2026-09-05T23:15:00.256050+00:00",
+      "last_updated": "2026-09-05T23:15:00.256073+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8044290?gh_jid=8044290": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr. Sales Engineer - IL/WI Enterprise",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8044290?gh_jid=8044290",
+      "first_seen": "2026-09-05T23:15:02.042405+00:00",
+      "last_updated": "2026-09-05T23:15:02.042421+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7826311?gh_jid=7826311": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr. Sales Engineer - OH, Strategic",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7826311?gh_jid=7826311",
+      "first_seen": "2026-09-05T23:15:04.103227+00:00",
+      "last_updated": "2026-09-05T23:15:04.103255+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7472096?gh_jid=7472096": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr. Sales Engineer - Rubrik Agent Cloud",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7472096?gh_jid=7472096",
+      "first_seen": "2026-09-05T23:15:05.921137+00:00",
+      "last_updated": "2026-09-05T23:15:05.921163+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8077569?gh_jid=8077569": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Sr. Sales Engineer - TOLA Enterprise",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8077569?gh_jid=8077569",
+      "first_seen": "2026-09-05T23:15:07.730384+00:00",
+      "last_updated": "2026-09-05T23:15:07.730430+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7885055?gh_jid=7885055": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Staff Product Manager, IT - GTM",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7885055?gh_jid=7885055",
+      "first_seen": "2026-09-05T23:15:09.707182+00:00",
+      "last_updated": "2026-09-05T23:15:09.707215+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.7980440?gh_jid=7980440": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Strategic Account Executive",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7980440?gh_jid=7980440",
+      "first_seen": "2026-09-05T23:15:11.922091+00:00",
+      "last_updated": "2026-09-05T23:15:11.922124+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8084242?gh_jid=8084242": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Strategic Account Executive, Bay Area",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8084242?gh_jid=8084242",
+      "first_seen": "2026-09-05T23:15:14.097738+00:00",
+      "last_updated": "2026-09-05T23:15:14.097769+00:00"
+    },
+    "https://www.rubrik.com/company/careers/departments/job.8054518?gh_jid=8054518": {
+      "status": "judged_reject",
+      "company_name": "Rubrik Job Board",
+      "title": "Strategic Sales Engineer",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8054518?gh_jid=8054518",
+      "first_seen": "2026-09-05T23:15:15.889907+00:00",
+      "last_updated": "2026-09-05T23:15:15.889938+00:00"
+    },
+    "https://pairteam.com/careers?gh_jid=8606756002": {
+      "status": "judged_reject",
+      "company_name": "Pair Team",
+      "title": "Director of Product Marketing",
+      "url": "https://pairteam.com/careers?gh_jid=8606756002",
+      "first_seen": "2026-09-05T23:15:17.751951+00:00",
+      "last_updated": "2026-09-05T23:15:17.751984+00:00"
+    },
+    "https://pairteam.com/careers?gh_jid=8761241002": {
+      "status": "judged_reject",
+      "company_name": "Pair Team",
+      "title": "Director of Revenue Cycle Management ",
+      "url": "https://pairteam.com/careers?gh_jid=8761241002",
+      "first_seen": "2026-09-05T23:15:19.697989+00:00",
+      "last_updated": "2026-09-05T23:15:19.698021+00:00"
+    }
+  }
+}

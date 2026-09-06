@@ -1,0 +1,19 @@
+# Personal data -- never committed, delivered to GitHub Actions as
+# encrypted secrets instead, written to disk fresh at the start of each run.
+state/eeo_answers.json
+state/candidate_info.json
+state/answer_bank.json
+
+# Google OAuth credentials -- real secrets, not code.
+auto-apply/client_secret.json
+auto-apply/token.json
+
+# Generated artifacts -- real resumes, cover letters, and screenshots
+# containing personal info, regenerated fresh each run, never need to
+# persist in git.
+auto-apply/pipeline_output/
+auto-apply/test_output/
+
+# Python
+__pycache__/
+*.pyc

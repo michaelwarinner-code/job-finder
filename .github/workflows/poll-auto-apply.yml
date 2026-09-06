@@ -1,0 +1,29 @@
+name: Auto-apply discovery (Greenhouse/Ashby)
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # once per hour, matches the API's own refresh rate
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Run broad discovery
+        env:
+          AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
+          FANTASTIC_JOBS_API_KEY: ${{ secrets.FANTASTIC_JOBS_API_KEY }}
+          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+        run: python auto-apply/broad_discover_run.py
