@@ -32,7 +32,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libreoffice
 
       - name: Install Python dependencies
-        run: pip install requests playwright
+        run: pip install requests playwright google-api-python-client google-auth-oauthlib
 
       - name: Install Playwright's browser
         run: python -m playwright install --with-deps chromium
