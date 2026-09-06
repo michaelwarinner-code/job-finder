@@ -505,6 +505,176 @@
       "url": "https://pairteam.com/careers?gh_jid=8761241002",
       "first_seen": "2026-09-05T23:15:19.697989+00:00",
       "last_updated": "2026-09-05T23:15:19.698021+00:00"
+    },
+    "https://jobs.ashbyhq.com/lumana/18758e05-324d-494e-bee7-d9142b935918": {
+      "status": "judged_reject",
+      "company_name": "Lumana",
+      "title": "Product Marketing Lead",
+      "url": "https://jobs.ashbyhq.com/lumana/18758e05-324d-494e-bee7-d9142b935918",
+      "ats": "ashby",
+      "board_token": "lumana",
+      "first_seen": "2026-09-06T22:30:18.230180+00:00",
+      "last_updated": "2026-09-06T22:30:18.230198+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5157801007": {
+      "status": "judged_reject",
+      "company_name": "Pallet",
+      "title": "Enterprise Sales Engineer (Remote)",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5157801007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:20.343649+00:00",
+      "last_updated": "2026-09-06T22:30:20.343666+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5230306007": {
+      "status": "judged_fit",
+      "company_name": "Pallet",
+      "title": "Founding Growth Lead",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5230306007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:22.867951+00:00",
+      "last_updated": "2026-09-06T22:30:22.867970+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5229546007": {
+      "status": "judged_reject",
+      "company_name": "Pallet",
+      "title": "Founding Senior Revenue Operations Manager",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5229546007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:24.595340+00:00",
+      "last_updated": "2026-09-06T22:30:24.595356+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5159297007": {
+      "status": "judged_fit",
+      "company_name": "Pallet",
+      "title": "Office of the CEO - Growth",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5159297007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:26.828118+00:00",
+      "last_updated": "2026-09-06T22:30:26.828136+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5156416007": {
+      "status": "judged_fit",
+      "company_name": "Pallet",
+      "title": "Office of the CEO - Growth, Strategy and Ops",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5156416007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:28.824676+00:00",
+      "last_updated": "2026-09-06T22:30:28.824696+00:00"
+    },
+    "https://job-boards.greenhouse.io/pallet/jobs/5162240007": {
+      "status": "judged_reject",
+      "company_name": "Pallet",
+      "title": "Sales Development Representative ",
+      "url": "https://job-boards.greenhouse.io/pallet/jobs/5162240007",
+      "ats": "greenhouse",
+      "board_token": "pallet",
+      "first_seen": "2026-09-06T22:30:30.874289+00:00",
+      "last_updated": "2026-09-06T22:30:30.874306+00:00"
+    },
+    "https://job-boards.greenhouse.io/clear/jobs/8154616": {
+      "status": "judged_reject",
+      "company_name": "CLEAR - Corporate",
+      "title": "Business Development Representative, Healthcare",
+      "url": "https://job-boards.greenhouse.io/clear/jobs/8154616",
+      "ats": "greenhouse",
+      "board_token": "clear",
+      "first_seen": "2026-09-06T22:30:32.799136+00:00",
+      "last_updated": "2026-09-06T22:30:32.799152+00:00"
+    },
+    "https://job-boards.greenhouse.io/clear/jobs/8028209": {
+      "status": "judged_reject",
+      "company_name": "CLEAR - Corporate",
+      "title": "Customer Success Director - Healthcare (C1 - B2B)",
+      "url": "https://job-boards.greenhouse.io/clear/jobs/8028209",
+      "ats": "greenhouse",
+      "board_token": "clear",
+      "first_seen": "2026-09-06T22:30:34.351057+00:00",
+      "last_updated": "2026-09-06T22:30:34.351074+00:00"
+    },
+    "https://job-boards.greenhouse.io/clear/jobs/8178885": {
+      "status": "judged_reject",
+      "company_name": "CLEAR - Corporate",
+      "title": "Director, Sales Performance and Enablement",
+      "url": "https://job-boards.greenhouse.io/clear/jobs/8178885",
+      "ats": "greenhouse",
+      "board_token": "clear",
+      "first_seen": "2026-09-06T22:30:35.955526+00:00",
+      "last_updated": "2026-09-06T22:30:35.955572+00:00"
+    },
+    "https://job-boards.greenhouse.io/clear/jobs/8148763": {
+      "status": "judged_reject",
+      "company_name": "CLEAR - Corporate",
+      "title": "Enterprise Account Executive (C1 - B2B)",
+      "url": "https://job-boards.greenhouse.io/clear/jobs/8148763",
+      "ats": "greenhouse",
+      "board_token": "clear",
+      "first_seen": "2026-09-06T22:30:37.469385+00:00",
+      "last_updated": "2026-09-06T22:30:37.469403+00:00"
+    },
+    "https://job-boards.greenhouse.io/clear/jobs/8174435": {
+      "status": "judged_reject",
+      "company_name": "CLEAR - Corporate",
+      "title": "GTM Engineer (CLEAR1 - B2B)",
+      "url": "https://job-boards.greenhouse.io/clear/jobs/8174435",
+      "ats": "greenhouse",
+      "board_token": "clear",
+      "first_seen": "2026-09-06T22:30:39.007748+00:00",
+      "last_updated": "2026-09-06T22:30:39.007766+00:00"
+    },
+    "https://jobs.ashbyhq.com/cribl/194b6536-71fe-4135-aaa5-2a353eb56849": {
+      "status": "judged_reject",
+      "company_name": "Cribl",
+      "title": "Revenue Enablement Intern",
+      "url": "https://jobs.ashbyhq.com/cribl/194b6536-71fe-4135-aaa5-2a353eb56849",
+      "ats": "ashby",
+      "board_token": "cribl",
+      "first_seen": "2026-09-06T22:30:41.241650+00:00",
+      "last_updated": "2026-09-06T22:30:41.241668+00:00"
+    },
+    "https://jobs.ashbyhq.com/cribl/986d3210-6a3b-468f-947c-ae0a6a15aa69": {
+      "status": "judged_reject",
+      "company_name": "Cribl",
+      "title": "Regional Sales Manager, NYC (Strategic)",
+      "url": "https://jobs.ashbyhq.com/cribl/986d3210-6a3b-468f-947c-ae0a6a15aa69",
+      "ats": "ashby",
+      "board_token": "cribl",
+      "first_seen": "2026-09-06T22:30:42.966710+00:00",
+      "last_updated": "2026-09-06T22:30:42.966728+00:00"
+    },
+    "https://jobs.ashbyhq.com/cribl/4fb4f6e3-6d11-4669-8689-2fe2712ec827": {
+      "status": "judged_reject",
+      "company_name": "Cribl",
+      "title": "Sr Dir Sales, East (Enterprise)",
+      "url": "https://jobs.ashbyhq.com/cribl/4fb4f6e3-6d11-4669-8689-2fe2712ec827",
+      "ats": "ashby",
+      "board_token": "cribl",
+      "first_seen": "2026-09-06T22:30:44.891901+00:00",
+      "last_updated": "2026-09-06T22:30:44.891918+00:00"
+    },
+    "https://jobs.ashbyhq.com/cribl/6cb0a969-781b-4fe6-ab68-8c6155449283": {
+      "status": "judged_reject",
+      "company_name": "Cribl",
+      "title": "Regional Sales Manager, NYC (Enterprise)",
+      "url": "https://jobs.ashbyhq.com/cribl/6cb0a969-781b-4fe6-ab68-8c6155449283",
+      "ats": "ashby",
+      "board_token": "cribl",
+      "first_seen": "2026-09-06T22:30:46.330414+00:00",
+      "last_updated": "2026-09-06T22:30:46.330438+00:00"
+    },
+    "https://jobs.ashbyhq.com/cribl/ce9967c8-7c10-4ee1-8716-167ae2583da0": {
+      "status": "judged_reject",
+      "company_name": "Cribl",
+      "title": "Sales Development Representative, US",
+      "url": "https://jobs.ashbyhq.com/cribl/ce9967c8-7c10-4ee1-8716-167ae2583da0",
+      "ats": "ashby",
+      "board_token": "cribl",
+      "first_seen": "2026-09-06T22:30:48.054050+00:00",
+      "last_updated": "2026-09-06T22:30:48.054068+00:00"
     }
   }
 }
