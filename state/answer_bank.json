@@ -118,5 +118,26 @@
       "Have you worked for BambooHR previously? *"
     ],
     "added_date": "2026-09-05"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Are you willing to work out of our office in San Francisco?*"
+    ],
+    "added_date": "2026-09-06"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Are you comfortable moving forward with the salary range posted? *"
+    ],
+    "added_date": "2026-09-06"
+  },
+  {
+    "answer": "New York",
+    "aliases": [
+      "Which office would you like to work out of?*"
+    ],
+    "added_date": "2026-09-06"
   }
 ]

@@ -527,14 +527,14 @@
       "last_updated": "2026-09-06T22:30:20.343666+00:00"
     },
     "https://job-boards.greenhouse.io/pallet/jobs/5230306007": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Pallet",
       "title": "Founding Growth Lead",
       "url": "https://job-boards.greenhouse.io/pallet/jobs/5230306007",
       "ats": "greenhouse",
       "board_token": "pallet",
       "first_seen": "2026-09-06T22:30:22.867951+00:00",
-      "last_updated": "2026-09-06T22:30:22.867970+00:00"
+      "last_updated": "2026-09-06T23:34:19.086835+00:00"
     },
     "https://job-boards.greenhouse.io/pallet/jobs/5229546007": {
       "status": "judged_reject",
@@ -547,24 +547,24 @@
       "last_updated": "2026-09-06T22:30:24.595356+00:00"
     },
     "https://job-boards.greenhouse.io/pallet/jobs/5159297007": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Pallet",
       "title": "Office of the CEO - Growth",
       "url": "https://job-boards.greenhouse.io/pallet/jobs/5159297007",
       "ats": "greenhouse",
       "board_token": "pallet",
       "first_seen": "2026-09-06T22:30:26.828118+00:00",
-      "last_updated": "2026-09-06T22:30:26.828136+00:00"
+      "last_updated": "2026-09-06T23:36:49.860373+00:00"
     },
     "https://job-boards.greenhouse.io/pallet/jobs/5156416007": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Pallet",
       "title": "Office of the CEO - Growth, Strategy and Ops",
       "url": "https://job-boards.greenhouse.io/pallet/jobs/5156416007",
       "ats": "greenhouse",
       "board_token": "pallet",
       "first_seen": "2026-09-06T22:30:28.824676+00:00",
-      "last_updated": "2026-09-06T22:30:28.824696+00:00"
+      "last_updated": "2026-09-06T23:39:28.043688+00:00"
     },
     "https://job-boards.greenhouse.io/pallet/jobs/5162240007": {
       "status": "judged_reject",
