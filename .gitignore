@@ -2,7 +2,6 @@
 # encrypted secrets instead, written to disk fresh at the start of each run.
 state/eeo_answers.json
 state/candidate_info.json
-state/answer_bank.json
 
 # Google OAuth credentials -- real secrets, not code.
 auto-apply/client_secret.json
@@ -17,3 +16,6 @@ auto-apply/test_output/
 # Python
 __pycache__/
 *.pyc
+
+# Node dependencies -- regenerated fresh via `npm install`, never committed.
+resume-builder/node_modules/

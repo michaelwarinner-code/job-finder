@@ -1,0 +1,122 @@
+[
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Are you legally authorized to work in the United States?"
+    ],
+    "added_date": "2026-08-30"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Will you now or in the future require visa sponsorship?",
+      "Do you require sponsorship to work in the US, now or in the future?"
+    ],
+    "added_date": "2026-08-30"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Are you located in the United States of America?"
+    ],
+    "added_date": "2026-09-03"
+  },
+  {
+    "answer": "LinkedIn",
+    "aliases": [
+      "How did you hear about this position?"
+    ],
+    "added_date": "2026-09-03"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Have you held a role where Product Marketing was a primary responsibility (e.g., positioning & Messaging, product launches, sales enablement, or competitive intelligence)?"
+    ],
+    "added_date": "2026-09-03"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Are you open to a hybrid work schedule - 3 days in office and 2 days remote? *"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "If hired, would you now or in the future require work authorization to work in the US?*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "255 Fort Washington Ave",
+    "aliases": [
+      "Street Address*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "New York",
+    "aliases": [
+      "State (If you do not live in any of the states listed, please select Other.)*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "10032",
+    "aliases": [
+      "Zip Code*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "$85,000",
+    "aliases": [
+      "Desired Salary"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Can you perform the essential functions of the job with or without reasonable accommodation?*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Would you like to opt-in to receiving text messages from the recruiter for this role in relation to the hiring process \u2013 such as interview requests, reminders, etc.? Note: Selecting \u201cno\u201d will not eliminate you from consideration for this role.\u00a0If you select \"yes\", you can always opt-out later by replying STOP.*"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "I have a family member, partner/spouse, or someone with whom I have a close personal relationship who is currently employed by BambooHR."
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "Man",
+    "aliases": [
+      "Gender"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Are you Hispanic/Latino?"
+    ],
+    "added_date": "2026-09-05"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Have you worked for BambooHR previously? *"
+    ],
+    "added_date": "2026-09-05"
+  }
+]

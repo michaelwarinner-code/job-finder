@@ -1,22 +1,34 @@
 """
 Turns resume_data/coverletter_data dicts (from materials_writer.py) into
-actual DOCX and PDF files, by calling into the separate ResumeCustomizer
-folder -- the same Node scripts and LibreOffice conversion your existing
-build.bat uses, just driven from Python instead of a batch file. Does NOT
-modify build.bat or anything inside ResumeCustomizer -- this is a thin
-wrapper that runs the same commands.
+actual DOCX and PDF files, by calling the same Node scripts and LibreOffice
+conversion your original build.bat used, just driven from Python instead
+of a batch file.
 
-Requires Node.js and LibreOffice already installed and working locally
-(both already confirmed working via your existing manual workflow).
+The build scripts (generate_resume.js, generate_cover_letter.js,
+package.json) now live inside THIS repo, in resume-builder/ -- copied in
+from the separate ResumeCustomizer folder specifically so a GitHub Actions
+runner (which has no access to your personal Windows machine) can use
+them too. Local Windows testing and GitHub Actions both work from the
+same code now; only the paths differ, and those are read from environment
+variables with sensible local defaults, so nothing changes for local use
+unless you set them.
 
-Update RESUMECUSTOMIZER_DIR / SOFFICE_PATH below if either ever moves.
+Env vars (only needed to override the defaults, e.g. on a Linux runner):
+  RESUMECUSTOMIZER_DIR -- folder containing generate_resume.js etc.
+                          Defaults to resume-builder/ inside this repo.
+  SOFFICE_PATH          -- path to the LibreOffice executable.
+                          Defaults to the Windows install path locally;
+                          on Linux this is just "soffice" once installed.
 """
 import json
 import os
 import subprocess
 
-RESUMECUSTOMIZER_DIR = r"C:\Users\thebo\OneDrive\Documents\ResumeCustomizer"
-SOFFICE_PATH = r"C:\Program Files\LibreOffice\program\soffice.exe"
+DEFAULT_RESUMECUSTOMIZER_DIR = os.path.join(os.path.dirname(__file__), "..", "resume-builder")
+DEFAULT_SOFFICE_PATH = r"C:\Program Files\LibreOffice\program\soffice.exe"
+
+RESUMECUSTOMIZER_DIR = os.environ.get("RESUMECUSTOMIZER_DIR", DEFAULT_RESUMECUSTOMIZER_DIR)
+SOFFICE_PATH = os.environ.get("SOFFICE_PATH", DEFAULT_SOFFICE_PATH)
 COMMAND_TIMEOUT_SECONDS = 120
 
 

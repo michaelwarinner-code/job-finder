@@ -112,7 +112,7 @@ def _extract_labeled_json_block(text: str, label: str) -> dict:
     return json.loads(m.group(1))
 
 
-MAX_CORRECTION_ATTEMPTS = 2
+MAX_CORRECTION_ATTEMPTS = 5
 
 
 def generate_materials(job_description: str, company: str, job_title: str) -> tuple:
@@ -147,12 +147,17 @@ def generate_materials(job_description: str, company: str, job_title: str) -> tu
             break
 
         print(f"[bullet-count-violation] attempt {attempt + 1}: {violations}")
+        total_bullets = sum(len(e.get("bullets", [])) for e in resume_data.get("experience", []))
+        overage = total_bullets - TOTAL_BULLET_CAP
         messages.append({"role": "assistant", "content": raw})
         messages.append({"role": "user", "content":
-            "Your resume violates the bullet-count rule: " + "; ".join(violations) + ". "
-            "Recount and fix this -- cut bullets per the trimming order already specified in your "
-            "instructions until every count is back in range. Output the corrected resume_data.json "
-            "and coverletter_data.json in the exact same labeled format, nothing else."})
+            f"Your resume violates the bullet-count rule: " + "; ".join(violations) + ". "
+            f"You currently have {total_bullets} bullets total -- that's {max(overage, 0)} more than the "
+            f"7-bullet cap allows, so you need to cut {max(overage, 0)} bullets in this pass, not just one. "
+            f"Cut bullets per the trimming order already specified in your instructions (fluff first, then "
+            f"shorten near-limit bullets, then cut whole bullets by relevance) until the total is 7 or fewer "
+            f"and every per-company range is also satisfied. Output the corrected resume_data.json and "
+            f"coverletter_data.json in the exact same labeled format, nothing else."})
 
         raw = _call_claude(system, messages)
         resume_data, coverletter_data = _parse_materials(raw)

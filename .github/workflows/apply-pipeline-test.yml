@@ -46,7 +46,6 @@ jobs:
           mkdir -p state
           echo "${{ secrets.CANDIDATE_INFO_JSON_B64 }}" | base64 -d > state/candidate_info.json
           echo "${{ secrets.EEO_ANSWERS_JSON_B64 }}" | base64 -d > state/eeo_answers.json
-          echo "${{ secrets.ANSWER_BANK_JSON_B64 }}" | base64 -d > state/answer_bank.json
 
       - name: Run the pipeline (dry run)
         env:
@@ -60,7 +59,7 @@ jobs:
         run: |
           git config user.name "job-bot"
           git config user.email "job-bot@users.noreply.github.com"
-          git add state/auto_apply_state.json
+          git add state/auto_apply_state.json state/answer_bank.json
           git diff --quiet --cached || git commit -m "Update auto-apply state after pipeline test [skip ci]"
 
           for i in 1 2 3 4 5; do
