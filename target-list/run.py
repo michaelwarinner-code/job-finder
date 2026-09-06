@@ -31,6 +31,7 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "shared"))
 
 from ats_fetchers import FETCHERS, fetch_workday, fetch_workday_job_description
 from manual_source import load_manual_postings
