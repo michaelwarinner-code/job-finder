@@ -1,12 +1,21 @@
 name: Auto-apply discovery (Greenhouse/Ashby)
 
+# Deliberately workflow_dispatch only for now, no schedule yet -- this
+# workflow only runs discovery, not the full apply pipeline (that needs
+# Node/LibreOffice/Playwright installed on the runner, plus the Telegram
+# escalation problem solved for a cloud runner, neither done yet). Adding
+# a schedule comes later, once the full pipeline is proven here manually.
 on:
-  schedule:
-    - cron: "0 * * * *"   # once per hour, matches the API's own refresh rate
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Prevents two runs from overlapping and racing on the same state file --
+# queues a new run instead of letting it start while one is still going.
+concurrency:
+  group: auto-apply-poll
+  cancel-in-progress: false
 
 jobs:
   discover:
@@ -24,6 +33,17 @@ jobs:
         env:
           AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
           FANTASTIC_JOBS_API_KEY: ${{ secrets.FANTASTIC_JOBS_API_KEY }}
-          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
-          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
         run: python auto-apply/broad_discover_run.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add state/auto_apply_state.json state/auto_apply_audit_log.csv
+          git diff --quiet --cached || git commit -m "Update auto-apply state [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push rejected (attempt $i) -- pulling latest and retrying..."
+            git pull --rebase origin main
+          done
