@@ -18,6 +18,10 @@ permissions:
 jobs:
   poll:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: poll-job-boards
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
