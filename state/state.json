@@ -1260,6 +1260,8 @@
         "wd-coke-CPS-SG-Talent-Acquisition-and-Development-Specialist--9-months-contract-_R-144241",
         "wd-coke-CPSNA-Sustainability-Sr-Manager_R-146024",
         "wd-coke-CRI-Engineer-Manager_R-145163",
+        "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144866",
+        "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144867",
         "wd-coke-Coca-Cola-Ignite-Intern---Finance_R-139250",
         "wd-coke-Coca-Cola-Ignite-Intern---Franchise-Operations_R-139248-1",
         "wd-coke-Coca-Cola-Ignite-Intern---Marketing_R-139266",
@@ -1269,6 +1271,7 @@
         "wd-coke-Coca-Cola-Ignite-Intern---People---Culture_R-143670",
         "wd-coke-Coca-Cola-Ignite-Intern---RGM_R-143124",
         "wd-coke-Coca-Cola-Ignite-Intern---Strategy_R-139265",
+        "wd-coke-Coca-Cola-Ignite-Intern---Strategy_R-143630",
         "wd-coke-Collaboration---Messaging-Solutions-Engineer_R-145659-1",
         "wd-coke-Construction-Manager_R-146007-5",
         "wd-coke-Consultant--Business-Operations_R-140475",
@@ -2090,6 +2093,7 @@
         "ashby-elevenlabs-46b3cde4-709f-4d46-9817-5cf881bb35d5",
         "ashby-elevenlabs-46bad7dc-c8d7-403d-8b10-a2d71c005384",
         "ashby-elevenlabs-4738893a-de4f-4a06-b104-315c6a4d366c",
+        "ashby-elevenlabs-48c17c4e-f2ce-40a7-8eff-f22c15a13f53",
         "ashby-elevenlabs-490897d3-5c62-46d8-b26a-806ed60c7940",
         "ashby-elevenlabs-49233713-725b-4501-8360-6006b673fd2b",
         "ashby-elevenlabs-4e544a96-ed24-42c0-ba70-7f0bab6ffbb2",
@@ -3092,6 +3096,7 @@
         "gh-mongodb-7982613",
         "gh-mongodb-7982616",
         "gh-mongodb-7983071",
+        "gh-mongodb-7988076",
         "gh-mongodb-7991447",
         "gh-mongodb-7993078",
         "gh-mongodb-7993419",
@@ -3191,6 +3196,7 @@
         "gh-mongodb-8070880",
         "gh-mongodb-8071152",
         "gh-mongodb-8071475",
+        "gh-mongodb-8072094",
         "gh-mongodb-8072501",
         "gh-mongodb-8072504",
         "gh-mongodb-8072506",
@@ -5063,6 +5069,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-07T09:56:49.196176+00:00",
+  "last_run": "2026-09-07T15:36:05.089931+00:00",
   "pending_notifications": []
 }
