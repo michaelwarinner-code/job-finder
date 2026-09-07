@@ -87,7 +87,7 @@
   {
     "answer": "Yes",
     "aliases": [
-      "Would you like to opt-in to receiving text messages from the recruiter for this role in relation to the hiring process \u2013 such as interview requests, reminders, etc.? Note: Selecting \u201cno\u201d will not eliminate you from consideration for this role.\u00a0If you select \"yes\", you can always opt-out later by replying STOP.*"
+      "Would you like to opt-in to receiving text messages from the recruiter for this role in relation to the hiring process – such as interview requests, reminders, etc.? Note: Selecting “no” will not eliminate you from consideration for this role. If you select \"yes\", you can always opt-out later by replying STOP.*"
     ],
     "added_date": "2026-09-05"
   },
