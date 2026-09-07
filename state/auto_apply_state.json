@@ -675,6 +675,15 @@
       "board_token": "cribl",
       "first_seen": "2026-09-06T22:30:48.054050+00:00",
       "last_updated": "2026-09-06T22:30:48.054068+00:00"
-    }
+    },
+    "test:fake-job-1": {
+      "status": "pending_answer",
+      "company_name": "Test Company",
+      "title": "Test Role",
+      "url": "https://example.com",
+      "pending_since": "2026-09-07T00:00:00+00:00",
+      "pending_questions": ["What's your favorite color?", "Do you like pizza?"],
+      "last_updated": "2026-09-07T00:00:00+00:00"
+}
   }
 }
