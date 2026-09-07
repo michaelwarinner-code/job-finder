@@ -139,19 +139,5 @@
       "Which office would you like to work out of?*"
     ],
     "added_date": "2026-09-06"
-  },
-  {
-    "answer": "Red",
-    "aliases": [
-      "What's your favorite color?"
-    ],
-    "added_date": "2026-09-07"
-  },
-  {
-    "answer": "Yes",
-    "aliases": [
-      "Do you like pizza?"
-    ],
-    "added_date": "2026-09-07"
   }
 ]
