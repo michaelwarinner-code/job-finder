@@ -36,6 +36,8 @@ from keyword_filter import passes_keyword_filter
 from ats_fetchers import fetch_greenhouse, fetch_ashby
 from location_filter import is_us_location
 from nyc_location_filter import passes_nyc_location_filter
+from manual_applications_filter import already_applied
+from sheets_logger import get_manually_applied_jobs
 from claude_judge_broad import judge_fit_broad
 import auto_apply_state as st
 
@@ -68,6 +70,16 @@ def main():
     profile = load_profile()
     target_names = load_target_company_names()
     print(f"[setup] {len(target_names)} companies on the target list, will exclude those")
+
+    try:
+        manually_applied_jobs = get_manually_applied_jobs()
+        print(f"[setup] {len(manually_applied_jobs)} job(s) already logged as applied to (manual + auto)")
+    except Exception as e:
+        # A Sheets/auth hiccup shouldn't block discovery entirely -- worth
+        # knowing loudly, but proceeding with an empty list (no manual
+        # cross-check this run) beats failing the whole run over it.
+        print(f"[setup] WARNING: could not read manually-applied jobs, skipping that check this run: {e}")
+        manually_applied_jobs = []
 
     state = st.load_state()
     expired = st.expire_stale_pending(state, timeout_hours=24)
@@ -124,6 +136,11 @@ def main():
             if not is_us_location(loc_string):
                 continue
             if not passes_nyc_location_filter(loc_string):
+                continue
+            if already_applied(job_url, manually_applied_jobs):
+                print(f"  [skip-already-applied] '{title}' at {company_name}")
+                st.set_job_status(state, job_url, "already_applied_manually", company_name=company_name,
+                                   title=title, url=job_url, ats=ats, board_token=token)
                 continue
 
             try:

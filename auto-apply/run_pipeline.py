@@ -153,7 +153,7 @@ def process_one_job(job_id: str, job: dict, state: dict) -> bool:
         try:
             today = date.today()
             date_str = f"{today.month}/{today.day}/{today.year}"
-            append_application_row(date_str, title, company_name, description)
+            append_application_row(date_str, title, company_name, description, job_url=url)
             print("    Logged to Google Sheet.")
         except Exception as e:
             # A logging failure should never undo or mask a real

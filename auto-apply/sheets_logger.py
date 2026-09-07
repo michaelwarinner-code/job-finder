@@ -30,7 +30,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-SPREADSHEET_ID = "1U72lvejgdJet3j53Nc5oWedHln7H1GqkSB4nWrG0ruQ"
+SPREADSHEET_ID = "PASTE_YOUR_SPREADSHEET_ID_HERE"
 SHEET_TAB_NAME = "Jobs I applied to"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
@@ -70,24 +70,29 @@ def _get_sheet_id(service) -> int:
     raise ValueError(f"No tab named {SHEET_TAB_NAME!r} found in this spreadsheet")
 
 
-def append_application_row(date: str, job_title: str, company: str, job_description: str):
+def append_application_row(date: str, job_title: str, company: str, job_description: str, job_url: str = ""):
     """Appends one row: Date, Job Title, Company -- the job description
     goes on as a hover NOTE on the Job Description cell (column D), not as
     literal text, so the sheet stays readable instead of one column
-    holding a giant wall of text. Hover over column D to read it."""
+    holding a giant wall of text. Hover over column D to read it.
+
+    job_url goes in column F -- leaves column E (Recruiter Emailed?) alone
+    for your own use. Storing the URL here is what lets
+    manual_applications_filter.py match future postings against this one
+    precisely, rather than relying on fuzzy title/company text."""
     service = _get_sheets_service()
 
-    values = [[date, job_title, company]]
+    values = [[date, job_title, company, "", "", job_url]]
     body = {"values": values}
     result = service.spreadsheets().values().append(
         spreadsheetId=SPREADSHEET_ID,
-        range=f"{SHEET_TAB_NAME}!A:C",
+        range=f"{SHEET_TAB_NAME}!A:F",
         valueInputOption="USER_ENTERED",
         insertDataOption="INSERT_ROWS",
         body=body,
     ).execute()
 
-    updated_range = result["updates"]["updatedRange"]  # e.g. "'Jobs I applied to'!A64:C64"
+    updated_range = result["updates"]["updatedRange"]  # e.g. "'Jobs I applied to'!A64:F64"
     row_number = int(re.search(r"(\d+):[A-Z]+\d+$", updated_range).group(1))
     row_index = row_number - 1  # batchUpdate rows/columns are 0-indexed
 
@@ -111,3 +116,27 @@ def append_application_row(date: str, job_title: str, company: str, job_descript
     ).execute()
 
     return result
+
+
+def get_manually_applied_jobs() -> list:
+    """Reads every logged application -- including rows YOU added by hand
+    for jobs applied to outside this pipeline -- so discovery can skip
+    those and never double-apply. Skips the header row. Returns a list of
+    {"company": str, "title": str, "url": str}; url may be empty for
+    older entries logged before that column existed, or manual entries
+    where you didn't paste one in."""
+    service = _get_sheets_service()
+    result = service.spreadsheets().values().get(
+        spreadsheetId=SPREADSHEET_ID,
+        range=f"{SHEET_TAB_NAME}!A2:F",
+    ).execute()
+
+    rows = result.get("values", [])
+    jobs = []
+    for row in rows:
+        title = row[1] if len(row) > 1 else ""
+        company = row[2] if len(row) > 2 else ""
+        url = row[5] if len(row) > 5 else ""
+        if company and title:
+            jobs.append({"company": company, "title": title, "url": url})
+    return jobs

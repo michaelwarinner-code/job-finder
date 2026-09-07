@@ -137,8 +137,7 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
     out = []
     offset = 0
     limit = 20
-    MAX_PAGES = 50  # safety cap -- bails out instead of looping forever if the API misbehaves
-    for _ in range(MAX_PAGES):
+    while True:
         r = requests.post(
             base, headers={**HEADERS, "Content-Type": "application/json"},
             json={"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": ""},
@@ -169,8 +168,6 @@ def fetch_workday(tenant: str, site: str, locale: str = "en-US"):
         offset += limit
         if len(postings) < limit:
             break  # partial page = last page, regardless of what `total` says
-    else:
-        print(f"    [workday-warning] site={site} hit MAX_PAGES={MAX_PAGES} cap without a partial page")
 
     return out
 
