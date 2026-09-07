@@ -40,16 +40,17 @@ IS_UNATTENDED = os.environ.get("GITHUB_ACTIONS") == "true"
 
 
 class PendingAnswerRequired(Exception):
-    """Raised (only when IS_UNATTENDED) instead of blocking to wait for a
-    reply. Carries the question that was asked so the caller can mark the
-    whole job as pending_answer and move on to the next one, rather than
-    wasting runner time sitting idle on a single field. A later Worker
-    (reading Telegram replies live) resolves this by writing the answer
-    back into the repo and flipping the job's status so the next scheduled
-    run picks it back up and retries the fill from scratch."""
-    def __init__(self, question_text: str):
-        self.question_text = question_text
-        super().__init__(question_text)
+    """Raised after a full fill attempt (unattended mode only) once every
+    question that couldn't be answered has been collected and sent as a
+    single batched Telegram message -- carries the full list, so the
+    caller can mark the whole job as pending_answer and move on to the
+    next one, rather than wasting runner time. A later Worker (reading
+    Telegram replies live) resolves this by writing the answers back into
+    the repo and flipping the job's status so the next scheduled run picks
+    it back up and retries the fill from scratch."""
+    def __init__(self, questions: list):
+        self.questions = questions
+        super().__init__("; ".join(questions))
 
 
 def _api_url(bot_token: str, method: str) -> str:
@@ -154,14 +155,6 @@ def escalate_question(question_text: str, role_title: str, company_name: str, jo
                  f"Question: {question_text}{options_note}\n\n"
                  f"Reply with your answer{' (must match one of the options above exactly)' if options else ''}.")
 
-    if IS_UNATTENDED:
-        # Nobody's watching this run live -- send the question once and
-        # hand control back immediately rather than blocking. The caller
-        # (run_pipeline.py) marks this whole job pending_answer and moves
-        # on; a Worker listening to Telegram in real time resolves it later.
-        print("[escalation] unattended run -- sent question, not waiting. Marking job pending.")
-        raise PendingAnswerRequired(question_text)
-
     print("[escalation] sent, waiting for your Telegram reply...")
     answer, last_update_id = wait_for_reply(bot_token, chat_id, baseline)
     if answer is None:
@@ -213,10 +206,6 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
                  f"Check all that apply -- reply with the numbers that apply to you, "
                  f"separated by commas, or 'none':\n\n{numbered}")
 
-    if IS_UNATTENDED:
-        print("[escalation] unattended run -- sent checkbox group, not waiting. Marking job pending.")
-        raise PendingAnswerRequired("; ".join(questions))
-
     def parse_indices(text: str):
         text = (text or "").strip().lower()
         if text in ("none", "none apply", "n/a", "0", "no", "no one"):
@@ -255,3 +244,25 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
             return selected
         else:
             selected = parse_indices(reply)
+
+
+def escalate_question_batch(questions: list, role_title: str, company_name: str, job_url: str):
+    """Sends ONE Telegram message listing every question this application
+    still needs answered, instead of a separate message per question.
+    Unattended-mode only: without this, an application with several
+    unanswerable questions could take one separate scheduled run PER
+    question to fully resolve, since a browser session can't survive
+    between runs and each retry only gets as far as the next unanswered
+    field. Does NOT wait for a reply -- a Worker listening to Telegram in
+    real time handles the actual back-and-forth and writes answers back
+    into the repo; this function's only job is sending the initial batch."""
+    bot_token = os.environ["AUTOAPPLY_TELEGRAM_BOT_TOKEN"]
+    chat_id = os.environ["AUTOAPPLY_TELEGRAM_CHAT_ID"]
+
+    numbered = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
+    send_message(bot_token, chat_id,
+                 f"New application needs {len(questions)} answer(s).\n\n"
+                 f"Role: {role_title} at {company_name}\n"
+                 f"Posting: {job_url}\n\n"
+                 f"{numbered}\n\n"
+                 f"Reply with your answers, one per line, in the same order.")

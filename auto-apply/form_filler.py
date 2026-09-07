@@ -33,7 +33,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from playwright.sync_api import sync_playwright
 from answer_bank import load_answer_bank, match_question
 from eeo_answers import classify_eeo_question, get_eeo_answer
-from telegram_escalation import escalate_question, escalate_checkbox_group
+from telegram_escalation import (escalate_question, escalate_checkbox_group,
+                                  escalate_question_batch, PendingAnswerRequired, IS_UNATTENDED)
 from company_question_classifier import is_company_specific_question
 
 TIMEOUT_MS = 30000
@@ -248,9 +249,44 @@ def _extract_fields_with_refs(page) -> list:
     """)
 
 
+def _get_answer_or_queue(pending_questions: list, question: str, role_title: str, company_name: str,
+                          url: str, bank_entries: list, save_to_bank: bool = True, options: list = None):
+    """Routes a question either to immediate escalation (local/attended
+    runs -- exactly the same blocking behavior as before) or to a queue
+    for one single batched message at the very end (unattended runs --
+    confirmed necessary: escalating and blocking per-question would mean
+    an application needing several answers could take one separate
+    scheduled run PER question to resolve, since a browser session can't
+    survive between runs)."""
+    if IS_UNATTENDED:
+        pending_questions.append(question)
+        return None
+    return escalate_question(question, role_title, company_name, url, bank_entries,
+                              save_to_bank=save_to_bank, options=options)
+
+
+def _get_group_selection_or_queue(pending_questions: list, questions: list, role_title: str,
+                                   company_name: str, url: str, bank_entries: list, save_to_bank: bool = True):
+    """Same routing as _get_answer_or_queue, for a checkbox-group batch."""
+    if IS_UNATTENDED:
+        pending_questions.extend(questions)
+        return None
+    return escalate_checkbox_group(questions, role_title, company_name, url, bank_entries,
+                                    save_to_bank=save_to_bank)
+
+
 def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                       role_title: str = "", company_name: str = "", dry_run: bool = True) -> dict:
-    """Returns a report: {"filled": [...], "skipped": [...], "screenshot_path": str}"""
+    """Returns a report: {"filled": [...], "skipped": [...], "screenshot_path": str}
+
+    In unattended mode (see telegram_escalation.IS_UNATTENDED), any question
+    with no available answer is queued rather than escalated immediately --
+    at the end of the fill, if anything was queued, ONE batched Telegram
+    message gets sent covering everything, and PendingAnswerRequired is
+    raised so the caller (run_pipeline.py) marks the whole job pending and
+    moves on. In local/attended mode, nothing changes -- each question
+    still escalates and blocks exactly as before."""
+    pending_questions = []
     candidate_info = load_candidate_info()
     bank_entries = load_answer_bank()
 
@@ -301,13 +337,14 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
 
             group_questions = [gf["question"].strip() for gf in unresolved]
             group_company_specific = any(is_company_specific_question(q, company_name) for q in group_questions)
-            selected = escalate_checkbox_group(group_questions, role_title, company_name, url, bank_entries,
-                                                save_to_bank=not group_company_specific)
+            selected = _get_group_selection_or_queue(pending_questions, group_questions, role_title, company_name,
+                                                       url, bank_entries, save_to_bank=not group_company_specific)
 
             for i, gf in enumerate(unresolved):
                 handled_field_ids.add(gf["ref_value"])
                 if selected is None:
-                    skipped.append({"question": gf["question"], "reason": "checkbox group escalated to Telegram but timed out"})
+                    reason = "queued for batch escalation" if IS_UNATTENDED else "checkbox group escalated to Telegram but timed out"
+                    skipped.append({"question": gf["question"], "reason": reason})
                     continue
                 should_check = i in selected
                 gf_loc = _locator_for(page, gf["ref_type"], gf["ref_value"])
@@ -379,14 +416,16 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
             if field_type == "checkbox":
                 idx, answer = match_question(question, bank_entries) if bank_entries else (None, None)
                 if not answer:
-                    answer = escalate_question(question, role_title, company_name, url, bank_entries,
-                                                save_to_bank=not is_company_specific_question(question, company_name))
+                    answer = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
+                                                   bank_entries,
+                                                   save_to_bank=not is_company_specific_question(question, company_name))
                     source_label = "TELEGRAM_ESCALATION"
                 else:
                     source_label = "ANSWER_BANK"
 
                 if not answer:
-                    skipped.append({"question": question, "reason": "no answer-bank match, and escalation timed out"})
+                    reason = "queued for batch escalation" if IS_UNATTENDED else "no answer-bank match, and escalation timed out"
+                    skipped.append({"question": question, "reason": reason})
                     continue
 
                 button = loc.locator("xpath=..").locator(f'button[data-option="{answer.lower()}"]')
@@ -503,8 +542,8 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                         # back to eeo_answers.json -- that file stays yours to
                         # edit manually; this only fixes the current field.
                         real_options = _peek_react_select_options(page, loc, f["ref_value"])
-                        escalated = escalate_question(question, role_title, company_name, url, bank_entries,
-                                                       save_to_bank=False, options=real_options)
+                        escalated = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
+                                                          bank_entries, save_to_bank=False, options=real_options)
                         if escalated:
                             ok = _select_react_select_option(page, loc, escalated, f["ref_value"],
                                                               click_to_open=is_first, clear_first=is_first)
@@ -558,14 +597,15 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                                          "reason": f"fill() didn't error, but actual value after is "
                                                     f"{actual_value!r}, not {answer!r} -- needs investigation."})
                 else:
-                    escalated = escalate_question(question, role_title, company_name, url, bank_entries,
-                                                   save_to_bank=not company_specific)
+                    escalated = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
+                                                      bank_entries, save_to_bank=not company_specific)
                     if escalated:
                         loc.fill(escalated)
                         source = "TELEGRAM_ESCALATION (not saved, company-specific)" if company_specific else "TELEGRAM_ESCALATION"
                         filled.append({"question": question, "source": source, "value": escalated})
                     else:
-                        skipped.append({"question": question, "reason": "escalated to Telegram but timed out waiting for a reply"})
+                        reason = "queued for batch escalation" if IS_UNATTENDED else "escalated to Telegram but timed out waiting for a reply"
+                        skipped.append({"question": question, "reason": reason})
                 continue
 
             # 5b. Non-EEO react-select (single) fields -- same answer-bank
@@ -587,20 +627,22 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                         # options -- rather than fail silently, ask with the real
                         # choices instead of leaving the field blank.
                         real_options = _peek_react_select_options(page, loc, f["ref_value"])
-                        escalated = escalate_question(question, role_title, company_name, url, bank_entries,
-                                                       save_to_bank=not is_company_specific_question(question, company_name),
-                                                       options=real_options)
+                        escalated = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
+                                                          bank_entries,
+                                                          save_to_bank=not is_company_specific_question(question, company_name),
+                                                          options=real_options)
                         if escalated and _select_react_select_option(page, loc, escalated, f["ref_value"]):
                             filled.append({"question": question, "source": "TELEGRAM_ESCALATION", "value": escalated})
                         else:
-                            skipped.append({"question": question,
-                                             "reason": f"stored answer '{answer}' didn't match this company's dropdown, "
-                                                        f"and the escalated reply also didn't match -- needs investigation."})
+                            reason = "queued for batch escalation" if IS_UNATTENDED else (
+                                f"stored answer '{answer}' didn't match this company's dropdown, "
+                                f"and the escalated reply also didn't match -- needs investigation.")
+                            skipped.append({"question": question, "reason": reason})
                 else:
                     company_specific = is_company_specific_question(question, company_name)
                     real_options = _peek_react_select_options(page, loc, f["ref_value"])
-                    escalated = escalate_question(question, role_title, company_name, url, bank_entries,
-                                                   save_to_bank=not company_specific, options=real_options)
+                    escalated = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
+                                                      bank_entries, save_to_bank=not company_specific, options=real_options)
                     if escalated:
                         ok = _select_react_select_option(page, loc, escalated, f["ref_value"])
                         if ok:
@@ -609,7 +651,8 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                         else:
                             skipped.append({"question": question, "reason": f"got answer '{escalated}' via Telegram, but no matching dropdown option found"})
                     else:
-                        skipped.append({"question": question, "reason": "escalated to Telegram but timed out waiting for a reply"})
+                        reason = "queued for batch escalation" if IS_UNATTENDED else "escalated to Telegram but timed out waiting for a reply"
+                        skipped.append({"question": question, "reason": reason})
                 continue
 
             # 6. Any other field type we haven't confirmed how to interact with.
@@ -648,6 +691,14 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 )
 
         browser.close()
+
+    if pending_questions and IS_UNATTENDED:
+        # Nobody's watching this run live -- send everything that couldn't
+        # be answered as ONE batched message, then hand back control so
+        # run_pipeline.py can mark the whole job pending and move on to
+        # the next one, rather than sitting idle.
+        escalate_question_batch(pending_questions, role_title, company_name, url)
+        raise PendingAnswerRequired(pending_questions)
 
     return {"filled": filled, "skipped": skipped, "screenshot_path": screenshot_path,
             "dry_run": dry_run, "submitted": submitted, "submit_note": submit_note}

@@ -119,13 +119,14 @@ def process_one_job(job_id: str, job: dict, state: dict) -> bool:
         report = fill_application(url, resume_pdf, cl_pdf, role_title=title, company_name=company_name,
                                    dry_run=DRY_RUN)
     except PendingAnswerRequired as e:
-        # A question came up with no stored answer, and this is an
-        # unattended run -- the question was already sent to Telegram.
-        # Mark this job as waiting and move on to the next one, rather
-        # than treating this as a failure or wasting runner time.
-        print(f"    Question sent, waiting on your answer: {e.question_text!r}")
+        # One or more questions came up with no stored answer, and this is
+        # an unattended run -- everything unanswerable was already sent as
+        # ONE batched Telegram message. Mark this job as waiting on all of
+        # them and move on to the next job, rather than treating this as a
+        # failure or wasting runner time on a single field at a time.
+        print(f"    {len(e.questions)} question(s) sent, waiting on your answers: {e.questions}")
         st.set_job_status(state, job_id, "pending_answer", company_name=company_name, title=title, url=url,
-                           ats=ats, board_token=board_token, pending_question=e.question_text)
+                           ats=ats, board_token=board_token, pending_questions=e.questions)
         return False
     except Exception as e:
         print(f"    Form fill/submit failed: {e}")
