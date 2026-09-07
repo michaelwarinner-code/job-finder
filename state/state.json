@@ -1291,6 +1291,7 @@
         "wd-coke-Director--Channel---Portfolio--Benelux_R-138608-1",
         "wd-coke-Director--Coca-Cola-TradeMark-Marketing-Pakistan_R-142999",
         "wd-coke-Director--Coffee--Georgia-OTC-Execution_R-139557",
+        "wd-coke-Director--Commercial-Frontline--Nigeria_R-145874",
         "wd-coke-Director--Connections---Media_R-144890",
         "wd-coke-Director--Creative--FR_R-142423-1",
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
@@ -1314,6 +1315,7 @@
         "wd-coke-Director--Global-Intelligence-Measurement-Models---Analytic-Frameworks_R-144605",
         "wd-coke-Director--Global-Strategy--Planning-and-Business-Insights_R-144750",
         "wd-coke-Director--International-Treasury_R-145047",
+        "wd-coke-Director--Japan-System-Performance---Bottler-Excellence_R-146095",
         "wd-coke-Director--Leadership-Communications-and-Engagement_R-143582",
         "wd-coke-Director--Legal-Counsel---CPS---Irish-Entities_R-145820",
         "wd-coke-Director--Legal-Counsel--Customer---North-America_R-145738",
@@ -2376,6 +2378,7 @@
         "gh-datadog-3210217",
         "gh-datadog-3851927",
         "gh-datadog-3851935",
+        "gh-datadog-4599111",
         "gh-datadog-4599148",
         "gh-datadog-4732393",
         "gh-datadog-4828332",
@@ -2870,6 +2873,7 @@
         "gh-datadog-8171026",
         "gh-datadog-8171303",
         "gh-datadog-8172855",
+        "gh-datadog-8172864",
         "gh-datadog-8173840",
         "gh-datadog-8173897",
         "gh-datadog-8174592",
@@ -3335,6 +3339,7 @@
         "gh-mongodb-8161404",
         "gh-mongodb-8161512",
         "gh-mongodb-8161746",
+        "gh-mongodb-8164280",
         "gh-mongodb-8164691",
         "gh-mongodb-8167369",
         "gh-mongodb-8167389",
@@ -3947,6 +3952,7 @@
         "gh-appsflyer-8537460002",
         "gh-appsflyer-8539096002",
         "gh-appsflyer-8557844002",
+        "gh-appsflyer-8557846002",
         "gh-appsflyer-8568315002",
         "gh-appsflyer-8581411002",
         "gh-appsflyer-8585113002",
@@ -5057,6 +5063,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-07T04:50:56.750077+00:00",
+  "last_run": "2026-09-07T09:56:49.196176+00:00",
   "pending_notifications": []
 }
