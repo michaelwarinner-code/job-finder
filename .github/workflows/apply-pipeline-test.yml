@@ -46,6 +46,7 @@ jobs:
           mkdir -p state
           echo "${{ secrets.CANDIDATE_INFO_JSON_B64 }}" | base64 -d > state/candidate_info.json
           echo "${{ secrets.EEO_ANSWERS_JSON_B64 }}" | base64 -d > state/eeo_answers.json
+          echo "${{ secrets.GOOGLE_TOKEN_JSON_B64 }}" | base64 -d > auto-apply/token.json
 
       - name: Run the pipeline (dry run)
         env:
