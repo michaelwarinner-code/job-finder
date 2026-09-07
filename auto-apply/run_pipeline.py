@@ -27,6 +27,7 @@ from ats_fetchers import fetch_greenhouse, fetch_ashby
 from materials_writer import generate_materials
 from pdf_builder import build_resume_and_coverletter
 from form_filler import fill_application
+from telegram_escalation import PendingAnswerRequired
 from sheets_logger import append_application_row
 from application_archive import archive_application
 from broad_source import GREENHOUSE_URL_RE, ASHBY_URL_RE
@@ -117,6 +118,15 @@ def process_one_job(job_id: str, job: dict, state: dict) -> bool:
     try:
         report = fill_application(url, resume_pdf, cl_pdf, role_title=title, company_name=company_name,
                                    dry_run=DRY_RUN)
+    except PendingAnswerRequired as e:
+        # A question came up with no stored answer, and this is an
+        # unattended run -- the question was already sent to Telegram.
+        # Mark this job as waiting and move on to the next one, rather
+        # than treating this as a failure or wasting runner time.
+        print(f"    Question sent, waiting on your answer: {e.question_text!r}")
+        st.set_job_status(state, job_id, "pending_answer", company_name=company_name, title=title, url=url,
+                           ats=ats, board_token=board_token, pending_question=e.question_text)
+        return False
     except Exception as e:
         print(f"    Form fill/submit failed: {e}")
         st.set_job_status(state, job_id, "failed_form_scan", company_name=company_name, title=title, url=url,

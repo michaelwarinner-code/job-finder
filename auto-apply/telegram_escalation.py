@@ -31,6 +31,26 @@ DEFAULT_TIMEOUT_SECONDS = 1800  # 30 minutes -- long enough for a real reply whi
 MAX_NETWORK_RETRIES = 4
 NETWORK_RETRY_BACKOFF_SECONDS = 5
 
+# GitHub Actions sets this automatically on every run -- used to detect
+# "nobody is watching this run in real time" rather than adding a separate
+# setting. Blocking and waiting for a reply is fine on your own machine,
+# but a cloud run can't sit there idle -- it needs to send the question
+# once and move on to the next job instead of hanging.
+IS_UNATTENDED = os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+class PendingAnswerRequired(Exception):
+    """Raised (only when IS_UNATTENDED) instead of blocking to wait for a
+    reply. Carries the question that was asked so the caller can mark the
+    whole job as pending_answer and move on to the next one, rather than
+    wasting runner time sitting idle on a single field. A later Worker
+    (reading Telegram replies live) resolves this by writing the answer
+    back into the repo and flipping the job's status so the next scheduled
+    run picks it back up and retries the fill from scratch."""
+    def __init__(self, question_text: str):
+        self.question_text = question_text
+        super().__init__(question_text)
+
 
 def _api_url(bot_token: str, method: str) -> str:
     return f"https://api.telegram.org/bot{bot_token}/{method}"
@@ -134,6 +154,14 @@ def escalate_question(question_text: str, role_title: str, company_name: str, jo
                  f"Question: {question_text}{options_note}\n\n"
                  f"Reply with your answer{' (must match one of the options above exactly)' if options else ''}.")
 
+    if IS_UNATTENDED:
+        # Nobody's watching this run live -- send the question once and
+        # hand control back immediately rather than blocking. The caller
+        # (run_pipeline.py) marks this whole job pending_answer and moves
+        # on; a Worker listening to Telegram in real time resolves it later.
+        print("[escalation] unattended run -- sent question, not waiting. Marking job pending.")
+        raise PendingAnswerRequired(question_text)
+
     print("[escalation] sent, waiting for your Telegram reply...")
     answer, last_update_id = wait_for_reply(bot_token, chat_id, baseline)
     if answer is None:
@@ -184,6 +212,10 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
                  f"Posting: {job_url}\n\n"
                  f"Check all that apply -- reply with the numbers that apply to you, "
                  f"separated by commas, or 'none':\n\n{numbered}")
+
+    if IS_UNATTENDED:
+        print("[escalation] unattended run -- sent checkbox group, not waiting. Marking job pending.")
+        raise PendingAnswerRequired("; ".join(questions))
 
     def parse_indices(text: str):
         text = (text or "").strip().lower()

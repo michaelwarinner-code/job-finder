@@ -87,12 +87,16 @@ def is_already_handled(state: dict, job_id: str) -> bool:
 
 
 def set_job_status(state: dict, job_id: str, status: str, company_name: str = "",
-                    title: str = "", url: str = "", ats: str = "", board_token: str = ""):
+                    title: str = "", url: str = "", ats: str = "", board_token: str = "",
+                    pending_question: str = ""):
     """Creates or updates a job's tracked status. Setting status to
-    'pending_answer' stamps pending_since (used by expire_stale_pending());
-    moving to any other status clears it. ats/board_token let a later
-    pipeline stage re-fetch the live posting (description, current
-    open/closed state) without needing to cache potentially-stale content."""
+    'pending_answer' stamps pending_since (used by expire_stale_pending())
+    and records pending_question -- the exact question text this job is
+    stuck on, so a Worker reading state later knows what your Telegram
+    reply is actually answering. Moving to any other status clears both.
+    ats/board_token let a later pipeline stage re-fetch the live posting
+    (description, current open/closed state) without needing to cache
+    potentially-stale content."""
     existing = state["jobs"].get(job_id, {})
     job = {
         "status": status,
@@ -106,6 +110,7 @@ def set_job_status(state: dict, job_id: str, status: str, company_name: str = ""
     }
     if status == "pending_answer":
         job["pending_since"] = existing.get("pending_since", _now_iso())
+        job["pending_question"] = pending_question or existing.get("pending_question", "")
     state["jobs"][job_id] = job
 
 

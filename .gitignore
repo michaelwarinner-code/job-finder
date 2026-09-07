@@ -7,6 +7,10 @@ state/candidate_info.json
 auto-apply/client_secret.json
 auto-apply/token.json
 
+# Leftover plaintext encoding output -- never needed once pasted into a
+# GitHub secret, and it's a plaintext copy of personal data until deleted.
+*_b64.txt
+
 # Generated artifacts -- real resumes, cover letters, and screenshots
 # containing personal info, regenerated fresh each run, never need to
 # persist in git.
@@ -19,3 +23,4 @@ __pycache__/
 
 # Node dependencies -- regenerated fresh via `npm install`, never committed.
 resume-builder/node_modules/
+auto-apply-telegram-worker/node_modules/
