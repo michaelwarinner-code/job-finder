@@ -1,0 +1,24 @@
+name: Register Telegram webhook
+
+# Manual, one-off utility -- run this whenever the Worker's URL changes
+# (first setup, or after a redeploy under a different project name) and
+# you need to tell Telegram where to send incoming messages. Runs from
+# GitHub's infrastructure rather than your local machine, since local
+# network/SSL issues shouldn't block something this simple.
+on:
+  workflow_dispatch:
+    inputs:
+      worker_url:
+        description: "Your Worker's full URL (e.g. https://auto-apply-telegram-worker.yourname.workers.dev)"
+        required: true
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Telegram's setWebhook
+        env:
+          BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          WORKER_URL: ${{ github.event.inputs.worker_url }}
+        run: |
+          curl -s "https://api.telegram.org/bot${BOT_TOKEN}/setWebhook?url=${WORKER_URL}"
