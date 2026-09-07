@@ -49,9 +49,14 @@ IDENTITY_KEYWORD_MAP = [
     (re.compile(r"e-?mail", re.I), "email"),
     (re.compile(r"phone", re.I), "phone"),
     (re.compile(r"linkedin", re.I), "linkedin_url"),
-    (re.compile(r"website|portfolio", re.I), "website_url"),
+    (re.compile(r"website|portfolio(?!\s+compan)", re.I), "website_url"),
     (re.compile(r"location|city", re.I), "location_city"),
     (re.compile(r"country", re.I), "country"),
+    (re.compile(r"school|university|college", re.I), "school"),
+    (re.compile(r"degree", re.I), "degree"),
+    (re.compile(r"discipline|major|field of study", re.I), "discipline"),
+    (re.compile(r"pronoun", re.I), "pronouns"),
+    (re.compile(r"date of birth|\bdob\b", re.I), "date_of_birth"),
 ]
 
 
@@ -275,8 +280,70 @@ def _get_group_selection_or_queue(pending_questions: list, questions: list, role
                                     save_to_bank=save_to_bank)
 
 
+def _goto_application_page(page, url: str):
+    """Navigates to a job's application page. Uses domcontentloaded instead
+    of networkidle -- confirmed the hard way that networkidle times out on
+    a real chunk of postings (chat widgets, analytics beacons, background
+    polling never let network activity fully stop for 500ms), which would
+    otherwise fail the whole scan/fill on pages that actually loaded fine.
+    domcontentloaded plus the explicit wait below is the standard, more
+    reliable pattern for this. Ashby application forms live at .../application,
+    not the bare posting URL."""
+    target_url = url
+    if "ashbyhq.com" in url and not url.rstrip("/").endswith("/application"):
+        target_url = url.rstrip("/") + "/application"
+
+    page.goto(target_url, timeout=TIMEOUT_MS, wait_until="domcontentloaded")
+    page.wait_for_timeout(2000)  # lets JS-rendered fields (react-select etc.) finish hydrating
+
+
+def scan_fields_only(url: str) -> list:
+    """Opens the real live application page and returns the raw scanned
+    fields (question, field_type, and real dropdown options for
+    react-select fields) with NO filling, NO answer-bank lookups, NO
+    escalation, and NO submission -- just the same navigation +
+    extraction fill_application() does before it starts acting on
+    anything, plus a peek at each dropdown's real options. Used by
+    form_field_audit.py to check what questions a posting actually asks
+    (and whether the answer bank would cover them) without spending a
+    Telegram message, a Claude call, or generating any materials."""
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        _goto_application_page(page, url)
+
+        fields = _extract_fields_with_refs(page)
+
+        for f in fields:
+            if f["field_type"] in ("react-select", "react-select-multi"):
+                loc = _locator_for(page, f["ref_type"], f["ref_value"])
+                f["options"] = _peek_react_select_options(page, loc, f["ref_value"])
+            else:
+                f["options"] = []
+
+        browser.close()
+        return fields
+
+
+def _resolve_answer(question: str, bank_entries: list, job_specific_answers: dict, company_specific: bool):
+    """Checks job-specific pre-supplied answers FIRST -- from a prior
+    Telegram exchange for THIS exact job, always safe to reuse here
+    regardless of company_specific, since it's already scoped to just
+    this one job. Falls back to the reusable answer bank, but ONLY when
+    the question isn't company-specific -- for those, no bank entry is
+    ever consulted, a fresh escalation is required (and its answer gets
+    persisted as a job-specific answer by the caller, not to the bank)."""
+    if job_specific_answers and question in job_specific_answers:
+        return job_specific_answers[question]
+    if company_specific or not bank_entries:
+        return None
+    idx, answer = match_question(question, bank_entries)
+    return answer
+
+
 def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
-                      role_title: str = "", company_name: str = "", dry_run: bool = True) -> dict:
+                      role_title: str = "", company_name: str = "", dry_run: bool = True,
+                      job_specific_answers: dict = None) -> dict:
     """Returns a report: {"filled": [...], "skipped": [...], "screenshot_path": str}
 
     In unattended mode (see telegram_escalation.IS_UNATTENDED), any question
@@ -296,13 +363,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-
-        target_url = url
-        if "ashbyhq.com" in url and not url.rstrip("/").endswith("/application"):
-            target_url = url.rstrip("/") + "/application"
-
-        page.goto(target_url, timeout=TIMEOUT_MS, wait_until="networkidle")
-        page.wait_for_timeout(1500)
+        _goto_application_page(page, url)
 
         fields = _extract_fields_with_refs(page)
 
@@ -328,6 +389,8 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 if classify_eeo_question(q):
                     continue
                 idx, ans = match_question(q, bank_entries) if bank_entries else (None, None)
+                if job_specific_answers and q in job_specific_answers:
+                    ans = job_specific_answers[q]
                 if ans:
                     continue
                 unresolved.append(gf)
@@ -414,11 +477,11 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
 
             # 3. Ashby's known Yes/No hidden-checkbox-behind-buttons widget.
             if field_type == "checkbox":
-                idx, answer = match_question(question, bank_entries) if bank_entries else (None, None)
+                company_specific = is_company_specific_question(question, company_name)
+                answer = _resolve_answer(question, bank_entries, job_specific_answers, company_specific)
                 if not answer:
                     answer = _get_answer_or_queue(pending_questions, question, role_title, company_name, url,
-                                                   bank_entries,
-                                                   save_to_bank=not is_company_specific_question(question, company_name))
+                                                   bank_entries, save_to_bank=not company_specific)
                     source_label = "TELEGRAM_ESCALATION"
                 else:
                     source_label = "ANSWER_BANK"
@@ -577,10 +640,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                     continue
 
                 company_specific = is_company_specific_question(question, company_name)
-
-                idx, answer = (None, None)
-                if not company_specific and bank_entries:
-                    idx, answer = match_question(question, bank_entries)
+                answer = _resolve_answer(question, bank_entries, job_specific_answers, company_specific)
 
                 if answer:
                     loc.fill(answer)
@@ -613,10 +673,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
             # instead of fill(), since react-select ignores raw value-setting.
             if field_type == "react-select":
                 company_specific = is_company_specific_question(question, company_name)
-
-                idx, answer = (None, None)
-                if not company_specific and bank_entries:
-                    idx, answer = match_question(question, bank_entries)
+                answer = _resolve_answer(question, bank_entries, job_specific_answers, company_specific)
 
                 if answer:
                     ok = _select_react_select_option(page, loc, answer, f["ref_value"])

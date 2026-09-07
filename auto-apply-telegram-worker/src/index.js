@@ -24,6 +24,41 @@ const ANSWER_BANK_PATH = "state/answer_bank.json";
 const CONVO_KEY = "active_conversation";
 const CONVO_TTL_SECONDS = 86400; // 24h -- a stalled conversation shouldn't linger forever
 
+// Ported from auto-apply/company_question_classifier.py -- keep these two
+// lists in sync with that file by hand, there's no shared source between
+// the Python pipeline and this Worker. Same logic: a question templating
+// the company's own name into otherwise-universal phrasing ("How did you
+// hear about BambooHR?") is NOT company-specific just because the name
+// appears; checked first so these always stay reusable. Everything else
+// containing the company's name, or matching a "why this role/company"
+// shape, gets treated as one-off and never saved to the bank.
+const ALWAYS_GENERIC_PATTERNS = [
+  /how did you (hear|find out|learn) about/i,
+  /have you (ever\s+)?(previously\s+)?worked (for|at)/i,
+  /(current or )?former\s+\S+\s+employee/i,
+  /sponsor|petition.*employment|nonimmigrant status|require.*visa/i,
+  /family member|relative|close personal relationship.*(employed|working)/i,
+  /non-compete|non-solicitation|confidentiality obligation|restrictive covenant/i,
+  /financial interest.*(competitor|customer|vendor|partner)/i,
+  /outside employment|consulting|freelance work|board|advisory board|officer.*trustee/i,
+  /consent to.*(collect|process).*personal data|privacy notice/i,
+];
+
+const COMPANY_SPECIFIC_PATTERNS = [
+  /why.*(excited|interested).*(role|position|company|join|team|us\b)/i,
+  /why.*(want to work|do you want to join)/i,
+  /why\s+(this\s+)?(company|role|position|team)\b/i,
+  /what (excites|interests) you about/i,
+  /why\s+(are\s+you\s+)?(a\s+)?(good\s+)?fit/i,
+];
+
+function isCompanySpecificQuestion(questionText, companyName) {
+  const text = questionText || "";
+  if (ALWAYS_GENERIC_PATTERNS.some((p) => p.test(text))) return false;
+  if (companyName && companyName.trim() && text.toLowerCase().includes(companyName.toLowerCase())) return true;
+  return COMPANY_SPECIFIC_PATTERNS.some((p) => p.test(text));
+}
+
 export default {
   async fetch(request, env, ctx) {
     if (request.method !== "POST") {
@@ -94,7 +129,7 @@ async function startConversation(env, chatId) {
 
   await env.CONVERSATION_STATE.put(
     CONVO_KEY,
-    JSON.stringify({ stage: "awaiting_answers", jobId, questions }),
+    JSON.stringify({ stage: "awaiting_answers", jobId, companyName: job.company_name, questions }),
     { expirationTtl: CONVO_TTL_SECONDS }
   );
 }
@@ -129,26 +164,57 @@ async function handleConfirmation(env, chatId, text, convo) {
     return;
   }
 
-  await saveAnswersToBank(env, convo.questions, convo.answers);
+  const savedCount = await saveAnswers(env, convo.jobId, convo.questions, convo.answers, convo.companyName);
   await resetJobForRetry(env, convo.jobId);
   await env.CONVERSATION_STATE.delete(CONVO_KEY);
 
+  const jobOnlyCount = convo.questions.length - savedCount;
+  const scopeNote = jobOnlyCount > 0
+    ? ` ${jobOnlyCount} looked company-specific -- saved for THIS job only, won't be reused elsewhere.`
+    : "";
   await sendTelegramMessage(
     env.TELEGRAM_BOT_TOKEN,
     chatId,
-    "Saved. That job will retry with these answers on the next scheduled run."
+    `Saved ${savedCount} of ${convo.questions.length} to the reusable answer bank.${scopeNote} That job will retry with these answers on the next scheduled run.`
   );
 }
 
-async function saveAnswersToBank(env, questions, answers) {
-  const { content: bank, sha } = await fetchJsonWithSha(env, ANSWER_BANK_PATH);
+async function saveAnswers(env, jobId, questions, answers, companyName) {
+  // Two destinations, matching the Python pipeline's split: reusable
+  // questions go to the global bank (state/answer_bank.json), anything
+  // company-specific goes into THIS job's own job_specific_answers instead
+  // -- reused on its own retries, never eligible for a different company.
+  const { content: bank, sha: bankSha } = await fetchJsonWithSha(env, ANSWER_BANK_PATH);
+  const { content: state, sha: stateSha } = await fetchJsonWithSha(env, STATE_PATH);
   const today = new Date().toISOString().slice(0, 10);
 
+  let savedToBank = 0;
+  let savedToJob = false;
+  const job = state.jobs[jobId];
+
   for (let i = 0; i < questions.length; i++) {
+    if (isCompanySpecificQuestion(questions[i], companyName)) {
+      if (job) {
+        job.job_specific_answers = job.job_specific_answers || {};
+        job.job_specific_answers[questions[i]] = answers[i];
+        savedToJob = true;
+      }
+      continue;
+    }
     bank.push({ answer: answers[i], aliases: [questions[i]], added_date: today });
+    savedToBank++;
   }
 
-  await putJson(env, ANSWER_BANK_PATH, bank, sha, "Add answer(s) from Telegram escalation [skip ci]");
+  if (savedToBank > 0) {
+    await putJson(env, ANSWER_BANK_PATH, bank, bankSha, "Add answer(s) from Telegram escalation [skip ci]");
+  }
+  if (savedToJob) {
+    // resetJobForRetry() also writes STATE_PATH right after this -- it
+    // re-fetches its own sha, so writing here first and letting that
+    // second write layer its own changes on top is safe either way.
+    await putJson(env, STATE_PATH, state, stateSha, `Job-specific answer(s) for ${jobId} [skip ci]`);
+  }
+  return savedToBank;
 }
 
 async function resetJobForRetry(env, jobId) {

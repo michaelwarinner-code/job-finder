@@ -87,7 +87,7 @@
   {
     "answer": "Yes",
     "aliases": [
-      "Would you like to opt-in to receiving text messages from the recruiter for this role in relation to the hiring process – such as interview requests, reminders, etc.? Note: Selecting “no” will not eliminate you from consideration for this role. If you select \"yes\", you can always opt-out later by replying STOP.*"
+      "Would you like to opt-in to receiving text messages from the recruiter for this role in relation to the hiring process \u2013 such as interview requests, reminders, etc.? Note: Selecting \u201cno\u201d will not eliminate you from consideration for this role.\u00a0If you select \"yes\", you can always opt-out later by replying STOP.*"
     ],
     "added_date": "2026-09-05"
   },
@@ -139,5 +139,156 @@
       "Which office would you like to work out of?*"
     ],
     "added_date": "2026-09-06"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Are you a former Motive Employee?",
+      "Have you ever worked for a Vista Equity Partners portfolio company? If yes, please specify which company and your role"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "N/A",
+    "aliases": [
+      "If Yes, please enter your legal name while working at BambooHR previously. If No, please enter N/A."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "I am currently subject to a non-compete agreement, non-solicitation agreement, confidentiality obligation, or other restrictive covenant from a current or former employer."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "I hold or expect to hold, while employed at BambooHR, a financial interest (such as ownership, equity, stock options, compensation, or referral agreements) in a company that is, or appears to be, a BambooHR competitor, customer, vendor, or partner."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "I intend to continue, while employed at BambooHR, outside employment, consulting, freelance work, business ventures, or service on a board, advisory board, committee, or in an officer, trustee, governance, or public office role (paid or unpaid)."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "None of the above apply to me."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "Do you understand this role is in NYC, 5 days a week?",
+      "This position is Hybrid, which means you will be in office Tuesday - Thursday at our Draper location. Can you accommodate this scheduled?",
+      "If selected, the first month which is the training period will be fully onsite. Thereafter, it will mostly be remote but with the expectation that you may be asked to work onsite a few days a week if required. Are you aligned?"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "New York",
+    "aliases": [
+      "What is your preferred work location?",
+      "Which location would you prefer to work from?"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "$80,000",
+    "aliases": [
+      "Compensation Expectations and Currency"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "Company Culture",
+    "aliases": [
+      "Culture"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "Career Growth",
+    "aliases": [
+      "Career Growth"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Benefits"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Career Stability"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Company Outlook"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Compensation"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Leadership"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "PTO"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Remote Work"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "No",
+    "aliases": [
+      "Work-life Balance"
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "Yes",
+    "aliases": [
+      "By submitting your application, you consent to BambooHR and its third-party service providers collecting and processing your personal data, including, but not limited to photographic, audio/video recordings, and biometric data, which may involve AI or algorithmic analysis, as necessary for recruitment, hiring, and business administration purposes. You also confirm that you have read and agree to our General Privacy Notice and California Privacy Notice."
+    ],
+    "added_date": "2026-09-07"
+  },
+  {
+    "answer": "My-Cull",
+    "aliases": [
+      "Please specify any correct pronunciation of your name as needed."
+    ],
+    "added_date": "2026-09-07"
   }
 ]

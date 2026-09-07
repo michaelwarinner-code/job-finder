@@ -137,6 +137,8 @@ def get_manually_applied_jobs() -> list:
         title = row[1] if len(row) > 1 else ""
         company = row[2] if len(row) > 2 else ""
         url = row[5] if len(row) > 5 else ""
+        if title.strip().lower() == "job title" and company.strip().lower() == "company":
+            continue  # a literal header row, wherever it lands -- not a real entry
         if company and title:
             jobs.append({"company": company, "title": title, "url": url})
     return jobs

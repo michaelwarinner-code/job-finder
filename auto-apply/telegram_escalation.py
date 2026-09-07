@@ -163,23 +163,27 @@ def escalate_question(question_text: str, role_title: str, company_name: str, jo
 
     while True:
         reuse_note = "" if save_to_bank else "\n\n(This is specific to this company -- it won't be reused elsewhere.)"
+        confirm_options = "Reply 'yes' to confirm" if save_to_bank else \
+            "Reply 'yes' to confirm without saving, 'save' to confirm AND save this for reuse everywhere"
         send_message(bot_token, chat_id,
                      f"Got it, I'll use:\n\n\"{answer}\"\n\nfor:\n\"{question_text}\"{reuse_note}\n\n"
-                     f"Reply 'yes' to confirm, or send a corrected answer.")
+                     f"{confirm_options}, or send a corrected answer.")
         print("[escalation] sent confirmation, waiting for your reply...")
         reply, last_update_id = wait_for_reply(bot_token, chat_id, last_update_id)
         if reply is None:
             print("[escalation] timed out waiting for confirmation")
             return None
 
-        if reply.strip().lower() == "yes":
-            if save_to_bank:
+        reply_clean = reply.strip().lower()
+        if reply_clean in ("yes", "save"):
+            do_save = save_to_bank or reply_clean == "save"
+            if do_save:
                 bank_entries[:] = add_or_consolidate(question_text, answer, bank_entries)
                 save_answer_bank(bank_entries)
                 send_message(bot_token, chat_id, "Saved to the answer bank.")
             else:
                 send_message(bot_token, chat_id, "Got it -- using this for this application only.")
-            print(f"[escalation] confirmed{' and saved' if save_to_bank else ' (not saved, company-specific)'}: {answer!r}")
+            print(f"[escalation] confirmed{' and saved' if do_save else ' (not saved, company-specific)'}: {answer!r}")
             return answer
         else:
             answer = reply  # treat as a corrected answer, loop back to confirm again
@@ -222,17 +226,21 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
 
     while True:
         selected_desc = "\n".join(f"  - {questions[i]}" for i in selected) if selected else "  (none)"
+        confirm_options = "Reply 'yes' to confirm" if save_to_bank else \
+            "Reply 'yes' to confirm without saving, 'save' to confirm AND save this for reuse everywhere"
         send_message(bot_token, chat_id,
                      f"Got it, I'll check:\n{selected_desc}\n\n"
-                     f"Reply 'yes' to confirm, or send corrected numbers.")
+                     f"{confirm_options}, or send corrected numbers.")
         print("[escalation] sent confirmation, waiting for your reply...")
         reply, last_update_id = wait_for_reply(bot_token, chat_id, last_update_id)
         if reply is None:
             print("[escalation] timed out waiting for confirmation")
             return None
 
-        if reply.strip().lower() == "yes":
-            if save_to_bank:
+        reply_clean = reply.strip().lower()
+        if reply_clean in ("yes", "save"):
+            do_save = save_to_bank or reply_clean == "save"
+            if do_save:
                 for i, q in enumerate(questions):
                     ans = "Yes" if i in selected else "No"
                     bank_entries[:] = add_or_consolidate(q, ans, bank_entries)
@@ -240,7 +248,7 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
                 send_message(bot_token, chat_id, "Saved to the answer bank.")
             else:
                 send_message(bot_token, chat_id, "Got it -- using this for this application only.")
-            print(f"[escalation] confirmed{' and saved' if save_to_bank else ''}: selected {selected}")
+            print(f"[escalation] confirmed{' and saved' if do_save else ''}: selected {selected}")
             return selected
         else:
             selected = parse_indices(reply)

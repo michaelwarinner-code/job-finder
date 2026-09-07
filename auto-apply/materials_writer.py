@@ -20,11 +20,14 @@ does not duplicate or override any of its content.
 import json
 import os
 import re
+import time
 from datetime import date
 
 MODEL = "claude-sonnet-4-6"
 API_URL = "https://api.anthropic.com/v1/messages"
 PROMPT_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "resume_coverletter_prompt.md")
+MAX_API_RETRIES = 3
+API_RETRY_BACKOFF_SECONDS = 10
 
 
 class NeedsClarification(Exception):
@@ -61,26 +64,42 @@ Connection amount (if applicable):
 Today's date: {today}"""
 
 
-def _call_claude(system: str, messages: list) -> str:
+def _call_claude(system: str, messages: list) -> tuple:
+    """POSTs to the Messages API with retry-and-backoff for transient
+    network failures (timeouts, connection resets) -- confirmed necessary
+    the hard way: a 12000-max_tokens response with heavy visible reasoning
+    can legitimately take a couple minutes to fully generate, and a single
+    slow moment shouldn't kill an otherwise-fine request."""
     import requests
     api_key = os.environ["AUTOAPPLY_ANTHROPIC_API_KEY"]
-    r = requests.post(
-        API_URL,
-        headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-        json={
-            "model": MODEL,
-            "max_tokens": 4000,
-            "temperature": 0.3,
-            "system": system,
-            "messages": messages,
-        },
-        timeout=90,
-    )
-    if not r.ok:
-        print(f"    [claude-api-error] status={r.status_code} body={r.text[:500]}")
-    r.raise_for_status()
-    data = r.json()
-    return "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+
+    last_exc = None
+    for attempt in range(MAX_API_RETRIES):
+        try:
+            r = requests.post(
+                API_URL,
+                headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                json={
+                    "model": MODEL,
+                    "max_tokens": 32000,
+                    "temperature": 0.3,
+                    "system": system,
+                    "messages": messages,
+                },
+                timeout=600,
+            )
+            if not r.ok:
+                print(f"    [claude-api-error] status={r.status_code} body={r.text[:500]}")
+            r.raise_for_status()
+            data = r.json()
+            text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+            return text, data.get("stop_reason")
+        except requests.exceptions.RequestException as e:
+            last_exc = e
+            print(f"    [materials-api] network error (attempt {attempt + 1}/{MAX_API_RETRIES}): {e}")
+            if attempt < MAX_API_RETRIES - 1:
+                time.sleep(API_RETRY_BACKOFF_SECONDS)
+    raise last_exc
 
 
 def _try_parse_clarification(text: str):
@@ -133,13 +152,13 @@ def generate_materials(job_description: str, company: str, job_title: str) -> tu
     user = _build_user_message(job_description, company, job_title)
     messages = [{"role": "user", "content": user}]
 
-    raw = _call_claude(system, messages)
+    raw, stop_reason = _call_claude(system, messages)
 
     question = _try_parse_clarification(raw)
     if question:
         raise NeedsClarification(question)
 
-    resume_data, coverletter_data = _parse_materials(raw)
+    resume_data, coverletter_data = _parse_materials(raw, stop_reason)
 
     for attempt in range(MAX_CORRECTION_ATTEMPTS):
         violations = _validate_bullet_counts(resume_data)
@@ -159,8 +178,8 @@ def generate_materials(job_description: str, company: str, job_title: str) -> tu
             f"and every per-company range is also satisfied. Output the corrected resume_data.json and "
             f"coverletter_data.json in the exact same labeled format, nothing else."})
 
-        raw = _call_claude(system, messages)
-        resume_data, coverletter_data = _parse_materials(raw)
+        raw, stop_reason = _call_claude(system, messages)
+        resume_data, coverletter_data = _parse_materials(raw, stop_reason)
 
     remaining_violations = _validate_bullet_counts(resume_data)
     for warning in remaining_violations:
@@ -169,13 +188,19 @@ def generate_materials(job_description: str, company: str, job_title: str) -> tu
     return resume_data, coverletter_data
 
 
-def _parse_materials(raw: str) -> tuple:
+def _parse_materials(raw: str, stop_reason: str = None) -> tuple:
     try:
         resume_data = _extract_labeled_json_block(raw, "resume_data.json")
         coverletter_data = _extract_labeled_json_block(raw, "coverletter_data.json")
     except ValueError:
-        print("\n[parse-error] Could not find the expected labeled JSON blocks. "
-              "Here is the model's raw response so you can see what it actually said:\n")
+        if stop_reason == "max_tokens":
+            print(f"\n[parse-error] Response got CUT OFF by the {MODEL} max_tokens limit before it ever reached "
+                  f"the labeled JSON blocks -- this is a truncation, not a malformed response. The model was "
+                  f"still mid-reasoning (see raw text below) when it ran out of budget. Raise max_tokens in "
+                  f"_call_claude() further if this keeps happening.\n")
+        else:
+            print("\n[parse-error] Could not find the expected labeled JSON blocks. "
+                  "Here is the model's raw response so you can see what it actually said:\n")
         print(raw)
         raise
     return resume_data, coverletter_data

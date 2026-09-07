@@ -21,8 +21,23 @@ import re
 ALWAYS_GENERIC_PATTERNS = [
     re.compile(r"how did you (hear|find out|learn) about", re.I),
     re.compile(r"have you (ever\s+)?(previously\s+)?worked (for|at)", re.I),
+    re.compile(r"(current or )?former\s+\S+\s+employee", re.I),  # e.g. "Are you a former Motive Employee?"
     re.compile(r"sponsor|petition.*employment|nonimmigrant status|require.*visa", re.I),
     re.compile(r"family member|relative|close personal relationship.*(employed|working)", re.I),
+    # Standard compliance/HR declarations -- the company name usually appears
+    # ("...while employed at BambooHR") but the underlying question and the
+    # correct answer are the same fact about YOU at every company: do you
+    # have a non-compete, an outside financial interest in a competitor, or
+    # intend outside employment/board work. Confirmed template on BambooHR;
+    # near-identical wording is common across ATS "employment agreement"
+    # sections generally, not specific to that one posting.
+    re.compile(r"non-compete|non-solicitation|confidentiality obligation|restrictive covenant", re.I),
+    re.compile(r"financial interest.*(competitor|customer|vendor|partner)", re.I),
+    re.compile(r"outside employment|consulting|freelance work|board|advisory board|officer.*trustee", re.I),
+    # GDPR/CCPA-style data-processing consent -- near-universal boilerplate,
+    # the company name is just templated in ("...consent to BambooHR and
+    # its third-party service providers collecting...").
+    re.compile(r"consent to.*(collect|process).*personal data|privacy notice", re.I),
 ]
 
 COMPANY_SPECIFIC_PATTERNS = [

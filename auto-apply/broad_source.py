@@ -19,6 +19,14 @@ confirm those against a real response the first time this actually runs,
 and adjust the field lookups in discover_greenhouse_ashby_postings() if
 they don't match (the constants above are already correct, don't need to
 change again).
+
+time_frame is "7d", not "24h". Already-judged postings (any verdict) are
+tracked by URL in auto_apply_state.json and never re-judged or re-billed
+on a later run regardless of window size, so a wider window costs nothing
+in duplicate work -- it only means a posting doesn't have to be discovered
+within the first 24h of going live to ever be seen at all. 24h was the
+original default and silently meant any posting older than a day when this
+runs was permanently invisible to discovery, judge quality aside.
 """
 import os
 import re
@@ -73,7 +81,7 @@ def _search_fantastic_jobs(title_query: str, api_key: str) -> dict:
     params = {
         "title": title_query,
         "location": '"United States"',
-        "time_frame": "24h",
+        "time_frame": "7d",
         "limit": 500,
         "offset": 0,
         "description_format": "text",

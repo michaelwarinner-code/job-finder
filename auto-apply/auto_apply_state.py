@@ -97,7 +97,10 @@ def set_job_status(state: dict, job_id: str, status: str, company_name: str = ""
     Worker reading state later knows exactly what your replies are
     answering. Moving to any other status clears both. ats/board_token let
     a later pipeline stage re-fetch the live posting (description, current
-    open/closed state) without needing to cache potentially-stale content."""
+    open/closed state) without needing to cache potentially-stale content.
+    job_specific_answers (see get/add_job_specific_answer below) is always
+    carried over regardless of status change -- it's not part of the
+    pending-answer lifecycle, it persists for the life of the job."""
     existing = state["jobs"].get(job_id, {})
     job = {
         "status": status,
@@ -109,10 +112,30 @@ def set_job_status(state: dict, job_id: str, status: str, company_name: str = ""
         "first_seen": existing.get("first_seen", _now_iso()),
         "last_updated": _now_iso(),
     }
+    if "job_specific_answers" in existing:
+        job["job_specific_answers"] = existing["job_specific_answers"]
     if status == "pending_answer":
         job["pending_since"] = existing.get("pending_since", _now_iso())
         job["pending_questions"] = pending_questions if pending_questions is not None else existing.get("pending_questions", [])
     state["jobs"][job_id] = job
+
+
+def get_job_specific_answers(state: dict, job_id: str) -> dict:
+    """Answers scoped to ONE job -- from a question the fit judge (see
+    company_question_classifier.is_company_specific_question) decided was
+    company-specific, so it never went into the reusable answer bank. A
+    fresh unattended retry re-scans the form from scratch with no memory
+    of a prior run's Telegram exchange, so without this, a company-specific
+    question would get re-escalated every single retry forever -- this is
+    what lets the SAME job reuse an answer it already got confirmed for,
+    without that answer ever being eligible for reuse at a DIFFERENT
+    company's application."""
+    return state["jobs"].get(job_id, {}).get("job_specific_answers", {})
+
+
+def add_job_specific_answer(state: dict, job_id: str, question: str, answer: str):
+    job = state["jobs"].setdefault(job_id, {})
+    job.setdefault("job_specific_answers", {})[question] = answer
 
 
 def expire_stale_pending(state: dict, timeout_hours: int = 24) -> list:
