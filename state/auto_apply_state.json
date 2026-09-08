@@ -36,11 +36,9 @@
       "ats": "ashby",
       "board_token": "suno",
       "first_seen": "2026-09-05T23:13:31.610792+00:00",
-      "last_updated": "2026-09-08T22:03:58.204762+00:00",
-      "pending_since": "2026-09-08T22:03:58.204767+00:00",
+      "last_updated": "2026-09-08T22:21:32.087075+00:00",
+      "pending_since": "2026-09-08T22:21:32.087079+00:00",
       "pending_questions": [
-        "Which office are you willing to work out of? -- Los Angeles (Venice)",
-        "Which office are you willing to work out of? -- Neither. I want to work from home.",
         "Why are you interested in working at Suno?"
       ]
     },
