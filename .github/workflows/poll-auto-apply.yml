@@ -1,12 +1,40 @@
-name: Auto-apply discovery (Greenhouse/Ashby)
+name: Auto-apply pipeline (discovery + materials + form fill, dry run)
 
-# Deliberately workflow_dispatch only for now, no schedule yet -- this
-# workflow only runs discovery, not the full apply pipeline (that needs
-# Node/LibreOffice/Playwright installed on the runner, plus the Telegram
-# escalation problem solved for a cloud runner, neither done yet). Adding
-# a schedule comes later, once the full pipeline is proven here manually.
+# Runs daily. Discovery finds new postings; the apply pipeline then
+# generates materials, builds PDFs, and fills out (but does NOT submit)
+# every job sitting in judged_fit -- AUTOAPPLY_DRY_RUN is deliberately
+# NOT set here, so it stays at its default (true) same as a local test
+# run. Going actually live is a separate, deliberate step (see the
+# "submit" job below, workflow_dispatch only, never on the schedule) --
+# this schedule's job is to keep the ready_to_submit queue populated and
+# reviewable, not to submit anything on its own.
+#
+# Also serves the OAuth token: Google's refresh token for Sheets access
+# can expire after ~7 days of INACTIVITY (unpublished/Testing apps) --
+# running daily means it's never inactive that long, so this schedule
+# doubles as what keeps that token alive. See sheets_logger.py's docstring
+# for the one-time setup (token.json + client_secret.json as secrets,
+# written to disk at the start of the "apply" job below).
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "Optional: process only this one job URL instead of the whole judged_fit batch"
+        required: false
+        type: string
+      stop_after:
+        description: "Optional: stop early (materials/pdf), same as the local --stop-after flag"
+        required: false
+        type: choice
+        options: ["", "materials", "pdf"]
+        default: ""
+      skip_discovery:
+        description: "Skip the discovery step (for a quick scoped test against an existing job)"
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: "0 13 * * *"  # 13:00 UTC daily -- cron times are always UTC, adjust as you like
 
 permissions:
   contents: write
@@ -18,7 +46,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  discover:
+  discover-and-apply:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,19 +55,55 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install LibreOffice (PDF conversion)
+        run: sudo apt-get update && sudo apt-get install -y libreoffice
+
+      - name: Install Python dependencies
+        run: pip install -r auto-apply/requirements.txt
+
+      - name: Install Playwright + Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Install resume-builder Node dependencies
+        run: npm install
+        working-directory: resume-builder
+
+      - name: Write Google OAuth credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CLIENT_SECRET_JSON }}' > auto-apply/client_secret.json
+          echo '${{ secrets.GOOGLE_TOKEN_JSON }}' > auto-apply/token.json
 
       - name: Run broad discovery
+        if: inputs.skip_discovery != true
         env:
           AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
           FANTASTIC_JOBS_API_KEY: ${{ secrets.FANTASTIC_JOBS_API_KEY }}
         run: python auto-apply/broad_discover_run.py
 
+      - name: Run apply pipeline (materials + PDFs + form fill, dry run)
+        env:
+          AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
+          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+          SOFFICE_PATH: soffice
+          JOB_ID_INPUT: ${{ inputs.job_id }}
+          STOP_AFTER_INPUT: ${{ inputs.stop_after }}
+        run: |
+          ARGS=()
+          if [ -n "$JOB_ID_INPUT" ]; then ARGS+=(--job-id "$JOB_ID_INPUT"); fi
+          if [ -n "$STOP_AFTER_INPUT" ]; then ARGS+=(--stop-after "$STOP_AFTER_INPUT"); fi
+          python auto-apply/run_pipeline.py "${ARGS[@]}"
+
       - name: Commit updated state
+        if: always()  # commit whatever progress was made even if a later step failed partway through
         run: |
           git config user.name "job-bot"
           git config user.email "job-bot@users.noreply.github.com"
-          git add state/auto_apply_state.json state/auto_apply_audit_log.csv
+          git add state/auto_apply_state.json state/auto_apply_audit_log.csv state/answer_bank.json
           git diff --quiet --cached || git commit -m "Update auto-apply state [skip ci]"
 
           for i in 1 2 3 4 5; do
@@ -47,3 +111,4 @@ jobs:
             echo "Push rejected (attempt $i) -- pulling latest and retrying..."
             git pull --rebase origin main
           done
+
