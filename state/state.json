@@ -54,6 +54,7 @@
         "gh-doordashusa-6166924",
         "gh-doordashusa-6169266",
         "gh-doordashusa-6333525",
+        "gh-doordashusa-6338249",
         "gh-doordashusa-6338457",
         "gh-doordashusa-6385866",
         "gh-doordashusa-6394889",
@@ -3391,6 +3392,7 @@
       "known_job_ids": [
         "gh-braze-7668561",
         "gh-braze-7788980",
+        "gh-braze-7793490",
         "gh-braze-7794066",
         "gh-braze-7818850",
         "gh-braze-7847338",
@@ -3814,7 +3816,8 @@
         "gh-classpass-4709385006",
         "gh-classpass-4710192006",
         "gh-classpass-4710424006",
-        "gh-classpass-4711251006"
+        "gh-classpass-4711251006",
+        "gh-classpass-4711572006"
       ]
     },
     "justworks": {
@@ -4181,7 +4184,8 @@
         "gh-mavenclinic-8760212002",
         "gh-mavenclinic-8761422002",
         "gh-mavenclinic-8763286002",
-        "gh-mavenclinic-8777165002"
+        "gh-mavenclinic-8777165002",
+        "gh-mavenclinic-8785782002"
       ]
     },
     "away": {
@@ -4388,6 +4392,7 @@
         "gh-flatironhealth-8013378",
         "gh-flatironhealth-8013384",
         "gh-flatironhealth-8013390",
+        "gh-flatironhealth-8016444",
         "gh-flatironhealth-8027593",
         "gh-flatironhealth-8036692",
         "gh-flatironhealth-8041935",
@@ -5080,6 +5085,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-08T09:36:03.021134+00:00",
+  "last_run": "2026-09-08T13:50:35.058119+00:00",
   "pending_notifications": []
 }
