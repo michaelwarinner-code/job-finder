@@ -77,6 +77,9 @@ jobs:
           echo '${{ secrets.GOOGLE_CLIENT_SECRET_JSON }}' > auto-apply/client_secret.json
           echo '${{ secrets.GOOGLE_TOKEN_JSON }}' > auto-apply/token.json
 
+      - name: Write candidate info
+        run: echo '${{ secrets.CANDIDATE_INFO_JSON }}' > state/candidate_info.json
+
       - name: Run broad discovery
         if: inputs.skip_discovery != true
         env:
