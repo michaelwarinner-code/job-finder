@@ -48,6 +48,32 @@ COMPANY_SPECIFIC_PATTERNS = [
     re.compile(r"why\s+(are\s+you\s+)?(a\s+)?(good\s+)?fit", re.I),
 ]
 
+# A checkbox asking you to confirm/acknowledge a company's own policy,
+# handbook, or stated expectations (in-office days, code of conduct, an
+# employment agreement's terms, etc). The right answer is always "yes" --
+# applying at all already means agreeing to play by a company's stated
+# rules, this checkbox is just how that gets recorded. Confirmed necessary
+# the hard way: Suno's version of this ("...reasonable accommodations for
+# physical or mental disabilities...") also mentions disability in passing
+# as part of describing their ADA accommodation process, which was
+# tripping the EEO classifier's bare "disabilit" keyword match even
+# though this isn't a self-identification question at all -- checked
+# first, before EEO classification ever runs, for exactly that reason.
+POLICY_ACKNOWLEDGMENT_PATTERNS = [
+    re.compile(r"please confirm that you (have read|understand|agree)", re.I),
+    re.compile(r"(have read and )?(understood?|acknowledge)\b.{0,40}\b(policy|policies|expectations|handbook|guidelines|agreement)", re.I),
+    re.compile(r"by (submitting|checking|applying|signing).{0,40}you (agree|consent|acknowledge)", re.I),
+    re.compile(r"\bi (acknowledge|agree|confirm)\b.{0,10}\b(that|to)\b", re.I),
+]
+
+
+def classify_policy_acknowledgment_question(question_text: str) -> bool:
+    """True if this is a "please confirm/acknowledge our policy" style
+    checkbox -- always answered Yes, no bank lookup and no escalation
+    needed, same tier as an identity field. Check this BEFORE EEO
+    classification (see the note above on why)."""
+    return any(p.search(question_text or "") for p in POLICY_ACKNOWLEDGMENT_PATTERNS)
+
 
 def is_company_specific_question(question_text: str, company_name: str = "") -> bool:
     """True if this question's answer would only make sense for ONE

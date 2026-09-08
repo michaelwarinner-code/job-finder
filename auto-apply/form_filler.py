@@ -35,7 +35,7 @@ from answer_bank import load_answer_bank, match_question
 from eeo_answers import classify_eeo_question, get_eeo_answer
 from telegram_escalation import (escalate_question, escalate_checkbox_group,
                                   escalate_question_batch, PendingAnswerRequired, IS_UNATTENDED)
-from company_question_classifier import is_company_specific_question
+from company_question_classifier import is_company_specific_question, classify_policy_acknowledgment_question
 
 TIMEOUT_MS = 30000
 CANDIDATE_INFO_PATH = os.path.join(os.path.dirname(__file__), "..", "state", "candidate_info.json")
@@ -246,6 +246,61 @@ def _extract_fields_with_refs(page) -> list:
                         ref_type: input.id ? 'id' : 'name',
                         ref_value: input.id || input.name || '',
                         raw_name: 'ashby-group:' + groupId,
+                    });
+                }
+            }
+
+            // Radio-button GROUPS, detected structurally rather than by a
+            // guessed Ashby CSS class name (unlike the checkbox handling
+            // above, which was confirmed against real markup -- this
+            // hasn't been, so flag any failure here for a look at the
+            // real DOM the same way). Native radios are REQUIRED by HTML
+            // itself to share a `name` attribute for mutual exclusivity
+            // to work at all, unlike Ashby's checkboxes which deliberately
+            // don't -- so this doesn't need the same raw_name override
+            // trick, just the same "find the real shared question" fix.
+            // The shared question label is identified by the same broken-
+            // reference signature discovered on checkboxes: a <label>
+            // whose `for` attribute doesn't match any actual <input> id
+            // anywhere on the page (i.e. it's pointing at the group's own
+            // wrapper id, not a real field) -- a structural pattern, not
+            // tied to one ATS's naming conventions, so this should also
+            // work for a checkbox group that ISN'T specifically Ashby's.
+            const allInputIds = new Set(Array.from(document.querySelectorAll('input[id]')).map(el => el.id));
+            const handledFieldsets = new Set(groupFieldsets);
+            for (const fieldset of Array.from(document.querySelectorAll('fieldset'))) {
+                if (handledFieldsets.has(fieldset)) continue;
+
+                const orphanLabel = Array.from(fieldset.querySelectorAll('label')).find(l => {
+                    const forId = l.getAttribute('for');
+                    return forId && !allInputIds.has(forId);
+                });
+                const groupQuestion = orphanLabel ? (orphanLabel.innerText || '').trim() : '';
+                if (!groupQuestion) continue;
+
+                const inputs = Array.from(fieldset.querySelectorAll('input[type="radio"], input[type="checkbox"]'));
+                if (inputs.length < 2) continue;
+                handledFieldsets.add(fieldset);
+
+                const groupId = orphanLabel.getAttribute('for') || groupQuestion;
+                const widgetType = inputs[0].type;
+
+                for (const input of inputs) {
+                    const optLabel = (input.id && document.querySelector('label[for="' + CSS.escape(input.id) + '"]'))
+                        || input.closest('label');
+                    if (!optLabel) continue;
+
+                    seen.add(input.id || input.name);
+
+                    results.push({
+                        question: groupQuestion + ' -- ' + (optLabel.innerText || '').trim(),
+                        group_question: groupQuestion,
+                        option_label: (optLabel.innerText || '').trim(),
+                        field_type: widgetType === 'radio' ? 'radio-group-option' : 'checkbox-group-option',
+                        required: groupQuestion.includes('*'),
+                        ref_type: input.id ? 'id' : 'name',
+                        ref_value: input.id || input.name || '',
+                        raw_name: 'group:' + groupId,
                     });
                 }
             }
@@ -490,10 +545,11 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
         # fall through to the single-checkbox path below.
         option_groups = {}
         for f in fields:
-            if f["field_type"] == "checkbox-group-option" and f.get("raw_name"):
+            if f["field_type"] in ("checkbox-group-option", "radio-group-option") and f.get("raw_name"):
                 option_groups.setdefault(f["raw_name"], []).append(f)
 
         for group_fields in option_groups.values():
+            is_radio = group_fields[0]["field_type"] == "radio-group-option"
             group_question = group_fields[0]["group_question"]
             company_specific = is_company_specific_question(group_question, company_name)
             answer = None
@@ -507,6 +563,17 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 selected = _get_group_selection_or_queue(pending_questions, option_questions, role_title,
                                                            company_name, url, bank_entries,
                                                            save_to_bank=not company_specific)
+                if is_radio and selected and len(selected) > 1:
+                    # This is a single-select field even though the
+                    # escalation message's "check all that apply, reply
+                    # with numbers separated by commas" wording doesn't
+                    # say so explicitly -- if more than one came back
+                    # anyway, only keep the first. Checking a second radio
+                    # would silently uncheck the first one natively, which
+                    # would otherwise show up as a confusing false failure
+                    # below rather than the real explanation (too many
+                    # picks for a field that only allows one).
+                    selected = {min(selected)}
                 for i, gf in enumerate(group_fields):
                     handled_field_ids.add(gf["ref_value"])
                     if selected is None:
@@ -590,7 +657,38 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                     skipped.append({"question": question, "reason": "unrecognized file field or missing PDF path"})
                 continue
 
-            # 2. EEO questions on a widget type we haven't confirmed how to
+            # 2. Policy/handbook acknowledgment checkboxes -- always Yes,
+            # checked BEFORE the EEO gate below on purpose: Suno's version
+            # of this ("...accommodations for physical or mental
+            # disabilities...") mentions disability in passing while
+            # describing their ADA accommodation process, which falsely
+            # tripped the EEO classifier's bare "disabilit" keyword match
+            # even though this isn't a self-identification question.
+            if classify_policy_acknowledgment_question(question):
+                try:
+                    if field_type == "checkbox":
+                        button = loc.locator("xpath=..").locator('button[data-option="yes"]')
+                        if button.count() > 0:
+                            button.first.click(timeout=5000)
+                            ok = button.first.get_attribute("aria-pressed", timeout=5000) == "true"
+                        else:
+                            loc.check(timeout=5000)
+                            ok = loc.is_checked()
+                    else:
+                        skipped.append({"question": question,
+                                         "reason": f"policy-acknowledgment question on unconfirmed widget type "
+                                                    f"'{field_type}' -- needs inspection before filling"})
+                        continue
+                except Exception as e:
+                    skipped.append({"question": question, "reason": f"policy-acknowledgment checkbox click failed: {e}"})
+                    continue
+                if ok:
+                    filled.append({"question": question, "source": "POLICY_ACKNOWLEDGMENT", "value": "Yes"})
+                else:
+                    skipped.append({"question": question, "reason": "clicked to acknowledge but state didn't confirm checked -- needs investigation"})
+                continue
+
+            # 4. EEO questions on a widget type we haven't confirmed how to
             # handle -- react-select and react-select-multi EEO fields are
             # handled below (step 5a), so only genuinely-unconfirmed widget
             # types get flagged here instead of guessed at.
@@ -598,7 +696,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 skipped.append({"question": question, "reason": f"EEO question on unconfirmed widget type '{field_type}' -- needs inspection before filling"})
                 continue
 
-            # 3. Ashby's known Yes/No hidden-checkbox-behind-buttons widget.
+            # 5. Ashby's known Yes/No hidden-checkbox-behind-buttons widget.
             if field_type == "checkbox":
                 company_specific = is_company_specific_question(question, company_name)
                 answer = _resolve_answer(question, bank_entries, job_specific_answers, company_specific)
@@ -651,7 +749,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                                                     f"expected {is_affirmative} for answer {answer!r} -- needs investigation."})
                 continue
 
-            # 4. Identity fields from candidate_info.json.
+            # 6. Identity fields from candidate_info.json.
             identity_key = next((key for pattern, key in IDENTITY_KEYWORD_MAP
                                   if _matches_identity_pattern(pattern, key, question)), None)
             if identity_key and field_type in FILLABLE_NATIVE_TYPES | {"react-select"}:
@@ -754,7 +852,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                     filled.append({"question": question, "source": "EEO_ANSWERS", "value": answer})
                 continue
 
-            # 5. Everything else that's a confirmed-safe native type: answer bank.
+            # 7. Everything else that's a confirmed-safe native type: answer bank.
             if field_type in FILLABLE_NATIVE_TYPES:
                 fallback = _resolve_conditional_fallback(question)
                 if fallback is not None:
@@ -835,7 +933,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                         skipped.append({"question": question, "reason": reason})
                 continue
 
-            # 6. Any other field type we haven't confirmed how to interact with.
+            # 8. Any other field type we haven't confirmed how to interact with.
             skipped.append({"question": question, "reason": f"unconfirmed widget type '{field_type}' -- needs inspection, not guessed at"})
 
         os.makedirs(SCREENSHOT_DIR, exist_ok=True)
