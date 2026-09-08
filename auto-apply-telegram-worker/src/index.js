@@ -88,7 +88,20 @@ async function handleMessage(env, chatId, text) {
   const convo = await env.CONVERSATION_STATE.get(CONVO_KEY, "json");
 
   if (!convo) {
-    await startConversation(env, chatId);
+    const newConvo = await startConversation(env, chatId);
+    if (!newConvo) return; // nothing pending
+
+    // Python has no way to create this conversation state ahead of time
+    // (only the Worker can write its own memory), so the person's very
+    // first message to a batch escalation is unavoidably also the one
+    // that establishes the conversation -- without this check, that
+    // first reply gets silently discarded and the questions just get
+    // re-sent, which reads as if the answer vanished into nothing.
+    const lines = text.split("\n").map((l) => l.trim()).filter((l) => l.length > 0);
+    if (lines.length === newConvo.questions.length) {
+      await handleAnswers(env, chatId, text, newConvo);
+    }
+    return;
   } else if (convo.stage === "awaiting_answers") {
     await handleAnswers(env, chatId, text, convo);
   } else if (convo.stage === "awaiting_confirmation") {
@@ -99,13 +112,37 @@ async function handleMessage(env, chatId, text) {
   }
 }
 
+// Formats a structured pending-question list into ONE numbered reply
+// line per TOP-LEVEL item -- a whole checkbox/radio group is one line to
+// reply to (e.g. "2-3" or a letter combo), not one line per option.
+// Must stay in sync with telegram_escalation.py's _format_pending_questions
+// -- there's no shared source between the Python pipeline and this Worker.
+function formatPendingQuestions(items) {
+  const letters = "abcdefghijklmnopqrstuvwxyz";
+  return items
+    .map((item, i) => {
+      if (item.type === "single") {
+        return `${i + 1}. ${item.question}`;
+      }
+      if (item.select === "one") {
+        const optionsText = item.options.join(", ");
+        const header = item.group_question ? `${item.group_question} ` : "";
+        return `${i + 1}. ${header}Reply with ONE of: ${optionsText}`;
+      }
+      const optionsText = item.options.map((opt, j) => `${letters[j]}) ${opt}`).join(" ");
+      const header = item.group_question ? `${item.group_question} ` : "Do any of these apply to you? ";
+      return `${i + 1}. ${header}Reply with the letters that apply, comma-separated, or 'none': ${optionsText}`;
+    })
+    .join("\n\n");
+}
+
 async function startConversation(env, chatId) {
   const state = await fetchJson(env, STATE_PATH);
   const pending = Object.entries(state.jobs || {}).filter(([, job]) => job.status === "pending_answer");
 
   if (pending.length === 0) {
     await sendTelegramMessage(env.TELEGRAM_BOT_TOKEN, chatId, "Nothing is currently waiting on an answer.");
-    return;
+    return null;
   }
 
   pending.sort((a, b) => new Date(a[1].pending_since) - new Date(b[1].pending_since));
@@ -120,18 +157,16 @@ async function startConversation(env, chatId) {
     );
   }
 
-  const numbered = questions.map((q, i) => `${i + 1}. ${q}`).join("\n");
+  const numbered = formatPendingQuestions(questions);
   await sendTelegramMessage(
     env.TELEGRAM_BOT_TOKEN,
     chatId,
     `${job.company_name} -- ${job.title}\n\n${numbered}\n\nReply with your answers, one per line, in order.`
   );
 
-  await env.CONVERSATION_STATE.put(
-    CONVO_KEY,
-    JSON.stringify({ stage: "awaiting_answers", jobId, companyName: job.company_name, questions }),
-    { expirationTtl: CONVO_TTL_SECONDS }
-  );
+  const convo = { stage: "awaiting_answers", jobId, companyName: job.company_name, questions };
+  await env.CONVERSATION_STATE.put(CONVO_KEY, JSON.stringify(convo), { expirationTtl: CONVO_TTL_SECONDS });
+  return convo;
 }
 
 async function handleAnswers(env, chatId, text, convo) {
@@ -146,7 +181,9 @@ async function handleAnswers(env, chatId, text, convo) {
     return;
   }
 
-  const pairs = convo.questions.map((q, i) => `${i + 1}. ${q}\n   -> ${lines[i]}`).join("\n\n");
+  const pairs = convo.questions
+    .map((item, i) => `${i + 1}. ${describeItem(item)}\n   -> ${lines[i]}`)
+    .join("\n\n");
   await sendTelegramMessage(
     env.TELEGRAM_BOT_TOKEN,
     chatId,
@@ -156,6 +193,11 @@ async function handleAnswers(env, chatId, text, convo) {
   convo.stage = "awaiting_confirmation";
   convo.answers = lines;
   await env.CONVERSATION_STATE.put(CONVO_KEY, JSON.stringify(convo), { expirationTtl: CONVO_TTL_SECONDS });
+}
+
+function describeItem(item) {
+  if (item.type === "single") return item.question;
+  return item.group_question || `(${item.options.join(" / ")})`;
 }
 
 async function handleConfirmation(env, chatId, text, convo) {
@@ -184,25 +226,62 @@ async function saveAnswers(env, jobId, questions, answers, companyName) {
   // questions go to the global bank (state/answer_bank.json), anything
   // company-specific goes into THIS job's own job_specific_answers instead
   // -- reused on its own retries, never eligible for a different company.
+  //
+  // Each item is now structured (see form_filler.py's
+  // _get_answer_or_queue/_get_group_selection_or_queue), not a bare
+  // string -- a "single" item saves one question->answer pair as before,
+  // a "group" with select "one" saves ONE entry keyed by the group's own
+  // question (not one per option, since the group question itself is
+  // what a differently-worded version of this same question elsewhere
+  // would actually get matched against), and select "any" parses the
+  // reply as comma-separated letters and saves one Yes/No fact per
+  // option, same as the original flat design.
   const { content: bank, sha: bankSha } = await fetchJsonWithSha(env, ANSWER_BANK_PATH);
   const { content: state, sha: stateSha } = await fetchJsonWithSha(env, STATE_PATH);
   const today = new Date().toISOString().slice(0, 10);
+  const letters = "abcdefghijklmnopqrstuvwxyz";
 
   let savedToBank = 0;
   let savedToJob = false;
   const job = state.jobs[jobId];
 
-  for (let i = 0; i < questions.length; i++) {
-    if (isCompanySpecificQuestion(questions[i], companyName)) {
+  const saveOne = (question, answer) => {
+    if (isCompanySpecificQuestion(question, companyName)) {
       if (job) {
         job.job_specific_answers = job.job_specific_answers || {};
-        job.job_specific_answers[questions[i]] = answers[i];
+        job.job_specific_answers[question] = answer;
         savedToJob = true;
+      }
+      return;
+    }
+    bank.push({ answer, aliases: [question], added_date: today });
+    savedToBank++;
+  };
+
+  for (let i = 0; i < questions.length; i++) {
+    const item = questions[i];
+    const reply = (answers[i] || "").trim();
+
+    if (item.type === "single") {
+      saveOne(item.question, reply);
+      continue;
+    }
+
+    if (item.select === "one") {
+      if (item.group_question && reply) {
+        saveOne(item.group_question, reply);
       }
       continue;
     }
-    bank.push({ answer: answers[i], aliases: [questions[i]], added_date: today });
-    savedToBank++;
+
+    // select === "any": reply is comma-separated letters (or 'none')
+    // matching item.options by position.
+    const replyLower = reply.toLowerCase();
+    const chosenLetters = replyLower === "none" ? [] : replyLower.split(",").map((s) => s.trim());
+    for (let j = 0; j < item.options.length; j++) {
+      const chosen = chosenLetters.includes(letters[j]);
+      saveOne(item.options[j], chosen ? "Yes" : "No");
+    }
   }
 
   if (savedToBank > 0) {

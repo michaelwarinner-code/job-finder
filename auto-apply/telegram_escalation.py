@@ -198,32 +198,49 @@ def escalate_question(question_text: str, role_title: str, company_name: str, jo
 
 
 def escalate_checkbox_group(questions: list, role_title: str, company_name: str, job_url: str,
-                             bank_entries: list, save_to_bank: bool = True):
-    """Batches multiple checkbox-group questions (e.g. a "check all that
-    apply" disclosure list) into ONE numbered Telegram message instead of
-    asking one at a time. Reply with the numbers that apply, comma-
-    separated, or 'none'. Returns a list of 0-based indices selected
-    (empty list if none apply), or None on timeout. Saves each individual
-    question/answer to the bank as Yes/No when save_to_bank is True."""
+                             bank_entries: list, save_to_bank: bool = True, select_one: bool = False,
+                             group_question: str = None):
+    """Batches multiple checkbox/radio-group options into ONE numbered
+    Telegram message instead of asking one at a time. Returns a list of
+    0-based indices selected (empty list if none apply), or None on
+    timeout.
+
+    select_one=False (default): "check all that apply" -- e.g. BambooHR's
+    independent compliance declarations, where each option genuinely is
+    its own fact. Reply with comma-separated numbers or 'none'. Saves
+    each option to the bank as its own Yes/No fact when save_to_bank.
+
+    select_one=True: exactly one answer applies (radio buttons, or an
+    office-style "which one" checkbox group) -- e.g. "How many years of
+    experience do you have?" with options 0-1/2-3/4+. Reply with just the
+    one number that applies. Saves ONE entry -- group_question (shown as
+    context above the option list) mapped to the text of whichever option
+    was picked -- not one Yes/No fact per option, since the group_question
+    itself is what a future posting's differently-worded version of this
+    same question would actually get matched against."""
     bot_token = os.environ["AUTOAPPLY_TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["AUTOAPPLY_TELEGRAM_CHAT_ID"]
 
     baseline = _get_latest_update_id(bot_token)
 
     numbered = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
+    context_line = f"Question: {group_question}\n\n" if group_question else ""
+    instructions = "Reply with the ONE number that applies" if select_one else \
+        "Check all that apply -- reply with the numbers that apply to you, separated by commas, or 'none'"
     send_message(bot_token, chat_id,
                  f"New application question needs an answer.\n\n"
                  f"Role: {role_title} at {company_name}\n"
                  f"Posting: {job_url}\n\n"
-                 f"Check all that apply -- reply with the numbers that apply to you, "
-                 f"separated by commas, or 'none':\n\n{numbered}")
+                 f"{context_line}"
+                 f"{instructions}:\n\n{numbered}")
 
     def parse_indices(text: str):
         text = (text or "").strip().lower()
         if text in ("none", "none apply", "n/a", "0", "no", "no one"):
             return []
         nums = re.findall(r"\d+", text)
-        return sorted({int(n) - 1 for n in nums if 0 < int(n) <= len(questions)})
+        indices = sorted({int(n) - 1 for n in nums if 0 < int(n) <= len(questions)})
+        return indices[:1] if select_one and len(indices) > 1 else indices
 
     print("[escalation] sent (checkbox group), waiting for your Telegram reply...")
     answer, last_update_id = wait_for_reply(bot_token, chat_id, baseline)
@@ -249,9 +266,12 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
         if reply_clean in ("yes", "save"):
             do_save = save_to_bank or reply_clean == "save"
             if do_save:
-                for i, q in enumerate(questions):
-                    ans = "Yes" if i in selected else "No"
-                    bank_entries[:] = add_or_consolidate(q, ans, bank_entries)
+                if select_one and group_question and selected:
+                    bank_entries[:] = add_or_consolidate(group_question, questions[selected[0]], bank_entries)
+                elif not select_one:
+                    for i, q in enumerate(questions):
+                        ans = "Yes" if i in selected else "No"
+                        bank_entries[:] = add_or_consolidate(q, ans, bank_entries)
                 save_answer_bank(bank_entries)
                 send_message(bot_token, chat_id, "Saved to the answer bank.")
             else:
@@ -262,46 +282,39 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
             selected = parse_indices(reply)
 
 
-def _format_numbered_questions(questions: list) -> str:
-    """Formats questions as numbered reply lines (1 per line, in order --
-    the reply protocol never changes), but collapses consecutive items
-    sharing the same "Shared Question -- Option" prefix (see
-    form_filler.py's Ashby checkbox-group extraction) under ONE visible
-    header instead of repeating the full question text on every line.
-    Confirmed necessary the hard way: without this, a 3-option "which
-    office" checkbox group showed as the same question typed out twice
-    in a row with no indication they're options of one thing, not two
-    unrelated questions."""
+def _format_pending_questions(pending_questions: list) -> str:
+    """Formats a structured list of pending items (see form_filler.py's
+    _get_answer_or_queue/_get_group_selection_or_queue) into ONE numbered
+    reply line per TOP-LEVEL item -- a whole checkbox/radio group is one
+    line to reply to (e.g. "2-3", or a letter combo for a "check all that
+    apply" group), not one line per underlying option. Must stay in sync
+    with the Worker's formatPendingQuestions() in index.js, which
+    independently rebuilds this same message if the person's reply
+    arrives after the conversation has to restart -- there's no shared
+    source between the Python pipeline and the Worker.
+
+    Confirmed necessary the hard way: the earlier version numbered every
+    individual checkbox/radio OPTION as its own line, so a 3-way
+    single-choice question needed 3 separate reply lines instead of the
+    one a person would naturally give ("2" to mean "pick option 2")."""
+    import string
     lines = []
-    last_prefix = None
-    for i, q in enumerate(questions):
-        prefix, option = q.split(" -- ", 1) if " -- " in q else (None, q)
-        if prefix and prefix == last_prefix:
-            lines.append(f"{i + 1}. {option}")
-        elif prefix:
-            if lines:
-                lines.append("")
-            lines.append(prefix)
-            lines.append("")
-            lines.append(f"{i + 1}. {option}")
-        else:
-            # Coming straight off a grouped block needs a bigger break and
-            # no number, or this reads as if it were just another option
-            # in that group. An ordinary standalone question (no group
-            # immediately before it) keeps its number as always -- losing
-            # numbers on EVERY question would make "how many total answers
-            # do I owe" hard to tell in a batch of several unrelated ones.
-            if last_prefix:
-                lines.append("")
-                lines.append("")
-                lines.append(q)
-            else:
-                lines.append(f"{i + 1}. {q}")
-        last_prefix = prefix
-    return "\n".join(lines).strip()
+    for i, item in enumerate(pending_questions):
+        if item["type"] == "single":
+            lines.append(f"{i + 1}. {item['question']}")
+        elif item["select"] == "one":
+            options_text = ", ".join(item["options"])
+            header = f"{item['group_question']} " if item.get("group_question") else ""
+            lines.append(f"{i + 1}. {header}Reply with ONE of: {options_text}")
+        else:  # select == "any"
+            letters = string.ascii_lowercase
+            options_text = " ".join(f"{letters[j]}) {opt}" for j, opt in enumerate(item["options"]))
+            header = f"{item['group_question']} " if item.get("group_question") else "Do any of these apply to you? "
+            lines.append(f"{i + 1}. {header}Reply with the letters that apply, comma-separated, or 'none': {options_text}")
+    return "\n\n".join(lines)
 
 
-def escalate_question_batch(questions: list, role_title: str, company_name: str, job_url: str):
+def escalate_question_batch(pending_questions: list, role_title: str, company_name: str, job_url: str):
     """Sends ONE Telegram message listing every question this application
     still needs answered, instead of a separate message per question.
     Unattended-mode only: without this, an application with several
@@ -314,9 +327,9 @@ def escalate_question_batch(questions: list, role_title: str, company_name: str,
     bot_token = os.environ["AUTOAPPLY_TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["AUTOAPPLY_TELEGRAM_CHAT_ID"]
 
-    numbered = _format_numbered_questions(questions)
+    numbered = _format_pending_questions(pending_questions)
     send_message(bot_token, chat_id,
-                 f"New application needs {len(questions)} answer(s).\n\n"
+                 f"New application needs {len(pending_questions)} answer(s).\n\n"
                  f"Role: {role_title} at {company_name}\n"
                  f"Posting: {job_url}\n\n"
                  f"{numbered}\n\n"

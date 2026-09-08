@@ -238,7 +238,7 @@ def _extract_fields_with_refs(page) -> list:
                     seen.add(optKey);
 
                     results.push({
-                        question: groupQuestion + ' -- ' + (optLabel.innerText || '').trim(),
+                        question: (optLabel.innerText || '').trim(),
                         group_question: groupQuestion,
                         option_label: (optLabel.innerText || '').trim(),
                         field_type: 'checkbox-group-option',
@@ -293,7 +293,7 @@ def _extract_fields_with_refs(page) -> list:
                     seen.add(input.id || input.name);
 
                     results.push({
-                        question: groupQuestion + ' -- ' + (optLabel.innerText || '').trim(),
+                        question: (optLabel.innerText || '').trim(),
                         group_question: groupQuestion,
                         option_label: (optLabel.innerText || '').trim(),
                         field_type: widgetType === 'radio' ? 'radio-group-option' : 'checkbox-group-option',
@@ -366,22 +366,44 @@ def _get_answer_or_queue(pending_questions: list, question: str, role_title: str
     confirmed necessary: escalating and blocking per-question would mean
     an application needing several answers could take one separate
     scheduled run PER question to resolve, since a browser session can't
-    survive between runs)."""
+    survive between runs). Every queued item is a dict, not a bare
+    string -- confirmed necessary the hard way: a bare flat list of every
+    individual checkbox/radio OPTION as its own "question" meant a 3-way
+    single-choice group needed 3 separate reply lines instead of the one
+    a person would naturally give ("2" to mean "pick option 2"), and the
+    Worker had no way to tell a group's options apart from unrelated
+    standalone questions when it came time to save answers."""
     if IS_UNATTENDED:
-        pending_questions.append(question)
+        pending_questions.append({"type": "single", "question": question})
         return None
     return escalate_question(question, role_title, company_name, url, bank_entries,
                               save_to_bank=save_to_bank, options=options)
 
 
 def _get_group_selection_or_queue(pending_questions: list, questions: list, role_title: str,
-                                   company_name: str, url: str, bank_entries: list, save_to_bank: bool = True):
-    """Same routing as _get_answer_or_queue, for a checkbox-group batch."""
+                                   company_name: str, url: str, bank_entries: list, save_to_bank: bool = True,
+                                   select_one: bool = False, group_question: str = None):
+    """Same routing as _get_answer_or_queue, for a checkbox/radio-group
+    batch. select_one=True means exactly one answer applies (radio
+    buttons, or an office-style "which one" checkbox group) -- the
+    unattended message will ask for ONE reply (the option text itself),
+    not comma-separated numbers, and only one bank/job-specific entry
+    gets saved (group_question -> the chosen option), not one per option.
+    select_one=False keeps the original "check all that apply" behavior
+    (comma-separated numbers, one Yes/No bank entry saved per option) --
+    e.g. BambooHR's independent compliance declarations, where each
+    option genuinely is its own fact, not one of several exclusive
+    choices."""
     if IS_UNATTENDED:
-        pending_questions.extend(questions)
+        pending_questions.append({
+            "type": "group",
+            "group_question": group_question,
+            "options": questions,
+            "select": "one" if select_one else "any",
+        })
         return None
     return escalate_checkbox_group(questions, role_title, company_name, url, bank_entries,
-                                    save_to_bank=save_to_bank)
+                                    save_to_bank=save_to_bank, select_one=select_one, group_question=group_question)
 
 
 def _goto_application_page(page, url: str):
@@ -549,7 +571,6 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 option_groups.setdefault(f["raw_name"], []).append(f)
 
         for group_fields in option_groups.values():
-            is_radio = group_fields[0]["field_type"] == "radio-group-option"
             group_question = group_fields[0]["group_question"]
             company_specific = is_company_specific_question(group_question, company_name)
             answer = None
@@ -559,26 +580,28 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 idx, answer = match_question(group_question, bank_entries)
 
             if not answer:
-                option_questions = [gf["question"] for gf in group_fields]
+                option_questions = [gf["option_label"] for gf in group_fields]
                 selected = _get_group_selection_or_queue(pending_questions, option_questions, role_title,
                                                            company_name, url, bank_entries,
-                                                           save_to_bank=not company_specific)
-                if is_radio and selected and len(selected) > 1:
-                    # This is a single-select field even though the
-                    # escalation message's "check all that apply, reply
-                    # with numbers separated by commas" wording doesn't
-                    # say so explicitly -- if more than one came back
-                    # anyway, only keep the first. Checking a second radio
-                    # would silently uncheck the first one natively, which
-                    # would otherwise show up as a confusing false failure
-                    # below rather than the real explanation (too many
-                    # picks for a field that only allows one).
+                                                           save_to_bank=not company_specific,
+                                                           select_one=True, group_question=group_question)
+                if selected and len(selected) > 1:
+                    # This whole pre-pass treats the group as "one answer
+                    # resolves it" (see the bank-match branch below, which
+                    # checks whichever option's label matches the answer
+                    # text) -- if more than one came back from escalation
+                    # anyway, only keep the first. For radios specifically,
+                    # checking a second one would also silently uncheck
+                    # the first natively, which would otherwise show up as
+                    # a confusing false failure below rather than the real
+                    # explanation (too many picks for a field that only
+                    # allows one).
                     selected = {min(selected)}
                 for i, gf in enumerate(group_fields):
                     handled_field_ids.add(gf["ref_value"])
                     if selected is None:
                         reason = "queued for batch escalation" if IS_UNATTENDED else "checkbox group escalated to Telegram but timed out"
-                        skipped.append({"question": gf["question"], "reason": reason})
+                        skipped.append({"question": f"{group_question} -- {gf['option_label']}", "reason": reason})
                         continue
                     should_check = i in selected
                     gf_loc = _locator_for(page, gf["ref_type"], gf["ref_value"])
@@ -587,13 +610,13 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                             gf_loc.check(timeout=5000)
                         actual = gf_loc.is_checked()
                     except Exception as e:
-                        skipped.append({"question": gf["question"], "reason": f"group checkbox click failed: {e}"})
+                        skipped.append({"question": f"{group_question} -- {gf['option_label']}", "reason": f"group checkbox click failed: {e}"})
                         continue
                     if actual == should_check:
-                        filled.append({"question": gf["question"], "source": "TELEGRAM_ESCALATION (group)",
+                        filled.append({"question": f"{group_question} -- {gf['option_label']}", "source": "TELEGRAM_ESCALATION (group)",
                                         "value": "checked" if should_check else "unchecked"})
                     else:
-                        skipped.append({"question": gf["question"],
+                        skipped.append({"question": f"{group_question} -- {gf['option_label']}",
                                          "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
                 continue
 
@@ -606,13 +629,13 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                         gf_loc.check(timeout=5000)
                     actual = gf_loc.is_checked()
                 except Exception as e:
-                    skipped.append({"question": gf["question"], "reason": f"group checkbox click failed: {e}"})
+                    skipped.append({"question": f"{group_question} -- {gf['option_label']}", "reason": f"group checkbox click failed: {e}"})
                     continue
                 if actual == should_check:
-                    filled.append({"question": gf["question"], "source": "ANSWER_BANK",
+                    filled.append({"question": f"{group_question} -- {gf['option_label']}", "source": "ANSWER_BANK",
                                     "value": "checked" if should_check else "unchecked (didn't match the bank answer)"})
                 else:
-                    skipped.append({"question": gf["question"],
+                    skipped.append({"question": f"{group_question} -- {gf['option_label']}",
                                      "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
 
         for f in fields:
