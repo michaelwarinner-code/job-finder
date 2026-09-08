@@ -254,6 +254,45 @@ def escalate_checkbox_group(questions: list, role_title: str, company_name: str,
             selected = parse_indices(reply)
 
 
+def _format_numbered_questions(questions: list) -> str:
+    """Formats questions as numbered reply lines (1 per line, in order --
+    the reply protocol never changes), but collapses consecutive items
+    sharing the same "Shared Question -- Option" prefix (see
+    form_filler.py's Ashby checkbox-group extraction) under ONE visible
+    header instead of repeating the full question text on every line.
+    Confirmed necessary the hard way: without this, a 3-option "which
+    office" checkbox group showed as the same question typed out twice
+    in a row with no indication they're options of one thing, not two
+    unrelated questions."""
+    lines = []
+    last_prefix = None
+    for i, q in enumerate(questions):
+        prefix, option = q.split(" -- ", 1) if " -- " in q else (None, q)
+        if prefix and prefix == last_prefix:
+            lines.append(f"{i + 1}. {option}")
+        elif prefix:
+            if lines:
+                lines.append("")
+            lines.append(prefix)
+            lines.append("")
+            lines.append(f"{i + 1}. {option}")
+        else:
+            # Coming straight off a grouped block needs a bigger break and
+            # no number, or this reads as if it were just another option
+            # in that group. An ordinary standalone question (no group
+            # immediately before it) keeps its number as always -- losing
+            # numbers on EVERY question would make "how many total answers
+            # do I owe" hard to tell in a batch of several unrelated ones.
+            if last_prefix:
+                lines.append("")
+                lines.append("")
+                lines.append(q)
+            else:
+                lines.append(f"{i + 1}. {q}")
+        last_prefix = prefix
+    return "\n".join(lines).strip()
+
+
 def escalate_question_batch(questions: list, role_title: str, company_name: str, job_url: str):
     """Sends ONE Telegram message listing every question this application
     still needs answered, instead of a separate message per question.
@@ -267,7 +306,7 @@ def escalate_question_batch(questions: list, role_title: str, company_name: str,
     bot_token = os.environ["AUTOAPPLY_TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["AUTOAPPLY_TELEGRAM_CHAT_ID"]
 
-    numbered = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
+    numbered = _format_numbered_questions(questions)
     send_message(bot_token, chat_id,
                  f"New application needs {len(questions)} answer(s).\n\n"
                  f"Role: {role_title} at {company_name}\n"
