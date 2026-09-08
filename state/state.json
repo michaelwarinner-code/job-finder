@@ -906,6 +906,7 @@
         "lever-spotify-f45de8ee-8f32-4e19-9163-eddf7a018337",
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
         "lever-spotify-f58775f4-574f-40df-8b25-528381203154",
+        "lever-spotify-f6c45551-3bb2-4b62-9b7f-02f2b3a3441b",
         "lever-spotify-f7b3c8d4-08b6-4f24-bf10-02b8964f96e8",
         "lever-spotify-faffd837-edbc-42f8-b4bf-14e1658c18e6",
         "lever-spotify-fc779380-7e9c-48be-a730-e789fed1879e"
@@ -1201,6 +1202,7 @@
         "wd-snapchat-Spectacles-Student-Worker---Software-Engineering---Graphics_R0043744",
         "wd-snapchat-Sr-Specialist--Transparency-Reporting_R0046013-1",
         "wd-snapchat-Staff--SMC-Revenue-Growth_R0046089-1",
+        "wd-snapchat-Staff-Accountant_H226SA1",
         "wd-snapchat-Staff-Desense-Engineer_R0043679-1",
         "wd-snapchat-Staff-Machine-Learning-Engineer--Generative-AI-Modeling-and-Inference_R0046467",
         "wd-snapchat-Staff-Machine-Learning-Engineer--Search-Ranking_R0045561-1",
@@ -2149,6 +2151,7 @@
         "ashby-elevenlabs-6b5a902d-49ea-4fa9-ab67-d6e88c361695",
         "ashby-elevenlabs-6b84bd1f-05cb-4b54-b0db-ff64c84217ae",
         "ashby-elevenlabs-6c007e5b-a2da-47e6-b388-f017b86abb1f",
+        "ashby-elevenlabs-6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6",
         "ashby-elevenlabs-6c5d4386-8a3f-473f-9a39-394added49a5",
         "ashby-elevenlabs-6ce3306e-a546-4e11-83d6-3eaff5dd366b",
         "ashby-elevenlabs-6d4c4080-b53b-4b00-8b1d-3ec1e0955135",
@@ -2187,6 +2190,7 @@
         "ashby-elevenlabs-8ec246ab-a18e-4f6a-a8ba-6956668d31bf",
         "ashby-elevenlabs-8f37f4e5-83f8-4e7d-b3b6-b5b406bf4eb9",
         "ashby-elevenlabs-90873fda-95c3-4d21-bae8-c5a30f5b7ac8",
+        "ashby-elevenlabs-9271907b-1aad-4868-8995-b9ed32fb92ac",
         "ashby-elevenlabs-92997f8a-9f90-40fe-a76e-89ffbc44d0cc",
         "ashby-elevenlabs-96fc056f-797f-448a-bd69-fcd9ac2ea663",
         "ashby-elevenlabs-9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
@@ -3071,6 +3075,7 @@
         "gh-mongodb-7779016",
         "gh-mongodb-7779540",
         "gh-mongodb-7781724",
+        "gh-mongodb-7782383",
         "gh-mongodb-7793634",
         "gh-mongodb-7795864",
         "gh-mongodb-7806547",
@@ -3309,6 +3314,7 @@
         "gh-mongodb-8111814",
         "gh-mongodb-8111979",
         "gh-mongodb-8113537",
+        "gh-mongodb-8114235",
         "gh-mongodb-8119292",
         "gh-mongodb-8119297",
         "gh-mongodb-8119328",
@@ -3759,6 +3765,7 @@
         "gh-braze-8171762",
         "gh-braze-8172964",
         "gh-braze-8173848",
+        "gh-braze-8173850",
         "gh-braze-8177564",
         "gh-braze-8177660",
         "gh-braze-8177766",
@@ -3767,7 +3774,8 @@
         "gh-braze-8180534",
         "gh-braze-8180540",
         "gh-braze-8184179",
-        "gh-braze-8185912"
+        "gh-braze-8185912",
+        "gh-braze-8187014"
       ]
     },
     "classpass": {
@@ -4126,7 +4134,8 @@
         "gh-glossier-8165285",
         "gh-glossier-8173297",
         "gh-glossier-8179465",
-        "gh-glossier-8186638"
+        "gh-glossier-8186638",
+        "gh-glossier-8187039"
       ]
     },
     "yext": {
@@ -5104,6 +5113,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-08T20:20:01.283032+00:00",
+  "last_run": "2026-09-08T22:45:50.458633+00:00",
   "pending_notifications": []
 }
