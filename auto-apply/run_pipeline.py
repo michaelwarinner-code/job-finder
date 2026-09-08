@@ -185,6 +185,10 @@ def process_one_job(job_id: str, job: dict, state: dict, stop_after: str = None)
             st.add_job_specific_answer(state, job_id, entry["question"], entry["value"])
 
     print(f"    Filled: {len(report['filled'])}, skipped: {len(report['skipped'])}")
+    for entry in report["filled"]:
+        print(f"      [filled]  {entry['question']}  (source: {entry['source']}, value: {entry['value']})")
+    for entry in report["skipped"]:
+        print(f"      [skipped] {entry['question']}  -- {entry['reason']}")
     archive_application(job_output_dir, company_name, title, url, report, submitted=report["submitted"])
     print(f"    Screenshot: {report['screenshot_path']}")
 
@@ -266,10 +270,12 @@ def main():
         print(f"[setup] {len(expired)} job(s) past 24h with no answer, auto-skipped: {expired}")
 
     if args.job_id:
-        job = state["jobs"].get(args.job_id)
+        job_id = args.job_id.strip().strip("'\"")  # forgiving of quote marks pasted in by mistake (e.g. copied
+        # from a local shell command's --job-id "url" into a GitHub Actions text input, which needs no quoting)
+        job = state["jobs"].get(job_id)
         if not job:
-            raise SystemExit(f"No job found in state with id/url: {args.job_id}")
-        pending = [(args.job_id, job)]
+            raise SystemExit(f"No job found in state with id/url: {job_id}")
+        pending = [(job_id, job)]
     else:
         pending = [(jid, j) for jid, j in state["jobs"].items() if j["status"] == "judged_fit"]
     print(f"[setup] {len(pending)} job(s) to process")

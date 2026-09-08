@@ -210,14 +210,17 @@ def _extract_fields_with_refs(page) -> list:
             // attribute is its OWN option text (e.g. name="Los Angeles
             // (Venice)"), never shared, so the raw_name-based grouping
             // used later never recognizes these as one group either.
-            // Handle this shape explicitly: fold the shared question into
-            // each option's own `question` text (so context survives
-            // whichever escalation path this ends up on, interactive or
-            // batched-unattended -- only the interactive one had a way to
-            // show extra context, the unattended batch format doesn't),
-            // and override raw_name to something actually shared across
-            // the group so the existing raw_name-based grouping below
-            // recognizes these as belonging together.
+            // Handle this shape explicitly with its own field_type
+            // ('checkbox-group-option') rather than reusing plain
+            // 'checkbox' -- confirmed the hard way that reusing the
+            // existing Yes/No checkbox-group machinery here was wrong:
+            // that mechanism treats a bank match as "resolved, skip it"
+            // without ever actually checking the box, then a DIFFERENT
+            // answer-is-literally-yes/no check downstream never checks it
+            // either since the real answer here is text like "New York",
+            // not "yes". This shape needs its own resolution: match the
+            // GROUP question once, then check whichever option's own
+            // label the answer text actually matches.
             const groupFieldsets = Array.from(document.querySelectorAll('fieldset.ashby-application-form-input-checkbox-group'));
             for (const fieldset of groupFieldsets) {
                 const groupLabel = fieldset.querySelector('label.ashby-application-form-question-title');
@@ -236,7 +239,9 @@ def _extract_fields_with_refs(page) -> list:
 
                     results.push({
                         question: groupQuestion + ' -- ' + (optLabel.innerText || '').trim(),
-                        field_type: 'checkbox',
+                        group_question: groupQuestion,
+                        option_label: (optLabel.innerText || '').trim(),
+                        field_type: 'checkbox-group-option',
                         required: groupQuestion.includes('*'),
                         ref_type: input.id ? 'id' : 'name',
                         ref_value: input.id || input.name || '',
@@ -465,6 +470,80 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                 if actual == should_check:
                     filled.append({"question": gf["question"], "source": "TELEGRAM_ESCALATION (group)",
                                     "value": "checked" if should_check else "unchecked"})
+                else:
+                    skipped.append({"question": gf["question"],
+                                     "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
+
+        # Pre-pass 2: Ashby-style checkbox-OPTION groups (one shared
+        # question, several options -- e.g. "Which office are you willing
+        # to work out of?"). Different semantics from the plain Yes/No
+        # group above: the bank answer is TEXT to match against each
+        # option's own label (e.g. "New York" -> check "New York City
+        # (Chelsea)"), not a yes/no fact per option, and the group
+        # question is matched against the bank ONCE (not per-option),
+        # since matching the combined "question -- option" string against
+        # a plain "which office" bank entry risks a false-ish match purely
+        # because the answer text happens to appear inside the option
+        # label. Every member ALWAYS ends up in handled_field_ids here,
+        # whether resolved via the bank or via escalation -- unlike the
+        # bug this replaced, nothing from this group is ever allowed to
+        # fall through to the single-checkbox path below.
+        option_groups = {}
+        for f in fields:
+            if f["field_type"] == "checkbox-group-option" and f.get("raw_name"):
+                option_groups.setdefault(f["raw_name"], []).append(f)
+
+        for group_fields in option_groups.values():
+            group_question = group_fields[0]["group_question"]
+            company_specific = is_company_specific_question(group_question, company_name)
+            answer = None
+            if job_specific_answers and group_question in job_specific_answers:
+                answer = job_specific_answers[group_question]
+            elif not company_specific and bank_entries:
+                idx, answer = match_question(group_question, bank_entries)
+
+            if not answer:
+                option_questions = [gf["question"] for gf in group_fields]
+                selected = _get_group_selection_or_queue(pending_questions, option_questions, role_title,
+                                                           company_name, url, bank_entries,
+                                                           save_to_bank=not company_specific)
+                for i, gf in enumerate(group_fields):
+                    handled_field_ids.add(gf["ref_value"])
+                    if selected is None:
+                        reason = "queued for batch escalation" if IS_UNATTENDED else "checkbox group escalated to Telegram but timed out"
+                        skipped.append({"question": gf["question"], "reason": reason})
+                        continue
+                    should_check = i in selected
+                    gf_loc = _locator_for(page, gf["ref_type"], gf["ref_value"])
+                    try:
+                        if should_check:
+                            gf_loc.check(timeout=5000)
+                        actual = gf_loc.is_checked()
+                    except Exception as e:
+                        skipped.append({"question": gf["question"], "reason": f"group checkbox click failed: {e}"})
+                        continue
+                    if actual == should_check:
+                        filled.append({"question": gf["question"], "source": "TELEGRAM_ESCALATION (group)",
+                                        "value": "checked" if should_check else "unchecked"})
+                    else:
+                        skipped.append({"question": gf["question"],
+                                         "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
+                continue
+
+            for gf in group_fields:
+                handled_field_ids.add(gf["ref_value"])
+                should_check = answer.strip().lower() in gf["option_label"].strip().lower()
+                gf_loc = _locator_for(page, gf["ref_type"], gf["ref_value"])
+                try:
+                    if should_check:
+                        gf_loc.check(timeout=5000)
+                    actual = gf_loc.is_checked()
+                except Exception as e:
+                    skipped.append({"question": gf["question"], "reason": f"group checkbox click failed: {e}"})
+                    continue
+                if actual == should_check:
+                    filled.append({"question": gf["question"], "source": "ANSWER_BANK",
+                                    "value": "checked" if should_check else "unchecked (didn't match the bank answer)"})
                 else:
                     skipped.append({"question": gf["question"],
                                      "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
