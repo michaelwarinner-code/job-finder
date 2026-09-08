@@ -485,6 +485,7 @@
         "gh-doordashusa-8143179",
         "gh-doordashusa-8143191",
         "gh-doordashusa-8143360",
+        "gh-doordashusa-8145721",
         "gh-doordashusa-8145928",
         "gh-doordashusa-8145940",
         "gh-doordashusa-8146670",
@@ -862,6 +863,7 @@
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
         "lever-spotify-a4b0ebfd-86e2-4fe4-8c3e-3773220224d0",
+        "lever-spotify-a57db22d-dc0d-4f36-9a2e-34acdf1ec046",
         "lever-spotify-a8606ee6-84b9-4677-af2f-b57f1e71fd91",
         "lever-spotify-a88002db-cb15-49f4-a0e7-efc5c79c347b",
         "lever-spotify-a8d3838e-01d8-457e-b21c-a5468c10a116",
@@ -979,6 +981,7 @@
         "ashby-claylabs-c4fbbd86-b329-4a5e-9f08-f09f2d7c868d",
         "ashby-claylabs-c5579475-f252-48f6-b07b-01cb89063460",
         "ashby-claylabs-c605042d-1bd4-4e0d-aa82-d92a2abecb59",
+        "ashby-claylabs-c9768233-3f8a-431c-b3ad-a3e388fdb85e",
         "ashby-claylabs-d04f47c4-aed6-481d-a093-74c2ae4f3432",
         "ashby-claylabs-d23dfc5b-2d75-412c-bedf-38643517b486",
         "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
@@ -1004,6 +1007,7 @@
       "known_job_ids": [
         "wd-snapchat-AR-Engineer_R0046361",
         "wd-snapchat-ASIC-Verification-Engineer_R0045544",
+        "wd-snapchat-Account-Manager---12-Month-FTC_R0046711",
         "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
         "wd-snapchat-Account-Manager_Q326AM3-1",
         "wd-snapchat-Account-Manager_R0046211",
@@ -1027,6 +1031,7 @@
         "wd-snapchat-Client-Partner_R0046396-1",
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Client-Partner_R0046583",
+        "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
@@ -1288,6 +1293,7 @@
         "wd-coke-Data-Engineer_R-144507-1",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
+        "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
         "wd-coke-Director--CCTM-Meals-Strategy_R-141714",
         "wd-coke-Director--Cappy-Turkiye_R-143866",
@@ -1348,6 +1354,7 @@
         "wd-coke-Director--Supply-Chain-Warehouse-Architect_R-144433",
         "wd-coke-Director--Sustainability_R-143238-1",
         "wd-coke-Director--Technical-Consumer-Data-Research_R-142555",
+        "wd-coke-Director--Trade-Strategy---Execution_R-145757",
         "wd-coke-Director--UI-UX-Designer_R-145100-1",
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
@@ -1417,6 +1424,7 @@
         "wd-coke-Manager--Direct-Marketing-Investment---Japan_R-141389",
         "wd-coke-Manager--Experience-Design---Connection-Planning---Still_R-144767",
         "wd-coke-Manager--Field-Execution---Specialty-Retail_R-145227-1",
+        "wd-coke-Manager--Finance---Internal-Audit_R-143653-1",
         "wd-coke-Manager--Finance---Retail-Sales_R-145084",
         "wd-coke-Manager--Formula-Intelligence--R-D_R-143126",
         "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
@@ -1431,6 +1439,7 @@
         "wd-coke-Manager--Supply-Chain-Projects_R-143175",
         "wd-coke-Manager--Tech-Operation---Japan_R-144482",
         "wd-coke-Manager--Technical-Readiness_R-144310",
+        "wd-coke-Manager-Production--2nd-shift_R-145970-1",
         "wd-coke-Marketing-Director--Sprite---Philippines_R-145209",
         "wd-coke-Material-Handler---Nights_R-145419",
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
@@ -1544,6 +1553,7 @@
         "wd-coke-Senior-Director--Product-Development_R-132385",
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Order-Fulfillment_R-144756-1",
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Sourcing-and-Procurement_R-145460",
+        "wd-coke-Senior-Director--QA-Automation-Lead_R-145117-1",
         "wd-coke-Senior-Director--RGM-Product-AI-Engineering_R-145116",
         "wd-coke-Senior-Director--RGM-Product-Transformation-Lead_R-145114",
         "wd-coke-Senior-Director--Sales---Grocery-Central_R-143818",
@@ -1554,11 +1564,13 @@
         "wd-coke-Senior-Director--Strategic-Growth_R-145596",
         "wd-coke-Senior-Director--Strategy-Integration--RO_R-138751-1",
         "wd-coke-Senior-Director--Strategy-Integration-Germany_R-145960",
+        "wd-coke-Senior-Director--Sweetener-Research--Validation-and-Application_R-136492",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
         "wd-coke-Senior-Director-II--Specialty-Retail_R-145774-1",
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
+        "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer_R-145121-1",
         "wd-coke-Senior-Manager--Brand-Management_R-141211",
         "wd-coke-Senior-Manager--CAAD_R-144010",
         "wd-coke-Senior-Manager--Category-Leadership---Convenience-Retail_R-145505",
@@ -1577,6 +1589,7 @@
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
+        "wd-coke-Senior-Manager--Global-Financial-Planning---Analysis_R-145462",
         "wd-coke-Senior-Manager--Greenfield-Automation-Program_R-138095-5",
         "wd-coke-Senior-Manager--Insights_R-144275",
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
@@ -1601,6 +1614,7 @@
         "wd-coke-Senior-Manager--Talent-Acquisition---INSWA_R-144667",
         "wd-coke-Senior-Manager--Tech-Delivery_R-144494",
         "wd-coke-Senior-Manager--Technical-Consumer-Data-Research--Nutrition-_R-144996",
+        "wd-coke-Senior-Manager--Technical-Operations---North-Zone--Mexico-_R-143895",
         "wd-coke-Senior-Manager--Technology-Operations_R-144439",
         "wd-coke-Senior-Manager--Warehouse-Equipment-Platform-Engineering_R-144870-1",
         "wd-coke-Senior-Manger--Legal-Entity-Controller_R-145366",
@@ -2719,6 +2733,7 @@
         "gh-datadog-8051616",
         "gh-datadog-8052095",
         "gh-datadog-8052114",
+        "gh-datadog-8052118",
         "gh-datadog-8053714",
         "gh-datadog-8054420",
         "gh-datadog-8054774",
@@ -2803,6 +2818,8 @@
         "gh-datadog-8113116",
         "gh-datadog-8113520",
         "gh-datadog-8113562",
+        "gh-datadog-8114161",
+        "gh-datadog-8114186",
         "gh-datadog-8114585",
         "gh-datadog-8115033",
         "gh-datadog-8119493",
@@ -2818,6 +2835,7 @@
         "gh-datadog-8128450",
         "gh-datadog-8128764",
         "gh-datadog-8128810",
+        "gh-datadog-8129799",
         "gh-datadog-8130003",
         "gh-datadog-8130580",
         "gh-datadog-8130723",
@@ -2850,6 +2868,7 @@
         "gh-datadog-8142150",
         "gh-datadog-8142217",
         "gh-datadog-8143320",
+        "gh-datadog-8143729",
         "gh-datadog-8143849",
         "gh-datadog-8144018",
         "gh-datadog-8144607",
@@ -2890,7 +2909,8 @@
         "gh-datadog-8174592",
         "gh-datadog-8175708",
         "gh-datadog-8177798",
-        "gh-datadog-8179766"
+        "gh-datadog-8179766",
+        "gh-datadog-8181440"
       ]
     },
     "mongodb": {
@@ -3379,7 +3399,8 @@
         "gh-mongodb-8175160",
         "gh-mongodb-8176521",
         "gh-mongodb-8180105",
-        "gh-mongodb-8180129"
+        "gh-mongodb-8180129",
+        "gh-mongodb-8184943"
       ]
     },
     "braze": {
@@ -3741,7 +3762,8 @@
         "gh-braze-8180530",
         "gh-braze-8180534",
         "gh-braze-8180540",
-        "gh-braze-8184179"
+        "gh-braze-8184179",
+        "gh-braze-8185912"
       ]
     },
     "classpass": {
@@ -3940,7 +3962,8 @@
         "gh-justworks-8157872",
         "gh-justworks-8162978",
         "gh-justworks-8164798",
-        "gh-justworks-8166821"
+        "gh-justworks-8166821",
+        "gh-justworks-8180743"
       ]
     },
     "appsflyer": {
@@ -4555,16 +4578,6 @@
       "fit_reason": "Account Manager, CPG role centers on partnership strategy, campaign development, analytics, and revenue growth\u2014aligned with candidate's GTM/account management targets; 3-6 years stated (floor is 3, candidate meets it); no cold calling as explicit core duty; analytics/AI-driven decision-making core fit; unfamiliar tools (Snowflake, Sigma) are learnable and listed alongside general analytics fluency."
     },
     {
-      "id": "gh-doordashusa-7918661",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Account Manager, Mid Market CPG Partnerships",
-      "location": "New York, NY; Los Angeles, CA; Atlanta, GA; Chicago, IL; San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7918661",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Account management role with CPG/advertising exposure, 2-3 years required (candidate meets 3), focuses on campaign strategy, partnership building, and data-driven optimization\u2014fits growth/GTM revenue operations intent; no cold-calling or pure-sales execution emphasis in listed responsibilities."
-    },
-    {
       "id": "gh-doordashusa-8119389",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -5035,16 +5048,6 @@
       "fit_reason": "GTM Strategy/Operations role aligns directly with revenue operations target; candidate's 3+ years of data-driven growth strategy, quota/planning work, and dashboard building at Chick-fil-A exceeds the 1-3 year requirement; SQL/BI tools are learnable per posting's own language."
     },
     {
-      "id": "gh-doordashusa-8171803",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate, Retail Partnerships",
-      "location": "San Francisco, CA; New York, NY; Los Angeles, CA; Miami, FL; Chicago, IL",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8171803",
-      "first_seen": "2026-09-01T22:05:02.973009+00:00",
-      "fit_reason": "Account management and partnerships work with retail/merchant strategy, campaign design, and analytics fit the candidate's growth/GTM target; 3+ years requirement is met by candidate's 3.3 years at Chick-fil-A plus internships; field travel is acceptable for a tech company partnership role, and analytics/AI tool gaps are learnable."
-    },
-    {
       "id": "gh-doordashusa-8174010",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -5085,6 +5088,6 @@
       "fit_reason": "Regional Revenue Marketing Manager is a core GTM/account-based marketing role; candidate meets the 3-year floor (3.5 years Chick-fil-A + internships), has demonstrated account expansion, campaign ROI tracking, cross-functional sales partnership, and analytical rigor\u2014gaps in enterprise SaaS context and CRM/marketing automation are learnable and don't override strong functional fit."
     }
   ],
-  "last_run": "2026-09-08T13:50:35.058119+00:00",
+  "last_run": "2026-09-08T17:45:13.296673+00:00",
   "pending_notifications": []
 }
