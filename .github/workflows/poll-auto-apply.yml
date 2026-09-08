@@ -106,7 +106,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pipeline-output-${{ github.run_id }}
-          path: auto-apply/pipeline_output/
+          path: |
+            auto-apply/pipeline_output/
+            auto-apply/test_output/
           if-no-files-found: ignore  # a materials-only or pdf-only run may not produce everything
           retention-days: 14
 

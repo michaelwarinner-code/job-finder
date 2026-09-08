@@ -201,6 +201,50 @@ def _extract_fields_with_refs(page) -> list:
             const labels = Array.from(document.querySelectorAll('label'));
             const seen = new Set();
 
+            // Ashby checkbox-GROUPS: a fieldset with one shared question
+            // label plus several individually-labeled option checkboxes.
+            // The shared label's `for` attribute points at the fieldset's
+            // own id, not at any single <input>, so the generic per-label
+            // loop below finds no matching element for it and silently
+            // drops the real question -- and each checkbox's own `name`
+            // attribute is its OWN option text (e.g. name="Los Angeles
+            // (Venice)"), never shared, so the raw_name-based grouping
+            // used later never recognizes these as one group either.
+            // Handle this shape explicitly: fold the shared question into
+            // each option's own `question` text (so context survives
+            // whichever escalation path this ends up on, interactive or
+            // batched-unattended -- only the interactive one had a way to
+            // show extra context, the unattended batch format doesn't),
+            // and override raw_name to something actually shared across
+            // the group so the existing raw_name-based grouping below
+            // recognizes these as belonging together.
+            const groupFieldsets = Array.from(document.querySelectorAll('fieldset.ashby-application-form-input-checkbox-group'));
+            for (const fieldset of groupFieldsets) {
+                const groupLabel = fieldset.querySelector('label.ashby-application-form-question-title');
+                const groupQuestion = groupLabel ? (groupLabel.innerText || '').trim() : '';
+                if (!groupQuestion) continue;
+                const groupId = groupLabel.getAttribute('for') || groupQuestion;
+
+                const options = Array.from(fieldset.querySelectorAll('.ashby-application-form-input-checkbox-group-option'));
+                for (const opt of options) {
+                    const input = opt.querySelector('input[type="checkbox"]');
+                    const optLabel = opt.querySelector('label');
+                    if (!input || !optLabel) continue;
+
+                    const optKey = input.id || input.name;
+                    seen.add(optKey);
+
+                    results.push({
+                        question: groupQuestion + ' -- ' + (optLabel.innerText || '').trim(),
+                        field_type: 'checkbox',
+                        required: groupQuestion.includes('*'),
+                        ref_type: input.id ? 'id' : 'name',
+                        ref_value: input.id || input.name || '',
+                        raw_name: 'ashby-group:' + groupId,
+                    });
+                }
+            }
+
             for (const label of labels) {
                 const text = label.innerText || '';
                 if (!text.trim()) continue;
