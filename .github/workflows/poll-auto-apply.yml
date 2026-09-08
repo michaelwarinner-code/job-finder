@@ -98,6 +98,15 @@ jobs:
           if [ -n "$STOP_AFTER_INPUT" ]; then ARGS+=(--stop-after "$STOP_AFTER_INPUT"); fi
           python auto-apply/run_pipeline.py "${ARGS[@]}"
 
+      - name: Upload generated materials (resumes, cover letters, screenshots)
+        if: always()  # upload whatever got produced even if a later step failed
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-output-${{ github.run_id }}
+          path: auto-apply/pipeline_output/
+          if-no-files-found: ignore  # a materials-only or pdf-only run may not produce everything
+          retention-days: 14
+
       - name: Commit updated state
         if: always()  # commit whatever progress was made even if a later step failed partway through
         run: |
