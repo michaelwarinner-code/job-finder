@@ -47,9 +47,17 @@ class PendingAnswerRequired(Exception):
     next one, rather than wasting runner time. A later Worker (reading
     Telegram replies live) resolves this by writing the answers back into
     the repo and flipping the job's status so the next scheduled run picks
-    it back up and retries the fill from scratch."""
-    def __init__(self, questions: list):
+    it back up and retries the fill from scratch.
+
+    Also carries the filled/skipped report for everything that happened
+    BEFORE the pending question came up -- confirmed necessary: without
+    this, a run that gets 90% through a form and then hits one unanswered
+    question loses all visibility into whether that other 90% actually
+    worked, since raising here used to happen before the report was ever
+    returned to the caller."""
+    def __init__(self, questions: list, report: dict = None):
         self.questions = questions
+        self.report = report or {}
         super().__init__("; ".join(questions))
 
 

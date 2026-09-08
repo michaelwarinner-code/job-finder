@@ -878,7 +878,9 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
         # run_pipeline.py can mark the whole job pending and move on to
         # the next one, rather than sitting idle.
         escalate_question_batch(pending_questions, role_title, company_name, url)
-        raise PendingAnswerRequired(pending_questions)
+        raise PendingAnswerRequired(pending_questions,
+                                     report={"filled": filled, "skipped": skipped,
+                                             "screenshot_path": screenshot_path})
 
     return {"filled": filled, "skipped": skipped, "screenshot_path": screenshot_path,
             "dry_run": dry_run, "submitted": submitted, "submit_note": submit_note}

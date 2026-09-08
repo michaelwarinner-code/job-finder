@@ -166,6 +166,12 @@ def process_one_job(job_id: str, job: dict, state: dict, stop_after: str = None)
         # them and move on to the next job, rather than treating this as a
         # failure or wasting runner time on a single field at a time.
         print(f"    {len(e.questions)} question(s) sent, waiting on your answers: {e.questions}")
+        for entry in e.report.get("filled", []):
+            print(f"      [filled]  {entry['question']}  (source: {entry['source']}, value: {entry['value']})")
+        for entry in e.report.get("skipped", []):
+            print(f"      [skipped] {entry['question']}  -- {entry['reason']}")
+        if e.report.get("screenshot_path"):
+            print(f"    Screenshot (as of the point it stopped): {e.report['screenshot_path']}")
         st.set_job_status(state, job_id, "pending_answer", company_name=company_name, title=title, url=url,
                            ats=ats, board_token=board_token, pending_questions=e.questions)
         return False
