@@ -97,6 +97,27 @@ async function handleMessage(env, chatId, text) {
     return;
   }
 
+  if (text.trim().toLowerCase() === "status") {
+    // Read-only: lists every job waiting on an answer WITHOUT starting or
+    // touching any conversation -- confirmed necessary given several jobs
+    // can be pending_answer at once but only one is ever "live" (oldest
+    // first). Sending any other message to check risks it accidentally
+    // matching the live job's expected line count and being treated as
+    // a real (and wrong) answer -- this command can never be mistaken for
+    // one, since normal answers don't look like the word "status".
+    const state = await fetchJson(env, STATE_PATH);
+    const pending = Object.entries(state.jobs || {}).filter(([, job]) => job.status === "pending_answer");
+    if (pending.length === 0) {
+      await sendTelegramMessage(env.TELEGRAM_BOT_TOKEN, chatId, "Nothing is currently waiting on an answer.");
+      return;
+    }
+    pending.sort((a, b) => new Date(a[1].pending_since) - new Date(b[1].pending_since));
+    const list = pending.map(([, job], i) => `${i + 1}. ${job.company_name} -- ${job.title}${i === 0 ? "  (next up)" : ""}`).join("\n");
+    await sendTelegramMessage(env.TELEGRAM_BOT_TOKEN, chatId,
+      `${pending.length} job(s) waiting on an answer, oldest first:\n\n${list}\n\nSend anything else to start on the next one.`);
+    return;
+  }
+
   const convo = await env.CONVERSATION_STATE.get(CONVO_KEY, "json");
 
   if (!convo) {
