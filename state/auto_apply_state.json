@@ -1262,7 +1262,7 @@
       "last_updated": "2026-09-07T16:44:47.126780+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727511002": {
-      "status": "pending_answer",
+      "status": "judged_reject",
       "company_name": "Motive",
       "title": "Marketing Project Manager - Corporate Marketing",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/8727511002",
@@ -1377,7 +1377,7 @@
       "last_updated": "2026-09-07T16:45:06.589777+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/6056440002": {
-      "status": "judged_fit",
+      "status": "judged_reject",
       "company_name": "Motive",
       "title": "SMB Account Manager",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/6056440002",
