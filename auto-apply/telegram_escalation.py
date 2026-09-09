@@ -58,7 +58,18 @@ class PendingAnswerRequired(Exception):
     def __init__(self, questions: list, report: dict = None):
         self.questions = questions
         self.report = report or {}
-        super().__init__("; ".join(questions))
+        # questions is the structured list (see form_filler.py's
+        # _get_answer_or_queue/_get_group_selection_or_queue) -- each item
+        # is a dict ({"type": "single", "question": ...} or {"type": "group",
+        # "group_question": ..., "options": [...]}), not a plain string, so
+        # this can't just str.join() them directly. Only used for the
+        # exception's own str() (logging/debugging), never shown to the
+        # user -- the actual Telegram message is built separately by
+        # _format_pending_questions / escalate_question_batch.
+        summary = "; ".join(
+            q.get("question") or q.get("group_question") or str(q) for q in questions
+        )
+        super().__init__(summary)
 
 
 def _api_url(bot_token: str, method: str) -> str:
