@@ -29,16 +29,16 @@
       "last_updated": "2026-09-05T23:13:29.669965+00:00"
     },
     "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Suno",
       "title": "Sr. Performance Marketing Manager, Paid Social",
       "url": "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539",
       "ats": "ashby",
       "board_token": "suno",
       "first_seen": "2026-09-05T23:13:31.610792+00:00",
-      "last_updated": "2026-09-09T20:54:31.807Z",
+      "last_updated": "2026-09-09T21:32:46.416872+00:00",
       "job_specific_answers": {
-        "Why are you interested in working at Suno?": "Because I’m a fan of marketing and it’s really good and makes a lot of senses to me and I love it"
+        "Why are you interested in working at Suno?": "Because I\u2019m a fan of marketing and it\u2019s really good and makes a lot of senses to me and I love it"
       }
     },
     "https://jobs.ashbyhq.com/suno/12b86885-63c7-446c-ab5e-514fe8adba01": {
@@ -1194,7 +1194,7 @@
     "https://job-boards.greenhouse.io/gomotive/jobs/8344647002": {
       "status": "judged_reject",
       "company_name": "Motive",
-      "title": "Account Executive, SMB New Logo – Spanish Speaking",
+      "title": "Account Executive, SMB New Logo \u2013 Spanish Speaking",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/8344647002",
       "ats": "greenhouse",
       "board_token": "gomotive",
@@ -2174,7 +2174,7 @@
     "https://www.esri.com/careers/5181808007?gh_jid=5181808007": {
       "status": "judged_reject",
       "company_name": "Esri",
-      "title": "Sr. Account Manager – Local Government (Northeast)",
+      "title": "Sr. Account Manager \u2013 Local Government (Northeast)",
       "url": "https://www.esri.com/careers/5181808007?gh_jid=5181808007",
       "ats": "greenhouse",
       "board_token": "esri",
@@ -2184,7 +2184,7 @@
     "https://www.esri.com/careers/5181818007?gh_jid=5181818007": {
       "status": "judged_reject",
       "company_name": "Esri",
-      "title": "Sr. Account Manager – Local Government (Northeast)",
+      "title": "Sr. Account Manager \u2013 Local Government (Northeast)",
       "url": "https://www.esri.com/careers/5181818007?gh_jid=5181818007",
       "ats": "greenhouse",
       "board_token": "esri",
@@ -2194,7 +2194,7 @@
     "https://www.esri.com/careers/5120843007?gh_jid=5120843007": {
       "status": "judged_reject",
       "company_name": "Esri",
-      "title": "Sr. Account Manager – State Government (Texas)",
+      "title": "Sr. Account Manager \u2013 State Government (Texas)",
       "url": "https://www.esri.com/careers/5120843007?gh_jid=5120843007",
       "ats": "greenhouse",
       "board_token": "esri",
@@ -2204,7 +2204,7 @@
     "https://www.esri.com/careers/5206071007?gh_jid=5206071007": {
       "status": "judged_reject",
       "company_name": "Esri",
-      "title": "Sr. GIS Account Manager – Utilities, Telecom, Rail",
+      "title": "Sr. GIS Account Manager \u2013 Utilities, Telecom, Rail",
       "url": "https://www.esri.com/careers/5206071007?gh_jid=5206071007",
       "ats": "greenhouse",
       "board_token": "esri",
@@ -5464,7 +5464,7 @@
     "https://www.samsara.com/company/careers/roles/8115905?gh_jid=8115905": {
       "status": "failed_materials",
       "company_name": "Samsara",
-      "title": "Senior Analyst, GTM Business Operations – Public Sector",
+      "title": "Senior Analyst, GTM Business Operations \u2013 Public Sector",
       "url": "https://www.samsara.com/company/careers/roles/8115905?gh_jid=8115905",
       "ats": "greenhouse",
       "board_token": "samsara",
@@ -6354,7 +6354,7 @@
     "https://jobs.ashbyhq.com/clubhouse/9fa369a8-b7dd-4ef7-a9f0-3f1b5988322f": {
       "status": "failed_materials",
       "company_name": "Clubhouse",
-      "title": "📣 Product Marketing Manager, Community Growth",
+      "title": "\ud83d\udce3 Product Marketing Manager, Community Growth",
       "url": "https://jobs.ashbyhq.com/clubhouse/9fa369a8-b7dd-4ef7-a9f0-3f1b5988322f",
       "ats": "ashby",
       "board_token": "clubhouse",
