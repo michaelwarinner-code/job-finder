@@ -85,6 +85,18 @@ export default {
 };
 
 async function handleMessage(env, chatId, text) {
+  if (text.trim().toLowerCase() === "reset") {
+    // Explicit escape hatch for a stuck conversation -- confirmed
+    // necessary the hard way: KV conversation state persists for 24h
+    // with no other way to clear it early, so an earlier conversation
+    // that never got properly finished (e.g. it was expecting an older,
+    // now-outdated set of questions) just sits there silently shadowing
+    // whatever comes next, even a fresh correctly-formatted escalation.
+    await env.CONVERSATION_STATE.delete(CONVO_KEY);
+    await sendTelegramMessage(env.TELEGRAM_BOT_TOKEN, chatId, "Cleared. Send anything to start fresh.");
+    return;
+  }
+
   const convo = await env.CONVERSATION_STATE.get(CONVO_KEY, "json");
 
   if (!convo) {
