@@ -575,7 +575,10 @@
         "gh-doordashusa-8177106",
         "gh-doordashusa-8177196",
         "gh-doordashusa-8177992",
-        "gh-doordashusa-8178005"
+        "gh-doordashusa-8178005",
+        "gh-doordashusa-8187018",
+        "gh-doordashusa-8187513",
+        "gh-doordashusa-8187515"
       ]
     },
     "hubspot": {
@@ -1166,6 +1169,7 @@
         "wd-snapchat-Senior-Copywriter_R0046488-1",
         "wd-snapchat-Senior-Counsel--Corporate_R0045322-1",
         "wd-snapchat-Senior-Creative-Producer_R0046493-1",
+        "wd-snapchat-Senior-Creative-Producer_R0046727",
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
         "wd-snapchat-Senior-Electrical-Engineer_R0046042-1",
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
@@ -5113,6 +5117,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-08T22:45:50.458633+00:00",
+  "last_run": "2026-09-09T00:42:37.580833+00:00",
   "pending_notifications": []
 }
