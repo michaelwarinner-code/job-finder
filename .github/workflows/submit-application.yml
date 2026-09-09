@@ -1,0 +1,96 @@
+name: Submit one application (LIVE)
+
+# Manual, scoped, deliberate: submits exactly ONE job for real, regardless
+# of its current status (typically ready_to_submit after iterate-materials
+# + a clean form-fill test). Never runs on a schedule, never touches any
+# job you didn't explicitly name. This is the "I've reviewed this one and
+# I'm ready" button -- separate from the daily schedule's own live-mode
+# toggle (see AUTOAPPLY_LIVE_MODE in poll-auto-apply.yml), which submits
+# everything in judged_fit unattended once you're confident enough not to
+# review each one individually.
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "Job URL to submit for real. Double check this is the one you actually reviewed."
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-apply-poll
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install LibreOffice (PDF conversion)
+        run: sudo apt-get update && sudo apt-get install -y libreoffice
+
+      - name: Install Python dependencies
+        run: pip install -r auto-apply/requirements.txt
+
+      - name: Install Playwright + Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Install resume-builder Node dependencies
+        run: npm install
+        working-directory: resume-builder
+
+      - name: Write Google OAuth credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CLIENT_SECRET_JSON }}' > auto-apply/client_secret.json
+          echo '${{ secrets.GOOGLE_TOKEN_JSON }}' > auto-apply/token.json
+
+      - name: Write candidate info
+        run: echo '${{ secrets.CANDIDATE_INFO_JSON }}' > state/candidate_info.json
+
+      - name: Submit this job for real
+        env:
+          AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
+          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+          AUTOAPPLY_DRY_RUN: "false"
+          SOFFICE_PATH: soffice
+          JOB_ID_INPUT: ${{ inputs.job_id }}
+        run: python auto-apply/run_pipeline.py --job-id "$JOB_ID_INPUT" --yes
+
+      - name: Upload confirmation screenshot + materials
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: submission-${{ github.run_id }}
+          path: |
+            auto-apply/pipeline_output/
+            auto-apply/test_output/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add state/auto_apply_state.json state/auto_apply_audit_log.csv state/answer_bank.json
+          git diff --quiet --cached || git commit -m "Submit application [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected (attempt $i) -- pulling latest and retrying..."
+            git pull --rebase origin main
+          done
+          echo "::error::Failed to push updated state after 5 attempts -- submission status may not be recorded remotely, check manually."
+          exit 1
