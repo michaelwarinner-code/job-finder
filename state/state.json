@@ -578,7 +578,9 @@
         "gh-doordashusa-8178005",
         "gh-doordashusa-8187018",
         "gh-doordashusa-8187513",
-        "gh-doordashusa-8187515"
+        "gh-doordashusa-8187515",
+        "gh-doordashusa-8187876",
+        "gh-doordashusa-8188395"
       ]
     },
     "hubspot": {
@@ -794,6 +796,7 @@
       "is_priority": false,
       "known_job_ids": [
         "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b",
+        "lever-spotify-03437e2a-2d5e-4593-9e97-11271014932e",
         "lever-spotify-07641cac-402a-44fd-ba42-9cb75473fc0a",
         "lever-spotify-0841fdc0-1702-4ef6-b665-8a825112696c",
         "lever-spotify-0b8ea4d4-57ee-49c1-a57f-9a37248ee24f",
@@ -831,6 +834,7 @@
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
+        "lever-spotify-5861816e-7ac4-4921-8e90-8e093707e27d",
         "lever-spotify-58b112cc-7798-4083-9b88-589ab2ad04d7",
         "lever-spotify-5992c673-e493-48b1-bb63-9b82a4c31876",
         "lever-spotify-5fce53f3-83dd-4b6a-9058-a2c295560966",
@@ -1342,6 +1346,7 @@
         "wd-coke-Director--Legal-Counsel---CPS---Irish-Entities_R-145820",
         "wd-coke-Director--Legal-Counsel--Customer---North-America_R-145738",
         "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
+        "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
         "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
@@ -1457,6 +1462,7 @@
         "wd-coke-Operator---Production--15-Months-Contract-_R-144085",
         "wd-coke-PQA-Specialist--1-Year-Contract-_R-144895",
         "wd-coke-Packaging-Analyst_R-141183",
+        "wd-coke-Packaging-Operator-Nights---2152_R-145827",
         "wd-coke-Paralegal--Eurasia---Middle-East_R-145204-1",
         "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
@@ -2066,6 +2072,7 @@
         "ashby-elevenlabs-16ed3af9-e4a7-4b59-8767-7771604d9165",
         "ashby-elevenlabs-1713bfd7-a63b-4dd4-b6e7-b0b8b8560a4a",
         "ashby-elevenlabs-179541ee-8225-437b-b67d-d24c09240cd5",
+        "ashby-elevenlabs-17c06970-0b47-43bc-beb7-ce34cc98f93c",
         "ashby-elevenlabs-1941b5f6-a89f-4f35-bc07-a123e17d011f",
         "ashby-elevenlabs-19d9a7a0-10d9-41d8-b515-a61f1d85f186",
         "ashby-elevenlabs-1a9d687d-0030-4732-8160-f1da54844bba",
@@ -2132,6 +2139,7 @@
         "ashby-elevenlabs-507e390a-eaeb-4000-936e-83e3e498c760",
         "ashby-elevenlabs-50d20869-819d-4ae3-be8d-71c3c9bf3394",
         "ashby-elevenlabs-5459cb9d-5396-4729-9507-22729582781a",
+        "ashby-elevenlabs-5494be31-7899-4f7a-b10f-4c49378b44ef",
         "ashby-elevenlabs-55b21715-6e89-456e-af07-0b17b1e455e8",
         "ashby-elevenlabs-592954c4-0c40-4198-9fa3-2ed82a84518f",
         "ashby-elevenlabs-5accae74-0f85-41b9-b39e-6d7c3a6a7ad3",
@@ -3409,6 +3417,7 @@
         "gh-mongodb-8172166",
         "gh-mongodb-8173399",
         "gh-mongodb-8173625",
+        "gh-mongodb-8173661",
         "gh-mongodb-8173777",
         "gh-mongodb-8173795",
         "gh-mongodb-8173798",
@@ -3419,6 +3428,8 @@
         "gh-mongodb-8176521",
         "gh-mongodb-8180105",
         "gh-mongodb-8180129",
+        "gh-mongodb-8181144",
+        "gh-mongodb-8184727",
         "gh-mongodb-8184943"
       ]
     },
@@ -4359,7 +4370,8 @@
         "gh-thefarmersdog-8764832002",
         "gh-thefarmersdog-8769521002",
         "gh-thefarmersdog-8782116002",
-        "gh-thefarmersdog-8782117002"
+        "gh-thefarmersdog-8782117002",
+        "gh-thefarmersdog-8785774002"
       ]
     },
     "kargo": {
@@ -5124,6 +5136,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-09T09:58:49.275425+00:00",
+  "last_run": "2026-09-09T14:23:13.553810+00:00",
   "pending_notifications": []
 }
