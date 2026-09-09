@@ -1135,6 +1135,7 @@
         "wd-snapchat-Optical-Engineer--Waveguide-Experiments_R0046479-1",
         "wd-snapchat-PCB-Design-Engineer_R0045397-1",
         "wd-snapchat-People-Application-Developer_R0045795-1",
+        "wd-snapchat-People-Operations-Generalist_R0046734-1",
         "wd-snapchat-Principal-Marketing-Scientist--Level-6_R0046642-1",
         "wd-snapchat-Principal-Software-Engineer--Ads-Format--Level-7_R0041203",
         "wd-snapchat-Principal-Software-Engineer--Ads-Platform_H226PEM10-1",
@@ -1977,6 +1978,7 @@
         "ashby-cursor-cd4bad0a-e2f6-4a8d-9b57-ce1780efedae",
         "ashby-cursor-cda9256f-e820-4f0a-9e77-e44c61295e1d",
         "ashby-cursor-d0cf5203-2db2-40b6-b1fe-1656ec288ce3",
+        "ashby-cursor-d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
         "ashby-cursor-d225fc95-a56f-466a-9588-d75a7f38c426",
         "ashby-cursor-d4308a8f-81b7-4f67-b3ae-111bb0d87197",
         "ashby-cursor-d7f1bf1f-b684-4994-9b70-9ce7c78bacd2",
@@ -2029,6 +2031,7 @@
         "ashby-runway-ml-636424a5-280e-474f-a68b-d55d190ef0aa",
         "ashby-runway-ml-67831df0-4dfb-4db2-b5ea-947506774e5a",
         "ashby-runway-ml-6da9edec-0ad7-4871-b51f-cc2714688d91",
+        "ashby-runway-ml-73383d3b-7692-4352-9ef6-6b2e55900a54",
         "ashby-runway-ml-8489a08a-f0cf-4418-968c-c7c803d538bc",
         "ashby-runway-ml-90a95d63-ce92-42c4-a3dc-51f0f7cd281b",
         "ashby-runway-ml-92044f68-4957-4cf0-9590-98952732b219",
@@ -3821,7 +3824,15 @@
         "gh-braze-8180540",
         "gh-braze-8184179",
         "gh-braze-8185912",
-        "gh-braze-8187014"
+        "gh-braze-8185916",
+        "gh-braze-8187014",
+        "gh-braze-8188663",
+        "gh-braze-8189634",
+        "gh-braze-8189650",
+        "gh-braze-8189655",
+        "gh-braze-8189715",
+        "gh-braze-8189722",
+        "gh-braze-8189731"
       ]
     },
     "classpass": {
@@ -4274,7 +4285,8 @@
         "gh-mavenclinic-8763286002",
         "gh-mavenclinic-8777165002",
         "gh-mavenclinic-8785782002",
-        "gh-mavenclinic-8790269002"
+        "gh-mavenclinic-8790269002",
+        "gh-mavenclinic-8791893002"
       ]
     },
     "away": {
@@ -5166,6 +5178,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-09T20:25:42.015781+00:00",
+  "last_run": "2026-09-09T22:40:50.943259+00:00",
   "pending_notifications": []
 }
