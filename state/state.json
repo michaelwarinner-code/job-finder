@@ -347,6 +347,7 @@
         "gh-doordashusa-8068432",
         "gh-doordashusa-8068444",
         "gh-doordashusa-8068491",
+        "gh-doordashusa-8068583",
         "gh-doordashusa-8069361",
         "gh-doordashusa-8070723",
         "gh-doordashusa-8070776",
@@ -579,8 +580,11 @@
         "gh-doordashusa-8187018",
         "gh-doordashusa-8187513",
         "gh-doordashusa-8187515",
+        "gh-doordashusa-8187792",
         "gh-doordashusa-8187876",
-        "gh-doordashusa-8188395"
+        "gh-doordashusa-8188395",
+        "gh-doordashusa-8188452",
+        "gh-doordashusa-8188593"
       ]
     },
     "hubspot": {
@@ -823,6 +827,7 @@
         "lever-spotify-331d11c6-6056-45b4-8bd6-d289978b1919",
         "lever-spotify-337899c1-cf75-4af4-a020-1b2c82347fd6",
         "lever-spotify-34e3828f-db98-486f-a077-cd67ece45be0",
+        "lever-spotify-36022b53-40f0-4799-8d8d-4d89998116a3",
         "lever-spotify-3895bc9e-ca1c-433c-8604-b58ae84aa577",
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
         "lever-spotify-3f6aae92-7ae9-45cc-8b84-85b3bf0241c2",
@@ -1208,6 +1213,7 @@
         "wd-snapchat-Software-Engineer--iOS--Level-3_R0046335-1",
         "wd-snapchat-Software-Engineer--iOS--Level-4_Q326SWEI2-1",
         "wd-snapchat-Software-Engineer--iOS--Level-5_Q326SWEI6-1",
+        "wd-snapchat-Solutions-Engineer--Level-4_H226SE2-1",
         "wd-snapchat-Spectacles-Student-Worker---Software-Engineering---Graphics_R0043744",
         "wd-snapchat-Sr-Specialist--Transparency-Reporting_R0046013-1",
         "wd-snapchat-Staff--SMC-Revenue-Growth_R0046089-1",
@@ -2073,6 +2079,7 @@
         "ashby-elevenlabs-1713bfd7-a63b-4dd4-b6e7-b0b8b8560a4a",
         "ashby-elevenlabs-179541ee-8225-437b-b67d-d24c09240cd5",
         "ashby-elevenlabs-17c06970-0b47-43bc-beb7-ce34cc98f93c",
+        "ashby-elevenlabs-18d52799-7b88-4516-9d8f-e9db312ad195",
         "ashby-elevenlabs-1941b5f6-a89f-4f35-bc07-a123e17d011f",
         "ashby-elevenlabs-19d9a7a0-10d9-41d8-b515-a61f1d85f186",
         "ashby-elevenlabs-1a9d687d-0030-4732-8160-f1da54844bba",
@@ -3631,6 +3638,10 @@
         "gh-braze-8084145",
         "gh-braze-8084146",
         "gh-braze-8088286",
+        "gh-braze-8089479",
+        "gh-braze-8089827",
+        "gh-braze-8089828",
+        "gh-braze-8089829",
         "gh-braze-8089838",
         "gh-braze-8089841",
         "gh-braze-8089842",
@@ -4062,7 +4073,8 @@
         "gh-appsflyer-8767814002",
         "gh-appsflyer-8773365002",
         "gh-appsflyer-8781233002",
-        "gh-appsflyer-8781235002"
+        "gh-appsflyer-8781235002",
+        "gh-appsflyer-8789180002"
       ]
     },
     "attentive": {
@@ -4371,7 +4383,8 @@
         "gh-thefarmersdog-8769521002",
         "gh-thefarmersdog-8782116002",
         "gh-thefarmersdog-8782117002",
-        "gh-thefarmersdog-8785774002"
+        "gh-thefarmersdog-8785774002",
+        "gh-thefarmersdog-8789251002"
       ]
     },
     "kargo": {
@@ -4926,16 +4939,6 @@
       "fit_reason": "GTM Operations role aligns with revenue operations target; candidate's 3+ years of operational, data-driven, and cross-functional work (dashboards, process automation, analytics) meets the 2\u20134 year range floor; Salesforce and Excel skills demonstrated; bonus automation/AI experience directly matches candidate's Google Apps Script and AI tooling background."
     },
     {
-      "id": "gh-datadog-7587086",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "Sales Revenue Analyst - Boston",
-      "location": "Boston, Massachusetts, USA",
-      "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Revenue Operations role (explicitly in-scope target) requiring 1-3 years; candidate has ~3.5 years relevant analytical/operational experience, meets floor, and demonstrates transferable skills in data analysis, process optimization, cross-functional collaboration, and SaaS business metrics despite lacking formal RevOps title."
-    },
-    {
       "id": "gh-appsflyer-8531937002",
       "company_key": "appsflyer",
       "company_name": "AppsFlyer",
@@ -5136,6 +5139,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-09T14:23:13.553810+00:00",
+  "last_run": "2026-09-09T17:54:11.210449+00:00",
   "pending_notifications": []
 }
