@@ -1,13 +1,19 @@
-name: Auto-apply pipeline (discovery + materials + form fill, dry run)
+name: Auto-apply pipeline (discovery + materials + form fill)
 
 # Runs daily. Discovery finds new postings; the apply pipeline then
-# generates materials, builds PDFs, and fills out (but does NOT submit)
-# every job sitting in judged_fit -- AUTOAPPLY_DRY_RUN is deliberately
-# NOT set here, so it stays at its default (true) same as a local test
-# run. Going actually live is a separate, deliberate step (see the
-# "submit" job below, workflow_dispatch only, never on the schedule) --
-# this schedule's job is to keep the ready_to_submit queue populated and
-# reviewable, not to submit anything on its own.
+# generates materials, builds PDFs, and fills out every job sitting in
+# judged_fit.
+#
+# LIVE MODE TOGGLE: whether this actually submits is controlled by the
+# repo variable AUTOAPPLY_LIVE_MODE (Settings -> Secrets and variables ->
+# Actions -> Variables). Unset or anything other than "true" == dry run
+# (fills forms, stops at ready_to_submit, same as it's always done). Set
+# to "true" == every job in judged_fit gets submitted for real, on
+# schedule, unattended, no per-job review -- flip this only once you've
+# iterated on enough individual jobs (see iterate-materials.yml and
+# submit-application.yml for the scoped, reviewed path) that you trust
+# the pipeline to run without you watching. Defaults safe: a missing or
+# misspelled variable stays dry-run, never the other way around.
 #
 # Also serves the OAuth token: Google's refresh token for Sheets access
 # can expire after ~7 days of INACTIVITY (unpublished/Testing apps) --
@@ -87,11 +93,12 @@ jobs:
           FANTASTIC_JOBS_API_KEY: ${{ secrets.FANTASTIC_JOBS_API_KEY }}
         run: python auto-apply/broad_discover_run.py
 
-      - name: Run apply pipeline (materials + PDFs + form fill, dry run)
+      - name: Run apply pipeline (materials + PDFs + form fill)
         env:
           AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
           AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
           AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+          AUTOAPPLY_DRY_RUN: ${{ vars.AUTOAPPLY_LIVE_MODE == 'true' && 'false' || 'true' }}
           SOFFICE_PATH: soffice
           JOB_ID_INPUT: ${{ inputs.job_id }}
           STOP_AFTER_INPUT: ${{ inputs.stop_after }}
@@ -99,6 +106,10 @@ jobs:
           ARGS=()
           if [ -n "$JOB_ID_INPUT" ]; then ARGS+=(--job-id "$JOB_ID_INPUT"); fi
           if [ -n "$STOP_AFTER_INPUT" ]; then ARGS+=(--stop-after "$STOP_AFTER_INPUT"); fi
+          # --yes is the second half of run_pipeline.py's own safety gate --
+          # only add it when live mode is actually on, so a dry run never
+          # needs it and a live run can't proceed without both being true.
+          if [ "$AUTOAPPLY_DRY_RUN" = "false" ]; then ARGS+=(--yes); fi
           python auto-apply/run_pipeline.py "${ARGS[@]}"
 
       - name: Upload generated materials (resumes, cover letters, screenshots)
@@ -121,8 +132,21 @@ jobs:
           git diff --quiet --cached || git commit -m "Update auto-apply state [skip ci]"
 
           for i in 1 2 3 4 5; do
-            git push && break
+            git push && exit 0
             echo "Push rejected (attempt $i) -- pulling latest and retrying..."
             git pull --rebase origin main
           done
+          # Explicit failure if every push attempt was rejected -- without
+          # this, the loop ending naturally reports success from whatever
+          # the last `git pull --rebase` happened to return, silently
+          # discarding this run's state changes (including any Telegram
+          # escalations already sent) while the workflow shows green.
+          echo "::error::Failed to push updated state after 5 attempts -- this run's state changes (including any escalations already sent) were NOT saved remotely. Check for a conflicting commit and re-run or merge manually."
+          exit 1
 
+      - name: Send nightly summary
+        if: always()
+        env:
+          AUTOAPPLY_TELEGRAM_BOT_TOKEN: ${{ secrets.AUTOAPPLY_TELEGRAM_BOT_TOKEN }}
+          AUTOAPPLY_TELEGRAM_CHAT_ID: ${{ secrets.AUTOAPPLY_TELEGRAM_CHAT_ID }}
+        run: python auto-apply/daily_summary.py
