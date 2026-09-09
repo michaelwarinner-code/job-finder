@@ -1035,6 +1035,7 @@
         "wd-snapchat-Client-Partner_R0046396-1",
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Client-Partner_R0046583",
+        "wd-snapchat-Client-Partner_R0046731",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
@@ -1248,6 +1249,7 @@
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
         "wd-coke-Automation-Analyst_R-144804",
         "wd-coke-Automation-Director--APAC_R-146006-1",
+        "wd-coke-Automation-Director--LATAM_R-146008-1",
         "wd-coke-Automation-Engineer_R-127535",
         "wd-coke-Automation-Engineer_R-144968",
         "wd-coke-Automation-Engineer_R-145762",
@@ -2923,7 +2925,9 @@
         "gh-datadog-8179647",
         "gh-datadog-8179766",
         "gh-datadog-8181440",
-        "gh-datadog-8184867"
+        "gh-datadog-8184867",
+        "gh-datadog-8188027",
+        "gh-datadog-8188028"
       ]
     },
     "mongodb": {
@@ -4180,7 +4184,9 @@
         "gh-yext-8159736",
         "gh-yext-8160649",
         "gh-yext-8161871",
-        "gh-yext-8174875"
+        "gh-yext-8174875",
+        "gh-yext-8180398",
+        "gh-yext-8180443"
       ]
     },
     "mavenclinic": {
@@ -5118,6 +5124,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-09T05:21:51.239390+00:00",
+  "last_run": "2026-09-09T09:58:49.275425+00:00",
   "pending_notifications": []
 }
