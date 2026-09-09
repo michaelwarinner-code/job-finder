@@ -36,7 +36,10 @@ US_SIGNALS = US_STATES + US_CITIES + [
 NON_US_SIGNALS = [
     "united kingdom", "uk", "london", "england", "scotland", "ireland",
     "dublin", "canada", "toronto", "vancouver", "montreal", "india",
-    "bangalore", "bengaluru", "mumbai", "hyderabad", "germany", "berlin",
+    "bangalore", "bengaluru", "mumbai", "hyderabad", "pakistan", "karachi",
+    "lahore", "islamabad", "rawalpindi", "bangladesh", "dhaka", "sri lanka",
+    "colombo", "vietnam", "ho chi minh", "hanoi", "thailand", "bangkok",
+    "malaysia", "kuala lumpur", "indonesia", "germany", "berlin",
     "munich", "france", "paris", "spain", "madrid", "netherlands",
     "amsterdam", "singapore", "australia", "sydney", "melbourne", "japan",
     "tokyo", "china", "beijing", "shanghai", "mexico", "brazil", "colombia",
@@ -44,7 +47,14 @@ NON_US_SIGNALS = [
     "sweden", "stockholm", "switzerland", "zurich", "belgium", "brussels",
     "israel", "tel aviv", "south korea", "seoul", "taiwan", "hong kong",
     "eu -", "emea", "apac", "latam", "uae", "united arab emirates", "dubai", "abu dhabi",
-    "jakarta", "São Paulo",
+    "jakarta", "São Paulo", "south africa", "cape town", "johannesburg",
+    "nigeria", "lagos", "egypt", "cairo", "argentina", "buenos aires",
+    "costa rica", "san jose, cr", "peru", "lima", "chile", "santiago",
+    "portugal", "lisbon", "romania", "bucharest", "ukraine", "kyiv",
+    "turkey", "istanbul", "russia", "moscow", "new zealand", "auckland",
+    "denmark", "copenhagen", "norway", "oslo", "finland", "helsinki",
+    "czech republic", "prague", "austria", "vienna", "greece", "athens",
+    "hungary", "budapest",
 ]
 
 
