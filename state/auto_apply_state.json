@@ -1797,14 +1797,21 @@
       "last_updated": "2026-09-07T16:46:27.002427+00:00"
     },
     "https://jobs.ashbyhq.com/basis-ai/00c7b40b-f697-4d40-bc53-8e4c072daed6": {
-      "status": "judged_fit",
+      "status": "pending_answer",
       "company_name": "Basis AI",
       "title": "Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/basis-ai/00c7b40b-f697-4d40-bc53-8e4c072daed6",
       "ats": "ashby",
       "board_token": "basis-ai",
       "first_seen": "2026-09-07T16:46:29.328793+00:00",
-      "last_updated": "2026-09-09T17:16:01.811032+00:00"
+      "last_updated": "2026-09-09T23:50:58.926607+00:00",
+      "pending_since": "2026-09-09T23:50:58.926611+00:00",
+      "pending_questions": [
+        {
+          "type": "single",
+          "question": "Why you?"
+        }
+      ]
     },
     "https://jobs.ashbyhq.com/basis-ai/9023c508-8681-4af5-96e4-491ce5ff3e00": {
       "status": "judged_reject",
