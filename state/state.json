@@ -2922,7 +2922,8 @@
         "gh-datadog-8177798",
         "gh-datadog-8179647",
         "gh-datadog-8179766",
-        "gh-datadog-8181440"
+        "gh-datadog-8181440",
+        "gh-datadog-8184867"
       ]
     },
     "mongodb": {
@@ -5117,6 +5118,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     }
   ],
-  "last_run": "2026-09-09T00:42:37.580833+00:00",
+  "last_run": "2026-09-09T05:21:51.239390+00:00",
   "pending_notifications": []
 }
