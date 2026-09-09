@@ -29,14 +29,31 @@
       "last_updated": "2026-09-05T23:13:29.669965+00:00"
     },
     "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539": {
-      "status": "judged_fit",
+      "status": "pending_answer",
       "company_name": "Suno",
       "title": "Sr. Performance Marketing Manager, Paid Social",
       "url": "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539",
       "ats": "ashby",
       "board_token": "suno",
       "first_seen": "2026-09-05T23:13:31.610792+00:00",
-      "last_updated": "2026-09-09T15:31:56.124840+00:00"
+      "last_updated": "2026-09-09T20:51:19.597279+00:00",
+      "pending_since": "2026-09-09T20:51:19.597283+00:00",
+      "pending_questions": [
+        {
+          "type": "group",
+          "group_question": "How many years of B2C or DTC paid social experience do you have?",
+          "options": [
+            "0-1",
+            "2-3",
+            "4+"
+          ],
+          "select": "one"
+        },
+        {
+          "type": "single",
+          "question": "Why are you interested in working at Suno?"
+        }
+      ]
     },
     "https://jobs.ashbyhq.com/suno/12b86885-63c7-446c-ab5e-514fe8adba01": {
       "status": "judged_reject",
