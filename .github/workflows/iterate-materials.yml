@@ -1,0 +1,84 @@
+name: Iterate on materials (regenerate resume + cover letter for one job)
+
+# Manual, scoped review loop: regenerate one job's resume/cover letter and
+# get back real PDFs (not just an in-console preview) to actually judge.
+# The correction step is deliberately NOT automated -- edit
+# state/resume_coverletter_prompt.md directly (reword a rule, reorder a
+# priority, whatever the actual fix is) and commit it, THEN re-run this
+# against the same job_id. Every run checks out whatever's currently
+# committed, so your edit is what the next generation uses -- no separate
+# feedback/notes mechanism needed, and nothing here can accumulate
+# overlapping instructions behind your back.
+#
+# Deliberately does NOT touch the browser, Telegram, or Google OAuth --
+# only needs the Anthropic API + LibreOffice/Node, so this stays fast and
+# cheap to re-run many times while iterating on one job.
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "Job URL to regenerate materials for (must already exist in state.json)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-apply-poll
+  cancel-in-progress: false
+
+jobs:
+  iterate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install LibreOffice (PDF conversion)
+        run: sudo apt-get update && sudo apt-get install -y libreoffice
+
+      - name: Install Python dependencies
+        run: pip install -r auto-apply/requirements.txt
+
+      - name: Install resume-builder Node dependencies
+        run: npm install
+        working-directory: resume-builder
+
+      - name: Regenerate materials + build PDFs (stop before form fill)
+        env:
+          AUTOAPPLY_ANTHROPIC_API_KEY: ${{ secrets.AUTOAPPLY_ANTHROPIC_API_KEY }}
+          JOB_ID_INPUT: ${{ inputs.job_id }}
+        run: python auto-apply/run_pipeline.py --job-id "$JOB_ID_INPUT" --stop-after pdf
+
+      - name: Upload resume + cover letter for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: materials-review-${{ github.run_id }}
+          path: auto-apply/pipeline_output/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add state/auto_apply_state.json
+          git diff --quiet --cached || git commit -m "Regenerate materials [skip ci]"
+
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected (attempt $i) -- pulling latest and retrying..."
+            git pull --rebase origin main
+          done
+          echo "::error::Failed to push updated state after 5 attempts -- this job's status update may not have been saved remotely, check manually."
+          exit 1
