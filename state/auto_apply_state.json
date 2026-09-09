@@ -719,14 +719,14 @@
       "last_updated": "2026-09-07T16:43:04.188649+00:00"
     },
     "https://www.doppel.com/company/careers/jobs/4314545009?gh_jid=4314545009": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Doppel",
       "title": "Digital Program Manager, Customer Success",
       "url": "https://www.doppel.com/company/careers/jobs/4314545009?gh_jid=4314545009",
       "ats": "greenhouse",
       "board_token": "doppel",
       "first_seen": "2026-09-07T16:43:07.504756+00:00",
-      "last_updated": "2026-09-07T16:43:07.504805+00:00"
+      "last_updated": "2026-09-09T17:03:10.857870+00:00"
     },
     "https://www.doppel.com/company/careers/jobs/4366869009?gh_jid=4366869009": {
       "status": "judged_reject",
@@ -909,14 +909,14 @@
       "last_updated": "2026-09-07T16:43:40.685063+00:00"
     },
     "https://www.brex.com/careers/8606825002?gh_jid=8606825002": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Brex",
       "title": "Finance GTM Associate",
       "url": "https://www.brex.com/careers/8606825002?gh_jid=8606825002",
       "ats": "greenhouse",
       "board_token": "brex",
       "first_seen": "2026-09-07T16:43:42.631817+00:00",
-      "last_updated": "2026-09-07T16:43:42.631843+00:00"
+      "last_updated": "2026-09-09T17:04:31.531084+00:00"
     },
     "https://www.brex.com/careers/8627546002?gh_jid=8627546002": {
       "status": "judged_reject",
@@ -979,14 +979,14 @@
       "last_updated": "2026-09-07T16:43:53.278619+00:00"
     },
     "https://www.brex.com/careers/8728491002?gh_jid=8728491002": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Brex",
       "title": "Private Equity Partnerships Associate",
       "url": "https://www.brex.com/careers/8728491002?gh_jid=8728491002",
       "ats": "greenhouse",
       "board_token": "brex",
       "first_seen": "2026-09-07T16:43:55.539054+00:00",
-      "last_updated": "2026-09-07T16:43:55.539322+00:00"
+      "last_updated": "2026-09-09T17:05:23.184120+00:00"
     },
     "https://www.brex.com/careers/8079278002?gh_jid=8079278002": {
       "status": "judged_reject",
@@ -1259,14 +1259,14 @@
       "last_updated": "2026-09-07T16:44:47.126780+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727511002": {
-      "status": "judged_fit",
+      "status": "failed_form_scan",
       "company_name": "Motive",
       "title": "Marketing Project Manager - Corporate Marketing",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/8727511002",
       "ats": "greenhouse",
       "board_token": "gomotive",
       "first_seen": "2026-09-07T16:44:49.330138+00:00",
-      "last_updated": "2026-09-07T16:44:49.330164+00:00"
+      "last_updated": "2026-09-09T17:07:11.026870+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727509002": {
       "status": "judged_reject",
@@ -1359,14 +1359,14 @@
       "last_updated": "2026-09-07T16:45:06.589777+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/6056440002": {
-      "status": "judged_fit",
+      "status": "failed_form_scan",
       "company_name": "Motive",
       "title": "SMB Account Manager",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/6056440002",
       "ats": "greenhouse",
       "board_token": "gomotive",
       "first_seen": "2026-09-07T16:45:09.060006+00:00",
-      "last_updated": "2026-09-07T16:45:09.060046+00:00"
+      "last_updated": "2026-09-09T17:08:35.015777+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8021084002": {
       "status": "judged_reject",
@@ -1429,14 +1429,14 @@
       "last_updated": "2026-09-07T16:45:23.181427+00:00"
     },
     "https://www.alloy.com/about/jobs/detail?gh_jid=8687338002&gh_jid=8687338002": {
-      "status": "judged_fit",
+      "status": "ready_to_submit",
       "company_name": "Alloy",
       "title": "Mid-Market Account Manager",
       "url": "https://www.alloy.com/about/jobs/detail?gh_jid=8687338002&gh_jid=8687338002",
       "ats": "greenhouse",
       "board_token": "alloy",
       "first_seen": "2026-09-07T16:45:25.452120+00:00",
-      "last_updated": "2026-09-07T16:45:25.452185+00:00"
+      "last_updated": "2026-09-09T17:09:25.553817+00:00"
     },
     "https://www.alloy.com/about/jobs/detail?gh_jid=8783182002&gh_jid=8783182002": {
       "status": "judged_reject",
@@ -1779,14 +1779,14 @@
       "last_updated": "2026-09-07T16:46:27.002427+00:00"
     },
     "https://jobs.ashbyhq.com/basis-ai/00c7b40b-f697-4d40-bc53-8e4c072daed6": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Basis AI",
       "title": "Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/basis-ai/00c7b40b-f697-4d40-bc53-8e4c072daed6",
       "ats": "ashby",
       "board_token": "basis-ai",
       "first_seen": "2026-09-07T16:46:29.328793+00:00",
-      "last_updated": "2026-09-07T16:46:29.328897+00:00"
+      "last_updated": "2026-09-09T17:16:01.811032+00:00"
     },
     "https://jobs.ashbyhq.com/basis-ai/9023c508-8681-4af5-96e4-491ce5ff3e00": {
       "status": "judged_reject",
@@ -1929,24 +1929,24 @@
       "last_updated": "2026-09-07T16:46:57.750731+00:00"
     },
     "https://job-boards.greenhouse.io/officespacesoftware/jobs/5227024008": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "OfficeSpace Software",
       "title": "Strategic Account Executive, Expansion",
       "url": "https://job-boards.greenhouse.io/officespacesoftware/jobs/5227024008",
       "ats": "greenhouse",
       "board_token": "officespacesoftware",
       "first_seen": "2026-09-07T16:46:59.576692+00:00",
-      "last_updated": "2026-09-07T16:46:59.576724+00:00"
+      "last_updated": "2026-09-09T17:16:02.065622+00:00"
     },
     "https://job-boards.greenhouse.io/officespacesoftware/jobs/5255703008": {
-      "status": "judged_fit",
+      "status": "failed_form_scan",
       "company_name": "OfficeSpace Software",
       "title": "Strategic Account Executive, Expansion",
       "url": "https://job-boards.greenhouse.io/officespacesoftware/jobs/5255703008",
       "ats": "greenhouse",
       "board_token": "officespacesoftware",
       "first_seen": "2026-09-07T16:47:01.622502+00:00",
-      "last_updated": "2026-09-07T16:47:01.622535+00:00"
+      "last_updated": "2026-09-09T17:17:39.857068+00:00"
     },
     "https://job-boards.greenhouse.io/gleanwork/jobs/4689938005": {
       "status": "judged_reject",
@@ -2449,14 +2449,14 @@
       "last_updated": "2026-09-07T16:48:48.182686+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/0d750bf9-d3f2-4816-9e28-23d12a0ef2e2": {
-      "status": "judged_fit",
+      "status": "failed_form_scan",
       "company_name": "Harvey",
       "title": "Enterprise Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/harvey/0d750bf9-d3f2-4816-9e28-23d12a0ef2e2",
       "ats": "ashby",
       "board_token": "harvey",
       "first_seen": "2026-09-07T16:48:51.901818+00:00",
-      "last_updated": "2026-09-07T16:48:51.901985+00:00"
+      "last_updated": "2026-09-09T17:18:54.841166+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/993e43fa-a9a1-45be-9d74-3a96c7c303ef": {
       "status": "judged_reject",
@@ -2469,14 +2469,14 @@
       "last_updated": "2026-09-07T16:48:54.630297+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/c2e8772a-ca9c-44ee-95fb-bbd64f57e7c4": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Harvey",
       "title": "Mid-Market Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/harvey/c2e8772a-ca9c-44ee-95fb-bbd64f57e7c4",
       "ats": "ashby",
       "board_token": "harvey",
       "first_seen": "2026-09-07T16:48:56.742159+00:00",
-      "last_updated": "2026-09-07T16:48:56.742192+00:00"
+      "last_updated": "2026-09-09T17:19:45.491449+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/fcfdeffe-5890-49b0-a98f-8689a930c151": {
       "status": "judged_reject",
@@ -2659,14 +2659,14 @@
       "last_updated": "2026-09-07T16:49:30.840433+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/cb89e7ec-6643-4cfa-b4d6-ce34b345f46a": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Harvey",
       "title": "Scaled Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/harvey/cb89e7ec-6643-4cfa-b4d6-ce34b345f46a",
       "ats": "ashby",
       "board_token": "harvey",
       "first_seen": "2026-09-07T16:49:32.826817+00:00",
-      "last_updated": "2026-09-07T16:49:32.826854+00:00"
+      "last_updated": "2026-09-09T17:20:06.066185+00:00"
     },
     "https://jobs.ashbyhq.com/patreon/ba65484c-c099-4d17-8101-81f2f681f997": {
       "status": "judged_reject",
@@ -2689,14 +2689,14 @@
       "last_updated": "2026-09-07T16:49:38.082035+00:00"
     },
     "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "AirOps",
       "title": "Marketing & Sales Operations Manager ",
       "url": "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9",
       "ats": "ashby",
       "board_token": "airops",
       "first_seen": "2026-09-07T16:49:39.941803+00:00",
-      "last_updated": "2026-09-07T16:49:39.941869+00:00"
+      "last_updated": "2026-09-09T17:20:26.717466+00:00"
     },
     "https://jobs.ashbyhq.com/jobs-valence/c3ae1b0b-0912-4dd4-b525-4b2fd100108c": {
       "status": "judged_reject",
@@ -2799,24 +2799,24 @@
       "last_updated": "2026-09-07T16:49:59.956960+00:00"
     },
     "https://jobs.ashbyhq.com/dailypay/9af32eb4-0cc8-4773-bfc7-2b70863d0a93": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "DailyPay",
       "title": "Senior Associate, Sales Operations",
       "url": "https://jobs.ashbyhq.com/dailypay/9af32eb4-0cc8-4773-bfc7-2b70863d0a93",
       "ats": "ashby",
       "board_token": "dailypay",
       "first_seen": "2026-09-07T16:50:02.134792+00:00",
-      "last_updated": "2026-09-07T16:50:02.134846+00:00"
+      "last_updated": "2026-09-09T17:20:26.769364+00:00"
     },
     "https://jobs.ashbyhq.com/dailypay/035ae831-bc50-47b6-be9b-a86e16a3e2f8": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "DailyPay",
       "title": "Associate, Growth Marketing (Email and Lifecycle)",
       "url": "https://jobs.ashbyhq.com/dailypay/035ae831-bc50-47b6-be9b-a86e16a3e2f8",
       "ats": "ashby",
       "board_token": "dailypay",
       "first_seen": "2026-09-07T16:50:04.545041+00:00",
-      "last_updated": "2026-09-07T16:50:04.545166+00:00"
+      "last_updated": "2026-09-09T17:20:26.822501+00:00"
     },
     "https://jobs.ashbyhq.com/dailypay/06078aa5-0af7-48c4-8077-2fb382af65ef": {
       "status": "judged_reject",
@@ -2859,14 +2859,14 @@
       "last_updated": "2026-09-07T16:50:11.498210+00:00"
     },
     "https://jobs.ashbyhq.com/revel/e862e7f8-b0e0-4cfd-8ebc-e03a54f40958": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Revel",
       "title": "Product Marketing Manager",
       "url": "https://jobs.ashbyhq.com/revel/e862e7f8-b0e0-4cfd-8ebc-e03a54f40958",
       "ats": "ashby",
       "board_token": "revel",
       "first_seen": "2026-09-07T16:50:14.308359+00:00",
-      "last_updated": "2026-09-07T16:50:14.308432+00:00"
+      "last_updated": "2026-09-09T17:20:47.450971+00:00"
     },
     "https://jobs.ashbyhq.com/vapi/50d82ec9-720a-4aea-9a2d-c502786f737e": {
       "status": "judged_reject",
@@ -2939,24 +2939,24 @@
       "last_updated": "2026-09-07T16:50:29.023196+00:00"
     },
     "https://careers.duolingo.com/jobs/8604113002?gh_jid=8604113002": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Duolingo",
       "title": "Product Marketing Lead",
       "url": "https://careers.duolingo.com/jobs/8604113002?gh_jid=8604113002",
       "ats": "greenhouse",
       "board_token": "duolingo",
       "first_seen": "2026-09-07T16:50:31.728432+00:00",
-      "last_updated": "2026-09-07T16:50:31.728465+00:00"
+      "last_updated": "2026-09-09T17:20:47.687844+00:00"
     },
     "https://careers.duolingo.com/jobs/8400553002?gh_jid=8400553002": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Duolingo",
       "title": "Product Marketing Manager, Math",
       "url": "https://careers.duolingo.com/jobs/8400553002?gh_jid=8400553002",
       "ats": "greenhouse",
       "board_token": "duolingo",
       "first_seen": "2026-09-07T16:50:34.013749+00:00",
-      "last_updated": "2026-09-07T16:50:34.013790+00:00"
+      "last_updated": "2026-09-09T17:21:08.238572+00:00"
     },
     "https://careers.duolingo.com/jobs/8654321002?gh_jid=8654321002": {
       "status": "judged_reject",
@@ -3169,14 +3169,14 @@
       "last_updated": "2026-09-07T16:51:17.985668+00:00"
     },
     "https://getbrick.com/pages/careers-at-brick?gh_jid=4392120009": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Brick",
       "title": "Growth Marketing Manager, Paid Media",
       "url": "https://getbrick.com/pages/careers-at-brick?gh_jid=4392120009",
       "ats": "greenhouse",
       "board_token": "getbrick",
       "first_seen": "2026-09-07T16:51:20.102712+00:00",
-      "last_updated": "2026-09-07T16:51:20.102726+00:00"
+      "last_updated": "2026-09-09T17:21:28.851762+00:00"
     },
     "https://jobs.ashbyhq.com/spara/cc708ef3-3403-4cba-bec9-928b8da79905": {
       "status": "judged_reject",
@@ -3269,14 +3269,14 @@
       "last_updated": "2026-09-07T16:51:38.151600+00:00"
     },
     "https://jobs.ashbyhq.com/permitflow/9260591a-b994-4c3a-b0eb-4592bb8cd1d1": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "PermitFlow",
       "title": "Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/permitflow/9260591a-b994-4c3a-b0eb-4592bb8cd1d1",
       "ats": "ashby",
       "board_token": "permitflow",
       "first_seen": "2026-09-07T16:51:40.502721+00:00",
-      "last_updated": "2026-09-07T16:51:40.502755+00:00"
+      "last_updated": "2026-09-09T17:21:49.626922+00:00"
     },
     "https://jobs.ashbyhq.com/permitflow/6e340121-9b31-4440-ba31-bfaaccfdb225": {
       "status": "judged_reject",
@@ -3629,14 +3629,14 @@
       "last_updated": "2026-09-07T16:52:45.875697+00:00"
     },
     "https://stripe.com/jobs/search?gh_jid=8097047": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Stripe",
       "title": "GTM Business Value Specialist",
       "url": "https://stripe.com/jobs/search?gh_jid=8097047",
       "ats": "greenhouse",
       "board_token": "Stripe",
       "first_seen": "2026-09-07T16:52:48.549745+00:00",
-      "last_updated": "2026-09-07T16:52:48.549762+00:00"
+      "last_updated": "2026-09-09T17:22:10.518541+00:00"
     },
     "https://stripe.com/jobs/search?gh_jid=7993610": {
       "status": "judged_reject",
@@ -3929,24 +3929,24 @@
       "last_updated": "2026-09-07T16:53:40.670644+00:00"
     },
     "https://job-boards.greenhouse.io/knit/jobs/4272781009": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Knit",
       "title": "Product Marketing Manager",
       "url": "https://job-boards.greenhouse.io/knit/jobs/4272781009",
       "ats": "greenhouse",
       "board_token": "knit",
       "first_seen": "2026-09-07T16:53:43.065822+00:00",
-      "last_updated": "2026-09-07T16:53:43.065890+00:00"
+      "last_updated": "2026-09-09T17:22:31.523278+00:00"
     },
     "https://triplelift.com/careers-posts/?gh_jid=8025997": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "TripleLift",
       "title": "Account Manager",
       "url": "https://triplelift.com/careers-posts/?gh_jid=8025997",
       "ats": "greenhouse",
       "board_token": "triplelift",
       "first_seen": "2026-09-07T16:53:45.450996+00:00",
-      "last_updated": "2026-09-07T16:53:45.451033+00:00"
+      "last_updated": "2026-09-09T17:22:52.481620+00:00"
     },
     "https://triplelift.com/careers-posts/?gh_jid=8071610": {
       "status": "judged_reject",
@@ -4499,14 +4499,14 @@
       "last_updated": "2026-09-07T16:55:37.153310+00:00"
     },
     "https://jobs.ashbyhq.com/plaid/75512514-c532-44d7-8df2-49b3cfda0ad0": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Plaid",
       "title": "Brand Marketing Program Manager",
       "url": "https://jobs.ashbyhq.com/plaid/75512514-c532-44d7-8df2-49b3cfda0ad0",
       "ats": "ashby",
       "board_token": "plaid",
       "first_seen": "2026-09-07T16:55:39.240572+00:00",
-      "last_updated": "2026-09-07T16:55:39.240617+00:00"
+      "last_updated": "2026-09-09T17:23:13.021103+00:00"
     },
     "https://jobs.ashbyhq.com/plaid/8efcc88b-48eb-486a-bf63-ff9143af7250": {
       "status": "judged_reject",
@@ -4789,14 +4789,14 @@
       "last_updated": "2026-09-07T16:56:38.020317+00:00"
     },
     "https://jobs.ashbyhq.com/whippy/3d37adc5-9e04-4ff2-b19d-cc32945f4429": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Whippy",
       "title": "Customer Success Manager (Hybrid Buenos Aires, remote LATAM, or remote US)",
       "url": "https://jobs.ashbyhq.com/whippy/3d37adc5-9e04-4ff2-b19d-cc32945f4429",
       "ats": "ashby",
       "board_token": "whippy",
       "first_seen": "2026-09-07T16:56:41.831918+00:00",
-      "last_updated": "2026-09-07T16:56:41.831957+00:00"
+      "last_updated": "2026-09-09T17:23:33.548682+00:00"
     },
     "https://jobs.ashbyhq.com/whippy/002d399e-5ab0-4fde-ad55-fcdbeb156d9f": {
       "status": "judged_reject",
@@ -5059,24 +5059,24 @@
       "last_updated": "2026-09-07T16:57:32.856563+00:00"
     },
     "https://www.samsara.com/company/careers/roles/7603023?gh_jid=7603023": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Samsara",
       "title": "Customer Success Manager ",
       "url": "https://www.samsara.com/company/careers/roles/7603023?gh_jid=7603023",
       "ats": "greenhouse",
       "board_token": "samsara",
       "first_seen": "2026-09-07T16:57:35.214164+00:00",
-      "last_updated": "2026-09-07T16:57:35.214205+00:00"
+      "last_updated": "2026-09-09T17:23:54.204337+00:00"
     },
     "https://www.samsara.com/company/careers/roles/7580157?gh_jid=7580157": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Samsara",
       "title": "Customer Success Manager II",
       "url": "https://www.samsara.com/company/careers/roles/7580157?gh_jid=7580157",
       "ats": "greenhouse",
       "board_token": "samsara",
       "first_seen": "2026-09-07T16:57:37.974955+00:00",
-      "last_updated": "2026-09-07T16:57:37.974992+00:00"
+      "last_updated": "2026-09-09T17:24:14.784664+00:00"
     },
     "https://www.samsara.com/company/careers/roles/7487346?gh_jid=7487346": {
       "status": "judged_reject",
@@ -5279,14 +5279,14 @@
       "last_updated": "2026-09-07T16:58:15.364795+00:00"
     },
     "https://www.samsara.com/company/careers/roles/8142214?gh_jid=8142214": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Samsara",
       "title": "Partner Marketing Manager - Insurance and Strategic Partnerships",
       "url": "https://www.samsara.com/company/careers/roles/8142214?gh_jid=8142214",
       "ats": "greenhouse",
       "board_token": "samsara",
       "first_seen": "2026-09-07T16:58:17.455845+00:00",
-      "last_updated": "2026-09-07T16:58:17.455887+00:00"
+      "last_updated": "2026-09-09T17:24:37.014425+00:00"
     },
     "https://www.samsara.com/company/careers/roles/8070083?gh_jid=8070083": {
       "status": "judged_reject",
@@ -5459,14 +5459,14 @@
       "last_updated": "2026-09-07T16:58:52.333965+00:00"
     },
     "https://www.samsara.com/company/careers/roles/8115905?gh_jid=8115905": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Samsara",
       "title": "Senior Analyst, GTM Business Operations \u2013 Public Sector",
       "url": "https://www.samsara.com/company/careers/roles/8115905?gh_jid=8115905",
       "ats": "greenhouse",
       "board_token": "samsara",
       "first_seen": "2026-09-07T16:58:54.488178+00:00",
-      "last_updated": "2026-09-07T16:58:54.488210+00:00"
+      "last_updated": "2026-09-09T17:24:57.809842+00:00"
     },
     "https://www.samsara.com/company/careers/roles/7917475?gh_jid=7917475": {
       "status": "judged_reject",
@@ -5509,14 +5509,14 @@
       "last_updated": "2026-09-07T16:59:01.441832+00:00"
     },
     "https://www.samsara.com/company/careers/roles/8084045?gh_jid=8084045": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Samsara",
       "title": "Sr. Business Operations Analyst - Post Sales ",
       "url": "https://www.samsara.com/company/careers/roles/8084045?gh_jid=8084045",
       "ats": "greenhouse",
       "board_token": "samsara",
       "first_seen": "2026-09-07T16:59:03.521212+00:00",
-      "last_updated": "2026-09-07T16:59:03.521248+00:00"
+      "last_updated": "2026-09-09T17:25:18.575633+00:00"
     },
     "https://www.samsara.com/company/careers/roles/7589195?gh_jid=7589195": {
       "status": "judged_reject",
@@ -5609,14 +5609,14 @@
       "last_updated": "2026-09-07T16:59:22.303381+00:00"
     },
     "https://job-boards.greenhouse.io/moloco/jobs/6021399003": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Moloco",
       "title": "Growth Manager",
       "url": "https://job-boards.greenhouse.io/moloco/jobs/6021399003",
       "ats": "greenhouse",
       "board_token": "moloco",
       "first_seen": "2026-09-07T16:59:24.684654+00:00",
-      "last_updated": "2026-09-07T16:59:24.684682+00:00"
+      "last_updated": "2026-09-09T17:25:39.342214+00:00"
     },
     "https://job-boards.greenhouse.io/moloco/jobs/7823169003": {
       "status": "judged_reject",
@@ -5689,14 +5689,14 @@
       "last_updated": "2026-09-07T16:59:37.252305+00:00"
     },
     "https://job-boards.greenhouse.io/harborglobal/jobs/5226306007": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Harbor",
       "title": "Revenue Operations Analyst",
       "url": "https://job-boards.greenhouse.io/harborglobal/jobs/5226306007",
       "ats": "greenhouse",
       "board_token": "harborglobal",
       "first_seen": "2026-09-07T16:59:39.121080+00:00",
-      "last_updated": "2026-09-07T16:59:39.121122+00:00"
+      "last_updated": "2026-09-09T17:25:59.960575+00:00"
     },
     "https://job-boards.greenhouse.io/harborglobal/jobs/5163807007": {
       "status": "judged_reject",
@@ -5869,14 +5869,14 @@
       "last_updated": "2026-09-07T17:00:17.538574+00:00"
     },
     "https://jobs.ashbyhq.com/aegis-ai/864d854f-724e-4026-8f85-692cc091265d": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Aegis AI",
       "title": "Director Demand Generation",
       "url": "https://jobs.ashbyhq.com/aegis-ai/864d854f-724e-4026-8f85-692cc091265d",
       "ats": "ashby",
       "board_token": "aegis-ai",
       "first_seen": "2026-09-07T17:00:19.565060+00:00",
-      "last_updated": "2026-09-07T17:00:19.565098+00:00"
+      "last_updated": "2026-09-09T17:26:20.658969+00:00"
     },
     "https://jobs.ashbyhq.com/brellium/365a3ff9-49e3-4bfb-8245-cdb2322f7eef": {
       "status": "judged_reject",
@@ -5889,14 +5889,14 @@
       "last_updated": "2026-09-07T17:00:22.335599+00:00"
     },
     "https://jobs.ashbyhq.com/brellium/08bfefc1-fa4c-4bd7-b992-df2182a0b3b1": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Brellium",
       "title": "Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/brellium/08bfefc1-fa4c-4bd7-b992-df2182a0b3b1",
       "ats": "ashby",
       "board_token": "brellium",
       "first_seen": "2026-09-07T17:00:24.956418+00:00",
-      "last_updated": "2026-09-07T17:00:24.956461+00:00"
+      "last_updated": "2026-09-09T17:26:41.374347+00:00"
     },
     "https://jobs.ashbyhq.com/brellium/bccfd5d2-2271-49f0-9cb9-d9491bec975b": {
       "status": "judged_reject",
@@ -5909,14 +5909,14 @@
       "last_updated": "2026-09-07T17:00:27.655055+00:00"
     },
     "https://jobs.ashbyhq.com/brellium/a06095c7-07e4-4c12-9d06-54040109aebb": {
-      "status": "judged_fit",
+      "status": "failed_materials",
       "company_name": "Brellium",
       "title": "Demand Generation Manager",
       "url": "https://jobs.ashbyhq.com/brellium/a06095c7-07e4-4c12-9d06-54040109aebb",
       "ats": "ashby",
       "board_token": "brellium",
       "first_seen": "2026-09-07T17:00:29.935848+00:00",
-      "last_updated": "2026-09-07T17:00:29.935885+00:00"
+      "last_updated": "2026-09-09T17:27:01.914751+00:00"
     },
     "https://jobs.ashbyhq.com/geniusai/435de8d3-133e-494c-9168-a92e58518027": {
       "status": "judged_reject",
@@ -6027,6 +6027,616 @@
       "board_token": "dropzoneai",
       "first_seen": "2026-09-07T17:00:52.332271+00:00",
       "last_updated": "2026-09-07T17:00:52.332350+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4700106005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Account Executive - Commercial Sales (Future Opportunities)",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4700106005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:18.996223+00:00",
+      "last_updated": "2026-09-09T16:59:18.996238+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4713894005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Associate Director, Customer Success",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4713894005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:20.664609+00:00",
+      "last_updated": "2026-09-09T16:59:20.664623+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4716685005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Business Development Representative",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4716685005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:22.329387+00:00",
+      "last_updated": "2026-09-09T16:59:22.329401+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4700103005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Business Development Representative (Future Opportunities)",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4700103005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:24.162120+00:00",
+      "last_updated": "2026-09-09T16:59:24.162133+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4723602005": {
+      "status": "failed_materials",
+      "company_name": "Spring Health",
+      "title": "Customer Success Manager",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4723602005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:26.348169+00:00",
+      "last_updated": "2026-09-09T17:27:22.635518+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4720651005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Director, Downstream Product Marketing",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4720651005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:28.289325+00:00",
+      "last_updated": "2026-09-09T16:59:28.289338+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4704507005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Director, Lifecycle Marketing",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4704507005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:29.730275+00:00",
+      "last_updated": "2026-09-09T16:59:29.730289+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4715281005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Director, Revenue Analytics & AI Innovation",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4715281005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:31.538101+00:00",
+      "last_updated": "2026-09-09T16:59:31.538114+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4728941005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "GTM Execution Lead",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4728941005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:33.010934+00:00",
+      "last_updated": "2026-09-09T16:59:33.010949+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4721922005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Lead Product Manager, Growth, Specialty Care",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4721922005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:34.652925+00:00",
+      "last_updated": "2026-09-09T16:59:34.652937+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4727931005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Lead, Revenue Cycle",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727931005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:36.249862+00:00",
+      "last_updated": "2026-09-09T16:59:36.249876+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4727804005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Senior Business Development Representative",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4727804005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:38.373832+00:00",
+      "last_updated": "2026-09-09T16:59:38.373846+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4720118005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Senior Implementation Manager, Strategic Partnerships",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4720118005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:40.016329+00:00",
+      "last_updated": "2026-09-09T16:59:40.016343+00:00"
+    },
+    "https://job-boards.greenhouse.io/springhealth66/jobs/4700101005": {
+      "status": "judged_reject",
+      "company_name": "Spring Health",
+      "title": "Strategic Customer Success Manager (Future Opportunities)",
+      "url": "https://job-boards.greenhouse.io/springhealth66/jobs/4700101005",
+      "ats": "greenhouse",
+      "board_token": "springhealth66",
+      "first_seen": "2026-09-09T16:59:41.687263+00:00",
+      "last_updated": "2026-09-09T16:59:41.687276+00:00"
+    },
+    "https://jobs.ashbyhq.com/dovetail/f1340462-c5be-4d61-9d8f-050e2c763783": {
+      "status": "judged_reject",
+      "company_name": "Dovetail",
+      "title": "Account Executive (Enterprise)",
+      "url": "https://jobs.ashbyhq.com/dovetail/f1340462-c5be-4d61-9d8f-050e2c763783",
+      "ats": "ashby",
+      "board_token": "dovetail",
+      "first_seen": "2026-09-09T16:59:43.908241+00:00",
+      "last_updated": "2026-09-09T16:59:43.908255+00:00"
+    },
+    "https://jobs.ashbyhq.com/dovetail/80c18054-f7eb-4019-b6f5-ee3c68fd3239": {
+      "status": "failed_materials",
+      "company_name": "Dovetail",
+      "title": "Growth Marketer",
+      "url": "https://jobs.ashbyhq.com/dovetail/80c18054-f7eb-4019-b6f5-ee3c68fd3239",
+      "ats": "ashby",
+      "board_token": "dovetail",
+      "first_seen": "2026-09-09T16:59:46.194271+00:00",
+      "last_updated": "2026-09-09T17:27:43.365848+00:00"
+    },
+    "https://jobs.ashbyhq.com/dovetail/bb3754de-d037-473a-9fa1-2f4e939c9608": {
+      "status": "judged_reject",
+      "company_name": "Dovetail",
+      "title": "Demand Generation Lead",
+      "url": "https://jobs.ashbyhq.com/dovetail/bb3754de-d037-473a-9fa1-2f4e939c9608",
+      "ats": "ashby",
+      "board_token": "dovetail",
+      "first_seen": "2026-09-09T16:59:48.175880+00:00",
+      "last_updated": "2026-09-09T16:59:48.175895+00:00"
+    },
+    "https://jobs.ashbyhq.com/dovetail/26ebd1c1-f5b1-4b84-928c-dce24d685232": {
+      "status": "judged_reject",
+      "company_name": "Dovetail",
+      "title": "Sales Development Representative",
+      "url": "https://jobs.ashbyhq.com/dovetail/26ebd1c1-f5b1-4b84-928c-dce24d685232",
+      "ats": "ashby",
+      "board_token": "dovetail",
+      "first_seen": "2026-09-09T16:59:50.112542+00:00",
+      "last_updated": "2026-09-09T16:59:50.112556+00:00"
+    },
+    "https://stripe.com/jobs/search?gh_jid=8181024": {
+      "status": "judged_reject",
+      "company_name": "Stripe",
+      "title": "Account Executive Product - Radar",
+      "url": "https://stripe.com/jobs/search?gh_jid=8181024",
+      "ats": "greenhouse",
+      "board_token": "Stripe",
+      "first_seen": "2026-09-09T16:59:52.043977+00:00",
+      "last_updated": "2026-09-09T16:59:52.043990+00:00"
+    },
+    "https://job-boards.greenhouse.io/idme/jobs/7661613003": {
+      "status": "judged_reject",
+      "company_name": "ID.me",
+      "title": "Account Manager, Commerce & Loyalty (NY/NJ)",
+      "url": "https://job-boards.greenhouse.io/idme/jobs/7661613003",
+      "ats": "greenhouse",
+      "board_token": "idme",
+      "first_seen": "2026-09-09T16:59:53.936018+00:00",
+      "last_updated": "2026-09-09T16:59:53.936031+00:00"
+    },
+    "https://job-boards.greenhouse.io/idme/jobs/7655156003": {
+      "status": "judged_reject",
+      "company_name": "ID.me",
+      "title": "Senior Account Executive, Public Sector (SLED)",
+      "url": "https://job-boards.greenhouse.io/idme/jobs/7655156003",
+      "ats": "greenhouse",
+      "board_token": "idme",
+      "first_seen": "2026-09-09T16:59:55.731323+00:00",
+      "last_updated": "2026-09-09T16:59:55.731335+00:00"
+    },
+    "https://www.avepoint.com/careers/job-detail?gh_jid=8186727": {
+      "status": "judged_reject",
+      "company_name": "AvePoint",
+      "title": " Director of Revenue Operations, GTM Performance",
+      "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8186727",
+      "ats": "greenhouse",
+      "board_token": "avepoint",
+      "first_seen": "2026-09-09T16:59:57.537398+00:00",
+      "last_updated": "2026-09-09T16:59:57.537412+00:00"
+    },
+    "https://www.betterment.com/careers/current-openings/job?gh_jid=6209414&gh_jid=6209414": {
+      "status": "judged_reject",
+      "company_name": "Betterment",
+      "title": "Business Development Representative ",
+      "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=6209414&gh_jid=6209414",
+      "ats": "greenhouse",
+      "board_token": "Betterment",
+      "first_seen": "2026-09-09T17:00:01.746011+00:00",
+      "last_updated": "2026-09-09T17:00:01.746025+00:00"
+    },
+    "https://www.betterment.com/careers/current-openings/job?gh_jid=8074484&gh_jid=8074484": {
+      "status": "judged_reject",
+      "company_name": "Betterment",
+      "title": "Business Systems Architect, GTM Systems",
+      "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8074484&gh_jid=8074484",
+      "ats": "greenhouse",
+      "board_token": "Betterment",
+      "first_seen": "2026-09-09T17:00:04.070832+00:00",
+      "last_updated": "2026-09-09T17:00:04.070846+00:00"
+    },
+    "https://www.betterment.com/careers/current-openings/job?gh_jid=8177550&gh_jid=8177550": {
+      "status": "judged_reject",
+      "company_name": "Betterment",
+      "title": "Revenue Operations Manager - Revenue Planning & Insights ",
+      "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8177550&gh_jid=8177550",
+      "ats": "greenhouse",
+      "board_token": "Betterment",
+      "first_seen": "2026-09-09T17:00:06.046348+00:00",
+      "last_updated": "2026-09-09T17:00:06.046361+00:00"
+    },
+    "https://www.betterment.com/careers/current-openings/job?gh_jid=8075138&gh_jid=8075138": {
+      "status": "judged_reject",
+      "company_name": "Betterment",
+      "title": "Sr. Manager, Commercial Operations & Deal Desk",
+      "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8075138&gh_jid=8075138",
+      "ats": "greenhouse",
+      "board_token": "Betterment",
+      "first_seen": "2026-09-09T17:00:08.467757+00:00",
+      "last_updated": "2026-09-09T17:00:08.467773+00:00"
+    },
+    "https://www.betterment.com/careers/current-openings/job?gh_jid=8137838&gh_jid=8137838": {
+      "status": "judged_reject",
+      "company_name": "Betterment",
+      "title": "Sr. Marketing Associate, B2B",
+      "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8137838&gh_jid=8137838",
+      "ats": "greenhouse",
+      "board_token": "Betterment",
+      "first_seen": "2026-09-09T17:00:10.787347+00:00",
+      "last_updated": "2026-09-09T17:00:10.787361+00:00"
+    },
+    "https://job-boards.greenhouse.io/nift/jobs/5029616007": {
+      "status": "judged_reject",
+      "company_name": "Nift",
+      "title": "Sales Director, Partnerships ",
+      "url": "https://job-boards.greenhouse.io/nift/jobs/5029616007",
+      "ats": "greenhouse",
+      "board_token": "nift",
+      "first_seen": "2026-09-09T17:00:13.278931+00:00",
+      "last_updated": "2026-09-09T17:00:13.278944+00:00"
+    },
+    "https://job-boards.greenhouse.io/nift/jobs/5218679007": {
+      "status": "judged_reject",
+      "company_name": "Nift",
+      "title": "VP of Marketing",
+      "url": "https://job-boards.greenhouse.io/nift/jobs/5218679007",
+      "ats": "greenhouse",
+      "board_token": "nift",
+      "first_seen": "2026-09-09T17:00:15.415038+00:00",
+      "last_updated": "2026-09-09T17:00:15.415052+00:00"
+    },
+    "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6014513004": {
+      "status": "judged_reject",
+      "company_name": "Careers at KKR",
+      "title": "Divisional Sales Manager",
+      "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6014513004",
+      "ats": "greenhouse",
+      "board_token": "stage",
+      "first_seen": "2026-09-09T17:00:18.009572+00:00",
+      "last_updated": "2026-09-09T17:00:18.009586+00:00"
+    },
+    "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5044668004": {
+      "status": "judged_reject",
+      "company_name": "Careers at KKR",
+      "title": "Global Wealth Solutions Internal Sales Analyst/ Associate",
+      "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5044668004",
+      "ats": "greenhouse",
+      "board_token": "stage",
+      "first_seen": "2026-09-09T17:00:20.395374+00:00",
+      "last_updated": "2026-09-09T17:00:20.395387+00:00"
+    },
+    "https://jobs.ashbyhq.com/primer/b8645d28-cf60-4ca2-9194-945cd2c9c2c4": {
+      "status": "judged_reject",
+      "company_name": "Primer",
+      "title": "Revenue Operations Lead",
+      "url": "https://jobs.ashbyhq.com/primer/b8645d28-cf60-4ca2-9194-945cd2c9c2c4",
+      "ats": "ashby",
+      "board_token": "primer",
+      "first_seen": "2026-09-09T17:00:22.112678+00:00",
+      "last_updated": "2026-09-09T17:00:22.112692+00:00"
+    },
+    "https://jobs.ashbyhq.com/clubhouse/9fa369a8-b7dd-4ef7-a9f0-3f1b5988322f": {
+      "status": "failed_materials",
+      "company_name": "Clubhouse",
+      "title": "\ud83d\udce3 Product Marketing Manager, Community Growth",
+      "url": "https://jobs.ashbyhq.com/clubhouse/9fa369a8-b7dd-4ef7-a9f0-3f1b5988322f",
+      "ats": "ashby",
+      "board_token": "clubhouse",
+      "first_seen": "2026-09-09T17:00:25.319718+00:00",
+      "last_updated": "2026-09-09T17:28:04.040349+00:00"
+    },
+    "https://jobs.ashbyhq.com/branchlab/2e1128ed-57ab-479f-aec2-70ad4f39b57e": {
+      "status": "judged_reject",
+      "company_name": "BranchLab",
+      "title": "Enterprise Sales",
+      "url": "https://jobs.ashbyhq.com/branchlab/2e1128ed-57ab-479f-aec2-70ad4f39b57e",
+      "ats": "ashby",
+      "board_token": "branchlab",
+      "first_seen": "2026-09-09T17:00:27.657722+00:00",
+      "last_updated": "2026-09-09T17:00:27.657736+00:00"
+    },
+    "https://jobs.ashbyhq.com/branchlab/bfd11c7c-543e-4081-b00f-334e5f71608b": {
+      "status": "judged_reject",
+      "company_name": "BranchLab",
+      "title": "Brand & Marketing Designer",
+      "url": "https://jobs.ashbyhq.com/branchlab/bfd11c7c-543e-4081-b00f-334e5f71608b",
+      "ats": "ashby",
+      "board_token": "branchlab",
+      "first_seen": "2026-09-09T17:00:30.028690+00:00",
+      "last_updated": "2026-09-09T17:00:30.028703+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/3eb70831-05a3-4a8f-9d6c-15f68d901cf7": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Enterprise Account Manager - Philadelphia",
+      "url": "https://jobs.ashbyhq.com/delinea/3eb70831-05a3-4a8f-9d6c-15f68d901cf7",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:33.171255+00:00",
+      "last_updated": "2026-09-09T17:00:33.171275+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/41a534f3-9ed3-47f4-b8f8-73bbf459ca97": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Senior Web Marketing Manager",
+      "url": "https://jobs.ashbyhq.com/delinea/41a534f3-9ed3-47f4-b8f8-73bbf459ca97",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:34.873792+00:00",
+      "last_updated": "2026-09-09T17:00:34.873805+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/997994d9-e670-4032-b027-f2f469cf6a49": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Director, Solutions Marketing",
+      "url": "https://jobs.ashbyhq.com/delinea/997994d9-e670-4032-b027-f2f469cf6a49",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:37.305889+00:00",
+      "last_updated": "2026-09-09T17:00:37.305902+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/73fe12a3-d21b-4e3c-ad9b-030ddd4c3846": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Enterprise Account Manager - Southeast Florida",
+      "url": "https://jobs.ashbyhq.com/delinea/73fe12a3-d21b-4e3c-ad9b-030ddd4c3846",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:39.157520+00:00",
+      "last_updated": "2026-09-09T17:00:39.157534+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/c87a39e6-cbf7-4e11-8c1e-856c178b637f": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "AI Marketing Solutions Engineer",
+      "url": "https://jobs.ashbyhq.com/delinea/c87a39e6-cbf7-4e11-8c1e-856c178b637f",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:41.542091+00:00",
+      "last_updated": "2026-09-09T17:00:41.542105+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/85183562-1f52-4e4b-9940-8dbb30783be7": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Enterprise Account Manager - Denver",
+      "url": "https://jobs.ashbyhq.com/delinea/85183562-1f52-4e4b-9940-8dbb30783be7",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:43.246174+00:00",
+      "last_updated": "2026-09-09T17:00:43.246192+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/e8da4614-23f2-421f-8edd-0d825cf851bb": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Enterprise Account Executive - Federal",
+      "url": "https://jobs.ashbyhq.com/delinea/e8da4614-23f2-421f-8edd-0d825cf851bb",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:45.387668+00:00",
+      "last_updated": "2026-09-09T17:00:45.387681+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/dcbeb7e6-6ada-41a5-b5c9-02e3396d6684": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Sr. Regional Sales Director",
+      "url": "https://jobs.ashbyhq.com/delinea/dcbeb7e6-6ada-41a5-b5c9-02e3396d6684",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:48.130479+00:00",
+      "last_updated": "2026-09-09T17:00:48.130493+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/a3642937-f89b-45b8-bf2c-650abb887d5a": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Strategic Account Manager - Southeast",
+      "url": "https://jobs.ashbyhq.com/delinea/a3642937-f89b-45b8-bf2c-650abb887d5a",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:50.741635+00:00",
+      "last_updated": "2026-09-09T17:00:50.741649+00:00"
+    },
+    "https://jobs.ashbyhq.com/delinea/6297f0ed-cd66-4226-a99a-4ccd0d52eaed": {
+      "status": "judged_reject",
+      "company_name": "Delinea",
+      "title": "Director, Product Marketing",
+      "url": "https://jobs.ashbyhq.com/delinea/6297f0ed-cd66-4226-a99a-4ccd0d52eaed",
+      "ats": "ashby",
+      "board_token": "delinea",
+      "first_seen": "2026-09-09T17:00:52.915830+00:00",
+      "last_updated": "2026-09-09T17:00:52.915843+00:00"
+    },
+    "https://jobs.ashbyhq.com/gc-ai/7b115370-aead-4ea4-92df-4112c634c44a": {
+      "status": "judged_reject",
+      "company_name": "GC AI",
+      "title": "Enterprise Account Executive",
+      "url": "https://jobs.ashbyhq.com/gc-ai/7b115370-aead-4ea4-92df-4112c634c44a",
+      "ats": "ashby",
+      "board_token": "gc-ai",
+      "first_seen": "2026-09-09T17:00:55.318080+00:00",
+      "last_updated": "2026-09-09T17:00:55.318094+00:00"
+    },
+    "https://jobs.ashbyhq.com/gc-ai/64cc3984-55c5-452c-9f6d-8afb7b8c8082": {
+      "status": "judged_reject",
+      "company_name": "GC AI",
+      "title": "Strategic Account Executive",
+      "url": "https://jobs.ashbyhq.com/gc-ai/64cc3984-55c5-452c-9f6d-8afb7b8c8082",
+      "ats": "ashby",
+      "board_token": "gc-ai",
+      "first_seen": "2026-09-09T17:00:57.216868+00:00",
+      "last_updated": "2026-09-09T17:00:57.216882+00:00"
+    },
+    "https://jobs.ashbyhq.com/intus/704a4e17-4a1e-4284-9913-f8b12dcfa1ac": {
+      "status": "failed_materials",
+      "company_name": "IntusCare",
+      "title": "Revenue Operations Lead",
+      "url": "https://jobs.ashbyhq.com/intus/704a4e17-4a1e-4284-9913-f8b12dcfa1ac",
+      "ats": "ashby",
+      "board_token": "intus",
+      "first_seen": "2026-09-09T17:01:00.236922+00:00",
+      "last_updated": "2026-09-09T17:28:24.608936+00:00"
+    },
+    "https://jobs.ashbyhq.com/batoncorporation/eeffae4b-6a69-4715-953e-66a4eed986ac": {
+      "status": "judged_reject",
+      "company_name": "Baton Corporation Ltd",
+      "title": "Growth Marketing Lead",
+      "url": "https://jobs.ashbyhq.com/batoncorporation/eeffae4b-6a69-4715-953e-66a4eed986ac",
+      "ats": "ashby",
+      "board_token": "batoncorporation",
+      "first_seen": "2026-09-09T17:01:02.310215+00:00",
+      "last_updated": "2026-09-09T17:01:02.310229+00:00"
+    },
+    "https://jobs.ashbyhq.com/batoncorporation/9200468c-0428-434b-a4fa-0a4481ab4339": {
+      "status": "judged_reject",
+      "company_name": "Baton Corporation Ltd",
+      "title": "Staff Data Scientist - Growth & Marketing ($400k - $500k)",
+      "url": "https://jobs.ashbyhq.com/batoncorporation/9200468c-0428-434b-a4fa-0a4481ab4339",
+      "ats": "ashby",
+      "board_token": "batoncorporation",
+      "first_seen": "2026-09-09T17:01:04.595377+00:00",
+      "last_updated": "2026-09-09T17:01:04.595390+00:00"
+    },
+    "https://jobs.ashbyhq.com/chainalysis-careers/a8fa332e-a2b8-40cb-aa26-ca473a1999b4": {
+      "status": "judged_reject",
+      "company_name": "Chainalysis",
+      "title": "Director, HRBP - GTM",
+      "url": "https://jobs.ashbyhq.com/chainalysis-careers/a8fa332e-a2b8-40cb-aa26-ca473a1999b4",
+      "ats": "ashby",
+      "board_token": "chainalysis-careers",
+      "first_seen": "2026-09-09T17:01:07.305680+00:00",
+      "last_updated": "2026-09-09T17:01:07.305693+00:00"
+    },
+    "https://jobs.ashbyhq.com/suno/5444295f-78b1-490e-a9a1-f93120d06f77": {
+      "status": "judged_reject",
+      "company_name": "Suno",
+      "title": "Senior / Staff Data Scientist, Growth Monetization",
+      "url": "https://jobs.ashbyhq.com/suno/5444295f-78b1-490e-a9a1-f93120d06f77",
+      "ats": "ashby",
+      "board_token": "suno",
+      "first_seen": "2026-09-09T17:01:09.634734+00:00",
+      "last_updated": "2026-09-09T17:01:09.634748+00:00"
+    },
+    "https://www.doppel.com/company/careers/jobs/4383671009?gh_jid=4383671009": {
+      "status": "judged_reject",
+      "company_name": "Doppel",
+      "title": "Senior Sales Engineer - Northeast",
+      "url": "https://www.doppel.com/company/careers/jobs/4383671009?gh_jid=4383671009",
+      "ats": "greenhouse",
+      "board_token": "doppel",
+      "first_seen": "2026-09-09T17:01:12.565820+00:00",
+      "last_updated": "2026-09-09T17:01:12.565834+00:00"
+    },
+    "https://www.brex.com/careers/8787020002?gh_jid=8787020002": {
+      "status": "judged_reject",
+      "company_name": "Brex",
+      "title": "Senior Marketing Operations Manager",
+      "url": "https://www.brex.com/careers/8787020002?gh_jid=8787020002",
+      "ats": "greenhouse",
+      "board_token": "brex",
+      "first_seen": "2026-09-09T17:01:14.435927+00:00",
+      "last_updated": "2026-09-09T17:01:14.435940+00:00"
+    },
+    "https://job-boards.greenhouse.io/gomotive/jobs/8787033002": {
+      "status": "judged_reject",
+      "company_name": "Motive",
+      "title": "Senior Manager, Strategic Accounts Customer Success Managers",
+      "url": "https://job-boards.greenhouse.io/gomotive/jobs/8787033002",
+      "ats": "greenhouse",
+      "board_token": "gomotive",
+      "first_seen": "2026-09-09T17:01:17.057945+00:00",
+      "last_updated": "2026-09-09T17:01:17.057961+00:00"
+    },
+    "https://jobs.ashbyhq.com/pointfive/c2feb415-bdd3-4c08-8330-dfa98b9be0af": {
+      "status": "judged_reject",
+      "company_name": "PointFive",
+      "title": "Senior Growth Marketing Manager",
+      "url": "https://jobs.ashbyhq.com/pointfive/c2feb415-bdd3-4c08-8330-dfa98b9be0af",
+      "ats": "ashby",
+      "board_token": "pointfive",
+      "first_seen": "2026-09-09T17:01:19.683254+00:00",
+      "last_updated": "2026-09-09T17:01:19.683269+00:00"
+    },
+    "https://jobs.ashbyhq.com/openai/9e39d2ba-2076-4f44-9e07-c8520e9d5cdb": {
+      "status": "judged_reject",
+      "company_name": "OpenAI",
+      "title": "Integrated Marketing Lead, Brand & Policy",
+      "url": "https://jobs.ashbyhq.com/openai/9e39d2ba-2076-4f44-9e07-c8520e9d5cdb",
+      "ats": "ashby",
+      "board_token": "openai",
+      "first_seen": "2026-09-09T17:01:21.761810+00:00",
+      "last_updated": "2026-09-09T17:01:21.761823+00:00"
+    },
+    "https://jobs.ashbyhq.com/openai/ad0b2114-d2be-4c64-9226-d60de56271a4": {
+      "status": "judged_reject",
+      "company_name": "OpenAI",
+      "title": "Greenfield Sales Manager, Startups",
+      "url": "https://jobs.ashbyhq.com/openai/ad0b2114-d2be-4c64-9226-d60de56271a4",
+      "ats": "ashby",
+      "board_token": "openai",
+      "first_seen": "2026-09-09T17:01:23.709239+00:00",
+      "last_updated": "2026-09-09T17:01:23.709259+00:00"
+    },
+    "https://job-boards.greenhouse.io/officespacesoftware/jobs/5381175008": {
+      "status": "failed_materials",
+      "company_name": "OfficeSpace Software",
+      "title": "Strategic Account Executive, Expansion",
+      "url": "https://job-boards.greenhouse.io/officespacesoftware/jobs/5381175008",
+      "ats": "greenhouse",
+      "board_token": "officespacesoftware",
+      "first_seen": "2026-09-09T17:01:27.491196+00:00",
+      "last_updated": "2026-09-09T17:28:45.351112+00:00"
+    },
+    "https://www.coinbase.com/careers/positions/8187551?gh_jid=8187551": {
+      "status": "judged_reject",
+      "company_name": "Coinbase",
+      "title": "Sales Intern",
+      "url": "https://www.coinbase.com/careers/positions/8187551?gh_jid=8187551",
+      "ats": "greenhouse",
+      "board_token": "coinbase",
+      "first_seen": "2026-09-09T17:01:30.238918+00:00",
+      "last_updated": "2026-09-09T17:01:30.238933+00:00"
+    },
+    "https://jobs.ashbyhq.com/Clera/7d741ac4-ed71-45e3-ad0c-f379f3f9fe04": {
+      "status": "judged_reject",
+      "company_name": "Clera",
+      "title": "Account Executive",
+      "url": "https://jobs.ashbyhq.com/Clera/7d741ac4-ed71-45e3-ad0c-f379f3f9fe04",
+      "ats": "ashby",
+      "board_token": "Clera",
+      "first_seen": "2026-09-09T17:01:35.061705+00:00",
+      "last_updated": "2026-09-09T17:01:35.061719+00:00"
     }
   }
 }
