@@ -29,7 +29,7 @@
       "last_updated": "2026-09-05T23:13:29.669965+00:00"
     },
     "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539": {
-      "status": "failed_form_scan",
+      "status": "judged_fit",
       "company_name": "Suno",
       "title": "Sr. Performance Marketing Manager, Paid Social",
       "url": "https://jobs.ashbyhq.com/suno/3824c2c9-cc54-4bd4-a368-22849fc57539",
@@ -1259,7 +1259,7 @@
       "last_updated": "2026-09-07T16:44:47.126780+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727511002": {
-      "status": "failed_form_scan",
+      "status": "judged_fit",
       "company_name": "Motive",
       "title": "Marketing Project Manager - Corporate Marketing",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/8727511002",
@@ -1359,7 +1359,7 @@
       "last_updated": "2026-09-07T16:45:06.589777+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/6056440002": {
-      "status": "failed_form_scan",
+      "status": "judged_fit",
       "company_name": "Motive",
       "title": "SMB Account Manager",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/6056440002",
@@ -1929,7 +1929,7 @@
       "last_updated": "2026-09-07T16:46:57.750731+00:00"
     },
     "https://job-boards.greenhouse.io/officespacesoftware/jobs/5227024008": {
-      "status": "failed_materials",
+      "status": "judged_fit",
       "company_name": "OfficeSpace Software",
       "title": "Strategic Account Executive, Expansion",
       "url": "https://job-boards.greenhouse.io/officespacesoftware/jobs/5227024008",
@@ -2449,7 +2449,7 @@
       "last_updated": "2026-09-07T16:48:48.182686+00:00"
     },
     "https://jobs.ashbyhq.com/harvey/0d750bf9-d3f2-4816-9e28-23d12a0ef2e2": {
-      "status": "failed_form_scan",
+      "status": "judged_fit",
       "company_name": "Harvey",
       "title": "Enterprise Customer Success Manager",
       "url": "https://jobs.ashbyhq.com/harvey/0d750bf9-d3f2-4816-9e28-23d12a0ef2e2",
