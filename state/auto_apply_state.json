@@ -1262,14 +1262,29 @@
       "last_updated": "2026-09-07T16:44:47.126780+00:00"
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727511002": {
-      "status": "judged_fit",
+      "status": "pending_answer",
       "company_name": "Motive",
       "title": "Marketing Project Manager - Corporate Marketing",
       "url": "https://job-boards.greenhouse.io/gomotive/jobs/8727511002",
       "ats": "greenhouse",
       "board_token": "gomotive",
       "first_seen": "2026-09-07T16:44:49.330138+00:00",
-      "last_updated": "2026-09-09T17:07:11.026870+00:00"
+      "last_updated": "2026-09-09T23:25:53.606297+00:00",
+      "pending_since": "2026-09-09T23:25:53.606300+00:00",
+      "pending_questions": [
+        {
+          "type": "single",
+          "question": "CNIC Number*"
+        },
+        {
+          "type": "single",
+          "question": "What about Motive makes it an appealing place to work?*"
+        },
+        {
+          "type": "single",
+          "question": "What is your Current Salary? *"
+        }
+      ]
     },
     "https://job-boards.greenhouse.io/gomotive/jobs/8727509002": {
       "status": "judged_reject",
