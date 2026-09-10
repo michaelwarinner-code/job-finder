@@ -588,8 +588,11 @@
         "gh-doordashusa-8188452",
         "gh-doordashusa-8188593",
         "gh-doordashusa-8189143",
+        "gh-doordashusa-8189509",
         "gh-doordashusa-8189554",
-        "gh-doordashusa-8189920"
+        "gh-doordashusa-8189920",
+        "gh-doordashusa-8191134",
+        "gh-doordashusa-8191508"
       ]
     },
     "hubspot": {
@@ -702,6 +705,7 @@
         "gh-hubspotjobs-7660473",
         "gh-hubspotjobs-7660474",
         "gh-hubspotjobs-7666937",
+        "gh-hubspotjobs-7668971",
         "gh-hubspotjobs-7691174",
         "gh-hubspotjobs-7715082",
         "gh-hubspotjobs-7740667",
@@ -870,6 +874,7 @@
         "lever-spotify-819f584f-84a5-485d-8082-3412545f6c8a",
         "lever-spotify-8251142e-f213-45df-89a9-914e814bd7a7",
         "lever-spotify-827bfa7b-cc50-46d7-bdac-f642a14fe92b",
+        "lever-spotify-88b0a5ea-65d8-4c0c-8d1f-c30989ea5c16",
         "lever-spotify-890b2c0f-f46f-4a4b-bb73-3a6af6e0edd5",
         "lever-spotify-89e139e7-76fd-4063-8850-ba13c555446c",
         "lever-spotify-8a9cc53c-48c0-4d43-8287-d81ab09e74fa",
@@ -1140,6 +1145,7 @@
         "wd-snapchat-PCB-Design-Engineer_R0045397-1",
         "wd-snapchat-People-Application-Developer_R0045795-1",
         "wd-snapchat-People-Operations-Generalist_R0046734-1",
+        "wd-snapchat-People-Operations-Program-Manager_R0046736-1",
         "wd-snapchat-Principal-Marketing-Scientist--Level-6_R0046642-1",
         "wd-snapchat-Principal-Software-Engineer--Ads-Format--Level-7_R0041203",
         "wd-snapchat-Principal-Software-Engineer--Ads-Platform_H226PEM10-1",
@@ -1341,6 +1347,7 @@
         "wd-coke-Director--Commercial-Frontline--Nigeria_R-145874",
         "wd-coke-Director--Connections---Media_R-144890",
         "wd-coke-Director--Connections---Media_R-145044",
+        "wd-coke-Director--Counsel-Trademarks_R-145859",
         "wd-coke-Director--Creative--FR_R-142423-1",
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
@@ -1362,6 +1369,7 @@
         "wd-coke-Director--Global-Integrated-Creative---IMX-Research-Protocols-and-Intelligence_R-145947",
         "wd-coke-Director--Global-Intelligence-Measurement-Models---Analytic-Frameworks_R-144605",
         "wd-coke-Director--Global-Strategy--Planning-and-Business-Insights_R-144750",
+        "wd-coke-Director--IT-Supply-Chain---Plant-Maintenance_R-144534",
         "wd-coke-Director--International-Treasury_R-145047",
         "wd-coke-Director--Japan-System-Performance---Bottler-Excellence_R-146095",
         "wd-coke-Director--Key-Customer-Management--Digital-Commerce---JD_R-136239-1",
@@ -1490,6 +1498,7 @@
         "wd-coke-Paralegal--Eurasia---Middle-East_R-145204-1",
         "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
+        "wd-coke-Prin-Financial-Analyst_R-146223-1",
         "wd-coke-Principal--Marketing-AI-Applications_R-145807",
         "wd-coke-Process-Engineer_R-134009",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
@@ -1540,6 +1549,7 @@
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143660",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143663",
         "wd-coke-Retail-Store-Shipper-Receiver--Full-Time-_R-145230",
+        "wd-coke-SAP-Analyst_R-146183",
         "wd-coke-Safety---Sustainability-Manager_R-142886",
         "wd-coke-Safety--Environment-and-Security-Senior-Manager_R-141965",
         "wd-coke-Safety-Coordinator_R-142070",
@@ -1655,6 +1665,7 @@
         "wd-coke-Senior-Manager--Sourcing_R-145165",
         "wd-coke-Senior-Manager--Sparkling-Flavors--Fanta_R-144073-1",
         "wd-coke-Senior-Manager--Strategy---Franchise-Strategy---Special-Projects_R-145943",
+        "wd-coke-Senior-Manager--Sweetener-Application_R-145842-1",
         "wd-coke-Senior-Manager--Talent-Acquisition---INSWA_R-144667",
         "wd-coke-Senior-Manager--Tech-Delivery_R-144494",
         "wd-coke-Senior-Manager--Technical-Consumer-Data-Research--Nutrition-_R-144996",
@@ -1964,6 +1975,7 @@
         "ashby-cursor-9879627d-b996-4213-bbdf-82a18884015f",
         "ashby-cursor-9978ffe7-8dac-4f44-9f3f-43cfd033d39c",
         "ashby-cursor-9a175381-45e2-42b6-bd64-6c84532365f9",
+        "ashby-cursor-9d7c8f36-eeb7-4e9f-acbe-d959f6280e46",
         "ashby-cursor-9f1b3e17-4ab5-4d70-acc2-be1d1972b922",
         "ashby-cursor-a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
         "ashby-cursor-a6c00f7f-2288-4461-a64d-0f1cd9878909",
@@ -2747,6 +2759,7 @@
         "gh-datadog-8026520",
         "gh-datadog-8026831",
         "gh-datadog-8026835",
+        "gh-datadog-8027427",
         "gh-datadog-8028254",
         "gh-datadog-8028422",
         "gh-datadog-8028508",
@@ -2974,6 +2987,7 @@
         "gh-datadog-8181440",
         "gh-datadog-8184867",
         "gh-datadog-8185903",
+        "gh-datadog-8187141",
         "gh-datadog-8188027",
         "gh-datadog-8188028"
       ]
@@ -3389,6 +3403,7 @@
         "gh-mongodb-8122025",
         "gh-mongodb-8122634",
         "gh-mongodb-8122664",
+        "gh-mongodb-8122751",
         "gh-mongodb-8122877",
         "gh-mongodb-8125813",
         "gh-mongodb-8126598",
@@ -4002,6 +4017,7 @@
         "gh-justworks-8008804",
         "gh-justworks-8012944",
         "gh-justworks-8013023",
+        "gh-justworks-8020702",
         "gh-justworks-8020709",
         "gh-justworks-8020723",
         "gh-justworks-8020730",
@@ -4214,7 +4230,8 @@
         "gh-glossier-8173297",
         "gh-glossier-8179465",
         "gh-glossier-8186638",
-        "gh-glossier-8187039"
+        "gh-glossier-8187039",
+        "gh-glossier-8191478"
       ]
     },
     "yext": {
@@ -4558,7 +4575,8 @@
         "gh-bombas-8080537",
         "gh-bombas-8089018",
         "gh-bombas-8114263",
-        "gh-bombas-8143771"
+        "gh-bombas-8143771",
+        "gh-bombas-8191441"
       ]
     },
     "cleo": {
@@ -5189,6 +5207,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-10T14:03:52.895845+00:00",
+  "last_run": "2026-09-10T17:39:49.906163+00:00",
   "pending_notifications": []
 }
