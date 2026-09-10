@@ -583,6 +583,7 @@
         "gh-doordashusa-8187515",
         "gh-doordashusa-8187792",
         "gh-doordashusa-8187876",
+        "gh-doordashusa-8188161",
         "gh-doordashusa-8188395",
         "gh-doordashusa-8188452",
         "gh-doordashusa-8188593",
@@ -1151,6 +1152,7 @@
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
+        "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0046741",
         "wd-snapchat-Product-Manager--Sponsored-AR_R0046130-1",
         "wd-snapchat-Product-Marketing-Manager--Lenses_R0046599",
         "wd-snapchat-Product-Marketing-Manager_R0046085-1",
@@ -1255,6 +1257,7 @@
       "is_priority": true,
       "known_job_ids": [
         "wd-coke-",
+        "wd-coke-Administration-Assistant_R-146126",
         "wd-coke-Administrative-Assistant-CAR_R-145748-1",
         "wd-coke-Advisor--Consumer-Engagement_R-145315",
         "wd-coke-Advisor--Employee-Care_R-144690",
@@ -1638,6 +1641,7 @@
         "wd-coke-Senior-Manager--Operational-Excellence_R-144003",
         "wd-coke-Senior-Manager--Policy-Advocacy---Communications_R-144898",
         "wd-coke-Senior-Manager--Product-Lifecycle-Management_R-144008",
+        "wd-coke-Senior-Manager--Quality---Food-Safety--QFS--Health--Safety---Environment--HSE----Singapore--Malaysia--Myanmar--Laos_R-145936-1",
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
         "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
@@ -2953,6 +2957,8 @@
         "gh-datadog-8174361",
         "gh-datadog-8174592",
         "gh-datadog-8175708",
+        "gh-datadog-8177097",
+        "gh-datadog-8177270",
         "gh-datadog-8177798",
         "gh-datadog-8179647",
         "gh-datadog-8179766",
@@ -5179,6 +5185,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-10T00:38:54.922755+00:00",
+  "last_run": "2026-09-10T05:17:21.933775+00:00",
   "pending_notifications": []
 }
