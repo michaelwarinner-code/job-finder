@@ -114,15 +114,52 @@ def _get_selected_multi_labels(page, field_id: str) -> list:
     """)
 
 
+def _locate_dropdown_options(page, input_loc, field_id: str, max_wait_ms: int = 3000):
+    """Finds the real options list for an open combobox dropdown using the
+    input's own aria-controls attribute (standard ARIA combobox practice)
+    rather than assuming any one vendor's ID naming scheme. Confirmed
+    necessary the hard way: react-select uses #react-select-{id}-listbox,
+    but a custom-built autocomplete widget (confirmed on Ashby's own
+    Location field -- class "ashby-application-form-input-autocomplete",
+    NOT react-select's "select__..." classes) renders its popup at a
+    React-generated id like ":r0:" that has nothing to do with the field's
+    own id/name/field_id at all -- only aria-controls reliably points at
+    the right container for either widget. field_id is kept as a fallback
+    only, in case some field never sets aria-controls at all.
+
+    Polls rather than a single fixed wait, since options can take a moment
+    to populate after typing (a live geocoding-backed field noticeably
+    more than a static preset list) -- adapts to whichever is true without
+    slowing down the fast, common case."""
+    poll_interval_ms = 200
+    waited_ms = 0
+
+    def _current_options():
+        controls_id = input_loc.get_attribute("aria-controls")
+        if controls_id:
+            listbox = page.locator(f'[id="{controls_id}"]')
+        else:
+            listbox = page.locator(f'#react-select-{field_id}-listbox')
+        return listbox.locator('[role="option"]')
+
+    options = _current_options()
+    count = options.count()
+    while count == 0 and waited_ms < max_wait_ms:
+        page.wait_for_timeout(poll_interval_ms)
+        waited_ms += poll_interval_ms
+        options = _current_options()  # aria-controls may not be set until the dropdown actually opens
+        count = options.count()
+    return options
+
+
 def _peek_react_select_options(page, input_loc, field_id: str) -> list:
-    """Opens a react-select dropdown just to read its available options --
+    """Opens a combobox dropdown just to read its available options --
     without selecting anything -- so an escalation can show you the real
     choices instead of asking blind. Closes the dropdown before returning."""
     try:
         input_loc.click()
         page.wait_for_timeout(500)
-        listbox = page.locator(f'#react-select-{field_id}-listbox')
-        options = listbox.locator('[role="option"]')
+        options = _locate_dropdown_options(page, input_loc, field_id)
         count = options.count()
         texts = [options.nth(i).inner_text().strip() for i in range(count)]
     except Exception:
@@ -135,12 +172,13 @@ def _peek_react_select_options(page, input_loc, field_id: str) -> list:
 
 def _select_react_select_option(page, input_loc, value_text: str, field_id: str,
                                  click_to_open: bool = True, clear_first: bool = True) -> bool:
-    """Clicks open a react-select combobox, types value_text to filter its
-    dropdown, and clicks the matching rendered option -- confirmed against
-    real markup (Country field). Returns True if a matching option was
-    found and clicked, False otherwise. Setting the input's raw value
-    directly (fill()) does NOT work for these -- the visible selection only
-    updates through this real click interaction.
+    """Clicks open a combobox, types value_text to filter its dropdown, and
+    clicks the matching rendered option -- confirmed against real markup
+    (Country field, and Ashby's custom Location autocomplete). Returns
+    True if a matching option was found and clicked, False otherwise.
+    Setting the input's raw value directly (fill()) does NOT work for
+    these -- the visible selection only updates through this real click
+    interaction.
 
     For a SECOND (or later) pick within the same multi-select field, pass
     click_to_open=False and clear_first=False -- confirmed the hard way
@@ -154,10 +192,8 @@ def _select_react_select_option(page, input_loc, value_text: str, field_id: str,
     if clear_first:
         input_loc.fill("")
     input_loc.type(value_text, delay=30)
-    page.wait_for_timeout(600)
 
-    listbox = page.locator(f'#react-select-{field_id}-listbox')
-    options = listbox.locator('[role="option"]')
+    options = _locate_dropdown_options(page, input_loc, field_id)
     count = options.count()
     texts = [options.nth(i).inner_text().strip() for i in range(count)]
 
@@ -182,7 +218,6 @@ def _select_react_select_option(page, input_loc, value_text: str, field_id: str,
     page.keyboard.press("Escape")
     page.wait_for_timeout(200)
     return False
-
 
 def _locator_for(page, ref_type: str, ref_value: str):
     if ref_type == "id":
