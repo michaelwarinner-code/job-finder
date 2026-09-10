@@ -588,7 +588,8 @@
         "gh-doordashusa-8188452",
         "gh-doordashusa-8188593",
         "gh-doordashusa-8189143",
-        "gh-doordashusa-8189554"
+        "gh-doordashusa-8189554",
+        "gh-doordashusa-8189920"
       ]
     },
     "hubspot": {
@@ -607,6 +608,7 @@
         "gh-hubspotjobs-5913304",
         "gh-hubspotjobs-5983374",
         "gh-hubspotjobs-5983376",
+        "gh-hubspotjobs-5985684",
         "gh-hubspotjobs-5985923",
         "gh-hubspotjobs-5985924",
         "gh-hubspotjobs-5986119",
@@ -844,6 +846,7 @@
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
+        "lever-spotify-56ea6f2e-f20b-4e46-ab94-d3eb0a89482d",
         "lever-spotify-5861816e-7ac4-4921-8e90-8e093707e27d",
         "lever-spotify-58b112cc-7798-4083-9b88-589ab2ad04d7",
         "lever-spotify-5992c673-e493-48b1-bb63-9b82a4c31876",
@@ -1264,6 +1267,7 @@
         "wd-coke-Advisor--Employee-Care_R-144690",
         "wd-coke-Alternance-contrleur-de-gestion-H-F-X--1-an-_R-145941",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
+        "wd-coke-Apprentice_R-146209",
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
@@ -1626,6 +1630,7 @@
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
+        "wd-coke-Senior-Manager--Frontline-Marketing--Iraq_R-134297",
         "wd-coke-Senior-Manager--Global-Financial-Planning---Analysis_R-145462",
         "wd-coke-Senior-Manager--Greenfield-Automation-Program_R-138095-5",
         "wd-coke-Senior-Manager--Insights_R-144275",
@@ -2687,6 +2692,7 @@
         "gh-datadog-7977644",
         "gh-datadog-7982225",
         "gh-datadog-7982288",
+        "gh-datadog-7982345",
         "gh-datadog-7982373",
         "gh-datadog-7982644",
         "gh-datadog-7984184",
@@ -3466,7 +3472,8 @@
         "gh-mongodb-8180129",
         "gh-mongodb-8181144",
         "gh-mongodb-8184727",
-        "gh-mongodb-8184943"
+        "gh-mongodb-8184943",
+        "gh-mongodb-8190534"
       ]
     },
     "braze": {
@@ -4328,7 +4335,8 @@
         "ashby-away-a6773940-8728-4d17-acb6-c6c0e701769a",
         "ashby-away-db4f7019-8d22-4498-aa6b-b3178187bca2",
         "ashby-away-e1c844df-4c20-444c-8a96-ac55fa8906d7",
-        "ashby-away-e7229828-24eb-4fb3-afa2-bfe63c79738c"
+        "ashby-away-e7229828-24eb-4fb3-afa2-bfe63c79738c",
+        "ashby-away-f6656815-f67a-4b89-a18a-3ab695bb0de5"
       ]
     },
     "movableink": {
@@ -4831,16 +4839,6 @@
       "fit_reason": "Account Manager role focused on managing existing client relationships, campaign optimization, data analysis, and driving performance\u2014aligns with candidate's growth/lifecycle/GTM background and proven ability to manage accounts, analyze performance data, and deliver ROI; meets 3-year requirement."
     },
     {
-      "id": "lever-spotify-6c591c8a-9aeb-4760-ace1-1942da31aca9",
-      "company_key": "spotify",
-      "company_name": "Spotify",
-      "title": "Marketing Technology Manager",
-      "location": "New York, NY",
-      "url": "https://jobs.lever.co/spotify/6c591c8a-9aeb-4760-ace1-1942da31aca9",
-      "first_seen": "2026-08-24T02:02:08.797389+00:00",
-      "fit_reason": "Marketing Technology Manager is a growth/marketing operations role centered on tool selection, automation, and campaign optimization\u2014core candidate strengths; 3+ years requirement matches candidate's ~3.5 years in increasingly senior growth/operations work; hands-on Meta Ads and AI workflow experience demonstrated; fast-growth tech environment fits intent to pivot into tech marketing."
-    },
-    {
       "id": "gh-doordashusa-8148531",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -5191,6 +5189,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-10T09:50:16.986581+00:00",
+  "last_run": "2026-09-10T14:03:52.895845+00:00",
   "pending_notifications": []
 }
