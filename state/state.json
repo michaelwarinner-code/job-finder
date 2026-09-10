@@ -14,6 +14,7 @@
         "gh-doordashusa-3547688",
         "gh-doordashusa-3623888",
         "gh-doordashusa-4091671",
+        "gh-doordashusa-4283145",
         "gh-doordashusa-4441674",
         "gh-doordashusa-4441676",
         "gh-doordashusa-4441678",
@@ -592,7 +593,8 @@
         "gh-doordashusa-8189554",
         "gh-doordashusa-8189920",
         "gh-doordashusa-8191134",
-        "gh-doordashusa-8191508"
+        "gh-doordashusa-8191508",
+        "gh-doordashusa-8191678"
       ]
     },
     "hubspot": {
@@ -1105,6 +1107,7 @@
         "wd-snapchat-Lead--Operations---Internal-Communications_R0046377",
         "wd-snapchat-Lead--Pricing---Yield-Management--PYM----Incentive-Programs_R0046280-2",
         "wd-snapchat-Lead--Proactive-Trust---Safety-Operations_R0045042-1",
+        "wd-snapchat-Lead--SMC-Marketing--ABM-Growth-Strategy-_R0046758-1",
         "wd-snapchat-Lead--SMC-Marketing_R0045853-1",
         "wd-snapchat-Lead--Support-Content-Program-Manager_R0046390-1",
         "wd-snapchat-Lead-Client-Partner_R0046379",
@@ -1277,6 +1280,7 @@
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
+        "wd-coke-Associate-Manager--Soda-Fountain_R-146055",
         "wd-coke-Automation-Analyst_R-144804",
         "wd-coke-Automation-Director--APAC_R-146006-1",
         "wd-coke-Automation-Director--LATAM_R-146008-1",
@@ -1519,6 +1523,7 @@
         "wd-coke-Production-Operator_R-143933-1",
         "wd-coke-Production-Operator_R-145388",
         "wd-coke-Production-Operator_R-145555",
+        "wd-coke-Production-Operator_R-146094",
         "wd-coke-Production-Supervisor_R-145234",
         "wd-coke-Production-Technician--2569-hr--3rd-Shift--Sun---Thurs--10pm---6-30am-_R-145966-1",
         "wd-coke-Production-Technician--2nd-Shift_R-145823",
@@ -1616,6 +1621,7 @@
         "wd-coke-Senior-Director--Strategy-Integration--RO_R-138751-1",
         "wd-coke-Senior-Director--Strategy-Integration-Germany_R-145960",
         "wd-coke-Senior-Director--Sweetener-Research--Validation-and-Application_R-136492",
+        "wd-coke-Senior-Director--smartwater_R-146065",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
         "wd-coke-Senior-Director-II--Specialty-Retail_R-145774-1",
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
@@ -1753,6 +1759,7 @@
         "ashby-perplexity-5551fd7b-9ede-460e-9b38-4328c476a521",
         "ashby-perplexity-5930b6bf-b4b1-4134-a183-832d69dd085f",
         "ashby-perplexity-598e1f7d-b802-4de2-99ac-90eb2bc33315",
+        "ashby-perplexity-5c561bd0-c180-4ee1-b079-647f3c20bdc0",
         "ashby-perplexity-5ec96ca1-319a-4b85-99ce-e06629099cf9",
         "ashby-perplexity-60deb376-51b5-46c6-9e17-55377a5ef34e",
         "ashby-perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
@@ -1957,6 +1964,7 @@
         "ashby-cursor-7b0b5994-5405-419c-bdca-c7b7ca05b613",
         "ashby-cursor-7bc441a4-9bb6-45cb-a9e0-5ae1b9c7ac5b",
         "ashby-cursor-7deec098-b1cc-4258-8828-db94c0d43319",
+        "ashby-cursor-7e1d8e07-c87b-4388-892a-6b138bebf665",
         "ashby-cursor-85c98417-583b-412e-b31a-e4052195b703",
         "ashby-cursor-88c6e423-1217-42f0-ada4-8cbaf9c24790",
         "ashby-cursor-88d47f97-0bea-448c-9abb-4720e4acf17a",
@@ -2301,6 +2309,7 @@
         "ashby-elevenlabs-b89ff518-824e-4736-a4c7-c68ea3b6b62f",
         "ashby-elevenlabs-b8af4833-d4a9-4ab4-baec-5da007f6d1e9",
         "ashby-elevenlabs-b92059ea-d71f-4eef-a184-8510265752fb",
+        "ashby-elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
         "ashby-elevenlabs-ba9014c9-0d42-4b19-a984-3ab2a0e45c1e",
         "ashby-elevenlabs-bb4f0758-f039-46c7-9a3f-71c145824298",
         "ashby-elevenlabs-bd230a18-2ff4-493c-8555-8476bf7de0e4",
@@ -3817,8 +3826,12 @@
         "gh-braze-8161761",
         "gh-braze-8161894",
         "gh-braze-8161897",
+        "gh-braze-8162066",
         "gh-braze-8162292",
         "gh-braze-8162966",
+        "gh-braze-8164546",
+        "gh-braze-8164560",
+        "gh-braze-8164569",
         "gh-braze-8165281",
         "gh-braze-8167056",
         "gh-braze-8167262",
@@ -3855,17 +3868,22 @@
         "gh-braze-8180530",
         "gh-braze-8180534",
         "gh-braze-8180540",
+        "gh-braze-8181445",
         "gh-braze-8184179",
         "gh-braze-8185912",
         "gh-braze-8185916",
         "gh-braze-8187014",
         "gh-braze-8188663",
+        "gh-braze-8188879",
         "gh-braze-8189634",
         "gh-braze-8189650",
         "gh-braze-8189655",
         "gh-braze-8189715",
         "gh-braze-8189722",
-        "gh-braze-8189731"
+        "gh-braze-8189731",
+        "gh-braze-8192194",
+        "gh-braze-8192196",
+        "gh-braze-8192199"
       ]
     },
     "classpass": {
@@ -4315,6 +4333,7 @@
         "gh-mavenclinic-8726965002",
         "gh-mavenclinic-8756270002",
         "gh-mavenclinic-8756331002",
+        "gh-mavenclinic-8756780002",
         "gh-mavenclinic-8756820002",
         "gh-mavenclinic-8760173002",
         "gh-mavenclinic-8760212002",
@@ -5207,6 +5226,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-10T17:39:49.906163+00:00",
+  "last_run": "2026-09-10T20:01:22.881940+00:00",
   "pending_notifications": []
 }
