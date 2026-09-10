@@ -87,7 +87,7 @@ def _find_live_posting(ats: str, board_token: str, title: str, url: str):
     return None
 
 
-def process_one_job(job_id: str, job: dict, state: dict, stop_after: str = None) -> bool:
+def process_one_job(job_id: str, job: dict, state: dict, stop_after: str = None, local_review: bool = False) -> bool:
     """Returns True if this job reached a terminal state (submitted or
     failed) during this call, False if it's still pending something
     (e.g. mid-escalation) -- mostly informational for the caller's summary.
@@ -154,11 +154,21 @@ def process_one_job(job_id: str, job: dict, state: dict, stop_after: str = None)
         print(f"    --stop-after pdf: built {resume_pdf} and {cl_pdf}, stopping here.")
         return False
 
-    print(f"    Filling application (dry_run={DRY_RUN})...")
+    fill_mode = "local review (visible browser, you click Submit)" if local_review else f"dry_run={DRY_RUN}"
+    print(f"    Filling application ({fill_mode})...")
     job_specific_answers = st.get_job_specific_answers(state, job_id)
     try:
-        report = fill_application(url, resume_pdf, cl_pdf, role_title=title, company_name=company_name,
-                                   dry_run=DRY_RUN, job_specific_answers=job_specific_answers)
+        if local_review:
+            # Real visible browser, human clicks Submit themselves -- see
+            # fill_application()'s docstring for why (Ashby's anti-bot
+            # detection flags fully automated headless+cloud-IP submits
+            # as spam regardless of how genuine the application is).
+            report = fill_application(url, resume_pdf, cl_pdf, role_title=title, company_name=company_name,
+                                       dry_run=True, job_specific_answers=job_specific_answers,
+                                       headless=False, manual_submit=True)
+        else:
+            report = fill_application(url, resume_pdf, cl_pdf, role_title=title, company_name=company_name,
+                                       dry_run=DRY_RUN, job_specific_answers=job_specific_answers)
     except PendingAnswerRequired as e:
         # One or more questions came up with no stored answer, and this is
         # an unattended run -- everything unanswerable was already sent as
@@ -240,7 +250,19 @@ def main():
                          help="Required in addition to AUTOAPPLY_DRY_RUN=false to actually submit -- without it, "
                               "a live run is refused even with dry run off. Also skips the interactive confirm "
                               "prompt, so this is what a scheduled/Actions run needs to pass.")
+    parser.add_argument("--local-review", action="store_true",
+                         help="Local-only: opens a real, visible browser (not headless) and fills the form, then "
+                              "leaves it open for YOU to review and click Submit yourself -- never clicks Submit "
+                              "programmatically, regardless of AUTOAPPLY_DRY_RUN. Built because some ATS anti-bot "
+                              "detection (confirmed on Ashby) flags a fully automated headless+cloud-IP submit as "
+                              "spam even when the application is completely genuine; a real human click from an "
+                              "ordinary local browser sidesteps that. Requires --job-id -- doesn't make sense "
+                              "against a whole batch.")
     args = parser.parse_args()
+
+    if args.local_review and not args.job_id:
+        raise SystemExit("--local-review requires --job-id -- it opens one visible browser window for you to "
+                          "review, which only makes sense for one job at a time.")
 
     # Fail fast on a missing Telegram credential -- reaching the form-fill
     # stage without one wastes a full (slow, non-free) materials generation
@@ -256,7 +278,7 @@ def main():
                               f"or the answer bank. Set them before running, or pass --stop-after pdf if you "
                               f"only meant to test materials/PDF generation this time.")
 
-    if not DRY_RUN:
+    if not DRY_RUN and not args.local_review:
         if not args.yes:
             raise SystemExit("AUTOAPPLY_DRY_RUN=false but --yes was not passed -- refusing to submit real "
                               "applications without explicit confirmation. Re-run with --yes if this is intended.")
@@ -287,11 +309,11 @@ def main():
     print(f"[setup] {len(pending)} job(s) to process")
 
     for job_id, job in pending:
-        if not DRY_RUN and args.stop_after is None and st.is_daily_cap_reached(state, cap=DAILY_CAP):
+        if not DRY_RUN and not args.local_review and args.stop_after is None and st.is_daily_cap_reached(state, cap=DAILY_CAP):
             print(f"\nDaily cap of {DAILY_CAP} reached ({st.get_daily_count(state)} today) -- stopping here.")
             break
 
-        process_one_job(job_id, job, state, stop_after=args.stop_after)
+        process_one_job(job_id, job, state, stop_after=args.stop_after, local_review=args.local_review)
         st.save_state(state)  # save after every job, not just at the end -- a crash mid-run shouldn't lose progress
 
 
