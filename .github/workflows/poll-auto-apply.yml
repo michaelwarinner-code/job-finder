@@ -39,8 +39,7 @@ on:
         required: false
         type: boolean
         default: false
-  schedule:
-    - cron: "0 13 * * *"  # 13:00 UTC daily -- cron times are always UTC, adjust as you like
+
 
 permissions:
   contents: write
