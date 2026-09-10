@@ -187,6 +187,19 @@ def _select_react_select_option(page, input_loc, value_text: str, field_id: str,
 def _locator_for(page, ref_type: str, ref_value: str):
     if ref_type == "id":
         return page.locator(f'[id="{ref_value}"]')
+    if ref_type == "data-field-path":
+        # Fallback anchor for a field that has NEITHER an id NOR a name
+        # attribute of its own -- confirmed on Ashby's Location autocomplete
+        # combobox, which renders <input role="combobox"> with no id/name at
+        # all. Ashby's own field-wrapper div carries a stable, unique
+        # data-field-path attribute instead, so this scopes down to the
+        # actual interactive element inside that wrapper.
+        return page.locator(
+            f'[data-field-path="{ref_value}"] [role="combobox"], '
+            f'[data-field-path="{ref_value}"] input, '
+            f'[data-field-path="{ref_value}"] select, '
+            f'[data-field-path="{ref_value}"] textarea'
+        ).first
     return page.locator(f'[name="{ref_value}"]')
 
 
@@ -316,6 +329,16 @@ def _extract_fields_with_refs(page) -> list:
                     if (!field) field = document.querySelector('[name="' + CSS.escape(forId) + '"]');
                 }
                 if (!field) field = label.querySelector('input, select, textarea');
+                if (!field && label.parentElement) {
+                    // Handles a label/field pair that are SIBLINGS under a
+                    // shared wrapper rather than label-wraps-field or a
+                    // working `for` reference -- confirmed against real
+                    // markup on Ashby's Location autocomplete, whose label
+                    // has a `for` pointing at a non-existent id and whose
+                    // <input role="combobox"> lives in a sibling div instead
+                    // of nested inside the label itself.
+                    field = label.parentElement.querySelector('[role="combobox"], input, select, textarea');
+                }
                 if (!field) continue;
 
                 const key = field.id || field.name || text;
@@ -344,12 +367,32 @@ def _extract_fields_with_refs(page) -> list:
                     || text.includes('*')
                     || label.className.toLowerCase().includes('required');
 
+                // Ref computation: prefer id, then name, same as always --
+                // but some fields (confirmed: Ashby's Location combobox)
+                // have NEITHER. Fall back to the closest ancestor's
+                // data-field-path attribute (Ashby's own stable per-field
+                // wrapper anchor) so this field can still be re-located and
+                // interacted with later via _locator_for's matching
+                // "data-field-path" branch, instead of getting an empty,
+                // unusable ref_value.
+                let refType = field.id ? 'id' : (field.name ? 'name' : null);
+                let refValue = field.id || field.name || '';
+                if (!refType) {
+                    const wrapper = field.closest('[data-field-path]');
+                    if (wrapper) {
+                        refType = 'data-field-path';
+                        refValue = wrapper.getAttribute('data-field-path');
+                    } else {
+                        refType = 'name';  // preserves prior behavior (empty ref_value) if no anchor exists at all
+                    }
+                }
+
                 results.push({
                     question: questionText,
                     field_type: fieldType,
                     required: required,
-                    ref_type: field.id ? 'id' : 'name',
-                    ref_value: field.id || field.name || '',
+                    ref_type: refType,
+                    ref_value: refValue,
                     raw_name: field.name || '',
                 });
             }
