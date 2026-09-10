@@ -2707,25 +2707,14 @@
       "last_updated": "2026-09-07T16:49:38.082035+00:00"
     },
     "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9": {
-      "status": "pending_answer",
+      "status": "judged_fit",
       "company_name": "AirOps",
       "title": "Marketing & Sales Operations Manager ",
       "url": "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9",
       "ats": "ashby",
       "board_token": "airops",
       "first_seen": "2026-09-07T16:49:39.941803+00:00",
-      "last_updated": "2026-09-10T00:32:53.132979+00:00",
-      "pending_since": "2026-09-10T00:32:53.132983+00:00",
-      "pending_questions": [
-        {
-          "type": "single",
-          "question": "What interests you in AirOps?"
-        },
-        {
-          "type": "single",
-          "question": "What skills and experiences would differentiate you from other candidates also applying for this role?"
-        }
-      ],
+      "last_updated": "2026-09-10T00:48:31.312Z",
       "job_specific_answers": {
         "What interests you in AirOps?": "I’m someone who is passionate about learning the “why” behind decision making, I’m very drawn to AirOps mission of changing the way people make decisions.",
         "What skills and experiences would differentiate you from other candidates also applying for this role?": "While working as Sales & Brand Director for a multi-unit Chick-fil-A Franchise, I created much of our local campaign strategy and local tracking systems from scratch. By building this, I was able to grow our catering sales by 34% during my time in the role. That 0-1 experience would prepare me well for a role like this."
