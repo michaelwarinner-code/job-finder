@@ -2707,14 +2707,25 @@
       "last_updated": "2026-09-07T16:49:38.082035+00:00"
     },
     "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9": {
-      "status": "judged_fit",
+      "status": "pending_answer",
       "company_name": "AirOps",
       "title": "Marketing & Sales Operations Manager ",
       "url": "https://jobs.ashbyhq.com/airops/447fd2a4-bac7-49b5-ba69-32d9b2837ed9",
       "ats": "ashby",
       "board_token": "airops",
       "first_seen": "2026-09-07T16:49:39.941803+00:00",
-      "last_updated": "2026-09-09T17:20:26.717466+00:00"
+      "last_updated": "2026-09-10T00:32:53.132979+00:00",
+      "pending_since": "2026-09-10T00:32:53.132983+00:00",
+      "pending_questions": [
+        {
+          "type": "single",
+          "question": "What interests you in AirOps?"
+        },
+        {
+          "type": "single",
+          "question": "What skills and experiences would differentiate you from other candidates also applying for this role?"
+        }
+      ]
     },
     "https://jobs.ashbyhq.com/jobs-valence/c3ae1b0b-0912-4dd4-b525-4b2fd100108c": {
       "status": "judged_reject",
