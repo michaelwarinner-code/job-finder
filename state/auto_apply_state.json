@@ -1,6 +1,6 @@
 {
   "daily": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "count": 1
   },
   "jobs": {
@@ -1804,7 +1804,7 @@
       "ats": "ashby",
       "board_token": "basis-ai",
       "first_seen": "2026-09-07T16:46:29.328793+00:00",
-      "last_updated": "2026-09-09T23:58:57.208643+00:00"
+      "last_updated": "2026-09-10T00:08:30.265289+00:00"
     },
     "https://jobs.ashbyhq.com/basis-ai/9023c508-8681-4af5-96e4-491ce5ff3e00": {
       "status": "judged_reject",
