@@ -620,9 +620,31 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                                          "reason": f"checkbox state after is checked={actual}, expected {should_check}"})
                 continue
 
-            for gf in group_fields:
+            answer_norm = answer.strip().lower()
+            option_labels_norm = [gf["option_label"].strip().lower() for gf in group_fields]
+
+            # Prefer an exact match over a substring match -- a short,
+            # common bank answer like "No" is a literal substring of
+            # unrelated option text (e.g. "I am NOt applying...") and must
+            # never lose to a real exact match for that same answer, even
+            # though looping and checking radios in DOM order would
+            # otherwise let a later substring hit silently override the
+            # correct one (checking a radio auto-unchecks whichever one
+            # was checked before it in the same group). Falls back to
+            # substring containment only when nothing matches exactly --
+            # that's still needed for genuinely partial matches, e.g. a
+            # "New York" bank answer against an option labeled "New York
+            # City (Chelsea)".
+            if answer_norm in option_labels_norm:
+                target_index = option_labels_norm.index(answer_norm)
+            else:
+                target_index = next(
+                    (i for i, label in enumerate(option_labels_norm) if answer_norm in label), None
+                )
+
+            for i, gf in enumerate(group_fields):
                 handled_field_ids.add(gf["ref_value"])
-                should_check = answer.strip().lower() in gf["option_label"].strip().lower()
+                should_check = (i == target_index)
                 gf_loc = _locator_for(page, gf["ref_type"], gf["ref_value"])
                 try:
                     if should_check:
