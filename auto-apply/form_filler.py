@@ -547,8 +547,22 @@ def _resolve_answer(question: str, bank_entries: list, job_specific_answers: dic
 
 def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
                       role_title: str = "", company_name: str = "", dry_run: bool = True,
-                      job_specific_answers: dict = None) -> dict:
+                      job_specific_answers: dict = None, headless: bool = True,
+                      manual_submit: bool = False) -> dict:
     """Returns a report: {"filled": [...], "skipped": [...], "screenshot_path": str}
+
+    headless=False opens a real, visible browser window instead of a
+    headless one. manual_submit=True never clicks Submit programmatically
+    (regardless of dry_run) -- it fills the form, screenshots it, and then
+    blocks with the browser window left open so a real person reviews and
+    clicks Submit themselves. Built for local runs specifically: some ATS
+    anti-bot detection (confirmed on Ashby) flags a fully automated,
+    headless, cloud-IP submission as spam even when the application itself
+    is completely genuine -- headless=False + manual_submit=True together
+    sidestep that by making the actual submit action a real human click
+    from an ordinary local browser, rather than attempting to disguise an
+    automated one. This is the ONLY way this pipeline ever submits
+    anything with headless=False; they're meant to be used together.
 
     In unattended mode (see telegram_escalation.IS_UNATTENDED), any question
     with no available answer is queued rather than escalated immediately --
@@ -565,7 +579,7 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
     skipped = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=headless)
         page = browser.new_page()
         _goto_application_page(page, url)
 
@@ -1068,7 +1082,15 @@ def fill_application(url: str, resume_pdf_path: str, coverletter_pdf_path: str,
         submitted = False
         submit_note = "DRY RUN -- form filled but NOT submitted. Pass dry_run=False to actually submit."
 
-        if not dry_run:
+        if manual_submit:
+            # Never clicks Submit itself, regardless of dry_run -- the whole
+            # point is a real human doing the actual click, in a real
+            # visible browser window left open right here.
+            print(f"\n    Form filled -- review the browser window and click Submit yourself when ready.")
+            print(f"    Screenshot for reference: {screenshot_path}")
+            input("    Press Enter here once you're done (submitted or not) to close the browser...")
+            submit_note = "Manual submit mode -- whatever you did in the browser window is authoritative, not tracked here."
+        elif not dry_run:
             # Only reached when dry_run is explicitly set to False -- this
             # is the one genuinely irreversible action in this whole
             # pipeline, so it never happens by accident or by default.
