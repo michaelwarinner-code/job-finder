@@ -30,7 +30,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-SPREADSHEET_ID = "PASTE_YOUR_SPREADSHEET_ID_HERE"
+SPREADSHEET_ID = "1U72lvejgdJet3j53Nc5oWedHln7H1GqkSB4nWrG0ruQ"
 SHEET_TAB_NAME = "Jobs I applied to"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
