@@ -24,14 +24,6 @@ const ANSWER_BANK_PATH = "state/answer_bank.json";
 const CONVO_KEY = "active_conversation";
 const CONVO_TTL_SECONDS = 86400; // 24h -- a stalled conversation shouldn't linger forever
 
-// Ported from auto-apply/company_question_classifier.py -- keep these two
-// lists in sync with that file by hand, there's no shared source between
-// the Python pipeline and this Worker. Same logic: a question templating
-// the company's own name into otherwise-universal phrasing ("How did you
-// hear about BambooHR?") is NOT company-specific just because the name
-// appears; checked first so these always stay reusable. Everything else
-// containing the company's name, or matching a "why this role/company"
-// shape, gets treated as one-off and never saved to the bank.
 const ALWAYS_GENERIC_PATTERNS = [
   /how did you (hear|find out|learn) about/i,
   /have you (ever\s+)?(previously\s+)?worked (for|at)/i,
@@ -86,25 +78,12 @@ export default {
 
 async function handleMessage(env, chatId, text) {
   if (text.trim().toLowerCase() === "reset") {
-    // Explicit escape hatch for a stuck conversation -- confirmed
-    // necessary the hard way: KV conversation state persists for 24h
-    // with no other way to clear it early, so an earlier conversation
-    // that never got properly finished (e.g. it was expecting an older,
-    // now-outdated set of questions) just sits there silently shadowing
-    // whatever comes next, even a fresh correctly-formatted escalation.
     await env.CONVERSATION_STATE.delete(CONVO_KEY);
     await sendTelegramMessage(env.TELEGRAM_BOT_TOKEN, chatId, "Cleared. Send anything to start fresh.");
     return;
   }
 
   if (text.trim().toLowerCase() === "status") {
-    // Read-only: lists every job waiting on an answer WITHOUT starting or
-    // touching any conversation -- confirmed necessary given several jobs
-    // can be pending_answer at once but only one is ever "live" (oldest
-    // first). Sending any other message to check risks it accidentally
-    // matching the live job's expected line count and being treated as
-    // a real (and wrong) answer -- this command can never be mistaken for
-    // one, since normal answers don't look like the word "status".
     const state = await fetchJson(env, STATE_PATH);
     const pending = Object.entries(state.jobs || {}).filter(([, job]) => job.status === "pending_answer");
     if (pending.length === 0) {
@@ -122,14 +101,8 @@ async function handleMessage(env, chatId, text) {
 
   if (!convo) {
     const newConvo = await startConversation(env, chatId);
-    if (!newConvo) return; // nothing pending
+    if (!newConvo) return;
 
-    // Python has no way to create this conversation state ahead of time
-    // (only the Worker can write its own memory), so the person's very
-    // first message to a batch escalation is unavoidably also the one
-    // that establishes the conversation -- without this check, that
-    // first reply gets silently discarded and the questions just get
-    // re-sent, which reads as if the answer vanished into nothing.
     const lines = text.split("\n").map((l) => l.trim()).filter((l) => l.length > 0);
     if (lines.length === newConvo.questions.length) {
       await handleAnswers(env, chatId, text, newConvo);
@@ -145,11 +118,6 @@ async function handleMessage(env, chatId, text) {
   }
 }
 
-// Formats a structured pending-question list into ONE numbered reply
-// line per TOP-LEVEL item -- a whole checkbox/radio group is one line to
-// reply to (e.g. "2-3" or a letter combo), not one line per option.
-// Must stay in sync with telegram_escalation.py's _format_pending_questions
-// -- there's no shared source between the Python pipeline and this Worker.
 function formatPendingQuestions(items) {
   const letters = "abcdefghijklmnopqrstuvwxyz";
   return items
@@ -220,7 +188,7 @@ async function handleAnswers(env, chatId, text, convo) {
   await sendTelegramMessage(
     env.TELEGRAM_BOT_TOKEN,
     chatId,
-    `Got it:\n\n${pairs}\n\nReply 'yes' to confirm, or resend corrected answers.`
+    `Got it:\n\n${pairs}\n\nReply 'yeah' to confirm and save to the reusable answer bank as usual, 'nah' to confirm but save NONE of these to the bank (still used for this job), 'only save <numbers>' to save just specific ones (e.g. 'only save 2, 3'), or resend corrected answers.`
   );
 
   convo.stage = "awaiting_confirmation";
@@ -233,19 +201,37 @@ function describeItem(item) {
   return item.group_question || `(${item.options.join(" / ")})`;
 }
 
+function parseConfirmationCommand(text, questionCount) {
+  const trimmed = text.trim();
+  if (/^yeah$/i.test(trimmed)) return { mode: "auto" };
+  if (/^nah$/i.test(trimmed)) return { mode: "none" };
+  const onlyMatch = trimmed.match(/^only save\s+([\d,\s]+)$/i);
+  if (onlyMatch) {
+    const positions = new Set(
+      onlyMatch[1]
+        .split(",")
+        .map((s) => parseInt(s.trim(), 10))
+        .filter((n) => !isNaN(n) && n >= 1 && n <= questionCount)
+    );
+    return { mode: "only", positions };
+  }
+  return null;
+}
+
 async function handleConfirmation(env, chatId, text, convo) {
-  if (text.toLowerCase() !== "yes") {
+  const command = parseConfirmationCommand(text, convo.questions.length);
+  if (!command) {
     await handleAnswers(env, chatId, text, { ...convo, stage: "awaiting_answers" });
     return;
   }
 
-  const savedCount = await saveAnswers(env, convo.jobId, convo.questions, convo.answers, convo.companyName);
+  const savedCount = await saveAnswers(env, convo.jobId, convo.questions, convo.answers, convo.companyName, command);
   await resetJobForRetry(env, convo.jobId);
   await env.CONVERSATION_STATE.delete(CONVO_KEY);
 
   const jobOnlyCount = convo.questions.length - savedCount;
   const scopeNote = jobOnlyCount > 0
-    ? ` ${jobOnlyCount} looked company-specific -- saved for THIS job only, won't be reused elsewhere.`
+    ? ` ${jobOnlyCount} won't be reused elsewhere (company-specific, or kept out at your request) -- saved for THIS job only.`
     : "";
   await sendTelegramMessage(
     env.TELEGRAM_BOT_TOKEN,
@@ -254,21 +240,7 @@ async function handleConfirmation(env, chatId, text, convo) {
   );
 }
 
-async function saveAnswers(env, jobId, questions, answers, companyName) {
-  // Two destinations, matching the Python pipeline's split: reusable
-  // questions go to the global bank (state/answer_bank.json), anything
-  // company-specific goes into THIS job's own job_specific_answers instead
-  // -- reused on its own retries, never eligible for a different company.
-  //
-  // Each item is now structured (see form_filler.py's
-  // _get_answer_or_queue/_get_group_selection_or_queue), not a bare
-  // string -- a "single" item saves one question->answer pair as before,
-  // a "group" with select "one" saves ONE entry keyed by the group's own
-  // question (not one per option, since the group question itself is
-  // what a differently-worded version of this same question elsewhere
-  // would actually get matched against), and select "any" parses the
-  // reply as comma-separated letters and saves one Yes/No fact per
-  // option, same as the original flat design.
+async function saveAnswers(env, jobId, questions, answers, companyName, command = { mode: "auto" }) {
   const { content: bank, sha: bankSha } = await fetchJsonWithSha(env, ANSWER_BANK_PATH);
   const { content: state, sha: stateSha } = await fetchJsonWithSha(env, STATE_PATH);
   const today = new Date().toISOString().slice(0, 10);
@@ -278,42 +250,47 @@ async function saveAnswers(env, jobId, questions, answers, companyName) {
   let savedToJob = false;
   const job = state.jobs[jobId];
 
-  const saveOne = (question, answer) => {
-    if (isCompanySpecificQuestion(question, companyName)) {
-      if (job) {
-        job.job_specific_answers = job.job_specific_answers || {};
-        job.job_specific_answers[question] = answer;
-        savedToJob = true;
-      }
+  const goesToBank = (question, position) => {
+    if (command.mode === "none") return false;
+    if (command.mode === "only") return command.positions.has(position);
+    return !isCompanySpecificQuestion(question, companyName);  // "auto"
+  };
+
+  const saveOne = (question, answer, position) => {
+    if (goesToBank(question, position)) {
+      bank.push({ answer, aliases: [question], added_date: today });
+      savedToBank++;
       return;
     }
-    bank.push({ answer, aliases: [question], added_date: today });
-    savedToBank++;
+    if (job) {
+      job.job_specific_answers = job.job_specific_answers || {};
+      job.job_specific_answers[question] = answer;
+      savedToJob = true;
+    }
   };
 
   for (let i = 0; i < questions.length; i++) {
     const item = questions[i];
     const reply = (answers[i] || "").trim();
+    const position = i + 1;
 
     if (item.type === "single") {
-      saveOne(item.question, reply);
+      saveOne(item.question, reply, position);
       continue;
     }
 
     if (item.select === "one") {
       if (item.group_question && reply) {
-        saveOne(item.group_question, reply);
+        saveOne(item.group_question, reply, position);
       }
       continue;
     }
 
-    // select === "any": reply is comma-separated letters (or 'none')
-    // matching item.options by position.
     const replyLower = reply.toLowerCase();
     const chosenLetters = replyLower === "none" ? [] : replyLower.split(",").map((s) => s.trim());
     for (let j = 0; j < item.options.length; j++) {
       const chosen = chosenLetters.includes(letters[j]);
-      saveOne(item.options[j], chosen ? "Yes" : "No");
+      saveOne(item.options[j], chosen ? "Yes" : "No", position);
     }
   }
 
@@ -321,9 +298,6 @@ async function saveAnswers(env, jobId, questions, answers, companyName) {
     await putJson(env, ANSWER_BANK_PATH, bank, bankSha, "Add answer(s) from Telegram escalation [skip ci]");
   }
   if (savedToJob) {
-    // resetJobForRetry() also writes STATE_PATH right after this -- it
-    // re-fetches its own sha, so writing here first and letting that
-    // second write layer its own changes on top is safe either way.
     await putJson(env, STATE_PATH, state, stateSha, `Job-specific answer(s) for ${jobId} [skip ci]`);
   }
   return savedToBank;
@@ -341,8 +315,6 @@ async function resetJobForRetry(env, jobId) {
 
   await putJson(env, STATE_PATH, state, sha, `Resolved pending answer for ${jobId} [skip ci]`);
 }
-
-// ---- GitHub Contents API helpers ----
 
 async function fetchJson(env, path) {
   const { content } = await fetchJsonWithSha(env, path);
