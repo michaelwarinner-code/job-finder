@@ -594,7 +594,9 @@
         "gh-doordashusa-8189920",
         "gh-doordashusa-8191134",
         "gh-doordashusa-8191508",
-        "gh-doordashusa-8191678"
+        "gh-doordashusa-8191678",
+        "gh-doordashusa-8193316",
+        "gh-doordashusa-8195185"
       ]
     },
     "hubspot": {
@@ -763,6 +765,7 @@
         "gh-hubspotjobs-8081053",
         "gh-hubspotjobs-8081933",
         "gh-hubspotjobs-8082849",
+        "gh-hubspotjobs-8083059",
         "gh-hubspotjobs-8084978",
         "gh-hubspotjobs-8087837",
         "gh-hubspotjobs-8087838",
@@ -779,6 +782,7 @@
         "gh-hubspotjobs-8103705",
         "gh-hubspotjobs-8103709",
         "gh-hubspotjobs-8105358",
+        "gh-hubspotjobs-8112791",
         "gh-hubspotjobs-8112940",
         "gh-hubspotjobs-8114662",
         "gh-hubspotjobs-8118884",
@@ -801,7 +805,9 @@
         "gh-hubspotjobs-8175197",
         "gh-hubspotjobs-8176657",
         "gh-hubspotjobs-8177549",
-        "gh-hubspotjobs-8179640"
+        "gh-hubspotjobs-8179640",
+        "gh-hubspotjobs-8192229",
+        "gh-hubspotjobs-8195046"
       ]
     },
     "spotify": {
@@ -1340,6 +1346,7 @@
         "wd-coke-Customer-Service-Specialist--7-months-_R-143732-1",
         "wd-coke-Data-Engineer_R-144507-1",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
+        "wd-coke-Director---Toxicology_R-146089-1",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
         "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
@@ -1449,6 +1456,7 @@
         "wd-coke-MX-CPS-Packaging-Specialist_R-145702",
         "wd-coke-MX-CPS-Quality-System-Coordinator_R-145569",
         "wd-coke-MX-CPS-Warehouse-Analyst-Lerma--Temporal-_R-145863",
+        "wd-coke-MX-CPS-Warehouse-Operator_R-146298",
         "wd-coke-Machine-Learning-Architect-1_R-144414",
         "wd-coke-Maintenance-Engineer_R-144739",
         "wd-coke-Maintenance-Engineer_R-145533",
@@ -1544,6 +1552,7 @@
         "wd-coke-QSE-Lab-Assistant_R-144755",
         "wd-coke-Quality-Assurance---Tech-II_R-145037",
         "wd-coke-Quality-Assurance-Technician-Night-Shift--2450_R-145067",
+        "wd-coke-RGM-Product-Tech-Lead_R-145115",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
         "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
         "wd-coke-Retail-Execution-Specialist---Knoxville--TN_R-141062",
@@ -1768,6 +1777,7 @@
         "ashby-perplexity-5c561bd0-c180-4ee1-b079-647f3c20bdc0",
         "ashby-perplexity-5ec96ca1-319a-4b85-99ce-e06629099cf9",
         "ashby-perplexity-60deb376-51b5-46c6-9e17-55377a5ef34e",
+        "ashby-perplexity-6754c9cc-89c2-4d7f-b966-66de6e8cac4b",
         "ashby-perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
         "ashby-perplexity-6829d54e-570b-4001-a822-3c1e85a34371",
         "ashby-perplexity-69fd6a56-0050-44f7-9ed2-2c3a7320908d",
@@ -1823,6 +1833,7 @@
         "ashby-perplexity-bfb392f2-086e-4187-b69c-2a231b8c3290",
         "ashby-perplexity-c6c857f3-c0db-4d93-aeed-638b9f9d4eb6",
         "ashby-perplexity-cf0c3486-3fdc-4045-aece-9459cb7d7a6d",
+        "ashby-perplexity-cf99602c-3f06-4443-bc8a-e03d0a67ad4c",
         "ashby-perplexity-d0b3d839-a0bf-43cc-a19f-d1c2627bef1b",
         "ashby-perplexity-d38e4b28-6ced-46b0-bb58-37ba49776e77",
         "ashby-perplexity-d5bc2302-202f-4596-9c4d-8720d1e79064",
@@ -3005,6 +3016,7 @@
         "gh-datadog-8187141",
         "gh-datadog-8188027",
         "gh-datadog-8188028",
+        "gh-datadog-8188800",
         "gh-datadog-8193518"
       ]
     },
@@ -3191,6 +3203,7 @@
         "gh-mongodb-7912343",
         "gh-mongodb-7915330",
         "gh-mongodb-7921450",
+        "gh-mongodb-7922676",
         "gh-mongodb-7924987",
         "gh-mongodb-7925284",
         "gh-mongodb-7942142",
@@ -3212,6 +3225,7 @@
         "gh-mongodb-7957589",
         "gh-mongodb-7960940",
         "gh-mongodb-7961719",
+        "gh-mongodb-7967394",
         "gh-mongodb-7968777",
         "gh-mongodb-7974991",
         "gh-mongodb-7975692",
@@ -3415,6 +3429,7 @@
         "gh-mongodb-8121324",
         "gh-mongodb-8121595",
         "gh-mongodb-8121597",
+        "gh-mongodb-8121701",
         "gh-mongodb-8121863",
         "gh-mongodb-8122025",
         "gh-mongodb-8122634",
@@ -3425,7 +3440,9 @@
         "gh-mongodb-8126598",
         "gh-mongodb-8126618",
         "gh-mongodb-8126620",
+        "gh-mongodb-8127772",
         "gh-mongodb-8127859",
+        "gh-mongodb-8127995",
         "gh-mongodb-8128356",
         "gh-mongodb-8128617",
         "gh-mongodb-8128855",
@@ -3448,6 +3465,7 @@
         "gh-mongodb-8143614",
         "gh-mongodb-8143761",
         "gh-mongodb-8143805",
+        "gh-mongodb-8143980",
         "gh-mongodb-8146372",
         "gh-mongodb-8147938",
         "gh-mongodb-8147941",
@@ -3486,6 +3504,7 @@
         "gh-mongodb-8169006",
         "gh-mongodb-8170615",
         "gh-mongodb-8170628",
+        "gh-mongodb-8170631",
         "gh-mongodb-8170665",
         "gh-mongodb-8170894",
         "gh-mongodb-8172166",
@@ -3493,6 +3512,7 @@
         "gh-mongodb-8173505",
         "gh-mongodb-8173625",
         "gh-mongodb-8173661",
+        "gh-mongodb-8173745",
         "gh-mongodb-8173777",
         "gh-mongodb-8173795",
         "gh-mongodb-8173798",
@@ -3506,7 +3526,11 @@
         "gh-mongodb-8181144",
         "gh-mongodb-8184727",
         "gh-mongodb-8184943",
-        "gh-mongodb-8190534"
+        "gh-mongodb-8188788",
+        "gh-mongodb-8188829",
+        "gh-mongodb-8190534",
+        "gh-mongodb-8195304",
+        "gh-mongodb-8195324"
       ]
     },
     "braze": {
@@ -3881,6 +3905,7 @@
         "gh-braze-8184179",
         "gh-braze-8185912",
         "gh-braze-8185916",
+        "gh-braze-8186090",
         "gh-braze-8187014",
         "gh-braze-8188663",
         "gh-braze-8188879",
@@ -4024,6 +4049,7 @@
         "gh-justworks-7920941",
         "gh-justworks-7927887",
         "gh-justworks-7930227",
+        "gh-justworks-7939420",
         "gh-justworks-7939427",
         "gh-justworks-7957539",
         "gh-justworks-7960800",
@@ -4165,6 +4191,7 @@
         "gh-appsflyer-8781233002",
         "gh-appsflyer-8781235002",
         "gh-appsflyer-8789180002",
+        "gh-appsflyer-8793780002",
         "gh-appsflyer-8793847002"
       ]
     },
@@ -4429,7 +4456,9 @@
         "gh-movableink-8167703",
         "gh-movableink-8167746",
         "gh-movableink-8167885",
-        "gh-movableink-8171228"
+        "gh-movableink-8171228",
+        "gh-movableink-8187287",
+        "gh-movableink-8194455"
       ]
     },
     "thefarmersdog": {
@@ -5226,6 +5255,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-11T00:30:45.407420+00:00",
+  "last_run": "2026-09-11T17:31:00.354692+00:00",
   "pending_notifications": []
 }
