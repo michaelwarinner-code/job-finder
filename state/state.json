@@ -368,6 +368,7 @@
         "gh-doordashusa-8074768",
         "gh-doordashusa-8075091",
         "gh-doordashusa-8076002",
+        "gh-doordashusa-8076046",
         "gh-doordashusa-8076068",
         "gh-doordashusa-8076663",
         "gh-doordashusa-8077011",
@@ -596,7 +597,9 @@
         "gh-doordashusa-8191508",
         "gh-doordashusa-8191678",
         "gh-doordashusa-8193316",
-        "gh-doordashusa-8195185"
+        "gh-doordashusa-8195185",
+        "gh-doordashusa-8196479",
+        "gh-doordashusa-8197596"
       ]
     },
     "hubspot": {
@@ -1117,6 +1120,7 @@
         "wd-snapchat-Lead--Proactive-Trust---Safety-Operations_R0045042-1",
         "wd-snapchat-Lead--SMC-Marketing--ABM-Growth-Strategy-_R0046758-1",
         "wd-snapchat-Lead--SMC-Marketing_R0045853-1",
+        "wd-snapchat-Lead--SMC-Revenue-Growth_R0046767-1",
         "wd-snapchat-Lead--Support-Content-Program-Manager_R0046390-1",
         "wd-snapchat-Lead-Client-Partner_R0046379",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
@@ -1536,6 +1540,7 @@
         "wd-coke-Production-Operator_R-145555",
         "wd-coke-Production-Operator_R-146094",
         "wd-coke-Production-Supervisor_R-145234",
+        "wd-coke-Production-Supervisor_R-146325",
         "wd-coke-Production-Technician--2569-hr--3rd-Shift--Sun---Thurs--10pm---6-30am-_R-145966-1",
         "wd-coke-Production-Technician--2nd-Shift_R-145823",
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-141237",
@@ -1705,6 +1710,7 @@
         "wd-coke-Sr-Director--Product-Management---Delivery---Flex_R-144580",
         "wd-coke-Sr-Director-II--Social---Community_R-145619",
         "wd-coke-Sr-Key-Account-Manager---West-Convenience-Retail_R-145495",
+        "wd-coke-Sr-Mgr--Analytical-Chemistry_R-139831",
         "wd-coke-Staff-Product-Designer_R-145061",
         "wd-coke-Staff-Product-Designer_R-145740",
         "wd-coke-Strategic-Project--Senior-Manager_R-145739",
@@ -1757,6 +1763,7 @@
         "ashby-perplexity-32a36cae-ad73-4198-9354-a72b141ff055",
         "ashby-perplexity-33a48d64-ba8c-444f-a41d-9c77c6c00320",
         "ashby-perplexity-375f9fc9-392e-4d0b-9a10-4b2013e05ad4",
+        "ashby-perplexity-38caef61-f8b9-4ba9-a640-870a1e77ba54",
         "ashby-perplexity-39250c5d-1670-4a63-8a66-bfd495c85e6f",
         "ashby-perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
         "ashby-perplexity-3b349a2f-360e-44e6-a57d-6a87bc3016a7",
@@ -5255,6 +5262,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-11T17:31:00.354692+00:00",
+  "last_run": "2026-09-11T19:59:57.069496+00:00",
   "pending_notifications": []
 }
