@@ -29,6 +29,7 @@
         "gh-doordashusa-5327650",
         "gh-doordashusa-5328372",
         "gh-doordashusa-5349772",
+        "gh-doordashusa-5481642",
         "gh-doordashusa-5516948",
         "gh-doordashusa-5517406",
         "gh-doordashusa-5523275",
@@ -599,7 +600,10 @@
         "gh-doordashusa-8193316",
         "gh-doordashusa-8195185",
         "gh-doordashusa-8196479",
-        "gh-doordashusa-8197596"
+        "gh-doordashusa-8197596",
+        "gh-doordashusa-8197722",
+        "gh-doordashusa-8197734",
+        "gh-doordashusa-8197854"
       ]
     },
     "hubspot": {
@@ -1558,6 +1562,8 @@
         "wd-coke-Quality-Assurance---Tech-II_R-145037",
         "wd-coke-Quality-Assurance-Technician-Night-Shift--2450_R-145067",
         "wd-coke-RGM-Product-Tech-Lead_R-145115",
+        "wd-coke-Recruitment-Analyst_R-144710",
+        "wd-coke-Refrigeration-Technician_R-146334",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
         "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
         "wd-coke-Retail-Execution-Specialist---Knoxville--TN_R-141062",
@@ -3024,7 +3030,8 @@
         "gh-datadog-8188027",
         "gh-datadog-8188028",
         "gh-datadog-8188800",
-        "gh-datadog-8193518"
+        "gh-datadog-8193518",
+        "gh-datadog-8197852"
       ]
     },
     "mongodb": {
@@ -4126,6 +4133,7 @@
         "gh-justworks-8156486",
         "gh-justworks-8156489",
         "gh-justworks-8157872",
+        "gh-justworks-8162933",
         "gh-justworks-8162978",
         "gh-justworks-8164798",
         "gh-justworks-8166821",
@@ -5262,6 +5270,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-11T19:59:57.069496+00:00",
+  "last_run": "2026-09-12T00:30:24.476166+00:00",
   "pending_notifications": []
 }
