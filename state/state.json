@@ -1085,6 +1085,8 @@
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
         "wd-snapchat-Director-of-Retail--Specs_R0046194-1",
+        "wd-snapchat-Electrical-Engineer--Devices_R0046770-1",
+        "wd-snapchat-Electrical-Engineer--Devices_R0046771-1",
         "wd-snapchat-Electrical-Engineer--Level-4_H126SWEE3-2",
         "wd-snapchat-Electrical-Engineer--Spectacles--L5_R0043250",
         "wd-snapchat-Electrical-Signal-Integrity-Engineer_R0044223-1",
@@ -3005,6 +3007,7 @@
         "gh-datadog-8163359",
         "gh-datadog-8163361",
         "gh-datadog-8163929",
+        "gh-datadog-8164122",
         "gh-datadog-8164133",
         "gh-datadog-8164181",
         "gh-datadog-8164215",
@@ -3442,6 +3445,7 @@
         "gh-mongodb-8119841",
         "gh-mongodb-8119843",
         "gh-mongodb-8120181",
+        "gh-mongodb-8120184",
         "gh-mongodb-8121324",
         "gh-mongodb-8121595",
         "gh-mongodb-8121597",
@@ -3669,6 +3673,7 @@
         "gh-braze-8039735",
         "gh-braze-8044123",
         "gh-braze-8044130",
+        "gh-braze-8045088",
         "gh-braze-8045092",
         "gh-braze-8045174",
         "gh-braze-8047193",
@@ -5033,16 +5038,6 @@
       "fit_reason": "Account Manager role with 3-5yr range (floor: 3 years) fits candidate's 3.5yr Chick-fil-A experience in revenue-owned account/customer growth, expansion, and retention; candidate meets years requirement and demonstrates transferable skills in segmentation, expansion strategy, data-driven decision-making, and cross-functional execution despite lacking formal SaaS/AI title history."
     },
     {
-      "id": "gh-datadog-7794297",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "Enterprise Customer Success Manager",
-      "location": "Jakarta, Indonesia",
-      "url": "https://careers.datadoghq.com/detail/7794297/?gh_jid=7794297",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Enterprise Customer Success Manager role focused on adoption, relationship-building, and contract growth within existing enterprise accounts aligns with candidate's account management and growth-driven experience; 3 years required matches candidate's experience level, and travel/Indonesia language gaps are learnable."
-    },
-    {
       "id": "gh-datadog-8052114",
       "company_key": "datadog",
       "company_name": "Datadog",
@@ -5273,6 +5268,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-14T01:39:25.526173+00:00",
+  "last_run": "2026-09-14T07:06:01.060916+00:00",
   "pending_notifications": []
 }
