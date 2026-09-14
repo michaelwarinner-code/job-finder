@@ -379,6 +379,7 @@
         "gh-doordashusa-8078248",
         "gh-doordashusa-8079346",
         "gh-doordashusa-8079479",
+        "gh-doordashusa-8079488",
         "gh-doordashusa-8079494",
         "gh-doordashusa-8079764",
         "gh-doordashusa-8079773",
@@ -603,7 +604,10 @@
         "gh-doordashusa-8197596",
         "gh-doordashusa-8197722",
         "gh-doordashusa-8197734",
-        "gh-doordashusa-8197854"
+        "gh-doordashusa-8197854",
+        "gh-doordashusa-8200707",
+        "gh-doordashusa-8200957",
+        "gh-doordashusa-8200969"
       ]
     },
     "hubspot": {
@@ -669,6 +673,7 @@
         "gh-hubspotjobs-5990250",
         "gh-hubspotjobs-5990435",
         "gh-hubspotjobs-5990448",
+        "gh-hubspotjobs-5990844",
         "gh-hubspotjobs-5990854",
         "gh-hubspotjobs-5990858",
         "gh-hubspotjobs-5990867",
@@ -723,6 +728,7 @@
         "gh-hubspotjobs-7741758",
         "gh-hubspotjobs-7774503",
         "gh-hubspotjobs-7777236",
+        "gh-hubspotjobs-7779509",
         "gh-hubspotjobs-7845167",
         "gh-hubspotjobs-7906651",
         "gh-hubspotjobs-7953436",
@@ -1018,6 +1024,7 @@
         "ashby-claylabs-ada9ebd0-bbae-40a3-9c6e-b9701369daaa",
         "ashby-claylabs-b17bd432-72e4-4f03-b8db-2fd677c2cfe8",
         "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
+        "ashby-claylabs-b4d7e281-39ff-4d7b-bf16-940eb8b85a90",
         "ashby-claylabs-b78d32ca-01c1-432d-8af9-4c21ec3c005a",
         "ashby-claylabs-c3252c5a-bd68-4a6e-8fb7-cd05dcfe703d",
         "ashby-claylabs-c4ad4fac-6778-4bfa-a23e-6e7c32fe48d1",
@@ -1328,6 +1335,7 @@
         "wd-coke-CPS-SG-Production-Operations-Technician--6-months-_R-143869",
         "wd-coke-CPS-SG-Project-Process-Engineer_R-144746",
         "wd-coke-CPS-SG-Talent-Acquisition-and-Development-Specialist--9-months-contract-_R-144241",
+        "wd-coke-CPSNA-Engineering-Strategic-Project-Director_R-146331",
         "wd-coke-CPSNA-Sustainability-Sr-Manager_R-146024",
         "wd-coke-CRI-Engineer-Manager_R-145163",
         "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144866",
@@ -1347,6 +1355,7 @@
         "wd-coke-Construction-Manager_R-146007-5",
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics_R-145069",
+        "wd-coke-Consultant--HCM-Org-Design---Service-Delivery_R-146321",
         "wd-coke-Consultant--HR-Compliance_R-145174",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
         "wd-coke-Consultant--Project-Manager_R-144938",
@@ -1355,6 +1364,7 @@
         "wd-coke-Customer-Service-Intern_R-145775",
         "wd-coke-Customer-Service-Specialist--7-months-_R-143732-1",
         "wd-coke-Data-Engineer_R-144507-1",
+        "wd-coke-Demand-Planning-Specialist_R-146199",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
         "wd-coke-Director---Toxicology_R-146089-1",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
@@ -1418,6 +1428,7 @@
         "wd-coke-Director--Scientific---Regulatory-Affairs_R-141084",
         "wd-coke-Director--Scientific-and-Regulatory-Affairs_R-140079-1",
         "wd-coke-Director--Shopper-Science-and-Insights_R-145546",
+        "wd-coke-Director--Stills--Belux_R-138613-1",
         "wd-coke-Director--Strategic-Growth_R-138464-2",
         "wd-coke-Director--Strategic-Insights---Analytics_R-145231",
         "wd-coke-Director--Supply-Chain-Warehouse-Architect_R-144433",
@@ -1711,6 +1722,7 @@
         "wd-coke-Senior-Paralegal--Marketing-Legal_R-145687",
         "wd-coke-Senior-Product-Designer-II_R-145060",
         "wd-coke-Senior-Product-Designer-II_R-145742",
+        "wd-coke-Senior-Sales-Manager_R-146185",
         "wd-coke-Solution-Architect---Japan_R-144485",
         "wd-coke-Sr-Data-Engineer---Integrations_R-144556",
         "wd-coke-Sr-Data-Engineer_R-144457",
@@ -1729,6 +1741,7 @@
         "wd-coke-Unified-Communications-Engineer_R-145662-1",
         "wd-coke-Vulnerability-Analyst_R-145657",
         "wd-coke-Warehouse-Automation-Manager_R-142742",
+        "wd-coke-Warehouse-Coordinator--7pm-3-30am-_R-146219",
         "wd-coke-Warehouse-Operator_R-145771",
         "wd-coke-Warehouse-Operator_R-146216",
         "wd-coke-Warehouse-Receiver--Retail---The-Coca-Cola-Store-_R-145447",
@@ -2823,6 +2836,7 @@
         "gh-datadog-8036385",
         "gh-datadog-8037749",
         "gh-datadog-8038652",
+        "gh-datadog-8039295",
         "gh-datadog-8041182",
         "gh-datadog-8041594",
         "gh-datadog-8041622",
@@ -3036,7 +3050,8 @@
         "gh-datadog-8188028",
         "gh-datadog-8188800",
         "gh-datadog-8193518",
-        "gh-datadog-8197852"
+        "gh-datadog-8197852",
+        "gh-datadog-8200728"
       ]
     },
     "mongodb": {
@@ -3928,6 +3943,8 @@
         "gh-braze-8185916",
         "gh-braze-8186090",
         "gh-braze-8187014",
+        "gh-braze-8188066",
+        "gh-braze-8188661",
         "gh-braze-8188663",
         "gh-braze-8188879",
         "gh-braze-8189634",
@@ -3938,7 +3955,8 @@
         "gh-braze-8189731",
         "gh-braze-8192194",
         "gh-braze-8192196",
-        "gh-braze-8192199"
+        "gh-braze-8192199",
+        "gh-braze-8195767"
       ]
     },
     "classpass": {
@@ -4214,7 +4232,8 @@
         "gh-appsflyer-8781235002",
         "gh-appsflyer-8789180002",
         "gh-appsflyer-8793780002",
-        "gh-appsflyer-8793847002"
+        "gh-appsflyer-8793847002",
+        "gh-appsflyer-8805502002"
       ]
     },
     "attentive": {
@@ -5268,6 +5287,6 @@
       "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
     }
   ],
-  "last_run": "2026-09-14T07:06:01.060916+00:00",
+  "last_run": "2026-09-14T13:58:43.159630+00:00",
   "pending_notifications": []
 }
