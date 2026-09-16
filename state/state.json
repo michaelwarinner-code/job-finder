@@ -629,7 +629,8 @@
         "gh-doordashusa-8205373",
         "gh-doordashusa-8205561",
         "gh-doordashusa-8205676",
-        "gh-doordashusa-8205677"
+        "gh-doordashusa-8205677",
+        "gh-doordashusa-8207740"
       ]
     },
     "hubspot": {
@@ -837,6 +838,7 @@
         "gh-hubspotjobs-8161436",
         "gh-hubspotjobs-8164396",
         "gh-hubspotjobs-8164420",
+        "gh-hubspotjobs-8175195",
         "gh-hubspotjobs-8175197",
         "gh-hubspotjobs-8176657",
         "gh-hubspotjobs-8177549",
@@ -856,6 +858,7 @@
         "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b",
         "lever-spotify-03437e2a-2d5e-4593-9e97-11271014932e",
         "lever-spotify-07641cac-402a-44fd-ba42-9cb75473fc0a",
+        "lever-spotify-080868dd-fc8c-4648-b6ab-6780d8ca3d63",
         "lever-spotify-0841fdc0-1702-4ef6-b665-8a825112696c",
         "lever-spotify-0b8ea4d4-57ee-49c1-a57f-9a37248ee24f",
         "lever-spotify-0d82639f-54c4-4e44-984e-4c9de7e8fffe",
@@ -946,6 +949,7 @@
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
         "lever-spotify-bcdf7880-6ad8-447d-822a-8265a24fd336",
+        "lever-spotify-be2d7d1e-939e-47f9-8db7-278caa101a60",
         "lever-spotify-bf0984d7-c54f-4a8a-9a15-f870633d62c0",
         "lever-spotify-c152d042-642d-4a48-862b-8be8d6cdc819",
         "lever-spotify-c19b8f17-74f7-42b0-99a6-aced419b5756",
@@ -1484,6 +1488,7 @@
         "wd-coke-Director-Sales-Systems--Tools---Reporting--Nutrition---0101-NA-Customer-Operations_R-145464",
         "wd-coke-Director-of-Engineering--Electrical-Controls---OT-Cybersecurity_R-145699",
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
+        "wd-coke-Energy---Sustainability-Manager_R-140742",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
         "wd-coke-Equipment-Sales---Service-Analyst_R-145631",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
@@ -1757,6 +1762,7 @@
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
         "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
+        "wd-coke-Senior-Manager--Software-Engineer--Data-Platform-Segmentation_R-134645-1",
         "wd-coke-Senior-Manager--Sourcing_R-145165",
         "wd-coke-Senior-Manager--Sparkling-Flavors--Fanta_R-144073-1",
         "wd-coke-Senior-Manager--Strategy---Franchise-Strategy---Special-Projects_R-145943",
@@ -3127,8 +3133,11 @@
         "gh-datadog-8191005",
         "gh-datadog-8193518",
         "gh-datadog-8195697",
+        "gh-datadog-8195860",
+        "gh-datadog-8195864",
         "gh-datadog-8195878",
         "gh-datadog-8196248",
+        "gh-datadog-8196718",
         "gh-datadog-8197852",
         "gh-datadog-8200728",
         "gh-datadog-8202699",
@@ -4793,7 +4802,8 @@
         "gh-flatironhealth-8128706",
         "gh-flatironhealth-8128712",
         "gh-flatironhealth-8156417",
-        "gh-flatironhealth-8162286"
+        "gh-flatironhealth-8162286",
+        "gh-flatironhealth-8201111"
       ]
     },
     "bombas": {
@@ -5411,6 +5421,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T09:52:48.248562+00:00",
+  "last_run": "2026-09-16T14:35:38.180202+00:00",
   "pending_notifications": []
 }
