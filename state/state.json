@@ -1736,6 +1736,7 @@
         "wd-coke-Senior-Manager--Functional-Ingredient-Research---Application-and-Ingredient-Delivery_R-145918",
         "wd-coke-Senior-Manager--Global-Financial-Planning---Analysis_R-145462",
         "wd-coke-Senior-Manager--Greenfield-Automation-Program_R-138095-5",
+        "wd-coke-Senior-Manager--Industry-Insights_R-146014",
         "wd-coke-Senior-Manager--Insights_R-144275",
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
@@ -1763,6 +1764,7 @@
         "wd-coke-Senior-Manager--Talent-Acquisition---INSWA_R-144667",
         "wd-coke-Senior-Manager--Tech-Delivery_R-144494",
         "wd-coke-Senior-Manager--Technical-Consumer-Data-Research--Nutrition-_R-144996",
+        "wd-coke-Senior-Manager--Technical-Operations---Commercialization---Japan_R-146270",
         "wd-coke-Senior-Manager--Technical-Operations---North-Zone--Mexico-_R-143895",
         "wd-coke-Senior-Manager--Technology-Operations_R-144439",
         "wd-coke-Senior-Manager--Warehouse-Equipment-Platform-Engineering_R-144870-1",
@@ -2049,6 +2051,7 @@
         "ashby-cursor-54a9cfcd-570a-4e9c-b52c-bd2336c60991",
         "ashby-cursor-5729deab-ba2b-4a39-bbdd-c981287d8515",
         "ashby-cursor-59d55195-2a9e-4b07-a9fc-b721008bc378",
+        "ashby-cursor-5ac08fc5-e486-498b-a5b5-991ddb490059",
         "ashby-cursor-5f3be2c8-1b47-4074-a61e-7bfeb2ad0536",
         "ashby-cursor-61d5c4d4-726e-44fa-b943-6b64ab761a64",
         "ashby-cursor-61e4677d-cf3d-458a-bf6c-02287d5d2c39",
@@ -3124,6 +3127,7 @@
         "gh-datadog-8191005",
         "gh-datadog-8193518",
         "gh-datadog-8195697",
+        "gh-datadog-8195878",
         "gh-datadog-8196248",
         "gh-datadog-8197852",
         "gh-datadog-8200728",
@@ -3596,6 +3600,8 @@
         "gh-mongodb-8152810",
         "gh-mongodb-8152813",
         "gh-mongodb-8153054",
+        "gh-mongodb-8153125",
+        "gh-mongodb-8153131",
         "gh-mongodb-8153134",
         "gh-mongodb-8153173",
         "gh-mongodb-8153218",
@@ -4346,7 +4352,8 @@
         "gh-appsflyer-8793847002",
         "gh-appsflyer-8805502002",
         "gh-appsflyer-8809538002",
-        "gh-appsflyer-8809604002"
+        "gh-appsflyer-8809604002",
+        "gh-appsflyer-8813084002"
       ]
     },
     "attentive": {
@@ -5404,6 +5411,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T05:05:45.366702+00:00",
+  "last_run": "2026-09-16T09:52:48.248562+00:00",
   "pending_notifications": []
 }
