@@ -1185,6 +1185,7 @@
         "wd-snapchat-Manager--Machine-Learning-Engineering--Web-Ads-Ranking_R0046000",
         "wd-snapchat-Manager--Marketing_R0046167-1",
         "wd-snapchat-Manager--Partnership-Operations_R0046279",
+        "wd-snapchat-Manager--Partnership-Operations_R0046800-1",
         "wd-snapchat-Manager--People-Tech-Application-Engineer_R0046186-1",
         "wd-snapchat-Manager--Privacy-Engineering_R0046161-1",
         "wd-snapchat-Manager--Revenue-Programs--China_R0046084-1",
@@ -1728,6 +1729,7 @@
         "wd-coke-Senior-Manager--Data-Science-and-Agentic-AI_R-144496",
         "wd-coke-Senior-Manager--Digital--SAF_R-135116-1",
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
+        "wd-coke-Senior-Manager--Engineering_R-146364-1",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
         "wd-coke-Senior-Manager--Frontline-Marketing--Iraq_R-134297",
@@ -2109,6 +2111,7 @@
         "ashby-cursor-c50a7358-cc49-4225-bab0-3475f80ad156",
         "ashby-cursor-c5bbeeb2-1af0-4bde-9e32-55d46c313767",
         "ashby-cursor-c66cde5e-9cb6-4a2e-a330-9323e1edf2a9",
+        "ashby-cursor-c68b3d8f-360d-41f0-84fd-1cb225b19e23",
         "ashby-cursor-ccf69bf0-69d9-4365-96a5-2c8cf4eb08b0",
         "ashby-cursor-cd4bad0a-e2f6-4a8d-9b57-ce1780efedae",
         "ashby-cursor-cda9256f-e820-4f0a-9e77-e44c61295e1d",
@@ -3107,6 +3110,7 @@
         "gh-datadog-8180459",
         "gh-datadog-8180585",
         "gh-datadog-8181440",
+        "gh-datadog-8184643",
         "gh-datadog-8184867",
         "gh-datadog-8185903",
         "gh-datadog-8186361",
@@ -3612,6 +3616,7 @@
         "gh-mongodb-8163002",
         "gh-mongodb-8164280",
         "gh-mongodb-8164691",
+        "gh-mongodb-8167173",
         "gh-mongodb-8167369",
         "gh-mongodb-8167389",
         "gh-mongodb-8167460",
@@ -4627,7 +4632,9 @@
         "gh-movableink-8171228",
         "gh-movableink-8187287",
         "gh-movableink-8188477",
-        "gh-movableink-8194455"
+        "gh-movableink-8194455",
+        "gh-movableink-8194456",
+        "gh-movableink-8194496"
       ]
     },
     "thefarmersdog": {
@@ -5337,16 +5344,6 @@
       "fit_reason": "GTM Strategy/Operations role aligns directly with revenue operations target; candidate's 3+ years of data-driven growth strategy, quota/planning work, and dashboard building at Chick-fil-A exceeds the 1-3 year requirement; SQL/BI tools are learnable per posting's own language."
     },
     {
-      "id": "wd-coke-Senior-Manager--National-Sales---Kroger-Sparkling-Soft-Drinks_R-145725-1",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Senior Manager, National Sales - Kroger Sparkling Soft Drinks",
-      "location": "US - OH - Cincinnati",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---OH---Cincinnati/Senior-Manager--National-Sales---Kroger-Sparkling-Soft-Drinks_R-145725-1",
-      "first_seen": "2026-09-02T17:24:15.032395+00:00",
-      "fit_reason": "Field sales role at Coca-Cola (candidate's former employer, explicitly excepted from field-sales exclusion) managing a major national account with joint business planning, analytics, and promotional strategy\u2014functionally aligned with revenue operations/account management targets; candidate meets 3-year floor and has directly relevant CPG account management and data-driven campaign experience."
-    },
-    {
       "id": "ashby-perplexity-182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
       "company_key": "perplexity",
       "company_name": "Perplexity",
@@ -5407,6 +5404,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T00:26:48.038859+00:00",
+  "last_run": "2026-09-16T05:05:45.366702+00:00",
   "pending_notifications": []
 }
