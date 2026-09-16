@@ -627,7 +627,9 @@
         "gh-doordashusa-8203919",
         "gh-doordashusa-8204685",
         "gh-doordashusa-8205373",
-        "gh-doordashusa-8205561"
+        "gh-doordashusa-8205561",
+        "gh-doordashusa-8205676",
+        "gh-doordashusa-8205677"
       ]
     },
     "hubspot": {
@@ -1118,6 +1120,7 @@
         "wd-snapchat-Electrical-Engineer--Devices_R0046771-1",
         "wd-snapchat-Electrical-Engineer--Level-4_H126SWEE3-2",
         "wd-snapchat-Electrical-Engineer--Spectacles--L5_R0043250",
+        "wd-snapchat-Electrical-Engineer_H226EE1",
         "wd-snapchat-Electrical-Signal-Integrity-Engineer_R0044223-1",
         "wd-snapchat-Embedded-Software-Firmware-Test-Engineer_R0046086-1",
         "wd-snapchat-Employee-Relations-Business-Partner_R0044682-1",
@@ -2099,6 +2102,7 @@
         "ashby-cursor-bf4b294b-1167-4327-884f-a7949b49be18",
         "ashby-cursor-bff67718-1dbf-4d66-bcef-8b68d93d716f",
         "ashby-cursor-c14f522f-73a4-4018-a977-0e5e4cfc2371",
+        "ashby-cursor-c1ac67d4-645a-4632-a178-ea6b5f49bb26",
         "ashby-cursor-c2fb18fe-8d3d-4803-b21b-2f7e8b700d9d",
         "ashby-cursor-c43bdded-80a1-4705-a0ec-8217d771528c",
         "ashby-cursor-c4be0272-542c-4bf1-b890-8785d3044bed",
@@ -4393,7 +4397,8 @@
         "gh-attentive-4394693009",
         "gh-attentive-4402183009",
         "gh-attentive-4404472009",
-        "gh-attentive-4404473009"
+        "gh-attentive-4404473009",
+        "gh-attentive-4406084009"
       ]
     },
     "glossier": {
@@ -5402,6 +5407,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-15T22:10:15.218231+00:00",
+  "last_run": "2026-09-16T00:26:48.038859+00:00",
   "pending_notifications": []
 }
