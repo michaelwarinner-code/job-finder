@@ -641,7 +641,10 @@
         "gh-doordashusa-8207905",
         "gh-doordashusa-8207993",
         "gh-doordashusa-8208005",
-        "gh-doordashusa-8208186"
+        "gh-doordashusa-8208186",
+        "gh-doordashusa-8208468",
+        "gh-doordashusa-8209032",
+        "gh-doordashusa-8209176"
       ]
     },
     "hubspot": {
@@ -852,6 +855,7 @@
         "gh-hubspotjobs-8175195",
         "gh-hubspotjobs-8175197",
         "gh-hubspotjobs-8176657",
+        "gh-hubspotjobs-8176659",
         "gh-hubspotjobs-8177549",
         "gh-hubspotjobs-8179640",
         "gh-hubspotjobs-8192229",
@@ -1177,6 +1181,7 @@
         "wd-snapchat-Lead--SMC-Marketing_R0045853-1",
         "wd-snapchat-Lead--SMC-Revenue-Growth_R0046767-1",
         "wd-snapchat-Lead--Support-Content-Program-Manager_R0046390-1",
+        "wd-snapchat-Lead--Trust---Safety-US-Operations_R0046812-1",
         "wd-snapchat-Lead-Client-Partner_R0046379",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
         "wd-snapchat-Machine-Learning-Engineer--Causal-Inference--Level-5_R0046007-1",
@@ -1343,6 +1348,7 @@
       "is_priority": true,
       "known_job_ids": [
         "wd-coke-",
+        "wd-coke-ABBP-Project-Manager_R-146471",
         "wd-coke-Administration-Assistant_R-146126",
         "wd-coke-Administrative-Assistant-CAR_R-145748-1",
         "wd-coke-Advisor--Consumer-Engagement_R-145315",
@@ -1731,6 +1737,7 @@
         "wd-coke-Senior-Maintenance-Manager_R-146421",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
         "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer_R-145121-1",
+        "wd-coke-Senior-Manager--Automation_R-136577-1",
         "wd-coke-Senior-Manager--Brand-Management_R-141211",
         "wd-coke-Senior-Manager--CAAD_R-144010",
         "wd-coke-Senior-Manager--Category-Leadership---Convenience-Retail_R-145505",
@@ -1747,6 +1754,7 @@
         "wd-coke-Senior-Manager--Data-Science-and-Agentic-AI_R-144496",
         "wd-coke-Senior-Manager--Digital--SAF_R-135116-1",
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
+        "wd-coke-Senior-Manager--Digitization--Mexico-Greenfield-_R-143158",
         "wd-coke-Senior-Manager--Engineering_R-146364-1",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
@@ -3660,6 +3668,7 @@
         "gh-mongodb-8170665",
         "gh-mongodb-8170894",
         "gh-mongodb-8172166",
+        "gh-mongodb-8172986",
         "gh-mongodb-8173399",
         "gh-mongodb-8173505",
         "gh-mongodb-8173625",
@@ -4090,7 +4099,11 @@
         "gh-braze-8192194",
         "gh-braze-8192196",
         "gh-braze-8192199",
+        "gh-braze-8193400",
+        "gh-braze-8194300",
         "gh-braze-8195767",
+        "gh-braze-8195997",
+        "gh-braze-8197642",
         "gh-braze-8201492",
         "gh-braze-8201582",
         "gh-braze-8201757",
@@ -4101,7 +4114,13 @@
         "gh-braze-8207980",
         "gh-braze-8207982",
         "gh-braze-8207984",
-        "gh-braze-8207985"
+        "gh-braze-8207985",
+        "gh-braze-8209238",
+        "gh-braze-8209240",
+        "gh-braze-8209242",
+        "gh-braze-8209425",
+        "gh-braze-8209434",
+        "gh-braze-8209438"
       ]
     },
     "classpass": {
@@ -4157,8 +4176,12 @@
         "gh-classpass-4700974006",
         "gh-classpass-4701890006",
         "gh-classpass-4702935006",
+        "gh-classpass-4703671006",
+        "gh-classpass-4703703006",
+        "gh-classpass-4703709006",
         "gh-classpass-4704191006",
         "gh-classpass-4704193006",
+        "gh-classpass-4705061006",
         "gh-classpass-4706222006",
         "gh-classpass-4706226006",
         "gh-classpass-4706233006",
@@ -4179,7 +4202,8 @@
         "gh-classpass-4710424006",
         "gh-classpass-4711251006",
         "gh-classpass-4711572006",
-        "gh-classpass-4712508006"
+        "gh-classpass-4712508006",
+        "gh-classpass-4713730006"
       ]
     },
     "justworks": {
@@ -4484,7 +4508,8 @@
         "gh-glossier-8187039",
         "gh-glossier-8191478",
         "gh-glossier-8203895",
-        "gh-glossier-8209030"
+        "gh-glossier-8209030",
+        "gh-glossier-8209038"
       ]
     },
     "yext": {
@@ -4580,7 +4605,8 @@
         "gh-mavenclinic-8785782002",
         "gh-mavenclinic-8790269002",
         "gh-mavenclinic-8791893002",
-        "gh-mavenclinic-8801848002"
+        "gh-mavenclinic-8801848002",
+        "gh-mavenclinic-8815343002"
       ]
     },
     "away": {
@@ -5446,6 +5472,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T18:24:31.085300+00:00",
+  "last_run": "2026-09-16T21:31:49.856183+00:00",
   "pending_notifications": []
 }
