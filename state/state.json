@@ -812,6 +812,7 @@
         "gh-hubspotjobs-8071689",
         "gh-hubspotjobs-8073616",
         "gh-hubspotjobs-8079407",
+        "gh-hubspotjobs-8080082",
         "gh-hubspotjobs-8081053",
         "gh-hubspotjobs-8081933",
         "gh-hubspotjobs-8082849",
@@ -852,6 +853,7 @@
         "gh-hubspotjobs-8161436",
         "gh-hubspotjobs-8164396",
         "gh-hubspotjobs-8164420",
+        "gh-hubspotjobs-8174449",
         "gh-hubspotjobs-8175195",
         "gh-hubspotjobs-8175197",
         "gh-hubspotjobs-8176657",
@@ -3699,8 +3701,10 @@
         "gh-mongodb-8195324",
         "gh-mongodb-8200824",
         "gh-mongodb-8201173",
+        "gh-mongodb-8201245",
         "gh-mongodb-8203765",
-        "gh-mongodb-8205340"
+        "gh-mongodb-8205340",
+        "gh-mongodb-8208271"
       ]
     },
     "braze": {
@@ -4191,6 +4195,7 @@
         "gh-classpass-4706450006",
         "gh-classpass-4706800006",
         "gh-classpass-4707293006",
+        "gh-classpass-4707367006",
         "gh-classpass-4707480006",
         "gh-classpass-4707629006",
         "gh-classpass-4707753006",
@@ -5472,6 +5477,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T21:31:49.856183+00:00",
+  "last_run": "2026-09-16T23:48:38.511745+00:00",
   "pending_notifications": []
 }
