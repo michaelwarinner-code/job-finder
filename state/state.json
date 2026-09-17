@@ -646,8 +646,11 @@
         "gh-doordashusa-8208468",
         "gh-doordashusa-8209032",
         "gh-doordashusa-8209176",
+        "gh-doordashusa-8209236",
         "gh-doordashusa-8209943",
-        "gh-doordashusa-8211005"
+        "gh-doordashusa-8211005",
+        "gh-doordashusa-8211456",
+        "gh-doordashusa-8212197"
       ]
     },
     "hubspot": {
@@ -913,6 +916,7 @@
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
         "lever-spotify-3f6aae92-7ae9-45cc-8b84-85b3bf0241c2",
         "lever-spotify-423ab477-2304-4ea4-bb60-7ac04bc9848c",
+        "lever-spotify-4310f31c-90e1-4e8d-bdcf-dce39c145b8c",
         "lever-spotify-439b6276-df60-4a26-be26-ebdbc0891d4c",
         "lever-spotify-43e0d904-84f7-4cfa-a293-579fb9ac271f",
         "lever-spotify-46c223d0-7b9c-4bff-9035-c0c6cc67bbdf",
@@ -938,6 +942,7 @@
         "lever-spotify-7aeec299-4653-4c5d-aafb-d537e1232208",
         "lever-spotify-7ca182dc-9171-4184-bc5b-481c71892210",
         "lever-spotify-7ce8eee9-9371-43dd-b2fd-5759062938f6",
+        "lever-spotify-7cf725bb-99c8-4717-b7e5-4f4708fa4169",
         "lever-spotify-7d57d7dd-be86-452f-8ff4-9aeb67280262",
         "lever-spotify-7f0a8faa-f4f5-4db9-9f51-4101d6a29b34",
         "lever-spotify-813b4b62-429c-42e9-a8f7-59e9412fb287",
@@ -952,6 +957,7 @@
         "lever-spotify-9761af44-be41-43ca-8c01-79cdbb2aef93",
         "lever-spotify-9ce12867-8c84-40c5-be40-d8831ab98925",
         "lever-spotify-9d0ac2f3-1bef-4e8d-a3cb-a3c855d2b2bd",
+        "lever-spotify-9d1c90b5-a8a4-4218-b2f3-7bbaefae7fd1",
         "lever-spotify-9d90d15c-541b-4360-bdaf-c6a5e9479e8a",
         "lever-spotify-9e8b3af7-d0f7-4aa9-ab8d-89b5bd238ccf",
         "lever-spotify-9eca14d3-8e0b-46de-8161-704e07f3d9d0",
@@ -1048,6 +1054,7 @@
         "ashby-claylabs-4be52dd6-244b-4e27-bf4a-757a1094a82a",
         "ashby-claylabs-4f064364-a433-4eb2-bb42-4c902d2199d3",
         "ashby-claylabs-546b27c1-8808-4808-bd98-5c6cad88d88c",
+        "ashby-claylabs-5c842630-800d-4288-977c-d3e6088ebda9",
         "ashby-claylabs-5e07db20-d96a-4dff-b7d3-3bf1cdde6fc1",
         "ashby-claylabs-5e181784-40d0-4b32-92fe-96a6a8caa1ff",
         "ashby-claylabs-5f7806b2-41b5-4b85-a9d3-68c2971edef2",
@@ -1086,6 +1093,7 @@
         "ashby-claylabs-c9768233-3f8a-431c-b3ad-a3e388fdb85e",
         "ashby-claylabs-d04f47c4-aed6-481d-a093-74c2ae4f3432",
         "ashby-claylabs-d23dfc5b-2d75-412c-bedf-38643517b486",
+        "ashby-claylabs-d3bd708c-4b20-45c9-9522-f38abc30ca06",
         "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
         "ashby-claylabs-dca9faf7-a118-4237-bcf8-d7562aab3c49",
         "ashby-claylabs-e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
@@ -1224,6 +1232,7 @@
         "wd-snapchat-Manager--Software-Engineering--Maps_R0046369-1",
         "wd-snapchat-Manager--Software-Engineering--Safety-Engineering-Mobile-Client_R0046266-1",
         "wd-snapchat-Manager--Software-Engineering_H226EM8-1",
+        "wd-snapchat-Manager--Software-Engineering_R0046444",
         "wd-snapchat-Marketing-Operations-Specialist_R0046559",
         "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
@@ -1309,6 +1318,7 @@
         "wd-snapchat-Software-Engineer--C----Level-5--Fixed-Term-_R0045981-2",
         "wd-snapchat-Software-Engineer--C--_R0045907-1",
         "wd-snapchat-Software-Engineer--CV_R0046247-1",
+        "wd-snapchat-Software-Engineer--Device-Security--Level-4_R0046833-1",
         "wd-snapchat-Software-Engineer--Full-Stack--Level-4_Q326SWEFS2-1",
         "wd-snapchat-Software-Engineer--Full-Stack--Level-5_Q326SWEFS6-1",
         "wd-snapchat-Software-Engineer--Level-3_Q326SWE-1",
@@ -1406,6 +1416,7 @@
         "wd-coke-Coca-Cola-Ignite-Intern---Franchise-Operations_R-139248-1",
         "wd-coke-Coca-Cola-Ignite-Intern---Marketing_R-139266",
         "wd-coke-Coca-Cola-Ignite-Intern---Marketing_R-139298",
+        "wd-coke-Coca-Cola-Ignite-Intern---Marketing_R-142561",
         "wd-coke-Coca-Cola-Ignite-Intern---Marketing_R-142685",
         "wd-coke-Coca-Cola-Ignite-Intern---PACS_R-139239",
         "wd-coke-Coca-Cola-Ignite-Intern---PACS_R-139272",
@@ -1430,6 +1441,7 @@
         "wd-coke-Demand-Planning-Specialist_R-146199",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
         "wd-coke-Director---Toxicology_R-146089-1",
+        "wd-coke-Director--AI-Engineer---Fuelight_R-145090-1",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
         "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
@@ -1488,6 +1500,7 @@
         "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
         "wd-coke-Director--Omni-Channel-CBL_R-136219-1",
+        "wd-coke-Director--On-Premise-Regional-Customers---Center-Zone_R-140822",
         "wd-coke-Director--Operational-Excellence---Digitalization_R-143299",
         "wd-coke-Director--PACS--Strategic-Planning---Resource-Allocation_R-138766-1",
         "wd-coke-Director--Product-Life-Cycle-Management_R-145256",
@@ -1597,6 +1610,7 @@
         "wd-coke-Manager--Product-Development_R-145513",
         "wd-coke-Manager--Product-Development_R-145638",
         "wd-coke-Manager--Safety---Environment_R-146169",
+        "wd-coke-Manager--Security-Controls-Architect_R-136557",
         "wd-coke-Manager--Supply-Chain-Projects_R-143175",
         "wd-coke-Manager--Tech-Operation---Japan_R-144482",
         "wd-coke-Manager--Technical-Readiness_R-144310",
@@ -1680,6 +1694,7 @@
         "wd-coke-Safety-Environmental-Security-Manager---Nights_R-146040",
         "wd-coke-Safety-Manager_R-144325",
         "wd-coke-Safety-Specialist_R-142205-1",
+        "wd-coke-Safety-Specialist_R-146482",
         "wd-coke-Sales-Director---National-Foodservice-Distribution_R-146021",
         "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
         "wd-coke-Sales-Manager_R-145146",
@@ -1687,6 +1702,7 @@
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
         "wd-coke-Senior-Director---Integration-Lead---Japan---South-Korea_R-144572",
         "wd-coke-Senior-Director--AI---Analytical-Engineering_R-145339",
+        "wd-coke-Senior-Director--AI-Engineering-Lead_R-145103-1",
         "wd-coke-Senior-Director--Alcohol_R-136960",
         "wd-coke-Senior-Director--Brand-Category-Insights_R-145402",
         "wd-coke-Senior-Director--Brand-Management---BODYARMOR_R-142823",
@@ -1750,6 +1766,8 @@
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Maintenance-Manager_R-146421",
+        "wd-coke-Senior-Manager---Customer-Finance--Customer-Agreement-Team_R-146411",
+        "wd-coke-Senior-Manager--AI-Engineer_R-145118-1",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
         "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer_R-145121-1",
         "wd-coke-Senior-Manager--Automation_R-136577-1",
@@ -3113,6 +3131,7 @@
         "gh-datadog-8146994",
         "gh-datadog-8146998",
         "gh-datadog-8147235",
+        "gh-datadog-8147489",
         "gh-datadog-8147614",
         "gh-datadog-8147740",
         "gh-datadog-8147903",
@@ -3183,6 +3202,7 @@
         "gh-datadog-8203657",
         "gh-datadog-8204056",
         "gh-datadog-8204065",
+        "gh-datadog-8204163",
         "gh-datadog-8206747",
         "gh-datadog-8206923"
       ]
@@ -3252,6 +3272,7 @@
         "gh-mongodb-7338090",
         "gh-mongodb-7362411",
         "gh-mongodb-7362626",
+        "gh-mongodb-7368165",
         "gh-mongodb-7375469",
         "gh-mongodb-7392902",
         "gh-mongodb-7403891",
@@ -3715,6 +3736,7 @@
         "gh-mongodb-8188829",
         "gh-mongodb-8190534",
         "gh-mongodb-8191547",
+        "gh-mongodb-8192216",
         "gh-mongodb-8194575",
         "gh-mongodb-8194603",
         "gh-mongodb-8195237",
@@ -4146,12 +4168,16 @@
         "gh-braze-8207982",
         "gh-braze-8207984",
         "gh-braze-8207985",
+        "gh-braze-8209139",
         "gh-braze-8209238",
         "gh-braze-8209240",
         "gh-braze-8209242",
         "gh-braze-8209425",
         "gh-braze-8209434",
-        "gh-braze-8209438"
+        "gh-braze-8209438",
+        "gh-braze-8211991",
+        "gh-braze-8212005",
+        "gh-braze-8212006"
       ]
     },
     "classpass": {
@@ -4248,9 +4274,12 @@
       "known_job_ids": [
         "gh-justworks-4923006",
         "gh-justworks-4925193",
+        "gh-justworks-5104078",
         "gh-justworks-5136582",
         "gh-justworks-6318505",
         "gh-justworks-6917404",
+        "gh-justworks-7137401",
+        "gh-justworks-7137456",
         "gh-justworks-7156234",
         "gh-justworks-7179283",
         "gh-justworks-7296351",
@@ -4367,7 +4396,8 @@
         "gh-justworks-8162978",
         "gh-justworks-8164798",
         "gh-justworks-8166821",
-        "gh-justworks-8180743"
+        "gh-justworks-8180743",
+        "gh-justworks-8212087"
       ]
     },
     "appsflyer": {
@@ -4501,7 +4531,9 @@
         "gh-attentive-4402183009",
         "gh-attentive-4404472009",
         "gh-attentive-4404473009",
-        "gh-attentive-4406084009"
+        "gh-attentive-4406084009",
+        "gh-attentive-4408455009",
+        "gh-attentive-4410440009"
       ]
     },
     "glossier": {
@@ -4580,6 +4612,7 @@
         "gh-yext-8067970",
         "gh-yext-8074743",
         "gh-yext-8077562",
+        "gh-yext-8119470",
         "gh-yext-8125779",
         "gh-yext-8130574",
         "gh-yext-8138243",
@@ -4846,7 +4879,8 @@
         "gh-yotpo-8159437",
         "gh-yotpo-8159485",
         "gh-yotpo-8161185",
-        "gh-yotpo-8203715"
+        "gh-yotpo-8203715",
+        "gh-yotpo-8211515"
       ]
     },
     "flatironhealth": {
@@ -5344,16 +5378,6 @@
       "fit_reason": "Marketing operations/automation role with email campaign execution, A/B testing, data-driven optimization, and cross-functional GTM work aligns with candidate's growth/lifecycle marketing target; 3 years stated requirement matches candidate's experience level; Marketo preference is learnable (candidate has email/automation fundamentals and AI tooling curiosity)."
     },
     {
-      "id": "gh-yotpo-8054158",
-      "company_key": "yotpo",
-      "company_name": "Yotpo",
-      "title": "Customer Success Manager (Ocean) ",
-      "location": "New York; Toronto",
-      "url": "https://www.yotpo.com/careers/gid-8054158?gh_jid=8054158",
-      "first_seen": "2026-08-25T00:24:02.256723+00:00",
-      "fit_reason": "Account management/partnership role focused on driving adoption, expansion, and revenue outcomes with existing brand partners\u2014directly aligned with candidate's GTM/growth/account-management targets; no years requirement stated; candidate's 3+ years of demonstrated growth, retention, and partner-relationship work (catering channel expansion, win-back campaigns, lifecycle optimization) transfers directly."
-    },
-    {
       "id": "gh-harrys-8119608",
       "company_key": "harrys",
       "company_name": "Harry's",
@@ -5514,6 +5538,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-17T17:06:11.824393+00:00",
+  "last_run": "2026-09-17T22:53:59.109677+00:00",
   "pending_notifications": []
 }
