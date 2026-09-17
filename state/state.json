@@ -644,7 +644,8 @@
         "gh-doordashusa-8208186",
         "gh-doordashusa-8208468",
         "gh-doordashusa-8209032",
-        "gh-doordashusa-8209176"
+        "gh-doordashusa-8209176",
+        "gh-doordashusa-8209943"
       ]
     },
     "hubspot": {
@@ -3640,6 +3641,7 @@
         "gh-mongodb-8153173",
         "gh-mongodb-8153218",
         "gh-mongodb-8153715",
+        "gh-mongodb-8154864",
         "gh-mongodb-8157127",
         "gh-mongodb-8157328",
         "gh-mongodb-8158531",
@@ -3704,7 +3706,8 @@
         "gh-mongodb-8201245",
         "gh-mongodb-8203765",
         "gh-mongodb-8205340",
-        "gh-mongodb-8208271"
+        "gh-mongodb-8208271",
+        "gh-mongodb-8209989"
       ]
     },
     "braze": {
@@ -5477,6 +5480,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-16T23:48:38.511745+00:00",
+  "last_run": "2026-09-17T01:49:05.338796+00:00",
   "pending_notifications": []
 }
