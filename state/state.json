@@ -650,7 +650,8 @@
         "gh-doordashusa-8209943",
         "gh-doordashusa-8211005",
         "gh-doordashusa-8211456",
-        "gh-doordashusa-8212197"
+        "gh-doordashusa-8212197",
+        "gh-doordashusa-8212984"
       ]
     },
     "hubspot": {
@@ -682,6 +683,7 @@
         "gh-hubspotjobs-5986217",
         "gh-hubspotjobs-5986251",
         "gh-hubspotjobs-5986253",
+        "gh-hubspotjobs-5986325",
         "gh-hubspotjobs-5986326",
         "gh-hubspotjobs-5986345",
         "gh-hubspotjobs-5986346",
@@ -1157,6 +1159,7 @@
         "wd-snapchat-Electrical-Engineer--Level-4_H126SWEE3-2",
         "wd-snapchat-Electrical-Engineer--Spectacles--L5_R0043250",
         "wd-snapchat-Electrical-Engineer_H226EE1",
+        "wd-snapchat-Electrical-Engineer_R0046836",
         "wd-snapchat-Electrical-Signal-Integrity-Engineer_R0044223-1",
         "wd-snapchat-Embedded-Software-Firmware-Test-Engineer_R0046086-1",
         "wd-snapchat-Employee-Relations-Business-Partner_R0044682-1",
@@ -1282,6 +1285,7 @@
         "wd-snapchat-Security-Technical-Program-Manager_R0046183-1",
         "wd-snapchat-Senior-Account-Manager--Gaming---Apps_R0046581-2",
         "wd-snapchat-Senior-Account-Manager--SMC_R0045505-1",
+        "wd-snapchat-Senior-Account-Manager--eCommerce---Retail_R0046837-1",
         "wd-snapchat-Senior-Account-Manager_Q326SAM5-2",
         "wd-snapchat-Senior-Accountant--SEC-Reporting_R0046307-1",
         "wd-snapchat-Senior-Accounts-Receivable-Analyst_R0046185-1",
@@ -1750,6 +1754,7 @@
         "wd-coke-Senior-Director--Product-Development_R-132385",
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Order-Fulfillment_R-144756-1",
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Sourcing-and-Procurement_R-145460",
+        "wd-coke-Senior-Director--Public-Affairs--Communications-and-Sustainability---Trkiye_R-146360",
         "wd-coke-Senior-Director--QA-Automation-Lead_R-145117-1",
         "wd-coke-Senior-Director--RGM-Product-AI-Engineering_R-145116",
         "wd-coke-Senior-Director--RGM-Product-Transformation-Lead_R-145114",
@@ -1773,6 +1778,7 @@
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
         "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer_R-145121-1",
         "wd-coke-Senior-Manager--Automation_R-136577-1",
+        "wd-coke-Senior-Manager--Baltics-Operations--C-C_R-144353-1",
         "wd-coke-Senior-Manager--Brand-Management_R-141211",
         "wd-coke-Senior-Manager--CAAD_R-144010",
         "wd-coke-Senior-Manager--Category-Leadership---Convenience-Retail_R-145505",
@@ -1813,6 +1819,7 @@
         "wd-coke-Senior-Manager--Omni-Channel-CBL_R-136218-1",
         "wd-coke-Senior-Manager--Operational-Excellence_R-144003",
         "wd-coke-Senior-Manager--Policy-Advocacy---Communications_R-144898",
+        "wd-coke-Senior-Manager--Procurement-Data-Analysis---Sustainability_R-143747-1",
         "wd-coke-Senior-Manager--Product-Lifecycle-Management_R-144008",
         "wd-coke-Senior-Manager--Quality---Food-Safety--QFS--Health--Safety---Environment--HSE----Singapore--Malaysia--Myanmar--Laos_R-145936-1",
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
@@ -2194,6 +2201,7 @@
         "ashby-cursor-dd3605da-099d-47cc-b43d-1a92a39cd5f7",
         "ashby-cursor-de322c3d-337e-4301-a7dc-90ccf331d60f",
         "ashby-cursor-e08262e8-c089-488d-9b59-9e21f7702b64",
+        "ashby-cursor-e3ccb495-a8a3-4ff0-a27b-262188abb9df",
         "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352",
         "ashby-cursor-e5d8ed7a-b93d-464f-a8d1-a4fa60e808d5",
         "ashby-cursor-e842b809-a93d-44a3-888c-40c997c71a34",
@@ -3203,6 +3211,7 @@
         "gh-datadog-8200728",
         "gh-datadog-8202699",
         "gh-datadog-8203657",
+        "gh-datadog-8203733",
         "gh-datadog-8204056",
         "gh-datadog-8204065",
         "gh-datadog-8204163",
@@ -3752,9 +3761,11 @@
         "gh-mongodb-8203765",
         "gh-mongodb-8205340",
         "gh-mongodb-8205425",
+        "gh-mongodb-8205437",
         "gh-mongodb-8208113",
         "gh-mongodb-8208271",
-        "gh-mongodb-8209989"
+        "gh-mongodb-8209989",
+        "gh-mongodb-8213069"
       ]
     },
     "braze": {
@@ -4607,6 +4618,7 @@
         "gh-yext-7990887",
         "gh-yext-8002946",
         "gh-yext-8044382",
+        "gh-yext-8046381",
         "gh-yext-8050497",
         "gh-yext-8050809",
         "gh-yext-8054682",
@@ -5541,6 +5553,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-18T05:51:51.716402+00:00",
+  "last_run": "2026-09-18T10:35:26.330593+00:00",
   "pending_notifications": []
 }
