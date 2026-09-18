@@ -405,6 +405,7 @@
         "gh-doordashusa-8082760",
         "gh-doordashusa-8083779",
         "gh-doordashusa-8084014",
+        "gh-doordashusa-8088618",
         "gh-doordashusa-8089089",
         "gh-doordashusa-8089677",
         "gh-doordashusa-8089963",
@@ -652,7 +653,9 @@
         "gh-doordashusa-8211456",
         "gh-doordashusa-8212197",
         "gh-doordashusa-8212209",
-        "gh-doordashusa-8212984"
+        "gh-doordashusa-8212984",
+        "gh-doordashusa-8213968",
+        "gh-doordashusa-8214058"
       ]
     },
     "hubspot": {
@@ -821,6 +824,7 @@
         "gh-hubspotjobs-8066767",
         "gh-hubspotjobs-8071689",
         "gh-hubspotjobs-8073616",
+        "gh-hubspotjobs-8076999",
         "gh-hubspotjobs-8079407",
         "gh-hubspotjobs-8080082",
         "gh-hubspotjobs-8081053",
@@ -864,6 +868,7 @@
         "gh-hubspotjobs-8161436",
         "gh-hubspotjobs-8164396",
         "gh-hubspotjobs-8164420",
+        "gh-hubspotjobs-8164700",
         "gh-hubspotjobs-8174449",
         "gh-hubspotjobs-8175195",
         "gh-hubspotjobs-8175197",
@@ -872,7 +877,9 @@
         "gh-hubspotjobs-8177549",
         "gh-hubspotjobs-8179640",
         "gh-hubspotjobs-8192229",
-        "gh-hubspotjobs-8195046"
+        "gh-hubspotjobs-8195046",
+        "gh-hubspotjobs-8201644",
+        "gh-hubspotjobs-8214455"
       ]
     },
     "spotify": {
@@ -1123,6 +1130,7 @@
         "wd-snapchat-ASIC-Verification-Engineer_R0045544",
         "wd-snapchat-Account-Manager---12-Month-FTC_R0046711",
         "wd-snapchat-Account-Manager--Gaming---Apps_R0046065-2",
+        "wd-snapchat-Account-Manager--SMC_R0046681-1",
         "wd-snapchat-Account-Manager_Q326AM3-1",
         "wd-snapchat-Account-Manager_R0046211",
         "wd-snapchat-Account-Manager_R0046484-1",
@@ -1287,6 +1295,7 @@
         "wd-snapchat-Security-Technical-Program-Manager_R0046183-1",
         "wd-snapchat-Senior-Account-Manager--Gaming---Apps_R0046581-2",
         "wd-snapchat-Senior-Account-Manager--SMC_R0045505-1",
+        "wd-snapchat-Senior-Account-Manager--SMC_R0046680-2",
         "wd-snapchat-Senior-Account-Manager--eCommerce---Retail_R0046837-1",
         "wd-snapchat-Senior-Account-Manager_Q326SAM5-2",
         "wd-snapchat-Senior-Accountant--SEC-Reporting_R0046307-1",
@@ -3706,6 +3715,7 @@
         "gh-mongodb-8153218",
         "gh-mongodb-8153715",
         "gh-mongodb-8154864",
+        "gh-mongodb-8155641",
         "gh-mongodb-8157127",
         "gh-mongodb-8157328",
         "gh-mongodb-8158531",
@@ -4184,6 +4194,10 @@
         "gh-braze-8194300",
         "gh-braze-8195767",
         "gh-braze-8195997",
+        "gh-braze-8196046",
+        "gh-braze-8196075",
+        "gh-braze-8196080",
+        "gh-braze-8196085",
         "gh-braze-8197642",
         "gh-braze-8201492",
         "gh-braze-8201582",
@@ -4290,7 +4304,8 @@
         "gh-classpass-4711251006",
         "gh-classpass-4711572006",
         "gh-classpass-4712508006",
-        "gh-classpass-4713730006"
+        "gh-classpass-4713730006",
+        "gh-classpass-4714276006"
       ]
     },
     "justworks": {
@@ -4803,7 +4818,8 @@
         "gh-movableink-8188477",
         "gh-movableink-8194455",
         "gh-movableink-8194456",
-        "gh-movableink-8194496"
+        "gh-movableink-8194496",
+        "gh-movableink-8211505"
       ]
     },
     "thefarmersdog": {
@@ -5556,8 +5572,18 @@
       "url": "https://careers.datadoghq.com/detail/8186361/?gh_jid=8186361",
       "first_seen": "2026-09-14T22:33:14.944399+00:00",
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
+    },
+    {
+      "id": "gh-doordashusa-8214058",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Enterprise Associate, Ad Sales",
+      "location": "New York, NY; San Francisco, CA; Chicago, IL; Los Angeles, CA; Atlanta, GA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8214058",
+      "first_seen": "2026-09-18T20:24:44.758735+00:00",
+      "fit_reason": "Enterprise Associate role in ad operations/sales execution with campaign management, performance analysis, and cross-functional coordination aligns with candidate's growth/lifecycle marketing background and demonstrated analytics/optimization skills; 2+ years requirement is met by ~3.5 years at Chick-fil-A plus internships; Salesforce and data analysis are core strengths; Tableau/GSuite gaps are learnable and not stacked hard requirements."
     }
   ],
-  "last_run": "2026-09-18T17:52:38.446424+00:00",
+  "last_run": "2026-09-18T20:24:44.758735+00:00",
   "pending_notifications": []
 }
