@@ -651,6 +651,7 @@
         "gh-doordashusa-8211005",
         "gh-doordashusa-8211456",
         "gh-doordashusa-8212197",
+        "gh-doordashusa-8212209",
         "gh-doordashusa-8212984"
       ]
     },
@@ -837,6 +838,7 @@
         "gh-hubspotjobs-8097970",
         "gh-hubspotjobs-8097979",
         "gh-hubspotjobs-8098031",
+        "gh-hubspotjobs-8098253",
         "gh-hubspotjobs-8098444",
         "gh-hubspotjobs-8102396",
         "gh-hubspotjobs-8103705",
@@ -1485,6 +1487,7 @@
         "wd-coke-Director--Frontline-Marketing--CBL_R-136221-1",
         "wd-coke-Director--GCM-Sparkling--Global-Development---Innovation_R-143920-1",
         "wd-coke-Director--GCM-Stills--Global-Development---Innovation_R-143921-1",
+        "wd-coke-Director--Global-IT-SC-Transportation-Management_R-144536",
         "wd-coke-Director--Global-Integrated-Creative---Communications-Intelligence_R-144570-1",
         "wd-coke-Director--Global-Integrated-Creative---IMX-Research-Protocols-and-Intelligence_R-145947",
         "wd-coke-Director--Global-Intelligence-Measurement-Models---Analytic-Frameworks_R-144605",
@@ -1578,6 +1581,7 @@
         "wd-coke-Maintenance-Engineer_R-144739",
         "wd-coke-Maintenance-Engineer_R-145533",
         "wd-coke-Maintenance-Mechanic---Weekends-Sat-Mon--3666-HR--Plus--4-shift-premium-6am-6pm_R-139605",
+        "wd-coke-Maintenance-Parts-Clerk_R-146573",
         "wd-coke-Maintenance-Tech-II---Days-Mon-Fri---33-per-hour_R-143762",
         "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-144017",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d---Days_R-137362",
@@ -1863,9 +1867,11 @@
         "wd-coke-UEFA-EURO-2028-Senior-Project-Manager_R-144808-1",
         "wd-coke-Unified-Communications-Engineer_R-145662-1",
         "wd-coke-Utilities-Engineer_R-146424",
+        "wd-coke-Utilities-Engineer_R-146587",
         "wd-coke-Vulnerability-Analyst_R-145657",
         "wd-coke-Warehouse-Automation-Manager_R-142742",
         "wd-coke-Warehouse-Coordinator--7pm-3-30am-_R-146219",
+        "wd-coke-Warehouse-Forklift-Operator_R-146613",
         "wd-coke-Warehouse-Operator---PTC_R-146131",
         "wd-coke-Warehouse-Operator---PTC_R-146415",
         "wd-coke-Warehouse-Operator---PTC_R-146416",
@@ -2647,7 +2653,9 @@
         "gh-spothopper-4396581009",
         "gh-spothopper-4396608009",
         "gh-spothopper-4396612009",
-        "gh-spothopper-4396621009"
+        "gh-spothopper-4396621009",
+        "gh-spothopper-4411243009",
+        "gh-spothopper-4411254009"
       ]
     },
     "datadog": {
@@ -3169,6 +3177,7 @@
         "gh-datadog-8164588",
         "gh-datadog-8166231",
         "gh-datadog-8167729",
+        "gh-datadog-8170070",
         "gh-datadog-8170639",
         "gh-datadog-8171026",
         "gh-datadog-8171303",
@@ -3218,7 +3227,10 @@
         "gh-datadog-8204065",
         "gh-datadog-8204163",
         "gh-datadog-8206747",
-        "gh-datadog-8206923"
+        "gh-datadog-8206923",
+        "gh-datadog-8211090",
+        "gh-datadog-8212114",
+        "gh-datadog-8213715"
       ]
     },
     "mongodb": {
@@ -3739,6 +3751,7 @@
         "gh-mongodb-8175160",
         "gh-mongodb-8176521",
         "gh-mongodb-8177031",
+        "gh-mongodb-8177034",
         "gh-mongodb-8177496",
         "gh-mongodb-8180105",
         "gh-mongodb-8180129",
@@ -5545,6 +5558,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     }
   ],
-  "last_run": "2026-09-18T14:37:56.566952+00:00",
+  "last_run": "2026-09-18T17:52:38.446424+00:00",
   "pending_notifications": []
 }
