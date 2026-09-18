@@ -1426,6 +1426,7 @@
         "wd-coke-CPSNA-Engineering-Strategic-Project-Director_R-146331",
         "wd-coke-CPSNA-Sustainability-Sr-Manager_R-146024",
         "wd-coke-CRI-Engineer-Manager_R-145163",
+        "wd-coke-Clerical-de-Almacn_R-146674",
         "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144866",
         "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144867",
         "wd-coke-Coca-Cola-Ignite-Intern---Finance_R-139250",
@@ -1478,6 +1479,7 @@
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
+        "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
         "wd-coke-Director--Data-Science_R-144498-1",
         "wd-coke-Director--Data-Solution-Owner_R-145265",
         "wd-coke-Director--Data-and-Analytics--Governance-and-Innovation_R-144514-1",
@@ -1650,6 +1652,7 @@
         "wd-coke-Prin-Financial-Analyst_R-146223-1",
         "wd-coke-Principal--Marketing-AI-Applications_R-145807",
         "wd-coke-Process-Engineer_R-134009",
+        "wd-coke-Process-Engineer_R-146608",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
         "wd-coke-Product-Manager--Digital_R-145109",
         "wd-coke-Product-Portfolio-Specialist--9-months-contract-_R-145343",
@@ -1887,6 +1890,7 @@
         "wd-coke-Warehouse-Operator_R-145771",
         "wd-coke-Warehouse-Operator_R-146216",
         "wd-coke-Warehouse-Receiver--Retail---The-Coca-Cola-Store-_R-145447",
+        "wd-coke-Warehouse-Technician--2nd-Shift-1p-9-30p-_R-145510-1",
         "wd-coke-Warehouse-Technician_R-144973",
         "wd-coke-XMLNAME--Senior-Director--Manufacturing-Strategy-and-PLM_R-144007-1"
       ]
@@ -1931,6 +1935,7 @@
         "ashby-perplexity-39250c5d-1670-4a63-8a66-bfd495c85e6f",
         "ashby-perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
         "ashby-perplexity-3b349a2f-360e-44e6-a57d-6a87bc3016a7",
+        "ashby-perplexity-3b6ad2b6-4310-48f1-a71f-dc344c94f2b0",
         "ashby-perplexity-3c16733a-07d1-42d9-ac54-ff9065f702cf",
         "ashby-perplexity-3c656963-876a-458d-bca6-916a42a24c1a",
         "ashby-perplexity-3c9c051f-e6ca-4a70-9abf-1f640e154ee1",
@@ -1949,6 +1954,7 @@
         "ashby-perplexity-5ec96ca1-319a-4b85-99ce-e06629099cf9",
         "ashby-perplexity-60deb376-51b5-46c6-9e17-55377a5ef34e",
         "ashby-perplexity-656b4b2e-5670-411c-9091-f355983a92a0",
+        "ashby-perplexity-6628bead-dec0-4ed2-8aef-5a036815d2a0",
         "ashby-perplexity-6754c9cc-89c2-4d7f-b966-66de6e8cac4b",
         "ashby-perplexity-678d1162-e650-4d6d-9532-b287255c00fb",
         "ashby-perplexity-6829d54e-570b-4001-a822-3c1e85a34371",
@@ -3209,6 +3215,7 @@
         "gh-datadog-8181440",
         "gh-datadog-8184643",
         "gh-datadog-8184867",
+        "gh-datadog-8185652",
         "gh-datadog-8185903",
         "gh-datadog-8186361",
         "gh-datadog-8186363",
@@ -4724,7 +4731,8 @@
         "gh-mavenclinic-8790269002",
         "gh-mavenclinic-8791893002",
         "gh-mavenclinic-8801848002",
-        "gh-mavenclinic-8815343002"
+        "gh-mavenclinic-8815343002",
+        "gh-mavenclinic-8822341002"
       ]
     },
     "away": {
@@ -5584,6 +5592,6 @@
       "fit_reason": "Enterprise Associate role in ad operations/sales execution with campaign management, performance analysis, and cross-functional coordination aligns with candidate's growth/lifecycle marketing background and demonstrated analytics/optimization skills; 2+ years requirement is met by ~3.5 years at Chick-fil-A plus internships; Salesforce and data analysis are core strengths; Tableau/GSuite gaps are learnable and not stacked hard requirements."
     }
   ],
-  "last_run": "2026-09-18T20:24:44.758735+00:00",
+  "last_run": "2026-09-18T22:44:19.437803+00:00",
   "pending_notifications": []
 }
