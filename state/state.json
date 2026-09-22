@@ -661,6 +661,7 @@
         "gh-doordashusa-8220213",
         "gh-doordashusa-8220560",
         "gh-doordashusa-8221544",
+        "gh-doordashusa-8221803",
         "gh-doordashusa-8221895"
       ]
     },
@@ -888,7 +889,9 @@
         "gh-hubspotjobs-8201644",
         "gh-hubspotjobs-8202868",
         "gh-hubspotjobs-8214455",
-        "gh-hubspotjobs-8221496"
+        "gh-hubspotjobs-8221496",
+        "gh-hubspotjobs-8223099",
+        "gh-hubspotjobs-8223123"
       ]
     },
     "spotify": {
@@ -953,7 +956,9 @@
         "lever-spotify-600a4ac7-6ffa-4ced-8d34-253d00147aa9",
         "lever-spotify-64ef2493-3b1e-407a-ac07-9e95a57f6d7c",
         "lever-spotify-6a1a105a-b471-4a68-aea8-54cdb1051a21",
+        "lever-spotify-6a2a32ab-2ed8-4ce3-94d5-0be9be9b01b7",
         "lever-spotify-6c591c8a-9aeb-4760-ace1-1942da31aca9",
+        "lever-spotify-6eb9ce0e-5372-4a4f-b2fa-d005f9426750",
         "lever-spotify-73e87af2-1cf9-4aa2-bf3f-032cd2c3b05c",
         "lever-spotify-7424c142-4be7-4a21-9010-621d69aae86d",
         "lever-spotify-752a07ee-1524-4324-94fc-b7145d36052d",
@@ -1017,6 +1022,7 @@
         "lever-spotify-d06fe312-4b91-4c40-a3da-64985b569075",
         "lever-spotify-d174a24c-bf16-4661-9b9a-32396e883c25",
         "lever-spotify-d1df9e53-27a1-4399-aa8b-7144cf634360",
+        "lever-spotify-d1efc30c-4e8f-488e-86ad-068117c6f25c",
         "lever-spotify-d2489df3-87cb-48bb-81af-83aab5f03bdc",
         "lever-spotify-d5628547-6362-470e-8828-7ab565054eaa",
         "lever-spotify-d7c43743-2240-45b6-bc31-33e50cbaba4a",
@@ -1026,6 +1032,7 @@
         "lever-spotify-ddcf0836-4443-4954-be31-7466be1eaff2",
         "lever-spotify-df72f34a-50e2-4095-907b-942c3445bbb8",
         "lever-spotify-e2c7bbb8-f873-42c7-811f-0bd45bf452ae",
+        "lever-spotify-e74bfb24-55de-4d93-b228-ae38b8fdfbea",
         "lever-spotify-e7b01c1e-4246-4f31-83ea-9219c8b22c83",
         "lever-spotify-e86f298c-7568-44c5-ba20-3568ce6d1068",
         "lever-spotify-eb46cf13-b113-4b80-9c93-c3c8781aff85",
@@ -1387,6 +1394,7 @@
         "wd-snapchat-Technical-Program-Manager_R0045839",
         "wd-snapchat-Test-Engineer--Camera-and-Sensing_R0043789",
         "wd-snapchat-Verification-Engineer-Intern_R0045122",
+        "wd-snapchat-Workday-Configuration-Analyst_R0046868-1",
         "wd-snapchat-Working-Student---Machine-Learning_R0045234-1"
       ]
     },
@@ -1421,6 +1429,7 @@
         "wd-coke-Automation-Technician---Nights_R-145900",
         "wd-coke-Automation-and-Controls-Engineering-Tech_R-145959",
         "wd-coke-Blending--Mixing-Operator--Nights--23_R-145512",
+        "wd-coke-Blending--Mixing-Operator--Nights--23_R-146681",
         "wd-coke-Blending-II--23--Blending--Mixing-Operator_R-145499",
         "wd-coke-Blow-Mold-Operator---Nights----25_R-144688",
         "wd-coke-Brand-Manager--Signature-Sodas_R-142131",
@@ -1499,6 +1508,7 @@
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
+        "wd-coke-Director--Customer-Strategic-Insights---Foodservice-and-On-Premise_R-146486",
         "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
         "wd-coke-Director--Data-Science_R-144498-1",
         "wd-coke-Director--Data-Solution-Owner_R-145265",
@@ -1755,6 +1765,7 @@
         "wd-coke-Scientist--Operations-Labs--Technical-Consumer-Data-Research_R-146213-1",
         "wd-coke-Scientist--Product-Development--GDI_R-145664",
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
+        "wd-coke-Senior-Data-Machine-Learning-Engineer_R-140133-1",
         "wd-coke-Senior-Director---Integration-Lead---Japan---South-Korea_R-144572",
         "wd-coke-Senior-Director--AI---Analytical-Engineering_R-145339",
         "wd-coke-Senior-Director--AI-Engineering-Lead_R-145103-1",
@@ -1771,6 +1782,7 @@
         "wd-coke-Senior-Director--Customer---Vendor-Data-Governance_R-144547",
         "wd-coke-Senior-Director--Data-Analytics_R-144573",
         "wd-coke-Senior-Director--Data-Architecture---Engineering_R-145264",
+        "wd-coke-Senior-Director--Data-Architecture--Next-Gen-_R-144401",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
         "wd-coke-Senior-Director--Digital-Transformation-GCM_R-144510-1",
         "wd-coke-Senior-Director--Electrical-Subsystem_R-144022-1",
@@ -1820,6 +1832,7 @@
         "wd-coke-Senior-Director--smartwater_R-146065",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
         "wd-coke-Senior-Director-II--Specialty-Retail_R-145774-1",
+        "wd-coke-Senior-Director-Occupational-Safety-LATAM_R-146686",
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Maintenance-Manager_R-146421",
@@ -2510,6 +2523,7 @@
         "ashby-elevenlabs-8ec246ab-a18e-4f6a-a8ba-6956668d31bf",
         "ashby-elevenlabs-8f37f4e5-83f8-4e7d-b3b6-b5b406bf4eb9",
         "ashby-elevenlabs-90873fda-95c3-4d21-bae8-c5a30f5b7ac8",
+        "ashby-elevenlabs-91dd600a-d0dd-4a75-a53d-f59aa9855626",
         "ashby-elevenlabs-9271907b-1aad-4868-8995-b9ed32fb92ac",
         "ashby-elevenlabs-92997f8a-9f90-40fe-a76e-89ffbc44d0cc",
         "ashby-elevenlabs-96fc056f-797f-448a-bd69-fcd9ac2ea663",
@@ -3296,6 +3310,7 @@
         "gh-datadog-8206923",
         "gh-datadog-8210507",
         "gh-datadog-8211090",
+        "gh-datadog-8211563",
         "gh-datadog-8212114",
         "gh-datadog-8213715",
         "gh-datadog-8219989",
@@ -3355,6 +3370,7 @@
         "gh-mongodb-7257330",
         "gh-mongodb-7269518",
         "gh-mongodb-7276216",
+        "gh-mongodb-7310552",
         "gh-mongodb-7311204",
         "gh-mongodb-7311234",
         "gh-mongodb-7318049",
@@ -3804,6 +3820,7 @@
         "gh-mongodb-8170615",
         "gh-mongodb-8170628",
         "gh-mongodb-8170631",
+        "gh-mongodb-8170634",
         "gh-mongodb-8170665",
         "gh-mongodb-8170894",
         "gh-mongodb-8172166",
@@ -4289,6 +4306,7 @@
         "gh-braze-8209425",
         "gh-braze-8209434",
         "gh-braze-8209438",
+        "gh-braze-8211012",
         "gh-braze-8211330",
         "gh-braze-8211991",
         "gh-braze-8212005",
@@ -4298,7 +4316,8 @@
         "gh-braze-8213913",
         "gh-braze-8214379",
         "gh-braze-8220899",
-        "gh-braze-8220920"
+        "gh-braze-8220920",
+        "gh-braze-8223381"
       ]
     },
     "classpass": {
@@ -4521,7 +4540,8 @@
         "gh-justworks-8164798",
         "gh-justworks-8166821",
         "gh-justworks-8180743",
-        "gh-justworks-8212087"
+        "gh-justworks-8212087",
+        "gh-justworks-8214215"
       ]
     },
     "appsflyer": {
@@ -5056,6 +5076,7 @@
         "gh-flatironhealth-8097934",
         "gh-flatironhealth-8122317",
         "gh-flatironhealth-8127129",
+        "gh-flatironhealth-8128223",
         "gh-flatironhealth-8128705",
         "gh-flatironhealth-8128706",
         "gh-flatironhealth-8128712",
@@ -5312,16 +5333,6 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8128136",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
       "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities\u2014data analysis, process design, cross-functional strategy, insights generation\u2014align strongly with demonstrated analytics, operations, and GTM work at Chick-fil-A; 'Senior Associate' is IC seniority, not people management; SQL and AI tools are familiar or learnable."
-    },
-    {
-      "id": "gh-doordashusa-7654723",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Senior Associate, Strategic Growth Initiatives & GTM",
-      "location": "New York, NY; Denver, CO; Los Angeles, CA; Chicago, IL",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7654723",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Strong fit: GTM/growth strategy role with consultative selling, product positioning, onboarding, and cross-functional work; candidate has directly comparable experience (catering expansion, campaign testing, product feedback loops, stakeholder management at Chick-fil-A); no years floor stated; restaurant/merchant context is a preferred (not required) qualification that candidate has via DoorDash audit work and Chick-fil-A operations."
     },
     {
       "id": "gh-doordashusa-8143360",
@@ -5672,8 +5683,18 @@
       "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8821478002",
       "first_seen": "2026-09-21T16:56:38.061455+00:00",
       "fit_reason": "Member Growth Marketing role centers on enrollment campaign execution, data reporting, and cross-functional coordination\u2014core growth/marketing operations work the candidate has demonstrated at scale; 1\u20133 years requirement is a direct fit; Figma and Looker are learnable tools (single unfamiliar ones, not stacked hard requirements); healthcare/B2B2C bonus aligns with candidate's Coca-Cola and Maven internship exposure."
+    },
+    {
+      "id": "gh-flatironhealth-8128223",
+      "company_key": "flatironhealth",
+      "company_name": "Flatiron Health",
+      "title": "Associate, Product Marketing (Real-World Evidence)",
+      "location": "NY office",
+      "url": "https://flatiron.com/careers/open-positions/job?gh_jid=8128223",
+      "first_seen": "2026-09-22T17:20:08.405806+00:00",
+      "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
     }
   ],
-  "last_run": "2026-09-22T12:45:14.718293+00:00",
+  "last_run": "2026-09-22T17:20:08.405806+00:00",
   "pending_notifications": []
 }
