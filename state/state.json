@@ -131,6 +131,7 @@
         "gh-doordashusa-7520257",
         "gh-doordashusa-7525219",
         "gh-doordashusa-7545753",
+        "gh-doordashusa-7554210",
         "gh-doordashusa-7557008",
         "gh-doordashusa-7577073",
         "gh-doordashusa-7580407",
@@ -536,6 +537,7 @@
         "gh-doordashusa-8156886",
         "gh-doordashusa-8156907",
         "gh-doordashusa-8157015",
+        "gh-doordashusa-8157450",
         "gh-doordashusa-8157606",
         "gh-doordashusa-8157750",
         "gh-doordashusa-8158018",
@@ -1175,6 +1177,7 @@
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Client-Partner_R0046583",
         "wd-snapchat-Client-Partner_R0046731",
+        "wd-snapchat-Communications-Manager--Snapchat_R0046872",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
@@ -1361,7 +1364,9 @@
         "wd-snapchat-Software-Engineer--Full-Stack--Level-5_Q326SWEFS6-1",
         "wd-snapchat-Software-Engineer--Level-3_Q326SWE-1",
         "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-4_R0045604",
+        "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-5_R0046870-2",
         "wd-snapchat-Software-Engineer--ML-Infrastructure_R0046629-1",
+        "wd-snapchat-Software-Engineer--ML-Infrastructure_R0046869-2",
         "wd-snapchat-Software-Engineer--Specs--Level-5_R0046458-1",
         "wd-snapchat-Software-Engineer--Specs-Lenses--Level-5_R0046666",
         "wd-snapchat-Software-Engineer--iOS--Level-3_R0046335-1",
@@ -1472,6 +1477,7 @@
         "wd-coke-Collaboration---Messaging-Solutions-Engineer_R-145659-1",
         "wd-coke-Construction-Manager_R-146007-5",
         "wd-coke-Consultant--Business-Operations_R-140475",
+        "wd-coke-Consultant--Data---Analytics--NA_R-146600",
         "wd-coke-Consultant--Data---Analytics_R-145069",
         "wd-coke-Consultant--HCM-Org-Design---Service-Delivery_R-146321",
         "wd-coke-Consultant--HR-Compliance_R-145174",
@@ -1590,6 +1596,7 @@
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
         "wd-coke-Equipment-Sales---Service-Analyst_R-145631",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
+        "wd-coke-Executive-Administrative-Assistant_R-146788",
         "wd-coke-Executive-Assistant--Temporary-_R-145825",
         "wd-coke-Executive-Assistant_R-146453",
         "wd-coke-Finance-Capex-Manager_R-146005-6",
@@ -1660,6 +1667,7 @@
         "wd-coke-Manager--Global-Adult-Sparkling---ARTD--Technical-Consumer-Data-Research_R-146211",
         "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
         "wd-coke-Manager--Guest-Experience---Operations--World-of-Coca-Cola-_R-144584",
+        "wd-coke-Manager--IT-Governance---Compliance_R-146320",
         "wd-coke-Manager--Japan-E2EE_R-141273-1",
         "wd-coke-Manager--Logistics-Auotmation-Engineer_R-144313",
         "wd-coke-Manager--Manufacuturing-Startup_R-146234-4",
@@ -1677,6 +1685,7 @@
         "wd-coke-Manager-Production--2nd-shift_R-145970-1",
         "wd-coke-Marketing-Director--Sprite---Philippines_R-145209",
         "wd-coke-Material-Handler---Nights_R-145419",
+        "wd-coke-Material-Handler---Nights_R-146519",
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
         "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
         "wd-coke-Operational-Excellence-Manager_R-144726",
@@ -1804,6 +1813,7 @@
         "wd-coke-Senior-Director--Global-Product-Integrations-GCM_R-144511-1",
         "wd-coke-Senior-Director--Hydration---Advanced-Hydration--Global-Development---Innovation_R-136011",
         "wd-coke-Senior-Director--IMX-Digital_R-139971-1",
+        "wd-coke-Senior-Director--IT-Governance-and-Security-Controls_R-146318",
         "wd-coke-Senior-Director--Innovation-Product-Manager_R-145105-1",
         "wd-coke-Senior-Director--Intelligent-Enterprise-Product-Manager_R-145107-1",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
@@ -1941,6 +1951,7 @@
         "wd-coke-Warehouse-Operator_R-145771",
         "wd-coke-Warehouse-Operator_R-146216",
         "wd-coke-Warehouse-Operator_R-146696",
+        "wd-coke-Warehouse-Operator_R-146750",
         "wd-coke-Warehouse-Receiver--Retail---The-Coca-Cola-Store-_R-145447",
         "wd-coke-Warehouse-Technician--2nd-Shift-1p-9-30p-_R-145510-1",
         "wd-coke-Warehouse-Technician_R-144973",
@@ -1979,6 +1990,7 @@
         "ashby-perplexity-2df92d4a-48eb-422f-af9c-4a963fd6135c",
         "ashby-perplexity-2e1ee70c-b070-4ccc-a2bf-8b394161bbde",
         "ashby-perplexity-2e73bc78-684c-47c5-95df-e9973a10e0b6",
+        "ashby-perplexity-3077e11d-8008-4980-a901-84d8b7993bc9",
         "ashby-perplexity-3163a2c9-f9d3-4596-bf88-0c55298bd027",
         "ashby-perplexity-31dfcb60-a0df-4983-b3a4-d653cdc0aa8f",
         "ashby-perplexity-32a36cae-ad73-4198-9354-a72b141ff055",
@@ -2166,6 +2178,7 @@
         "ashby-cursor-1240b4aa-8074-4afb-ae36-a690869c8233",
         "ashby-cursor-15ccad54-d36b-410d-a21d-ac9821af269c",
         "ashby-cursor-167f0e93-6915-4d56-803a-be89d1441fb5",
+        "ashby-cursor-1703501f-53a1-4307-93ec-84b723be92ef",
         "ashby-cursor-175cb50f-063c-4d02-8954-568a9c3821bf",
         "ashby-cursor-1910bd0e-806c-4e60-bfd6-157e369d6d02",
         "ashby-cursor-193c326d-2ffc-4c11-8bba-73d243fd178b",
@@ -3296,6 +3309,7 @@
         "gh-datadog-8195878",
         "gh-datadog-8196248",
         "gh-datadog-8196718",
+        "gh-datadog-8196977",
         "gh-datadog-8197674",
         "gh-datadog-8197852",
         "gh-datadog-8200728",
@@ -3314,7 +3328,9 @@
         "gh-datadog-8212114",
         "gh-datadog-8213715",
         "gh-datadog-8219989",
-        "gh-datadog-8220473"
+        "gh-datadog-8220473",
+        "gh-datadog-8223819",
+        "gh-datadog-8223855"
       ]
     },
     "mongodb": {
@@ -4315,9 +4331,13 @@
         "gh-braze-8213083",
         "gh-braze-8213913",
         "gh-braze-8214379",
+        "gh-braze-8220722",
         "gh-braze-8220899",
         "gh-braze-8220920",
-        "gh-braze-8223381"
+        "gh-braze-8223381",
+        "gh-braze-8223918",
+        "gh-braze-8223928",
+        "gh-braze-8223937"
       ]
     },
     "classpass": {
@@ -4867,6 +4887,7 @@
         "ashby-away-a1dd2fec-3f6e-4b31-823b-7412c9596d60",
         "ashby-away-a61477cc-2c01-414a-922f-03dadd316677",
         "ashby-away-a6773940-8728-4d17-acb6-c6c0e701769a",
+        "ashby-away-c4c14a00-994c-434f-bccb-a89f7f46d41c",
         "ashby-away-db4f7019-8d22-4498-aa6b-b3178187bca2",
         "ashby-away-de043377-e346-46ba-ab8b-212a15106bf3",
         "ashby-away-e12f950c-b226-4d67-b427-b3746ca718ef",
@@ -5695,6 +5716,6 @@
       "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
     }
   ],
-  "last_run": "2026-09-22T17:20:08.405806+00:00",
+  "last_run": "2026-09-22T20:16:35.066005+00:00",
   "pending_notifications": []
 }
