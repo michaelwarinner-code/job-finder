@@ -48,6 +48,12 @@ def passes_keyword_filter(title: str, company_key: str) -> bool:
         return False
 
     if company_key == "cocacola":
-        return "marketing" in t or "sales" in t or "brand" in t
+        return (
+            "marketing" in t
+            or "sales" in t
+            or "brand" in t
+            or "customer development" in t
+            or "customer" in t
+        )
 
     return any(kw in t for kw in POSITIVE_SIGNALS)
