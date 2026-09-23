@@ -653,6 +653,7 @@
         "gh-doordashusa-8209176",
         "gh-doordashusa-8209236",
         "gh-doordashusa-8209943",
+        "gh-doordashusa-8210935",
         "gh-doordashusa-8211005",
         "gh-doordashusa-8211456",
         "gh-doordashusa-8212197",
@@ -665,7 +666,9 @@
         "gh-doordashusa-8221544",
         "gh-doordashusa-8221803",
         "gh-doordashusa-8221895",
-        "gh-doordashusa-8224641"
+        "gh-doordashusa-8224641",
+        "gh-doordashusa-8224694",
+        "gh-doordashusa-8225639"
       ]
     },
     "hubspot": {
@@ -1043,6 +1046,7 @@
         "lever-spotify-e86f298c-7568-44c5-ba20-3568ce6d1068",
         "lever-spotify-eb46cf13-b113-4b80-9c93-c3c8781aff85",
         "lever-spotify-eba7e621-6236-42ee-acad-aaa5df6929c3",
+        "lever-spotify-ee45924c-894c-4ea0-9c93-c5221894063f",
         "lever-spotify-f328ec07-194a-442d-af32-da40cbfd4f22",
         "lever-spotify-f45de8ee-8f32-4e19-9163-eddf7a018337",
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
@@ -1161,6 +1165,7 @@
         "wd-snapchat-Account-Manager_R0046211",
         "wd-snapchat-Account-Manager_R0046484-1",
         "wd-snapchat-Account-Manager_R0046668-1",
+        "wd-snapchat-Accountant_R0046881-1",
         "wd-snapchat-Accounts-Receivable-Analyst_R0045979-1",
         "wd-snapchat-Ad-Review---Integrity-Specialist_R0046549-1",
         "wd-snapchat-Agency-Lead_R0046693-1",
@@ -1323,6 +1328,7 @@
         "wd-snapchat-Security-Engineer_R0046087-1",
         "wd-snapchat-Security-Engineer_R0046742-1",
         "wd-snapchat-Security-Technical-Program-Manager_R0046183-1",
+        "wd-snapchat-Senior-Account-Manager--12-month-contract_R0046880-1",
         "wd-snapchat-Senior-Account-Manager--Gaming---Apps_R0046581-2",
         "wd-snapchat-Senior-Account-Manager--SMC_R0045505-1",
         "wd-snapchat-Senior-Account-Manager--SMC_R0046680-2",
@@ -1519,6 +1525,7 @@
         "wd-coke-Director--Connections---Media_R-144890",
         "wd-coke-Director--Connections---Media_R-145044",
         "wd-coke-Director--Counsel-Trademarks_R-145859",
+        "wd-coke-Director--Creative---Advanced-Hydration_R-146732-1",
         "wd-coke-Director--Creative--FR_R-142423-1",
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
@@ -1540,6 +1547,7 @@
         "wd-coke-Director--Financial-Planning--Analysis-and-Insights_R-144127",
         "wd-coke-Director--Franchise-Commercial-Execution_R-145784",
         "wd-coke-Director--Franchise-Operations--Stronghold-Markets_R-142140-1",
+        "wd-coke-Director--Franchise-Operations-Uzbekistan_R-146712",
         "wd-coke-Director--Franchise-Sparkling--CCPB_R-135094-1",
         "wd-coke-Director--Frontline-Marketing---Ecuador_R-146441",
         "wd-coke-Director--Frontline-Marketing--CBL_R-136221-1",
@@ -1562,6 +1570,7 @@
         "wd-coke-Director--Legal-Counsel---North-America--Marketing---Advanced-Hydration-_R-146547",
         "wd-coke-Director--Legal-Counsel--Customer---North-America_R-145738",
         "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
+        "wd-coke-Director--Manufacturing-Transformation-and-Operational-Excellence_R-145974-1",
         "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
@@ -1678,6 +1687,7 @@
         "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
         "wd-coke-Manager--Guest-Experience---Operations--World-of-Coca-Cola-_R-144584",
         "wd-coke-Manager--IT-Governance---Compliance_R-146320",
+        "wd-coke-Manager--Information-Technology---Business---Product-Management_R-144575",
         "wd-coke-Manager--Japan-E2EE_R-141273-1",
         "wd-coke-Manager--Logistics-Auotmation-Engineer_R-144313",
         "wd-coke-Manager--Manufacuturing-Startup_R-146234-4",
@@ -1755,6 +1765,7 @@
         "wd-coke-Quality-Assurance-Technician-Night-Shift--2450_R-145067",
         "wd-coke-RGM-Product-Tech-Lead_R-145115",
         "wd-coke-Recruitment-Analyst_R-144710",
+        "wd-coke-Recycling-Technician--Forklift-Exp-Preferred---Night-Shift_R-146430",
         "wd-coke-Refrigeration-Technician_R-146334",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
         "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
@@ -1765,6 +1776,7 @@
         "wd-coke-Retail-Lead-Ambassador_R-145828",
         "wd-coke-Retail-Lead-Associate--Coca-Cola-Store--Disney-Springs-_R-144957",
         "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-143188",
+        "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-146675-1",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143654",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143660",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143663",
@@ -1782,6 +1794,7 @@
         "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
         "wd-coke-Sales-Manager_R-145146",
         "wd-coke-Scientist--Operations-Labs--Technical-Consumer-Data-Research_R-146213-1",
+        "wd-coke-Scientist--Product--Tea---GDI_R-137074",
         "wd-coke-Scientist--Product-Development--GDI_R-145664",
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
         "wd-coke-Senior-Data-Machine-Learning-Engineer_R-140133-1",
@@ -1884,6 +1897,7 @@
         "wd-coke-Senior-Manager--Engineering_R-146364-1",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Financial-Services_R-146271",
+        "wd-coke-Senior-Manager--Franchise-Operations---HLJ_R-146357-1",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
         "wd-coke-Senior-Manager--Franchise-Stills_R-146445",
         "wd-coke-Senior-Manager--Frontline-Marketing--Iraq_R-134297",
@@ -1895,6 +1909,7 @@
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
         "wd-coke-Senior-Manager--Legal-Counsel---CPS-and-Irish-Entities_R-145021",
+        "wd-coke-Senior-Manager--Marketing-Finance--Investment-Management_R-146755-1",
         "wd-coke-Senior-Manager--Material-Operations---Sourcing---Japan-Korea_R-135730",
         "wd-coke-Senior-Manager--Media-Operations-France_R-143840-1",
         "wd-coke-Senior-Manager--Media_R-146168",
@@ -1991,6 +2006,7 @@
         "ashby-perplexity-182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
         "ashby-perplexity-18509f15-ab49-450d-8a01-4b280e464ad0",
         "ashby-perplexity-19d8bcfd-e493-4b3a-b8fd-11a2a6502da2",
+        "ashby-perplexity-1a3df802-9238-4827-ab1f-12a9d1e4b81c",
         "ashby-perplexity-229b066a-afb2-4eca-86ac-e20f38d11a19",
         "ashby-perplexity-25fb9e90-e164-4a50-b35f-535572f35a30",
         "ashby-perplexity-27aa1a14-bc59-4613-a65a-38598695076f",
@@ -2265,6 +2281,7 @@
         "ashby-cursor-9879627d-b996-4213-bbdf-82a18884015f",
         "ashby-cursor-9978ffe7-8dac-4f44-9f3f-43cfd033d39c",
         "ashby-cursor-9a175381-45e2-42b6-bd64-6c84532365f9",
+        "ashby-cursor-9b897011-11bc-4d8f-beb4-d2155d36e941",
         "ashby-cursor-9d7c8f36-eeb7-4e9f-acbe-d959f6280e46",
         "ashby-cursor-9f1b3e17-4ab5-4d70-acc2-be1d1972b922",
         "ashby-cursor-a4fcfac1-8bf1-4804-a0fb-0ea97037772e",
@@ -2920,6 +2937,7 @@
         "gh-datadog-7635298",
         "gh-datadog-7645709",
         "gh-datadog-7650367",
+        "gh-datadog-7650688",
         "gh-datadog-7658810",
         "gh-datadog-7683226",
         "gh-datadog-7683726",
@@ -3269,6 +3287,7 @@
         "gh-datadog-8159001",
         "gh-datadog-8159122",
         "gh-datadog-8161455",
+        "gh-datadog-8162548",
         "gh-datadog-8162552",
         "gh-datadog-8163359",
         "gh-datadog-8163361",
@@ -3344,6 +3363,7 @@
         "gh-datadog-8211563",
         "gh-datadog-8212114",
         "gh-datadog-8213715",
+        "gh-datadog-8214090",
         "gh-datadog-8219989",
         "gh-datadog-8220473",
         "gh-datadog-8222279",
@@ -3913,7 +3933,9 @@
         "gh-mongodb-8211844",
         "gh-mongodb-8212133",
         "gh-mongodb-8212146",
-        "gh-mongodb-8213069"
+        "gh-mongodb-8213069",
+        "gh-mongodb-8214009",
+        "gh-mongodb-8226040"
       ]
     },
     "braze": {
@@ -4271,6 +4293,7 @@
         "gh-braze-8170841",
         "gh-braze-8170850",
         "gh-braze-8170902",
+        "gh-braze-8170904",
         "gh-braze-8171061",
         "gh-braze-8171062",
         "gh-braze-8171064",
@@ -4343,6 +4366,7 @@
         "gh-braze-8209238",
         "gh-braze-8209240",
         "gh-braze-8209242",
+        "gh-braze-8209268",
         "gh-braze-8209425",
         "gh-braze-8209434",
         "gh-braze-8209438",
@@ -4354,6 +4378,10 @@
         "gh-braze-8212960",
         "gh-braze-8213083",
         "gh-braze-8213913",
+        "gh-braze-8214281",
+        "gh-braze-8214368",
+        "gh-braze-8214370",
+        "gh-braze-8214372",
         "gh-braze-8214379",
         "gh-braze-8220722",
         "gh-braze-8220899",
@@ -4362,7 +4390,8 @@
         "gh-braze-8223381",
         "gh-braze-8223918",
         "gh-braze-8223928",
-        "gh-braze-8223937"
+        "gh-braze-8223937",
+        "gh-braze-8226558"
       ]
     },
     "classpass": {
@@ -4772,7 +4801,8 @@
         "gh-glossier-8209038",
         "gh-glossier-8210778",
         "gh-glossier-8210780",
-        "gh-glossier-8210796"
+        "gh-glossier-8210796",
+        "gh-glossier-8226704"
       ]
     },
     "yext": {
@@ -5553,16 +5583,6 @@
       "fit_reason": "Growth Marketing Manager: Paid Social is a core target role (growth marketing, performance marketing); candidate has direct paid social experience (Meta Ads), demonstrated testing/optimization mindset, and cross-functional execution skills; no years requirement stated."
     },
     {
-      "id": "gh-yext-8054682",
-      "company_key": "yext",
-      "company_name": "Yext",
-      "title": "Associate Marketing Operations/ Automation Manager ",
-      "location": "Remote - New York, NY",
-      "url": "https://job-boards.greenhouse.io/yext/jobs/8054682",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Marketing operations/automation role with email campaign execution, A/B testing, data-driven optimization, and cross-functional GTM work aligns with candidate's growth/lifecycle marketing target; 3 years stated requirement matches candidate's experience level; Marketo preference is learnable (candidate has email/automation fundamentals and AI tooling curiosity)."
-    },
-    {
       "id": "gh-harrys-8119608",
       "company_key": "harrys",
       "company_name": "Harry's",
@@ -5783,6 +5803,6 @@
       "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial/GTM roles as a tech entry path."
     }
   ],
-  "last_run": "2026-09-23T06:28:28.683372+00:00",
+  "last_run": "2026-09-23T16:50:52.528214+00:00",
   "pending_notifications": []
 }
