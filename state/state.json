@@ -652,6 +652,7 @@
         "gh-doordashusa-8209032",
         "gh-doordashusa-8209176",
         "gh-doordashusa-8209236",
+        "gh-doordashusa-8209572",
         "gh-doordashusa-8209943",
         "gh-doordashusa-8210935",
         "gh-doordashusa-8211005",
@@ -668,7 +669,14 @@
         "gh-doordashusa-8221895",
         "gh-doordashusa-8224641",
         "gh-doordashusa-8224694",
-        "gh-doordashusa-8225639"
+        "gh-doordashusa-8225639",
+        "gh-doordashusa-8225722",
+        "gh-doordashusa-8226916",
+        "gh-doordashusa-8227034",
+        "gh-doordashusa-8227346",
+        "gh-doordashusa-8227394",
+        "gh-doordashusa-8227575",
+        "gh-doordashusa-8227582"
       ]
     },
     "hubspot": {
@@ -800,6 +808,7 @@
         "gh-hubspotjobs-7965207",
         "gh-hubspotjobs-7966096",
         "gh-hubspotjobs-7973938",
+        "gh-hubspotjobs-7973939",
         "gh-hubspotjobs-7982144",
         "gh-hubspotjobs-7988016",
         "gh-hubspotjobs-7988027",
@@ -1126,6 +1135,7 @@
         "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
         "ashby-claylabs-b4d7e281-39ff-4d7b-bf16-940eb8b85a90",
         "ashby-claylabs-b78d32ca-01c1-432d-8af9-4c21ec3c005a",
+        "ashby-claylabs-c2c47ee2-0e67-410a-8465-8c87ca6a7509",
         "ashby-claylabs-c3252c5a-bd68-4a6e-8fb7-cd05dcfe703d",
         "ashby-claylabs-c4ad4fac-6778-4bfa-a23e-6e7c32fe48d1",
         "ashby-claylabs-c4fbbd86-b329-4a5e-9f08-f09f2d7c868d",
@@ -1386,6 +1396,7 @@
         "wd-snapchat-Software-Engineer--iOS--Level-5_Q326SWEI6-1",
         "wd-snapchat-Solutions-Engineer--Level-4_H226SE2-1",
         "wd-snapchat-Spectacles-Student-Worker---Software-Engineering---Graphics_R0043744",
+        "wd-snapchat-Sports---Media-Partnerships-Manager_R0046889-1",
         "wd-snapchat-Sr-Specialist--SMC-GTM-Architect_R0046722-2",
         "wd-snapchat-Sr-Specialist--Transparency-Reporting_R0046013-1",
         "wd-snapchat-Staff--SMC-Revenue-Growth_R0046089-1",
@@ -1427,6 +1438,7 @@
       "known_job_ids": [
         "wd-coke-",
         "wd-coke-ABBP-Project-Manager_R-146471",
+        "wd-coke-ADMIN---SERVICES-MANAGER_R-143506",
         "wd-coke-Administration-Assistant_R-146126",
         "wd-coke-Administrative-Assistant-CAR_R-145748-1",
         "wd-coke-Advisor--Consumer-Engagement_R-145315",
@@ -1647,6 +1659,7 @@
         "wd-coke-Laboratory-Analyst_R-145915",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
         "wd-coke-Legal-Intern_R-146785",
+        "wd-coke-Logistics-Intern_R-146837",
         "wd-coke-MX-CPS-Packaging-Specialist_R-145702",
         "wd-coke-MX-CPS-Quality-System-Coordinator_R-145569",
         "wd-coke-MX-CPS-Warehouse-Analyst-Lerma--Temporal-_R-145863",
@@ -1867,6 +1880,7 @@
         "wd-coke-Senior-Director-II--Specialty-Retail_R-145774-1",
         "wd-coke-Senior-Director-Occupational-Safety-LATAM_R-146686",
         "wd-coke-Senior-Machine-Learning-Architect_R-144416",
+        "wd-coke-Senior-Machine-Learning-Architect_R-144418",
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Maintenance-Manager_R-146421",
         "wd-coke-Senior-Manager---Customer-Finance--Customer-Agreement-Team_R-146411",
@@ -1945,6 +1959,7 @@
         "wd-coke-Senior-Paralegal--Marketing-Legal_R-145687",
         "wd-coke-Senior-Product-Designer-II_R-145060",
         "wd-coke-Senior-Product-Designer-II_R-145742",
+        "wd-coke-Senior-Product-Manager---Retail-Platforms_R-146737",
         "wd-coke-Senior-Sales-Manager_R-146185",
         "wd-coke-Software-Engineer_R-145599",
         "wd-coke-Solution-Architect---Japan_R-144485",
@@ -2387,6 +2402,7 @@
         "ashby-runway-ml-e0fec99f-ae6e-4f92-ac1a-7d227179261f",
         "ashby-runway-ml-e27165f8-f71d-4954-9912-8ce7488d6534",
         "ashby-runway-ml-edf266aa-771c-42f5-bb36-bcd159a41989",
+        "ashby-runway-ml-f003ebc6-923d-44cc-b299-01a0d93c6859",
         "ashby-runway-ml-f65e164b-d577-4bd3-993b-7868d51fab5d",
         "ashby-runway-ml-f6e8f3fa-0440-484e-92f7-6ae2e67f1d07",
         "ashby-runway-ml-f74afbd9-b4e8-4b87-835a-5e22dcc556ae",
@@ -2442,6 +2458,7 @@
         "ashby-elevenlabs-1ef264b8-ee9e-4713-a10a-0603f2cdbb94",
         "ashby-elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
         "ashby-elevenlabs-2007f7af-84b5-4e37-bff9-84b8b0831dc9",
+        "ashby-elevenlabs-203ef08b-7bb0-42b7-8099-d3d770fe3615",
         "ashby-elevenlabs-20a29846-f8f5-483c-a3cb-52f14c525366",
         "ashby-elevenlabs-222122a3-24e9-4dd6-908a-5c9cd91f7e27",
         "ashby-elevenlabs-229d026d-3967-476c-a3e5-3d65a8e4a52b",
@@ -3368,7 +3385,8 @@
         "gh-datadog-8220473",
         "gh-datadog-8222279",
         "gh-datadog-8223819",
-        "gh-datadog-8223855"
+        "gh-datadog-8223855",
+        "gh-datadog-8226275"
       ]
     },
     "mongodb": {
@@ -4384,14 +4402,25 @@
         "gh-braze-8214372",
         "gh-braze-8214379",
         "gh-braze-8220722",
+        "gh-braze-8220764",
         "gh-braze-8220899",
         "gh-braze-8220920",
         "gh-braze-8222430",
         "gh-braze-8223381",
+        "gh-braze-8223809",
         "gh-braze-8223918",
         "gh-braze-8223928",
         "gh-braze-8223937",
-        "gh-braze-8226558"
+        "gh-braze-8226558",
+        "gh-braze-8226604",
+        "gh-braze-8226918",
+        "gh-braze-8226919",
+        "gh-braze-8226920",
+        "gh-braze-8226922",
+        "gh-braze-8227209",
+        "gh-braze-8227313",
+        "gh-braze-8227314",
+        "gh-braze-8227320"
       ]
     },
     "classpass": {
@@ -4450,6 +4479,7 @@
         "gh-classpass-4703671006",
         "gh-classpass-4703703006",
         "gh-classpass-4703709006",
+        "gh-classpass-4703727006",
         "gh-classpass-4704191006",
         "gh-classpass-4704193006",
         "gh-classpass-4705061006",
@@ -4477,6 +4507,7 @@
         "gh-classpass-4712508006",
         "gh-classpass-4713730006",
         "gh-classpass-4714276006",
+        "gh-classpass-4714449006",
         "gh-classpass-4714998006",
         "gh-classpass-4715074006"
       ]
@@ -5313,16 +5344,6 @@
       "fit_reason": "Account Manager, CPG role centers on partnership strategy, campaign development, analytics, and revenue growth\u2014aligned with candidate's GTM/account management targets; 3-6 years stated (floor is 3, candidate meets it); no cold calling as explicit core duty; analytics/AI-driven decision-making core fit; unfamiliar tools (Snowflake, Sigma) are learnable and listed alongside general analytics fluency."
     },
     {
-      "id": "gh-doordashusa-8119389",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Account Manager, New Verticals",
-      "location": "New York, NY; San Francisco, CA; Los Angeles, CA; Chicago, IL; Atlanta, GA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8119389",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Account management role with data/analytics/strategy focus, CPG + advertising experience preferred (candidate has both), 2-3 years required (candidate meets/exceeds 3-year floor), no cold-calling hard requirement in job functions, split heavily weights campaign management, reporting, and cross-functional partnership over pure selling."
-    },
-    {
       "id": "gh-doordashusa-7958917",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -5593,16 +5614,6 @@
       "fit_reason": "Growth marketing role at DTC company with paid social/search focus aligns directly with candidate's core target; 3-5 years stated (floor is 3, which candidate meets via ~3.5 years Chick-fil-A growth/marketing work plus internships); demonstrated Meta Ads, campaign optimization, data-driven testing, and omni-channel attribution mindset all present in candidate's background."
     },
     {
-      "id": "ashby-claylabs-823e6f58-36d8-480d-b126-65777cee4f21",
-      "company_key": "clay",
-      "company_name": "Clay",
-      "title": "Growth, Digital",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/claylabs/823e6f58-36d8-480d-b126-65777cee4f21",
-      "first_seen": "2026-08-26T16:34:37.167763+00:00",
-      "fit_reason": "Growth, Digital role centered on paid-channel optimization, measurement, and pipeline ownership aligns with candidate's growth/performance marketing targets; candidate has demonstrated paid social (Meta Ads), campaign measurement, funnel design, and cross-functional execution; no years floor stated; single unfamiliar tools (connected TV, Reddit/X at scale, CAPI setup) are learnable and listed as nice-to-have or experimental."
-    },
-    {
       "id": "ashby-cursor-1d56ed97-eee3-406d-91e2-7feed88ce6f0",
       "company_key": "cursor",
       "company_name": "Cursor",
@@ -5763,46 +5774,56 @@
       "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
     },
     {
-      "id": "gh-braze-8001070",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8001070",
-      "first_seen": "2026-09-22T23:00:20.524997+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement is met at the floor."
+      "id": "gh-doordashusa-8227034",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Associate Marketing Manager - Dasher Engagement & Earnings",
+      "location": "Atlanta, GA; Austin, TX; Chicago, IL; Denver, CO; Los Angeles, CA; Miami, FL; Mountain View, CA; New York, NY; Phoenix, AZ; San Francisco, CA; Seattle, WA; Sunnyvale, CA; Boston, MA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8227034",
+      "first_seen": "2026-09-23T22:50:17.787266+00:00",
+      "fit_reason": "Associate Marketing Manager role in lifecycle/engagement marketing (GTM launches, campaign execution, A/B testing, retention programs) aligns directly with candidate's core targets; 2-4 years requirement matches candidate's ~3 years relevant experience; no cold calling or pure prospecting; execution and optimization work dominates responsibilities."
     },
     {
-      "id": "gh-braze-8001069",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "Austin",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8001069",
-      "first_seen": "2026-09-22T23:00:20.524997+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement floor (2 years) is well within scope."
-    },
-    {
-      "id": "gh-braze-8001066",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "Chicago",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8001066",
-      "first_seen": "2026-09-22T23:00:20.524997+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth marketing background and demonstrated account management, retention campaign, and cross-functional execution skills; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant experience; field travel is noted but role is account-based (existing portfolio), not hunting net-new; domain knowledge in marketing automation and analytics matches candidate's profile."
-    },
-    {
-      "id": "gh-braze-7996980",
+      "id": "gh-braze-8227314",
       "company_key": "braze",
       "company_name": "Braze",
       "title": "Customer Success Manager II, Enterprise",
       "location": "New York City",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/7996980",
-      "first_seen": "2026-09-22T23:00:20.524997+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial/GTM roles as a tech entry path."
+      "url": "https://job-boards.greenhouse.io/braze/jobs/8227314",
+      "first_seen": "2026-09-23T22:50:17.787266+00:00",
+      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement is met at the floor."
+    },
+    {
+      "id": "gh-braze-8227320",
+      "company_key": "braze",
+      "company_name": "Braze",
+      "title": "Customer Success Manager II, Enterprise",
+      "location": "Chicago",
+      "url": "https://job-boards.greenhouse.io/braze/jobs/8227320",
+      "first_seen": "2026-09-23T22:50:17.787266+00:00",
+      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement is met at the floor."
+    },
+    {
+      "id": "gh-braze-8227209",
+      "company_key": "braze",
+      "company_name": "Braze",
+      "title": "Customer Success Manager II, Enterprise",
+      "location": "San Francisco",
+      "url": "https://job-boards.greenhouse.io/braze/jobs/8227209",
+      "first_seen": "2026-09-23T22:50:17.787266+00:00",
+      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement floor (2 years) is well within scope."
+    },
+    {
+      "id": "gh-braze-8227313",
+      "company_key": "braze",
+      "company_name": "Braze",
+      "title": "Customer Success Manager II, Enterprise",
+      "location": "Austin",
+      "url": "https://job-boards.greenhouse.io/braze/jobs/8227313",
+      "first_seen": "2026-09-23T22:50:17.787266+00:00",
+      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial roles as a tech entry path."
     }
   ],
-  "last_run": "2026-09-23T16:50:52.528214+00:00",
+  "last_run": "2026-09-23T22:50:17.787266+00:00",
   "pending_notifications": []
 }
