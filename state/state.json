@@ -126,6 +126,7 @@
         "gh-doordashusa-7468130",
         "gh-doordashusa-7488724",
         "gh-doordashusa-7490108",
+        "gh-doordashusa-7490373",
         "gh-doordashusa-7491310",
         "gh-doordashusa-7516018",
         "gh-doordashusa-7517631",
@@ -1312,6 +1313,7 @@
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Optical-Engineer--Waveguide-Experiments_R0046479-1",
         "wd-snapchat-PCB-Design-Engineer_R0045397-1",
+        "wd-snapchat-Partnerships-Operations-Specialist_R0046899-1",
         "wd-snapchat-People-Application-Developer_R0045795-1",
         "wd-snapchat-People-Operations-Generalist_R0046734-1",
         "wd-snapchat-People-Operations-Program-Manager_R0046736-1",
@@ -1643,6 +1645,7 @@
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
         "wd-coke-Energy---Sustainability-Manager_R-140742",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
+        "wd-coke-Environmental-Operator_R-142667",
         "wd-coke-Equipment-Sales---Service-Analyst_R-145631",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
         "wd-coke-Executive-Administrative-Assistant_R-146788",
@@ -1835,6 +1838,7 @@
         "wd-coke-Scientist--Operations-Labs--Technical-Consumer-Data-Research_R-146213-1",
         "wd-coke-Scientist--Product--Tea---GDI_R-137074",
         "wd-coke-Scientist--Product-Development--GDI_R-145664",
+        "wd-coke-Senior-Administrative-Assistant_R-146409",
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
         "wd-coke-Senior-Data-Machine-Learning-Engineer_R-140133-1",
         "wd-coke-Senior-Director---Integration-Lead---Japan---South-Korea_R-144572",
@@ -1858,6 +1862,7 @@
         "wd-coke-Senior-Director--Digital-Transformation-GCM_R-144510-1",
         "wd-coke-Senior-Director--Electrical-Subsystem_R-144022-1",
         "wd-coke-Senior-Director--Engineering---Supply-Chain-Product_R-145318",
+        "wd-coke-Senior-Director--Executive-Recruiting_R-146715-1",
         "wd-coke-Senior-Director--Experience-Design---Connection-Planning---Sparkling-Flavors_R-138997-1",
         "wd-coke-Senior-Director--FSOP-Digital-Growth_R-145585",
         "wd-coke-Senior-Director--Financial-Planning-and-Analysis_R-144074",
@@ -2076,6 +2081,7 @@
         "ashby-perplexity-3d277236-2cf3-4a59-b435-71540cc05712",
         "ashby-perplexity-3d7ef710-b1f6-4a80-af57-946f9bccd35b",
         "ashby-perplexity-3f800e42-7c48-4f9a-9b12-43ee23e52516",
+        "ashby-perplexity-441daa65-5fd9-499d-91ac-acecdc1952d2",
         "ashby-perplexity-457d84e7-6a36-4499-ae61-db92a2c404b9",
         "ashby-perplexity-4615ca06-bea7-47e3-9e57-f5cee52b75e6",
         "ashby-perplexity-4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8",
@@ -3425,7 +3431,8 @@
         "gh-datadog-8223855",
         "gh-datadog-8224963",
         "gh-datadog-8226275",
-        "gh-datadog-8230456"
+        "gh-datadog-8230456",
+        "gh-datadog-8231811"
       ]
     },
     "mongodb": {
@@ -4694,7 +4701,8 @@
         "gh-justworks-8166821",
         "gh-justworks-8180743",
         "gh-justworks-8212087",
-        "gh-justworks-8214215"
+        "gh-justworks-8214215",
+        "gh-justworks-8231134"
       ]
     },
     "appsflyer": {
@@ -4930,6 +4938,7 @@
         "gh-yext-8180443",
         "gh-yext-8192355",
         "gh-yext-8192381",
+        "gh-yext-8224109",
         "gh-yext-8230657"
       ]
     },
@@ -5878,6 +5887,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-24T19:50:56.070736+00:00",
+  "last_run": "2026-09-24T23:00:26.117825+00:00",
   "pending_notifications": []
 }
