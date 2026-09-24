@@ -676,7 +676,8 @@
         "gh-doordashusa-8227346",
         "gh-doordashusa-8227394",
         "gh-doordashusa-8227575",
-        "gh-doordashusa-8227582"
+        "gh-doordashusa-8227582",
+        "gh-doordashusa-8227663"
       ]
     },
     "hubspot": {
@@ -885,6 +886,7 @@
         "gh-hubspotjobs-8139928",
         "gh-hubspotjobs-8143814",
         "gh-hubspotjobs-8143908",
+        "gh-hubspotjobs-8147286",
         "gh-hubspotjobs-8159454",
         "gh-hubspotjobs-8161433",
         "gh-hubspotjobs-8161436",
@@ -2378,6 +2380,7 @@
         "ashby-runway-ml-37be5175-5a9a-4bee-9b5e-fb475350806b",
         "ashby-runway-ml-40589c8a-b1dd-4ecb-b2d4-45dddeabc03f",
         "ashby-runway-ml-44c1578a-3b0c-4b64-b1c0-89f51e8635ee",
+        "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
         "ashby-runway-ml-5d5a91ae-b091-425c-96b5-2d4a88d0c796",
         "ashby-runway-ml-5e8d6c9b-0d30-4bb2-90a9-df7d937aa44e",
@@ -3386,8 +3389,10 @@
         "gh-datadog-8219989",
         "gh-datadog-8220473",
         "gh-datadog-8222279",
+        "gh-datadog-8223272",
         "gh-datadog-8223819",
         "gh-datadog-8223855",
+        "gh-datadog-8224963",
         "gh-datadog-8226275"
       ]
     },
@@ -3943,6 +3948,7 @@
         "gh-mongodb-8203765",
         "gh-mongodb-8205340",
         "gh-mongodb-8205425",
+        "gh-mongodb-8205430",
         "gh-mongodb-8205437",
         "gh-mongodb-8205445",
         "gh-mongodb-8208113",
@@ -5716,16 +5722,6 @@
       "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
     },
     {
-      "id": "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Senior Manager, Retail Sales - Costco",
-      "location": "4 Locations",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Senior-Manager--Retail-Sales---Costco_R-141987",
-      "first_seen": "2026-09-09T20:25:42.015781+00:00",
-      "fit_reason": "Field sales role at Coca-Cola (candidate's previous employer and stated exception to field-sales exclusion); meets 3-year floor; account management, strategy, and program execution align with growth/GTM work; title 'Senior Manager' is standard for this account-management level at Coca-Cola and doesn't disqualify early-career candidate with demonstrated portfolio-growth experience."
-    },
-    {
       "id": "gh-datadog-8186363",
       "company_key": "datadog",
       "company_name": "Datadog",
@@ -5826,6 +5822,6 @@
       "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial roles as a tech entry path."
     }
   ],
-  "last_run": "2026-09-24T01:04:30.056085+00:00",
+  "last_run": "2026-09-24T06:07:47.006976+00:00",
   "pending_notifications": []
 }
