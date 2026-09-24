@@ -2358,10 +2358,12 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
+        "ashby-runway-ml-06590ce3-fe8f-493f-8545-3f905c74f05f",
         "ashby-runway-ml-07c09e07-3dcd-44c3-a59e-86603d9d007d",
         "ashby-runway-ml-09442bd6-8749-45a0-bac3-cb4de65bc6f2",
         "ashby-runway-ml-0a79e4be-d7ea-4d43-9400-33a23f552b81",
         "ashby-runway-ml-0b7b8839-037f-4ccf-886b-6d247923601c",
+        "ashby-runway-ml-0c750d2f-f894-4c8d-8b47-f03ddbb794a6",
         "ashby-runway-ml-0de946b6-757b-48b1-a0a7-694db51c7eb1",
         "ashby-runway-ml-0f1c42db-8bbf-4e69-a17c-b6f45244605d",
         "ashby-runway-ml-0feb8680-6573-458b-b00d-98aea86a94f5",
@@ -5824,6 +5826,6 @@
       "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial roles as a tech entry path."
     }
   ],
-  "last_run": "2026-09-23T22:50:17.787266+00:00",
+  "last_run": "2026-09-24T01:04:30.056085+00:00",
   "pending_notifications": []
 }
