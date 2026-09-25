@@ -95,6 +95,7 @@
         "gh-doordashusa-7056968",
         "gh-doordashusa-7071290",
         "gh-doordashusa-7093699",
+        "gh-doordashusa-7118174",
         "gh-doordashusa-7144500",
         "gh-doordashusa-7144702",
         "gh-doordashusa-7163454",
@@ -682,7 +683,8 @@
         "gh-doordashusa-8227582",
         "gh-doordashusa-8227663",
         "gh-doordashusa-8227800",
-        "gh-doordashusa-8230773"
+        "gh-doordashusa-8230773",
+        "gh-doordashusa-8232958"
       ]
     },
     "hubspot": {
@@ -874,6 +876,7 @@
         "gh-hubspotjobs-8098253",
         "gh-hubspotjobs-8098444",
         "gh-hubspotjobs-8102396",
+        "gh-hubspotjobs-8102398",
         "gh-hubspotjobs-8103705",
         "gh-hubspotjobs-8103709",
         "gh-hubspotjobs-8105358",
@@ -909,6 +912,7 @@
         "gh-hubspotjobs-8176659",
         "gh-hubspotjobs-8177549",
         "gh-hubspotjobs-8179640",
+        "gh-hubspotjobs-8185547",
         "gh-hubspotjobs-8192229",
         "gh-hubspotjobs-8195046",
         "gh-hubspotjobs-8197796",
@@ -1213,6 +1217,7 @@
         "wd-snapchat-Client-Partner_R0046487",
         "wd-snapchat-Client-Partner_R0046583",
         "wd-snapchat-Client-Partner_R0046731",
+        "wd-snapchat-Client-Partner_R0046904",
         "wd-snapchat-Communications-Manager--Snapchat_R0046872",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
@@ -1368,6 +1373,7 @@
         "wd-snapchat-Senior-Accounts-Receivable-Analyst_R0046185-1",
         "wd-snapchat-Senior-Ad-Product-Quality-Analyst_R0046554",
         "wd-snapchat-Senior-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046262-1",
+        "wd-snapchat-Senior-Business-Intelligence-Engineer_R0046906-1",
         "wd-snapchat-Senior-Client-Partner--Business-Development_R0046060-1",
         "wd-snapchat-Senior-Client-Partner_Q326SCP8-1",
         "wd-snapchat-Senior-Client-Partner_R0046205-1",
@@ -1382,6 +1388,7 @@
         "wd-snapchat-Senior-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0046654",
         "wd-snapchat-Senior-Manager--Ads-Design_R0046431-1",
         "wd-snapchat-Senior-Manager--Agency_R0046414-1",
+        "wd-snapchat-Senior-Manager--EU-Public-Policy_R0046905-1",
         "wd-snapchat-Senior-Manager--GTM-Architect_R0046696-1",
         "wd-snapchat-Senior-Manager--Product-Management---Ad-Formats_R0046046-2",
         "wd-snapchat-Senior-Manager--Software-Engineering_H226SWEM10-1",
@@ -1524,6 +1531,9 @@
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics--NA_R-146600",
         "wd-coke-Consultant--Data---Analytics_R-145069",
+        "wd-coke-Consultant--FP-A-Supply-Chain-Corporate--APAC_R-146382",
+        "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-Americas_R-146380",
+        "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-EMEA_R-146383",
         "wd-coke-Consultant--HCM-Org-Design---Service-Delivery_R-146321",
         "wd-coke-Consultant--HR-Compliance_R-145174",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
@@ -1611,6 +1621,7 @@
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
         "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
+        "wd-coke-Director--National-Sales_R-146406",
         "wd-coke-Director--Omni-Channel-CBL_R-136219-1",
         "wd-coke-Director--On-Premise-Regional-Customers---Center-Zone_R-140822",
         "wd-coke-Director--Operational-Excellence---Digitalization_R-143299",
@@ -1869,6 +1880,7 @@
         "wd-coke-Senior-Director--Engineering---Supply-Chain-Product_R-145318",
         "wd-coke-Senior-Director--Executive-Recruiting_R-146715-1",
         "wd-coke-Senior-Director--Experience-Design---Connection-Planning---Sparkling-Flavors_R-138997-1",
+        "wd-coke-Senior-Director--FP-A-Supply-Chain-Corporate_R-146370",
         "wd-coke-Senior-Director--FSOP-Digital-Growth_R-145585",
         "wd-coke-Senior-Director--Financial-Planning-and-Analysis_R-144074",
         "wd-coke-Senior-Director--Flavors-Creative-Strategy---IMX--LATAM_R-145247",
@@ -1946,6 +1958,8 @@
         "wd-coke-Senior-Manager--Digital-Workplace-Analytics_R-144529",
         "wd-coke-Senior-Manager--Digitization--Mexico-Greenfield-_R-143158",
         "wd-coke-Senior-Manager--Engineering_R-146364-1",
+        "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate--Americas_R-146374",
+        "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate-EMEA_R-146377",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
         "wd-coke-Senior-Manager--Financial-Services_R-146271",
         "wd-coke-Senior-Manager--Franchise-Operations---HLJ_R-146357-1",
@@ -1960,6 +1974,7 @@
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
         "wd-coke-Senior-Manager--Legal-Counsel---CPS-and-Irish-Entities_R-145021",
+        "wd-coke-Senior-Manager--Marketing---Emerging-Categories_R-146848",
         "wd-coke-Senior-Manager--Marketing-Finance--Investment-Management_R-146755-1",
         "wd-coke-Senior-Manager--Material-Operations---Sourcing---Japan-Korea_R-135730",
         "wd-coke-Senior-Manager--Media-Operations-France_R-143840-1",
@@ -2110,6 +2125,7 @@
         "ashby-perplexity-6eedd99c-ff6a-470b-a7cc-3303e1c0b7fc",
         "ashby-perplexity-6f3c5131-2efa-400c-8248-44203a4dbfbb",
         "ashby-perplexity-71168628-1998-47d3-87a9-be7bc56a430d",
+        "ashby-perplexity-739411fa-6580-4c8b-9960-035d5fa3c00e",
         "ashby-perplexity-74a5eaeb-0a4b-412b-ac3a-ad73403b3fb7",
         "ashby-perplexity-759fc651-210a-48d5-8a9c-7f7789e20ab1",
         "ashby-perplexity-76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
@@ -2935,6 +2951,7 @@
         "gh-datadog-7329207",
         "gh-datadog-7338800",
         "gh-datadog-7338847",
+        "gh-datadog-7341691",
         "gh-datadog-7343626",
         "gh-datadog-7405822",
         "gh-datadog-7405831",
@@ -3382,6 +3399,7 @@
         "gh-datadog-8179766",
         "gh-datadog-8180459",
         "gh-datadog-8180585",
+        "gh-datadog-8180681",
         "gh-datadog-8181440",
         "gh-datadog-8184643",
         "gh-datadog-8184867",
@@ -3436,7 +3454,9 @@
         "gh-datadog-8223855",
         "gh-datadog-8224963",
         "gh-datadog-8226275",
+        "gh-datadog-8226522",
         "gh-datadog-8230456",
+        "gh-datadog-8230663",
         "gh-datadog-8231811"
       ]
     },
@@ -4011,6 +4031,7 @@
         "gh-mongodb-8221184",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
+        "gh-mongodb-8230143",
         "gh-mongodb-8231579"
       ]
     },
@@ -4463,6 +4484,7 @@
         "gh-braze-8220764",
         "gh-braze-8220899",
         "gh-braze-8220920",
+        "gh-braze-8222294",
         "gh-braze-8222430",
         "gh-braze-8223381",
         "gh-braze-8223809",
@@ -4479,7 +4501,10 @@
         "gh-braze-8227209",
         "gh-braze-8227313",
         "gh-braze-8227314",
-        "gh-braze-8227320"
+        "gh-braze-8227320",
+        "gh-braze-8232097",
+        "gh-braze-8232684",
+        "gh-braze-8232749"
       ]
     },
     "classpass": {
@@ -5034,6 +5059,7 @@
         "ashby-away-6987effc-7c0a-49ab-b328-d4c35a73ad1b",
         "ashby-away-71375e22-8f24-4671-aeda-d22b2db6b14c",
         "ashby-away-789b8fd5-2bf1-47f7-a63e-c8fecea0afcb",
+        "ashby-away-8ac30c6c-f437-4b70-8054-bb358647506a",
         "ashby-away-8da70ae5-3715-4967-9402-2504cd5647f3",
         "ashby-away-936d0360-44df-468d-a8e4-2afcac08a7e7",
         "ashby-away-9ce14d0e-c607-49e8-bbc8-6f939e194475",
@@ -5152,7 +5178,8 @@
         "gh-thefarmersdog-8782117002",
         "gh-thefarmersdog-8785774002",
         "gh-thefarmersdog-8789251002",
-        "gh-thefarmersdog-8812134002"
+        "gh-thefarmersdog-8812134002",
+        "gh-thefarmersdog-8843061002"
       ]
     },
     "kargo": {
@@ -5893,6 +5920,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-25T06:25:11.970642+00:00",
+  "last_run": "2026-09-25T17:05:21.258157+00:00",
   "pending_notifications": []
 }
