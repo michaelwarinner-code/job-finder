@@ -636,6 +636,7 @@
         "gh-doordashusa-8202720",
         "gh-doordashusa-8202736",
         "gh-doordashusa-8203919",
+        "gh-doordashusa-8204111",
         "gh-doordashusa-8204387",
         "gh-doordashusa-8204685",
         "gh-doordashusa-8205350",
@@ -686,7 +687,8 @@
         "gh-doordashusa-8230773",
         "gh-doordashusa-8232958",
         "gh-doordashusa-8233051",
-        "gh-doordashusa-8233217"
+        "gh-doordashusa-8233217",
+        "gh-doordashusa-8233953"
       ]
     },
     "hubspot": {
@@ -1405,6 +1407,7 @@
         "wd-snapchat-Senior-Residential-Security-Officer_R0046877-1",
         "wd-snapchat-Senior-SMC-Marketing-Specialist_R0046332-1",
         "wd-snapchat-Senior-Sales-Operations-Associate---Revenue-Tooling_R0046585-1",
+        "wd-snapchat-Senior-Specialist--Global-Sales-Onboarding--Fixed-Term-_R0046923-1",
         "wd-snapchat-Senior-Trust---Safety-Specialist_R0046434-2",
         "wd-snapchat-Social-Content-Manager_R0046568-1",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
@@ -2550,6 +2553,7 @@
         "ashby-elevenlabs-33bb01d0-993c-47fa-ae91-81c0c84f367e",
         "ashby-elevenlabs-33c501d9-f0d7-45b9-a90c-07c9c0b92f55",
         "ashby-elevenlabs-33e129a4-b818-4563-932c-719ce49d138a",
+        "ashby-elevenlabs-347282a4-74ff-4e56-a92d-3c4249ee6c28",
         "ashby-elevenlabs-34e9eed1-3fd4-4a25-8f02-dff7f12bebf6",
         "ashby-elevenlabs-356d08ba-6119-4c76-93ad-362ca7283569",
         "ashby-elevenlabs-36bdb528-004b-482c-8924-33b27b76121f",
@@ -3467,7 +3471,8 @@
         "gh-datadog-8226522",
         "gh-datadog-8230456",
         "gh-datadog-8230663",
-        "gh-datadog-8231811"
+        "gh-datadog-8231811",
+        "gh-datadog-8234190"
       ]
     },
     "mongodb": {
@@ -4042,6 +4047,7 @@
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
         "gh-mongodb-8230143",
+        "gh-mongodb-8230396",
         "gh-mongodb-8231010",
         "gh-mongodb-8231579"
       ]
@@ -5922,6 +5928,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-25T20:26:11.599564+00:00",
+  "last_run": "2026-09-25T23:24:50.761999+00:00",
   "pending_notifications": []
 }
