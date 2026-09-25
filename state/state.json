@@ -1527,6 +1527,7 @@
         "wd-coke-Consultant--HCM-Org-Design---Service-Delivery_R-146321",
         "wd-coke-Consultant--HR-Compliance_R-145174",
         "wd-coke-Consultant--Infrastructure-Engineer_R-141573",
+        "wd-coke-Consultant--Marketing--IMX----EPICS---Sampling_R-146566-1",
         "wd-coke-Consultant--Project-Manager_R-144938",
         "wd-coke-Consultant--Regulatory_R-145776",
         "wd-coke-Consultant--Strategy---Operations_R-140478",
@@ -1544,6 +1545,7 @@
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
         "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
+        "wd-coke-Director--Brand-Innovation-Platform_R-146451-1",
         "wd-coke-Director--Business-Analyst_R-145097",
         "wd-coke-Director--CCTM-Meals-Strategy_R-141714",
         "wd-coke-Director--Cappy-Turkiye_R-143866",
@@ -1668,6 +1670,7 @@
         "wd-coke-Groups-Coordinator--On-site-at-World-of-Coca-Cola-_R-145743",
         "wd-coke-Guest-Experience-Associate--Part-Time-_R-143664",
         "wd-coke-HR-Business-Partner_R-144976",
+        "wd-coke-Hungary-Operations-Finance-Manager_R-146710",
         "wd-coke-IQD-Laboratory-Analyst_R-145591",
         "wd-coke-Innovation-Tech-Lead_R-145106",
         "wd-coke-Intern--Consumer-and-Shopper-Insights--Trkiye_R-146454",
@@ -4466,6 +4469,7 @@
         "gh-braze-8223918",
         "gh-braze-8223928",
         "gh-braze-8223937",
+        "gh-braze-8223954",
         "gh-braze-8226558",
         "gh-braze-8226604",
         "gh-braze-8226918",
@@ -5889,6 +5893,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-25T01:25:57.691999+00:00",
+  "last_run": "2026-09-25T06:25:11.970642+00:00",
   "pending_notifications": []
 }
