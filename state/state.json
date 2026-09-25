@@ -684,7 +684,9 @@
         "gh-doordashusa-8227663",
         "gh-doordashusa-8227800",
         "gh-doordashusa-8230773",
-        "gh-doordashusa-8232958"
+        "gh-doordashusa-8232958",
+        "gh-doordashusa-8233051",
+        "gh-doordashusa-8233217"
       ]
     },
     "hubspot": {
@@ -850,6 +852,7 @@
         "gh-hubspotjobs-8043166",
         "gh-hubspotjobs-8044985",
         "gh-hubspotjobs-8046596",
+        "gh-hubspotjobs-8060201",
         "gh-hubspotjobs-8060346",
         "gh-hubspotjobs-8064342",
         "gh-hubspotjobs-8066767",
@@ -1339,6 +1342,7 @@
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0046741",
+        "wd-snapchat-Product-Manager--Safety-and-Law-Enforcement_R0046919-1",
         "wd-snapchat-Product-Manager--Sponsored-AR_R0046130-1",
         "wd-snapchat-Product-Marketing-Manager--Lenses_R0046599",
         "wd-snapchat-Product-Marketing-Manager_R0046085-1",
@@ -1379,6 +1383,7 @@
         "wd-snapchat-Senior-Client-Partner_R0046205-1",
         "wd-snapchat-Senior-Copywriter_R0046488-1",
         "wd-snapchat-Senior-Counsel--Corporate_R0045322-1",
+        "wd-snapchat-Senior-Counsel--Music_R0046921",
         "wd-snapchat-Senior-Creative-Producer_R0046493-1",
         "wd-snapchat-Senior-Creative-Producer_R0046727",
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
@@ -1392,6 +1397,7 @@
         "wd-snapchat-Senior-Manager--GTM-Architect_R0046696-1",
         "wd-snapchat-Senior-Manager--Product-Management---Ad-Formats_R0046046-2",
         "wd-snapchat-Senior-Manager--Software-Engineering_H226SWEM10-1",
+        "wd-snapchat-Senior-Manager--Treasury_R0046920-1",
         "wd-snapchat-Senior-Marketing-Scientist--Level-4_H226SMS4-1",
         "wd-snapchat-Senior-Marketing-Scientist_R0045832",
         "wd-snapchat-Senior-Marketing-Scientist_R0045833",
@@ -1436,6 +1442,7 @@
         "wd-snapchat-Staff-Marketing-Scientist_R0046857",
         "wd-snapchat-Staff-Marketing-Scientist_R0046858",
         "wd-snapchat-Staff-Product-Manager--Ads-Product---Brand_R0045634-1",
+        "wd-snapchat-Staff-Product-Manager--Spotlight-Monetization---Ad-Marketplace-Growth_R0046922-1",
         "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
         "wd-snapchat-Staff-Software-Engineer--Core-Infrastructure_R0046092-1",
@@ -1476,6 +1483,7 @@
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
+        "wd-coke-Assistant-Scientist--Stills--GDI_R-146887",
         "wd-coke-Associate-Manager--Soda-Fountain_R-146055",
         "wd-coke-Automation-Analyst_R-144804",
         "wd-coke-Automation-Director--APAC_R-146006-1",
@@ -1656,6 +1664,7 @@
         "wd-coke-Director-Sales-Systems--Tools---Reporting--Nutrition---0101-NA-Customer-Operations_R-145464",
         "wd-coke-Director-channel--Traditional-trade-and-Away-From-Home--Romania_R-146228",
         "wd-coke-Director-of-Engineering--Electrical-Controls---OT-Cybersecurity_R-145699",
+        "wd-coke-Director-of-Sales---Amazon---Whole-Foods-Market_R-146830",
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
         "wd-coke-Energy---Sustainability-Manager_R-140742",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
@@ -2401,6 +2410,7 @@
         "ashby-cursor-eabcff15-deb2-4e5c-a17d-8c36eb7f6c1d",
         "ashby-cursor-eb238291-8a00-4385-8108-4e4d634c2be0",
         "ashby-cursor-f27e0997-e283-4015-be61-e13d844a2834",
+        "ashby-cursor-f2cf204b-f469-4997-9508-f218c5869706",
         "ashby-cursor-f7ec7811-a573-42fa-8ade-01e2d07681ef",
         "ashby-cursor-fb97e304-9d99-4b07-9474-1290121a87d5",
         "ashby-cursor-fcdf7683-bd29-49a5-9284-f000b04a266a"
@@ -4032,6 +4042,7 @@
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
         "gh-mongodb-8230143",
+        "gh-mongodb-8231010",
         "gh-mongodb-8231579"
       ]
     },
@@ -5026,7 +5037,8 @@
         "gh-mavenclinic-8801848002",
         "gh-mavenclinic-8815343002",
         "gh-mavenclinic-8821478002",
-        "gh-mavenclinic-8822341002"
+        "gh-mavenclinic-8822341002",
+        "gh-mavenclinic-8845343002"
       ]
     },
     "away": {
@@ -5600,16 +5612,6 @@
       "fit_reason": "Growth Marketing Manager is a core target title; candidate meets the 3-year floor with 3.5 years of demonstrated growth/lifecycle marketing work (user acquisition, conversion optimization, campaign testing, analytics, paid social, email funnels, event attribution); hands-on experimental mindset and data-driven optimization across multiple channels align directly with posting's core functions; in-office San Francisco requirement is noted but not disqualifying on fit assessment."
     },
     {
-      "id": "ashby-runway-ml-40589c8a-b1dd-4ecb-b2d4-45dddeabc03f",
-      "company_key": "runway",
-      "company_name": "Runway",
-      "title": "Lifecycle Marketing Manager",
-      "location": "Remote",
-      "url": "https://jobs.ashbyhq.com/runway-ml/40589c8a-b1dd-4ecb-b2d4-45dddeabc03f",
-      "first_seen": "2026-08-24T19:37:13.086416+00:00",
-      "fit_reason": "Lifecycle marketing role with 3\u20136 year range (floor: 3 years) matches candidate's ~3 years relevant experience; core responsibilities (email campaigns, segmentation, A/B testing, retention, onboarding, performance analysis) directly align with demonstrated Chick-fil-A lifecycle work (win-back campaigns, conversion funnels, email sequences, event-to-funnel attribution); no cold calling or pure prospecting; hands-on execution and optimization fit candidate's analytical, revenue-driving profile."
-    },
-    {
       "id": "ashby-cursor-85c98417-583b-412e-b31a-e4052195b703",
       "company_key": "cursor",
       "company_name": "Cursor",
@@ -5920,6 +5922,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-25T17:05:21.258157+00:00",
+  "last_run": "2026-09-25T20:26:11.599564+00:00",
   "pending_notifications": []
 }
