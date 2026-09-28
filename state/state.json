@@ -687,10 +687,15 @@
         "gh-doordashusa-8230773",
         "gh-doordashusa-8232958",
         "gh-doordashusa-8233051",
+        "gh-doordashusa-8233065",
         "gh-doordashusa-8233217",
         "gh-doordashusa-8233953",
         "gh-doordashusa-8236029",
-        "gh-doordashusa-8236031"
+        "gh-doordashusa-8236031",
+        "gh-doordashusa-8236946",
+        "gh-doordashusa-8237299",
+        "gh-doordashusa-8237359",
+        "gh-doordashusa-8237701"
       ]
     },
     "hubspot": {
@@ -778,6 +783,7 @@
         "gh-hubspotjobs-6879960",
         "gh-hubspotjobs-6879961",
         "gh-hubspotjobs-6887348",
+        "gh-hubspotjobs-7005836",
         "gh-hubspotjobs-7083778",
         "gh-hubspotjobs-7120216",
         "gh-hubspotjobs-7120217",
@@ -913,6 +919,7 @@
         "gh-hubspotjobs-8165696",
         "gh-hubspotjobs-8174329",
         "gh-hubspotjobs-8174449",
+        "gh-hubspotjobs-8175193",
         "gh-hubspotjobs-8175195",
         "gh-hubspotjobs-8175197",
         "gh-hubspotjobs-8176657",
@@ -929,7 +936,8 @@
         "gh-hubspotjobs-8214455",
         "gh-hubspotjobs-8221496",
         "gh-hubspotjobs-8223099",
-        "gh-hubspotjobs-8223123"
+        "gh-hubspotjobs-8223123",
+        "gh-hubspotjobs-8236723"
       ]
     },
     "spotify": {
@@ -954,6 +962,7 @@
         "lever-spotify-17a75d93-835d-40ce-b31e-0c381b49f40a",
         "lever-spotify-181c3eec-8f64-455b-8b9d-fde8c7902d59",
         "lever-spotify-1849318a-d2e4-48a6-adad-68f8a4518f7d",
+        "lever-spotify-186b763a-2a61-4563-8813-ff6b40c9c8a7",
         "lever-spotify-1961fa91-bdba-450a-bfb6-fc8d8d5c9e9c",
         "lever-spotify-1a01cbcb-1b72-410d-a450-fb3175fa9d2b",
         "lever-spotify-1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
@@ -1396,6 +1405,7 @@
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
         "wd-snapchat-Senior-Electrical-Engineer_R0046042-1",
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
+        "wd-snapchat-Senior-Executive-Assistant_R0046941-1",
         "wd-snapchat-Senior-Indy-Agency-Partner_R0046366",
         "wd-snapchat-Senior-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0046654",
         "wd-snapchat-Senior-Manager--Ads-Design_R0046431-1",
@@ -1662,6 +1672,7 @@
         "wd-coke-Director--Sustainability-Strategy_R-146567",
         "wd-coke-Director--Sustainability_R-143238-1",
         "wd-coke-Director--Technical-Consumer-Data-Research_R-142555",
+        "wd-coke-Director--Technical-Innovation_R-146885",
         "wd-coke-Director--Trade-Strategy---Execution_R-145757",
         "wd-coke-Director--UI-UX-Designer_R-145100-1",
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
@@ -1703,6 +1714,7 @@
         "wd-coke-HR-Business-Partner_R-144976",
         "wd-coke-Hungary-Operations-Finance-Manager_R-146710",
         "wd-coke-IQD-Laboratory-Analyst_R-145591",
+        "wd-coke-Inbound-Specialist_R-146825",
         "wd-coke-Innovation-Tech-Lead_R-145106",
         "wd-coke-Intern--Consumer-and-Shopper-Insights--Trkiye_R-146454",
         "wd-coke-Intern--Financial-Planning---Analysis_R-146385",
@@ -1714,6 +1726,7 @@
         "wd-coke-Key-Account-Manager--Albertsons---Phoenix--AZ_R-145386",
         "wd-coke-Key-Account-Manager_R-140528",
         "wd-coke-Lab-Analyst--Temporal-_R-145260",
+        "wd-coke-Lab-Process---Innovation-Specialist_R-146975-1",
         "wd-coke-Laboratory-Analyst_R-145915",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
         "wd-coke-Legal-Intern_R-146785",
@@ -1730,6 +1743,7 @@
         "wd-coke-Maintenance-Parts-Clerk_R-146573",
         "wd-coke-Maintenance-Tech-II---Days-Mon-Fri---33-per-hour_R-143762",
         "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-144017",
+        "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-146026-1",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d---Days_R-137362",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d--Nights_R-142967",
         "wd-coke-Maintenance-Technician--2p-10-30p-_R-145242",
@@ -1783,6 +1797,7 @@
         "wd-coke-Material-Handler---Nights_R-145419",
         "wd-coke-Material-Handler---Nights_R-146519",
         "wd-coke-Material-Operations-Intern_R-146865",
+        "wd-coke-Material-Operations-Intern_R-146983",
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
         "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
         "wd-coke-Operational-Excellence-Manager_R-144726",
@@ -1894,6 +1909,8 @@
         "wd-coke-Senior-Director--Data-Analytics_R-144573",
         "wd-coke-Senior-Director--Data-Architecture---Engineering_R-145264",
         "wd-coke-Senior-Director--Data-Architecture--Next-Gen-_R-144401",
+        "wd-coke-Senior-Director--Data-Engineering_R-144403",
+        "wd-coke-Senior-Director--Data-Integrations_R-144402",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
         "wd-coke-Senior-Director--Digital-Transformation-GCM_R-144510-1",
         "wd-coke-Senior-Director--Electrical-Subsystem_R-144022-1",
@@ -2041,6 +2058,7 @@
         "wd-coke-Sr-Director--Product-Management---Delivery---Flex_R-144580",
         "wd-coke-Sr-Director-II--Social---Community_R-145619",
         "wd-coke-Sr-Key-Account-Manager---West-Convenience-Retail_R-145495",
+        "wd-coke-Sr-Key-Account-Manager--Walmart-_R-146721",
         "wd-coke-Sr-Mgr--Analytical-Chemistry_R-139831",
         "wd-coke-Staff-Product-Designer_R-145061",
         "wd-coke-Staff-Product-Designer_R-145740",
@@ -2065,6 +2083,7 @@
         "wd-coke-Warehouse-Operator_R-146216",
         "wd-coke-Warehouse-Operator_R-146696",
         "wd-coke-Warehouse-Operator_R-146750",
+        "wd-coke-Warehouse-Operator_R-146795",
         "wd-coke-Warehouse-Receiver--Retail---The-Coca-Cola-Store-_R-145447",
         "wd-coke-Warehouse-Technician--2nd-Shift-1p-9-30p-_R-145510-1",
         "wd-coke-Warehouse-Technician_R-144973",
@@ -3467,6 +3486,7 @@
         "gh-datadog-8210153",
         "gh-datadog-8210323",
         "gh-datadog-8210507",
+        "gh-datadog-8211078",
         "gh-datadog-8211090",
         "gh-datadog-8211563",
         "gh-datadog-8212114",
@@ -4447,6 +4467,7 @@
         "gh-braze-8180530",
         "gh-braze-8180534",
         "gh-braze-8180540",
+        "gh-braze-8181443",
         "gh-braze-8181445",
         "gh-braze-8184179",
         "gh-braze-8185912",
@@ -4501,6 +4522,7 @@
         "gh-braze-8209438",
         "gh-braze-8211012",
         "gh-braze-8211330",
+        "gh-braze-8211807",
         "gh-braze-8211991",
         "gh-braze-8212005",
         "gh-braze-8212006",
@@ -4520,10 +4542,12 @@
         "gh-braze-8222430",
         "gh-braze-8223381",
         "gh-braze-8223809",
+        "gh-braze-8223811",
         "gh-braze-8223918",
         "gh-braze-8223928",
         "gh-braze-8223937",
         "gh-braze-8223954",
+        "gh-braze-8225835",
         "gh-braze-8226558",
         "gh-braze-8226604",
         "gh-braze-8226918",
@@ -4536,7 +4560,13 @@
         "gh-braze-8227320",
         "gh-braze-8232097",
         "gh-braze-8232684",
-        "gh-braze-8232749"
+        "gh-braze-8232749",
+        "gh-braze-8232844",
+        "gh-braze-8232845",
+        "gh-braze-8236740",
+        "gh-braze-8236746",
+        "gh-braze-8237686",
+        "gh-braze-8237697"
       ]
     },
     "classpass": {
@@ -4643,6 +4673,7 @@
         "gh-justworks-5136582",
         "gh-justworks-5803389",
         "gh-justworks-6318505",
+        "gh-justworks-6522713",
         "gh-justworks-6917404",
         "gh-justworks-7137401",
         "gh-justworks-7137456",
@@ -4842,7 +4873,8 @@
         "gh-appsflyer-8813084002",
         "gh-appsflyer-8816027002",
         "gh-appsflyer-8816080002",
-        "gh-appsflyer-8816205002"
+        "gh-appsflyer-8816205002",
+        "gh-appsflyer-8852064002"
       ]
     },
     "attentive": {
@@ -5160,7 +5192,8 @@
         "gh-movableink-8194455",
         "gh-movableink-8194456",
         "gh-movableink-8194496",
-        "gh-movableink-8211505"
+        "gh-movableink-8211505",
+        "gh-movableink-8221933"
       ]
     },
     "thefarmersdog": {
@@ -5694,16 +5727,6 @@
       "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and expansion within existing strategic accounts\u2014directly aligned with candidate's target revenue operations/account management path; 3+ years requirement meets candidate's ~3 years relevant experience; travel and Fortune 1000 exposure fit candidate's demonstrated ability to manage complex, multi-stakeholder relationships at Chick-fil-A."
     },
     {
-      "id": "gh-datadog-8049521",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "GTM Operations Associate",
-      "location": "New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/8049521/?gh_jid=8049521",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "GTM Operations role aligns with revenue operations target; candidate's 3+ years of operational, data-driven, and cross-functional work (dashboards, process automation, analytics) meets the 2\u20134 year range floor; Salesforce and Excel skills demonstrated; bonus automation/AI experience directly matches candidate's Google Apps Script and AI tooling background."
-    },
-    {
       "id": "gh-appsflyer-8531937002",
       "company_key": "appsflyer",
       "company_name": "AppsFlyer",
@@ -5944,6 +5967,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-28T11:37:17.352273+00:00",
+  "last_run": "2026-09-28T18:43:05.433944+00:00",
   "pending_notifications": []
 }
