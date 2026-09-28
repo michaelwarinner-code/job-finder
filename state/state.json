@@ -2293,6 +2293,7 @@
         "ashby-cursor-123af173-6f9b-4089-9d96-d0c028b9e841",
         "ashby-cursor-1240b4aa-8074-4afb-ae36-a690869c8233",
         "ashby-cursor-15ccad54-d36b-410d-a21d-ac9821af269c",
+        "ashby-cursor-166c3951-1d2a-4e61-b79b-bedefe96073b",
         "ashby-cursor-167f0e93-6915-4d56-803a-be89d1441fb5",
         "ashby-cursor-1703501f-53a1-4307-93ec-84b723be92ef",
         "ashby-cursor-175cb50f-063c-4d02-8954-568a9c3821bf",
@@ -2391,6 +2392,7 @@
         "ashby-cursor-c14f522f-73a4-4018-a977-0e5e4cfc2371",
         "ashby-cursor-c1ac67d4-645a-4632-a178-ea6b5f49bb26",
         "ashby-cursor-c2fb18fe-8d3d-4803-b21b-2f7e8b700d9d",
+        "ashby-cursor-c30b1b69-518a-4fdd-a316-667380bcd608",
         "ashby-cursor-c43bdded-80a1-4705-a0ec-8217d771528c",
         "ashby-cursor-c4be0272-542c-4bf1-b890-8785d3044bed",
         "ashby-cursor-c50a7358-cc49-4225-bab0-3475f80ad156",
@@ -4051,6 +4053,7 @@
         "gh-mongodb-8214009",
         "gh-mongodb-8221182",
         "gh-mongodb-8221184",
+        "gh-mongodb-8221293",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
         "gh-mongodb-8230143",
@@ -5935,6 +5938,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-27T23:58:21.824237+00:00",
+  "last_run": "2026-09-28T04:59:34.167234+00:00",
   "pending_notifications": []
 }
