@@ -47,6 +47,7 @@
         "gh-doordashusa-5834559",
         "gh-doordashusa-5941044",
         "gh-doordashusa-5976796",
+        "gh-doordashusa-6101593",
         "gh-doordashusa-6103225",
         "gh-doordashusa-6104302",
         "gh-doordashusa-6107041",
@@ -1008,6 +1009,7 @@
         "lever-spotify-5fce53f3-83dd-4b6a-9058-a2c295560966",
         "lever-spotify-600a4ac7-6ffa-4ced-8d34-253d00147aa9",
         "lever-spotify-64ef2493-3b1e-407a-ac07-9e95a57f6d7c",
+        "lever-spotify-65d6caca-6d7c-4049-8256-a128e0e7249e",
         "lever-spotify-6a1a105a-b471-4a68-aea8-54cdb1051a21",
         "lever-spotify-6a2a32ab-2ed8-4ce3-94d5-0be9be9b01b7",
         "lever-spotify-6c591c8a-9aeb-4760-ace1-1942da31aca9",
@@ -1246,6 +1248,8 @@
         "wd-snapchat-Communications-Manager--Snapchat_R0046872",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
+        "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046958-1",
+        "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046959-2",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
         "wd-snapchat-Core-Product-Designer_H226CPD3-1",
         "wd-snapchat-Creative-Lead--SPECS-Social---Content_R0046944",
@@ -1378,6 +1382,7 @@
         "wd-snapchat-Quality-Engineer_R0046895-2",
         "wd-snapchat-RF-Hardware-Engineer--Level-6_R0046667-1",
         "wd-snapchat-RF-Test-Engineer_R0043302-1",
+        "wd-snapchat-RTL-Design-Engineer_R0046961",
         "wd-snapchat-Regulatory-Counsel_R0046380-2",
         "wd-snapchat-Reliability-and-Failure-Analysis-Engineer_R0045763-1",
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
@@ -1513,6 +1518,7 @@
         "wd-coke-Apprentice_R-146209",
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
+        "wd-coke-Assistant-Scientist--Product--GDI_R-146914",
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
         "wd-coke-Assistant-Scientist--Stills--GDI_R-146887",
         "wd-coke-Associate-Manager--Soda-Fountain_R-146055",
@@ -1588,6 +1594,7 @@
         "wd-coke-Customer-Service-Intern_R-146483",
         "wd-coke-Customer-Service-Specialist--7-months-_R-143732-1",
         "wd-coke-Data-Engineer_R-144507-1",
+        "wd-coke-Data-Scientist---Global-Equipment-Platforms--Coca-Cola-GEP-_R-143205",
         "wd-coke-Demand-Planning-Specialist_R-146199",
         "wd-coke-Digital-Change-Leadership---Communications_R-144406",
         "wd-coke-Director---Toxicology_R-146089-1",
@@ -1677,6 +1684,7 @@
         "wd-coke-Director--Scientific---Regulatory-Affairs_R-141084",
         "wd-coke-Director--Scientific-and-Regulatory-Affairs_R-140079-1",
         "wd-coke-Director--Shopper-Science-and-Insights_R-145546",
+        "wd-coke-Director--Sprite_R-146823-1",
         "wd-coke-Director--Stills--Belux_R-138613-1",
         "wd-coke-Director--Strategic-Growth_R-138464-2",
         "wd-coke-Director--Strategic-Insights---Analytics_R-145231",
@@ -1732,6 +1740,7 @@
         "wd-coke-Intern---Market-Research-Insight_R-146958",
         "wd-coke-Intern--Consumer-and-Shopper-Insights--Trkiye_R-146454",
         "wd-coke-Intern--Financial-Planning---Analysis_R-146385",
+        "wd-coke-Intern--PACS-Strategic-Initiatives---New-Technologies_R-146863",
         "wd-coke-International-Treasury-Services-Manager_R-145730",
         "wd-coke-Junior-Buyer---Strategic-Sourcing--Ingredients_R-145156",
         "wd-coke-Junior-Buyer--Strategic-Sourcing--Ingredients_R-145160",
@@ -2022,6 +2031,7 @@
         "wd-coke-Senior-Manager--Functional-Ingredient-Research---Application-and-Ingredient-Delivery_R-145918",
         "wd-coke-Senior-Manager--Global-Financial-Planning---Analysis_R-145462",
         "wd-coke-Senior-Manager--Greenfield-Automation-Program_R-138095-5",
+        "wd-coke-Senior-Manager--IMX---Consumer---Shopper-Connection-Planning---Sparkling-Flavors_R-146944-1",
         "wd-coke-Senior-Manager--Industry-Insights_R-146014",
         "wd-coke-Senior-Manager--Insights_R-144275",
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
@@ -3504,6 +3514,7 @@
         "gh-datadog-8204065",
         "gh-datadog-8204163",
         "gh-datadog-8204554",
+        "gh-datadog-8204629",
         "gh-datadog-8206747",
         "gh-datadog-8206923",
         "gh-datadog-8210153",
@@ -3526,6 +3537,7 @@
         "gh-datadog-8224963",
         "gh-datadog-8226275",
         "gh-datadog-8226522",
+        "gh-datadog-8230270",
         "gh-datadog-8230456",
         "gh-datadog-8230663",
         "gh-datadog-8231811",
@@ -3638,6 +3650,7 @@
         "gh-mongodb-7607210",
         "gh-mongodb-7613562",
         "gh-mongodb-7613587",
+        "gh-mongodb-7613665",
         "gh-mongodb-7613695",
         "gh-mongodb-7615794",
         "gh-mongodb-7617019",
@@ -4058,6 +4071,7 @@
         "gh-mongodb-8177031",
         "gh-mongodb-8177034",
         "gh-mongodb-8177496",
+        "gh-mongodb-8178900",
         "gh-mongodb-8180105",
         "gh-mongodb-8180129",
         "gh-mongodb-8181144",
@@ -4080,6 +4094,7 @@
         "gh-mongodb-8201173",
         "gh-mongodb-8201245",
         "gh-mongodb-8201521",
+        "gh-mongodb-8201554",
         "gh-mongodb-8201557",
         "gh-mongodb-8203765",
         "gh-mongodb-8205340",
@@ -4087,6 +4102,7 @@
         "gh-mongodb-8205430",
         "gh-mongodb-8205437",
         "gh-mongodb-8205445",
+        "gh-mongodb-8206794",
         "gh-mongodb-8208074",
         "gh-mongodb-8208113",
         "gh-mongodb-8208271",
@@ -4103,12 +4119,15 @@
         "gh-mongodb-8221184",
         "gh-mongodb-8221290",
         "gh-mongodb-8221293",
+        "gh-mongodb-8222977",
+        "gh-mongodb-8224590",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
         "gh-mongodb-8230143",
         "gh-mongodb-8230396",
         "gh-mongodb-8231010",
-        "gh-mongodb-8231579"
+        "gh-mongodb-8231579",
+        "gh-mongodb-8238623"
       ]
     },
     "braze": {
@@ -4827,7 +4846,8 @@
         "gh-justworks-8180743",
         "gh-justworks-8212087",
         "gh-justworks-8214215",
-        "gh-justworks-8231134"
+        "gh-justworks-8231134",
+        "gh-justworks-8237024"
       ]
     },
     "appsflyer": {
@@ -4905,7 +4925,8 @@
         "gh-appsflyer-8816027002",
         "gh-appsflyer-8816080002",
         "gh-appsflyer-8816205002",
-        "gh-appsflyer-8852064002"
+        "gh-appsflyer-8852064002",
+        "gh-appsflyer-8855151002"
       ]
     },
     "attentive": {
@@ -4967,6 +4988,7 @@
         "gh-attentive-4408455009",
         "gh-attentive-4410440009",
         "gh-attentive-4413218009",
+        "gh-attentive-4415182009",
         "gh-attentive-4418793009"
       ]
     },
@@ -5067,7 +5089,8 @@
         "gh-yext-8192381",
         "gh-yext-8223597",
         "gh-yext-8224109",
-        "gh-yext-8230657"
+        "gh-yext-8230657",
+        "gh-yext-8239363"
       ]
     },
     "mavenclinic": {
@@ -5170,6 +5193,7 @@
         "ashby-away-e12f950c-b226-4d67-b427-b3746ca718ef",
         "ashby-away-e1c844df-4c20-444c-8a96-ac55fa8906d7",
         "ashby-away-e7229828-24eb-4fb3-afa2-bfe63c79738c",
+        "ashby-away-f3ef5ae9-dfa2-43c7-86d1-913ff0f45280",
         "ashby-away-f6656815-f67a-4b89-a18a-3ab695bb0de5",
         "ashby-away-f7304f03-ed5f-4580-908e-2a81d57bf510"
       ]
@@ -5999,6 +6023,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-29T09:05:42.655326+00:00",
+  "last_run": "2026-09-29T15:44:17.438863+00:00",
   "pending_notifications": []
 }
