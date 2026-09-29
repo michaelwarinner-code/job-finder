@@ -688,6 +688,7 @@
         "gh-doordashusa-8227800",
         "gh-doordashusa-8230773",
         "gh-doordashusa-8232958",
+        "gh-doordashusa-8233039",
         "gh-doordashusa-8233051",
         "gh-doordashusa-8233065",
         "gh-doordashusa-8233217",
@@ -702,7 +703,9 @@
         "gh-doordashusa-8237913",
         "gh-doordashusa-8238312",
         "gh-doordashusa-8238643",
-        "gh-doordashusa-8238670"
+        "gh-doordashusa-8238670",
+        "gh-doordashusa-8239753",
+        "gh-doordashusa-8239768"
       ]
     },
     "hubspot": {
@@ -1036,6 +1039,7 @@
         "lever-spotify-890b2c0f-f46f-4a4b-bb73-3a6af6e0edd5",
         "lever-spotify-89e139e7-76fd-4063-8850-ba13c555446c",
         "lever-spotify-8a9cc53c-48c0-4d43-8287-d81ab09e74fa",
+        "lever-spotify-8c8c3cfc-4156-4dad-bb6d-48266766e94a",
         "lever-spotify-973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b",
         "lever-spotify-9761af44-be41-43ca-8c01-79cdbb2aef93",
         "lever-spotify-99860086-49bc-46b4-97ec-99d8993ffffb",
@@ -1554,6 +1558,7 @@
         "wd-coke-CPS-SG-Project-Process-Engineer_R-144746",
         "wd-coke-CPS-SG-Talent-Acquisition-and-Development-Specialist--9-months-contract-_R-144241",
         "wd-coke-CPSNA-Engineering-Strategic-Project-Director_R-146331",
+        "wd-coke-CPSNA-Laboratory-Supervisor_R-147030",
         "wd-coke-CPSNA-Sustainability-Sr-Manager_R-146024",
         "wd-coke-CRI-Engineer-Manager_R-145163",
         "wd-coke-Clerical-de-Almacn_R-146674",
@@ -1623,6 +1628,7 @@
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
         "wd-coke-Director--Customer-Strategic-Insights---Foodservice-and-On-Premise_R-146486",
         "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
+        "wd-coke-Director--Data-Governance-Product-Data_R-146881",
         "wd-coke-Director--Data-Science_R-144498-1",
         "wd-coke-Director--Data-Solution-Owner_R-145265",
         "wd-coke-Director--Data-and-Analytics--Governance-and-Innovation_R-144514-1",
@@ -1962,6 +1968,7 @@
         "wd-coke-Senior-Director--IT-Governance-and-Security-Controls_R-146318",
         "wd-coke-Senior-Director--Innovation-Product-Manager_R-145105-1",
         "wd-coke-Senior-Director--Intelligent-Enterprise-Product-Manager_R-145107-1",
+        "wd-coke-Senior-Director--MDS--Mexico-North_R-145919",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
@@ -2273,6 +2280,7 @@
         "ashby-perplexity-fb1815de-07d9-4933-8746-979dbcb00870",
         "ashby-perplexity-fbbd496b-1d14-4396-b31d-38fbea0dc666",
         "ashby-perplexity-fcb4cc78-d4bd-4489-8756-7d39e755ac76",
+        "ashby-perplexity-fd64d88c-823e-4329-b133-f09754e0f4b8",
         "ashby-perplexity-fdc2ea75-c198-4a9e-9c0a-df835ed61ed0",
         "ashby-perplexity-fed8d2c4-9c82-43ad-a168-434146c759ff"
       ]
@@ -3524,6 +3532,7 @@
         "gh-datadog-8211090",
         "gh-datadog-8211563",
         "gh-datadog-8212114",
+        "gh-datadog-8212513",
         "gh-datadog-8213715",
         "gh-datadog-8214090",
         "gh-datadog-8219989",
@@ -3541,7 +3550,9 @@
         "gh-datadog-8230456",
         "gh-datadog-8230663",
         "gh-datadog-8231811",
-        "gh-datadog-8234190"
+        "gh-datadog-8234190",
+        "gh-datadog-8237622",
+        "gh-datadog-8237641"
       ]
     },
     "mongodb": {
@@ -4531,6 +4542,7 @@
         "gh-braze-8191278",
         "gh-braze-8191699",
         "gh-braze-8192072",
+        "gh-braze-8192090",
         "gh-braze-8192194",
         "gh-braze-8192196",
         "gh-braze-8192199",
@@ -4607,6 +4619,7 @@
         "gh-braze-8232749",
         "gh-braze-8232844",
         "gh-braze-8232845",
+        "gh-braze-8233252",
         "gh-braze-8233662",
         "gh-braze-8233667",
         "gh-braze-8233671",
@@ -4846,6 +4859,7 @@
         "gh-justworks-8180743",
         "gh-justworks-8212087",
         "gh-justworks-8214215",
+        "gh-justworks-8221081",
         "gh-justworks-8231134",
         "gh-justworks-8237024"
       ]
@@ -5090,7 +5104,8 @@
         "gh-yext-8223597",
         "gh-yext-8224109",
         "gh-yext-8230657",
-        "gh-yext-8239363"
+        "gh-yext-8239363",
+        "gh-yext-8239441"
       ]
     },
     "mavenclinic": {
@@ -5963,16 +5978,6 @@
       "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
     },
     {
-      "id": "gh-doordashusa-8227034",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate Marketing Manager - Dasher Engagement & Earnings",
-      "location": "Atlanta, GA; Austin, TX; Chicago, IL; Denver, CO; Los Angeles, CA; Miami, FL; Mountain View, CA; New York, NY; Phoenix, AZ; San Francisco, CA; Seattle, WA; Sunnyvale, CA; Boston, MA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8227034",
-      "first_seen": "2026-09-23T22:50:17.787266+00:00",
-      "fit_reason": "Associate Marketing Manager role in lifecycle/engagement marketing (GTM launches, campaign execution, A/B testing, retention programs) aligns directly with candidate's core targets; 2-4 years requirement matches candidate's ~3 years relevant experience; no cold calling or pure prospecting; execution and optimization work dominates responsibilities."
-    },
-    {
       "id": "gh-braze-8227314",
       "company_key": "braze",
       "company_name": "Braze",
@@ -6023,6 +6028,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-29T15:44:17.438863+00:00",
+  "last_run": "2026-09-29T20:14:45.999144+00:00",
   "pending_notifications": []
 }
