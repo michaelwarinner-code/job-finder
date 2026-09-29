@@ -699,13 +699,15 @@
         "gh-doordashusa-8237299",
         "gh-doordashusa-8237359",
         "gh-doordashusa-8237701",
+        "gh-doordashusa-8237721",
         "gh-doordashusa-8237757",
         "gh-doordashusa-8237913",
         "gh-doordashusa-8238312",
         "gh-doordashusa-8238643",
         "gh-doordashusa-8238670",
         "gh-doordashusa-8239753",
-        "gh-doordashusa-8239768"
+        "gh-doordashusa-8239768",
+        "gh-doordashusa-8240696"
       ]
     },
     "hubspot": {
@@ -1230,6 +1232,7 @@
         "wd-snapchat-Accounts-Receivable-Analyst_R0045979-1",
         "wd-snapchat-Ad-Review---Integrity-Specialist_R0046549-1",
         "wd-snapchat-Agency-Lead_R0046693-1",
+        "wd-snapchat-Agency-Lead_R0046975",
         "wd-snapchat-Agency-Partner_R0045546-2",
         "wd-snapchat-Art-Director--SPECS-Marketing_R0046647-1",
         "wd-snapchat-Art-Director_R0046610-1",
@@ -1325,6 +1328,7 @@
         "wd-snapchat-Machine-Learning-Engineer_R0046510",
         "wd-snapchat-Machine-Learning-Engineer_R0046894",
         "wd-snapchat-Manager--Business-Development_R0046165-1",
+        "wd-snapchat-Manager--CRM-Product-Management_R0046897",
         "wd-snapchat-Manager--Client-Partner--RMG--Gaming-_R0046104-1",
         "wd-snapchat-Manager--Client-Partner--SMC_H226MCPSMC10-1",
         "wd-snapchat-Manager--Client-Partner_H22026MCP10",
@@ -1344,6 +1348,7 @@
         "wd-snapchat-Manager--Revenue-Programs--China_R0046084-1",
         "wd-snapchat-Manager--SMC-Marketing--B2B-_R0046334-1",
         "wd-snapchat-Manager--Security-Engineering--Identity-Access-Management_R0045588-1",
+        "wd-snapchat-Manager--Security-Engineering--Production-Security_R0046973-1",
         "wd-snapchat-Manager--Security-Engineering_R0046784-1",
         "wd-snapchat-Manager--Software-Engineering--Maps_R0046369-1",
         "wd-snapchat-Manager--Software-Engineering--Safety-Engineering-Mobile-Client_R0046266-1",
@@ -1359,6 +1364,7 @@
         "wd-snapchat-People-Application-Developer_R0045795-1",
         "wd-snapchat-People-Operations-Generalist_R0046734-1",
         "wd-snapchat-People-Operations-Program-Manager_R0046736-1",
+        "wd-snapchat-Principal-Machine-Learning-Engineer--Signals-and-Measurement_R0046974",
         "wd-snapchat-Principal-Marketing-Scientist--Level-6_R0046642-1",
         "wd-snapchat-Principal-Software-Engineer--Ads-Format--Level-7_R0041203",
         "wd-snapchat-Principal-Software-Engineer--Ads-Platform_H226PEM10-1",
@@ -1396,6 +1402,7 @@
         "wd-snapchat-Security-Engineer--Level-4_H226SWES2-1",
         "wd-snapchat-Security-Engineer--Level-5--Detection---Response_H226SE6",
         "wd-snapchat-Security-Engineer--Level-5--Detection---Response_R0045495-1",
+        "wd-snapchat-Security-Engineer--Level-5--Infrastructure-Security_R0046969-1",
         "wd-snapchat-Security-Engineer--Level-5--Offensive-Security_R0046945-1",
         "wd-snapchat-Security-Engineer--Threat-Intelligence_R0045761",
         "wd-snapchat-Security-Engineer_R0046072-2",
@@ -1494,6 +1501,7 @@
         "wd-snapchat-Staff-Technical-Program-Manager--ML-Platform_R0046540",
         "wd-snapchat-Technical-Operations-Manufacturing-Electrical-Engineer_R0044144-1",
         "wd-snapchat-Technical-Partner-Manager--Enterprise-Solutions_H226TPMES-1",
+        "wd-snapchat-Technical-Program-Manager--Monetization_R0046971",
         "wd-snapchat-Technical-Program-Manager_R0045839",
         "wd-snapchat-Test-Engineer--Camera-and-Sensing_R0043789",
         "wd-snapchat-Verification-Engineer-Intern_R0045122",
@@ -1839,6 +1847,7 @@
         "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
         "wd-coke-Plant-General-Manager_R-143107",
+        "wd-coke-Plant-Maintenance-Technician_R-146744",
         "wd-coke-Plant-Quality-Assurance-Technician--2nd-Shift-1-30p-10p-_R-146921",
         "wd-coke-Prin-Financial-Analyst_R-146223-1",
         "wd-coke-Principal--Marketing-AI-Applications_R-145807",
@@ -6028,6 +6037,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-29T20:14:45.999144+00:00",
+  "last_run": "2026-09-29T23:46:01.253663+00:00",
   "pending_notifications": []
 }
