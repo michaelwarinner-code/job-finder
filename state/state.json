@@ -708,7 +708,13 @@
         "gh-doordashusa-8238670",
         "gh-doordashusa-8239753",
         "gh-doordashusa-8239768",
-        "gh-doordashusa-8240696"
+        "gh-doordashusa-8240696",
+        "gh-doordashusa-8240747",
+        "gh-doordashusa-8242688",
+        "gh-doordashusa-8243349",
+        "gh-doordashusa-8243566",
+        "gh-doordashusa-8243739",
+        "gh-doordashusa-8244193"
       ]
     },
     "hubspot": {
@@ -950,7 +956,8 @@
         "gh-hubspotjobs-8221496",
         "gh-hubspotjobs-8223099",
         "gh-hubspotjobs-8223123",
-        "gh-hubspotjobs-8236723"
+        "gh-hubspotjobs-8236723",
+        "gh-hubspotjobs-8243591"
       ]
     },
     "spotify": {
@@ -1014,6 +1021,7 @@
         "lever-spotify-5992c673-e493-48b1-bb63-9b82a4c31876",
         "lever-spotify-5fce53f3-83dd-4b6a-9058-a2c295560966",
         "lever-spotify-600a4ac7-6ffa-4ced-8d34-253d00147aa9",
+        "lever-spotify-638f1177-8a2b-4b43-9363-c7056b8ef929",
         "lever-spotify-64ef2493-3b1e-407a-ac07-9e95a57f6d7c",
         "lever-spotify-65d6caca-6d7c-4049-8256-a128e0e7249e",
         "lever-spotify-6a1a105a-b471-4a68-aea8-54cdb1051a21",
@@ -1158,6 +1166,7 @@
         "ashby-claylabs-4be52dd6-244b-4e27-bf4a-757a1094a82a",
         "ashby-claylabs-4f064364-a433-4eb2-bb42-4c902d2199d3",
         "ashby-claylabs-546b27c1-8808-4808-bd98-5c6cad88d88c",
+        "ashby-claylabs-5b7eced2-36bd-4265-a2a8-da0f786e47aa",
         "ashby-claylabs-5c842630-800d-4288-977c-d3e6088ebda9",
         "ashby-claylabs-5e07db20-d96a-4dff-b7d3-3bf1cdde6fc1",
         "ashby-claylabs-5e181784-40d0-4b32-92fe-96a6a8caa1ff",
@@ -1343,6 +1352,7 @@
         "wd-snapchat-Manager--Environmental-Health---Safety--Specs-Operations_R0045982",
         "wd-snapchat-Manager--Executive---Social-Communications_R0046249-1",
         "wd-snapchat-Manager--Global-Brand-Experience_R0046381",
+        "wd-snapchat-Manager--Machine-Learning-Engineering--Advertiser-Experience-ML_R0046989-1",
         "wd-snapchat-Manager--Machine-Learning-Engineering--Web-Ads-Ranking_R0046000",
         "wd-snapchat-Manager--Marketing_R0046167-1",
         "wd-snapchat-Manager--Partnership-Operations_R0046279",
@@ -1608,6 +1618,7 @@
         "wd-coke-Consultant--Project-Manager_R-144938",
         "wd-coke-Consultant--Regulatory_R-145776",
         "wd-coke-Consultant--Strategy---Operations_R-140478",
+        "wd-coke-Consultant--Transportation-Administrator_R-146906",
         "wd-coke-Customer-Development-Manager--Consultant_R-146432",
         "wd-coke-Customer-Master-Data-and-Billing-Manager_R-146273",
         "wd-coke-Customer-Reimbursements-and-Accounts-Receivable-Manager_R-146272",
@@ -1638,6 +1649,7 @@
         "wd-coke-Director--Connections---Media_R-145044",
         "wd-coke-Director--Counsel-Trademarks_R-145859",
         "wd-coke-Director--Creative---Advanced-Hydration_R-146732-1",
+        "wd-coke-Director--Creative---Water--Tea-and-Coffee_R-147093",
         "wd-coke-Director--Creative--FR_R-142423-1",
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
@@ -1775,6 +1787,7 @@
         "wd-coke-Lab-Process---Innovation-Specialist_R-146975-1",
         "wd-coke-Laboratory-Analyst_R-145915",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
+        "wd-coke-Lead-Retail-Sales-Associate_R-142512",
         "wd-coke-Legal-Intern_R-146785",
         "wd-coke-Logistics-Intern_R-146837",
         "wd-coke-MX-CPS-Packaging-Specialist_R-145702",
@@ -1847,6 +1860,7 @@
         "wd-coke-Material-Operations-Intern_R-146983",
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
         "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
+        "wd-coke-Mixing-Blending-Operator--Afternoon-Shift--Ontario-California-USA-_R-147003",
         "wd-coke-Operational-Excellence-Manager_R-144726",
         "wd-coke-Operator---Production--15-Months-Contract-_R-144085",
         "wd-coke-PQA-Specialist--1-Year-Contract-_R-144895",
@@ -1895,6 +1909,7 @@
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-145822",
         "wd-coke-Production-Technician-I--2nd-shift--2569-HR-_R-145358",
         "wd-coke-Production-Technician-Machine-Operator--2nd-Shift--Forklift-exp-a-PLUS-_R-145618",
+        "wd-coke-Project-Assistant_R-139799",
         "wd-coke-Project-Engineer---Liquid-Parts-Processing_R-141757",
         "wd-coke-Project-Liquid-Mixing-Specialist_R-146002",
         "wd-coke-Project-MFG-Readiness-Manager_R-146001",
@@ -2107,6 +2122,7 @@
         "wd-coke-Senior-Product-Designer-II_R-145060",
         "wd-coke-Senior-Product-Designer-II_R-145742",
         "wd-coke-Senior-Product-Manager---Retail-Platforms_R-146737",
+        "wd-coke-Senior-Product-Manager--Service-Enablement---Operations_R-146880",
         "wd-coke-Senior-Sales-Manager_R-146185",
         "wd-coke-Software-Engineer_R-145599",
         "wd-coke-Solution-Architect---Japan_R-144485",
@@ -2525,6 +2541,7 @@
       "known_job_ids": [
         "ashby-runway-ml-06590ce3-fe8f-493f-8545-3f905c74f05f",
         "ashby-runway-ml-07c09e07-3dcd-44c3-a59e-86603d9d007d",
+        "ashby-runway-ml-08d42c3a-7ac6-4576-ad4a-75a0d80bf0d6",
         "ashby-runway-ml-09442bd6-8749-45a0-bac3-cb4de65bc6f2",
         "ashby-runway-ml-0a79e4be-d7ea-4d43-9400-33a23f552b81",
         "ashby-runway-ml-0b7b8839-037f-4ccf-886b-6d247923601c",
@@ -2562,6 +2579,7 @@
         "ashby-runway-ml-9f6d216d-2f54-4970-84d7-43ab0a2b4852",
         "ashby-runway-ml-a3165184-69a1-4a5a-8695-88340417db82",
         "ashby-runway-ml-ad77d776-ff58-4d04-b6ad-20bdd6d91929",
+        "ashby-runway-ml-ae62647f-7ec4-4383-a5ff-d37d73580062",
         "ashby-runway-ml-b283e7c0-944a-4d4e-be69-49875008c738",
         "ashby-runway-ml-b3b7f8e1-c252-4f61-baaf-c7ab6bfa9572",
         "ashby-runway-ml-b5d136bb-4143-400b-914a-0ae7377ad8ed",
@@ -3571,6 +3589,7 @@
         "gh-datadog-8223858",
         "gh-datadog-8224963",
         "gh-datadog-8226275",
+        "gh-datadog-8226352",
         "gh-datadog-8226522",
         "gh-datadog-8230270",
         "gh-datadog-8230456",
@@ -3578,8 +3597,10 @@
         "gh-datadog-8231811",
         "gh-datadog-8233540",
         "gh-datadog-8234190",
+        "gh-datadog-8237428",
         "gh-datadog-8237622",
         "gh-datadog-8237641",
+        "gh-datadog-8237942",
         "gh-datadog-8238455",
         "gh-datadog-8238472",
         "gh-datadog-8240769",
@@ -4177,7 +4198,8 @@
         "gh-mongodb-8238623",
         "gh-mongodb-8239047",
         "gh-mongodb-8239745",
-        "gh-mongodb-8240010"
+        "gh-mongodb-8240010",
+        "gh-mongodb-8241351"
       ]
     },
     "braze": {
@@ -4643,6 +4665,7 @@
         "gh-braze-8223954",
         "gh-braze-8225835",
         "gh-braze-8226558",
+        "gh-braze-8226600",
         "gh-braze-8226604",
         "gh-braze-8226918",
         "gh-braze-8226919",
@@ -4669,7 +4692,10 @@
         "gh-braze-8236749",
         "gh-braze-8237686",
         "gh-braze-8237697",
-        "gh-braze-8238106"
+        "gh-braze-8238106",
+        "gh-braze-8240667",
+        "gh-braze-8240680",
+        "gh-braze-8240692"
       ]
     },
     "classpass": {
@@ -4901,8 +4927,10 @@
         "gh-justworks-8214215",
         "gh-justworks-8221081",
         "gh-justworks-8231134",
+        "gh-justworks-8236883",
         "gh-justworks-8237024",
-        "gh-justworks-8240391"
+        "gh-justworks-8240391",
+        "gh-justworks-8241450"
       ]
     },
     "appsflyer": {
@@ -5045,7 +5073,8 @@
         "gh-attentive-4410440009",
         "gh-attentive-4413218009",
         "gh-attentive-4415182009",
-        "gh-attentive-4418793009"
+        "gh-attentive-4418793009",
+        "gh-attentive-4424815009"
       ]
     },
     "glossier": {
@@ -5653,16 +5682,6 @@
       "fit_reason": "Core lifecycle/retention marketing role (DashPass member engagement, benefit launches, experimentation) aligns directly with candidate's target titles; 3-5 years stated, candidate meets the 3-year floor with demonstrated growth, retention, and launch experience; 'Associate Manager' is an IC title, not people management."
     },
     {
-      "id": "gh-doordashusa-8079346",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate Manager Product Operations, Autonomy Commercialization - DoorDash Dot",
-      "location": "San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8079346",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Merchant Success & Growth role with ops/strategy focus on adoption, performance KPIs, and feedback loops maps directly to candidate's revenue operations + lifecycle marketing scope; 3\u20136 years stated (floor: 3), candidate has ~3.5 years of relevant growth/operations work; no cold calling or pure sales execution listed; building operational mechanisms and cross-functional partnering align with demonstrated Chick-fil-A experience."
-    },
-    {
       "id": "gh-doordashusa-7984827",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -6061,8 +6080,18 @@
       "url": "https://www.mongodb.com/careers/job/?gh_jid=8231579",
       "first_seen": "2026-09-24T19:50:56.070736+00:00",
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
+    },
+    {
+      "id": "gh-doordashusa-8243349",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Associate Manager Product Operations, Autonomy Commercialization - DoorDash Dot",
+      "location": "San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8243349",
+      "first_seen": "2026-09-30T20:17:34.212972+00:00",
+      "fit_reason": "Merchant Success & Growth role with 3\u20136 years required (floor: 3); candidate has ~3.5 years of demonstrated growth/operations work owning partner/customer KPIs end-to-end, building operational mechanisms, and driving measurable revenue outcomes\u2014directly transferable to merchant adoption, onboarding playbooks, and feedback loops."
     }
   ],
-  "last_run": "2026-09-30T15:37:26.533791+00:00",
+  "last_run": "2026-09-30T20:17:34.212972+00:00",
   "pending_notifications": []
 }
