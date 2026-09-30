@@ -714,7 +714,8 @@
         "gh-doordashusa-8243349",
         "gh-doordashusa-8243566",
         "gh-doordashusa-8243739",
-        "gh-doordashusa-8244193"
+        "gh-doordashusa-8244193",
+        "gh-doordashusa-8244483"
       ]
     },
     "hubspot": {
@@ -1244,6 +1245,7 @@
         "wd-snapchat-Ad-Review---Integrity-Specialist_R0046549-1",
         "wd-snapchat-Agency-Lead_R0046693-1",
         "wd-snapchat-Agency-Lead_R0046975",
+        "wd-snapchat-Agency-Lead_R0046998-1",
         "wd-snapchat-Agency-Partner_R0045546-2",
         "wd-snapchat-Art-Director--SPECS-Marketing_R0046647-1",
         "wd-snapchat-Art-Director_R0046610-1",
@@ -1506,10 +1508,12 @@
         "wd-snapchat-Staff-Marketing-Scientist_R0046857",
         "wd-snapchat-Staff-Marketing-Scientist_R0046858",
         "wd-snapchat-Staff-Product-Manager--Ads-Product---Brand_R0045634-1",
+        "wd-snapchat-Staff-Product-Manager--Growth_R0047000-1",
         "wd-snapchat-Staff-Product-Manager--Spotlight-Monetization---Ad-Marketplace-Growth_R0046922-1",
         "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
         "wd-snapchat-Staff-Software-Engineer--Core-Infrastructure_R0046092-1",
+        "wd-snapchat-Staff-Software-Engineer--Delivery-Platform_R0046999-2",
         "wd-snapchat-Staff-Software-Engineer--Growth-Notifications--Level-6_R0044414-1",
         "wd-snapchat-Staff-Software-Engineer--ML-Feature-Store_R0046187-2",
         "wd-snapchat-Staff-Software-Engineer--Omnichannel-Notifications-System_R0046651",
@@ -2741,6 +2745,7 @@
         "ashby-elevenlabs-6e1b66a8-8d2e-43b0-9076-9748b84bcfab",
         "ashby-elevenlabs-6e48c4c7-b6df-496c-a72c-c269ffb7f53a",
         "ashby-elevenlabs-6fb6f3a3-9680-41ac-bcde-e5a7abfc5f5c",
+        "ashby-elevenlabs-70abac80-024e-4233-a7dc-667697f66976",
         "ashby-elevenlabs-71992118-5b37-4a4a-a862-99e82e02916f",
         "ashby-elevenlabs-71f84d23-fda9-45af-a249-8bbdb258bc18",
         "ashby-elevenlabs-74b8610d-697c-404b-9620-8b934e3c65bd",
@@ -4923,6 +4928,7 @@
         "gh-justworks-8164798",
         "gh-justworks-8166821",
         "gh-justworks-8180743",
+        "gh-justworks-8197694",
         "gh-justworks-8212087",
         "gh-justworks-8214215",
         "gh-justworks-8221081",
@@ -4930,7 +4936,8 @@
         "gh-justworks-8236883",
         "gh-justworks-8237024",
         "gh-justworks-8240391",
-        "gh-justworks-8241450"
+        "gh-justworks-8241450",
+        "gh-justworks-8244793"
       ]
     },
     "appsflyer": {
@@ -6092,6 +6099,6 @@
       "fit_reason": "Merchant Success & Growth role with 3\u20136 years required (floor: 3); candidate has ~3.5 years of demonstrated growth/operations work owning partner/customer KPIs end-to-end, building operational mechanisms, and driving measurable revenue outcomes\u2014directly transferable to merchant adoption, onboarding playbooks, and feedback loops."
     }
   ],
-  "last_run": "2026-09-30T20:17:34.212972+00:00",
+  "last_run": "2026-09-30T23:57:09.860406+00:00",
   "pending_notifications": []
 }
