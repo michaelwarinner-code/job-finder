@@ -39,6 +39,7 @@
         "gh-doordashusa-5630438",
         "gh-doordashusa-5630445",
         "gh-doordashusa-5630454",
+        "gh-doordashusa-5635021",
         "gh-doordashusa-5643020",
         "gh-doordashusa-5677212",
         "gh-doordashusa-5683390",
@@ -1055,6 +1056,7 @@
         "lever-spotify-9f477315-94fa-47b8-9b92-f6d8fc48785a",
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
+        "lever-spotify-a343f789-bb7f-41eb-bd85-d7c6b45bda67",
         "lever-spotify-a4b0ebfd-86e2-4fe4-8c3e-3773220224d0",
         "lever-spotify-a4c49acb-a095-4452-ad9e-69e4b778c256",
         "lever-spotify-a57db22d-dc0d-4f36-9a2e-34acdf1ec046",
@@ -1358,6 +1360,7 @@
         "wd-snapchat-Manager--Software-Engineering_R0046444",
         "wd-snapchat-Manager--Software-Engineering_R0046878",
         "wd-snapchat-Marketing-Operations-Specialist_R0046559",
+        "wd-snapchat-Materials-Engineer--Optical-Substrate_R0046933-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Optical-Engineer--Waveguide-Experiments_R0046479-1",
@@ -1397,6 +1400,7 @@
         "wd-snapchat-RTL-Design-Engineer_R0046961",
         "wd-snapchat-Regulatory-Counsel_R0046380-2",
         "wd-snapchat-Reliability-and-Failure-Analysis-Engineer_R0045763-1",
+        "wd-snapchat-Research-Engineer_R0046981-1",
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
         "wd-snapchat-Residential-Security-Officer_R0042844",
         "wd-snapchat-Residential-Security-Officer_R0044571-1",
@@ -1564,6 +1568,7 @@
         "wd-coke-CPS-SG-Integrated-Management-Systems-Specialist--6-months-contract-_R-145526",
         "wd-coke-CPS-SG-Inventory-Controller_R-144078",
         "wd-coke-CPS-SG-Lab-Technician--1-year-contract-_R-144216",
+        "wd-coke-CPS-SG-Master-Data-Specialist--9-months-contract-_R-147002",
         "wd-coke-CPS-SG-Process-QA-Specialist_R-143467",
         "wd-coke-CPS-SG-Production-Operations-Technician--6-months-_R-143869",
         "wd-coke-CPS-SG-Project-Process-Engineer_R-144746",
@@ -1693,6 +1698,7 @@
         "wd-coke-Director--P-L-Optimization_R-146864",
         "wd-coke-Director--PACS--Strategic-Planning---Resource-Allocation_R-138766-1",
         "wd-coke-Director--Product-Life-Cycle-Management_R-145256",
+        "wd-coke-Director--QA-Automation-Support_R-145098-1",
         "wd-coke-Director--RGM-Product-Experience-Design_R-145096",
         "wd-coke-Director--RGM-Sports-OBPPC_R-145020",
         "wd-coke-Director--Regulatory---Governance_R-144005",
@@ -2074,6 +2080,7 @@
         "wd-coke-Senior-Manager--Policy-Advocacy---Communications_R-144898",
         "wd-coke-Senior-Manager--Procurement-Data-Analysis---Sustainability_R-143747-1",
         "wd-coke-Senior-Manager--Product-Lifecycle-Management_R-144008",
+        "wd-coke-Senior-Manager--QA-Automation-Support_R-145131-1",
         "wd-coke-Senior-Manager--Quality---Food-Safety--QFS--Health--Safety---Environment--HSE----Singapore--Malaysia--Myanmar--Laos_R-145936-1",
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
         "wd-coke-Senior-Manager--Regional-Customers--Mexico_R-146397",
@@ -2674,6 +2681,7 @@
         "ashby-elevenlabs-48c17c4e-f2ce-40a7-8eff-f22c15a13f53",
         "ashby-elevenlabs-490897d3-5c62-46d8-b26a-806ed60c7940",
         "ashby-elevenlabs-49233713-725b-4501-8360-6006b673fd2b",
+        "ashby-elevenlabs-493720ea-b8a1-4d5d-bdef-b79f2cf36fbe",
         "ashby-elevenlabs-4e544a96-ed24-42c0-ba70-7f0bab6ffbb2",
         "ashby-elevenlabs-4ea5b175-fa5c-46d4-8cd2-ca26513bd821",
         "ashby-elevenlabs-500f3674-8a80-414b-b6a9-4bce6cda0c13",
@@ -2737,6 +2745,7 @@
         "ashby-elevenlabs-85b7489f-5b0c-4f21-9c1c-7b76ed904c44",
         "ashby-elevenlabs-8678d594-66cb-4150-a0f8-44599c54f89a",
         "ashby-elevenlabs-86db28df-173c-4407-b016-3dee1ec6197b",
+        "ashby-elevenlabs-8998a48c-6bc4-42fc-b4b5-e779d810f930",
         "ashby-elevenlabs-89da00ec-11b0-4359-913b-c3a89c1013bc",
         "ashby-elevenlabs-89e1a99c-d2c6-43bb-b556-55dd73aeded2",
         "ashby-elevenlabs-89f01b9a-be26-4fe4-8a06-e5a65b85fcdc",
@@ -3571,7 +3580,11 @@
         "gh-datadog-8234190",
         "gh-datadog-8237622",
         "gh-datadog-8237641",
-        "gh-datadog-8238455"
+        "gh-datadog-8238455",
+        "gh-datadog-8238472",
+        "gh-datadog-8240769",
+        "gh-datadog-8242722",
+        "gh-datadog-8242859"
       ]
     },
     "mongodb": {
@@ -4094,6 +4107,7 @@
         "gh-mongodb-8173795",
         "gh-mongodb-8173798",
         "gh-mongodb-8173801",
+        "gh-mongodb-8174052",
         "gh-mongodb-8174075",
         "gh-mongodb-8174879",
         "gh-mongodb-8175160",
@@ -4149,16 +4163,20 @@
         "gh-mongodb-8221184",
         "gh-mongodb-8221290",
         "gh-mongodb-8221293",
+        "gh-mongodb-8221350",
         "gh-mongodb-8222977",
         "gh-mongodb-8224590",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
+        "gh-mongodb-8229703",
         "gh-mongodb-8230143",
         "gh-mongodb-8230396",
         "gh-mongodb-8231010",
         "gh-mongodb-8231579",
+        "gh-mongodb-8238617",
         "gh-mongodb-8238623",
         "gh-mongodb-8239047",
+        "gh-mongodb-8239745",
         "gh-mongodb-8240010"
       ]
     },
@@ -4640,6 +4658,7 @@
         "gh-braze-8232749",
         "gh-braze-8232844",
         "gh-braze-8232845",
+        "gh-braze-8233210",
         "gh-braze-8233252",
         "gh-braze-8233662",
         "gh-braze-8233667",
@@ -4882,7 +4901,8 @@
         "gh-justworks-8214215",
         "gh-justworks-8221081",
         "gh-justworks-8231134",
-        "gh-justworks-8237024"
+        "gh-justworks-8237024",
+        "gh-justworks-8240391"
       ]
     },
     "appsflyer": {
@@ -5287,7 +5307,8 @@
         "gh-movableink-8194456",
         "gh-movableink-8194496",
         "gh-movableink-8211505",
-        "gh-movableink-8221933"
+        "gh-movableink-8221933",
+        "gh-movableink-8237020"
       ]
     },
     "thefarmersdog": {
@@ -5446,7 +5467,8 @@
         "gh-flatironhealth-8156417",
         "gh-flatironhealth-8162286",
         "gh-flatironhealth-8200990",
-        "gh-flatironhealth-8201111"
+        "gh-flatironhealth-8201111",
+        "gh-flatironhealth-8238069"
       ]
     },
     "bombas": {
@@ -5781,16 +5803,6 @@
       "fit_reason": "Product Marketing Manager is a core target title; candidate meets the 3-year floor with ~3.5 years of growth/marketing hybrid work demonstrating positioning, campaign launches, funnel optimization, and cross-functional execution\u2014transferable PMM skills despite different industry context."
     },
     {
-      "id": "ashby-elevenlabs-f2ae7fe0-67da-48ae-b126-b942899ec7e9",
-      "company_key": "elevenlabs",
-      "company_name": "ElevenLabs",
-      "title": "Product Marketing - Agents",
-      "location": "United Kingdom",
-      "url": "https://jobs.ashbyhq.com/elevenlabs/f2ae7fe0-67da-48ae-b126-b942899ec7e9",
-      "first_seen": "2026-08-24T21:14:29.601292+00:00",
-      "fit_reason": "Core product marketing role aligned with target titles; no years requirement stated; candidate's 3+ years of campaign design, product launches, content strategy, and cross-functional execution directly transfer, despite lack of formal 'product marketing' title."
-    },
-    {
       "id": "ashby-elevenlabs-3b7a423c-01fd-4405-ab9a-ee51ed354ba9",
       "company_key": "elevenlabs",
       "company_name": "ElevenLabs",
@@ -6051,6 +6063,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-30T08:54:35.343000+00:00",
+  "last_run": "2026-09-30T15:37:26.533791+00:00",
   "pending_notifications": []
 }
