@@ -1238,6 +1238,7 @@
         "wd-snapchat-Art-Director_R0046610-1",
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046261-1",
         "wd-snapchat-Associate-Account-Manager--Agency-team_R0046929-1",
+        "wd-snapchat-Associate-Account-Manager_R0046957-2",
         "wd-snapchat-Associate-Creative-Strategist_R0046071-1",
         "wd-snapchat-Client-Partner---12-months-Fixed-Term-Contract_R0046541",
         "wd-snapchat-Client-Partner---Mid-Market_R0046689",
@@ -1263,6 +1264,7 @@
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
         "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
         "wd-snapchat-Design-Engineer--Core-Snapchat_R0046158-1",
+        "wd-snapchat-Digital-IC-Design-Manager_R0046980-2",
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
         "wd-snapchat-Director-of-Retail--Specs_R0046194-1",
@@ -1820,6 +1822,7 @@
         "wd-coke-Manager--Manufacuturing-Startup_R-146234-4",
         "wd-coke-Manager--Operation-Systems_R-129270-5",
         "wd-coke-Manager--Operations-Finance---Coke-On-Channel_R-136938",
+        "wd-coke-Manager--Product--Global-Development---Innovation_R-143923-1",
         "wd-coke-Manager--Product-Development_R-145034",
         "wd-coke-Manager--Product-Development_R-145513",
         "wd-coke-Manager--Product-Development_R-145638",
@@ -2030,6 +2033,7 @@
         "wd-coke-Senior-Manager--Consumer-Engagement-Operations_R-144467",
         "wd-coke-Senior-Manager--Content-Data-and-Integration_R-144553",
         "wd-coke-Senior-Manager--Controls--Policies-and-Governance_R-143680",
+        "wd-coke-Senior-Manager--Customer-Innovation--Global-Development---Innovation_R-143922-1",
         "wd-coke-Senior-Manager--Data-Governance_R-144499-1",
         "wd-coke-Senior-Manager--Data-Product-Management---Japan_R-144508-1",
         "wd-coke-Senior-Manager--Data-Science-and-Agentic-AI_R-144496",
@@ -3566,7 +3570,8 @@
         "gh-datadog-8233540",
         "gh-datadog-8234190",
         "gh-datadog-8237622",
-        "gh-datadog-8237641"
+        "gh-datadog-8237641",
+        "gh-datadog-8238455"
       ]
     },
     "mongodb": {
@@ -4153,7 +4158,8 @@
         "gh-mongodb-8231010",
         "gh-mongodb-8231579",
         "gh-mongodb-8238623",
-        "gh-mongodb-8239047"
+        "gh-mongodb-8239047",
+        "gh-mongodb-8240010"
       ]
     },
     "braze": {
@@ -4955,7 +4961,8 @@
         "gh-appsflyer-8816080002",
         "gh-appsflyer-8816205002",
         "gh-appsflyer-8852064002",
-        "gh-appsflyer-8855151002"
+        "gh-appsflyer-8855151002",
+        "gh-appsflyer-8855377002"
       ]
     },
     "attentive": {
@@ -5117,6 +5124,7 @@
         "gh-yext-8192355",
         "gh-yext-8192381",
         "gh-yext-8223597",
+        "gh-yext-8223691",
         "gh-yext-8224109",
         "gh-yext-8230657",
         "gh-yext-8239363",
@@ -6043,6 +6051,6 @@
       "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     }
   ],
-  "last_run": "2026-09-30T02:27:18.143313+00:00",
+  "last_run": "2026-09-30T08:54:35.343000+00:00",
   "pending_notifications": []
 }
