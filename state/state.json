@@ -3608,6 +3608,7 @@
         "gh-datadog-8237942",
         "gh-datadog-8238455",
         "gh-datadog-8238472",
+        "gh-datadog-8238655",
         "gh-datadog-8240769",
         "gh-datadog-8242722",
         "gh-datadog-8242859"
@@ -4692,6 +4693,7 @@
         "gh-braze-8233667",
         "gh-braze-8233671",
         "gh-braze-8233674",
+        "gh-braze-8236472",
         "gh-braze-8236740",
         "gh-braze-8236746",
         "gh-braze-8236749",
@@ -6099,6 +6101,6 @@
       "fit_reason": "Merchant Success & Growth role with 3\u20136 years required (floor: 3); candidate has ~3.5 years of demonstrated growth/operations work owning partner/customer KPIs end-to-end, building operational mechanisms, and driving measurable revenue outcomes\u2014directly transferable to merchant adoption, onboarding playbooks, and feedback loops."
     }
   ],
-  "last_run": "2026-09-30T23:57:09.860406+00:00",
+  "last_run": "2026-10-01T04:58:52.220196+00:00",
   "pending_notifications": []
 }
