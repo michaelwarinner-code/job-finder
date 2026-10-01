@@ -717,7 +717,12 @@
         "gh-doordashusa-8243566",
         "gh-doordashusa-8243739",
         "gh-doordashusa-8244193",
-        "gh-doordashusa-8244483"
+        "gh-doordashusa-8244483",
+        "gh-doordashusa-8244589",
+        "gh-doordashusa-8246177",
+        "gh-doordashusa-8247159",
+        "gh-doordashusa-8247291",
+        "gh-doordashusa-8247548"
       ]
     },
     "hubspot": {
@@ -731,6 +736,7 @@
         "gh-hubspotjobs-5094673",
         "gh-hubspotjobs-5097150",
         "gh-hubspotjobs-5098982",
+        "gh-hubspotjobs-5131015",
         "gh-hubspotjobs-5831802",
         "gh-hubspotjobs-5898882",
         "gh-hubspotjobs-5913304",
@@ -1276,6 +1282,7 @@
         "wd-snapchat-Communications-Manager--Snapchat_R0046872",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
+        "wd-snapchat-Computational-Imaging-Engineer_R0047014-1",
         "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046958-1",
         "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046959-2",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
@@ -1345,8 +1352,11 @@
         "wd-snapchat-Machine-Learning-Engineer--Generative-ML--Level-4_H226SWEGML3",
         "wd-snapchat-Machine-Learning-Engineer--Generative-ML--Level-5_H226SWEGML5",
         "wd-snapchat-Machine-Learning-Engineer--Level-3_Q326SWEML1",
+        "wd-snapchat-Machine-Learning-Engineer--Level-3_Q426SWEML1",
         "wd-snapchat-Machine-Learning-Engineer--Level-4_Q326SWEML3-2",
+        "wd-snapchat-Machine-Learning-Engineer--Level-4_Q426SWEML3-1",
         "wd-snapchat-Machine-Learning-Engineer--Level-5_Q326SWEML5-2",
+        "wd-snapchat-Machine-Learning-Engineer--Level-5_Q426SWEML5-1",
         "wd-snapchat-Machine-Learning-Engineer_R0046510",
         "wd-snapchat-Machine-Learning-Engineer_R0046894",
         "wd-snapchat-Machine-Learning-Engineer_R0047006-1",
@@ -1357,6 +1367,7 @@
         "wd-snapchat-Manager--Client-Partner_H22026MCP10",
         "wd-snapchat-Manager--Client-Partner_H226MCP102-1",
         "wd-snapchat-Manager--Communications--Advertising---B2B-_R0046237-2",
+        "wd-snapchat-Manager--Communications_R0047013-2",
         "wd-snapchat-Manager--Creative-Strategy_R0046374-1",
         "wd-snapchat-Manager--Electrical-Engineering--Devices_R0044345-1",
         "wd-snapchat-Manager--Environmental-Health---Safety--Specs-Operations_R0045982",
@@ -1424,6 +1435,7 @@
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
         "wd-snapchat-Residential-Security-Officer_R0042844",
         "wd-snapchat-Residential-Security-Officer_R0044571-1",
+        "wd-snapchat-Sales-Operations-Lead_R0047018-2",
         "wd-snapchat-Security-Engineer---Threat-Intelligence_R0043738-2",
         "wd-snapchat-Security-Engineer--Level-4_H226SWES2-1",
         "wd-snapchat-Security-Engineer--Level-5--Detection---Response_H226SE6",
@@ -1451,6 +1463,7 @@
         "wd-snapchat-Senior-Client-Partner--Business-Development_R0046060-1",
         "wd-snapchat-Senior-Client-Partner_Q326SCP8-1",
         "wd-snapchat-Senior-Client-Partner_R0046205-1",
+        "wd-snapchat-Senior-Compensation-Program-Manager_R0047019-1",
         "wd-snapchat-Senior-Copywriter_R0046488-1",
         "wd-snapchat-Senior-Counsel--Corporate_R0045322-1",
         "wd-snapchat-Senior-Counsel--Music_R0046921",
@@ -1483,6 +1496,7 @@
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
         "wd-snapchat-Software-Engineer--Backend--Level-5_Q326SWEB6-1",
+        "wd-snapchat-Software-Engineer--Backend--Level-5_Q426SWEB6-1",
         "wd-snapchat-Software-Engineer--Backend--Level-5_R0045598",
         "wd-snapchat-Software-Engineer--C----Level-3_R0046951-1",
         "wd-snapchat-Software-Engineer--C----Level-4_R0046977-1",
@@ -1556,6 +1570,7 @@
         "wd-coke-Administration-Assistant_R-146126",
         "wd-coke-Administrative-Assistant-CAR_R-145748-1",
         "wd-coke-Advisor--Consumer-Engagement_R-145315",
+        "wd-coke-Advisor--Customer-Operations_R-146807",
         "wd-coke-Advisor--Employee-Care_R-144690",
         "wd-coke-Alternance-contrleur-de-gestion-H-F-X--1-an-_R-145941",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
@@ -1809,6 +1824,7 @@
         "wd-coke-Lab-Analyst--Temporal-_R-145260",
         "wd-coke-Lab-Process---Innovation-Specialist_R-146975-1",
         "wd-coke-Laboratory-Analyst_R-145915",
+        "wd-coke-Lead-Ambassador--Guest-Experience_R-146611-1",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
         "wd-coke-Lead-Retail-Sales-Associate_R-142512",
         "wd-coke-Legal-Intern_R-146785",
@@ -1981,6 +1997,7 @@
         "wd-coke-Scientist--Product-Development--GDI_R-145664",
         "wd-coke-Senior-Administrative-Assistant_R-146409",
         "wd-coke-Senior-Counsel--Digital-Growth---Privacy-Regulatory-Counseling_R-145452",
+        "wd-coke-Senior-DIrector--Creative---Signature-Sodas_R-147050",
         "wd-coke-Senior-Data-Machine-Learning-Engineer_R-140133-1",
         "wd-coke-Senior-Data-Machine-Learning-Engineer_R-147095",
         "wd-coke-Senior-Data-Scientist_R-146976",
@@ -3004,6 +3021,7 @@
         "gh-spothopper-4110858009",
         "gh-spothopper-4110871009",
         "gh-spothopper-4112087009",
+        "gh-spothopper-4174441009",
         "gh-spothopper-4227072009",
         "gh-spothopper-4272181009",
         "gh-spothopper-4305511009",
@@ -3018,13 +3036,16 @@
         "gh-spothopper-4396581009",
         "gh-spothopper-4396608009",
         "gh-spothopper-4396612009",
+        "gh-spothopper-4396618009",
         "gh-spothopper-4396621009",
         "gh-spothopper-4411243009",
         "gh-spothopper-4411254009",
         "gh-spothopper-4429763009",
         "gh-spothopper-4429766009",
         "gh-spothopper-4429781009",
-        "gh-spothopper-4429794009"
+        "gh-spothopper-4429794009",
+        "gh-spothopper-4430281009",
+        "gh-spothopper-4430290009"
       ]
     },
     "datadog": {
@@ -3639,6 +3660,7 @@
         "gh-datadog-8230456",
         "gh-datadog-8230663",
         "gh-datadog-8231811",
+        "gh-datadog-8231877",
         "gh-datadog-8233540",
         "gh-datadog-8234190",
         "gh-datadog-8236080",
@@ -3655,7 +3677,8 @@
         "gh-datadog-8240769",
         "gh-datadog-8242722",
         "gh-datadog-8242859",
-        "gh-datadog-8246307"
+        "gh-datadog-8246307",
+        "gh-datadog-8247566"
       ]
     },
     "mongodb": {
@@ -4984,12 +5007,15 @@
         "gh-justworks-8212087",
         "gh-justworks-8214215",
         "gh-justworks-8221081",
+        "gh-justworks-8223786",
         "gh-justworks-8231134",
         "gh-justworks-8236883",
         "gh-justworks-8237024",
         "gh-justworks-8240391",
         "gh-justworks-8241450",
-        "gh-justworks-8244793"
+        "gh-justworks-8244793",
+        "gh-justworks-8247884",
+        "gh-justworks-8248039"
       ]
     },
     "appsflyer": {
@@ -5134,7 +5160,8 @@
         "gh-attentive-4413218009",
         "gh-attentive-4415182009",
         "gh-attentive-4418793009",
-        "gh-attentive-4424815009"
+        "gh-attentive-4424815009",
+        "gh-attentive-4429880009"
       ]
     },
     "glossier": {
@@ -5295,7 +5322,8 @@
         "gh-mavenclinic-8815343002",
         "gh-mavenclinic-8821478002",
         "gh-mavenclinic-8822341002",
-        "gh-mavenclinic-8845343002"
+        "gh-mavenclinic-8845343002",
+        "gh-mavenclinic-8860743002"
       ]
     },
     "away": {
@@ -5559,7 +5587,8 @@
         "gh-flatironhealth-8162286",
         "gh-flatironhealth-8200990",
         "gh-flatironhealth-8201111",
-        "gh-flatironhealth-8238069"
+        "gh-flatironhealth-8238069",
+        "gh-flatironhealth-8243012"
       ]
     },
     "bombas": {
@@ -5742,16 +5771,6 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8082760",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
       "fit_reason": "Core lifecycle/retention marketing role (DashPass member engagement, benefit launches, experimentation) aligns directly with candidate's target titles; 3-5 years stated, candidate meets the 3-year floor with demonstrated growth, retention, and launch experience; 'Associate Manager' is an IC title, not people management."
-    },
-    {
-      "id": "gh-doordashusa-7984827",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate Manager, Sales Planning & Strategy",
-      "location": "San Francisco, CA; New York, NY; Atlanta, GA; Chicago, IL; Denver, CO; Washington, DC; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7984827",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sales Planning & Strategy is explicitly in-scope as revenue operations; candidate meets the 3-year floor with 3.25 years at Chick-fil-A demonstrating quota strategy, forecasting, incentive design (channel incentives, email campaign ROI), data-driven sales optimization, and cross-functional execution\u2014transferable to the core planning/strategy work even without prior 'Sales Ops' title."
     },
     {
       "id": "gh-doordashusa-7984775",
@@ -6152,8 +6171,18 @@
       "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/New-York-New-York/Account-Manager_Q426AM3",
       "first_seen": "2026-10-01T17:28:51.127717+00:00",
       "fit_reason": "Account Manager role focused on client relationship growth, campaign optimization, data analysis, and product education aligns with candidate's demonstrated GTM/growth/account management experience; 3+ years requirement matches candidate's ~3 years relevant experience, and core responsibilities (performance analysis, campaign optimization, client strategy) are 50%+ execution/optimization work rather than net-new prospecting."
+    },
+    {
+      "id": "wd-coke-Advisor--Customer-Operations_R-146807",
+      "company_key": "cocacola",
+      "company_name": "Coca-Cola",
+      "title": "Advisor, Customer Operations",
+      "location": "US - GA - Atlanta",
+      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Advisor--Customer-Operations_R-146807",
+      "first_seen": "2026-10-01T21:57:45.532811+00:00",
+      "fit_reason": "Candidate meets the 2-year minimum with 3+ years of relevant experience; role is Coca-Cola foodservice (explicit exception to field-sales exclusion), centers on customer operations/coordination/relationship management rather than cold prospecting, and aligns with revenue operations/GTM-adjacent work the candidate has demonstrated."
     }
   ],
-  "last_run": "2026-10-01T17:28:51.127717+00:00",
+  "last_run": "2026-10-01T21:57:45.532811+00:00",
   "pending_notifications": []
 }
