@@ -888,6 +888,7 @@
         "gh-hubspotjobs-8042918",
         "gh-hubspotjobs-8042996",
         "gh-hubspotjobs-8043166",
+        "gh-hubspotjobs-8044961",
         "gh-hubspotjobs-8044985",
         "gh-hubspotjobs-8046596",
         "gh-hubspotjobs-8060201",
@@ -1754,6 +1755,7 @@
         "wd-coke-Director--RGM-Sports-OBPPC_R-145020",
         "wd-coke-Director--Regulatory---Governance_R-144005",
         "wd-coke-Director--Resource-Allocation_R-137458-1",
+        "wd-coke-Director--Safety---Eurasia---Middle-East_R-146909",
         "wd-coke-Director--Sales---Albertsons_R-145064",
         "wd-coke-Director--Scientific---Regulatory-Affairs_R-141084",
         "wd-coke-Director--Scientific-and-Regulatory-Affairs_R-140079-1",
@@ -1766,6 +1768,7 @@
         "wd-coke-Director--Supply-Chain-Warehouse-Architect_R-144433",
         "wd-coke-Director--Sustainability-Strategy_R-146567",
         "wd-coke-Director--Sustainability_R-143238-1",
+        "wd-coke-Director--Tech-Lead--Cust-Operational-Excellence_R-134642",
         "wd-coke-Director--Technical-Consumer-Data-Research_R-142555",
         "wd-coke-Director--Technical-Innovation_R-146885",
         "wd-coke-Director--Trade-Strategy---Execution_R-145757",
@@ -1836,6 +1839,7 @@
         "wd-coke-MX-CPS-Warehouse-Analyst-Lerma--Temporal-_R-145863",
         "wd-coke-MX-CPS-Warehouse-Operator_R-146298",
         "wd-coke-Machine-Learning-Architect-1_R-144414",
+        "wd-coke-Machine-Learning-Engineer-II_R-147100",
         "wd-coke-Maintenance--Apprentice_R-146832",
         "wd-coke-Maintenance-Engineer_R-144739",
         "wd-coke-Maintenance-Engineer_R-145533",
@@ -3674,6 +3678,7 @@
         "gh-datadog-8237622",
         "gh-datadog-8237641",
         "gh-datadog-8237942",
+        "gh-datadog-8238132",
         "gh-datadog-8238455",
         "gh-datadog-8238472",
         "gh-datadog-8238655",
@@ -3682,8 +3687,11 @@
         "gh-datadog-8240769",
         "gh-datadog-8242722",
         "gh-datadog-8242859",
+        "gh-datadog-8243782",
         "gh-datadog-8246307",
-        "gh-datadog-8247566"
+        "gh-datadog-8247566",
+        "gh-datadog-8247686",
+        "gh-datadog-8248968"
       ]
     },
     "mongodb": {
@@ -4272,6 +4280,7 @@
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
         "gh-mongodb-8229703",
+        "gh-mongodb-8229892",
         "gh-mongodb-8230143",
         "gh-mongodb-8230396",
         "gh-mongodb-8231010",
@@ -4282,7 +4291,8 @@
         "gh-mongodb-8239148",
         "gh-mongodb-8239745",
         "gh-mongodb-8240010",
-        "gh-mongodb-8241351"
+        "gh-mongodb-8241351",
+        "gh-mongodb-8248829"
       ]
     },
     "braze": {
@@ -6192,6 +6202,6 @@
       "fit_reason": "Candidate meets the 2-year minimum with 3+ years of relevant experience; role is Coca-Cola foodservice (explicit exception to field-sales exclusion), centers on customer operations/coordination/relationship management rather than cold prospecting, and aligns with revenue operations/GTM-adjacent work the candidate has demonstrated."
     }
   ],
-  "last_run": "2026-10-02T07:26:37.600155+00:00",
+  "last_run": "2026-10-02T14:01:58.373292+00:00",
   "pending_notifications": []
 }
