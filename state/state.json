@@ -6238,16 +6238,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign optimization, data analysis, and product education aligns with candidate's demonstrated GTM/growth/account management experience; 3+ years requirement matches candidate's ~3 years relevant experience, and core responsibilities (performance analysis, campaign optimization, client strategy) are 50%+ execution/optimization work rather than net-new prospecting."
     },
     {
-      "id": "wd-coke-Advisor--Customer-Operations_R-146807",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Advisor, Customer Operations",
-      "location": "US - GA - Atlanta",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Advisor--Customer-Operations_R-146807",
-      "first_seen": "2026-10-01T21:57:45.532811+00:00",
-      "fit_reason": "Candidate meets the 2-year minimum with 3+ years of relevant experience; role is Coca-Cola foodservice (explicit exception to field-sales exclusion), centers on customer operations/coordination/relationship management rather than cold prospecting, and aligns with revenue operations/GTM-adjacent work the candidate has demonstrated."
-    },
-    {
       "id": "gh-doordashusa-8249964",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -6258,6 +6248,6 @@
       "fit_reason": "Revenue operations / sales strategy role with analytical, forecasting, and optimization focus; candidate meets 3-year floor with transferable skills in data-driven strategy, modeling, and cross-functional execution; SQL/Snowflake gap is learnable and not a disqualifier given strong analytical foundation."
     }
   ],
-  "last_run": "2026-10-03T01:53:21.559480+00:00",
+  "last_run": "2026-10-03T07:35:11.425121+00:00",
   "pending_notifications": []
 }
