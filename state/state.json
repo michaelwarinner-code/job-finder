@@ -4337,6 +4337,7 @@
         "gh-mongodb-8230396",
         "gh-mongodb-8231010",
         "gh-mongodb-8231579",
+        "gh-mongodb-8234338",
         "gh-mongodb-8238617",
         "gh-mongodb-8238623",
         "gh-mongodb-8239047",
@@ -6262,6 +6263,6 @@
       "fit_reason": "Revenue operations / sales strategy role with analytical, forecasting, and optimization focus; candidate meets 3-year floor with transferable skills in data-driven strategy, modeling, and cross-functional execution; SQL/Snowflake gap is learnable and not a disqualifier given strong analytical foundation."
     }
   ],
-  "last_run": "2026-10-04T23:31:33.652402+00:00",
+  "last_run": "2026-10-05T02:22:00.571268+00:00",
   "pending_notifications": []
 }
