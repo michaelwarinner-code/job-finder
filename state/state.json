@@ -739,7 +739,13 @@
         "gh-doordashusa-8256078",
         "gh-doordashusa-8256994",
         "gh-doordashusa-8257063",
-        "gh-doordashusa-8257415"
+        "gh-doordashusa-8257295",
+        "gh-doordashusa-8257415",
+        "gh-doordashusa-8258179",
+        "gh-doordashusa-8259130",
+        "gh-doordashusa-8259297",
+        "gh-doordashusa-8259455",
+        "gh-doordashusa-8259471"
       ]
     },
     "hubspot": {
@@ -1028,6 +1034,7 @@
         "lever-spotify-1cafb489-9cae-4417-b272-832617484de0",
         "lever-spotify-1d7db6ea-59dd-4ebb-86c5-f0f12ee2db92",
         "lever-spotify-1e8c984e-fa8e-4dbb-8f74-6f608ae3bfa1",
+        "lever-spotify-1f56d4be-4e54-441a-ad05-946b9efcc391",
         "lever-spotify-204f6cd7-98a3-4360-87e3-8876adf087da",
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
         "lever-spotify-22437625-9527-4e5a-a6d2-a114a889db90",
@@ -1223,6 +1230,7 @@
         "ashby-claylabs-67a53448-184d-48e4-a040-d17fc7f59b37",
         "ashby-claylabs-6c65bbb9-8205-400c-b971-cd91897b6d8f",
         "ashby-claylabs-73f9d129-1ea8-43cd-b69a-e08015aa057f",
+        "ashby-claylabs-76780902-2017-4fca-ae77-36e696391107",
         "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
         "ashby-claylabs-7bd9060f-12cf-4e5b-af99-681008be6967",
         "ashby-claylabs-7f28a375-eb96-4ff9-a186-387dc709c418",
@@ -1300,6 +1308,7 @@
         "wd-snapchat-Art-Director--SPECS-Marketing_R0046647-1",
         "wd-snapchat-Art-Director_R0046610-1",
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046261-1",
+        "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0047077",
         "wd-snapchat-Associate-Account-Manager--Agency-team_R0046929-1",
         "wd-snapchat-Associate-Account-Manager_R0046957-2",
         "wd-snapchat-Associate-Agency-Partner_R0047074-1",
@@ -1408,6 +1417,7 @@
         "wd-snapchat-Machine-Learning-Engineer_R0046510",
         "wd-snapchat-Machine-Learning-Engineer_R0046894",
         "wd-snapchat-Machine-Learning-Engineer_R0047006-1",
+        "wd-snapchat-Manager--Ad-Partnerships---Audiences--Identity---Signals_R0045840-2",
         "wd-snapchat-Manager--Business-Development_R0046165-1",
         "wd-snapchat-Manager--CRM-Product-Management_R0046897",
         "wd-snapchat-Manager--Client-Partner--RMG--Gaming-_R0046104-1",
@@ -1528,6 +1538,7 @@
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
         "wd-snapchat-Senior-Executive-Assistant_R0046941-1",
         "wd-snapchat-Senior-Indy-Agency-Partner_R0046366",
+        "wd-snapchat-Senior-Lead--Ad-Partnerships---MMP--DCR--CAPI_R0045841-1",
         "wd-snapchat-Senior-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0046654",
         "wd-snapchat-Senior-Manager--Ads-Design_R0046431-1",
         "wd-snapchat-Senior-Manager--Agency_R0046414-1",
@@ -1548,6 +1559,7 @@
         "wd-snapchat-Senior-Trust---Safety-Specialist_R0046434-2",
         "wd-snapchat-Social-Content-Manager_R0046568-1",
         "wd-snapchat-Software-Engineer--Android--Level-4_Q426SWEA2-2",
+        "wd-snapchat-Software-Engineer--Android--Level-4_R0047083-1",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q426SWEA6-1",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
@@ -2099,6 +2111,7 @@
         "wd-coke-Senior-Director--Experience-Design---Connection-Planning---Sparkling-Flavors_R-138997-1",
         "wd-coke-Senior-Director--FP-A-Supply-Chain-Corporate_R-146370",
         "wd-coke-Senior-Director--FSOP-Digital-Growth_R-145585",
+        "wd-coke-Senior-Director--Financial-Planning---Analysis-Lead_R-144555",
         "wd-coke-Senior-Director--Financial-Planning-and-Analysis_R-144074",
         "wd-coke-Senior-Director--Flavors-Creative-Strategy---IMX--LATAM_R-145247",
         "wd-coke-Senior-Director--Franchise-Operations--Battlefield-Markets_R-141034-1",
@@ -2204,6 +2217,7 @@
         "wd-coke-Senior-Manager--Material-Operations---Sourcing---Japan-Korea_R-135730",
         "wd-coke-Senior-Manager--Media-Operations-France_R-143840-1",
         "wd-coke-Senior-Manager--Media_R-146168",
+        "wd-coke-Senior-Manager--NA-Supply-Chain-Master-Data-Operations_R-147062",
         "wd-coke-Senior-Manager--NSR-Global-Data-Stewardship_R-144504",
         "wd-coke-Senior-Manager--National-Sales---Kroger-Sparkling-Soft-Drinks_R-145725-1",
         "wd-coke-Senior-Manager--National-Sales---Specialty-Retail_R-143200",
@@ -2268,6 +2282,7 @@
         "wd-coke-Sr-Software-Engineer_R-147091",
         "wd-coke-Staff-Product-Designer_R-145061",
         "wd-coke-Staff-Product-Designer_R-145740",
+        "wd-coke-Stategic-Project-Manager_R-147251",
         "wd-coke-Strategic-Project--Senior-Manager_R-145739",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
         "wd-coke-Technology-Delivery-Lead_R-144432",
@@ -2407,6 +2422,7 @@
         "ashby-perplexity-9a570310-305d-4f4e-9807-b8862b31194b",
         "ashby-perplexity-9ca67ae3-8507-40b9-9d7f-d81b249c1041",
         "ashby-perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
+        "ashby-perplexity-9cec9b33-06f2-4ba1-8c9e-20a598361ca2",
         "ashby-perplexity-9e3a4516-b893-4579-9a6a-3720658e4b6d",
         "ashby-perplexity-a14c4626-ed07-4151-a923-3a710fb66de2",
         "ashby-perplexity-a172ada5-1a6e-4646-8e0d-26747422af24",
@@ -3058,6 +3074,7 @@
         "ashby-elevenlabs-f5e4cf91-f444-4b0b-9913-9d749fb9ba85",
         "ashby-elevenlabs-f805267e-2f77-4cdf-8d8a-a3ed5b07e726",
         "ashby-elevenlabs-f80d0420-b6e6-4110-940c-293f64b9761e",
+        "ashby-elevenlabs-f8b19a29-af85-4a5d-87ae-1ba0a1b6dd9b",
         "ashby-elevenlabs-f9df85c5-bcb0-4d75-9728-775e746a0383",
         "ashby-elevenlabs-fa20a6f3-247a-4dd8-aaf4-f2eb2b58c6b1",
         "ashby-elevenlabs-fa4fc307-a0fb-47aa-9336-f202f2265440",
@@ -3771,6 +3788,7 @@
         "gh-datadog-8226522",
         "gh-datadog-8230270",
         "gh-datadog-8230456",
+        "gh-datadog-8230620",
         "gh-datadog-8230663",
         "gh-datadog-8231811",
         "gh-datadog-8231877",
@@ -3803,7 +3821,9 @@
         "gh-datadog-8247686",
         "gh-datadog-8248968",
         "gh-datadog-8249202",
-        "gh-datadog-8257217"
+        "gh-datadog-8257217",
+        "gh-datadog-8257306",
+        "gh-datadog-8257324"
       ]
     },
     "mongodb": {
@@ -3847,6 +3867,7 @@
         "gh-mongodb-7191603",
         "gh-mongodb-7211619",
         "gh-mongodb-7211805",
+        "gh-mongodb-7217699",
         "gh-mongodb-7217805",
         "gh-mongodb-7217822",
         "gh-mongodb-7219021",
@@ -4345,6 +4366,7 @@
         "gh-mongodb-8187925",
         "gh-mongodb-8188788",
         "gh-mongodb-8188829",
+        "gh-mongodb-8189170",
         "gh-mongodb-8190534",
         "gh-mongodb-8191547",
         "gh-mongodb-8192216",
@@ -4420,6 +4442,7 @@
         "gh-mongodb-8247670",
         "gh-mongodb-8248829",
         "gh-mongodb-8249278",
+        "gh-mongodb-8256571",
         "gh-mongodb-8257245"
       ]
     },
@@ -5332,6 +5355,7 @@
         "gh-attentive-4418793009",
         "gh-attentive-4420283009",
         "gh-attentive-4424815009",
+        "gh-attentive-4429776009",
         "gh-attentive-4429880009"
       ]
     },
@@ -6341,8 +6365,18 @@
       "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---CA---Irvine/Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
       "first_seen": "2026-10-06T00:22:35.180313+00:00",
       "fit_reason": "Field sales role at Coca-Cola (candidate's former employer, treated as bridge position) managing existing foodservice account portfolio with strategic/analytical components (ABP development, data analysis, business reviews, competitive conversion); meets 3-year requirement and aligns with revenue operations/account management targets despite field-based nature."
+    },
+    {
+      "id": "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0047077",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "Associate, Global Ads GTM Strategy and Operations",
+      "location": "4 Locations",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/New-York-New-York/Associate--Global-Ads-GTM-Strategy-and-Operations_R0047077",
+      "first_seen": "2026-10-06T19:04:57.717111+00:00",
+      "fit_reason": "GTM strategy and ops role with 1+ years requirement fits candidate's 3 years relevant experience; core responsibilities (strategic project execution, cross-functional coordination, process design, launch management) align directly with demonstrated GTM/growth work at Chick-fil-A and internships, and no hard exclusions apply."
     }
   ],
-  "last_run": "2026-10-06T13:39:41.502501+00:00",
+  "last_run": "2026-10-06T19:04:57.717111+00:00",
   "pending_notifications": []
 }
