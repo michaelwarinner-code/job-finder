@@ -127,6 +127,7 @@
         "gh-doordashusa-7380096",
         "gh-doordashusa-7394179",
         "gh-doordashusa-7406475",
+        "gh-doordashusa-7436100",
         "gh-doordashusa-7436104",
         "gh-doordashusa-7454878",
         "gh-doordashusa-7456678",
@@ -735,7 +736,10 @@
         "gh-doordashusa-8255931",
         "gh-doordashusa-8255962",
         "gh-doordashusa-8255974",
-        "gh-doordashusa-8256078"
+        "gh-doordashusa-8256078",
+        "gh-doordashusa-8256994",
+        "gh-doordashusa-8257063",
+        "gh-doordashusa-8257415"
       ]
     },
     "hubspot": {
@@ -851,6 +855,7 @@
         "gh-hubspotjobs-7453082",
         "gh-hubspotjobs-7519980",
         "gh-hubspotjobs-7538574",
+        "gh-hubspotjobs-7572088",
         "gh-hubspotjobs-7621322",
         "gh-hubspotjobs-7645438",
         "gh-hubspotjobs-7660473",
@@ -1294,6 +1299,7 @@
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046261-1",
         "wd-snapchat-Associate-Account-Manager--Agency-team_R0046929-1",
         "wd-snapchat-Associate-Account-Manager_R0046957-2",
+        "wd-snapchat-Associate-Agency-Partner_R0047074-1",
         "wd-snapchat-Associate-Creative-Strategist_R0046071-1",
         "wd-snapchat-Client-Partner---12-months-Fixed-Term-Contract_R0046541",
         "wd-snapchat-Client-Partner---Mid-Market_R0046689",
@@ -1316,15 +1322,19 @@
         "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046958-1",
         "wd-snapchat-Computer-Vision---Machine-Learning-Engineer--Photon-Efficient-Event-Driven-Imaging_R0046959-2",
         "wd-snapchat-Content-Moderation-Specialist_R0046664",
+        "wd-snapchat-Content-Trends--Associate-Producer_R0047060-1",
         "wd-snapchat-Core-Product-Designer_H226CPD3-1",
+        "wd-snapchat-Counsel-II--Litigation_R0047061",
         "wd-snapchat-Creative-Lead--SPECS-Social---Content_R0046944",
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
         "wd-snapchat-Data-Scientist--Level-3_Q426DSA3",
         "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
+        "wd-snapchat-Data-Scientist--Level-4_Q426DSA4-1",
         "wd-snapchat-Design-Engineer--Core-Snapchat_R0046158-1",
         "wd-snapchat-Digital-IC-Design-Manager_R0046980-2",
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
+        "wd-snapchat-Director--Software-Engineering--Product-Eng_R0047059-1",
         "wd-snapchat-Director-of-Retail--Specs_R0046194-1",
         "wd-snapchat-Electrical-Engineer--Devices_R0046770-1",
         "wd-snapchat-Electrical-Engineer--Devices_R0046771-1",
@@ -1379,7 +1389,9 @@
         "wd-snapchat-Lead-Business-Intelligence-Engineer_R0046831",
         "wd-snapchat-Lead-Client-Partner_R0046379",
         "wd-snapchat-Lead-Data-Scientist--Core--Level-6_R0046848-1",
+        "wd-snapchat-Lead-Program-Management--SMC-Operations_R0046960-1",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
+        "wd-snapchat-Litigation-and-Safety-Paralegal-Lead_R0047062-1",
         "wd-snapchat-Machine-Learning-Engineer--Causal-Inference--Level-5_R0046007-1",
         "wd-snapchat-Machine-Learning-Engineer--Causal-Inference--Level-5_R0046616-2",
         "wd-snapchat-Machine-Learning-Engineer--Generative-ML--Level-4_H226SWEGML3",
@@ -1423,8 +1435,10 @@
         "wd-snapchat-Manager--Software-Engineering_H226EM8-1",
         "wd-snapchat-Manager--Software-Engineering_R0046444",
         "wd-snapchat-Manager--Software-Engineering_R0046878",
+        "wd-snapchat-Manufacturing-Engineer_R0047055-1",
         "wd-snapchat-Marketing-Operations-Specialist_R0046559",
         "wd-snapchat-Materials-Engineer--Optical-Substrate_R0046933-1",
+        "wd-snapchat-Mechanical-Engineer---Manufacturing_R0047056-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Network-Engineer_R0047027",
@@ -1506,6 +1520,7 @@
         "wd-snapchat-Senior-Creative-Producer_R0046493-1",
         "wd-snapchat-Senior-Creative-Producer_R0046727",
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
+        "wd-snapchat-Senior-Data-Scientist--Level-5_Q426DSA5-1",
         "wd-snapchat-Senior-Electrical-Engineer_R0046042-1",
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
         "wd-snapchat-Senior-Executive-Assistant_R0046941-1",
@@ -1950,6 +1965,7 @@
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
         "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
         "wd-coke-Mixing-Blending-Operator--Afternoon-Shift--Ontario-California-USA-_R-147003",
+        "wd-coke-Office-Administrator---Executive-Support_R-147004",
         "wd-coke-Operational-Excellence-Manager_R-144726",
         "wd-coke-Operator---Production--15-Months-Contract-_R-144085",
         "wd-coke-PQA-Specialist--1-Year-Contract-_R-144895",
@@ -2227,6 +2243,7 @@
         "wd-coke-Senior-Product-Designer-II_R-145742",
         "wd-coke-Senior-Product-Manager---Retail-Platforms_R-146737",
         "wd-coke-Senior-Product-Manager--Service-Enablement---Operations_R-146880",
+        "wd-coke-Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
         "wd-coke-Senior-Sales-Manager_R-146185",
         "wd-coke-Software-Engineer-I---CRM_R-140128",
         "wd-coke-Software-Engineer-II_R-147089",
@@ -2234,6 +2251,7 @@
         "wd-coke-Software-Engineer-I_R-140127",
         "wd-coke-Software-Engineer-I_R-140135",
         "wd-coke-Software-Engineer_R-145599",
+        "wd-coke-Software-Engineer_R-147243",
         "wd-coke-Solution-Architect---Japan_R-144485",
         "wd-coke-Sr-Data-Engineer---Integrations_R-144556",
         "wd-coke-Sr-Data-Engineer_R-144457",
@@ -2778,6 +2796,7 @@
         "ashby-elevenlabs-22d14f69-1a8c-4fc0-aa4d-8b10c62ee806",
         "ashby-elevenlabs-2402af08-4c6f-473d-872b-79f7d7d92b5a",
         "ashby-elevenlabs-24d6431c-ec48-48e6-860a-6172b67f1fdf",
+        "ashby-elevenlabs-257f24da-83db-4bad-a6dc-37793a1a0bac",
         "ashby-elevenlabs-275f43d0-b62d-401d-830c-7c1ac0e688aa",
         "ashby-elevenlabs-29491158-3020-45b0-9bbb-789a55e87beb",
         "ashby-elevenlabs-29aed1f3-26f8-4d3b-8cc4-7ca7d9342eeb",
@@ -2858,6 +2877,7 @@
         "ashby-elevenlabs-6848ece5-1ce5-4ab4-9dd6-0704cd0f8ecd",
         "ashby-elevenlabs-687394d7-fbf8-49ed-822e-c0690191330c",
         "ashby-elevenlabs-68a1ad0b-d74e-4ebe-b6d0-877c53c9df7f",
+        "ashby-elevenlabs-69694001-b760-4939-9a02-e75c046b89d3",
         "ashby-elevenlabs-6a2489be-8073-410b-9bc4-f102bc6e88a0",
         "ashby-elevenlabs-6a530871-b6c6-4783-ac6b-69cc3b084192",
         "ashby-elevenlabs-6b5a902d-49ea-4fa9-ab67-d6e88c361695",
@@ -3211,6 +3231,7 @@
         "gh-datadog-7131386",
         "gh-datadog-7131396",
         "gh-datadog-7131404",
+        "gh-datadog-7131445",
         "gh-datadog-7131495",
         "gh-datadog-7131726",
         "gh-datadog-7132132",
@@ -3773,7 +3794,8 @@
         "gh-datadog-8247566",
         "gh-datadog-8247686",
         "gh-datadog-8248968",
-        "gh-datadog-8249202"
+        "gh-datadog-8249202",
+        "gh-datadog-8257217"
       ]
     },
     "mongodb": {
@@ -4356,12 +4378,14 @@
         "gh-mongodb-8221290",
         "gh-mongodb-8221293",
         "gh-mongodb-8221350",
+        "gh-mongodb-8221353",
         "gh-mongodb-8221355",
         "gh-mongodb-8222977",
         "gh-mongodb-8223199",
         "gh-mongodb-8224590",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
+        "gh-mongodb-8229636",
         "gh-mongodb-8229703",
         "gh-mongodb-8229891",
         "gh-mongodb-8229892",
@@ -4370,6 +4394,7 @@
         "gh-mongodb-8231010",
         "gh-mongodb-8231579",
         "gh-mongodb-8234338",
+        "gh-mongodb-8236841",
         "gh-mongodb-8238617",
         "gh-mongodb-8238618",
         "gh-mongodb-8238623",
@@ -4380,7 +4405,8 @@
         "gh-mongodb-8241351",
         "gh-mongodb-8247670",
         "gh-mongodb-8248829",
-        "gh-mongodb-8249278"
+        "gh-mongodb-8249278",
+        "gh-mongodb-8257245"
       ]
     },
     "braze": {
@@ -4884,6 +4910,7 @@
         "gh-braze-8240667",
         "gh-braze-8240680",
         "gh-braze-8240692",
+        "gh-braze-8243020",
         "gh-braze-8243113",
         "gh-braze-8243115",
         "gh-braze-8246096",
@@ -4892,7 +4919,9 @@
         "gh-braze-8249742",
         "gh-braze-8249744",
         "gh-braze-8249765",
-        "gh-braze-8249767"
+        "gh-braze-8249767",
+        "gh-braze-8257562",
+        "gh-braze-8257568"
       ]
     },
     "classpass": {
@@ -5339,7 +5368,8 @@
         "gh-glossier-8226704",
         "gh-glossier-8238463",
         "gh-glossier-8245136",
-        "gh-glossier-8245150"
+        "gh-glossier-8245150",
+        "gh-glossier-8257431"
       ]
     },
     "yext": {
@@ -5886,16 +5916,6 @@
       "fit_reason": "Product marketing/growth marketing role focused on funnel optimization, messaging, and conversion\u2014core target function. Candidate has ~3 years relevant experience (meets 3\u20136 range floor) with demonstrated self-serve funnel work, positioning/messaging, email/campaign design, and data-driven optimization; unfamiliar tools (Pendo, Amplitude, FullStory, Sigma, Hightouch) are learnable and listed as 'learn & practice,' not hard requirements."
     },
     {
-      "id": "gh-doordashusa-8082760",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate Manager, Integrated Marketing, Consumer - DashPass Benefits",
-      "location": "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Sunnyvale, CA; Chicago, IL; Austin, TX; Denver, CO; Atlanta, GA; Miami, FL; Boston, MA; Washington D.C.",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8082760",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Core lifecycle/retention marketing role (DashPass member engagement, benefit launches, experimentation) aligns directly with candidate's target titles; 3-5 years stated, candidate meets the 3-year floor with demonstrated growth, retention, and launch experience; 'Associate Manager' is an IC title, not people management."
-    },
-    {
       "id": "gh-doordashusa-7984775",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -6014,16 +6034,6 @@
       "url": "https://jobs.ashbyhq.com/cursor/123af173-6f9b-4089-9d96-d0c028b9e841",
       "first_seen": "2026-08-24T20:55:42.329191+00:00",
       "fit_reason": "Product Marketing Manager is a core target title; candidate meets the 3-year floor with ~3.5 years of growth/marketing hybrid work demonstrating positioning, campaign launches, funnel optimization, and cross-functional execution\u2014transferable PMM skills despite different industry context."
-    },
-    {
-      "id": "ashby-elevenlabs-3b7a423c-01fd-4405-ab9a-ee51ed354ba9",
-      "company_key": "elevenlabs",
-      "company_name": "ElevenLabs",
-      "title": "Account Manager - Mid-Market",
-      "location": "New York",
-      "url": "https://jobs.ashbyhq.com/elevenlabs/3b7a423c-01fd-4405-ab9a-ee51ed354ba9",
-      "first_seen": "2026-08-24T21:14:29.601292+00:00",
-      "fit_reason": "Account Manager role with 3-5yr range (floor: 3 years) fits candidate's 3.5yr Chick-fil-A experience in revenue-owned account/customer growth, expansion, and retention; candidate meets years requirement and demonstrates transferable skills in segmentation, expansion strategy, data-driven decision-making, and cross-functional execution despite lacking formal SaaS/AI title history."
     },
     {
       "id": "gh-datadog-8052114",
@@ -6304,8 +6314,18 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8249964",
       "first_seen": "2026-10-02T23:01:47.327334+00:00",
       "fit_reason": "Revenue operations / sales strategy role with analytical, forecasting, and optimization focus; candidate meets 3-year floor with transferable skills in data-driven strategy, modeling, and cross-functional execution; SQL/Snowflake gap is learnable and not a disqualifier given strong analytical foundation."
+    },
+    {
+      "id": "wd-coke-Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
+      "company_key": "cocacola",
+      "company_name": "Coca-Cola",
+      "title": "Senior Sales Manager - Foodservice & On-Premise",
+      "location": "US - CA - Irvine",
+      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---CA---Irvine/Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
+      "first_seen": "2026-10-06T00:22:35.180313+00:00",
+      "fit_reason": "Field sales role at Coca-Cola (candidate's former employer, treated as bridge position) managing existing foodservice account portfolio with strategic/analytical components (ABP development, data analysis, business reviews, competitive conversion); meets 3-year requirement and aligns with revenue operations/account management targets despite field-based nature."
     }
   ],
-  "last_run": "2026-10-05T18:45:01.030786+00:00",
+  "last_run": "2026-10-06T00:22:35.180313+00:00",
   "pending_notifications": []
 }
