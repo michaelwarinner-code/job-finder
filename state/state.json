@@ -748,7 +748,8 @@
         "gh-doordashusa-8259471",
         "gh-doordashusa-8259552",
         "gh-doordashusa-8259850",
-        "gh-doordashusa-8259851"
+        "gh-doordashusa-8259851",
+        "gh-doordashusa-8261297"
       ]
     },
     "hubspot": {
@@ -1115,6 +1116,7 @@
         "lever-spotify-9e8b3af7-d0f7-4aa9-ab8d-89b5bd238ccf",
         "lever-spotify-9eca14d3-8e0b-46de-8161-704e07f3d9d0",
         "lever-spotify-9f477315-94fa-47b8-9b92-f6d8fc48785a",
+        "lever-spotify-9fd98cde-6a1b-419c-a27a-daae7a7483f0",
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
         "lever-spotify-a343f789-bb7f-41eb-bd85-d7c6b45bda67",
@@ -1135,6 +1137,7 @@
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-ba2760c3-6461-45bf-b67b-0508d10c8659",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
+        "lever-spotify-bc70c9af-212e-48d5-b00b-eab26e4c0658",
         "lever-spotify-bcdf7880-6ad8-447d-822a-8265a24fd336",
         "lever-spotify-be2d7d1e-939e-47f9-8db7-278caa101a60",
         "lever-spotify-bf0984d7-c54f-4a8a-9a15-f870633d62c0",
@@ -1341,12 +1344,14 @@
         "wd-snapchat-Core-Product-Designer_H226CPD3-1",
         "wd-snapchat-Counsel-II--Litigation_R0047061",
         "wd-snapchat-Creative-Lead--SPECS-Social---Content_R0046944",
+        "wd-snapchat-Creative-Production-Lead_R0047089",
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
         "wd-snapchat-Data-Scientist--Level-3_Q426DSA3",
         "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
         "wd-snapchat-Data-Scientist--Level-4_Q426DSA4-1",
         "wd-snapchat-Design-Engineer--Core-Snapchat_R0046158-1",
         "wd-snapchat-Digital-IC-Design-Manager_R0046980-2",
+        "wd-snapchat-Digital-IC-Design-Verification-Engineer_R0047100-1",
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
         "wd-snapchat-Director--Software-Engineering--Product-Eng_R0047059-1",
@@ -1456,6 +1461,7 @@
         "wd-snapchat-Marketing-Operations-Specialist_R0046559",
         "wd-snapchat-Materials-Engineer--Optical-Substrate_R0046933-1",
         "wd-snapchat-Mechanical-Engineer---Manufacturing_R0047056-1",
+        "wd-snapchat-Mechatronics-Engineer_R0046838",
         "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Network-Engineer_R0047027",
@@ -1478,6 +1484,7 @@
         "wd-snapchat-Process-Technician_R0046105",
         "wd-snapchat-Product-Design-Engineer_R0044316-1",
         "wd-snapchat-Product-Design-Engineer_R0045464-2",
+        "wd-snapchat-Product-Design-Engineer_R0047101-1",
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
@@ -1929,6 +1936,7 @@
         "wd-coke-Maintenance-Tech-II---Days-Mon-Fri---33-per-hour_R-143762",
         "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-144017",
         "wd-coke-Maintenance-Tech-II---Nights---33-per-hour_R-146026-1",
+        "wd-coke-Maintenance-Technician---1st-Shift_R-147351",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d---Days_R-137362",
         "wd-coke-Maintenance-Technician---Refrigeration-Mechanic-Ammonia-Exp-Req-d--Nights_R-142967",
         "wd-coke-Maintenance-Technician--2p-10-30p-_R-145242",
@@ -2006,6 +2014,7 @@
         "wd-coke-Principal--Marketing-AI-Applications_R-145807",
         "wd-coke-Process-Engineer_R-134009",
         "wd-coke-Process-Engineer_R-146608",
+        "wd-coke-Process-Engineering-Analyst-II_R-147424",
         "wd-coke-Process-Quality-Analyst---Temporary_R-145259",
         "wd-coke-Product-Manager--Digital_R-145109",
         "wd-coke-Product-Portfolio-Specialist--9-months-contract-_R-145343",
@@ -2030,12 +2039,14 @@
         "wd-coke-Production-Operator_R-146094",
         "wd-coke-Production-Operator_R-146392",
         "wd-coke-Production-Operator_R-146875",
+        "wd-coke-Production-Operator_R-146876",
         "wd-coke-Production-Planning-Analyst--Contract-_R-146450",
         "wd-coke-Production-Supervisor_R-145234",
         "wd-coke-Production-Supervisor_R-146325",
         "wd-coke-Production-Technician--2569-hr--3rd-Shift--Sun---Thurs--10pm---6-30am-_R-145966-1",
         "wd-coke-Production-Technician--2nd-Shift_R-145823",
         "wd-coke-Production-Technician--2nd-shift--2696-HR-_R-146918",
+        "wd-coke-Production-Technician--M-F--7a-3-30p-_R-147354",
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-141237",
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-145822",
         "wd-coke-Production-Technician-I--2nd-shift--2569-HR-_R-145358",
@@ -2295,6 +2306,7 @@
         "wd-coke-Stategic-Project-Manager_R-147251",
         "wd-coke-Strategic-Project--Senior-Manager_R-145739",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
+        "wd-coke-Supply-Chain-Intelligence--Digital---Productivity-Lead_R-147052-1",
         "wd-coke-Technology-Delivery-Lead_R-144432",
         "wd-coke-Trainee-Lawyer_R-144627",
         "wd-coke-UEFA-EURO-2028-Senior-Manager--Brand-Management_R-144812",
@@ -2786,11 +2798,13 @@
         "ashby-elevenlabs-03d5ffd2-5cfd-43a0-a767-3cb08d107233",
         "ashby-elevenlabs-047d2188-87b2-4b1b-a3a6-16821ab77fa9",
         "ashby-elevenlabs-059c1527-71b9-46f5-a691-0e3b0a1be7f5",
+        "ashby-elevenlabs-062dba92-e25b-47ee-b119-aeca540f515f",
         "ashby-elevenlabs-063115f6-3780-4920-97dd-c99489b6cfc2",
         "ashby-elevenlabs-07a8552c-4206-4c27-9f0d-d72d3e40d2a1",
         "ashby-elevenlabs-084978b8-b63d-4c61-8a15-362da4348ef4",
         "ashby-elevenlabs-08aa5440-b214-4650-a1cf-99dfd7b12d9e",
         "ashby-elevenlabs-09c29417-956b-4849-8108-7cc0a2970517",
+        "ashby-elevenlabs-0b3a97d4-193c-4b47-9888-7ef5803ed945",
         "ashby-elevenlabs-0bbf2519-4f28-4de3-836a-aabc302050d7",
         "ashby-elevenlabs-0ceda3d9-d02f-4daa-b9e6-c8d1ca1404bc",
         "ashby-elevenlabs-0d68b2a2-887e-491c-8b9b-56e8354f75fb",
@@ -2850,6 +2864,7 @@
         "ashby-elevenlabs-347282a4-74ff-4e56-a92d-3c4249ee6c28",
         "ashby-elevenlabs-34e9eed1-3fd4-4a25-8f02-dff7f12bebf6",
         "ashby-elevenlabs-356d08ba-6119-4c76-93ad-362ca7283569",
+        "ashby-elevenlabs-35813150-a851-4821-b732-a037b4e6c4fe",
         "ashby-elevenlabs-36bdb528-004b-482c-8924-33b27b76121f",
         "ashby-elevenlabs-3717c857-9f59-40fd-b9eb-7d5e507082ee",
         "ashby-elevenlabs-37701c94-715c-40c9-b02f-4a6217552b01",
@@ -2928,6 +2943,7 @@
         "ashby-elevenlabs-70abac80-024e-4233-a7dc-667697f66976",
         "ashby-elevenlabs-71992118-5b37-4a4a-a862-99e82e02916f",
         "ashby-elevenlabs-71f84d23-fda9-45af-a249-8bbdb258bc18",
+        "ashby-elevenlabs-7389c057-3e25-4e7a-8a03-5e80f40a15a0",
         "ashby-elevenlabs-73ba8a21-bf66-4f37-8e94-05143a481fb8",
         "ashby-elevenlabs-74b8610d-697c-404b-9620-8b934e3c65bd",
         "ashby-elevenlabs-750a8325-7ce1-45ea-b0b1-61dab78a456e",
@@ -2935,6 +2951,7 @@
         "ashby-elevenlabs-75f7890c-2d11-4c18-a95f-03ef85e6bd15",
         "ashby-elevenlabs-7664e3c4-2336-4d1a-90cf-91d1268de10d",
         "ashby-elevenlabs-770f84a9-6fdc-4651-b99b-530172cc06cf",
+        "ashby-elevenlabs-77f23be6-16c0-40c5-87b6-29dc2ee752ab",
         "ashby-elevenlabs-78c564eb-ee87-46d9-b2fd-4322a223a547",
         "ashby-elevenlabs-792d35d9-5a8e-4f57-bf79-5a1cdac463fb",
         "ashby-elevenlabs-7c9abf17-1e6b-4038-92ba-bea97293627a",
@@ -2967,6 +2984,7 @@
         "ashby-elevenlabs-91dd600a-d0dd-4a75-a53d-f59aa9855626",
         "ashby-elevenlabs-9271907b-1aad-4868-8995-b9ed32fb92ac",
         "ashby-elevenlabs-92997f8a-9f90-40fe-a76e-89ffbc44d0cc",
+        "ashby-elevenlabs-934dbe9d-1c1f-4939-944a-6671469009db",
         "ashby-elevenlabs-93a9916a-1fd7-48aa-937e-bc086d95f4e1",
         "ashby-elevenlabs-96fc056f-797f-448a-bd69-fcd9ac2ea663",
         "ashby-elevenlabs-9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
@@ -3014,6 +3032,7 @@
         "ashby-elevenlabs-b82a05bc-a606-4b46-bb41-42e066b86b8b",
         "ashby-elevenlabs-b85d7749-5b12-4f3c-87e9-61a477da77aa",
         "ashby-elevenlabs-b89ff518-824e-4736-a4c7-c68ea3b6b62f",
+        "ashby-elevenlabs-b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
         "ashby-elevenlabs-b8af4833-d4a9-4ab4-baec-5da007f6d1e9",
         "ashby-elevenlabs-b92059ea-d71f-4eef-a184-8510265752fb",
         "ashby-elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
@@ -3828,6 +3847,7 @@
         "gh-datadog-8242859",
         "gh-datadog-8243549",
         "gh-datadog-8243782",
+        "gh-datadog-8244033",
         "gh-datadog-8244276",
         "gh-datadog-8246307",
         "gh-datadog-8247329",
@@ -3839,7 +3859,9 @@
         "gh-datadog-8257217",
         "gh-datadog-8257306",
         "gh-datadog-8257324",
-        "gh-datadog-8259839"
+        "gh-datadog-8259839",
+        "gh-datadog-8260933",
+        "gh-datadog-8261223"
       ]
     },
     "mongodb": {
@@ -4463,7 +4485,8 @@
         "gh-mongodb-8248829",
         "gh-mongodb-8249278",
         "gh-mongodb-8256571",
-        "gh-mongodb-8257245"
+        "gh-mongodb-8257245",
+        "gh-mongodb-8260947"
       ]
     },
     "braze": {
@@ -5310,7 +5333,10 @@
         "gh-appsflyer-8855151002",
         "gh-appsflyer-8855377002",
         "gh-appsflyer-8867105002",
-        "gh-appsflyer-8868191002"
+        "gh-appsflyer-8868191002",
+        "gh-appsflyer-8871110002",
+        "gh-appsflyer-8874236002",
+        "gh-appsflyer-8874566002"
       ]
     },
     "attentive": {
@@ -5814,7 +5840,8 @@
         "gh-flatironhealth-8200990",
         "gh-flatironhealth-8201111",
         "gh-flatironhealth-8238069",
-        "gh-flatironhealth-8243012"
+        "gh-flatironhealth-8243012",
+        "gh-flatironhealth-8249709"
       ]
     },
     "bombas": {
@@ -6390,6 +6417,6 @@
       "fit_reason": "GTM strategy and ops role with 1+ years requirement fits candidate's 3 years relevant experience; core responsibilities (strategic project execution, cross-functional coordination, process design, launch management) align directly with demonstrated GTM/growth work at Chick-fil-A and internships, and no hard exclusions apply."
     }
   ],
-  "last_run": "2026-10-07T08:47:47.560485+00:00",
+  "last_run": "2026-10-07T15:48:43.467156+00:00",
   "pending_notifications": []
 }
