@@ -762,8 +762,16 @@
         "gh-doordashusa-8262815",
         "gh-doordashusa-8262870",
         "gh-doordashusa-8263086",
+        "gh-doordashusa-8263362",
+        "gh-doordashusa-8263726",
         "gh-doordashusa-8263774",
-        "gh-doordashusa-8263786"
+        "gh-doordashusa-8263786",
+        "gh-doordashusa-8264397",
+        "gh-doordashusa-8264534",
+        "gh-doordashusa-8264542",
+        "gh-doordashusa-8265033",
+        "gh-doordashusa-8265444",
+        "gh-doordashusa-8265499"
       ]
     },
     "hubspot": {
@@ -1056,7 +1064,9 @@
         "lever-spotify-204f6cd7-98a3-4360-87e3-8876adf087da",
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
         "lever-spotify-22437625-9527-4e5a-a6d2-a114a889db90",
+        "lever-spotify-2517cbbf-5640-4467-a3ae-08577e76bead",
         "lever-spotify-281e7db9-86ba-4a1c-8773-c23b96ed32dc",
+        "lever-spotify-29252640-3fc6-4ba9-8dac-2838093bab96",
         "lever-spotify-29b0056f-f163-4728-a32a-214bcb3232e8",
         "lever-spotify-2b2ae5a0-f040-4e9a-847c-157b9a41ee29",
         "lever-spotify-308d127c-e765-4895-9264-3765ddbfc620",
@@ -1178,6 +1188,8 @@
         "lever-spotify-d5628547-6362-470e-8828-7ab565054eaa",
         "lever-spotify-d7c43743-2240-45b6-bc31-33e50cbaba4a",
         "lever-spotify-d87833d0-fb78-4794-b45d-3fe5c8274bc8",
+        "lever-spotify-d9e57c3c-1c0a-483b-a783-6d1c9f2ce057",
+        "lever-spotify-da45648b-3b35-4e4b-81df-31667aa4a76d",
         "lever-spotify-da93b18f-3f08-49d1-8725-15b5b70cb75c",
         "lever-spotify-ddb5dfa9-c5ef-4199-bd19-c179af568cc8",
         "lever-spotify-ddcf0836-4443-4954-be31-7466be1eaff2",
@@ -1192,6 +1204,7 @@
         "lever-spotify-eb46cf13-b113-4b80-9c93-c3c8781aff85",
         "lever-spotify-eba7e621-6236-42ee-acad-aaa5df6929c3",
         "lever-spotify-ee45924c-894c-4ea0-9c93-c5221894063f",
+        "lever-spotify-ef3985d1-522e-4950-ba6e-af57dd93c788",
         "lever-spotify-f328ec07-194a-442d-af32-da40cbfd4f22",
         "lever-spotify-f45de8ee-8f32-4e19-9163-eddf7a018337",
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
@@ -1472,6 +1485,7 @@
         "wd-snapchat-Manager--Software-Engineering_H226EM8-1",
         "wd-snapchat-Manager--Software-Engineering_R0046444",
         "wd-snapchat-Manager--Software-Engineering_R0046878",
+        "wd-snapchat-Manager--Software-Engineering_R0047124",
         "wd-snapchat-Manufacturing-Engineer_R0047055-1",
         "wd-snapchat-Marketing-Operations-Specialist_R0046559",
         "wd-snapchat-Materials-Engineer--Optical-Substrate_R0046933-1",
@@ -1594,6 +1608,7 @@
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q426SWEA6-1",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
+        "wd-snapchat-Software-Engineer--Backend--Level-4_Q426SWEB2-2",
         "wd-snapchat-Software-Engineer--Backend--Level-5_Q326SWEB6-1",
         "wd-snapchat-Software-Engineer--Backend--Level-5_Q426SWEB6-1",
         "wd-snapchat-Software-Engineer--Backend--Level-5_R0045598",
@@ -1733,6 +1748,7 @@
         "wd-coke-CPSNA-Sustainability-Sr-Manager_R-146024",
         "wd-coke-CRI-Engineer-Manager_R-145163",
         "wd-coke-Clerical-de-Almacn_R-146674",
+        "wd-coke-Cloud-Architect_R-144531",
         "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144866",
         "wd-coke-Coca-Cola-Ignite-Intern---Customer---Commercial-Leadership_R-144867",
         "wd-coke-Coca-Cola-Ignite-Intern---Finance_R-139250",
@@ -1755,6 +1771,7 @@
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics--NA_R-146600",
         "wd-coke-Consultant--Data---Analytics_R-145069",
+        "wd-coke-Consultant--Data-Engineering_R-146503-1",
         "wd-coke-Consultant--Data-Science_R-146501-1",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate--APAC_R-146382",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-Americas_R-146380",
@@ -2142,6 +2159,7 @@
         "wd-coke-Senior-Director--Business-Delivery---Coke-ON_R-144466",
         "wd-coke-Senior-Director--Business-Development--Dallas--TX-_R-145000",
         "wd-coke-Senior-Director--Capability-Acceleration_R-144405",
+        "wd-coke-Senior-Director--Cloud-Architecture_R-144532",
         "wd-coke-Senior-Director--Coca-Cola-TradeMark-Category-Turkiye_R-134278",
         "wd-coke-Senior-Director--Communication--Change-Leadership-Capability_R-144411",
         "wd-coke-Senior-Director--Costa-Coffee-Global-Master-Data-Management_R-146494-1",
@@ -2153,11 +2171,13 @@
         "wd-coke-Senior-Director--Data-Engineering_R-144403",
         "wd-coke-Senior-Director--Data-Integrations_R-144402",
         "wd-coke-Senior-Director--Data-Science_R-146500-1",
+        "wd-coke-Senior-Director--Digital-Operations_R-144495",
         "wd-coke-Senior-Director--Digital-Transformation---ASEAN---South-Pacific_R-144515-1",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
         "wd-coke-Senior-Director--Digital-Transformation-GCM_R-144510-1",
         "wd-coke-Senior-Director--Electrical-Subsystem_R-144022-1",
         "wd-coke-Senior-Director--Engineering---Supply-Chain-Product_R-145318",
+        "wd-coke-Senior-Director--Engineering--Service_R-134640-1",
         "wd-coke-Senior-Director--Executive-Recruiting_R-146715-1",
         "wd-coke-Senior-Director--Experience-Design---Connection-Planning---Sparkling-Flavors_R-138997-1",
         "wd-coke-Senior-Director--FP-A-Supply-Chain-Corporate_R-146370",
@@ -2251,6 +2271,7 @@
         "wd-coke-Senior-Manager--Digital-AI-Tech_R-136964",
         "wd-coke-Senior-Manager--Digital-Workplace-Analytics_R-144529",
         "wd-coke-Senior-Manager--Digitization--Mexico-Greenfield-_R-143158",
+        "wd-coke-Senior-Manager--Employee-and-Labor-Relations_R-147396",
         "wd-coke-Senior-Manager--Engineering_R-146364-1",
         "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate--Americas_R-146374",
         "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate-EMEA_R-146377",
@@ -2426,9 +2447,11 @@
         "ashby-perplexity-3f800e42-7c48-4f9a-9b12-43ee23e52516",
         "ashby-perplexity-4014cd23-8155-49b3-a3c8-d1b3a7e75460",
         "ashby-perplexity-441daa65-5fd9-499d-91ac-acecdc1952d2",
+        "ashby-perplexity-446ec593-aa8d-4ae4-a2c1-859b8373e1d5",
         "ashby-perplexity-457d84e7-6a36-4499-ae61-db92a2c404b9",
         "ashby-perplexity-4615ca06-bea7-47e3-9e57-f5cee52b75e6",
         "ashby-perplexity-4b5e02a8-6a94-494d-9d49-037f2cfc144d",
+        "ashby-perplexity-4bab4560-68b4-44ec-8a5c-5a39216f2abb",
         "ashby-perplexity-4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8",
         "ashby-perplexity-4d8f7e23-8c80-4bd8-ad27-3f40cf17197b",
         "ashby-perplexity-4fba58de-a168-4948-9d82-a7d4b38f45f2",
@@ -2509,6 +2532,7 @@
         "ashby-perplexity-b9e1ff15-d52a-46d5-abf0-26460f2a116c",
         "ashby-perplexity-be94e89b-89d5-4f2a-a58b-7929c8d97f92",
         "ashby-perplexity-bfb392f2-086e-4187-b69c-2a231b8c3290",
+        "ashby-perplexity-c20486f5-1e9c-436c-ba67-dc69842c221c",
         "ashby-perplexity-c5dcc0db-7fdc-4e09-86c7-b6618400df16",
         "ashby-perplexity-c6c857f3-c0db-4d93-aeed-638b9f9d4eb6",
         "ashby-perplexity-cf0c3486-3fdc-4045-aece-9459cb7d7a6d",
@@ -2611,6 +2635,7 @@
         "ashby-cursor-123af173-6f9b-4089-9d96-d0c028b9e841",
         "ashby-cursor-1240b4aa-8074-4afb-ae36-a690869c8233",
         "ashby-cursor-13517b5d-1c6c-4720-9650-b1d0db72c697",
+        "ashby-cursor-13ceadb8-638f-40c7-a59d-70dab2f4de0b",
         "ashby-cursor-15ccad54-d36b-410d-a21d-ac9821af269c",
         "ashby-cursor-166c3951-1d2a-4e61-b79b-bedefe96073b",
         "ashby-cursor-167f0e93-6915-4d56-803a-be89d1441fb5",
@@ -2869,6 +2894,7 @@
         "ashby-elevenlabs-18d52799-7b88-4516-9d8f-e9db312ad195",
         "ashby-elevenlabs-191bba6f-c66d-4ac0-8ddd-300b272046e0",
         "ashby-elevenlabs-1941b5f6-a89f-4f35-bc07-a123e17d011f",
+        "ashby-elevenlabs-19b21930-d142-4dae-be23-751f5425b0af",
         "ashby-elevenlabs-19d9a7a0-10d9-41d8-b515-a61f1d85f186",
         "ashby-elevenlabs-1a9d687d-0030-4732-8160-f1da54844bba",
         "ashby-elevenlabs-1bd5957c-6799-4b0d-b33d-1d8f7fc56c09",
@@ -2898,6 +2924,7 @@
         "ashby-elevenlabs-2db2a637-1b47-44d3-a506-069e97216946",
         "ashby-elevenlabs-2de358a6-ebea-4205-be57-33d1191154e3",
         "ashby-elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+        "ashby-elevenlabs-31a6f0f4-8e1d-4d77-9d00-026ed12213f2",
         "ashby-elevenlabs-31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
         "ashby-elevenlabs-33bb01d0-993c-47fa-ae91-81c0c84f367e",
         "ashby-elevenlabs-33c501d9-f0d7-45b9-a90c-07c9c0b92f55",
@@ -3032,6 +3059,7 @@
         "ashby-elevenlabs-93a9916a-1fd7-48aa-937e-bc086d95f4e1",
         "ashby-elevenlabs-96fc056f-797f-448a-bd69-fcd9ac2ea663",
         "ashby-elevenlabs-974c2288-d49d-4f05-8d74-0feb08445637",
+        "ashby-elevenlabs-98f8ca46-95d1-40ad-8b41-f6d9c6860840",
         "ashby-elevenlabs-9a2a69a5-cba1-47e5-ac4a-9fa5b78b7da7",
         "ashby-elevenlabs-9a6b86ac-6c84-4423-9555-853723dd74ca",
         "ashby-elevenlabs-9aca205e-b2bc-405b-85d6-3d2aadbe49b1",
@@ -3149,6 +3177,7 @@
         "ashby-elevenlabs-f2ae7fe0-67da-48ae-b126-b942899ec7e9",
         "ashby-elevenlabs-f2bf078d-d104-4a7b-96fd-5187a550f4a0",
         "ashby-elevenlabs-f330bd23-f909-4e50-bf58-9974aee85fc8",
+        "ashby-elevenlabs-f591a101-0ffe-44ba-8ff3-a913c86442b6",
         "ashby-elevenlabs-f5e4cf91-f444-4b0b-9913-9d749fb9ba85",
         "ashby-elevenlabs-f805267e-2f77-4cdf-8d8a-a3ed5b07e726",
         "ashby-elevenlabs-f80d0420-b6e6-4110-940c-293f64b9761e",
@@ -3521,6 +3550,7 @@
         "gh-datadog-7989146",
         "gh-datadog-7989348",
         "gh-datadog-7991343",
+        "gh-datadog-7993198",
         "gh-datadog-7993551",
         "gh-datadog-7993638",
         "gh-datadog-7996898",
@@ -3900,6 +3930,7 @@
         "gh-datadog-8246307",
         "gh-datadog-8247329",
         "gh-datadog-8247346",
+        "gh-datadog-8247435",
         "gh-datadog-8247566",
         "gh-datadog-8247686",
         "gh-datadog-8248968",
@@ -4531,6 +4562,7 @@
         "gh-mongodb-8239745",
         "gh-mongodb-8240010",
         "gh-mongodb-8241351",
+        "gh-mongodb-8242325",
         "gh-mongodb-8243220",
         "gh-mongodb-8243327",
         "gh-mongodb-8246377",
@@ -4539,8 +4571,14 @@
         "gh-mongodb-8249278",
         "gh-mongodb-8256571",
         "gh-mongodb-8257245",
+        "gh-mongodb-8258712",
+        "gh-mongodb-8259719",
         "gh-mongodb-8260947",
-        "gh-mongodb-8264146"
+        "gh-mongodb-8262077",
+        "gh-mongodb-8263092",
+        "gh-mongodb-8264146",
+        "gh-mongodb-8265960",
+        "gh-mongodb-8265973"
       ]
     },
     "braze": {
@@ -5046,10 +5084,13 @@
         "gh-braze-8240680",
         "gh-braze-8240692",
         "gh-braze-8243020",
+        "gh-braze-8243022",
         "gh-braze-8243113",
         "gh-braze-8243115",
         "gh-braze-8246096",
         "gh-braze-8247538",
+        "gh-braze-8247542",
+        "gh-braze-8248782",
         "gh-braze-8248794",
         "gh-braze-8249740",
         "gh-braze-8249742",
@@ -5058,7 +5099,15 @@
         "gh-braze-8249767",
         "gh-braze-8257562",
         "gh-braze-8257568",
-        "gh-braze-8259692"
+        "gh-braze-8257792",
+        "gh-braze-8257795",
+        "gh-braze-8257797",
+        "gh-braze-8257799",
+        "gh-braze-8259692",
+        "gh-braze-8264821",
+        "gh-braze-8264838",
+        "gh-braze-8264842",
+        "gh-braze-8264994"
       ]
     },
     "classpass": {
@@ -5150,6 +5199,8 @@
         "gh-classpass-4715074006",
         "gh-classpass-4716111006",
         "gh-classpass-4717879006",
+        "gh-classpass-4719996006",
+        "gh-classpass-4720002006",
         "gh-classpass-4720011006"
       ]
     },
@@ -5304,7 +5355,8 @@
         "gh-justworks-8241450",
         "gh-justworks-8244793",
         "gh-justworks-8247884",
-        "gh-justworks-8248039"
+        "gh-justworks-8248039",
+        "gh-justworks-8265619"
       ]
     },
     "appsflyer": {
@@ -5456,9 +5508,11 @@
         "gh-attentive-4415182009",
         "gh-attentive-4418793009",
         "gh-attentive-4420283009",
+        "gh-attentive-4423425009",
         "gh-attentive-4424815009",
         "gh-attentive-4429776009",
-        "gh-attentive-4429880009"
+        "gh-attentive-4429880009",
+        "gh-attentive-4438176009"
       ]
     },
     "glossier": {
@@ -5788,7 +5842,9 @@
         "gh-thefarmersdog-8789251002",
         "gh-thefarmersdog-8812134002",
         "gh-thefarmersdog-8843061002",
-        "gh-thefarmersdog-8860216002"
+        "gh-thefarmersdog-8860216002",
+        "gh-thefarmersdog-8868874002",
+        "gh-thefarmersdog-8868875002"
       ]
     },
     "kargo": {
@@ -5843,7 +5899,9 @@
         "gh-yotpo-8159485",
         "gh-yotpo-8161185",
         "gh-yotpo-8203715",
-        "gh-yotpo-8211515"
+        "gh-yotpo-8211515",
+        "gh-yotpo-8265365",
+        "gh-yotpo-8265427"
       ]
     },
     "flatironhealth": {
@@ -6043,16 +6101,6 @@
       "fit_reason": "Strategic account management role with revenue-growth ownership, data-driven optimization, and cross-functional work aligns with candidate's GTM/growth focus; restaurant/hospitality background and AI fluency are strong matches; 3-5+ years floors at 3, which candidate meets."
     },
     {
-      "id": "gh-doordashusa-7998424",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate Manager, Integrated Marketing",
-      "location": "New York, NY; San Francisco, CA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7998424",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Product marketing/growth marketing role focused on funnel optimization, messaging, and conversion\u2014core target function. Candidate has ~3 years relevant experience (meets 3\u20136 range floor) with demonstrated self-serve funnel work, positioning/messaging, email/campaign design, and data-driven optimization; unfamiliar tools (Pendo, Amplitude, FullStory, Sigma, Hightouch) are learnable and listed as 'learn & practice,' not hard requirements."
-    },
-    {
       "id": "gh-doordashusa-7984775",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -6223,16 +6271,6 @@
       "fit_reason": "Customer Success Manager role focused on retention, expansion, and strategic customer outcomes within existing accounts\u2014core growth/lifecycle work. Candidate has 3+ years relevant experience (Chick-fil-A role demonstrates retention campaigns, win-back programs, relationship building, and data-driven expansion). SEO expertise is listed as a plus, not a hard requirement; candidate's analytical and campaign-optimization background transfers well. Early-stage product-building aspect aligns with candidate's demonstrated ability to create structure and playbooks."
     },
     {
-      "id": "gh-datadog-7843331",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "GTM Strategy and Operations Associate",
-      "location": "New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/7843331/?gh_jid=7843331",
-      "first_seen": "2026-08-27T20:28:12.727386+00:00",
-      "fit_reason": "GTM Strategy & Operations role aligns with revenue operations target; 2-4+ years stated (floor is 2, candidate has ~3 years relevant experience); strong transferable skills in tool evaluation, vendor management, cross-functional execution, and data-driven decision-making; unfamiliar specific sales tools (ZoomInfo, Groove, Salesloft) are learnable and posting explicitly welcomes growth mindset."
-    },
-    {
       "id": "gh-braze-8105611",
       "company_key": "braze",
       "company_name": "Braze",
@@ -6353,46 +6391,6 @@
       "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
     },
     {
-      "id": "gh-braze-8227314",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "New York City",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8227314",
-      "first_seen": "2026-09-23T22:50:17.787266+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement is met at the floor."
-    },
-    {
-      "id": "gh-braze-8227320",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "Chicago",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8227320",
-      "first_seen": "2026-09-23T22:50:17.787266+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement is met at the floor."
-    },
-    {
-      "id": "gh-braze-8227209",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "San Francisco",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8227209",
-      "first_seen": "2026-09-23T22:50:17.787266+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing customers; candidate's 3+ years of lifecycle marketing, retention campaigns, and account management at Chick-fil-A directly transfers, and 2-5 years requirement floor (2 years) is well within scope."
-    },
-    {
-      "id": "gh-braze-8227313",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Customer Success Manager II, Enterprise",
-      "location": "Austin",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8227313",
-      "first_seen": "2026-09-23T22:50:17.787266+00:00",
-      "fit_reason": "Enterprise CSM role focused on retention, adoption, and account growth with existing large customers\u2014aligns with candidate's lifecycle/growth/account-management experience; 2-5 years stated (floor is 2), candidate has ~3.5 years relevant ops/marketing hybrid work plus internships; domain knowledge in marketing automation and analytics demonstrated; field travel required but not a disqualifier given enterprise account-management fit and candidate's openness to commercial roles as a tech entry path."
-    },
-    {
       "id": "gh-mongodb-8231579",
       "company_key": "mongodb",
       "company_name": "MongoDB",
@@ -6461,8 +6459,28 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8262870",
       "first_seen": "2026-10-07T20:49:28.854630+00:00",
       "fit_reason": "Account management role focused on growing existing merchant partnerships through relationship building, data-driven growth strategies, and cross-functional execution\u2014strong fit for candidate's demonstrated account/partnership work at Chick-fil-A; no hard years requirement stated, only 'nice to have' 2+ years client-facing experience."
+    },
+    {
+      "id": "gh-doordashusa-8263362",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Associate, Grocery Partnerships",
+      "location": "Chicago, IL; New York, NY; Seattle, WA; San Francisco, CA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263362",
+      "first_seen": "2026-10-08T23:59:03.063218+00:00",
+      "fit_reason": "Account management/partnerships role with strategic, cross-functional execution work (business planning, product testing, partner enablement) aligns with candidate's GTM/revenue-operations target; 3-5 year range floors at 3, which candidate meets; travel/field component is manageable for an early-career bridge role, and core work is relationship/strategy-driven, not pure prospecting."
+    },
+    {
+      "id": "lever-spotify-29252640-3fc6-4ba9-8dac-2838093bab96",
+      "company_key": "spotify",
+      "company_name": "Spotify",
+      "title": "Performance Marketing Activation Specialist",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/spotify/29252640-3fc6-4ba9-8dac-2838093bab96",
+      "first_seen": "2026-10-08T23:59:03.063218+00:00",
+      "fit_reason": "Performance Marketing Activation Specialist is a core target role (performance marketing); candidate meets the 3-year floor with ~3.5 years of increasingly senior marketing/growth work including campaign management, A/B testing, paid social (Meta Ads), analytics, and cross-functional execution; lacks deep Google Search hands-on experience but has demonstrated performance marketing fundamentals, data orientation, and AI/automation skills that transfer directly."
     }
   ],
-  "last_run": "2026-10-08T13:58:55.893018+00:00",
+  "last_run": "2026-10-08T23:59:03.063218+00:00",
   "pending_notifications": []
 }
