@@ -1550,6 +1550,7 @@
         "wd-snapchat-Senior-Client-Partner--Business-Development_R0046060-1",
         "wd-snapchat-Senior-Client-Partner_Q326SCP8-1",
         "wd-snapchat-Senior-Client-Partner_Q426SCP8-1",
+        "wd-snapchat-Senior-Client-Partner_Q426SCPL5-1",
         "wd-snapchat-Senior-Client-Partner_R0046205-1",
         "wd-snapchat-Senior-Compensation-Program-Manager_R0047019-1",
         "wd-snapchat-Senior-Copywriter_R0046488-1",
@@ -1578,6 +1579,7 @@
         "wd-snapchat-Senior-Marketing-Scientist_R0045832",
         "wd-snapchat-Senior-Marketing-Scientist_R0045833",
         "wd-snapchat-Senior-Marketing-Scientist_R0046683-1",
+        "wd-snapchat-Senior-Principal-Software-Engineer--Ads-Quality_R0047116-1",
         "wd-snapchat-Senior-Residential-Security-Officer_R0046877-1",
         "wd-snapchat-Senior-SMC-Marketing-Specialist_R0046332-1",
         "wd-snapchat-Senior-Sales-Operations-Associate---Revenue-Tooling_R0046585-1",
@@ -6005,16 +6007,6 @@
       "fit_reason": "Enterprise customer success role framed around GTM expansion, adoption, and revenue growth\u2014directly aligned with candidate's target of commercial/growth roles as a tech entry path; no years requirement stated; candidate's 3+ years of lifecycle marketing, win-back campaigns, adoption-driven event design, and cross-functional GTM work at Chick-fil-A maps clearly to the strategic partnership and expansion mandate."
     },
     {
-      "id": "gh-doordashusa-7852785",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Account Manager, CPG",
-      "location": "San Francisco, CA; New York, NY; Chicago, IL;  Los Angeles, CA; Atlanta, GA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7852785",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Account Manager, CPG role centers on partnership strategy, campaign development, analytics, and revenue growth\u2014aligned with candidate's GTM/account management targets; 3-6 years stated (floor is 3, candidate meets it); no cold calling as explicit core duty; analytics/AI-driven decision-making core fit; unfamiliar tools (Snowflake, Sigma) are learnable and listed alongside general analytics fluency."
-    },
-    {
       "id": "gh-doordashusa-7958917",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -6083,16 +6075,6 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8143360",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
       "fit_reason": "Candidate has 3+ years of relevant commercial/GTM work (Chick-fil-A role demonstrates merchant relationship management, onboarding, success tracking, and data-driven optimization); posting requires only 1-2+ years and aligns with revenue operations / account management / merchant success in candidate's target scope."
-    },
-    {
-      "id": "gh-doordashusa-8148531",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Associate, Sales Strategy and Planning",
-      "location": "San Francisco, California, United States",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8148531",
-      "first_seen": "2026-08-24T16:50:40.326685+00:00",
-      "fit_reason": "Revenue operations role (Sales Strategy & Planning) is explicitly in-scope; candidate has ~3.5 years of directly transferable analytical, data-driven sales/growth work with forecasting, goal-setting, and performance optimization; 2-4 year range floor is met; SQL basics + Google Sheets + AI tooling + analytical mindset align well; Anaplan/incentive-design tools are nice-to-have, not hard blockers."
     },
     {
       "id": "ashby-perplexity-08f1a218-bdff-4cdd-aefe-0d55529b1ece",
@@ -6455,6 +6437,6 @@
       "fit_reason": "Account management role focused on growing existing merchant partnerships through relationship building, data-driven growth strategies, and cross-functional execution\u2014strong fit for candidate's demonstrated account/partnership work at Chick-fil-A; no hard years requirement stated, only 'nice to have' 2+ years client-facing experience."
     }
   ],
-  "last_run": "2026-10-07T20:49:28.854630+00:00",
+  "last_run": "2026-10-08T00:28:09.191000+00:00",
   "pending_notifications": []
 }
