@@ -771,7 +771,9 @@
         "gh-doordashusa-8264542",
         "gh-doordashusa-8265033",
         "gh-doordashusa-8265444",
-        "gh-doordashusa-8265499"
+        "gh-doordashusa-8265499",
+        "gh-doordashusa-8267987",
+        "gh-doordashusa-8268088"
       ]
     },
     "hubspot": {
@@ -1064,6 +1066,7 @@
         "lever-spotify-1f56d4be-4e54-441a-ad05-946b9efcc391",
         "lever-spotify-204f6cd7-98a3-4360-87e3-8876adf087da",
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
+        "lever-spotify-223f9722-3579-4ff2-b123-e4cc7b0c1a64",
         "lever-spotify-22437625-9527-4e5a-a6d2-a114a889db90",
         "lever-spotify-2344260b-477c-4086-b5a5-842dc4c587f0",
         "lever-spotify-2517cbbf-5640-4467-a3ae-08577e76bead",
@@ -1088,6 +1091,7 @@
         "lever-spotify-46c223d0-7b9c-4bff-9035-c0c6cc67bbdf",
         "lever-spotify-47d4eabf-8d5a-4dab-ac72-de7b5b56841c",
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
+        "lever-spotify-4852ad53-b028-4161-b53b-24c62759257f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
         "lever-spotify-53c07681-f798-4f2c-bef6-513c6d027c9e",
@@ -1359,6 +1363,7 @@
         "wd-snapchat-Client-Partner--SMC_H226SMCP5-1",
         "wd-snapchat-Client-Partner_Q326CP5-1",
         "wd-snapchat-Client-Partner_Q426CP5-1",
+        "wd-snapchat-Client-Partner_Q426CPL4-1",
         "wd-snapchat-Client-Partner_R0045517",
         "wd-snapchat-Client-Partner_R0046396-1",
         "wd-snapchat-Client-Partner_R0046487",
@@ -1442,6 +1447,7 @@
         "wd-snapchat-Lead--Trust---Safety-US-Operations_R0046812-1",
         "wd-snapchat-Lead-Business-Intelligence-Engineer_R0046831",
         "wd-snapchat-Lead-Client-Partner_R0046379",
+        "wd-snapchat-Lead-Client-Partner_R0047134-1",
         "wd-snapchat-Lead-Data-Scientist--Core--Level-6_R0046848-1",
         "wd-snapchat-Lead-Program-Management--SMC-Operations_R0046960-1",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
@@ -1506,6 +1512,7 @@
         "wd-snapchat-People-Application-Developer_R0045795-1",
         "wd-snapchat-People-Operations-Generalist_R0046734-1",
         "wd-snapchat-People-Operations-Program-Manager_R0046736-1",
+        "wd-snapchat-Principal-Machine-Learning-Engineer--Platform-Integrity-Engineering--Level-7_R0047141-1",
         "wd-snapchat-Principal-Machine-Learning-Engineer--Signals-and-Measurement_R0046974",
         "wd-snapchat-Principal-Marketing-Scientist--Level-6_R0046642-1",
         "wd-snapchat-Principal-Software-Engineer--Ads-Format--Level-7_R0041203",
@@ -1543,6 +1550,7 @@
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
         "wd-snapchat-Residential-Security-Officer_R0042844",
         "wd-snapchat-Residential-Security-Officer_R0044571-1",
+        "wd-snapchat-Sales-Operations-Lead_H226SOL7",
         "wd-snapchat-Sales-Operations-Lead_R0047018-2",
         "wd-snapchat-Security-Engineer---Threat-Intelligence_R0043738-2",
         "wd-snapchat-Security-Engineer--Level-4_H226SWES2-1",
@@ -3309,7 +3317,9 @@
         "gh-spothopper-4429781009",
         "gh-spothopper-4429794009",
         "gh-spothopper-4430281009",
-        "gh-spothopper-4430290009"
+        "gh-spothopper-4430290009",
+        "gh-spothopper-4444242009",
+        "gh-spothopper-4444245009"
       ]
     },
     "datadog": {
@@ -4590,6 +4600,7 @@
         "gh-mongodb-8231010",
         "gh-mongodb-8231579",
         "gh-mongodb-8234338",
+        "gh-mongodb-8234520",
         "gh-mongodb-8236841",
         "gh-mongodb-8237572",
         "gh-mongodb-8238617",
@@ -5665,7 +5676,8 @@
         "gh-yext-8237972",
         "gh-yext-8239363",
         "gh-yext-8239441",
-        "gh-yext-8249203"
+        "gh-yext-8249203",
+        "gh-yext-8267827"
       ]
     },
     "mavenclinic": {
@@ -6526,6 +6538,6 @@
       "fit_reason": "Performance Marketing Activation Specialist is a core target role (performance marketing); candidate meets the 3-year floor with ~3.5 years of increasingly senior marketing/growth work including campaign management, A/B testing, paid social (Meta Ads), analytics, and cross-functional execution; lacks deep Google Search hands-on experience but has demonstrated performance marketing fundamentals, data orientation, and AI/automation skills that transfer directly."
     }
   ],
-  "last_run": "2026-10-09T18:30:07.879080+00:00",
+  "last_run": "2026-10-09T22:50:41.071546+00:00",
   "pending_notifications": []
 }
