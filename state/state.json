@@ -1045,6 +1045,7 @@
         "lever-spotify-080868dd-fc8c-4648-b6ab-6780d8ca3d63",
         "lever-spotify-0841fdc0-1702-4ef6-b665-8a825112696c",
         "lever-spotify-0b8ea4d4-57ee-49c1-a57f-9a37248ee24f",
+        "lever-spotify-0bbac931-32eb-4ceb-9477-41f1e8d8b01d",
         "lever-spotify-0d82639f-54c4-4e44-984e-4c9de7e8fffe",
         "lever-spotify-0eebb462-b5a2-4e3a-b830-d8ef7505b014",
         "lever-spotify-142aa205-8ddb-4884-97ba-600d1eb19f4f",
@@ -1390,6 +1391,7 @@
         "wd-snapchat-Electrical-Engineer_H226EE1",
         "wd-snapchat-Electrical-Engineer_R0046836",
         "wd-snapchat-Electrical-Signal-Integrity-Engineer_R0044223-1",
+        "wd-snapchat-Embedded-Software-Engineer--Power--Level-5_R0047128-2",
         "wd-snapchat-Embedded-Software-Firmware-Test-Engineer_R0046086-1",
         "wd-snapchat-Employee-Relations-Business-Partner_R0044682-1",
         "wd-snapchat-Enterprise-Partner-Development-Manager_R0045910-1",
@@ -1832,6 +1834,7 @@
         "wd-coke-Director--Digital-Strategy_R-144408",
         "wd-coke-Director--Digital-Transformation---Scrum-Master_R-144571",
         "wd-coke-Director--Digital-Transformation-Quality---Food-Safety_R-146167",
+        "wd-coke-Director--Digital-Twin---Scalable-Content_R-146489-1",
         "wd-coke-Director--FP-A---Marketing-Finance-Service-Delivery-Lead--Greater-China---Mongolia-_R-145155",
         "wd-coke-Director--FSOP-Digital-Enablement---Activation_R-145584",
         "wd-coke-Director--FSOP-Digital-Partnerships_R-146075",
@@ -1900,6 +1903,7 @@
         "wd-coke-Director--Tech-Lead--Cust-Operational-Excellence_R-134642",
         "wd-coke-Director--Technical-Consumer-Data-Research_R-142555",
         "wd-coke-Director--Technical-Innovation_R-146885",
+        "wd-coke-Director--Technical-Operations---Middle-East-Region_R-147503",
         "wd-coke-Director--Trade-Strategy---Execution_R-145757",
         "wd-coke-Director--UI-UX-Designer_R-145100-1",
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
@@ -2204,6 +2208,7 @@
         "wd-coke-Senior-Director--MDS--Mexico-North_R-145919",
         "wd-coke-Senior-Director--Machine-Learning-Architect_R-144478",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
+        "wd-coke-Senior-Director--Omni-Channel--SCCL--ZH---Macau_R-147435-1",
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
         "wd-coke-Senior-Director--Privacy-Governance---Compliance_R-145736-1",
@@ -2244,6 +2249,7 @@
         "wd-coke-Senior-Manager---Customer-Finance--Customer-Agreement-Team_R-146411",
         "wd-coke-Senior-Manager--AI-Engineer_R-145118-1",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
+        "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer---Fuelight_R-145128-1",
         "wd-coke-Senior-Manager--Application---Machine-Learning-Engineer_R-145121-1",
         "wd-coke-Senior-Manager--Assets-France_R-146459-1",
         "wd-coke-Senior-Manager--Automation_R-136577-1",
@@ -2766,6 +2772,7 @@
         "ashby-cursor-dc028792-b500-4d2c-87ec-55a84b61d834",
         "ashby-cursor-dd3605da-099d-47cc-b43d-1a92a39cd5f7",
         "ashby-cursor-de322c3d-337e-4301-a7dc-90ccf331d60f",
+        "ashby-cursor-e076ddca-ad40-4dd3-adbc-1da0740a92e6",
         "ashby-cursor-e08262e8-c089-488d-9b59-9e21f7702b64",
         "ashby-cursor-e3ccb495-a8a3-4ff0-a27b-262188abb9df",
         "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352",
@@ -3069,6 +3076,7 @@
         "ashby-elevenlabs-9fbd9227-57e0-4221-9255-1a1d967be8ed",
         "ashby-elevenlabs-9ff4210a-208d-4e65-a1ed-b2a6926bd4a7",
         "ashby-elevenlabs-a0389dc2-77d8-439b-960b-2acb8712991e",
+        "ashby-elevenlabs-a1c86d02-e9df-4580-87e4-1333f2b83e94",
         "ashby-elevenlabs-a21ec926-88d3-4f95-98be-c551fe1ec49f",
         "ashby-elevenlabs-a2910e63-1dcc-4da2-a8ee-bc2a044e4613",
         "ashby-elevenlabs-a3097257-a07a-4a7e-b9fe-b8555c1a0fa7",
@@ -3159,11 +3167,13 @@
         "ashby-elevenlabs-e5c45832-a952-4584-9874-25580b5b4993",
         "ashby-elevenlabs-e5cca48b-1f34-48fe-9ebf-3c6ff526f9ba",
         "ashby-elevenlabs-e66bf8b7-45a0-4cbf-bc37-43d20a388ff8",
+        "ashby-elevenlabs-e6924f60-c8cc-42b3-9d05-2442ec30e12d",
         "ashby-elevenlabs-e7b83599-1b70-4830-85da-7132b99a3b57",
         "ashby-elevenlabs-ea45b306-c62d-4aba-98ba-ee2e62adf91a",
         "ashby-elevenlabs-eb0cc725-ac18-46a7-a0b5-a8ca58f5779d",
         "ashby-elevenlabs-ec04799b-6567-4032-8d6c-3c27261618e1",
         "ashby-elevenlabs-ed5d50eb-e41a-48e4-bea0-3686176f0461",
+        "ashby-elevenlabs-ede30aef-bc40-48b3-ae75-59cdc5d075b9",
         "ashby-elevenlabs-eed3d392-bab8-4fb9-a038-adeb991b5b5a",
         "ashby-elevenlabs-eee2abfb-bd2f-410d-a339-3923e9c95043",
         "ashby-elevenlabs-ef0a1e14-40ee-43d2-aab9-59fc9f6a4b8c",
@@ -3923,6 +3933,7 @@
         "gh-datadog-8242722",
         "gh-datadog-8242795",
         "gh-datadog-8242859",
+        "gh-datadog-8243071",
         "gh-datadog-8243549",
         "gh-datadog-8243782",
         "gh-datadog-8244033",
@@ -3944,7 +3955,8 @@
         "gh-datadog-8261223",
         "gh-datadog-8261934",
         "gh-datadog-8261937",
-        "gh-datadog-8263113"
+        "gh-datadog-8263113",
+        "gh-datadog-8263146"
       ]
     },
     "mongodb": {
@@ -4569,8 +4581,10 @@
         "gh-mongodb-8247670",
         "gh-mongodb-8248829",
         "gh-mongodb-8249278",
+        "gh-mongodb-8250236",
         "gh-mongodb-8256571",
         "gh-mongodb-8257245",
+        "gh-mongodb-8258279",
         "gh-mongodb-8258712",
         "gh-mongodb-8259719",
         "gh-mongodb-8260947",
@@ -4578,7 +4592,8 @@
         "gh-mongodb-8263092",
         "gh-mongodb-8264146",
         "gh-mongodb-8265960",
-        "gh-mongodb-8265973"
+        "gh-mongodb-8265973",
+        "gh-mongodb-8266850"
       ]
     },
     "braze": {
@@ -5087,6 +5102,7 @@
         "gh-braze-8243022",
         "gh-braze-8243113",
         "gh-braze-8243115",
+        "gh-braze-8246027",
         "gh-braze-8246096",
         "gh-braze-8247538",
         "gh-braze-8247542",
@@ -6481,6 +6497,6 @@
       "fit_reason": "Performance Marketing Activation Specialist is a core target role (performance marketing); candidate meets the 3-year floor with ~3.5 years of increasingly senior marketing/growth work including campaign management, A/B testing, paid social (Meta Ads), analytics, and cross-functional execution; lacks deep Google Search hands-on experience but has demonstrated performance marketing fundamentals, data orientation, and AI/automation skills that transfer directly."
     }
   ],
-  "last_run": "2026-10-08T23:59:03.063218+00:00",
+  "last_run": "2026-10-09T12:35:13.409209+00:00",
   "pending_notifications": []
 }
