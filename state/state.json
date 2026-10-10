@@ -773,7 +773,8 @@
         "gh-doordashusa-8265444",
         "gh-doordashusa-8265499",
         "gh-doordashusa-8267987",
-        "gh-doordashusa-8268088"
+        "gh-doordashusa-8268088",
+        "gh-doordashusa-8269068"
       ]
     },
     "hubspot": {
@@ -2826,6 +2827,7 @@
         "ashby-runway-ml-06590ce3-fe8f-493f-8545-3f905c74f05f",
         "ashby-runway-ml-07c09e07-3dcd-44c3-a59e-86603d9d007d",
         "ashby-runway-ml-08d42c3a-7ac6-4576-ad4a-75a0d80bf0d6",
+        "ashby-runway-ml-09021655-a511-47c6-8132-edd77a5ee86c",
         "ashby-runway-ml-09442bd6-8749-45a0-bac3-cb4de65bc6f2",
         "ashby-runway-ml-0a79e4be-d7ea-4d43-9400-33a23f552b81",
         "ashby-runway-ml-0b7b8839-037f-4ccf-886b-6d247923601c",
@@ -2862,6 +2864,7 @@
         "ashby-runway-ml-9a9f687a-6d61-4ab5-8b26-c4d67d527560",
         "ashby-runway-ml-9e54a328-8bf2-4255-9358-7f26c5d1e7aa",
         "ashby-runway-ml-9f6d216d-2f54-4970-84d7-43ab0a2b4852",
+        "ashby-runway-ml-a1835fab-ef8e-4c66-b3fa-2eeb9163a34a",
         "ashby-runway-ml-a3165184-69a1-4a5a-8695-88340417db82",
         "ashby-runway-ml-ad77d776-ff58-4d04-b6ad-20bdd6d91929",
         "ashby-runway-ml-ae62647f-7ec4-4383-a5ff-d37d73580062",
@@ -4034,6 +4037,7 @@
         "gh-mongodb-7157100",
         "gh-mongodb-7160353",
         "gh-mongodb-7191603",
+        "gh-mongodb-7194933",
         "gh-mongodb-7211619",
         "gh-mongodb-7211805",
         "gh-mongodb-7217699",
@@ -6058,7 +6062,8 @@
         "gh-cleo-4725537005",
         "gh-cleo-4730980005",
         "gh-cleo-4733431005",
-        "gh-cleo-4739273005"
+        "gh-cleo-4739273005",
+        "gh-cleo-4742841005"
       ]
     },
     "microsoft": {
@@ -6538,6 +6543,6 @@
       "fit_reason": "Performance Marketing Activation Specialist is a core target role (performance marketing); candidate meets the 3-year floor with ~3.5 years of increasingly senior marketing/growth work including campaign management, A/B testing, paid social (Meta Ads), analytics, and cross-functional execution; lacks deep Google Search hands-on experience but has demonstrated performance marketing fundamentals, data orientation, and AI/automation skills that transfer directly."
     }
   ],
-  "last_run": "2026-10-09T22:50:41.071546+00:00",
+  "last_run": "2026-10-10T02:04:44.146386+00:00",
   "pending_notifications": []
 }
