@@ -779,7 +779,8 @@
         "gh-doordashusa-8273925",
         "gh-doordashusa-8273992",
         "gh-doordashusa-8274081",
-        "gh-doordashusa-8274095"
+        "gh-doordashusa-8274095",
+        "gh-doordashusa-8275512"
       ]
     },
     "hubspot": {
@@ -2161,6 +2162,7 @@
         "wd-coke-Retail-Execution-Specialist--Greensboro--NC_R-141439",
         "wd-coke-Retail-Lead-Ambassador_R-145828",
         "wd-coke-Retail-Lead-Associate--Coca-Cola-Store--Disney-Springs-_R-144957",
+        "wd-coke-Retail-Lead-Associate--Coca-Cola-Store--Disney-Springs-_R-145364",
         "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-143188",
         "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-146675-1",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143654",
@@ -2606,6 +2608,7 @@
         "ashby-perplexity-ef269656-94ef-463a-ae0e-6102ca3a94dd",
         "ashby-perplexity-f05bd47b-bed8-4f00-9d9c-026c72578e82",
         "ashby-perplexity-f25e190e-0508-4707-b575-fcaed358dc13",
+        "ashby-perplexity-f3c7ce0d-026e-4b5d-b22d-8b6041746c3d",
         "ashby-perplexity-f45ba174-7e99-4743-9d19-6e4d3e196458",
         "ashby-perplexity-f4d81f6b-958c-4bc0-a9aa-9850c3508ca9",
         "ashby-perplexity-fa088d92-b08b-43f7-9232-275b0ae08827",
@@ -2785,6 +2788,7 @@
         "ashby-cursor-a750c967-7c4d-4704-a528-dcb63afc5f64",
         "ashby-cursor-aa50a09b-2413-44a0-a1b1-04381b03cc30",
         "ashby-cursor-aca52072-00b0-4c2b-9371-18689910cd14",
+        "ashby-cursor-aef8f0e7-37cd-4d6e-96c9-3af72f588bae",
         "ashby-cursor-b0d8ff6c-d37f-4dbc-b6c0-4fa84c38e224",
         "ashby-cursor-b0ef8a4d-64b5-4dc8-aeba-aa9ac0f430fc",
         "ashby-cursor-b3320730-9b59-42b6-8b90-0f2c3ef81c15",
@@ -3226,6 +3230,7 @@
         "ashby-elevenlabs-e66bf8b7-45a0-4cbf-bc37-43d20a388ff8",
         "ashby-elevenlabs-e6924f60-c8cc-42b3-9d05-2442ec30e12d",
         "ashby-elevenlabs-e7b83599-1b70-4830-85da-7132b99a3b57",
+        "ashby-elevenlabs-e815e2a8-e3bd-4e41-bbc3-ebe57277927b",
         "ashby-elevenlabs-ea45b306-c62d-4aba-98ba-ee2e62adf91a",
         "ashby-elevenlabs-eb0cc725-ac18-46a7-a0b5-a8ca58f5779d",
         "ashby-elevenlabs-ec04799b-6567-4032-8d6c-3c27261618e1",
@@ -4144,6 +4149,7 @@
         "gh-mongodb-7657688",
         "gh-mongodb-7658084",
         "gh-mongodb-7662950",
+        "gh-mongodb-7668289",
         "gh-mongodb-7672303",
         "gh-mongodb-7678147",
         "gh-mongodb-7683484",
@@ -4667,7 +4673,9 @@
         "gh-mongodb-8266850",
         "gh-mongodb-8267061",
         "gh-mongodb-8267063",
-        "gh-mongodb-8267650"
+        "gh-mongodb-8267650",
+        "gh-mongodb-8268264",
+        "gh-mongodb-8274765"
       ]
     },
     "braze": {
@@ -5208,7 +5216,10 @@
         "gh-braze-8274247",
         "gh-braze-8274618",
         "gh-braze-8274629",
-        "gh-braze-8274636"
+        "gh-braze-8274636",
+        "gh-braze-8274796",
+        "gh-braze-8274862",
+        "gh-braze-8274874"
       ]
     },
     "classpass": {
@@ -5459,6 +5470,7 @@
         "gh-justworks-8248039",
         "gh-justworks-8256840",
         "gh-justworks-8257433",
+        "gh-justworks-8263097",
         "gh-justworks-8265619"
       ]
     },
@@ -5675,7 +5687,9 @@
         "gh-glossier-8245136",
         "gh-glossier-8245150",
         "gh-glossier-8257431",
-        "gh-glossier-8258416"
+        "gh-glossier-8258416",
+        "gh-glossier-8274997",
+        "gh-glossier-8275211"
       ]
     },
     "yext": {
@@ -6055,6 +6069,7 @@
         "gh-flatironhealth-8092467",
         "gh-flatironhealth-8092475",
         "gh-flatironhealth-8097934",
+        "gh-flatironhealth-8122311",
         "gh-flatironhealth-8122317",
         "gh-flatironhealth-8123090",
         "gh-flatironhealth-8127129",
@@ -6475,16 +6490,6 @@
       "fit_reason": "Customer Success role focused on adoption, retention, and account growth within existing portfolio; candidate's Chick-fil-A experience demonstrates direct transferable skills (retention campaigns, win-back programs, account relationship building, data-driven optimization), meets 1+ year requirement, and Spanish fluency is confirmed."
     },
     {
-      "id": "gh-doordashusa-8214058",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Enterprise Associate, Ad Sales",
-      "location": "New York, NY; San Francisco, CA; Chicago, IL; Los Angeles, CA; Atlanta, GA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8214058",
-      "first_seen": "2026-09-18T20:24:44.758735+00:00",
-      "fit_reason": "Enterprise Associate role in ad operations/sales execution with campaign management, performance analysis, and cross-functional coordination aligns with candidate's growth/lifecycle marketing background and demonstrated analytics/optimization skills; 2+ years requirement is met by ~3.5 years at Chick-fil-A plus internships; Salesforce and data analysis are core strengths; Tableau/GSuite gaps are learnable and not stacked hard requirements."
-    },
-    {
       "id": "gh-mavenclinic-8821478002",
       "company_key": "mavenclinic",
       "company_name": "Maven Clinic",
@@ -6503,16 +6508,6 @@
       "url": "https://flatiron.com/careers/open-positions/job?gh_jid=8128223",
       "first_seen": "2026-09-22T17:20:08.405806+00:00",
       "fit_reason": "Product marketing role aligned with candidate's core target; 2+ years requirement is met by ~3 years relevant experience; healthcare/pharma domain gap is learnable, and candidate's demonstrated GTM, content, cross-functional, and data-driven work transfers directly."
-    },
-    {
-      "id": "gh-mongodb-8231579",
-      "company_key": "mongodb",
-      "company_name": "MongoDB",
-      "title": "Senior Analyst, Sales Strategy and Planning",
-      "location": "Austin",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=8231579",
-      "first_seen": "2026-09-24T19:50:56.070736+00:00",
-      "fit_reason": "Revenue operations / sales strategy role with 3+ years requirement (candidate meets floor); analytical, GTM-focused work on forecasting, optimization, and data-driven sales performance aligns with target; SQL and data visualization are core strengths; 'Senior' in title is standard IC seniority, not people management."
     },
     {
       "id": "gh-doordashusa-8243349",
@@ -6605,6 +6600,6 @@
       "fit_reason": "Growth marketing role centered on self-serve funnels, paid campaigns, and data-driven optimization for SMB product\u2014core target function; no years floor stated; candidate's 3+ years of campaign design, conversion optimization, and growth-channel work (email, paid social, retention funnels) directly transfers."
     }
   ],
-  "last_run": "2026-10-12T17:31:05.763229+00:00",
+  "last_run": "2026-10-12T23:45:12.881213+00:00",
   "pending_notifications": []
 }
