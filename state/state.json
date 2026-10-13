@@ -1318,6 +1318,7 @@
         "ashby-claylabs-d3bd708c-4b20-45c9-9522-f38abc30ca06",
         "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
         "ashby-claylabs-dca9faf7-a118-4237-bcf8-d7562aab3c49",
+        "ashby-claylabs-ddc46515-89d2-4f98-a383-437dfd38b123",
         "ashby-claylabs-e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
         "ashby-claylabs-e9c90955-db04-4fc3-b70d-ebc115557e83",
         "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
@@ -1352,6 +1353,7 @@
         "wd-snapchat-Accountant_R0046881-1",
         "wd-snapchat-Accounts-Receivable-Analyst_R0045979-1",
         "wd-snapchat-Ad-Review---Integrity-Specialist_R0046549-1",
+        "wd-snapchat-Advertiser-Solutions-Intern_R0047153",
         "wd-snapchat-Agency-Lead_R0046693-1",
         "wd-snapchat-Agency-Lead_R0046975",
         "wd-snapchat-Agency-Lead_R0046998-1",
@@ -1458,6 +1460,7 @@
         "wd-snapchat-Lead-Client-Partner_R0046379",
         "wd-snapchat-Lead-Client-Partner_R0047134-1",
         "wd-snapchat-Lead-Data-Scientist--Core--Level-6_R0046848-1",
+        "wd-snapchat-Lead-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0047152",
         "wd-snapchat-Lead-Program-Management--SMC-Operations_R0046960-1",
         "wd-snapchat-Lead-Recruiter---Europe-GTM---XFN_R0046411",
         "wd-snapchat-Litigation-and-Safety-Paralegal-Lead_R0047062-1",
@@ -1581,6 +1584,7 @@
         "wd-snapchat-Senior-Account-Manager--eCommerce---Retail_R0046837-1",
         "wd-snapchat-Senior-Account-Manager_Q326SAM5-2",
         "wd-snapchat-Senior-Account-Manager_Q426SAM5-1",
+        "wd-snapchat-Senior-Account-Manager_R0047151-1",
         "wd-snapchat-Senior-Accountant--SEC-Reporting_R0046307-1",
         "wd-snapchat-Senior-Accounts-Receivable-Analyst_R0046185-1",
         "wd-snapchat-Senior-Ad-Product-Quality-Analyst_R0046554",
@@ -2050,6 +2054,7 @@
         "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
         "wd-coke-Manager--Global-Share-Plans-Delivery_R-146781",
         "wd-coke-Manager--Guest-Experience---Operations--World-of-Coca-Cola-_R-144584",
+        "wd-coke-Manager--IT---Infrastructure-and-Technology-Services_R-147293",
         "wd-coke-Manager--IT-Governance---Compliance_R-146320",
         "wd-coke-Manager--Information-Technology---Business---Product-Management_R-144575",
         "wd-coke-Manager--Japan-E2EE_R-141273-1",
@@ -2365,6 +2370,7 @@
         "wd-coke-Senior-Manager--Regional-Customers--Mexico_R-146397",
         "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
+        "wd-coke-Senior-Manager--Sales---Warehouse_R-147416",
         "wd-coke-Senior-Manager--Site-Safety---Environment_R-146853-1",
         "wd-coke-Senior-Manager--Software-Engineer--Core-CRM_R-140124",
         "wd-coke-Senior-Manager--Software-Engineer--Data-Platform-Segmentation_R-134645-1",
@@ -2940,6 +2946,7 @@
         "ashby-elevenlabs-0dbfbe3e-7218-4045-ba78-28b0d2e5ab6d",
         "ashby-elevenlabs-0e690a2f-0a1a-4c4e-adf6-4dc3c6cbc3bd",
         "ashby-elevenlabs-1034a604-b714-428b-a9fd-fa8c0cd795cf",
+        "ashby-elevenlabs-108c99e6-ba2b-44a0-b830-7d535e14a152",
         "ashby-elevenlabs-118df45c-32b8-468e-88d4-691b9cae3627",
         "ashby-elevenlabs-120da2b3-d88b-4e3c-9b89-d19ff73db9d9",
         "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8",
@@ -2977,6 +2984,7 @@
         "ashby-elevenlabs-275f43d0-b62d-401d-830c-7c1ac0e688aa",
         "ashby-elevenlabs-29491158-3020-45b0-9bbb-789a55e87beb",
         "ashby-elevenlabs-29aed1f3-26f8-4d3b-8cc4-7ca7d9342eeb",
+        "ashby-elevenlabs-2a99d0a0-adae-41b5-a7ef-f1d3faee60a7",
         "ashby-elevenlabs-2aa0b7f5-bd25-487f-9831-bcf623d8b11d",
         "ashby-elevenlabs-2ae519e9-1068-423b-8e07-dfdebbdca7b4",
         "ashby-elevenlabs-2c9dfcd0-0aa3-466a-8a5a-2b2351afbf81",
@@ -3005,6 +3013,7 @@
         "ashby-elevenlabs-3953e70b-86e8-47a0-9300-3113f64f5d44",
         "ashby-elevenlabs-39d438fa-8070-4660-968b-055493860c4c",
         "ashby-elevenlabs-3a25ed8a-5870-4a0e-90e4-6e5a4b2c7e04",
+        "ashby-elevenlabs-3abf96ca-2937-4290-9d23-5208aece08b2",
         "ashby-elevenlabs-3acbcb5a-605b-4192-baeb-3999004233a6",
         "ashby-elevenlabs-3b57cc5c-f019-4a0b-a5ff-e1046e4f1fa1",
         "ashby-elevenlabs-3b7a423c-01fd-4405-ab9a-ee51ed354ba9",
@@ -3219,6 +3228,7 @@
         "ashby-elevenlabs-daaab5ab-88d1-4d67-a65f-d3c4ebb8fe71",
         "ashby-elevenlabs-daf083cd-feda-4f28-ae49-7922b1a26ed7",
         "ashby-elevenlabs-db2c5c2f-5d76-4086-af1d-d1a8347712ad",
+        "ashby-elevenlabs-db7abc8d-67b1-4d64-a623-59be88d65fba",
         "ashby-elevenlabs-db8e1ff9-5a5a-49ed-89ea-93f993e5a65f",
         "ashby-elevenlabs-de0b9e17-6a32-4034-8a38-dba2513ad326",
         "ashby-elevenlabs-e062d169-7294-4125-bc7b-e3a821dcd620",
@@ -3909,6 +3919,7 @@
         "gh-datadog-8180585",
         "gh-datadog-8180681",
         "gh-datadog-8181440",
+        "gh-datadog-8184565",
         "gh-datadog-8184643",
         "gh-datadog-8184867",
         "gh-datadog-8185652",
@@ -4006,11 +4017,13 @@
         "gh-datadog-8247329",
         "gh-datadog-8247346",
         "gh-datadog-8247435",
+        "gh-datadog-8247540",
         "gh-datadog-8247566",
         "gh-datadog-8247686",
         "gh-datadog-8248968",
         "gh-datadog-8249202",
         "gh-datadog-8250109",
+        "gh-datadog-8255788",
         "gh-datadog-8257217",
         "gh-datadog-8257306",
         "gh-datadog-8257324",
@@ -4675,6 +4688,7 @@
         "gh-mongodb-8267063",
         "gh-mongodb-8267650",
         "gh-mongodb-8268264",
+        "gh-mongodb-8273899",
         "gh-mongodb-8274765"
       ]
     },
@@ -5219,7 +5233,8 @@
         "gh-braze-8274636",
         "gh-braze-8274796",
         "gh-braze-8274862",
-        "gh-braze-8274874"
+        "gh-braze-8274874",
+        "gh-braze-8276040"
       ]
     },
     "classpass": {
@@ -5564,7 +5579,8 @@
         "gh-appsflyer-8882905002",
         "gh-appsflyer-8882917002",
         "gh-appsflyer-8883285002",
-        "gh-appsflyer-8883313002"
+        "gh-appsflyer-8883313002",
+        "gh-appsflyer-8884649002"
       ]
     },
     "attentive": {
@@ -6600,6 +6616,6 @@
       "fit_reason": "Growth marketing role centered on self-serve funnels, paid campaigns, and data-driven optimization for SMB product\u2014core target function; no years floor stated; candidate's 3+ years of campaign design, conversion optimization, and growth-channel work (email, paid social, retention funnels) directly transfers."
     }
   ],
-  "last_run": "2026-10-12T23:45:12.881213+00:00",
+  "last_run": "2026-10-13T11:26:23.466375+00:00",
   "pending_notifications": []
 }
