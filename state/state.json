@@ -1402,6 +1402,7 @@
         "wd-snapchat-Associate-Account-Manager--Agency-team_R0046929-1",
         "wd-snapchat-Associate-Account-Manager_R0046957-2",
         "wd-snapchat-Associate-Agency-Partner_R0047074-1",
+        "wd-snapchat-Associate-Client-Partner_Q426ACP3-1",
         "wd-snapchat-Associate-Creative-Strategist_R0046071-1",
         "wd-snapchat-Client-Partner---12-months-Fixed-Term-Contract_R0046541",
         "wd-snapchat-Client-Partner---Mid-Market_R0046689",
@@ -1599,6 +1600,7 @@
         "wd-snapchat-Reliability-and-Failure-Analysis-Engineer_R0045763-1",
         "wd-snapchat-Research-Engineer_R0046981-1",
         "wd-snapchat-Research-Intern--User-Modeling-and-Personalization_R0046464-1",
+        "wd-snapchat-Research-Scientist--Language-for-Personalization_R0044935",
         "wd-snapchat-Residential-Security-Officer_R0042844",
         "wd-snapchat-Residential-Security-Officer_R0044571-1",
         "wd-snapchat-Sales-Operations-Lead_H226SOL7",
@@ -1744,7 +1746,8 @@
         "wd-snapchat-Test-Engineer--Camera-and-Sensing_R0043789",
         "wd-snapchat-Verification-Engineer-Intern_R0045122",
         "wd-snapchat-Workday-Configuration-Analyst_R0046868-1",
-        "wd-snapchat-Working-Student---Machine-Learning_R0045234-1"
+        "wd-snapchat-Working-Student---Machine-Learning_R0045234-1",
+        "wd-snapchat-XMLNAME-2027-Generative-Media-Researc_R0047179"
       ]
     },
     "cocacola": {
@@ -1896,6 +1899,8 @@
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
+        "wd-coke-Director--Customer-Operations_R-147682-1",
+        "wd-coke-Director--Customer-Solutions_R-147452-1",
         "wd-coke-Director--Customer-Strategic-Insights---Foodservice-and-On-Premise_R-146486",
         "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
         "wd-coke-Director--Data-Governance-Product-Data_R-146881",
@@ -2038,6 +2043,7 @@
         "wd-coke-IQD-Laboratory-Analyst_R-145591",
         "wd-coke-Inbound-Specialist_R-146825",
         "wd-coke-Innovation-Tech-Lead_R-145106",
+        "wd-coke-Integration-Developer--Azure_R-144479",
         "wd-coke-Intern---Market-Research-Insight_R-146958",
         "wd-coke-Intern--Consumer-and-Shopper-Insights--Trkiye_R-146454",
         "wd-coke-Intern--Financial-Planning---Analysis_R-146385",
@@ -2434,6 +2440,7 @@
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
         "wd-coke-Senior-Manager--Regional-Customers--Mexico_R-146397",
         "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
+        "wd-coke-Senior-Manager--Retail-Sales---Dollar-General_R-147479",
         "wd-coke-Senior-Manager--Retail-Warehouse-Route-to-Market-Customer-Service_R-147488",
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
         "wd-coke-Senior-Manager--Sales---Warehouse_R-147416",
@@ -2455,6 +2462,7 @@
         "wd-coke-Senior-Manager--Technical-Operations---Commercialization---Japan_R-146270",
         "wd-coke-Senior-Manager--Technical-Operations---North-Zone--Mexico-_R-143895",
         "wd-coke-Senior-Manager--Technology-Operations_R-144439",
+        "wd-coke-Senior-Manager--Transfer-Pricing_R-134764",
         "wd-coke-Senior-Manager--Warehouse-Equipment-Platform-Engineering_R-144870-1",
         "wd-coke-Senior-Manager-Finance_R-147420",
         "wd-coke-Senior-Manger--Legal-Entity-Controller_R-145366",
@@ -3233,6 +3241,7 @@
         "ashby-elevenlabs-a5a999e3-17f6-4f1f-aef3-bab73518244a",
         "ashby-elevenlabs-a605e308-0d28-42b6-8cbb-03cc7799cecc",
         "ashby-elevenlabs-a7804250-c35d-4d32-bfab-2ec9694ea13a",
+        "ashby-elevenlabs-a787e8ee-f1c4-422d-95f8-61ffd4eefb95",
         "ashby-elevenlabs-a89a7892-3d9d-40ab-a3f1-1c6ed1f7b84f",
         "ashby-elevenlabs-aa387988-9983-46a0-a265-d678af9939cb",
         "ashby-elevenlabs-aa87b7bf-2fd5-4d94-9673-142f6349cf9e",
@@ -4133,7 +4142,8 @@
         "gh-datadog-8278276",
         "gh-datadog-8278850",
         "gh-datadog-8279173",
-        "gh-datadog-8281751"
+        "gh-datadog-8281751",
+        "gh-datadog-8282140"
       ]
     },
     "mongodb": {
@@ -4731,6 +4741,7 @@
         "gh-mongodb-8222977",
         "gh-mongodb-8223199",
         "gh-mongodb-8224590",
+        "gh-mongodb-8224592",
         "gh-mongodb-8224682",
         "gh-mongodb-8226033",
         "gh-mongodb-8226040",
@@ -5951,7 +5962,8 @@
         "gh-mavenclinic-8864313002",
         "gh-mavenclinic-8868164002",
         "gh-mavenclinic-8877217002",
-        "gh-mavenclinic-8881954002"
+        "gh-mavenclinic-8881954002",
+        "gh-mavenclinic-8888997002"
       ]
     },
     "away": {
@@ -5980,6 +5992,7 @@
         "ashby-away-4db8cc00-a880-4efa-ae55-cf2036bd9948",
         "ashby-away-587fce6e-2136-4ce4-99bf-441d612a1046",
         "ashby-away-5a7960f7-b39f-44e7-a818-3553bbb4d978",
+        "ashby-away-5efa4c40-c299-483a-a224-9b1cb72935e0",
         "ashby-away-5fd07648-ea65-4eb3-bf1a-b66951463e8a",
         "ashby-away-64651788-d517-4841-a89a-ad3e8ae6963d",
         "ashby-away-689480e8-854d-45d5-b2de-874131291093",
@@ -6744,8 +6757,28 @@
       "url": "https://jobs.ashbyhq.com/claylabs/c78e8cfd-51f2-4450-be13-bfa02f6d9259",
       "first_seen": "2026-10-13T23:00:34.274674+00:00",
       "fit_reason": "Enterprise Growth Strategist is a strategic GTM/customer-expansion role aligned with candidate's growth/revenue-operations target; no years stated; candidate's 3+ years of demonstrable GTM, funnel-building, expansion strategy (catering channel +34%), and cross-functional execution directly transfer to the core responsibilities (adoption, expansion, roadmap influence, playbook design)."
+    },
+    {
+      "id": "wd-snapchat-Associate-Client-Partner_Q426ACP3-1",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "Associate Client Partner",
+      "location": "2 Locations",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/New-York-New-York/Associate-Client-Partner_Q426ACP3-1",
+      "first_seen": "2026-10-14T20:59:27.157637+00:00",
+      "fit_reason": "Associate Client Partner role centers on account activation, retention, performance analysis, and customer education\u2014core growth/lifecycle work\u2014with 3+ years required (candidate meets floor); title is IC-level; no cold-calling exclusion triggered; strong fit with campaign analysis, metrics design, and cross-functional collaboration skills."
+    },
+    {
+      "id": "wd-coke-Senior-Manager--Retail-Sales---Dollar-General_R-147479",
+      "company_key": "cocacola",
+      "company_name": "Coca-Cola",
+      "title": "Senior Manager, Retail Sales - Dollar General",
+      "location": "US - TN - Nashville",
+      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---TN---Nashville/Senior-Manager--Retail-Sales---Dollar-General_R-147479",
+      "first_seen": "2026-10-14T20:59:27.157637+00:00",
+      "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
     }
   ],
-  "last_run": "2026-10-14T17:46:46.579191+00:00",
+  "last_run": "2026-10-14T20:59:27.157637+00:00",
   "pending_notifications": []
 }
