@@ -1940,6 +1940,7 @@
         "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
+        "wd-coke-Director--Marketing-and-Commercial-Data_R-147580-1",
         "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
         "wd-coke-Director--National-Sales_R-146406",
@@ -2259,6 +2260,7 @@
         "wd-coke-Senior-Director--Costa-Coffee-Global-Master-Data-Management_R-146494-1",
         "wd-coke-Senior-Director--Creative-Strategist---Content_R-136962",
         "wd-coke-Senior-Director--Customer---Vendor-Data-Governance_R-144547",
+        "wd-coke-Senior-Director--Customer-Marketing--North-Asia_R-142312",
         "wd-coke-Senior-Director--Data-Analytics_R-144573",
         "wd-coke-Senior-Director--Data-Architecture---Engineering_R-145264",
         "wd-coke-Senior-Director--Data-Architecture--Next-Gen-_R-144401",
@@ -2425,6 +2427,7 @@
         "wd-coke-Senior-Manager--Software-Engineer-Retail-Sales-Experience_R-140122",
         "wd-coke-Senior-Manager--Sourcing_R-145165",
         "wd-coke-Senior-Manager--Sparkling-Flavors--Fanta_R-144073-1",
+        "wd-coke-Senior-Manager--Strategic-Insights---Analysis_R-147572-1",
         "wd-coke-Senior-Manager--Strategic-Insights_R-147013",
         "wd-coke-Senior-Manager--Strategy---Franchise-Strategy---Special-Projects_R-145943",
         "wd-coke-Senior-Manager--Supply-Chain-Excellence_R-147495-1",
@@ -3224,6 +3227,7 @@
         "ashby-elevenlabs-b081fafb-3659-4bf6-8e87-eb5ccc3ff234",
         "ashby-elevenlabs-b0a0fdb7-f202-4d58-b2e2-38e847b96e49",
         "ashby-elevenlabs-b16fee34-782a-47e3-85f4-7b3d683fc938",
+        "ashby-elevenlabs-b178d5b8-2edf-44e9-bcd8-9a2be5b7f188",
         "ashby-elevenlabs-b1b4fa6b-ad36-4b0d-be89-32f35fcb420a",
         "ashby-elevenlabs-b28719ff-833d-49b4-8286-f59082732186",
         "ashby-elevenlabs-b36c7a45-a888-49b5-9130-584eb7c2aa95",
@@ -3256,6 +3260,7 @@
         "ashby-elevenlabs-c85b00d2-e72a-4c48-ae1b-3e0ea8d90499",
         "ashby-elevenlabs-c892235d-d809-45b0-a65c-008fc75f6eab",
         "ashby-elevenlabs-c89e8bf6-6d4c-43bd-bd2a-661ae73c82bf",
+        "ashby-elevenlabs-c90159fa-8577-4213-b5b3-356051742c67",
         "ashby-elevenlabs-ca1269c6-12c7-419a-ab4d-458a0a907a17",
         "ashby-elevenlabs-ca4b5225-a18c-42b4-85d5-48734c30a586",
         "ashby-elevenlabs-ca7bd675-9bef-4459-ad12-cd423184d856",
@@ -3265,9 +3270,11 @@
         "ashby-elevenlabs-cdcf48bf-b6cf-41ce-88ee-34674768fb0d",
         "ashby-elevenlabs-cdf749ed-25b8-46d7-b353-6fcb013e669b",
         "ashby-elevenlabs-ce00fe7b-a93a-436b-bd5e-2eff87c48f23",
+        "ashby-elevenlabs-ce3d5a59-fb8c-482b-bc3f-60e44576c5e0",
         "ashby-elevenlabs-ceb4eb7b-f1ad-429d-a2ec-11fd902948b8",
         "ashby-elevenlabs-cee1d585-329b-4935-b7a3-5ca9104c2573",
         "ashby-elevenlabs-cf173c80-b9b9-4e27-85fa-a26c68693ea9",
+        "ashby-elevenlabs-cfcb55a7-17ce-43b5-ad4e-2111adff393a",
         "ashby-elevenlabs-d05779a0-51da-417f-9921-39be5271402a",
         "ashby-elevenlabs-d0e217ba-4de6-48db-9127-0b73a752649b",
         "ashby-elevenlabs-d16a7ad6-ffbd-4655-8716-4872263f99ce",
@@ -3289,6 +3296,7 @@
         "ashby-elevenlabs-e0fdb2f5-54b4-4dff-813d-2c328d990e4c",
         "ashby-elevenlabs-e22e14d8-0766-445f-9570-6037c7300c73",
         "ashby-elevenlabs-e3dd4d18-28c5-4923-ae2d-de8a2852d574",
+        "ashby-elevenlabs-e4e0450f-d139-4f8e-b210-2f326a680d90",
         "ashby-elevenlabs-e53c5be6-5c1a-4870-ad85-8397a1f201de",
         "ashby-elevenlabs-e5c45832-a952-4584-9874-25580b5b4993",
         "ashby-elevenlabs-e5cca48b-1f34-48fe-9ebf-3c6ff526f9ba",
@@ -4100,6 +4108,7 @@
         "gh-datadog-8267437",
         "gh-datadog-8267546",
         "gh-datadog-8267561",
+        "gh-datadog-8273664",
         "gh-datadog-8278276",
         "gh-datadog-8278850",
         "gh-datadog-8279173"
@@ -4756,7 +4765,10 @@
         "gh-mongodb-8267650",
         "gh-mongodb-8268264",
         "gh-mongodb-8273899",
-        "gh-mongodb-8274765"
+        "gh-mongodb-8274765",
+        "gh-mongodb-8274968",
+        "gh-mongodb-8280948",
+        "gh-mongodb-8280979"
       ]
     },
     "braze": {
@@ -5397,7 +5409,8 @@
         "gh-classpass-4717879006",
         "gh-classpass-4719996006",
         "gh-classpass-4720002006",
-        "gh-classpass-4720011006"
+        "gh-classpass-4720011006",
+        "gh-classpass-4721833006"
       ]
     },
     "justworks": {
@@ -5653,7 +5666,10 @@
         "gh-appsflyer-8882917002",
         "gh-appsflyer-8883285002",
         "gh-appsflyer-8883313002",
-        "gh-appsflyer-8884649002"
+        "gh-appsflyer-8884649002",
+        "gh-appsflyer-8887242002",
+        "gh-appsflyer-8887396002",
+        "gh-appsflyer-8887402002"
       ]
     },
     "attentive": {
@@ -6692,6 +6708,6 @@
       "fit_reason": "Enterprise Growth Strategist is a strategic GTM/customer-expansion role aligned with candidate's growth/revenue-operations target; no years stated; candidate's 3+ years of demonstrable GTM, funnel-building, expansion strategy (catering channel +34%), and cross-functional execution directly transfer to the core responsibilities (adoption, expansion, roadmap influence, playbook design)."
     }
   ],
-  "last_run": "2026-10-14T07:06:07.020479+00:00",
+  "last_run": "2026-10-14T12:50:31.342883+00:00",
   "pending_notifications": []
 }
