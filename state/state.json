@@ -794,6 +794,7 @@
         "gh-doordashusa-8267987",
         "gh-doordashusa-8268088",
         "gh-doordashusa-8269068",
+        "gh-doordashusa-8269219",
         "gh-doordashusa-8273901",
         "gh-doordashusa-8273925",
         "gh-doordashusa-8273992",
@@ -806,7 +807,10 @@
         "gh-doordashusa-8279322",
         "gh-doordashusa-8279526",
         "gh-doordashusa-8279555",
-        "gh-doordashusa-8279569"
+        "gh-doordashusa-8279569",
+        "gh-doordashusa-8281249",
+        "gh-doordashusa-8281762",
+        "gh-doordashusa-8281853"
       ]
     },
     "hubspot": {
@@ -1076,6 +1080,7 @@
       "known_job_ids": [
         "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b",
         "lever-spotify-03437e2a-2d5e-4593-9e97-11271014932e",
+        "lever-spotify-05b8d6ee-0773-4255-b8b9-ae73d74a5ee5",
         "lever-spotify-07641cac-402a-44fd-ba42-9cb75473fc0a",
         "lever-spotify-080868dd-fc8c-4648-b6ab-6780d8ca3d63",
         "lever-spotify-0841fdc0-1702-4ef6-b665-8a825112696c",
@@ -1636,6 +1641,7 @@
         "wd-snapchat-Senior-Counsel--Music_R0046921",
         "wd-snapchat-Senior-Creative-Producer_R0046493-1",
         "wd-snapchat-Senior-Creative-Producer_R0046727",
+        "wd-snapchat-Senior-Creative-Producer_R0047166-1",
         "wd-snapchat-Senior-Creative-Strategist_R0047145-1",
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q326DSA5",
         "wd-snapchat-Senior-Data-Scientist--Level-5_Q426DSA5-1",
@@ -1647,10 +1653,12 @@
         "wd-snapchat-Senior-Lead--Ad-Partnerships---MMP--DCR--CAPI_R0045841-1",
         "wd-snapchat-Senior-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0046654",
         "wd-snapchat-Senior-Manager--Ads-Design_R0046431-1",
+        "wd-snapchat-Senior-Manager--Advertising-Communications_R0047172-2",
         "wd-snapchat-Senior-Manager--Agency_R0046414-1",
         "wd-snapchat-Senior-Manager--Compensation_R0046948-1",
         "wd-snapchat-Senior-Manager--EU-Public-Policy_R0046905-1",
         "wd-snapchat-Senior-Manager--GTM-Architect_R0046696-1",
+        "wd-snapchat-Senior-Manager--Global-Strategic-Accounts_R0047169-1",
         "wd-snapchat-Senior-Manager--Product-Management---Ad-Formats_R0046046-2",
         "wd-snapchat-Senior-Manager--Software-Engineering_H226SWEM10-1",
         "wd-snapchat-Senior-Manager--Treasury_R0046920-1",
@@ -1960,6 +1968,7 @@
         "wd-coke-Director--Quality-Engineering---Customer-and-Commercial_R-134643",
         "wd-coke-Director--RGM-Product-Experience-Design_R-145096",
         "wd-coke-Director--RGM-Sports-OBPPC_R-145020",
+        "wd-coke-Director--Region-Order-Management_R-147485",
         "wd-coke-Director--Regulatory---Governance_R-144005",
         "wd-coke-Director--Resource-Allocation_R-137458-1",
         "wd-coke-Director--Safety---Eurasia---Middle-East_R-146909",
@@ -2164,6 +2173,7 @@
         "wd-coke-Production-Operator-I---Packaging_R-147448",
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-141911",
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-145847",
+        "wd-coke-Production-Operator-I-Packaging---Days_R-147681",
         "wd-coke-Production-Operator-I-Packaging---Nights----2150_R-144724",
         "wd-coke-Production-Operator-II----Filling---days_R-144990",
         "wd-coke-Production-Operator-II---Nights---Filling_R-144603",
@@ -2203,6 +2213,7 @@
         "wd-coke-Recruitment-Analyst_R-144710",
         "wd-coke-Recycling-Technician--Forklift-Exp-Preferred---Night-Shift_R-146430",
         "wd-coke-Refrigeration-Technician_R-146334",
+        "wd-coke-Retail-Execution-Specialist---Boynton-Beach--FL_R-147679",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
         "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
         "wd-coke-Retail-Execution-Specialist---Houston--TX_R-147248-1",
@@ -2267,6 +2278,7 @@
         "wd-coke-Senior-Director--Data-Engineering_R-144403",
         "wd-coke-Senior-Director--Data-Integrations_R-144402",
         "wd-coke-Senior-Director--Data-Science_R-146500-1",
+        "wd-coke-Senior-Director--Digital-Capabilities---Products_R-147408",
         "wd-coke-Senior-Director--Digital-Operations_R-144495",
         "wd-coke-Senior-Director--Digital-Transformation---ASEAN---South-Pacific_R-144515-1",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
@@ -2301,6 +2313,7 @@
         "wd-coke-Senior-Director--MDS--Mexico-North_R-145919",
         "wd-coke-Senior-Director--Machine-Learning-Architect_R-144478",
         "wd-coke-Senior-Director--Marketing-Data-Architecture_R-145195",
+        "wd-coke-Senior-Director--Metals-Packaging-APAC_R-147429",
         "wd-coke-Senior-Director--Omni-Channel--SCCL--ZH---Macau_R-147435-1",
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
@@ -2318,6 +2331,7 @@
         "wd-coke-Senior-Director--RGM-Product-Transformation-Lead_R-145114",
         "wd-coke-Senior-Director--RGM-Retail-Strategy_R-147168-1",
         "wd-coke-Senior-Director--Sales---Grocery-Central_R-143818",
+        "wd-coke-Senior-Director--Sales---IGA_R-147182",
         "wd-coke-Senior-Director--Sales---WinCo---West-Coast_R-145745",
         "wd-coke-Senior-Director--Shopper-Marketing_R-136997-1",
         "wd-coke-Senior-Director--Social---Community--LA28_R-146623",
@@ -2366,6 +2380,8 @@
         "wd-coke-Senior-Manager--Content-Data-and-Integration_R-144553",
         "wd-coke-Senior-Manager--Controls--Policies-and-Governance_R-143680",
         "wd-coke-Senior-Manager--Customer-Innovation--Global-Development---Innovation_R-143922-1",
+        "wd-coke-Senior-Manager--Customer-Service-Bottler-Network_R-147486",
+        "wd-coke-Senior-Manager--Customer-Service-FSOP_R-147487",
         "wd-coke-Senior-Manager--Cybersecurity_R-146493-1",
         "wd-coke-Senior-Manager--Data-Governance_R-144499-1",
         "wd-coke-Senior-Manager--Data-Product-Management---Japan_R-144508-1",
@@ -2418,6 +2434,7 @@
         "wd-coke-Senior-Manager--RGMX---Away-From-Home-Channel_R-141145",
         "wd-coke-Senior-Manager--Regional-Customers--Mexico_R-146397",
         "wd-coke-Senior-Manager--Retail-Sales---Costco_R-141987",
+        "wd-coke-Senior-Manager--Retail-Warehouse-Route-to-Market-Customer-Service_R-147488",
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
         "wd-coke-Senior-Manager--Sales---Warehouse_R-147416",
         "wd-coke-Senior-Manager--Site-Safety---Environment_R-146853-1",
@@ -2947,6 +2964,7 @@
         "ashby-runway-ml-a3165184-69a1-4a5a-8695-88340417db82",
         "ashby-runway-ml-ad77d776-ff58-4d04-b6ad-20bdd6d91929",
         "ashby-runway-ml-ae62647f-7ec4-4383-a5ff-d37d73580062",
+        "ashby-runway-ml-aec67956-59a4-4633-9faa-0f0a41c48e4c",
         "ashby-runway-ml-b283e7c0-944a-4d4e-be69-49875008c738",
         "ashby-runway-ml-b3b7f8e1-c252-4f61-baaf-c7ab6bfa9572",
         "ashby-runway-ml-b5d136bb-4143-400b-914a-0ae7377ad8ed",
@@ -3096,6 +3114,7 @@
         "ashby-elevenlabs-490897d3-5c62-46d8-b26a-806ed60c7940",
         "ashby-elevenlabs-49233713-725b-4501-8360-6006b673fd2b",
         "ashby-elevenlabs-493720ea-b8a1-4d5d-bdef-b79f2cf36fbe",
+        "ashby-elevenlabs-4aaebda4-53be-424c-8246-cde77ff853bb",
         "ashby-elevenlabs-4e544a96-ed24-42c0-ba70-7f0bab6ffbb2",
         "ashby-elevenlabs-4ea5b175-fa5c-46d4-8cd2-ca26513bd821",
         "ashby-elevenlabs-500f3674-8a80-414b-b6a9-4bce6cda0c13",
@@ -4075,6 +4094,7 @@
         "gh-datadog-8242859",
         "gh-datadog-8243071",
         "gh-datadog-8243549",
+        "gh-datadog-8243668",
         "gh-datadog-8243782",
         "gh-datadog-8244033",
         "gh-datadog-8244276",
@@ -4090,6 +4110,7 @@
         "gh-datadog-8249202",
         "gh-datadog-8250109",
         "gh-datadog-8255788",
+        "gh-datadog-8256245",
         "gh-datadog-8257217",
         "gh-datadog-8257306",
         "gh-datadog-8257324",
@@ -4111,7 +4132,8 @@
         "gh-datadog-8273664",
         "gh-datadog-8278276",
         "gh-datadog-8278850",
-        "gh-datadog-8279173"
+        "gh-datadog-8279173",
+        "gh-datadog-8281751"
       ]
     },
     "mongodb": {
@@ -4741,6 +4763,7 @@
         "gh-mongodb-8242325",
         "gh-mongodb-8243220",
         "gh-mongodb-8243327",
+        "gh-mongodb-8245668",
         "gh-mongodb-8246377",
         "gh-mongodb-8247670",
         "gh-mongodb-8248829",
@@ -4768,7 +4791,17 @@
         "gh-mongodb-8274765",
         "gh-mongodb-8274968",
         "gh-mongodb-8280948",
-        "gh-mongodb-8280979"
+        "gh-mongodb-8280979",
+        "gh-mongodb-8281458",
+        "gh-mongodb-8281577",
+        "gh-mongodb-8281626",
+        "gh-mongodb-8281631",
+        "gh-mongodb-8281639",
+        "gh-mongodb-8281657",
+        "gh-mongodb-8281662",
+        "gh-mongodb-8281670",
+        "gh-mongodb-8281673",
+        "gh-mongodb-8281679"
       ]
     },
     "braze": {
@@ -5568,11 +5601,14 @@
         "gh-justworks-8248039",
         "gh-justworks-8256840",
         "gh-justworks-8257433",
+        "gh-justworks-8257440",
+        "gh-justworks-8257447",
         "gh-justworks-8263097",
         "gh-justworks-8264370",
         "gh-justworks-8265604",
         "gh-justworks-8265619",
-        "gh-justworks-8268787"
+        "gh-justworks-8268787",
+        "gh-justworks-8279256"
       ]
     },
     "appsflyer": {
@@ -5852,6 +5888,7 @@
         "gh-yext-8239441",
         "gh-yext-8249203",
         "gh-yext-8259075",
+        "gh-yext-8262920",
         "gh-yext-8267827"
       ]
     },
@@ -6077,7 +6114,8 @@
         "gh-thefarmersdog-8843061002",
         "gh-thefarmersdog-8860216002",
         "gh-thefarmersdog-8868874002",
-        "gh-thefarmersdog-8868875002"
+        "gh-thefarmersdog-8868875002",
+        "gh-thefarmersdog-8887933002"
       ]
     },
     "kargo": {
@@ -6708,6 +6746,6 @@
       "fit_reason": "Enterprise Growth Strategist is a strategic GTM/customer-expansion role aligned with candidate's growth/revenue-operations target; no years stated; candidate's 3+ years of demonstrable GTM, funnel-building, expansion strategy (catering channel +34%), and cross-functional execution directly transfer to the core responsibilities (adoption, expansion, roadmap influence, playbook design)."
     }
   ],
-  "last_run": "2026-10-14T12:50:31.342883+00:00",
+  "last_run": "2026-10-14T17:46:46.579191+00:00",
   "pending_notifications": []
 }
