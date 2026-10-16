@@ -1215,6 +1215,7 @@
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-ba2760c3-6461-45bf-b67b-0508d10c8659",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
+        "lever-spotify-bb2c10a2-2bf8-4b21-901e-48b0e2e09cc8",
         "lever-spotify-bc70c9af-212e-48d5-b00b-eab26e4c0658",
         "lever-spotify-bcdf7880-6ad8-447d-822a-8265a24fd336",
         "lever-spotify-be2d7d1e-939e-47f9-8db7-278caa101a60",
@@ -1970,6 +1971,7 @@
         "wd-coke-Director--Legal-Counsel--Customer---North-America_R-145738",
         "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
         "wd-coke-Director--Manufacturing-Transformation-and-Operational-Excellence_R-145974-1",
+        "wd-coke-Director--Marketing---Brand-Minute-Maid_R-147759",
         "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
@@ -2044,6 +2046,7 @@
         "wd-coke-Executive-Assistant_R-146453",
         "wd-coke-Facilities-Building-Maintenance-Technician-II--2nd-Shift-_R-143845",
         "wd-coke-Facility-Engineer_R-147704",
+        "wd-coke-Finance-Capex-Manager--Contract-_R-147808",
         "wd-coke-Finance-Capex-Manager_R-146005-6",
         "wd-coke-Financial-Administrative-Assistant_R-146073",
         "wd-coke-Forklift-Operator-2nd-Shift----2152_R-144639",
@@ -2393,6 +2396,7 @@
         "wd-coke-Senior-Machine-Learning-Engineer_R-144477",
         "wd-coke-Senior-Maintenance-Manager_R-146421",
         "wd-coke-Senior-Manager---Customer-Finance--Customer-Agreement-Team_R-146411",
+        "wd-coke-Senior-Manager---Supply-Chain-Project_R-147747",
         "wd-coke-Senior-Manager--AI-Engineer_R-145118-1",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
         "wd-coke-Senior-Manager--AI-Workflow_R-144410",
@@ -2936,6 +2940,7 @@
         "ashby-cursor-ccf69bf0-69d9-4365-96a5-2c8cf4eb08b0",
         "ashby-cursor-cd4bad0a-e2f6-4a8d-9b57-ce1780efedae",
         "ashby-cursor-cda9256f-e820-4f0a-9e77-e44c61295e1d",
+        "ashby-cursor-cf144fbc-44dd-485b-8dd7-ccb5bdb41adc",
         "ashby-cursor-d0cf5203-2db2-40b6-b1fe-1656ec288ce3",
         "ashby-cursor-d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
         "ashby-cursor-d225fc95-a56f-466a-9588-d75a7f38c426",
@@ -3327,6 +3332,7 @@
         "ashby-elevenlabs-c2213341-be26-4572-890a-2510b6fa874b",
         "ashby-elevenlabs-c340cedd-6453-4d48-a580-359c1d7d9d49",
         "ashby-elevenlabs-c4085864-14ca-4959-a3f8-3a4015c76eb5",
+        "ashby-elevenlabs-c4e0d704-c7eb-4d6d-b71b-23bfd86fe463",
         "ashby-elevenlabs-c5f6c9f4-593f-4ab9-9b08-466eee6c3fb8",
         "ashby-elevenlabs-c6fc071f-c80e-4d3b-921a-3ec02a2ad25d",
         "ashby-elevenlabs-c7a2504b-d3a2-43fa-bb50-f060de6c2927",
@@ -3411,7 +3417,8 @@
         "ashby-elevenlabs-faf6f3a3-c215-4f25-aaee-5111dddde3c9",
         "ashby-elevenlabs-fb1fd9cc-bd6d-4895-be29-4bc37d0c31a0",
         "ashby-elevenlabs-fef4499d-6191-43ad-b4f4-e646544f510d",
-        "ashby-elevenlabs-ff152bcd-af7d-408d-88a1-883e03502c4c"
+        "ashby-elevenlabs-ff152bcd-af7d-408d-88a1-883e03502c4c",
+        "ashby-elevenlabs-ff45aabd-0a5d-401f-9e89-2e13ac72034c"
       ]
     },
     "boostly": {
@@ -6854,6 +6861,6 @@
       "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
     }
   ],
-  "last_run": "2026-10-16T01:37:43.740551+00:00",
+  "last_run": "2026-10-16T06:21:16.272087+00:00",
   "pending_notifications": []
 }
