@@ -57,6 +57,7 @@
         "gh-doordashusa-6108388",
         "gh-doordashusa-6132180",
         "gh-doordashusa-6133069",
+        "gh-doordashusa-6156932",
         "gh-doordashusa-6166924",
         "gh-doordashusa-6169266",
         "gh-doordashusa-6333525",
@@ -815,7 +816,11 @@
         "gh-doordashusa-8281853",
         "gh-doordashusa-8282757",
         "gh-doordashusa-8283735",
-        "gh-doordashusa-8287013"
+        "gh-doordashusa-8287013",
+        "gh-doordashusa-8288972",
+        "gh-doordashusa-8288985",
+        "gh-doordashusa-8289029",
+        "gh-doordashusa-8289169"
       ]
     },
     "hubspot": {
@@ -2099,6 +2104,7 @@
         "wd-coke-Machine-Learning-Architect-1_R-144414",
         "wd-coke-Machine-Learning-Engineer-II_R-147100",
         "wd-coke-Maintenance--Apprentice_R-146832",
+        "wd-coke-Maintenance--Apprentice_R-147862",
         "wd-coke-Maintenance-Engineer_R-144739",
         "wd-coke-Maintenance-Engineer_R-145533",
         "wd-coke-Maintenance-Mechanic---Weekends-Sat-Mon--3666-HR--Plus--4-shift-premium-6am-6pm_R-139605",
@@ -2123,6 +2129,7 @@
         "wd-coke-Manager--Business-Analysis---Japan_R-144468",
         "wd-coke-Manager--Communications---Change-Management_R-144552",
         "wd-coke-Manager--Communications_R-144619-1",
+        "wd-coke-Manager--Corporate-Audit---Finance_R-147771",
         "wd-coke-Manager--Customer-Development---Operations---Planning_R-144350",
         "wd-coke-Manager--Customer-Development---eGrocers--eB2C-_R-142994",
         "wd-coke-Manager--Customer-Finance_R-145266-1",
@@ -3612,6 +3619,7 @@
         "gh-datadog-7228240",
         "gh-datadog-7232590",
         "gh-datadog-7255532",
+        "gh-datadog-7297575",
         "gh-datadog-7314667",
         "gh-datadog-7329207",
         "gh-datadog-7338800",
@@ -4338,6 +4346,7 @@
         "gh-mongodb-7678147",
         "gh-mongodb-7683484",
         "gh-mongodb-7687359",
+        "gh-mongodb-7694717",
         "gh-mongodb-7695616",
         "gh-mongodb-7696228",
         "gh-mongodb-7696633",
@@ -4870,11 +4879,16 @@
         "gh-mongodb-8267650",
         "gh-mongodb-8268264",
         "gh-mongodb-8273899",
+        "gh-mongodb-8274029",
+        "gh-mongodb-8274031",
+        "gh-mongodb-8274032",
+        "gh-mongodb-8274059",
         "gh-mongodb-8274765",
         "gh-mongodb-8274968",
         "gh-mongodb-8280948",
         "gh-mongodb-8280979",
         "gh-mongodb-8281458",
+        "gh-mongodb-8281527",
         "gh-mongodb-8281577",
         "gh-mongodb-8281626",
         "gh-mongodb-8281631",
@@ -5390,6 +5404,7 @@
         "gh-braze-8240667",
         "gh-braze-8240680",
         "gh-braze-8240692",
+        "gh-braze-8242573",
         "gh-braze-8243020",
         "gh-braze-8243022",
         "gh-braze-8243113",
@@ -5415,6 +5430,7 @@
         "gh-braze-8257799",
         "gh-braze-8259692",
         "gh-braze-8264323",
+        "gh-braze-8264729",
         "gh-braze-8264821",
         "gh-braze-8264838",
         "gh-braze-8264842",
@@ -5534,7 +5550,8 @@
         "gh-classpass-4720011006",
         "gh-classpass-4721833006",
         "gh-classpass-4722320006",
-        "gh-classpass-4722500006"
+        "gh-classpass-4722500006",
+        "gh-classpass-4722532006"
       ]
     },
     "justworks": {
@@ -5987,6 +6004,7 @@
         "gh-yext-8192381",
         "gh-yext-8223597",
         "gh-yext-8223691",
+        "gh-yext-8224055",
         "gh-yext-8224109",
         "gh-yext-8230657",
         "gh-yext-8237972",
@@ -6225,7 +6243,8 @@
         "gh-thefarmersdog-8868874002",
         "gh-thefarmersdog-8868875002",
         "gh-thefarmersdog-8887933002",
-        "gh-thefarmersdog-8888342002"
+        "gh-thefarmersdog-8888342002",
+        "gh-thefarmersdog-8894333002"
       ]
     },
     "kargo": {
@@ -6867,6 +6886,6 @@
       "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
     }
   ],
-  "last_run": "2026-10-16T11:45:08.608035+00:00",
+  "last_run": "2026-10-16T15:35:15.582527+00:00",
   "pending_notifications": []
 }
