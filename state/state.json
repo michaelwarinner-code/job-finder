@@ -2761,6 +2761,7 @@
         "ashby-perplexity-ef269656-94ef-463a-ae0e-6102ca3a94dd",
         "ashby-perplexity-f05bd47b-bed8-4f00-9d9c-026c72578e82",
         "ashby-perplexity-f25e190e-0508-4707-b575-fcaed358dc13",
+        "ashby-perplexity-f3814af2-55a3-49a5-b0cb-67199a2a45fb",
         "ashby-perplexity-f3c7ce0d-026e-4b5d-b22d-8b6041746c3d",
         "ashby-perplexity-f45ba174-7e99-4743-9d19-6e4d3e196458",
         "ashby-perplexity-f4d81f6b-958c-4bc0-a9aa-9850c3508ca9",
@@ -4203,6 +4204,7 @@
         "gh-datadog-8247329",
         "gh-datadog-8247346",
         "gh-datadog-8247435",
+        "gh-datadog-8247518",
         "gh-datadog-8247540",
         "gh-datadog-8247566",
         "gh-datadog-8247686",
@@ -4238,11 +4240,13 @@
         "gh-datadog-8279173",
         "gh-datadog-8279650",
         "gh-datadog-8281102",
+        "gh-datadog-8281450",
         "gh-datadog-8281751",
         "gh-datadog-8282140",
         "gh-datadog-8282504",
         "gh-datadog-8282552",
         "gh-datadog-8286919",
+        "gh-datadog-8289036",
         "gh-datadog-8292620",
         "gh-datadog-8292699"
       ]
@@ -6918,6 +6922,6 @@
       "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
     }
   ],
-  "last_run": "2026-10-18T21:22:53.899408+00:00",
+  "last_run": "2026-10-19T06:46:01.074778+00:00",
   "pending_notifications": []
 }
