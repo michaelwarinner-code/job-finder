@@ -210,6 +210,7 @@
         "gh-doordashusa-7852785",
         "gh-doordashusa-7858932",
         "gh-doordashusa-7859504",
+        "gh-doordashusa-7859605",
         "gh-doordashusa-7863361",
         "gh-doordashusa-7863636",
         "gh-doordashusa-7868724",
@@ -827,7 +828,9 @@
         "gh-doordashusa-8289498",
         "gh-doordashusa-8289516",
         "gh-doordashusa-8292690",
-        "gh-doordashusa-8294468"
+        "gh-doordashusa-8294468",
+        "gh-doordashusa-8300729",
+        "gh-doordashusa-8301032"
       ]
     },
     "hubspot": {
@@ -1163,6 +1166,7 @@
         "lever-spotify-65d6caca-6d7c-4049-8256-a128e0e7249e",
         "lever-spotify-6a1a105a-b471-4a68-aea8-54cdb1051a21",
         "lever-spotify-6a2a32ab-2ed8-4ce3-94d5-0be9be9b01b7",
+        "lever-spotify-6af8894a-752f-4485-be70-a6685e5fd696",
         "lever-spotify-6c591c8a-9aeb-4760-ace1-1942da31aca9",
         "lever-spotify-6eb9ce0e-5372-4a4f-b2fa-d005f9426750",
         "lever-spotify-715ac952-36a0-4ed5-8fca-0c12eab94d6a",
@@ -1332,6 +1336,7 @@
         "ashby-claylabs-5e07db20-d96a-4dff-b7d3-3bf1cdde6fc1",
         "ashby-claylabs-5e181784-40d0-4b32-92fe-96a6a8caa1ff",
         "ashby-claylabs-5f7806b2-41b5-4b85-a9d3-68c2971edef2",
+        "ashby-claylabs-5fa3fb18-16cf-4a4a-94e3-18934c7f422c",
         "ashby-claylabs-6579de6f-b5df-46df-bb73-e8d82955f293",
         "ashby-claylabs-67a53448-184d-48e4-a040-d17fc7f59b37",
         "ashby-claylabs-6c65bbb9-8205-400c-b971-cd91897b6d8f",
@@ -1606,6 +1611,7 @@
         "wd-snapchat-Product-Design-Engineer_R0044316-1",
         "wd-snapchat-Product-Design-Engineer_R0045464-2",
         "wd-snapchat-Product-Design-Engineer_R0047101-1",
+        "wd-snapchat-Product-Design-Engineer_R0047231-1",
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
@@ -1728,6 +1734,7 @@
         "wd-snapchat-Software-Engineer--Full-Stack--Level-5_Q426SWEFS6-1",
         "wd-snapchat-Software-Engineer--Level-3--Backend_R0047218-1",
         "wd-snapchat-Software-Engineer--Level-3_Q326SWE-1",
+        "wd-snapchat-Software-Engineer--ML-Infrastructure--Core-Inference--Level-4_R0047199-1",
         "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-4_R0045604",
         "wd-snapchat-Software-Engineer--ML-Infrastructure--Level-5_R0046870-2",
         "wd-snapchat-Software-Engineer--ML-Infrastructure--ML-Platform-Level-5_R0047200-1",
@@ -1955,6 +1962,7 @@
         "wd-coke-Director--FP-A---Marketing-Finance-Service-Delivery-Lead--Greater-China---Mongolia-_R-145155",
         "wd-coke-Director--FSOP-Digital-Enablement---Activation_R-145584",
         "wd-coke-Director--FSOP-Digital-Partnerships_R-146075",
+        "wd-coke-Director--Field-Quality_R-147678",
         "wd-coke-Director--Finance---Franchise-Operations--SWA-_R-147600",
         "wd-coke-Director--Finance--Great-Britain_R-144230-1",
         "wd-coke-Director--Financial-Planning---Analysis-Process-Optimization_R-146202",
@@ -2059,6 +2067,7 @@
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
         "wd-coke-Energy---Sustainability-Manager_R-140742",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
+        "wd-coke-Environmental--Safety---Health-Analyst-I-Temporary-12-month-contract_R-147898",
         "wd-coke-Environmental-Operator_R-142667",
         "wd-coke-Equipment-Sales---Service-Analyst_R-145631",
         "wd-coke-Executive-Administrative-Assistant_R-144884",
@@ -2751,6 +2760,7 @@
         "ashby-perplexity-d5bc2302-202f-4596-9c4d-8720d1e79064",
         "ashby-perplexity-d680e788-14d3-43f6-8ce8-5df486ca32d0",
         "ashby-perplexity-d7e05546-4d42-4f1a-8ccd-c95d2519f5f6",
+        "ashby-perplexity-da212c9c-3c11-4e8e-8f97-e176b4876bea",
         "ashby-perplexity-daa9120e-94ff-46e0-b4bd-4d2d290cb409",
         "ashby-perplexity-daafcaba-cc39-487a-b941-d7a407753788",
         "ashby-perplexity-dd80ab52-34bd-42af-aa5e-6283b7e6c194",
@@ -2894,6 +2904,7 @@
         "ashby-cursor-4bdc7a96-fa0c-4330-b4d8-c65333d09f7b",
         "ashby-cursor-4eb9c1a5-0c02-4c35-abea-62a6fe704eeb",
         "ashby-cursor-507a7108-74a0-4e15-aee3-3aad49ffb92c",
+        "ashby-cursor-52d3d043-ee24-4663-9673-0ac4c0493eba",
         "ashby-cursor-54a9cfcd-570a-4e9c-b52c-bd2336c60991",
         "ashby-cursor-5729deab-ba2b-4a39-bbdd-c981287d8515",
         "ashby-cursor-59d55195-2a9e-4b07-a9fc-b721008bc378",
@@ -3032,6 +3043,7 @@
         "ashby-runway-ml-37be5175-5a9a-4bee-9b5e-fb475350806b",
         "ashby-runway-ml-386d468e-2a49-4901-877d-d2bf6b33abd1",
         "ashby-runway-ml-40589c8a-b1dd-4ecb-b2d4-45dddeabc03f",
+        "ashby-runway-ml-40598dd0-234b-4256-b2a2-91608b66b8aa",
         "ashby-runway-ml-44c1578a-3b0c-4b64-b1c0-89f51e8635ee",
         "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
@@ -4207,6 +4219,7 @@
         "gh-datadog-8244276",
         "gh-datadog-8245889",
         "gh-datadog-8246307",
+        "gh-datadog-8247250",
         "gh-datadog-8247329",
         "gh-datadog-8247346",
         "gh-datadog-8247435",
@@ -4245,6 +4258,7 @@
         "gh-datadog-8278850",
         "gh-datadog-8279173",
         "gh-datadog-8279650",
+        "gh-datadog-8279776",
         "gh-datadog-8281102",
         "gh-datadog-8281450",
         "gh-datadog-8281751",
@@ -4448,6 +4462,7 @@
         "gh-mongodb-7892114",
         "gh-mongodb-7906059",
         "gh-mongodb-7908293",
+        "gh-mongodb-7909429",
         "gh-mongodb-7912343",
         "gh-mongodb-7915330",
         "gh-mongodb-7921450",
@@ -5448,6 +5463,8 @@
         "gh-braze-8243113",
         "gh-braze-8243115",
         "gh-braze-8246027",
+        "gh-braze-8246029",
+        "gh-braze-8246067",
         "gh-braze-8246096",
         "gh-braze-8247538",
         "gh-braze-8247542",
@@ -5491,6 +5508,7 @@
         "gh-braze-8274874",
         "gh-braze-8275975",
         "gh-braze-8276040",
+        "gh-braze-8279315",
         "gh-braze-8284843",
         "gh-braze-8285481",
         "gh-braze-8285494",
@@ -5579,6 +5597,7 @@
         "gh-classpass-4710424006",
         "gh-classpass-4711251006",
         "gh-classpass-4711572006",
+        "gh-classpass-4711823006",
         "gh-classpass-4712508006",
         "gh-classpass-4713730006",
         "gh-classpass-4714276006",
@@ -5777,8 +5796,10 @@
         "gh-justworks-8279256",
         "gh-justworks-8281729",
         "gh-justworks-8282252",
+        "gh-justworks-8285466",
         "gh-justworks-8286381",
-        "gh-justworks-8286388"
+        "gh-justworks-8286388",
+        "gh-justworks-8292657"
       ]
     },
     "appsflyer": {
@@ -6358,7 +6379,9 @@
         "gh-yotpo-8265365",
         "gh-yotpo-8265427",
         "gh-yotpo-8272597",
-        "gh-yotpo-8286969"
+        "gh-yotpo-8286969",
+        "gh-yotpo-8300785",
+        "gh-yotpo-8301582"
       ]
     },
     "flatironhealth": {
@@ -6413,7 +6436,8 @@
         "gh-flatironhealth-8201111",
         "gh-flatironhealth-8238069",
         "gh-flatironhealth-8243012",
-        "gh-flatironhealth-8249709"
+        "gh-flatironhealth-8249709",
+        "gh-flatironhealth-8265541"
       ]
     },
     "bombas": {
@@ -6460,7 +6484,8 @@
         "gh-cleo-4730980005",
         "gh-cleo-4733431005",
         "gh-cleo-4739273005",
-        "gh-cleo-4742841005"
+        "gh-cleo-4742841005",
+        "gh-cleo-4744339005"
       ]
     },
     "microsoft": {
@@ -6928,8 +6953,18 @@
       "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---TN---Nashville/Senior-Manager--Retail-Sales---Dollar-General_R-147479",
       "first_seen": "2026-10-14T20:59:27.157637+00:00",
       "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
+    },
+    {
+      "id": "gh-flatironhealth-8265541",
+      "company_key": "flatironhealth",
+      "company_name": "Flatiron Health",
+      "title": "Associate, Revenue Operations",
+      "location": "NY office ",
+      "url": "https://flatiron.com/careers/open-positions/job?gh_jid=8265541",
+      "first_seen": "2026-10-19T19:50:51.797300+00:00",
+      "fit_reason": "Revenue Operations role explicitly in-scope per candidate criteria; 2-year requirement is at/below candidate's ~3 years relevant experience; core responsibilities (process improvement, pipeline management, dashboards, sales analytics, cross-functional reporting) align directly with candidate's demonstrated analytical, data-driven, and GTM-optimization work at Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-10-19T14:03:06.516648+00:00",
+  "last_run": "2026-10-19T19:50:51.797300+00:00",
   "pending_notifications": []
 }
