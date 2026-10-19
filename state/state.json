@@ -1205,6 +1205,7 @@
         "lever-spotify-9e3bdb48-67eb-49d9-ae0b-a337ba69a05f",
         "lever-spotify-9e8b3af7-d0f7-4aa9-ab8d-89b5bd238ccf",
         "lever-spotify-9eca14d3-8e0b-46de-8161-704e07f3d9d0",
+        "lever-spotify-9eeb10f9-6b63-4113-95dd-137519120084",
         "lever-spotify-9f477315-94fa-47b8-9b92-f6d8fc48785a",
         "lever-spotify-9fd98cde-6a1b-419c-a27a-daae7a7483f0",
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
@@ -1760,6 +1761,7 @@
         "wd-snapchat-Staff-Product-Manager--Ads-Product---Brand_R0045634-1",
         "wd-snapchat-Staff-Product-Manager--Growth_R0047000-1",
         "wd-snapchat-Staff-Product-Manager--Spotlight-Monetization---Ad-Marketplace-Growth_R0046922-1",
+        "wd-snapchat-Staff-Product-Quality-Engineer_R0047220-2",
         "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
         "wd-snapchat-Staff-Software-Engineer--Ads-Signals-and-Measurement_R0047095-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
@@ -1993,6 +1995,7 @@
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
         "wd-coke-Director--Marketing-and-Commercial-Data_R-147580-1",
+        "wd-coke-Director--Media---Connections_R-147772-1",
         "wd-coke-Director--National-Sales---Convenience-Retail_R-141991",
         "wd-coke-Director--National-Sales---Dollar-General_R-144212-1",
         "wd-coke-Director--National-Sales_R-146406",
@@ -2000,6 +2003,7 @@
         "wd-coke-Director--On-Premise-Regional-Customers---Center-Zone_R-140822",
         "wd-coke-Director--Operational-Excellence---Digitalization_R-143299",
         "wd-coke-Director--P-L-Optimization_R-146864",
+        "wd-coke-Director--PACS--France---Strategic-communication--corporate-reputation-and-external-engagement_R-147775-1",
         "wd-coke-Director--PACS--Strategic-Planning---Resource-Allocation_R-138766-1",
         "wd-coke-Director--People-Analytics_R-147312",
         "wd-coke-Director--People-and-Culture_R-147302",
@@ -2174,6 +2178,7 @@
         "wd-coke-Manager--Product-Master-Data-Operations_R-147049",
         "wd-coke-Manager--Public-Affairs--Communications-and-Sustainability---Trkiye_R-146776",
         "wd-coke-Manager--RGM-Technologies_R-146515-1",
+        "wd-coke-Manager--SRA---Ingredient-Science_R-147447-1",
         "wd-coke-Manager--Safety---Environment_R-146169",
         "wd-coke-Manager--Security-Controls-Architect_R-136557",
         "wd-coke-Manager--Stills--Technical-Consumer-Data-Research_R-146212",
@@ -3641,6 +3646,7 @@
         "gh-datadog-7180254",
         "gh-datadog-7180265",
         "gh-datadog-7194969",
+        "gh-datadog-7214964",
         "gh-datadog-7228240",
         "gh-datadog-7232590",
         "gh-datadog-7255532",
@@ -5871,7 +5877,9 @@
         "gh-appsflyer-8887396002",
         "gh-appsflyer-8887402002",
         "gh-appsflyer-8897823002",
-        "gh-appsflyer-8899415002"
+        "gh-appsflyer-8899415002",
+        "gh-appsflyer-8899626002",
+        "gh-appsflyer-8899639002"
       ]
     },
     "attentive": {
@@ -6922,6 +6930,6 @@
       "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
     }
   ],
-  "last_run": "2026-10-19T06:46:01.074778+00:00",
+  "last_run": "2026-10-19T14:03:06.516648+00:00",
   "pending_notifications": []
 }
