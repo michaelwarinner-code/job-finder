@@ -2003,7 +2003,9 @@
         "wd-coke-Director--Manufacturing-Transformation-and-Operational-Excellence_R-145974-1",
         "wd-coke-Director--Marketing---Brand-Minute-Maid_R-147759",
         "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
+        "wd-coke-Director--Marketing-CCTM--Egypt_R-147768",
         "wd-coke-Director--Marketing-Capability---Transformation_R-137960",
+        "wd-coke-Director--Marketing-Capability-and-Transformation_R-147811",
         "wd-coke-Director--Marketing-Data-Engineering_R-145196",
         "wd-coke-Director--Marketing-and-Commercial-Data_R-147580-1",
         "wd-coke-Director--Media---Connections_R-147772-1",
@@ -2422,6 +2424,7 @@
         "wd-coke-Senior-Director--Strategy-Integration-Germany_R-145960",
         "wd-coke-Senior-Director--Sweetener-Research--Validation-and-Application_R-136492",
         "wd-coke-Senior-Director--System-Supply-Chain-Integration--Technical-Innovation-and-Supply-Chain-function--Japan---South-Korea-OU_R-147287",
+        "wd-coke-Senior-Director--Tax_R-147742-1",
         "wd-coke-Senior-Director--Vendor-Management---Governance-Lead_R-147717",
         "wd-coke-Senior-Director--smartwater_R-146065",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
@@ -2885,6 +2888,7 @@
         "ashby-cursor-299ce422-0281-4282-aadd-bc22553be0b5",
         "ashby-cursor-2ba388d9-8cb1-4738-a9a2-37d97fc17216",
         "ashby-cursor-2bbe9f02-83a5-4173-98be-9085d1cb5693",
+        "ashby-cursor-2bc45647-93ff-497e-8db9-9b4f42d17240",
         "ashby-cursor-2ca532ac-da2a-4f45-ba60-fe4de80ca821",
         "ashby-cursor-2e98f028-1b77-4537-aeee-e2962668c970",
         "ashby-cursor-32350e7d-b6c8-4556-b8ba-3e58490f7cb7",
@@ -3014,6 +3018,7 @@
         "ashby-cursor-f2cf204b-f469-4997-9508-f218c5869706",
         "ashby-cursor-f7ec7811-a573-42fa-8ade-01e2d07681ef",
         "ashby-cursor-fa719d62-14b9-44c7-b54f-a4435cc62dec",
+        "ashby-cursor-fa7a821b-ca2b-43fe-8942-07f215a060c7",
         "ashby-cursor-fb97e304-9d99-4b07-9474-1290121a87d5",
         "ashby-cursor-fcdf7683-bd29-49a5-9284-f000b04a266a"
       ]
@@ -3416,6 +3421,7 @@
         "ashby-elevenlabs-d05779a0-51da-417f-9921-39be5271402a",
         "ashby-elevenlabs-d0e217ba-4de6-48db-9127-0b73a752649b",
         "ashby-elevenlabs-d16a7ad6-ffbd-4655-8716-4872263f99ce",
+        "ashby-elevenlabs-d1caf988-ab4a-4b72-9ed9-d18e986fb7f1",
         "ashby-elevenlabs-d2443707-b19e-49c2-b2ec-de0c4c889089",
         "ashby-elevenlabs-d26b2c95-d003-47fc-b72e-d134f2977eae",
         "ashby-elevenlabs-d29d23d8-703f-4448-8d80-255d141cac10",
@@ -5516,6 +5522,7 @@
         "gh-braze-8275975",
         "gh-braze-8276040",
         "gh-braze-8279315",
+        "gh-braze-8280791",
         "gh-braze-8284843",
         "gh-braze-8285481",
         "gh-braze-8285494",
@@ -6037,7 +6044,8 @@
         "gh-glossier-8257431",
         "gh-glossier-8258416",
         "gh-glossier-8274997",
-        "gh-glossier-8275211"
+        "gh-glossier-8275211",
+        "gh-glossier-8302405"
       ]
     },
     "yext": {
@@ -6097,6 +6105,7 @@
         "gh-yext-8259075",
         "gh-yext-8262920",
         "gh-yext-8267827",
+        "gh-yext-8282372",
         "gh-yext-8288963"
       ]
     },
@@ -6444,6 +6453,7 @@
         "gh-flatironhealth-8200990",
         "gh-flatironhealth-8201111",
         "gh-flatironhealth-8238069",
+        "gh-flatironhealth-8238256",
         "gh-flatironhealth-8243012",
         "gh-flatironhealth-8249709",
         "gh-flatironhealth-8265541"
@@ -6962,8 +6972,18 @@
       "url": "https://flatiron.com/careers/open-positions/job?gh_jid=8265541",
       "first_seen": "2026-10-19T19:50:51.797300+00:00",
       "fit_reason": "Revenue Operations role explicitly in-scope per candidate criteria; 2-year requirement is at/below candidate's ~3 years relevant experience; core responsibilities (process improvement, pipeline management, dashboards, sales analytics, cross-functional reporting) align directly with candidate's demonstrated analytical, data-driven, and GTM-optimization work at Chick-fil-A and internships."
+    },
+    {
+      "id": "ashby-cursor-2bc45647-93ff-497e-8db9-9b4f42d17240",
+      "company_key": "cursor",
+      "company_name": "Cursor",
+      "title": "Integrated Campaigns Manager, AMER",
+      "location": "San Francisco",
+      "url": "https://jobs.ashbyhq.com/cursor/2bc45647-93ff-497e-8db9-9b4f42d17240",
+      "first_seen": "2026-10-20T12:46:23.844914+00:00",
+      "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
     }
   ],
-  "last_run": "2026-10-19T23:18:00.703503+00:00",
+  "last_run": "2026-10-20T12:46:23.844914+00:00",
   "pending_notifications": []
 }
