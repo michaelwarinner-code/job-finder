@@ -134,6 +134,7 @@
         "gh-doordashusa-7436104",
         "gh-doordashusa-7454878",
         "gh-doordashusa-7456678",
+        "gh-doordashusa-7467955",
         "gh-doordashusa-7468130",
         "gh-doordashusa-7488724",
         "gh-doordashusa-7490108",
@@ -833,7 +834,13 @@
         "gh-doordashusa-8294468",
         "gh-doordashusa-8300729",
         "gh-doordashusa-8301032",
-        "gh-doordashusa-8301776"
+        "gh-doordashusa-8301438",
+        "gh-doordashusa-8301776",
+        "gh-doordashusa-8303131",
+        "gh-doordashusa-8303176",
+        "gh-doordashusa-8303234",
+        "gh-doordashusa-8303248",
+        "gh-doordashusa-8303882"
       ]
     },
     "hubspot": {
@@ -1081,6 +1088,7 @@
         "gh-hubspotjobs-8199408",
         "gh-hubspotjobs-8201644",
         "gh-hubspotjobs-8202868",
+        "gh-hubspotjobs-8208201",
         "gh-hubspotjobs-8214455",
         "gh-hubspotjobs-8221496",
         "gh-hubspotjobs-8223099",
@@ -1090,7 +1098,8 @@
         "gh-hubspotjobs-8248552",
         "gh-hubspotjobs-8249167",
         "gh-hubspotjobs-8249201",
-        "gh-hubspotjobs-8249262"
+        "gh-hubspotjobs-8249262",
+        "gh-hubspotjobs-8266540"
       ]
     },
     "spotify": {
@@ -2024,6 +2033,7 @@
         "wd-coke-Director--Portfolio-and-Planning---Corporate_R-147301",
         "wd-coke-Director--Portfolio-and-Planning---T-D_R-147316",
         "wd-coke-Director--Product-Life-Cycle-Management_R-145256",
+        "wd-coke-Director--Public-Affairs--Communication---Sustainability--Turkiye_R-147375",
         "wd-coke-Director--Public-Policy_R-147082-1",
         "wd-coke-Director--QA-Automation-Support_R-145098-1",
         "wd-coke-Director--Quality-Engineering---Customer-and-Commercial_R-134643",
@@ -2235,6 +2245,7 @@
         "wd-coke-Product-and-Portfolio-Manager--CPS-NA_R-145032",
         "wd-coke-Production---Inventory-Clerk--Night-Shift--7pm---7am-_R-145896",
         "wd-coke-Production-Machine-Operator--3rd-Shift--Forklift-Exp-PLUS-_R-145232",
+        "wd-coke-Production-Manager_R-142694",
         "wd-coke-Production-Manager_R-145528",
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
         "wd-coke-Production-Operator---PTC_R-146571",
@@ -2291,9 +2302,11 @@
         "wd-coke-Recycling-Technician--Forklift-Exp-Preferred---Night-Shift_R-146430",
         "wd-coke-Refrigeration-Technician_R-146334",
         "wd-coke-Reimbursement-Budget-Analyst_R-147675",
+        "wd-coke-Retail-Execution-Specialist---Atlanta--GA_R-147912",
         "wd-coke-Retail-Execution-Specialist---Boynton-Beach--FL_R-147679",
         "wd-coke-Retail-Execution-Specialist---Columbus--OH_R-145251",
         "wd-coke-Retail-Execution-Specialist---Denver--CO_R-145920",
+        "wd-coke-Retail-Execution-Specialist---Grand-Rapids--MI_R-147904",
         "wd-coke-Retail-Execution-Specialist---Houston--TX_R-147248-1",
         "wd-coke-Retail-Execution-Specialist---Knoxville--TN_R-141062",
         "wd-coke-Retail-Execution-Specialist---Phoenix--AZ_R-147327-1",
@@ -2586,6 +2599,7 @@
         "wd-coke-Staff-Product-Designer_R-145740",
         "wd-coke-Stategic-Project-Manager_R-147251",
         "wd-coke-Strategic-Project--Senior-Manager_R-145739",
+        "wd-coke-Strategic-Project-Manager_R-147950-1",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
         "wd-coke-Supply-Chain-Intelligence--Digital---Productivity-Lead_R-147052-1",
         "wd-coke-Technology-Delivery-Lead_R-144432",
@@ -2696,6 +2710,7 @@
         "ashby-perplexity-6829d54e-570b-4001-a822-3c1e85a34371",
         "ashby-perplexity-69fd6a56-0050-44f7-9ed2-2c3a7320908d",
         "ashby-perplexity-6c9b3c71-85ba-47db-bce5-44fd9fa95d03",
+        "ashby-perplexity-6dd1dba6-8dba-4bfe-a393-a43a8a55bb0c",
         "ashby-perplexity-6e328b72-9f57-49e0-a1a8-4428abf8ff81",
         "ashby-perplexity-6eedd99c-ff6a-470b-a7cc-3303e1c0b7fc",
         "ashby-perplexity-6f3c5131-2efa-400c-8248-44203a4dbfbb",
@@ -2876,6 +2891,7 @@
         "ashby-cursor-1910bd0e-806c-4e60-bfd6-157e369d6d02",
         "ashby-cursor-193c326d-2ffc-4c11-8bba-73d243fd178b",
         "ashby-cursor-1a4d2899-ab97-406b-b0c9-728ced120e72",
+        "ashby-cursor-1a584899-847d-4e5b-8181-fb889fe4e06e",
         "ashby-cursor-1b422774-a090-455f-a8f8-64f68d7f86e5",
         "ashby-cursor-1cfacf1a-4ba7-4e68-9f65-4fb8e3525bde",
         "ashby-cursor-1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
@@ -3152,6 +3168,7 @@
         "ashby-elevenlabs-19b21930-d142-4dae-be23-751f5425b0af",
         "ashby-elevenlabs-19d9a7a0-10d9-41d8-b515-a61f1d85f186",
         "ashby-elevenlabs-1a9d687d-0030-4732-8160-f1da54844bba",
+        "ashby-elevenlabs-1b43cf6f-bc1f-4241-b8a2-5f85fb4ea028",
         "ashby-elevenlabs-1b90a2b2-1352-458d-b2b7-3900f6e02df5",
         "ashby-elevenlabs-1bd5957c-6799-4b0d-b33d-1d8f7fc56c09",
         "ashby-elevenlabs-1c1f4cc9-08f7-4fbb-867f-7e87e7fa19d9",
@@ -4276,6 +4293,7 @@
         "gh-datadog-8281751",
         "gh-datadog-8282140",
         "gh-datadog-8282504",
+        "gh-datadog-8282537",
         "gh-datadog-8282552",
         "gh-datadog-8286919",
         "gh-datadog-8289036",
@@ -4832,6 +4850,7 @@
         "gh-mongodb-8188788",
         "gh-mongodb-8188829",
         "gh-mongodb-8189170",
+        "gh-mongodb-8190019",
         "gh-mongodb-8190534",
         "gh-mongodb-8191547",
         "gh-mongodb-8192216",
@@ -4963,7 +4982,8 @@
         "gh-mongodb-8281662",
         "gh-mongodb-8281670",
         "gh-mongodb-8281673",
-        "gh-mongodb-8281679"
+        "gh-mongodb-8281679",
+        "gh-mongodb-8300359"
       ]
     },
     "braze": {
@@ -5528,7 +5548,8 @@
         "gh-braze-8285494",
         "gh-braze-8285499",
         "gh-braze-8286853",
-        "gh-braze-8301086"
+        "gh-braze-8301086",
+        "gh-braze-8301722"
       ]
     },
     "classpass": {
@@ -6106,7 +6127,8 @@
         "gh-yext-8262920",
         "gh-yext-8267827",
         "gh-yext-8282372",
-        "gh-yext-8288963"
+        "gh-yext-8288963",
+        "gh-yext-8302454"
       ]
     },
     "mavenclinic": {
@@ -6399,7 +6421,9 @@
         "gh-yotpo-8272597",
         "gh-yotpo-8286969",
         "gh-yotpo-8300785",
-        "gh-yotpo-8301582"
+        "gh-yotpo-8301582",
+        "gh-yotpo-8303527",
+        "gh-yotpo-8303571"
       ]
     },
     "flatironhealth": {
@@ -6632,16 +6656,6 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8026972",
       "first_seen": "2026-08-23T23:31:47.552293+00:00",
       "fit_reason": "Candidate meets the 3-year floor with 3+ years at Chick-fil-A in a revenue/growth-focused role; posting is strategically and analytically aligned (marketplace growth, partnership strategy, data-driven optimization) with demonstrated skills in campaign design, funnel building, and cross-functional execution\u2014well within target scope."
-    },
-    {
-      "id": "gh-doordashusa-8128136",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Senior Associate, Sales Strategy & Operations, Commercial Operations",
-      "location": "San Francisco, New York City, NY; CA;Atlanta, GA; Chicago, IL; Denver, CO;  Washington D.C.; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8128136",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities\u2014data analysis, process design, cross-functional strategy, insights generation\u2014align strongly with demonstrated analytics, operations, and GTM work at Chick-fil-A; 'Senior Associate' is IC seniority, not people management; SQL and AI tools are familiar or learnable."
     },
     {
       "id": "gh-doordashusa-8143360",
@@ -6984,6 +6998,6 @@
       "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
     }
   ],
-  "last_run": "2026-10-20T12:46:23.844914+00:00",
+  "last_run": "2026-10-20T17:34:30.915018+00:00",
   "pending_notifications": []
 }
