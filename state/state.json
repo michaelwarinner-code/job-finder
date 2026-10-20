@@ -1689,6 +1689,7 @@
         "wd-snapchat-Senior-Client-Partner_Q426SCP8-1",
         "wd-snapchat-Senior-Client-Partner_Q426SCPL5-1",
         "wd-snapchat-Senior-Client-Partner_R0046205-1",
+        "wd-snapchat-Senior-Client-Partner_R0047249-1",
         "wd-snapchat-Senior-Compensation-Program-Manager_R0047019-1",
         "wd-snapchat-Senior-Copywriter_R0046488-1",
         "wd-snapchat-Senior-Counsel--Corporate_R0045322-1",
@@ -1962,6 +1963,7 @@
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
         "wd-coke-Director--Customer-Operations_R-147682-1",
+        "wd-coke-Director--Customer-Operations_R-147833",
         "wd-coke-Director--Customer-Solutions_R-147452-1",
         "wd-coke-Director--Customer-Strategic-Insights---Foodservice-and-On-Premise_R-146486",
         "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
@@ -2213,6 +2215,7 @@
         "wd-coke-Manager--Supply-Chain-Projects_R-143175",
         "wd-coke-Manager--Tech-Operation---Japan_R-144482",
         "wd-coke-Manager--Technical-Readiness_R-144310",
+        "wd-coke-Manager--Threat--Red-Team-_R-144462",
         "wd-coke-Manager-Production--2nd-shift_R-145970-1",
         "wd-coke-Marketing-Director--Sprite---Philippines_R-145209",
         "wd-coke-Material-Handler---Nights_R-145419",
@@ -4995,7 +4998,8 @@
         "gh-mongodb-8281670",
         "gh-mongodb-8281673",
         "gh-mongodb-8281679",
-        "gh-mongodb-8300359"
+        "gh-mongodb-8300359",
+        "gh-mongodb-8300746"
       ]
     },
     "braze": {
@@ -5530,6 +5534,7 @@
         "gh-braze-8257799",
         "gh-braze-8259692",
         "gh-braze-8262294",
+        "gh-braze-8262600",
         "gh-braze-8262953",
         "gh-braze-8262966",
         "gh-braze-8262968",
@@ -5561,7 +5566,10 @@
         "gh-braze-8285499",
         "gh-braze-8286853",
         "gh-braze-8301086",
-        "gh-braze-8301722"
+        "gh-braze-8301722",
+        "gh-braze-8304449",
+        "gh-braze-8304482",
+        "gh-braze-8304484"
       ]
     },
     "classpass": {
@@ -5801,6 +5809,8 @@
         "gh-justworks-8164798",
         "gh-justworks-8166821",
         "gh-justworks-8179702",
+        "gh-justworks-8179714",
+        "gh-justworks-8179751",
         "gh-justworks-8179931",
         "gh-justworks-8179947",
         "gh-justworks-8179986",
@@ -7010,6 +7020,6 @@
       "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
     }
   ],
-  "last_run": "2026-10-20T20:50:35.477318+00:00",
+  "last_run": "2026-10-20T23:37:04.742334+00:00",
   "pending_notifications": []
 }
