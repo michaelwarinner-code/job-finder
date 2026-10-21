@@ -137,6 +137,7 @@
         "gh-doordashusa-7456678",
         "gh-doordashusa-7467955",
         "gh-doordashusa-7468130",
+        "gh-doordashusa-7473132",
         "gh-doordashusa-7488724",
         "gh-doordashusa-7490108",
         "gh-doordashusa-7490373",
@@ -845,7 +846,9 @@
         "gh-doordashusa-8303882",
         "gh-doordashusa-8304190",
         "gh-doordashusa-8304373",
-        "gh-doordashusa-8304878"
+        "gh-doordashusa-8304878",
+        "gh-doordashusa-8305939",
+        "gh-doordashusa-8306636"
       ]
     },
     "hubspot": {
@@ -976,6 +979,7 @@
         "gh-hubspotjobs-7774503",
         "gh-hubspotjobs-7777236",
         "gh-hubspotjobs-7779509",
+        "gh-hubspotjobs-7830281",
         "gh-hubspotjobs-7845167",
         "gh-hubspotjobs-7906651",
         "gh-hubspotjobs-7953436",
@@ -1171,6 +1175,7 @@
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
         "lever-spotify-4852ad53-b028-4161-b53b-24c62759257f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
+        "lever-spotify-4e4ab485-06f1-46b1-88e0-44f3fda4b62a",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
         "lever-spotify-53c07681-f798-4f2c-bef6-513c6d027c9e",
         "lever-spotify-56ea6f2e-f20b-4e46-ab94-d3eb0a89482d",
@@ -1189,6 +1194,7 @@
         "lever-spotify-6eb9ce0e-5372-4a4f-b2fa-d005f9426750",
         "lever-spotify-715ac952-36a0-4ed5-8fca-0c12eab94d6a",
         "lever-spotify-71eb64a0-ce99-4166-8462-bad3901a967c",
+        "lever-spotify-73a83f73-2f59-4c82-bac3-7dfc5d3355ad",
         "lever-spotify-73e87af2-1cf9-4aa2-bf3f-032cd2c3b05c",
         "lever-spotify-7424c142-4be7-4a21-9010-621d69aae86d",
         "lever-spotify-752a07ee-1524-4324-94fc-b7145d36052d",
@@ -1466,6 +1472,7 @@
         "wd-snapchat-Client-Partner_R0046583",
         "wd-snapchat-Client-Partner_R0046731",
         "wd-snapchat-Client-Partner_R0046904",
+        "wd-snapchat-Cloud-Software-Engineer_R0047259-1",
         "wd-snapchat-Communications-Manager--Snapchat_R0046872",
         "wd-snapchat-Compensation-Business-Partner_R0046712-1",
         "wd-snapchat-Compensation-Program-Manager_R0046439-1",
@@ -1801,6 +1808,7 @@
         "wd-snapchat-Staff-Software-Engineer--Omnichannel-Notifications-System_R0046651",
         "wd-snapchat-Staff-Software-Engineer--Platform-Engineering_R0045781-1",
         "wd-snapchat-Staff-Software-Engineer--Storage-and-Caching_R0046690-1",
+        "wd-snapchat-Staff-Software-Engineer--iOS--Level-6_Q426SWEI9",
         "wd-snapchat-Staff-Technical-Program-Manager--ML-Platform_R0046540",
         "wd-snapchat-Technical-Operations-Manufacturing-Electrical-Engineer_R0044144-1",
         "wd-snapchat-Technical-Partner-Manager--Enterprise-Solutions_H226TPMES-1",
@@ -1830,6 +1838,7 @@
         "wd-coke-Administrative-Assistant-CAR_R-145748-1",
         "wd-coke-Advisor--Account-Coordinator_R-147236",
         "wd-coke-Advisor--Account-Coordinator_R-147430",
+        "wd-coke-Advisor--Account-Coordinator_R-147923",
         "wd-coke-Advisor--Consumer-Engagement_R-145315",
         "wd-coke-Advisor--Customer-Operations_R-146807",
         "wd-coke-Advisor--Employee-Care_R-144690",
@@ -1952,6 +1961,7 @@
         "wd-coke-Director--Care---PACS-Digital-Services--NAOU_R-144606",
         "wd-coke-Director--Category-Leadership--Walmart_R-145579",
         "wd-coke-Director--Channel---Portfolio--Benelux_R-138608-1",
+        "wd-coke-Director--Cloud-Software-Architect_R-147930",
         "wd-coke-Director--Coca-Cola-TradeMark-Marketing-Pakistan_R-142999",
         "wd-coke-Director--Coffee--Georgia-OTC-Execution_R-139557",
         "wd-coke-Director--Commercial-Frontline--Nigeria_R-145874",
@@ -2059,6 +2069,7 @@
         "wd-coke-Director--Scientific---Regulatory-Affairs_R-141084",
         "wd-coke-Director--Scientific-and-Regulatory-Affairs_R-140079-1",
         "wd-coke-Director--Shopper-Creative--Water--Tea--and-Coffee-_R-147601",
+        "wd-coke-Director--Shopper-Insights-Convenience-Retail_R-147249",
         "wd-coke-Director--Shopper-Science-and-Insights_R-145546",
         "wd-coke-Director--Sprite_R-146823-1",
         "wd-coke-Director--Stills--Belux_R-138613-1",
@@ -2091,6 +2102,7 @@
         "wd-coke-Director-of-Engineering--Electrical-Controls---OT-Cybersecurity_R-145699",
         "wd-coke-Director-of-Sales---Amazon---Whole-Foods-Market_R-146830",
         "wd-coke-Director-of-Sales---eCommerce_R-145797",
+        "wd-coke-Distribution---Logistics-Specialist_R-147893",
         "wd-coke-Energy---Sustainability-Manager_R-140742",
         "wd-coke-Engineering---Maintenance-Director-Director_R-145602",
         "wd-coke-Environmental--Safety---Health-Analyst-I-Temporary-12-month-contract_R-147898",
@@ -2131,6 +2143,7 @@
         "wd-coke-International-Treasury-Services-Manager_R-145730",
         "wd-coke-Internship-Maintenance-Engineer-Support_R-146102",
         "wd-coke-Inventory-Consultant_R-147415",
+        "wd-coke-Inventory-Control-Clerk_R-147941",
         "wd-coke-Junior-Buyer---Strategic-Sourcing--Ingredients_R-145156",
         "wd-coke-Junior-Buyer--Strategic-Sourcing--Ingredients_R-145160",
         "wd-coke-Junior-Software-Engineer_R-144528-1",
@@ -2195,6 +2208,7 @@
         "wd-coke-Manager--Formula-Intelligence--R-D_R-143126",
         "wd-coke-Manager--Global-Adult-Sparkling---ARTD--Technical-Consumer-Data-Research_R-146211",
         "wd-coke-Manager--Global-Mobility-Technical_R-145592-1",
+        "wd-coke-Manager--Global-Retirement-Delivery---TR-Administration-Excellence_R-147670",
         "wd-coke-Manager--Global-Share-Plans-Delivery_R-146781",
         "wd-coke-Manager--Guest-Experience---Operations--World-of-Coca-Cola-_R-144584",
         "wd-coke-Manager--IT---Infrastructure-and-Technology-Services_R-147293",
@@ -2371,6 +2385,7 @@
         "wd-coke-Senior-Director--Business-Development--Dallas--TX-_R-145000",
         "wd-coke-Senior-Director--Campaign-Operations_R-144441",
         "wd-coke-Senior-Director--Capability-Acceleration_R-144405",
+        "wd-coke-Senior-Director--Channel-Activation---E2E_R-148011",
         "wd-coke-Senior-Director--Cloud-Architecture_R-144532",
         "wd-coke-Senior-Director--Coca-Cola-TradeMark-Category-Turkiye_R-134278",
         "wd-coke-Senior-Director--Commercial-Insights---Planning_R-147215",
@@ -2416,6 +2431,7 @@
         "wd-coke-Senior-Director--HR-Policy-and-Compliance_R-147296-1",
         "wd-coke-Senior-Director--Hydration---Advanced-Hydration--Global-Development---Innovation_R-136011",
         "wd-coke-Senior-Director--IMX-Digital_R-139971-1",
+        "wd-coke-Senior-Director--IT-Finance_R-144487",
         "wd-coke-Senior-Director--IT-Governance-and-Security-Controls_R-146318",
         "wd-coke-Senior-Director--Innovation-Product-Manager_R-145105-1",
         "wd-coke-Senior-Director--Integrations_R-144453-1",
@@ -2499,6 +2515,7 @@
         "wd-coke-Senior-Manager--Customer-Service-Bottler-Network_R-147486",
         "wd-coke-Senior-Manager--Customer-Service-FSOP_R-147487",
         "wd-coke-Senior-Manager--Cybersecurity_R-146493-1",
+        "wd-coke-Senior-Manager--Data-Architecture--Streaming-_R-144557",
         "wd-coke-Senior-Manager--Data-Governance_R-144499-1",
         "wd-coke-Senior-Manager--Data-Product-Management---Japan_R-144508-1",
         "wd-coke-Senior-Manager--Data-Science-and-Agentic-AI_R-144496",
@@ -3144,6 +3161,7 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
+        "ashby-elevenlabs-02d5b86d-00e5-4204-b61a-8419c3cc1c10",
         "ashby-elevenlabs-03b07a06-ad0e-4ef6-a516-7d14cc13adf3",
         "ashby-elevenlabs-03cefd49-972f-45b2-b6c7-9a42d133af0c",
         "ashby-elevenlabs-03d5ffd2-5cfd-43a0-a767-3cb08d107233",
@@ -3206,6 +3224,7 @@
         "ashby-elevenlabs-24d6431c-ec48-48e6-860a-6172b67f1fdf",
         "ashby-elevenlabs-257f24da-83db-4bad-a6dc-37793a1a0bac",
         "ashby-elevenlabs-275f43d0-b62d-401d-830c-7c1ac0e688aa",
+        "ashby-elevenlabs-277de6ad-3db5-4b96-afb5-cec3d797e788",
         "ashby-elevenlabs-29491158-3020-45b0-9bbb-789a55e87beb",
         "ashby-elevenlabs-29aed1f3-26f8-4d3b-8cc4-7ca7d9342eeb",
         "ashby-elevenlabs-2a99d0a0-adae-41b5-a7ef-f1d3faee60a7",
@@ -3488,6 +3507,7 @@
         "ashby-elevenlabs-e7b83599-1b70-4830-85da-7132b99a3b57",
         "ashby-elevenlabs-e815e2a8-e3bd-4e41-bbc3-ebe57277927b",
         "ashby-elevenlabs-ea45b306-c62d-4aba-98ba-ee2e62adf91a",
+        "ashby-elevenlabs-ea5ed1d0-332d-4777-ba7a-4662c6f0b4d2",
         "ashby-elevenlabs-eb0cc725-ac18-46a7-a0b5-a8ca58f5779d",
         "ashby-elevenlabs-ec04799b-6567-4032-8d6c-3c27261618e1",
         "ashby-elevenlabs-ec07a96a-35c1-491e-8184-4c19c999a120",
@@ -4303,6 +4323,7 @@
         "gh-datadog-8267546",
         "gh-datadog-8267561",
         "gh-datadog-8268065",
+        "gh-datadog-8273655",
         "gh-datadog-8273664",
         "gh-datadog-8278276",
         "gh-datadog-8278850",
@@ -4313,6 +4334,7 @@
         "gh-datadog-8281450",
         "gh-datadog-8281751",
         "gh-datadog-8282140",
+        "gh-datadog-8282212",
         "gh-datadog-8282504",
         "gh-datadog-8282537",
         "gh-datadog-8282552",
@@ -4323,7 +4345,9 @@
         "gh-datadog-8292620",
         "gh-datadog-8292699",
         "gh-datadog-8303221",
-        "gh-datadog-8304107"
+        "gh-datadog-8303622",
+        "gh-datadog-8304107",
+        "gh-datadog-8305790"
       ]
     },
     "mongodb": {
@@ -4625,6 +4649,7 @@
         "gh-mongodb-8054311",
         "gh-mongodb-8055126",
         "gh-mongodb-8055356",
+        "gh-mongodb-8055422",
         "gh-mongodb-8055471",
         "gh-mongodb-8056742",
         "gh-mongodb-8056743",
@@ -5009,7 +5034,10 @@
         "gh-mongodb-8281679",
         "gh-mongodb-8300245",
         "gh-mongodb-8300359",
-        "gh-mongodb-8300746"
+        "gh-mongodb-8300746",
+        "gh-mongodb-8300961",
+        "gh-mongodb-8304447",
+        "gh-mongodb-8305331"
       ]
     },
     "braze": {
@@ -5575,8 +5603,13 @@
         "gh-braze-8285494",
         "gh-braze-8285499",
         "gh-braze-8286853",
+        "gh-braze-8300854",
         "gh-braze-8301086",
         "gh-braze-8301722",
+        "gh-braze-8301790",
+        "gh-braze-8302809",
+        "gh-braze-8303843",
+        "gh-braze-8303845",
         "gh-braze-8304449",
         "gh-braze-8304482",
         "gh-braze-8304484"
@@ -5676,6 +5709,7 @@
         "gh-classpass-4719996006",
         "gh-classpass-4720002006",
         "gh-classpass-4720011006",
+        "gh-classpass-4720569006",
         "gh-classpass-4721833006",
         "gh-classpass-4722320006",
         "gh-classpass-4722326006",
@@ -5860,6 +5894,7 @@
         "gh-justworks-8267502",
         "gh-justworks-8267509",
         "gh-justworks-8268787",
+        "gh-justworks-8278345",
         "gh-justworks-8278368",
         "gh-justworks-8279256",
         "gh-justworks-8281729",
@@ -5969,7 +6004,8 @@
         "gh-appsflyer-8897823002",
         "gh-appsflyer-8899415002",
         "gh-appsflyer-8899626002",
-        "gh-appsflyer-8899639002"
+        "gh-appsflyer-8899639002",
+        "gh-appsflyer-8905228002"
       ]
     },
     "attentive": {
@@ -6098,7 +6134,8 @@
         "gh-glossier-8258416",
         "gh-glossier-8274997",
         "gh-glossier-8275211",
-        "gh-glossier-8302405"
+        "gh-glossier-8302405",
+        "gh-glossier-8304650"
       ]
     },
     "yext": {
@@ -6513,7 +6550,8 @@
         "gh-flatironhealth-8238256",
         "gh-flatironhealth-8243012",
         "gh-flatironhealth-8249709",
-        "gh-flatironhealth-8265541"
+        "gh-flatironhealth-8265541",
+        "gh-flatironhealth-8306279"
       ]
     },
     "bombas": {
@@ -6759,16 +6797,6 @@
       "url": "https://careers.datadoghq.com/detail/8052114/?gh_jid=8052114",
       "first_seen": "2026-08-24T22:14:01.814304+00:00",
       "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and strategic value delivery within existing portfolio\u2014aligns with candidate's account management and lifecycle marketing background; 3 years required matches candidate's experience level."
-    },
-    {
-      "id": "gh-datadog-8077474",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "Enterprise Customer Success Manager - East",
-      "location": "Boston, Massachusetts, USA; New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/8077474/?gh_jid=8077474",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and expansion within existing strategic accounts\u2014directly aligned with candidate's target revenue operations/account management path; 3+ years requirement meets candidate's ~3 years relevant experience; travel and Fortune 1000 exposure fit candidate's demonstrated ability to manage complex, multi-stakeholder relationships at Chick-fil-A."
     },
     {
       "id": "gh-appsflyer-8531937002",
@@ -7031,6 +7059,6 @@
       "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
     }
   ],
-  "last_run": "2026-10-21T07:27:08.538021+00:00",
+  "last_run": "2026-10-21T17:59:46.960792+00:00",
   "pending_notifications": []
 }
