@@ -833,6 +833,7 @@
         "gh-doordashusa-8289516",
         "gh-doordashusa-8292690",
         "gh-doordashusa-8294468",
+        "gh-doordashusa-8300638",
         "gh-doordashusa-8300729",
         "gh-doordashusa-8301032",
         "gh-doordashusa-8301438",
@@ -843,7 +844,8 @@
         "gh-doordashusa-8303248",
         "gh-doordashusa-8303882",
         "gh-doordashusa-8304190",
-        "gh-doordashusa-8304373"
+        "gh-doordashusa-8304373",
+        "gh-doordashusa-8304878"
       ]
     },
     "hubspot": {
@@ -2656,6 +2658,7 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
+        "ashby-perplexity-0113c03a-69d0-489d-bd11-451d11a9f64b",
         "ashby-perplexity-0190699f-010b-44f2-8399-278899fef018",
         "ashby-perplexity-03f8f956-1cb3-4945-81d1-73b7ff048d4e",
         "ashby-perplexity-043d6a58-87a1-4e3c-bf47-4dc351b94cf4",
@@ -5004,6 +5007,7 @@
         "gh-mongodb-8281670",
         "gh-mongodb-8281673",
         "gh-mongodb-8281679",
+        "gh-mongodb-8300245",
         "gh-mongodb-8300359",
         "gh-mongodb-8300746"
       ]
@@ -7027,6 +7031,6 @@
       "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
     }
   ],
-  "last_run": "2026-10-21T01:59:56.333017+00:00",
+  "last_run": "2026-10-21T07:27:08.538021+00:00",
   "pending_notifications": []
 }
