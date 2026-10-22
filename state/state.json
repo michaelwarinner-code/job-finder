@@ -853,9 +853,13 @@
         "gh-doordashusa-8306624",
         "gh-doordashusa-8306636",
         "gh-doordashusa-8310956",
+        "gh-doordashusa-8311047",
         "gh-doordashusa-8312381",
         "gh-doordashusa-8312492",
-        "gh-doordashusa-8312639"
+        "gh-doordashusa-8312639",
+        "gh-doordashusa-8313401",
+        "gh-doordashusa-8314149",
+        "gh-doordashusa-8314289"
       ]
     },
     "hubspot": {
@@ -1325,6 +1329,7 @@
         "lever-spotify-f58775f4-574f-40df-8b25-528381203154",
         "lever-spotify-f6c45551-3bb2-4b62-9b7f-02f2b3a3441b",
         "lever-spotify-f7b3c8d4-08b6-4f24-bf10-02b8964f96e8",
+        "lever-spotify-f7eb82ce-b57e-4dc0-b84a-7f7ec05bf66e",
         "lever-spotify-faffd837-edbc-42f8-b4bf-14e1658c18e6",
         "lever-spotify-fc779380-7e9c-48be-a730-e789fed1879e",
         "lever-spotify-ffe7380b-8c91-4201-bf60-25273493a1d8"
@@ -2410,6 +2415,7 @@
         "wd-coke-Senior-Director--Business-Delivery---Coke-ON_R-144466",
         "wd-coke-Senior-Director--Business-Development--Dallas--TX-_R-145000",
         "wd-coke-Senior-Director--Campaign-Operations_R-144441",
+        "wd-coke-Senior-Director--Capabilities_R-147315-1",
         "wd-coke-Senior-Director--Capability-Acceleration_R-144405",
         "wd-coke-Senior-Director--Channel-Activation---E2E_R-148011",
         "wd-coke-Senior-Director--Cloud-Architecture_R-144532",
@@ -2428,6 +2434,7 @@
         "wd-coke-Senior-Director--Data-Integrations_R-144402",
         "wd-coke-Senior-Director--Data-Science_R-146500-1",
         "wd-coke-Senior-Director--Digital-Capabilities---Products_R-147408",
+        "wd-coke-Senior-Director--Digital-Capability-and-Workforce-Modernization_R-147314-1",
         "wd-coke-Senior-Director--Digital-Operations_R-144495",
         "wd-coke-Senior-Director--Digital-Transformation---ASEAN---South-Pacific_R-144515-1",
         "wd-coke-Senior-Director--Digital-Transformation-EME_R-144500",
@@ -2497,6 +2504,7 @@
         "wd-coke-Senior-Director--Strategy-Integration-Germany_R-145960",
         "wd-coke-Senior-Director--Sweetener-Research--Validation-and-Application_R-136492",
         "wd-coke-Senior-Director--System-Supply-Chain-Integration--Technical-Innovation-and-Supply-Chain-function--Japan---South-Korea-OU_R-147287",
+        "wd-coke-Senior-Director--Talent---Development---Performance-and-Culture_R-147307-1",
         "wd-coke-Senior-Director--Tax_R-147742-1",
         "wd-coke-Senior-Director--Vendor-Management---Governance-Lead_R-147717",
         "wd-coke-Senior-Director--smartwater_R-146065",
@@ -3387,6 +3395,7 @@
         "ashby-elevenlabs-7d29f7f7-158a-42e0-a6be-0ceba630863c",
         "ashby-elevenlabs-7f829e53-a3f1-42be-9e3e-5d4c417f3efd",
         "ashby-elevenlabs-813f6b98-fa14-4d8f-902d-5d09029be20a",
+        "ashby-elevenlabs-815547bf-0ade-482d-84b0-4163ab1161e5",
         "ashby-elevenlabs-829d5af0-3581-4d49-8073-866f30d09503",
         "ashby-elevenlabs-830e66a8-892c-4c68-b61c-494591236eef",
         "ashby-elevenlabs-84a75f68-c964-4ad7-994d-a44506e333b2",
@@ -3460,6 +3469,7 @@
         "ashby-elevenlabs-b1b4fa6b-ad36-4b0d-be89-32f35fcb420a",
         "ashby-elevenlabs-b28719ff-833d-49b4-8286-f59082732186",
         "ashby-elevenlabs-b36c7a45-a888-49b5-9130-584eb7c2aa95",
+        "ashby-elevenlabs-b380fb97-bb18-46a5-91db-5132e6693e93",
         "ashby-elevenlabs-b42a0f43-f5e9-4a9d-83d0-8b8bc2d669fa",
         "ashby-elevenlabs-b43e388f-f204-41c5-a2bc-ee3bc1281e39",
         "ashby-elevenlabs-b5852812-73ee-48f2-aee3-265e95056eab",
@@ -3497,6 +3507,7 @@
         "ashby-elevenlabs-ca4b5225-a18c-42b4-85d5-48734c30a586",
         "ashby-elevenlabs-ca7bd675-9bef-4459-ad12-cd423184d856",
         "ashby-elevenlabs-ca83a725-1db7-45d4-92af-424dd2b04d1f",
+        "ashby-elevenlabs-cb77d3a7-ee72-4055-a7ba-3a32732c5ae6",
         "ashby-elevenlabs-cb90c8ba-dc35-4e86-9103-9564751ccaf7",
         "ashby-elevenlabs-cd610558-4a8e-4746-81c1-10e3902f5576",
         "ashby-elevenlabs-cdcf48bf-b6cf-41ce-88ee-34674768fb0d",
@@ -4370,6 +4381,7 @@
         "gh-datadog-8282504",
         "gh-datadog-8282537",
         "gh-datadog-8282552",
+        "gh-datadog-8284998",
         "gh-datadog-8285495",
         "gh-datadog-8286919",
         "gh-datadog-8287316",
@@ -4386,7 +4398,8 @@
         "gh-datadog-8305790",
         "gh-datadog-8306557",
         "gh-datadog-8310668",
-        "gh-datadog-8312438"
+        "gh-datadog-8312438",
+        "gh-datadog-8314006"
       ]
     },
     "mongodb": {
@@ -5040,6 +5053,7 @@
         "gh-mongodb-8260947",
         "gh-mongodb-8262077",
         "gh-mongodb-8263092",
+        "gh-mongodb-8263467",
         "gh-mongodb-8264146",
         "gh-mongodb-8264766",
         "gh-mongodb-8264921",
@@ -5077,10 +5091,13 @@
         "gh-mongodb-8300359",
         "gh-mongodb-8300746",
         "gh-mongodb-8300961",
+        "gh-mongodb-8304146",
         "gh-mongodb-8304447",
         "gh-mongodb-8305331",
         "gh-mongodb-8305915",
-        "gh-mongodb-8311246"
+        "gh-mongodb-8311246",
+        "gh-mongodb-8313598",
+        "gh-mongodb-8314019"
       ]
     },
     "braze": {
@@ -5664,7 +5681,8 @@
         "gh-braze-8304484",
         "gh-braze-8306869",
         "gh-braze-8306881",
-        "gh-braze-8306885"
+        "gh-braze-8306885",
+        "gh-braze-8313344"
       ]
     },
     "classpass": {
@@ -6428,7 +6446,8 @@
         "gh-movableink-8211505",
         "gh-movableink-8221477",
         "gh-movableink-8221933",
-        "gh-movableink-8237020"
+        "gh-movableink-8237020",
+        "gh-movableink-8281254"
       ]
     },
     "thefarmersdog": {
@@ -7098,6 +7117,6 @@
       "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
     }
   ],
-  "last_run": "2026-10-22T15:03:14.117953+00:00",
+  "last_run": "2026-10-22T19:11:42.808302+00:00",
   "pending_notifications": []
 }
