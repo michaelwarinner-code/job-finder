@@ -847,8 +847,11 @@
         "gh-doordashusa-8304190",
         "gh-doordashusa-8304373",
         "gh-doordashusa-8304878",
+        "gh-doordashusa-8305750",
         "gh-doordashusa-8305939",
-        "gh-doordashusa-8306636"
+        "gh-doordashusa-8306624",
+        "gh-doordashusa-8306636",
+        "gh-doordashusa-8310956"
       ]
     },
     "hubspot": {
@@ -1304,6 +1307,7 @@
         "lever-spotify-ed409ff1-a241-4c2c-96ea-c988ca131671",
         "lever-spotify-ee45924c-894c-4ea0-9c93-c5221894063f",
         "lever-spotify-ef3985d1-522e-4950-ba6e-af57dd93c788",
+        "lever-spotify-f02fb195-ba10-40bd-a926-0318a34a7fae",
         "lever-spotify-f328ec07-194a-442d-af32-da40cbfd4f22",
         "lever-spotify-f45de8ee-8f32-4e19-9163-eddf7a018337",
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
@@ -1678,6 +1682,7 @@
         "wd-snapchat-Security-Engineer_R0046072-2",
         "wd-snapchat-Security-Engineer_R0046087-1",
         "wd-snapchat-Security-Engineer_R0046742-1",
+        "wd-snapchat-Security-Technical-Program-Manager---Threat-Informed-Defense_R0047266",
         "wd-snapchat-Security-Technical-Program-Manager--Risk---Compliance--Level-5_R0047050",
         "wd-snapchat-Security-Technical-Program-Manager_R0046183-1",
         "wd-snapchat-Senior-Account-Manager---8-month-contract_R0047195",
@@ -1716,6 +1721,7 @@
         "wd-snapchat-Senior-Executive-Assistant_H226SEAL6",
         "wd-snapchat-Senior-Executive-Assistant_R0046941-1",
         "wd-snapchat-Senior-Financial-Analyst_R0047115-1",
+        "wd-snapchat-Senior-Incentive-Programs-Specialist_R0047267-1",
         "wd-snapchat-Senior-Indy-Agency-Partner_R0046366",
         "wd-snapchat-Senior-Lead--Ad-Partnerships---MMP--DCR--CAPI_R0045841-1",
         "wd-snapchat-Senior-Machine-Learning-Engineer--Generative-AI--Image---Video-_R0046654",
@@ -1977,6 +1983,7 @@
         "wd-coke-Director--Creative-Netherlands_R-145370-1",
         "wd-coke-Director--Customer-Commercial-Agile_R-146123",
         "wd-coke-Director--Customer-Development--Immediate-Consumption_R-136267-1",
+        "wd-coke-Director--Customer-Marketing--East-Region_R-147739-1",
         "wd-coke-Director--Customer-Operations_R-147682-1",
         "wd-coke-Director--Customer-Operations_R-147833",
         "wd-coke-Director--Customer-Solutions_R-147452-1",
@@ -2275,6 +2282,7 @@
         "wd-coke-Production-Manager_R-145528",
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
         "wd-coke-Production-Operator---PTC_R-146571",
+        "wd-coke-Production-Operator---Packaging---Nights_R-147881",
         "wd-coke-Production-Operator---Training-Facilitator--M-F--11pm---7-30am-_R-145295",
         "wd-coke-Production-Operator--Filler--Day-Shift-_R-147709",
         "wd-coke-Production-Operator--Filling---Day-Shift--7am---7pm-_R-145400",
@@ -2283,6 +2291,7 @@
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-141911",
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-145847",
         "wd-coke-Production-Operator-I-Packaging---Days_R-147681",
+        "wd-coke-Production-Operator-I-Packaging---Days_R-147947",
         "wd-coke-Production-Operator-I-Packaging---Nights----2150_R-144724",
         "wd-coke-Production-Operator-II----Filling---days_R-144990",
         "wd-coke-Production-Operator-II---Nights---Filling_R-144603",
@@ -2575,6 +2584,7 @@
         "wd-coke-Senior-Manager--Sales---Albertsons_R-145066",
         "wd-coke-Senior-Manager--Sales---Walmart_R-147805-1",
         "wd-coke-Senior-Manager--Sales---Warehouse_R-147416",
+        "wd-coke-Senior-Manager--Santa-Clara--Mexico--Fixed-Term-Contract-_R-147924",
         "wd-coke-Senior-Manager--Site-Safety---Environment_R-146853-1",
         "wd-coke-Senior-Manager--Software-Engineer--Core-CRM_R-140124",
         "wd-coke-Senior-Manager--Software-Engineer--Data-Platform-Segmentation_R-134645-1",
@@ -2979,6 +2989,7 @@
         "ashby-cursor-64a6cb18-493b-4d18-9f22-c661ae533bfa",
         "ashby-cursor-6960dfef-6dc1-4dbb-887b-0fc9e6e4292e",
         "ashby-cursor-6ab9bead-274e-4bf4-b2ee-1f3669e4aa9b",
+        "ashby-cursor-6acdd80a-3a1b-4701-a607-ca10d86c6847",
         "ashby-cursor-6c80d6e2-5e59-418e-9ea6-15dface61698",
         "ashby-cursor-6d576a09-f30d-4e5e-bb58-5d7ef56cb511",
         "ashby-cursor-6e6f5bc2-eb32-40e2-bba9-cfa56479600d",
@@ -3143,6 +3154,7 @@
         "ashby-runway-ml-e0fec99f-ae6e-4f92-ac1a-7d227179261f",
         "ashby-runway-ml-e20a834c-9efa-4a0d-ab63-3c123d0c7d41",
         "ashby-runway-ml-e27165f8-f71d-4954-9912-8ce7488d6534",
+        "ashby-runway-ml-e9cb4bde-bb05-402d-98a7-a7eb86747d2d",
         "ashby-runway-ml-edf266aa-771c-42f5-bb36-bcd159a41989",
         "ashby-runway-ml-f003ebc6-923d-44cc-b299-01a0d93c6859",
         "ashby-runway-ml-f65e164b-d577-4bd3-993b-7868d51fab5d",
@@ -4338,16 +4350,20 @@
         "gh-datadog-8282504",
         "gh-datadog-8282537",
         "gh-datadog-8282552",
+        "gh-datadog-8285495",
         "gh-datadog-8286919",
         "gh-datadog-8287316",
         "gh-datadog-8289036",
         "gh-datadog-8289964",
         "gh-datadog-8292620",
         "gh-datadog-8292699",
+        "gh-datadog-8301102",
         "gh-datadog-8303221",
         "gh-datadog-8303622",
         "gh-datadog-8304107",
-        "gh-datadog-8305790"
+        "gh-datadog-8305790",
+        "gh-datadog-8306557",
+        "gh-datadog-8310668"
       ]
     },
     "mongodb": {
@@ -4378,6 +4394,7 @@
         "gh-mongodb-6982487",
         "gh-mongodb-6984814",
         "gh-mongodb-6987968",
+        "gh-mongodb-7027834",
         "gh-mongodb-7027846",
         "gh-mongodb-7028355",
         "gh-mongodb-7031396",
@@ -5599,10 +5616,16 @@
         "gh-braze-8279315",
         "gh-braze-8280791",
         "gh-braze-8284843",
+        "gh-braze-8285446",
         "gh-braze-8285481",
         "gh-braze-8285494",
         "gh-braze-8285499",
         "gh-braze-8286853",
+        "gh-braze-8289921",
+        "gh-braze-8290003",
+        "gh-braze-8290011",
+        "gh-braze-8290016",
+        "gh-braze-8290020",
         "gh-braze-8300854",
         "gh-braze-8301086",
         "gh-braze-8301722",
@@ -5612,7 +5635,10 @@
         "gh-braze-8303845",
         "gh-braze-8304449",
         "gh-braze-8304482",
-        "gh-braze-8304484"
+        "gh-braze-8304484",
+        "gh-braze-8306869",
+        "gh-braze-8306881",
+        "gh-braze-8306885"
       ]
     },
     "classpass": {
@@ -6077,6 +6103,7 @@
         "gh-attentive-4438176009",
         "gh-attentive-4443888009",
         "gh-attentive-4452679009",
+        "gh-attentive-4453769009",
         "gh-attentive-4456112009"
       ]
     },
@@ -7057,8 +7084,18 @@
       "url": "https://jobs.ashbyhq.com/cursor/2bc45647-93ff-497e-8db9-9b4f42d17240",
       "first_seen": "2026-10-20T12:46:23.844914+00:00",
       "fit_reason": "Execution-heavy demand generation and ABM role with campaign optimization, email nurture, and cross-functional coordination aligns with growth/lifecycle marketing targets; candidate's 3+ years of campaign design, email/paid social execution, and data-driven optimization at Chick-fil-A directly transfers, and writing/storytelling gap is learnable."
+    },
+    {
+      "id": "gh-datadog-8301102",
+      "company_key": "datadog",
+      "company_name": "Datadog",
+      "title": "Associate Customer Success Manager - Boston",
+      "location": "Boston, Massachusetts, USA",
+      "url": "https://careers.datadoghq.com/detail/8301102/?gh_jid=8301102",
+      "first_seen": "2026-10-22T00:10:39.886377+00:00",
+      "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
     }
   ],
-  "last_run": "2026-10-21T17:59:46.960792+00:00",
+  "last_run": "2026-10-22T00:10:39.886377+00:00",
   "pending_notifications": []
 }
