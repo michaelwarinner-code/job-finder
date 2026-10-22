@@ -14,6 +14,7 @@
         "gh-doordashusa-3547688",
         "gh-doordashusa-3623888",
         "gh-doordashusa-4091671",
+        "gh-doordashusa-4091703",
         "gh-doordashusa-4283145",
         "gh-doordashusa-4441674",
         "gh-doordashusa-4441676",
@@ -851,7 +852,10 @@
         "gh-doordashusa-8305939",
         "gh-doordashusa-8306624",
         "gh-doordashusa-8306636",
-        "gh-doordashusa-8310956"
+        "gh-doordashusa-8310956",
+        "gh-doordashusa-8312381",
+        "gh-doordashusa-8312492",
+        "gh-doordashusa-8312639"
       ]
     },
     "hubspot": {
@@ -1507,6 +1511,7 @@
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
         "wd-snapchat-Director--Integrity-and-Compliance_R0047157",
+        "wd-snapchat-Director--Machine-Learning-Engineer--Content_R0047288-1",
         "wd-snapchat-Director--Software-Engineering--Product-Eng_R0047059-1",
         "wd-snapchat-Director-of-Retail--Specs_R0046194-1",
         "wd-snapchat-Electrical-Engineer--Devices_R0046770-1",
@@ -1702,6 +1707,7 @@
         "wd-snapchat-Senior-Account-Manager_Q326SAM5-2",
         "wd-snapchat-Senior-Account-Manager_Q426SAM5-1",
         "wd-snapchat-Senior-Account-Manager_R0047151-1",
+        "wd-snapchat-Senior-Account-Manager_R0047274-1",
         "wd-snapchat-Senior-Accountant--SEC-Reporting_R0046307-1",
         "wd-snapchat-Senior-Accounts-Receivable-Analyst_R0046185-1",
         "wd-snapchat-Senior-Ad-Product-Quality-Analyst_R0046554",
@@ -1956,6 +1962,7 @@
         "wd-coke-Customer-Service-Intern_R-146483",
         "wd-coke-Customer-Service-Specialist--7-months-_R-143732-1",
         "wd-coke-Cybersecurity-Auditor---Identity---Access-Management_R-147639",
+        "wd-coke-Cybersecurity-Auditor---Network---Firewall-Management-and-Operational-Technology--OT-_R-147836",
         "wd-coke-Data-Engineer_R-144507-1",
         "wd-coke-Data-Machine-Learning-Engineer-II_R-147097",
         "wd-coke-Data-Scientist---Global-Equipment-Platforms--Coca-Cola-GEP-_R-143205",
@@ -2085,6 +2092,7 @@
         "wd-coke-Director--Scientific-and-Regulatory-Affairs_R-140079-1",
         "wd-coke-Director--Shopper-Creative--Water--Tea--and-Coffee-_R-147601",
         "wd-coke-Director--Shopper-Insights-Convenience-Retail_R-147249",
+        "wd-coke-Director--Shopper-Marketing--Advanced-Hydration_R-147720",
         "wd-coke-Director--Shopper-Science-and-Insights_R-145546",
         "wd-coke-Director--Sprite_R-146823-1",
         "wd-coke-Director--Stills--Belux_R-138613-1",
@@ -2462,6 +2470,7 @@
         "wd-coke-Senior-Director--OperationsTransformation_R-141953",
         "wd-coke-Senior-Director--PACS--Public-Policy--DE_R-138773-1",
         "wd-coke-Senior-Director--People-and-Culture---Global-P-C_R-147300",
+        "wd-coke-Senior-Director--Portfolio--Connections---Media_R-147882",
         "wd-coke-Senior-Director--Privacy-Governance---Compliance_R-145736-1",
         "wd-coke-Senior-Director--Procurement-Plastic-Packaging--EMEA_R-147363",
         "wd-coke-Senior-Director--Product---Operations-Lead_R-144512-1",
@@ -3028,6 +3037,7 @@
         "ashby-cursor-9287df8c-4138-4d75-ae92-cc98d3963856",
         "ashby-cursor-934a1ef1-78e7-408e-aa47-974a930665e5",
         "ashby-cursor-94cc6684-9dbf-43f9-8ffc-405614e64ddd",
+        "ashby-cursor-9764046f-8303-4fca-8386-4e743dfc8722",
         "ashby-cursor-9879627d-b996-4213-bbdf-82a18884015f",
         "ashby-cursor-98dbc051-5dfc-4760-8c14-bbaf8529256c",
         "ashby-cursor-99641cfd-8523-4f55-8100-958d72b5924b",
@@ -3086,6 +3096,7 @@
         "ashby-cursor-e842b809-a93d-44a3-888c-40c997c71a34",
         "ashby-cursor-eabcff15-deb2-4e5c-a17d-8c36eb7f6c1d",
         "ashby-cursor-eb238291-8a00-4385-8108-4e4d634c2be0",
+        "ashby-cursor-ef96e7fc-5d91-48b2-a8af-26dca8caab77",
         "ashby-cursor-f27e0997-e283-4015-be61-e13d844a2834",
         "ashby-cursor-f2cf204b-f469-4997-9508-f218c5869706",
         "ashby-cursor-f7ec7811-a573-42fa-8ade-01e2d07681ef",
@@ -4368,12 +4379,14 @@
         "gh-datadog-8292699",
         "gh-datadog-8301102",
         "gh-datadog-8303221",
+        "gh-datadog-8303351",
         "gh-datadog-8303404",
         "gh-datadog-8303622",
         "gh-datadog-8304107",
         "gh-datadog-8305790",
         "gh-datadog-8306557",
-        "gh-datadog-8310668"
+        "gh-datadog-8310668",
+        "gh-datadog-8312438"
       ]
     },
     "mongodb": {
@@ -4388,6 +4401,7 @@
         "gh-mongodb-5607962",
         "gh-mongodb-6275509",
         "gh-mongodb-6381035",
+        "gh-mongodb-6530934",
         "gh-mongodb-6531094",
         "gh-mongodb-6586315",
         "gh-mongodb-6587328",
@@ -5065,7 +5079,8 @@
         "gh-mongodb-8300961",
         "gh-mongodb-8304447",
         "gh-mongodb-8305331",
-        "gh-mongodb-8305915"
+        "gh-mongodb-8305915",
+        "gh-mongodb-8311246"
       ]
     },
     "braze": {
@@ -6238,6 +6253,7 @@
         "gh-yext-8282372",
         "gh-yext-8282426",
         "gh-yext-8288963",
+        "gh-yext-8296161",
         "gh-yext-8302454"
       ]
     },
@@ -6302,7 +6318,9 @@
         "gh-mavenclinic-8877217002",
         "gh-mavenclinic-8881954002",
         "gh-mavenclinic-8883475002",
-        "gh-mavenclinic-8888997002"
+        "gh-mavenclinic-8888997002",
+        "gh-mavenclinic-8907086002",
+        "gh-mavenclinic-8908679002"
       ]
     },
     "away": {
@@ -7080,6 +7098,6 @@
       "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
     }
   ],
-  "last_run": "2026-10-22T09:59:58.716960+00:00",
+  "last_run": "2026-10-22T15:03:14.117953+00:00",
   "pending_notifications": []
 }
