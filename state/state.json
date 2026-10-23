@@ -1168,6 +1168,7 @@
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
         "lever-spotify-223f9722-3579-4ff2-b123-e4cc7b0c1a64",
         "lever-spotify-22437625-9527-4e5a-a6d2-a114a889db90",
+        "lever-spotify-22a796f2-2bfd-4f44-aab3-a0a20a7783fc",
         "lever-spotify-2344260b-477c-4086-b5a5-842dc4c587f0",
         "lever-spotify-234ec969-a406-4956-8d85-365b9053ccf5",
         "lever-spotify-2517cbbf-5640-4467-a3ae-08577e76bead",
@@ -1191,6 +1192,7 @@
         "lever-spotify-439b6276-df60-4a26-be26-ebdbc0891d4c",
         "lever-spotify-43e0d904-84f7-4cfa-a293-579fb9ac271f",
         "lever-spotify-46c223d0-7b9c-4bff-9035-c0c6cc67bbdf",
+        "lever-spotify-47aeb6ee-f8c9-4f1e-9197-25c4c5676e5d",
         "lever-spotify-47d4eabf-8d5a-4dab-ac72-de7b5b56841c",
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
         "lever-spotify-4852ad53-b028-4161-b53b-24c62759257f",
@@ -1238,10 +1240,12 @@
         "lever-spotify-890b2c0f-f46f-4a4b-bb73-3a6af6e0edd5",
         "lever-spotify-89e139e7-76fd-4063-8850-ba13c555446c",
         "lever-spotify-8a9cc53c-48c0-4d43-8287-d81ab09e74fa",
+        "lever-spotify-8bd60a8c-d8bb-41ba-9ac0-69d0b643d63d",
         "lever-spotify-8c8c3cfc-4156-4dad-bb6d-48266766e94a",
         "lever-spotify-8d54dd6d-d7e0-4298-b051-423bcec4089e",
         "lever-spotify-92375b47-968c-4bad-83ee-c89b26b24e1d",
         "lever-spotify-926149ab-6999-4058-b35d-41e302b70e05",
+        "lever-spotify-93b9a474-0e4e-4214-9c9a-974496478068",
         "lever-spotify-973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b",
         "lever-spotify-9761af44-be41-43ca-8c01-79cdbb2aef93",
         "lever-spotify-9838a290-bd6a-4233-acc3-bc5e4e6fa9c4",
@@ -1276,6 +1280,7 @@
         "lever-spotify-b27f51aa-9702-486b-ba24-157263d623e9",
         "lever-spotify-b441bb85-24c0-4ef4-971a-1372952c1c32",
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
+        "lever-spotify-b4f6cd01-1d5d-41a9-b287-6d10416da03c",
         "lever-spotify-ba2760c3-6461-45bf-b67b-0508d10c8659",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
         "lever-spotify-bb2c10a2-2bf8-4b21-901e-48b0e2e09cc8",
@@ -1649,6 +1654,7 @@
         "wd-snapchat-People-Application-Developer_R0045795-1",
         "wd-snapchat-People-Operations-Generalist_R0046734-1",
         "wd-snapchat-People-Operations-Program-Manager_R0046736-1",
+        "wd-snapchat-People-Tech-Application-Engineer_R0047223-1",
         "wd-snapchat-Principal-Machine-Learning-Engineer--Platform-Integrity-Engineering--Level-7_R0047141-1",
         "wd-snapchat-Principal-Machine-Learning-Engineer--Signals-and-Measurement_R0046974",
         "wd-snapchat-Principal-Marketing-Scientist--Level-6_R0046642-1",
@@ -2038,6 +2044,7 @@
         "wd-coke-Director--Franchise-Operations-Uzbekistan_R-146712",
         "wd-coke-Director--Franchise-Sparkling--CCPB_R-135094-1",
         "wd-coke-Director--Franchise-Strategy---Independent-Bottlers_R-147643",
+        "wd-coke-Director--Franchise-Strategy-Integration---Andean_R-147827",
         "wd-coke-Director--Frontline-Marketing---Ecuador_R-146441",
         "wd-coke-Director--Frontline-Marketing--CBL_R-136221-1",
         "wd-coke-Director--Functional-Platform-Leader_R-146791",
@@ -2124,6 +2131,7 @@
         "wd-coke-Director--Value-Delivery--Planning---PMO_R-144444-1",
         "wd-coke-Director-Finance--FP-A-Germany_R-143374",
         "wd-coke-Director-Finance--Germany_R-145211",
+        "wd-coke-Director-Global-Mobility-Experience_R-147868",
         "wd-coke-Director-Government-Affairs_R-145759",
         "wd-coke-Director-National-Account--RBI_R-147325",
         "wd-coke-Director-National-Sales--7-Eleven-Dispensed_R-147144",
@@ -4409,6 +4417,7 @@
         "gh-datadog-8300636",
         "gh-datadog-8301039",
         "gh-datadog-8301102",
+        "gh-datadog-8301113",
         "gh-datadog-8303221",
         "gh-datadog-8303351",
         "gh-datadog-8303404",
@@ -4418,7 +4427,8 @@
         "gh-datadog-8306557",
         "gh-datadog-8310668",
         "gh-datadog-8312438",
-        "gh-datadog-8314006"
+        "gh-datadog-8314006",
+        "gh-datadog-8317738"
       ]
     },
     "mongodb": {
@@ -5003,6 +5013,7 @@
         "gh-mongodb-8208074",
         "gh-mongodb-8208113",
         "gh-mongodb-8208271",
+        "gh-mongodb-8209134",
         "gh-mongodb-8209989",
         "gh-mongodb-8210719",
         "gh-mongodb-8211464",
@@ -5085,6 +5096,7 @@
         "gh-mongodb-8266850",
         "gh-mongodb-8267061",
         "gh-mongodb-8267063",
+        "gh-mongodb-8267099",
         "gh-mongodb-8267650",
         "gh-mongodb-8267982",
         "gh-mongodb-8268264",
@@ -5108,10 +5120,12 @@
         "gh-mongodb-8281670",
         "gh-mongodb-8281673",
         "gh-mongodb-8281679",
+        "gh-mongodb-8286403",
         "gh-mongodb-8300245",
         "gh-mongodb-8300359",
         "gh-mongodb-8300746",
         "gh-mongodb-8300961",
+        "gh-mongodb-8301805",
         "gh-mongodb-8304146",
         "gh-mongodb-8304447",
         "gh-mongodb-8305331",
@@ -5698,6 +5712,7 @@
         "gh-braze-8302809",
         "gh-braze-8303843",
         "gh-braze-8303845",
+        "gh-braze-8303847",
         "gh-braze-8304449",
         "gh-braze-8304482",
         "gh-braze-8304484",
@@ -5985,6 +6000,7 @@
         "gh-justworks-8257447",
         "gh-justworks-8263097",
         "gh-justworks-8264370",
+        "gh-justworks-8265404",
         "gh-justworks-8265604",
         "gh-justworks-8265619",
         "gh-justworks-8267502",
@@ -6655,7 +6671,8 @@
         "gh-flatironhealth-8243012",
         "gh-flatironhealth-8249709",
         "gh-flatironhealth-8265541",
-        "gh-flatironhealth-8306279"
+        "gh-flatironhealth-8306279",
+        "gh-flatironhealth-8315819"
       ]
     },
     "bombas": {
@@ -7141,8 +7158,18 @@
       "url": "https://careers.datadoghq.com/detail/8301102/?gh_jid=8301102",
       "first_seen": "2026-10-22T00:10:39.886377+00:00",
       "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
+    },
+    {
+      "id": "gh-datadog-8301113",
+      "company_key": "datadog",
+      "company_name": "Datadog",
+      "title": "Associate Customer Success Manager - Denver",
+      "location": "Denver, Colorado, USA",
+      "url": "https://careers.datadoghq.com/detail/8301113/?gh_jid=8301113",
+      "first_seen": "2026-10-23T15:21:07.403629+00:00",
+      "fit_reason": "Associate-level CSM role focused on expansion, adoption, and upselling within existing accounts aligns with candidate's growth/lifecycle marketing background and demonstrated account management, retention, and revenue-driving work at Chick-fil-A; no years requirement stated; hybrid role in tech."
     }
   ],
-  "last_run": "2026-10-23T10:25:16.788747+00:00",
+  "last_run": "2026-10-23T15:21:07.403629+00:00",
   "pending_notifications": []
 }
