@@ -2032,6 +2032,7 @@
         "wd-coke-Director--Franchise-Commercial-Execution_R-145784",
         "wd-coke-Director--Franchise-Finance-Operations---Philippines_R-147642-2",
         "wd-coke-Director--Franchise-Operations--Stronghold-Markets_R-142140-1",
+        "wd-coke-Director--Franchise-Operations--Stronghold-Markets_R-147942-1",
         "wd-coke-Director--Franchise-Operations-Uzbekistan_R-146712",
         "wd-coke-Director--Franchise-Sparkling--CCPB_R-135094-1",
         "wd-coke-Director--Franchise-Strategy---Independent-Bottlers_R-147643",
@@ -2052,6 +2053,7 @@
         "wd-coke-Director--Integrated-Marketing---Advanced-Hydration_R-141499-1",
         "wd-coke-Director--International-Treasury_R-145047",
         "wd-coke-Director--Japan-System-Performance---Bottler-Excellence_R-146095",
+        "wd-coke-Director--Key-Account-Management--IC-Channels_R-147935-1",
         "wd-coke-Director--Key-Customer-Management--Digital-Commerce---JD_R-136239-1",
         "wd-coke-Director--Leadership-Communications-and-Engagement_R-143582",
         "wd-coke-Director--Legal-Counsel---CPS---Irish-Entities_R-145820",
@@ -2330,6 +2332,7 @@
         "wd-coke-Production-Operator_R-146392",
         "wd-coke-Production-Operator_R-146875",
         "wd-coke-Production-Operator_R-146876",
+        "wd-coke-Production-Operator_R-148004",
         "wd-coke-Production-Planning-Analyst--Contract-_R-146450",
         "wd-coke-Production-Supervisor_R-145234",
         "wd-coke-Production-Supervisor_R-146325",
@@ -2624,6 +2627,7 @@
         "wd-coke-Senior-Manager--Solution-Platform-Architect_R-144535",
         "wd-coke-Senior-Manager--Sourcing_R-145165",
         "wd-coke-Senior-Manager--Sparkling-Flavors--Fanta_R-144073-1",
+        "wd-coke-Senior-Manager--Strategic-Growth_R-148120-3",
         "wd-coke-Senior-Manager--Strategic-Insight-and-Analysis_R-147684",
         "wd-coke-Senior-Manager--Strategic-Insights---Analysis_R-147572-1",
         "wd-coke-Senior-Manager--Strategic-Insights_R-147013",
@@ -4989,6 +4993,7 @@
         "gh-mongodb-8205425",
         "gh-mongodb-8205430",
         "gh-mongodb-8205437",
+        "gh-mongodb-8205442",
         "gh-mongodb-8205445",
         "gh-mongodb-8206794",
         "gh-mongodb-8207806",
@@ -7135,6 +7140,6 @@
       "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
     }
   ],
-  "last_run": "2026-10-23T00:48:22.509769+00:00",
+  "last_run": "2026-10-23T05:27:36.287097+00:00",
   "pending_notifications": []
 }
