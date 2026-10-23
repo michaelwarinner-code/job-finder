@@ -2721,6 +2721,7 @@
         "ashby-perplexity-03f8f956-1cb3-4945-81d1-73b7ff048d4e",
         "ashby-perplexity-043d6a58-87a1-4e3c-bf47-4dc351b94cf4",
         "ashby-perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
+        "ashby-perplexity-06dcd116-2b07-4f40-869e-06ed540f7614",
         "ashby-perplexity-08f1a218-bdff-4cdd-aefe-0d55529b1ece",
         "ashby-perplexity-09a2f0e5-c38c-49ee-a5af-9a179e137a44",
         "ashby-perplexity-0a74edd7-830a-4825-946c-28801a057127",
@@ -2764,6 +2765,7 @@
         "ashby-perplexity-441daa65-5fd9-499d-91ac-acecdc1952d2",
         "ashby-perplexity-446ec593-aa8d-4ae4-a2c1-859b8373e1d5",
         "ashby-perplexity-457d84e7-6a36-4499-ae61-db92a2c404b9",
+        "ashby-perplexity-4614796c-27b7-4b7f-8ccd-3711c99358d9",
         "ashby-perplexity-4615ca06-bea7-47e3-9e57-f5cee52b75e6",
         "ashby-perplexity-4b5e02a8-6a94-494d-9d49-037f2cfc144d",
         "ashby-perplexity-4bab4560-68b4-44ec-8a5c-5a39216f2abb",
@@ -2859,6 +2861,7 @@
         "ashby-perplexity-d5bc2302-202f-4596-9c4d-8720d1e79064",
         "ashby-perplexity-d680e788-14d3-43f6-8ce8-5df486ca32d0",
         "ashby-perplexity-d7e05546-4d42-4f1a-8ccd-c95d2519f5f6",
+        "ashby-perplexity-d89a3cad-50d5-47fd-8f87-be55285ee2b1",
         "ashby-perplexity-da212c9c-3c11-4e8e-8f97-e176b4876bea",
         "ashby-perplexity-daa9120e-94ff-46e0-b4bd-4d2d290cb409",
         "ashby-perplexity-daafcaba-cc39-487a-b941-d7a407753788",
@@ -4396,6 +4399,8 @@
         "gh-datadog-8289964",
         "gh-datadog-8292620",
         "gh-datadog-8292699",
+        "gh-datadog-8300636",
+        "gh-datadog-8301039",
         "gh-datadog-8301102",
         "gh-datadog-8303221",
         "gh-datadog-8303351",
@@ -7130,6 +7135,6 @@
       "fit_reason": "Customer Success Manager role focused on expansion, adoption, and retention within existing account portfolio aligns with candidate's growth/lifecycle marketing background and revenue-operations-adjacent skills; no years requirement stated; early-career level appropriate."
     }
   ],
-  "last_run": "2026-10-22T22:25:08.014971+00:00",
+  "last_run": "2026-10-23T00:48:22.509769+00:00",
   "pending_notifications": []
 }
