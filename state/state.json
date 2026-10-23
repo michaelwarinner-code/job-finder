@@ -861,7 +861,11 @@
         "gh-doordashusa-8313401",
         "gh-doordashusa-8314149",
         "gh-doordashusa-8314289",
-        "gh-doordashusa-8315816"
+        "gh-doordashusa-8315816",
+        "gh-doordashusa-8318219",
+        "gh-doordashusa-8318300",
+        "gh-doordashusa-8319010",
+        "gh-doordashusa-8319116"
       ]
     },
     "hubspot": {
@@ -1158,6 +1162,7 @@
         "lever-spotify-1849318a-d2e4-48a6-adad-68f8a4518f7d",
         "lever-spotify-186b763a-2a61-4563-8813-ff6b40c9c8a7",
         "lever-spotify-1961fa91-bdba-450a-bfb6-fc8d8d5c9e9c",
+        "lever-spotify-19c12e29-b6d4-4d97-9053-48238fb7c381",
         "lever-spotify-1a01cbcb-1b72-410d-a450-fb3175fa9d2b",
         "lever-spotify-1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
         "lever-spotify-1cafb489-9cae-4417-b272-832617484de0",
@@ -1176,6 +1181,7 @@
         "lever-spotify-281e7db9-86ba-4a1c-8773-c23b96ed32dc",
         "lever-spotify-29252640-3fc6-4ba9-8dac-2838093bab96",
         "lever-spotify-29b0056f-f163-4728-a32a-214bcb3232e8",
+        "lever-spotify-2a55d6c9-c564-443a-be3e-a3851db5a93b",
         "lever-spotify-2b2ae5a0-f040-4e9a-847c-157b9a41ee29",
         "lever-spotify-308d127c-e765-4895-9264-3765ddbfc620",
         "lever-spotify-318f73b5-6a78-49c7-b625-ecb1481042b9",
@@ -1209,6 +1215,7 @@
         "lever-spotify-638f1177-8a2b-4b43-9363-c7056b8ef929",
         "lever-spotify-64ef2493-3b1e-407a-ac07-9e95a57f6d7c",
         "lever-spotify-65d6caca-6d7c-4049-8256-a128e0e7249e",
+        "lever-spotify-66184cac-4d6c-46f6-868c-bac0c184fd22",
         "lever-spotify-6a1a105a-b471-4a68-aea8-54cdb1051a21",
         "lever-spotify-6a2a32ab-2ed8-4ce3-94d5-0be9be9b01b7",
         "lever-spotify-6af8894a-752f-4485-be70-a6685e5fd696",
@@ -1231,6 +1238,7 @@
         "lever-spotify-7cf725bb-99c8-4717-b7e5-4f4708fa4169",
         "lever-spotify-7d57d7dd-be86-452f-8ff4-9aeb67280262",
         "lever-spotify-7f0a8faa-f4f5-4db9-9f51-4101d6a29b34",
+        "lever-spotify-80774cf2-a4f5-47b0-a585-2c122500cfd0",
         "lever-spotify-80c3a1cd-3f98-49e5-88d1-b45fca349d7f",
         "lever-spotify-813b4b62-429c-42e9-a8f7-59e9412fb287",
         "lever-spotify-819f584f-84a5-485d-8082-3412545f6c8a",
@@ -1303,6 +1311,7 @@
         "lever-spotify-cb45b193-9f92-4e9b-b936-8a738eed5fdc",
         "lever-spotify-cc21db45-9354-496b-b1a1-d5f293c4feb8",
         "lever-spotify-cefcda32-523e-418b-a327-383104741153",
+        "lever-spotify-cf13d272-92ac-407d-89bf-7f20d20f7961",
         "lever-spotify-cfbb2765-b4e9-445a-b558-d1fa7876863d",
         "lever-spotify-d06fe312-4b91-4c40-a3da-64985b569075",
         "lever-spotify-d174a24c-bf16-4661-9b9a-32396e883c25",
@@ -1332,6 +1341,7 @@
         "lever-spotify-ee45924c-894c-4ea0-9c93-c5221894063f",
         "lever-spotify-ef3985d1-522e-4950-ba6e-af57dd93c788",
         "lever-spotify-f02fb195-ba10-40bd-a926-0318a34a7fae",
+        "lever-spotify-f263a2af-0a4e-4540-a0f6-adb3655e027b",
         "lever-spotify-f328ec07-194a-442d-af32-da40cbfd4f22",
         "lever-spotify-f45de8ee-8f32-4e19-9163-eddf7a018337",
         "lever-spotify-f503e610-7346-4892-ab39-fb6dbe6d1585",
@@ -1542,6 +1552,7 @@
         "wd-snapchat-Equipement-Engineer_R0045386-1",
         "wd-snapchat-Executive-Assistant---1-year-FTC_R0047053-1",
         "wd-snapchat-Executive-Protection-Specialist_R0044952-1",
+        "wd-snapchat-Executive-Protection-Specialist_R0047307-2",
         "wd-snapchat-GTM---Lifecycle-Specialist_R0046420-1",
         "wd-snapchat-Global-Immersive-Content-Lead_R0047121-1",
         "wd-snapchat-Global-Industry-Lead--Healthcare_R0045908-1",
@@ -1684,6 +1695,7 @@
         "wd-snapchat-Program-Manager_R0046305-1",
         "wd-snapchat-Project-Manager--Global-Brand-Experience--Fixed-Term-_R0047196-1",
         "wd-snapchat-Prototyping-Design-Software-Engineer_R0045842-1",
+        "wd-snapchat-Quality-Engineer--Level-4_R0047306-1",
         "wd-snapchat-Quality-Engineer_R0046622-1",
         "wd-snapchat-Quality-Engineer_R0046895-2",
         "wd-snapchat-RF-Hardware-Engineer--Level-6_R0046667-1",
@@ -2202,6 +2214,7 @@
         "wd-coke-Legal-Intern_R-146785",
         "wd-coke-Logistics-Intern_R-146837",
         "wd-coke-MX-CPS-Lab-Analyst_R-147349",
+        "wd-coke-MX-CPS-Lab-Analyst_R-148093-1",
         "wd-coke-MX-CPS-Packaging-Specialist_R-145702",
         "wd-coke-MX-CPS-Quality-System-Coordinator_R-145569",
         "wd-coke-MX-CPS-Warehouse-Analyst-Lerma--Temporal-_R-145863",
@@ -2263,6 +2276,7 @@
         "wd-coke-Manager--Manufacuturing-Startup_R-146234-4",
         "wd-coke-Manager--Operation-Systems_R-129270-5",
         "wd-coke-Manager--Operations-Finance---Coke-On-Channel_R-136938",
+        "wd-coke-Manager--PLM-Developer_R-144563",
         "wd-coke-Manager--Privacy-Compliance_R-144513",
         "wd-coke-Manager--Product--Global-Development---Innovation_R-143923-1",
         "wd-coke-Manager--Product-Development_R-145034",
@@ -2692,6 +2706,7 @@
         "wd-coke-Strategic-Project-Manager_R-147950-1",
         "wd-coke-Strategy-Integrator-Lead--Mexico-North-Region---ARCA_R-145377",
         "wd-coke-Supply-Chain-Intelligence--Digital---Productivity-Lead_R-147052-1",
+        "wd-coke-Technical-Operations-Senior-Director_R-148122",
         "wd-coke-Technology-Delivery-Lead_R-144432",
         "wd-coke-Trainee-Lawyer_R-144627",
         "wd-coke-Transportation-Specialist_R-147352",
@@ -2702,6 +2717,7 @@
         "wd-coke-Utilities-Engineer_R-146587",
         "wd-coke-Utilities-Engineer_R-146670",
         "wd-coke-Utility-Engineer_R-147702",
+        "wd-coke-Vending-Machine-Technician--at-World-of-Coca-Cola-_R-147478",
         "wd-coke-Vulnerability-Analyst_R-145657",
         "wd-coke-WMT-MX-Account-Leadership---Sam-s_R-147683",
         "wd-coke-Warehouse-Automation-Manager_R-142742",
@@ -2766,6 +2782,7 @@
         "ashby-perplexity-375f9fc9-392e-4d0b-9a10-4b2013e05ad4",
         "ashby-perplexity-38caef61-f8b9-4ba9-a640-870a1e77ba54",
         "ashby-perplexity-39250c5d-1670-4a63-8a66-bfd495c85e6f",
+        "ashby-perplexity-3938a587-e8ba-4cdf-a811-1f58072b51e3",
         "ashby-perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
         "ashby-perplexity-3b349a2f-360e-44e6-a57d-6a87bc3016a7",
         "ashby-perplexity-3b6ad2b6-4310-48f1-a71f-dc344c94f2b0",
@@ -2864,6 +2881,7 @@
         "ashby-perplexity-b75f3f20-943a-44a7-8466-8c31e5d899ef",
         "ashby-perplexity-b9e1ff15-d52a-46d5-abf0-26460f2a116c",
         "ashby-perplexity-be94e89b-89d5-4f2a-a58b-7929c8d97f92",
+        "ashby-perplexity-bf978d98-404d-48a5-bcf2-a1f70f195c2b",
         "ashby-perplexity-bfb392f2-086e-4187-b69c-2a231b8c3290",
         "ashby-perplexity-c20486f5-1e9c-436c-ba67-dc69842c221c",
         "ashby-perplexity-c5dcc0db-7fdc-4e09-86c7-b6618400df16",
@@ -2902,7 +2920,8 @@
         "ashby-perplexity-fcb4cc78-d4bd-4489-8756-7d39e755ac76",
         "ashby-perplexity-fd64d88c-823e-4329-b133-f09754e0f4b8",
         "ashby-perplexity-fdc2ea75-c198-4a9e-9c0a-df835ed61ed0",
-        "ashby-perplexity-fed8d2c4-9c82-43ad-a168-434146c759ff"
+        "ashby-perplexity-fed8d2c4-9c82-43ad-a168-434146c759ff",
+        "ashby-perplexity-ffa25e26-9675-4ab1-bc98-325675879e1d"
       ]
     },
     "gamma": {
@@ -3169,6 +3188,7 @@
         "ashby-runway-ml-40589c8a-b1dd-4ecb-b2d4-45dddeabc03f",
         "ashby-runway-ml-40598dd0-234b-4256-b2a2-91608b66b8aa",
         "ashby-runway-ml-44c1578a-3b0c-4b64-b1c0-89f51e8635ee",
+        "ashby-runway-ml-4ab5877c-1289-439e-a885-8e6942a2409f",
         "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
         "ashby-runway-ml-5d5a91ae-b091-425c-96b5-2d4a88d0c796",
@@ -3180,6 +3200,7 @@
         "ashby-runway-ml-8489a08a-f0cf-4418-968c-c7c803d538bc",
         "ashby-runway-ml-8a24e440-20b5-4910-885c-3aeae2ec8805",
         "ashby-runway-ml-90a95d63-ce92-42c4-a3dc-51f0f7cd281b",
+        "ashby-runway-ml-91826105-13e0-4265-842b-7d756c9a766e",
         "ashby-runway-ml-92044f68-4957-4cf0-9590-98952732b219",
         "ashby-runway-ml-928bc96e-1f23-42f7-8fce-b6530ee5e8d5",
         "ashby-runway-ml-98e4b160-3bbe-4acd-b106-ad75ccc49675",
@@ -5128,9 +5149,11 @@
         "gh-mongodb-8301805",
         "gh-mongodb-8304146",
         "gh-mongodb-8304447",
+        "gh-mongodb-8304692",
         "gh-mongodb-8305331",
         "gh-mongodb-8305915",
         "gh-mongodb-8311246",
+        "gh-mongodb-8312165",
         "gh-mongodb-8313598",
         "gh-mongodb-8314019"
       ]
@@ -5826,7 +5849,8 @@
         "gh-classpass-4722326006",
         "gh-classpass-4722498006",
         "gh-classpass-4722500006",
-        "gh-classpass-4722532006"
+        "gh-classpass-4722532006",
+        "gh-classpass-4724342006"
       ]
     },
     "justworks": {
@@ -6395,8 +6419,10 @@
         "ashby-away-0b02e424-ffeb-4dc5-9020-72f495396965",
         "ashby-away-0fac0a0e-616a-478c-88d9-0897d12a73a8",
         "ashby-away-1cff8cf3-395d-420f-b818-8c783eea3981",
+        "ashby-away-1e21af8d-f92a-4c01-9608-25473be55af6",
         "ashby-away-1e40fe4f-4b19-42e6-abff-7ad171c393f7",
         "ashby-away-2147bc7a-b081-44c6-a90c-d9dd2d923b36",
+        "ashby-away-21e21718-7621-460a-98b2-bc2a51cfe1f2",
         "ashby-away-28e55a21-83ab-4bfb-b94b-ac03535392a8",
         "ashby-away-3222ca43-f4c2-4ea7-a4f0-7e1cfdf82145",
         "ashby-away-34625d13-7e6e-487f-81ea-c1767011642d",
@@ -6489,7 +6515,8 @@
         "gh-movableink-8221477",
         "gh-movableink-8221933",
         "gh-movableink-8237020",
-        "gh-movableink-8281254"
+        "gh-movableink-8281254",
+        "gh-movableink-8318136"
       ]
     },
     "thefarmersdog": {
@@ -7170,6 +7197,6 @@
       "fit_reason": "Associate-level CSM role focused on expansion, adoption, and upselling within existing accounts aligns with candidate's growth/lifecycle marketing background and demonstrated account management, retention, and revenue-driving work at Chick-fil-A; no years requirement stated; hybrid role in tech."
     }
   ],
-  "last_run": "2026-10-23T15:21:07.403629+00:00",
+  "last_run": "2026-10-23T19:26:36.182030+00:00",
   "pending_notifications": []
 }
