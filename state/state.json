@@ -143,6 +143,7 @@
         "gh-doordashusa-7490108",
         "gh-doordashusa-7490373",
         "gh-doordashusa-7491310",
+        "gh-doordashusa-7492146",
         "gh-doordashusa-7516018",
         "gh-doordashusa-7517631",
         "gh-doordashusa-7520257",
@@ -865,7 +866,9 @@
         "gh-doordashusa-8318219",
         "gh-doordashusa-8318300",
         "gh-doordashusa-8319010",
-        "gh-doordashusa-8319116"
+        "gh-doordashusa-8319110",
+        "gh-doordashusa-8319116",
+        "gh-doordashusa-8324659"
       ]
     },
     "hubspot": {
@@ -1985,8 +1988,10 @@
         "wd-coke-Consultant--Project-Manager_R-144938",
         "wd-coke-Consultant--Regulatory_R-145776",
         "wd-coke-Consultant--Revenue-Growth-Management-Technologies_R-146974",
+        "wd-coke-Consultant--Safety--Environmental-and-Security_R-148063",
         "wd-coke-Consultant--Strategy---Operations_R-140478",
         "wd-coke-Consultant--Transportation-Administrator_R-146906",
+        "wd-coke-Coordinator--Investor-Relations_R-148164-1",
         "wd-coke-Customer-Development-Manager--Consultant_R-146432",
         "wd-coke-Customer-Master-Data-and-Billing-Manager_R-146273",
         "wd-coke-Customer-Reimbursements-and-Accounts-Receivable-Manager_R-146272",
@@ -2592,6 +2597,7 @@
         "wd-coke-Senior-Manager--Consumer-Product-Manager_R-148112",
         "wd-coke-Senior-Manager--Content-Data-and-Integration_R-144553",
         "wd-coke-Senior-Manager--Controls--Policies-and-Governance_R-143680",
+        "wd-coke-Senior-Manager--Corporate-Communications_R-147992",
         "wd-coke-Senior-Manager--Customer-Innovation--Global-Development---Innovation_R-143922-1",
         "wd-coke-Senior-Manager--Customer-Service-Bottler-Network_R-147486",
         "wd-coke-Senior-Manager--Customer-Service-FSOP_R-147487",
@@ -3162,6 +3168,7 @@
         "ashby-cursor-de322c3d-337e-4301-a7dc-90ccf331d60f",
         "ashby-cursor-e076ddca-ad40-4dd3-adbc-1da0740a92e6",
         "ashby-cursor-e08262e8-c089-488d-9b59-9e21f7702b64",
+        "ashby-cursor-e22c4770-1776-4adb-b347-46b9c2ed9452",
         "ashby-cursor-e3ccb495-a8a3-4ff0-a27b-262188abb9df",
         "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352",
         "ashby-cursor-e5d8ed7a-b93d-464f-a8d1-a4fa60e808d5",
@@ -3332,6 +3339,7 @@
         "ashby-elevenlabs-257f24da-83db-4bad-a6dc-37793a1a0bac",
         "ashby-elevenlabs-275f43d0-b62d-401d-830c-7c1ac0e688aa",
         "ashby-elevenlabs-277de6ad-3db5-4b96-afb5-cec3d797e788",
+        "ashby-elevenlabs-27e92957-374f-409a-b787-166b10e0f042",
         "ashby-elevenlabs-29491158-3020-45b0-9bbb-789a55e87beb",
         "ashby-elevenlabs-29aed1f3-26f8-4d3b-8cc4-7ca7d9342eeb",
         "ashby-elevenlabs-2a99d0a0-adae-41b5-a7ef-f1d3faee60a7",
@@ -4474,7 +4482,8 @@
         "gh-datadog-8310668",
         "gh-datadog-8312438",
         "gh-datadog-8314006",
-        "gh-datadog-8317738"
+        "gh-datadog-8317738",
+        "gh-datadog-8319487"
       ]
     },
     "mongodb": {
@@ -5677,6 +5686,7 @@
         "gh-braze-8236740",
         "gh-braze-8236746",
         "gh-braze-8236749",
+        "gh-braze-8237197",
         "gh-braze-8237686",
         "gh-braze-8237697",
         "gh-braze-8238106",
@@ -5769,10 +5779,19 @@
         "gh-braze-8306885",
         "gh-braze-8312678",
         "gh-braze-8313344",
+        "gh-braze-8315083",
         "gh-braze-8315188",
         "gh-braze-8315913",
         "gh-braze-8315917",
-        "gh-braze-8315921"
+        "gh-braze-8315921",
+        "gh-braze-8324568",
+        "gh-braze-8324580",
+        "gh-braze-8324607",
+        "gh-braze-8324808",
+        "gh-braze-8324950",
+        "gh-braze-8324953",
+        "gh-braze-8324960",
+        "gh-braze-8324964"
       ]
     },
     "classpass": {
@@ -6066,7 +6085,9 @@
         "gh-justworks-8286381",
         "gh-justworks-8286388",
         "gh-justworks-8292657",
-        "gh-justworks-8301835"
+        "gh-justworks-8301835",
+        "gh-justworks-8324732",
+        "gh-justworks-8325517"
       ]
     },
     "appsflyer": {
@@ -6170,7 +6191,9 @@
         "gh-appsflyer-8899639002",
         "gh-appsflyer-8905228002",
         "gh-appsflyer-8908247002",
-        "gh-appsflyer-8908249002"
+        "gh-appsflyer-8908249002",
+        "gh-appsflyer-8916886002",
+        "gh-appsflyer-8917820002"
       ]
     },
     "attentive": {
@@ -6479,6 +6502,7 @@
         "ashby-away-a6773940-8728-4d17-acb6-c6c0e701769a",
         "ashby-away-c4c14a00-994c-434f-bccb-a89f7f46d41c",
         "ashby-away-db4f7019-8d22-4498-aa6b-b3178187bca2",
+        "ashby-away-ddb04a1e-d943-4cd9-a673-43a1af024883",
         "ashby-away-de043377-e346-46ba-ab8b-212a15106bf3",
         "ashby-away-e12f950c-b226-4d67-b427-b3746ca718ef",
         "ashby-away-e1c844df-4c20-444c-8a96-ac55fa8906d7",
@@ -6603,7 +6627,8 @@
         "gh-thefarmersdog-8868875002",
         "gh-thefarmersdog-8887933002",
         "gh-thefarmersdog-8888342002",
-        "gh-thefarmersdog-8894333002"
+        "gh-thefarmersdog-8894333002",
+        "gh-thefarmersdog-8917158002"
       ]
     },
     "kargo": {
@@ -7225,6 +7250,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-26T14:12:04.441485+00:00",
+  "last_run": "2026-10-26T19:58:47.442414+00:00",
   "pending_notifications": []
 }
