@@ -870,7 +870,8 @@
         "gh-doordashusa-8319110",
         "gh-doordashusa-8319116",
         "gh-doordashusa-8324659",
-        "gh-doordashusa-8327944"
+        "gh-doordashusa-8327944",
+        "gh-doordashusa-8329317"
       ]
     },
     "hubspot": {
@@ -1536,6 +1537,7 @@
         "wd-snapchat-Creative-Lead--SPECS-Social---Content_R0046944",
         "wd-snapchat-Creative-Production-Lead_R0047089",
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
+        "wd-snapchat-Creative-Strategy-Lead_R0047346-1",
         "wd-snapchat-Data-Scientist--Level-3_Q426DSA3",
         "wd-snapchat-Data-Scientist--Level-4_Q326DSA4-1",
         "wd-snapchat-Data-Scientist--Level-4_Q426DSA4-1",
@@ -2317,11 +2319,13 @@
         "wd-coke-Manager--SRA---Ingredient-Science_R-147447-1",
         "wd-coke-Manager--Safety---Environment_R-146169",
         "wd-coke-Manager--Security-Controls-Architect_R-136557",
+        "wd-coke-Manager--State-Income-Tax_R-148244",
         "wd-coke-Manager--Stills--Technical-Consumer-Data-Research_R-146212",
         "wd-coke-Manager--Supply-Chain-Projects_R-143175",
         "wd-coke-Manager--Tech-Operation---Japan_R-144482",
         "wd-coke-Manager--Technical-Readiness_R-144310",
         "wd-coke-Manager--Threat--Red-Team-_R-144462",
+        "wd-coke-Manager-Communications---Mexico_R-148262",
         "wd-coke-Manager-Production--2nd-shift_R-145970-1",
         "wd-coke-Marketing-Director--Sprite---Philippines_R-145209",
         "wd-coke-Material-Handler---Nights_R-145419",
@@ -2457,6 +2461,7 @@
         "wd-coke-Safety-Specialist_R-142205-1",
         "wd-coke-Safety-Specialist_R-146482",
         "wd-coke-Sales-Director---National-Foodservice-Distribution_R-146021",
+        "wd-coke-Sales-Director---National-Foodservice-Distribution_R-148130",
         "wd-coke-Sales-Director--Warehouse-Beverages---Walmart_R-147803-1",
         "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
         "wd-coke-Sales-Manager_R-145146",
@@ -2665,6 +2670,7 @@
         "wd-coke-Senior-Manager--OPEX-Planning---Eurasia-and-Middle-East_R-144744",
         "wd-coke-Senior-Manager--Omni-Channel-CBL_R-136218-1",
         "wd-coke-Senior-Manager--Operational-Excellence_R-144003",
+        "wd-coke-Senior-Manager--Packaging-Development_R-147866",
         "wd-coke-Senior-Manager--People-and-Culture_R-147299",
         "wd-coke-Senior-Manager--Policy-Advocacy---Communications_R-144898",
         "wd-coke-Senior-Manager--Procurement-Data-Analysis---Sustainability_R-143747-1",
@@ -5218,6 +5224,7 @@
         "gh-mongodb-8305915",
         "gh-mongodb-8311246",
         "gh-mongodb-8312165",
+        "gh-mongodb-8313374",
         "gh-mongodb-8313598",
         "gh-mongodb-8314019",
         "gh-mongodb-8323897"
@@ -7027,16 +7034,6 @@
       "fit_reason": "Product Marketing Manager is a core target title; candidate meets the 3-year floor with ~3.5 years of growth/marketing hybrid work demonstrating positioning, campaign launches, funnel optimization, and cross-functional execution\u2014transferable PMM skills despite different industry context."
     },
     {
-      "id": "gh-datadog-8052114",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "Enterprise Customer Success Manager - Chicago",
-      "location": "Chicago, Illinois, USA",
-      "url": "https://careers.datadoghq.com/detail/8052114/?gh_jid=8052114",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Enterprise Customer Success Manager role centered on account growth, adoption analysis, and strategic value delivery within existing portfolio\u2014aligns with candidate's account management and lifecycle marketing background; 3 years required matches candidate's experience level."
-    },
-    {
       "id": "gh-appsflyer-8531937002",
       "company_key": "appsflyer",
       "company_name": "AppsFlyer",
@@ -7287,6 +7284,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-27T19:38:07.242893+00:00",
+  "last_run": "2026-10-27T23:10:42.642917+00:00",
   "pending_notifications": []
 }
