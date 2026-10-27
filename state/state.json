@@ -2096,6 +2096,7 @@
         "wd-coke-Director--Legal-Counsel---North-America--Marketing---Advanced-Hydration-_R-146547",
         "wd-coke-Director--Legal-Counsel--Customer---North-America_R-145738",
         "wd-coke-Director--Legal-Counsel--NAOU-Marketing_R-145482-1",
+        "wd-coke-Director--Manufacturing-Operations_R-147806-1",
         "wd-coke-Director--Manufacturing-Transformation-and-Operational-Excellence_R-145974-1",
         "wd-coke-Director--Marketing---Brand-Minute-Maid_R-147759",
         "wd-coke-Director--Marketing--South-Africa-Franchise_R-146049-1",
@@ -2684,6 +2685,7 @@
         "wd-coke-Senior-Manager--Strategic-Insights_R-147013",
         "wd-coke-Senior-Manager--Strategy---Franchise-Strategy---Special-Projects_R-145943",
         "wd-coke-Senior-Manager--Supply-Chain-Excellence_R-147495-1",
+        "wd-coke-Senior-Manager--Supply-Chain-Optimization_R-148102-1",
         "wd-coke-Senior-Manager--Sweetener-Application_R-145842-1",
         "wd-coke-Senior-Manager--Talent-Acquisition---INSWA_R-144667",
         "wd-coke-Senior-Manager--Tech-Delivery_R-144494",
@@ -4490,7 +4492,9 @@
         "gh-datadog-8312438",
         "gh-datadog-8314006",
         "gh-datadog-8317738",
-        "gh-datadog-8319487"
+        "gh-datadog-8319487",
+        "gh-datadog-8323909",
+        "gh-datadog-8326311"
       ]
     },
     "mongodb": {
@@ -6397,7 +6401,8 @@
         "gh-yext-8282426",
         "gh-yext-8288963",
         "gh-yext-8296161",
-        "gh-yext-8302454"
+        "gh-yext-8302454",
+        "gh-yext-8325444"
       ]
     },
     "mavenclinic": {
@@ -6809,7 +6814,8 @@
         "gh-cleo-4733431005",
         "gh-cleo-4739273005",
         "gh-cleo-4742841005",
-        "gh-cleo-4744339005"
+        "gh-cleo-4744339005",
+        "gh-cleo-4747892005"
       ]
     },
     "microsoft": {
@@ -7259,6 +7265,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-27T02:27:29.663948+00:00",
+  "last_run": "2026-10-27T08:16:30.275815+00:00",
   "pending_notifications": []
 }
