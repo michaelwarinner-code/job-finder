@@ -869,7 +869,8 @@
         "gh-doordashusa-8319010",
         "gh-doordashusa-8319110",
         "gh-doordashusa-8319116",
-        "gh-doordashusa-8324659"
+        "gh-doordashusa-8324659",
+        "gh-doordashusa-8327944"
       ]
     },
     "hubspot": {
@@ -1137,6 +1138,7 @@
         "gh-hubspotjobs-8249167",
         "gh-hubspotjobs-8249201",
         "gh-hubspotjobs-8249262",
+        "gh-hubspotjobs-8250907",
         "gh-hubspotjobs-8266540"
       ]
     },
@@ -1373,6 +1375,7 @@
         "ashby-claylabs-0a88196b-f7ab-4340-84fa-ecf80b45705b",
         "ashby-claylabs-0bfc4016-f5b2-4957-a305-ec5dd96d4fa4",
         "ashby-claylabs-0df88e24-28da-4376-956d-926111832a32",
+        "ashby-claylabs-0e68a973-af22-423f-8410-e14ff4d3fef0",
         "ashby-claylabs-10370c04-04d2-4969-a868-9111b16f8f2b",
         "ashby-claylabs-11523b92-635e-4865-8ed0-59ef4c91bd53",
         "ashby-claylabs-16778e12-31cb-4ca1-a321-7f629a7cf273",
@@ -1437,6 +1440,7 @@
         "ashby-claylabs-b1bd4804-c7d7-4d69-a53a-ed2527d56f26",
         "ashby-claylabs-b4d7e281-39ff-4d7b-bf16-940eb8b85a90",
         "ashby-claylabs-b78d32ca-01c1-432d-8af9-4c21ec3c005a",
+        "ashby-claylabs-bebc5979-5aca-48f8-b571-59f4355c3d5a",
         "ashby-claylabs-c2c47ee2-0e67-410a-8465-8c87ca6a7509",
         "ashby-claylabs-c3252c5a-bd68-4a6e-8fb7-cd05dcfe703d",
         "ashby-claylabs-c4ad4fac-6778-4bfa-a23e-6e7c32fe48d1",
@@ -1860,6 +1864,7 @@
         "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
         "wd-snapchat-Staff-Software-Engineer--Ads-Signals-and-Measurement_R0047095-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
+        "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q426SWEB9",
         "wd-snapchat-Staff-Software-Engineer--Core-Infrastructure_R0046092-1",
         "wd-snapchat-Staff-Software-Engineer--Delivery-Platform_R0046999-2",
         "wd-snapchat-Staff-Software-Engineer--Growth-Notifications--Level-6_R0044414-1",
@@ -3369,6 +3374,7 @@
         "ashby-elevenlabs-2db2a637-1b47-44d3-a506-069e97216946",
         "ashby-elevenlabs-2de358a6-ebea-4205-be57-33d1191154e3",
         "ashby-elevenlabs-3178581d-ea70-4dee-b018-2ce2d2a18bbe",
+        "ashby-elevenlabs-317e26ca-75d1-4993-8041-3c440c28416e",
         "ashby-elevenlabs-31a6f0f4-8e1d-4d77-9d00-026ed12213f2",
         "ashby-elevenlabs-31b1c0e3-ca53-428d-8f15-2e3ffda491b8",
         "ashby-elevenlabs-33bb01d0-993c-47fa-ae91-81c0c84f367e",
@@ -3489,6 +3495,7 @@
         "ashby-elevenlabs-820e5023-c637-4b36-91a9-f732f235998e",
         "ashby-elevenlabs-829d5af0-3581-4d49-8073-866f30d09503",
         "ashby-elevenlabs-830e66a8-892c-4c68-b61c-494591236eef",
+        "ashby-elevenlabs-84641293-96a2-47dc-b3c4-487f33f1485d",
         "ashby-elevenlabs-84a75f68-c964-4ad7-994d-a44506e333b2",
         "ashby-elevenlabs-85b7489f-5b0c-4f21-9c1c-7b76ed904c44",
         "ashby-elevenlabs-8678d594-66cb-4150-a0f8-44599c54f89a",
@@ -3636,6 +3643,7 @@
         "ashby-elevenlabs-e3dd4d18-28c5-4923-ae2d-de8a2852d574",
         "ashby-elevenlabs-e4e0450f-d139-4f8e-b210-2f326a680d90",
         "ashby-elevenlabs-e53c5be6-5c1a-4870-ad85-8397a1f201de",
+        "ashby-elevenlabs-e5bdb518-56fa-49dd-9075-360f3d51a3b7",
         "ashby-elevenlabs-e5c45832-a952-4584-9874-25580b5b4993",
         "ashby-elevenlabs-e5cca48b-1f34-48fe-9ebf-3c6ff526f9ba",
         "ashby-elevenlabs-e66bf8b7-45a0-4cbf-bc37-43d20a388ff8",
@@ -4401,6 +4409,7 @@
         "gh-datadog-8234190",
         "gh-datadog-8236080",
         "gh-datadog-8237240",
+        "gh-datadog-8237332",
         "gh-datadog-8237428",
         "gh-datadog-8237622",
         "gh-datadog-8237641",
@@ -4498,6 +4507,7 @@
         "gh-datadog-8310668",
         "gh-datadog-8312438",
         "gh-datadog-8314006",
+        "gh-datadog-8314268",
         "gh-datadog-8317738",
         "gh-datadog-8319487",
         "gh-datadog-8323909",
@@ -5195,6 +5205,7 @@
         "gh-mongodb-8281673",
         "gh-mongodb-8281679",
         "gh-mongodb-8286403",
+        "gh-mongodb-8289744",
         "gh-mongodb-8300245",
         "gh-mongodb-8300359",
         "gh-mongodb-8300746",
@@ -5208,7 +5219,8 @@
         "gh-mongodb-8311246",
         "gh-mongodb-8312165",
         "gh-mongodb-8313598",
-        "gh-mongodb-8314019"
+        "gh-mongodb-8314019",
+        "gh-mongodb-8323897"
       ]
     },
     "braze": {
@@ -5794,6 +5806,7 @@
         "gh-braze-8304482",
         "gh-braze-8304484",
         "gh-braze-8306112",
+        "gh-braze-8306409",
         "gh-braze-8306869",
         "gh-braze-8306881",
         "gh-braze-8306885",
@@ -5813,7 +5826,10 @@
         "gh-braze-8324953",
         "gh-braze-8324960",
         "gh-braze-8324964",
-        "gh-braze-8327012"
+        "gh-braze-8327012",
+        "gh-braze-8327875",
+        "gh-braze-8327879",
+        "gh-braze-8327885"
       ]
     },
     "classpass": {
@@ -5914,6 +5930,7 @@
         "gh-classpass-4721833006",
         "gh-classpass-4722320006",
         "gh-classpass-4722326006",
+        "gh-classpass-4722418006",
         "gh-classpass-4722498006",
         "gh-classpass-4722500006",
         "gh-classpass-4722532006",
@@ -6058,6 +6075,7 @@
         "gh-justworks-8179702",
         "gh-justworks-8179714",
         "gh-justworks-8179751",
+        "gh-justworks-8179753",
         "gh-justworks-8179931",
         "gh-justworks-8179947",
         "gh-justworks-8179986",
@@ -6110,7 +6128,9 @@
         "gh-justworks-8292657",
         "gh-justworks-8301835",
         "gh-justworks-8324732",
-        "gh-justworks-8325517"
+        "gh-justworks-8325517",
+        "gh-justworks-8325992",
+        "gh-justworks-8327583"
       ]
     },
     "appsflyer": {
@@ -6290,7 +6310,8 @@
         "gh-attentive-4452679009",
         "gh-attentive-4453769009",
         "gh-attentive-4456112009",
-        "gh-attentive-4463318009"
+        "gh-attentive-4463318009",
+        "gh-attentive-4469280009"
       ]
     },
     "glossier": {
@@ -7066,16 +7087,6 @@
       "fit_reason": "Customer Success Manager role focused on retention, expansion, and strategic customer outcomes within existing accounts\u2014core growth/lifecycle work. Candidate has 3+ years relevant experience (Chick-fil-A role demonstrates retention campaigns, win-back programs, relationship building, and data-driven expansion). SEO expertise is listed as a plus, not a hard requirement; candidate's analytical and campaign-optimization background transfers well. Early-stage product-building aspect aligns with candidate's demonstrated ability to create structure and playbooks."
     },
     {
-      "id": "gh-braze-8105611",
-      "company_key": "braze",
-      "company_name": "Braze",
-      "title": "Lifecycle Marketing Analyst, Prospect",
-      "location": "S\u00e3o Paulo",
-      "url": "https://job-boards.greenhouse.io/braze/jobs/8105611",
-      "first_seen": "2026-08-30T01:24:27.617589+00:00",
-      "fit_reason": "Lifecycle marketing analyst role with email campaign building, A/B testing, and funnel optimization aligns directly with candidate's core target (lifecycle marketing); 2-4 years requirement floor is 2 years, well within candidate's ~3 years relevant experience; Braze platform unfamiliar but Salesforce/CRM experience demonstrated; no cold calling or pure prospecting exclusions apply."
-    },
-    {
       "id": "ashby-boostly-ed49ed81-b755-4383-b4ab-5306aa92a26f",
       "company_key": "boostly",
       "company_name": "Boostly",
@@ -7276,6 +7287,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-27T14:38:34.873181+00:00",
+  "last_run": "2026-10-27T19:38:07.242893+00:00",
   "pending_notifications": []
 }
