@@ -1130,6 +1130,7 @@
         "gh-hubspotjobs-8202868",
         "gh-hubspotjobs-8208201",
         "gh-hubspotjobs-8214455",
+        "gh-hubspotjobs-8220502",
         "gh-hubspotjobs-8221496",
         "gh-hubspotjobs-8223099",
         "gh-hubspotjobs-8223123",
@@ -1476,6 +1477,7 @@
       "needs_resync": false,
       "is_priority": true,
       "known_job_ids": [
+        "wd-snapchat-AR-Engineer--Level-4_R0047351",
         "wd-snapchat-AR-Engineer_R0046361",
         "wd-snapchat-ASIC-Verification-Engineer_R0045544",
         "wd-snapchat-Account-Manager---12-Month-FTC_R0046711",
@@ -1873,6 +1875,7 @@
         "wd-snapchat-Staff-Software-Engineer--ML-Feature-Store_R0046187-2",
         "wd-snapchat-Staff-Software-Engineer--Omnichannel-Notifications-System_R0046651",
         "wd-snapchat-Staff-Software-Engineer--Platform-Engineering_R0045781-1",
+        "wd-snapchat-Staff-Software-Engineer--Spam-and-Abuse_R0047349-1",
         "wd-snapchat-Staff-Software-Engineer--Storage-and-Caching_R0046690-1",
         "wd-snapchat-Staff-Software-Engineer--iOS--Level-6_Q426SWEI9",
         "wd-snapchat-Staff-Technical-Program-Manager--ML-Platform_R0046540",
@@ -3244,6 +3247,7 @@
         "ashby-runway-ml-40598dd0-234b-4256-b2a2-91608b66b8aa",
         "ashby-runway-ml-44c1578a-3b0c-4b64-b1c0-89f51e8635ee",
         "ashby-runway-ml-4ab5877c-1289-439e-a885-8e6942a2409f",
+        "ashby-runway-ml-4c1990b2-b2f9-495e-8a35-f9af295c475a",
         "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
         "ashby-runway-ml-5d5a91ae-b091-425c-96b5-2d4a88d0c796",
@@ -7284,6 +7288,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-27T23:10:42.642917+00:00",
+  "last_run": "2026-10-28T02:22:06.015334+00:00",
   "pending_notifications": []
 }
