@@ -871,7 +871,9 @@
         "gh-doordashusa-8319116",
         "gh-doordashusa-8324659",
         "gh-doordashusa-8327944",
-        "gh-doordashusa-8329317"
+        "gh-doordashusa-8329317",
+        "gh-doordashusa-8330681",
+        "gh-doordashusa-8330693"
       ]
     },
     "hubspot": {
@@ -1945,6 +1947,7 @@
         "wd-coke-Brand-Manager_R-143384-1",
         "wd-coke-Business-Support-and-Communication-Specialist_R-145769",
         "wd-coke-CNC-Setup-Operator--M-F--3pm---11-30pm-_R-147042",
+        "wd-coke-CPS-AR-Management-system-analyst_R-147863-1",
         "wd-coke-CPS-AR-Operador-de-Produccin-Interna_R-145695",
         "wd-coke-CPS-AR-Operador-de-Produccin-Interna_R-146217",
         "wd-coke-CPS-AR-Operador-de-produccin-interna_R-145078",
@@ -3146,6 +3149,7 @@
         "ashby-cursor-8e0f46f3-a02e-4fa7-8c26-c3cc93065877",
         "ashby-cursor-8fc9e55a-2cf9-458f-b2f7-6959dab1a011",
         "ashby-cursor-90f3ffbe-8174-4dc1-a0f5-ca9cb48fdda7",
+        "ashby-cursor-919704fe-a3b7-4a15-8d2b-5df649b5168c",
         "ashby-cursor-919b3d00-fef8-4038-8b71-165fae5d54e7",
         "ashby-cursor-9287df8c-4138-4d75-ae92-cc98d3963856",
         "ashby-cursor-934a1ef1-78e7-408e-aa47-974a930665e5",
@@ -3316,6 +3320,7 @@
         "ashby-elevenlabs-03d5ffd2-5cfd-43a0-a767-3cb08d107233",
         "ashby-elevenlabs-03e6b7b2-3337-47ac-a230-2d8390a8cb4e",
         "ashby-elevenlabs-047d2188-87b2-4b1b-a3a6-16821ab77fa9",
+        "ashby-elevenlabs-04d1c724-466a-4520-aea1-44aee822c14b",
         "ashby-elevenlabs-0547cf3a-856f-4db2-8307-73db634c4096",
         "ashby-elevenlabs-059c1527-71b9-46f5-a691-0e3b0a1be7f5",
         "ashby-elevenlabs-062dba92-e25b-47ee-b119-aeca540f515f",
@@ -3431,6 +3436,7 @@
         "ashby-elevenlabs-41b892ba-b530-44cb-9ae1-178908fc324c",
         "ashby-elevenlabs-42167cd0-3736-45b3-a1de-3fb6bedfe71d",
         "ashby-elevenlabs-4389da7f-b5c9-4660-aaf2-d097f4caba07",
+        "ashby-elevenlabs-445bbe06-55ea-4bce-ac3c-2f4b85841872",
         "ashby-elevenlabs-44c6b5f3-e135-4f3b-b286-7baccf782912",
         "ashby-elevenlabs-46b3cde4-709f-4d46-9817-5cf881bb35d5",
         "ashby-elevenlabs-46bad7dc-c8d7-403d-8b10-a2d71c005384",
@@ -3486,6 +3492,7 @@
         "ashby-elevenlabs-6fb6f3a3-9680-41ac-bcde-e5a7abfc5f5c",
         "ashby-elevenlabs-70abac80-024e-4233-a7dc-667697f66976",
         "ashby-elevenlabs-71992118-5b37-4a4a-a862-99e82e02916f",
+        "ashby-elevenlabs-71b1f886-593a-43a3-86db-1ab8e2a83496",
         "ashby-elevenlabs-71f84d23-fda9-45af-a249-8bbdb258bc18",
         "ashby-elevenlabs-7209ce9f-3c69-4dbb-adbb-6c6c068ebad0",
         "ashby-elevenlabs-7389c057-3e25-4e7a-8a03-5e80f40a15a0",
@@ -3601,6 +3608,7 @@
         "ashby-elevenlabs-ba1c19cc-3b0e-4f3e-b7c1-a96d5fb4bbf9",
         "ashby-elevenlabs-ba9014c9-0d42-4b19-a984-3ab2a0e45c1e",
         "ashby-elevenlabs-bb4f0758-f039-46c7-9a3f-71c145824298",
+        "ashby-elevenlabs-bb5b2422-918a-4805-ad8f-4ec3af650c11",
         "ashby-elevenlabs-bd230a18-2ff4-493c-8555-8476bf7de0e4",
         "ashby-elevenlabs-be13cb57-272a-4640-9366-f1fbb7b8f166",
         "ashby-elevenlabs-bf20b446-c839-4869-bac9-cc05740e03e1",
@@ -5234,10 +5242,13 @@
         "gh-mongodb-8305915",
         "gh-mongodb-8311246",
         "gh-mongodb-8312165",
+        "gh-mongodb-8312685",
         "gh-mongodb-8313374",
         "gh-mongodb-8313598",
         "gh-mongodb-8314019",
-        "gh-mongodb-8323897"
+        "gh-mongodb-8318370",
+        "gh-mongodb-8323897",
+        "gh-mongodb-8328627"
       ]
     },
     "braze": {
@@ -6147,6 +6158,7 @@
         "gh-justworks-8324732",
         "gh-justworks-8325517",
         "gh-justworks-8325992",
+        "gh-justworks-8326015",
         "gh-justworks-8327583"
       ]
     },
@@ -6250,10 +6262,12 @@
         "gh-appsflyer-8899626002",
         "gh-appsflyer-8899639002",
         "gh-appsflyer-8905228002",
+        "gh-appsflyer-8905790002",
         "gh-appsflyer-8908247002",
         "gh-appsflyer-8908249002",
         "gh-appsflyer-8916886002",
-        "gh-appsflyer-8917820002"
+        "gh-appsflyer-8917820002",
+        "gh-appsflyer-8921994002"
       ]
     },
     "attentive": {
@@ -6844,7 +6858,8 @@
         "gh-bombas-8191441",
         "gh-bombas-8196958",
         "gh-bombas-8220881",
-        "gh-bombas-8221093"
+        "gh-bombas-8221093",
+        "gh-bombas-8322128"
       ]
     },
     "cleo": {
@@ -6864,6 +6879,7 @@
         "gh-cleo-4739273005",
         "gh-cleo-4742841005",
         "gh-cleo-4744339005",
+        "gh-cleo-4747888005",
         "gh-cleo-4747892005"
       ]
     },
@@ -7284,6 +7300,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-28T08:50:48.765554+00:00",
+  "last_run": "2026-10-28T15:43:39.317206+00:00",
   "pending_notifications": []
 }
