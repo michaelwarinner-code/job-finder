@@ -62,6 +62,7 @@
         "gh-doordashusa-6156932",
         "gh-doordashusa-6166924",
         "gh-doordashusa-6169266",
+        "gh-doordashusa-6249056",
         "gh-doordashusa-6333525",
         "gh-doordashusa-6338249",
         "gh-doordashusa-6338457",
@@ -873,7 +874,10 @@
         "gh-doordashusa-8327944",
         "gh-doordashusa-8329317",
         "gh-doordashusa-8330681",
-        "gh-doordashusa-8330693"
+        "gh-doordashusa-8330693",
+        "gh-doordashusa-8331068",
+        "gh-doordashusa-8331835",
+        "gh-doordashusa-8331916"
       ]
     },
     "hubspot": {
@@ -1918,6 +1922,7 @@
         "wd-coke-Alternance-contrleur-de-gestion-H-F-X--1-an-_R-145941",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
         "wd-coke-Apprentice_R-146209",
+        "wd-coke-Apprentice_R-148283",
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Chemist--Quality-Assurance--Open-Availability-Requested-_R-147114",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
@@ -2388,6 +2393,7 @@
         "wd-coke-Production-Operator-I-Packaging---Days----2152_R-145847",
         "wd-coke-Production-Operator-I-Packaging---Days_R-147681",
         "wd-coke-Production-Operator-I-Packaging---Days_R-147947",
+        "wd-coke-Production-Operator-I-Packaging---Days_R-148207-1",
         "wd-coke-Production-Operator-I-Packaging---Nights----2150_R-144724",
         "wd-coke-Production-Operator-II----Filling---days_R-144990",
         "wd-coke-Production-Operator-II---Nights---Filling_R-144603",
@@ -3134,6 +3140,7 @@
         "ashby-cursor-77bf35db-119c-4533-8187-1e8d5ae08c45",
         "ashby-cursor-7b0b5994-5405-419c-bdca-c7b7ca05b613",
         "ashby-cursor-7bc441a4-9bb6-45cb-a9e0-5ae1b9c7ac5b",
+        "ashby-cursor-7d6611cb-28bf-4277-8758-178154466934",
         "ashby-cursor-7deec098-b1cc-4258-8828-db94c0d43319",
         "ashby-cursor-7e1d8e07-c87b-4388-892a-6b138bebf665",
         "ashby-cursor-85c98417-583b-412e-b31a-e4052195b703",
@@ -3959,6 +3966,7 @@
         "gh-datadog-7560494",
         "gh-datadog-7560815",
         "gh-datadog-7576831",
+        "gh-datadog-7579684",
         "gh-datadog-7582679",
         "gh-datadog-7582681",
         "gh-datadog-7583609",
@@ -4260,6 +4268,8 @@
         "gh-datadog-8119973",
         "gh-datadog-8121553",
         "gh-datadog-8122915",
+        "gh-datadog-8125958",
+        "gh-datadog-8126000",
         "gh-datadog-8126596",
         "gh-datadog-8127768",
         "gh-datadog-8127916",
@@ -5248,7 +5258,9 @@
         "gh-mongodb-8314019",
         "gh-mongodb-8318370",
         "gh-mongodb-8323897",
-        "gh-mongodb-8328627"
+        "gh-mongodb-8327081",
+        "gh-mongodb-8328627",
+        "gh-mongodb-8331479"
       ]
     },
     "braze": {
@@ -5857,7 +5869,9 @@
         "gh-braze-8327012",
         "gh-braze-8327875",
         "gh-braze-8327879",
-        "gh-braze-8327885"
+        "gh-braze-8327885",
+        "gh-braze-8329145",
+        "gh-braze-8331540"
       ]
     },
     "classpass": {
@@ -6159,6 +6173,8 @@
         "gh-justworks-8325517",
         "gh-justworks-8325992",
         "gh-justworks-8326015",
+        "gh-justworks-8327557",
+        "gh-justworks-8327564",
         "gh-justworks-8327583"
       ]
     },
@@ -6400,7 +6416,8 @@
         "gh-glossier-8274997",
         "gh-glossier-8275211",
         "gh-glossier-8302405",
-        "gh-glossier-8304650"
+        "gh-glossier-8304650",
+        "gh-glossier-8327677"
       ]
     },
     "yext": {
@@ -6644,6 +6661,7 @@
         "gh-movableink-8221933",
         "gh-movableink-8237020",
         "gh-movableink-8281254",
+        "gh-movableink-8303583",
         "gh-movableink-8318136"
       ]
     },
@@ -6827,8 +6845,10 @@
         "gh-flatironhealth-8243012",
         "gh-flatironhealth-8249709",
         "gh-flatironhealth-8265541",
+        "gh-flatironhealth-8292596",
         "gh-flatironhealth-8306279",
         "gh-flatironhealth-8315819",
+        "gh-flatironhealth-8315844",
         "gh-flatironhealth-8325161"
       ]
     },
@@ -7300,6 +7320,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-28T15:43:39.317206+00:00",
+  "last_run": "2026-10-28T20:35:51.138412+00:00",
   "pending_notifications": []
 }
