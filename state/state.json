@@ -1141,7 +1141,9 @@
         "gh-hubspotjobs-8249201",
         "gh-hubspotjobs-8249262",
         "gh-hubspotjobs-8250907",
-        "gh-hubspotjobs-8266540"
+        "gh-hubspotjobs-8256926",
+        "gh-hubspotjobs-8266540",
+        "gh-hubspotjobs-8316770"
       ]
     },
     "spotify": {
@@ -2075,6 +2077,7 @@
         "wd-coke-Director--Field-Quality_R-147678",
         "wd-coke-Director--Finance---Franchise-Operations--SWA-_R-147600",
         "wd-coke-Director--Finance--Great-Britain_R-144230-1",
+        "wd-coke-Director--Finance-Integration---Capabilities_R-148225",
         "wd-coke-Director--Financial-Planning---Analysis-Process-Optimization_R-146202",
         "wd-coke-Director--Financial-Planning--Analysis-and-Insights_R-144127",
         "wd-coke-Director--Franchise-Commercial-Execution_R-145784",
@@ -2416,6 +2419,7 @@
         "wd-coke-Project-MFG-Readiness-Manager_R-146001",
         "wd-coke-Project-Manager_R-146422",
         "wd-coke-Project-Procurement-Manager--Until-12-31-2028-_R-140172",
+        "wd-coke-Project-Procurement-Manager_R-148222",
         "wd-coke-Project-Safety-Manager--Contract-until-12-31-2028-_R-147690",
         "wd-coke-Project-Warehouse-Manager_R-146003-1",
         "wd-coke-Project-Warehouse-Operations-Lead_R-146004-1",
@@ -2675,6 +2679,7 @@
         "wd-coke-Senior-Manager--Operational-Excellence_R-144003",
         "wd-coke-Senior-Manager--Packaging-Development_R-147866",
         "wd-coke-Senior-Manager--People-and-Culture_R-147299",
+        "wd-coke-Senior-Manager--Planning--Logistics-and-Customer-Relationship_R-148176",
         "wd-coke-Senior-Manager--Policy-Advocacy---Communications_R-144898",
         "wd-coke-Senior-Manager--Procurement-Data-Analysis---Sustainability_R-143747-1",
         "wd-coke-Senior-Manager--Product-Development---Juices_R-147112-1",
@@ -2863,6 +2868,7 @@
         "ashby-perplexity-5a4cec8b-5688-497c-a5ec-884f75d09511",
         "ashby-perplexity-5c561bd0-c180-4ee1-b079-647f3c20bdc0",
         "ashby-perplexity-5ec96ca1-319a-4b85-99ce-e06629099cf9",
+        "ashby-perplexity-5fe2b80d-9d59-42bb-90e6-9a0b78d7d403",
         "ashby-perplexity-60deb376-51b5-46c6-9e17-55377a5ef34e",
         "ashby-perplexity-63785f62-07ac-4dc5-8f68-57779dddb1f3",
         "ashby-perplexity-656b4b2e-5670-411c-9091-f355983a92a0",
@@ -7238,16 +7244,6 @@
       "fit_reason": "Associate Client Partner role centers on account activation, retention, performance analysis, and customer education\u2014core growth/lifecycle work\u2014with 3+ years required (candidate meets floor); title is IC-level; no cold-calling exclusion triggered; strong fit with campaign analysis, metrics design, and cross-functional collaboration skills."
     },
     {
-      "id": "wd-coke-Senior-Manager--Retail-Sales---Dollar-General_R-147479",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Senior Manager, Retail Sales - Dollar General",
-      "location": "US - TN - Nashville",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---TN---Nashville/Senior-Manager--Retail-Sales---Dollar-General_R-147479",
-      "first_seen": "2026-10-14T20:59:27.157637+00:00",
-      "fit_reason": "Key account management role at Coca-Cola (candidate's previous employer, eligible for field-sales exception) focused on joint business planning, promotional execution, analytics-driven selling, and account growth\u2014aligns with revenue operations/GTM target; candidate meets 3-year floor and has directly transferable account management, promotions, and data-driven campaign experience from Chick-fil-A."
-    },
-    {
       "id": "ashby-cursor-2bc45647-93ff-497e-8db9-9b4f42d17240",
       "company_key": "cursor",
       "company_name": "Cursor",
@@ -7288,6 +7284,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     }
   ],
-  "last_run": "2026-10-28T02:22:06.015334+00:00",
+  "last_run": "2026-10-28T08:50:48.765554+00:00",
   "pending_notifications": []
 }
