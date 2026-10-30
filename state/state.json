@@ -1153,6 +1153,7 @@
         "gh-hubspotjobs-8223123",
         "gh-hubspotjobs-8236723",
         "gh-hubspotjobs-8243591",
+        "gh-hubspotjobs-8243598",
         "gh-hubspotjobs-8248552",
         "gh-hubspotjobs-8249167",
         "gh-hubspotjobs-8249201",
@@ -1814,6 +1815,7 @@
         "wd-snapchat-Senior-Manager--Compensation_R0046948-1",
         "wd-snapchat-Senior-Manager--EU-Public-Policy_R0046905-1",
         "wd-snapchat-Senior-Manager--GTM-Architect_R0046696-1",
+        "wd-snapchat-Senior-Manager--Global-Ads-GTM-Strategy---Operations_R0047391-1",
         "wd-snapchat-Senior-Manager--Global-Strategic-Accounts_R0047169-1",
         "wd-snapchat-Senior-Manager--Product-Management---Ad-Formats_R0046046-2",
         "wd-snapchat-Senior-Manager--Software-Engineering_H226SWEM10-1",
@@ -2055,6 +2057,7 @@
         "wd-coke-Director--AI-Engineer---Fuelight_R-145090-1",
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
         "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
+        "wd-coke-Director--Architect--Data---Analytics_R-148286-1",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
         "wd-coke-Director--Brand-Innovation-Platform_R-146451-1",
         "wd-coke-Director--Business-Analyst_R-145097",
@@ -2109,11 +2112,22 @@
         "wd-coke-Director--Financial-Planning--Analysis-and-Insights_R-144127",
         "wd-coke-Director--Franchise-Commercial-Execution_R-145784",
         "wd-coke-Director--Franchise-Finance-Operations---Philippines_R-147642-2",
+        "wd-coke-Director--Franchise-Intelligence_R-148028",
+        "wd-coke-Director--Franchise-Operations---Central--SSD---AH-_R-148024",
+        "wd-coke-Director--Franchise-Operations---Mainstream_R-148046-1",
+        "wd-coke-Director--Franchise-Operations---North--SSD---AH-_R-148023",
+        "wd-coke-Director--Franchise-Operations---North_R-148044",
+        "wd-coke-Director--Franchise-Operations---South--SSD---AH-_R-148025",
+        "wd-coke-Director--Franchise-Operations---South_R-148045-1",
+        "wd-coke-Director--Franchise-Operations---Total-Portfolio--NorCal-MU_R-148019-1",
         "wd-coke-Director--Franchise-Operations--Stronghold-Markets_R-142140-1",
         "wd-coke-Director--Franchise-Operations--Stronghold-Markets_R-147942-1",
         "wd-coke-Director--Franchise-Operations-Uzbekistan_R-146712",
+        "wd-coke-Director--Franchise-RGM---Puerto-Rico_R-148048",
         "wd-coke-Director--Franchise-Sparkling--CCPB_R-135094-1",
         "wd-coke-Director--Franchise-Strategy---Independent-Bottlers_R-147643",
+        "wd-coke-Director--Franchise-Strategy---Transformation_R-148027",
+        "wd-coke-Director--Franchise-Strategy---Transformation_R-148043",
         "wd-coke-Director--Franchise-Strategy-Integration---Andean_R-147827",
         "wd-coke-Director--Frontline-Marketing---Ecuador_R-146441",
         "wd-coke-Director--Frontline-Marketing--CBL_R-136221-1",
@@ -2311,6 +2325,7 @@
         "wd-coke-Manager--Brand-Management--Schweppes_R-147885-1",
         "wd-coke-Manager--Brand-Management--Sweetened-Tea_R-143165-1",
         "wd-coke-Manager--Business-Analysis---Japan_R-144468",
+        "wd-coke-Manager--Business-Intelligence---Analytics--PACS-Intelligence-Services_R-147948",
         "wd-coke-Manager--Communications---Change-Management_R-144552",
         "wd-coke-Manager--Communications_R-144619-1",
         "wd-coke-Manager--Corporate-Audit---Finance_R-147771",
@@ -2565,8 +2580,13 @@
         "wd-coke-Senior-Director--Financial-Planning---Analysis-Lead_R-144555",
         "wd-coke-Senior-Director--Financial-Planning-and-Analysis_R-144074",
         "wd-coke-Senior-Director--Flavors-Creative-Strategy---IMX--LATAM_R-145247",
+        "wd-coke-Senior-Director--Franchise-Operations---FSOP--All-Brands---CCBNE---ABARTA_R-148050",
+        "wd-coke-Senior-Director--Franchise-Operations---Southwest---Mainstream_R-148042",
+        "wd-coke-Senior-Director--Franchise-Operations---Swire--SSD---AH-_R-148022",
         "wd-coke-Senior-Director--Franchise-Operations--Battlefield-Markets_R-141034-1",
         "wd-coke-Senior-Director--Franchise-Operations_R-145316",
+        "wd-coke-Senior-Director--Franchise-Strategy---Transformation_R-148026",
+        "wd-coke-Senior-Director--Franchise-Strategy---Transformation_R-148047",
         "wd-coke-Senior-Director--Frontline-Marketing-KOF--Mexico_R-147872",
         "wd-coke-Senior-Director--General-Manager--Tea-Company_R-141891",
         "wd-coke-Senior-Director--Global-Category---Innovation-Marketing-Intelligence-Services_R-146512",
@@ -2643,6 +2663,7 @@
         "wd-coke-Senior-Maintenance-Manager_R-146421",
         "wd-coke-Senior-Manager---Customer-Finance--Customer-Agreement-Team_R-146411",
         "wd-coke-Senior-Manager---Supply-Chain-Project_R-147747",
+        "wd-coke-Senior-Manager--AI---Analytics-Engineering_R-148343",
         "wd-coke-Senior-Manager--AI-Engineer_R-145118-1",
         "wd-coke-Senior-Manager--AI-Red-Team_R-144443",
         "wd-coke-Senior-Manager--AI-Workflow_R-144410",
@@ -2774,6 +2795,7 @@
         "wd-coke-Senior-Product-Designer-II_R-145060",
         "wd-coke-Senior-Product-Designer-II_R-145742",
         "wd-coke-Senior-Product-Manager---Retail-Platforms_R-146737",
+        "wd-coke-Senior-Product-Manager--Customer-Operational-Excellence_R-134898",
         "wd-coke-Senior-Product-Manager--Service-Enablement---Operations_R-146880",
         "wd-coke-Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
         "wd-coke-Senior-Sales-Manager_R-146185",
@@ -3559,6 +3581,7 @@
         "ashby-elevenlabs-792d35d9-5a8e-4f57-bf79-5a1cdac463fb",
         "ashby-elevenlabs-7a235499-7cee-48f5-9fe4-3f4764b91865",
         "ashby-elevenlabs-7a27a4f4-e32f-4ff2-a6b0-a01a5e187db0",
+        "ashby-elevenlabs-7ab03a75-830a-40ee-b4e5-bf83b31b1d24",
         "ashby-elevenlabs-7c9abf17-1e6b-4038-92ba-bea97293627a",
         "ashby-elevenlabs-7ce7ff0a-564c-488a-aee1-db227b6a50ca",
         "ashby-elevenlabs-7d01b1ec-511d-40bf-a6ed-88b212932edb",
@@ -4596,7 +4619,10 @@
         "gh-datadog-8328266",
         "gh-datadog-8329276",
         "gh-datadog-8329282",
-        "gh-datadog-8333737"
+        "gh-datadog-8333737",
+        "gh-datadog-8335047",
+        "gh-datadog-8335306",
+        "gh-datadog-8336601"
       ]
     },
     "mongodb": {
@@ -5322,7 +5348,8 @@
         "gh-mongodb-8328627",
         "gh-mongodb-8331143",
         "gh-mongodb-8331146",
-        "gh-mongodb-8331479"
+        "gh-mongodb-8331479",
+        "gh-mongodb-8334108"
       ]
     },
     "braze": {
@@ -5925,6 +5952,7 @@
         "gh-braze-8315921",
         "gh-braze-8324568",
         "gh-braze-8324580",
+        "gh-braze-8324605",
         "gh-braze-8324607",
         "gh-braze-8324808",
         "gh-braze-8324873",
@@ -6051,6 +6079,7 @@
         "gh-classpass-4722532006",
         "gh-classpass-4724342006",
         "gh-classpass-4724939006",
+        "gh-classpass-4725141006",
         "gh-classpass-4725519006",
         "gh-classpass-4725927006",
         "gh-classpass-4725931006",
@@ -6498,7 +6527,9 @@
         "gh-glossier-8275211",
         "gh-glossier-8302405",
         "gh-glossier-8304650",
-        "gh-glossier-8327677"
+        "gh-glossier-8327677",
+        "gh-glossier-8327749",
+        "gh-glossier-8327762"
       ]
     },
     "yext": {
@@ -7403,6 +7434,6 @@
       "fit_reason": "Coca-Cola Sales Manager role meets the candidate's 3-year floor, aligns with revenue operations/sales strategy target, emphasizes account portfolio growth and business planning over cold calling, and the candidate's Chick-fil-A experience demonstrates direct transferable skills in account relationship building, growth strategy, and cross-functional execution\u2014plus the Coca-Cola exception applies."
     }
   ],
-  "last_run": "2026-10-30T08:59:52.645640+00:00",
+  "last_run": "2026-10-30T15:49:02.906401+00:00",
   "pending_notifications": []
 }
