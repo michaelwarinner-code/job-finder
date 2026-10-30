@@ -1749,6 +1749,7 @@
         "wd-snapchat-Research-Scientist--Language-for-Personalization_R0044935",
         "wd-snapchat-Residential-Security-Officer_R0042844",
         "wd-snapchat-Residential-Security-Officer_R0044571-1",
+        "wd-snapchat-Sales-Operations-Associate_H226SO3-1",
         "wd-snapchat-Sales-Operations-Lead_H226SOL7",
         "wd-snapchat-Sales-Operations-Lead_R0047018-2",
         "wd-snapchat-Security-Engineer---Threat-Intelligence_R0043738-2",
@@ -1832,6 +1833,7 @@
         "wd-snapchat-Software-Engineer--Android--Level-4_R0047083-1",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q326SWEA6-2",
         "wd-snapchat-Software-Engineer--Android--Level-5_Q426SWEA6-1",
+        "wd-snapchat-Software-Engineer--Augmented-Reality--Level-4_R0047390-1",
         "wd-snapchat-Software-Engineer--Backend--Level-3_Q426SWE0-1",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q326SWEB2-2",
         "wd-snapchat-Software-Engineer--Backend--Level-4_Q426SWEB2-2",
@@ -2300,6 +2302,7 @@
         "wd-coke-Maintenance-Technician--2p-10-30p-_R-145242",
         "wd-coke-Maintenance-Technician--35-hr--1st-Shift-_R-143080",
         "wd-coke-Maintenance-Technician-II--3rd-Shift-_R-143833-1",
+        "wd-coke-Maintenance-Technician-_R-148347",
         "wd-coke-Maintenance-Technician_R-140958",
         "wd-coke-Maintenance-Technician_R-145744",
         "wd-coke-Maintenance-Utilities-Analyst-II_R-146831",
@@ -2503,6 +2506,7 @@
         "wd-coke-Sales-Director--Warehouse-Beverages---Walmart_R-147803-1",
         "wd-coke-Sales-Manager---Foodservice--DC---Maryland-Markets-_R-144736",
         "wd-coke-Sales-Manager_R-145146",
+        "wd-coke-Sales-Manager_R-147267",
         "wd-coke-Scientist--Operations-Labs--Technical-Consumer-Data-Research_R-146213-1",
         "wd-coke-Scientist--Product--Tea---GDI_R-137074",
         "wd-coke-Scientist--Product-Development--GDI_R-145664",
@@ -3201,6 +3205,7 @@
         "ashby-cursor-9b897011-11bc-4d8f-beb4-d2155d36e941",
         "ashby-cursor-9d7c8f36-eeb7-4e9f-acbe-d959f6280e46",
         "ashby-cursor-9f1b3e17-4ab5-4d70-acc2-be1d1972b922",
+        "ashby-cursor-a4e8f126-9761-4a01-ab21-84e20c8b5de9",
         "ashby-cursor-a4fcfac1-8bf1-4804-a0fb-0ea97037772e",
         "ashby-cursor-a577902e-28e9-4e68-9ee9-91e34d1b59c4",
         "ashby-cursor-a59371c8-cd50-48e3-9f21-4b79a6f0e3b2",
@@ -3253,6 +3258,7 @@
         "ashby-cursor-eabcff15-deb2-4e5c-a17d-8c36eb7f6c1d",
         "ashby-cursor-eb238291-8a00-4385-8108-4e4d634c2be0",
         "ashby-cursor-ef96e7fc-5d91-48b2-a8af-26dca8caab77",
+        "ashby-cursor-f277b2d6-c27e-4cb9-9d0b-644e9730f06c",
         "ashby-cursor-f27e0997-e283-4015-be61-e13d844a2834",
         "ashby-cursor-f2cf204b-f469-4997-9508-f218c5869706",
         "ashby-cursor-f7ec7811-a573-42fa-8ade-01e2d07681ef",
@@ -7370,8 +7376,28 @@
       "url": "https://jobs.ashbyhq.com/elevenlabs/24710bb7-62de-48d4-82c5-748c0d8aade2",
       "first_seen": "2026-10-23T22:30:33.187893+00:00",
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
+    },
+    {
+      "id": "wd-snapchat-Sales-Operations-Associate_H226SO3-1",
+      "company_key": "snap",
+      "company_name": "Snap Inc.",
+      "title": "Sales Operations Associate",
+      "location": "2 Locations",
+      "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/New-York-New-York/Sales-Operations-Associate_H226SO3-1",
+      "first_seen": "2026-10-30T02:39:44.559641+00:00",
+      "fit_reason": "Sales Operations Associate is explicitly in-scope as revenue operations; candidate's 3+ years of data-driven sales/marketing strategy, forecasting, dashboards, and cross-functional execution directly transfer; meets 2-year floor."
+    },
+    {
+      "id": "wd-coke-Sales-Manager_R-147267",
+      "company_key": "cocacola",
+      "company_name": "Coca-Cola",
+      "title": "Sales Manager",
+      "location": "US - GA - Atlanta",
+      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Sales-Manager_R-147267",
+      "first_seen": "2026-10-30T02:39:44.559641+00:00",
+      "fit_reason": "Coca-Cola Sales Manager role meets the candidate's 3-year floor, aligns with revenue operations/sales strategy target, emphasizes account portfolio growth and business planning over cold calling, and the candidate's Chick-fil-A experience demonstrates direct transferable skills in account relationship building, growth strategy, and cross-functional execution\u2014plus the Coca-Cola exception applies."
     }
   ],
-  "last_run": "2026-10-29T23:12:56.548805+00:00",
+  "last_run": "2026-10-30T02:39:44.559641+00:00",
   "pending_notifications": []
 }
