@@ -2432,6 +2432,8 @@
         "wd-coke-Production-Operator_R-146876",
         "wd-coke-Production-Operator_R-148004",
         "wd-coke-Production-Operator_R-148181",
+        "wd-coke-Production-Operator_R-148270",
+        "wd-coke-Production-Operator_R-148271",
         "wd-coke-Production-Planning-Analyst--Contract-_R-146450",
         "wd-coke-Production-Supervisor_R-145234",
         "wd-coke-Production-Supervisor_R-146325",
@@ -2685,6 +2687,7 @@
         "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate--Americas_R-146374",
         "wd-coke-Senior-Manager--FP-A-Supply-Chain-Corporate-EMEA_R-146377",
         "wd-coke-Senior-Manager--Fanta--Turkey_R-145817",
+        "wd-coke-Senior-Manager--Finance---Co-Pack-Manufacturing_R-148183",
         "wd-coke-Senior-Manager--Financial-Services_R-146271",
         "wd-coke-Senior-Manager--Franchise-Operations---HLJ_R-146357-1",
         "wd-coke-Senior-Manager--Franchise-Operations---Shaanxi_R-136203-1",
@@ -5249,6 +5252,7 @@
         "gh-mongodb-8258712",
         "gh-mongodb-8259719",
         "gh-mongodb-8260947",
+        "gh-mongodb-8262052",
         "gh-mongodb-8262077",
         "gh-mongodb-8263092",
         "gh-mongodb-8263247",
@@ -6049,7 +6053,8 @@
         "gh-classpass-4724939006",
         "gh-classpass-4725519006",
         "gh-classpass-4725927006",
-        "gh-classpass-4725931006"
+        "gh-classpass-4725931006",
+        "gh-classpass-4725983006"
       ]
     },
     "justworks": {
@@ -7398,6 +7403,6 @@
       "fit_reason": "Coca-Cola Sales Manager role meets the candidate's 3-year floor, aligns with revenue operations/sales strategy target, emphasizes account portfolio growth and business planning over cold calling, and the candidate's Chick-fil-A experience demonstrates direct transferable skills in account relationship building, growth strategy, and cross-functional execution\u2014plus the Coca-Cola exception applies."
     }
   ],
-  "last_run": "2026-10-30T02:39:44.559641+00:00",
+  "last_run": "2026-10-30T08:59:52.645640+00:00",
   "pending_notifications": []
 }
