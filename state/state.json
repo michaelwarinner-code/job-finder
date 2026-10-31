@@ -1618,6 +1618,7 @@
         "wd-snapchat-Health--Safety---Environmental--HSE--Advisor_R0046383-1",
         "wd-snapchat-Human-Factors-Specialist--Fixed-Term--12-Months-_R0046429",
         "wd-snapchat-Human-Factors-Specialist_R0046393-1",
+        "wd-snapchat-Independent-Agency-Partner_R0047402-1",
         "wd-snapchat-Integrated-Circuit-Design-Verification-Engineer_R0046054-1",
         "wd-snapchat-Integrated-Circuit-Design-Verification-Engineer_R0046055",
         "wd-snapchat-Interface-Designer_R0046325",
@@ -3035,6 +3036,7 @@
         "ashby-perplexity-b75db90b-ca13-4a2f-aac4-c7764b631540",
         "ashby-perplexity-b75f3f20-943a-44a7-8466-8c31e5d899ef",
         "ashby-perplexity-b9e1ff15-d52a-46d5-abf0-26460f2a116c",
+        "ashby-perplexity-ba95ea8c-9aad-4152-925c-df08d6a90c0f",
         "ashby-perplexity-be94e89b-89d5-4f2a-a58b-7929c8d97f92",
         "ashby-perplexity-bf978d98-404d-48a5-bcf2-a1f70f195c2b",
         "ashby-perplexity-bfb392f2-086e-4187-b69c-2a231b8c3290",
@@ -6122,6 +6124,7 @@
         "gh-classpass-4725000006",
         "gh-classpass-4725141006",
         "gh-classpass-4725519006",
+        "gh-classpass-4725849006",
         "gh-classpass-4725927006",
         "gh-classpass-4725931006",
         "gh-classpass-4725983006",
@@ -7493,8 +7496,18 @@
       "url": "https://jobs.ashbyhq.com/cursor/539edb8a-b82a-48f8-ae7a-5c94fffbfa0a",
       "first_seen": "2026-10-30T23:52:38.194553+00:00",
       "fit_reason": "Revenue operations / customer strategy & operations role centered on analytics, experimentation, segmentation, and data-driven decision-making\u2014core to candidate's target scope; no years floor stated; candidate's 3.5 years of growth/operations work with demonstrated modeling, churn analysis, funnel design, and cross-functional strategy directly transfers."
+    },
+    {
+      "id": "gh-classpass-4725849006",
+      "company_key": "classpass",
+      "company_name": "ClassPass",
+      "title": "Corporate Account Manager ",
+      "location": "United States",
+      "url": "https://www.playlist.com/careers/opportunities/4725849006?gh_jid=4725849006",
+      "first_seen": "2026-10-31T04:05:51.370605+00:00",
+      "fit_reason": "Corporate Account Manager role centers on managing existing corporate accounts, driving adoption/expansion, and analyzing engagement metrics\u2014aligned with candidate's account management and growth-focused experience; 2-year requirement is well within scope, and Salesforce familiarity is demonstrated."
     }
   ],
-  "last_run": "2026-10-30T23:52:38.194553+00:00",
+  "last_run": "2026-10-31T04:05:51.370605+00:00",
   "pending_notifications": []
 }
