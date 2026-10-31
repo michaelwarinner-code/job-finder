@@ -890,7 +890,8 @@
         "gh-doordashusa-8334941",
         "gh-doordashusa-8334997",
         "gh-doordashusa-8335071",
-        "gh-doordashusa-8337751"
+        "gh-doordashusa-8337751",
+        "gh-doordashusa-8338024"
       ]
     },
     "hubspot": {
@@ -1871,6 +1872,7 @@
         "wd-snapchat-Software-Engineer--ML-infrastructure--Core-Inference--Level-4_R0047198",
         "wd-snapchat-Software-Engineer--Specs--Level-5_R0046458-1",
         "wd-snapchat-Software-Engineer--Specs-Lenses--Level-5_R0046666",
+        "wd-snapchat-Software-Engineer--Specs-Lenses-C----Level-5_R0047403",
         "wd-snapchat-Software-Engineer--iOS--Level-3_R0046335-1",
         "wd-snapchat-Software-Engineer--iOS--Level-4_Q326SWEI2-1",
         "wd-snapchat-Software-Engineer--iOS--Level-4_Q426SWEI2-2",
@@ -7508,6 +7510,6 @@
       "fit_reason": "Corporate Account Manager role centers on managing existing corporate accounts, driving adoption/expansion, and analyzing engagement metrics\u2014aligned with candidate's account management and growth-focused experience; 2-year requirement is well within scope, and Salesforce familiarity is demonstrated."
     }
   ],
-  "last_run": "2026-10-31T04:05:51.370605+00:00",
+  "last_run": "2026-10-31T10:20:06.172621+00:00",
   "pending_notifications": []
 }
