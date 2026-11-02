@@ -891,7 +891,10 @@
         "gh-doordashusa-8334997",
         "gh-doordashusa-8335071",
         "gh-doordashusa-8337751",
-        "gh-doordashusa-8338024"
+        "gh-doordashusa-8337887",
+        "gh-doordashusa-8338024",
+        "gh-doordashusa-8346800",
+        "gh-doordashusa-8346813"
       ]
     },
     "hubspot": {
@@ -1121,6 +1124,8 @@
         "gh-hubspotjobs-8143814",
         "gh-hubspotjobs-8143908",
         "gh-hubspotjobs-8147286",
+        "gh-hubspotjobs-8153107",
+        "gh-hubspotjobs-8153109",
         "gh-hubspotjobs-8159454",
         "gh-hubspotjobs-8161433",
         "gh-hubspotjobs-8161436",
@@ -1399,6 +1404,7 @@
       "is_priority": true,
       "known_job_ids": [
         "ashby-claylabs-02b25347-b588-4bf1-a2a9-e1b7544883ce",
+        "ashby-claylabs-041af20f-23db-4dcc-9cf4-c860d34ecf0d",
         "ashby-claylabs-046cb127-d5fc-444f-a2a9-fb4029d6a503",
         "ashby-claylabs-08c6786d-0ba5-4799-9259-cfff2d9d0580",
         "ashby-claylabs-0a88196b-f7ab-4340-84fa-ecf80b45705b",
@@ -1566,6 +1572,7 @@
         "wd-snapchat-Creative-Lead--SPECS--Social_R0047308-1",
         "wd-snapchat-Creative-Lead--SPECS-Social---Content_R0046944",
         "wd-snapchat-Creative-Production-Lead_R0047089",
+        "wd-snapchat-Creative-Strategist_R0047414-1",
         "wd-snapchat-Creative-Strategy-Lead--Fixed-Term--8-months-_R0046602-1",
         "wd-snapchat-Creative-Strategy-Lead_R0047346-1",
         "wd-snapchat-Data-Scientist--Level-3_Q426DSA3",
@@ -1678,6 +1685,7 @@
         "wd-snapchat-Manager--Electrical-Engineering--Devices_R0044345-1",
         "wd-snapchat-Manager--Environmental-Health---Safety--Specs-Operations_R0045982",
         "wd-snapchat-Manager--Executive---Social-Communications_R0046249-1",
+        "wd-snapchat-Manager--Finance_R0047410-1",
         "wd-snapchat-Manager--Global-Brand-Experience_R0046381",
         "wd-snapchat-Manager--Global-Payroll_R0047207-1",
         "wd-snapchat-Manager--Machine-Learning-Engineering--Advertiser-Experience-ML_R0046989-1",
@@ -2053,6 +2061,7 @@
         "wd-coke-Customer-Development-Manager--Consultant_R-146432",
         "wd-coke-Customer-Master-Data-and-Billing-Manager_R-146273",
         "wd-coke-Customer-Reimbursements-and-Accounts-Receivable-Manager_R-146272",
+        "wd-coke-Customer-Resolution-Specialist_R-148373",
         "wd-coke-Customer-Service-Intern_R-145775",
         "wd-coke-Customer-Service-Intern_R-146483",
         "wd-coke-Customer-Service-Specialist--7-months-_R-143732-1",
@@ -2271,6 +2280,7 @@
         "wd-coke-Forklift-Operator-2nd-Shift----2152_R-144639",
         "wd-coke-Forklift-Operator-3rd-Shift----2152_R-144776",
         "wd-coke-Forklift-Operator_R-145181",
+        "wd-coke-Forklift-Operator_R-146619",
         "wd-coke-Forklift-Operator_R-146682",
         "wd-coke-Franchise-Manager---Capabilities_R-145239-1",
         "wd-coke-Freestyle-Automated-Warehouse-Operator_R-143819-1",
@@ -2511,6 +2521,7 @@
         "wd-coke-Refrigeration-Technician---Pay-starts----36-Ammonia-Exp-Req-d---Day-Shift_R-146786",
         "wd-coke-Refrigeration-Technician_R-146334",
         "wd-coke-Reimbursement-Budget-Analyst_R-147675",
+        "wd-coke-Reliability-Engineer_R-148387",
         "wd-coke-Replenishment---Warehouse-Lead-Ambassador--Retail---Coca-Cola-Store-_R-148101",
         "wd-coke-Retail-Execution-Specialist---Atlanta--GA_R-147912",
         "wd-coke-Retail-Execution-Specialist---Boynton-Beach--FL_R-147679",
@@ -2535,6 +2546,7 @@
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143663",
         "wd-coke-Retail-Store-Shipper-Receiver--Full-Time-_R-145230",
         "wd-coke-SAP-Analyst_R-146183",
+        "wd-coke-SAP-Analyst_R-148250",
         "wd-coke-SES-Manager--Flavor-Manufacturing-Apopka_R-146711",
         "wd-coke-Safety---Sustainability-Manager_R-142886",
         "wd-coke-Safety--Environment-and-Security-Senior-Manager_R-141965",
@@ -2673,6 +2685,7 @@
         "wd-coke-Senior-Director--Sweetener-Research--Validation-and-Application_R-136492",
         "wd-coke-Senior-Director--System-Supply-Chain-Integration--Technical-Innovation-and-Supply-Chain-function--Japan---South-Korea-OU_R-147287",
         "wd-coke-Senior-Director--Talent---Development---Performance-and-Culture_R-147307-1",
+        "wd-coke-Senior-Director--Talent---Development---Succession_R-147309",
         "wd-coke-Senior-Director--Tax_R-147742-1",
         "wd-coke-Senior-Director--Vendor-Management---Governance-Lead_R-147717",
         "wd-coke-Senior-Director--smartwater_R-146065",
@@ -2815,6 +2828,7 @@
         "wd-coke-Senior-Manager--Technical-Operations---Commercialization---Japan_R-146270",
         "wd-coke-Senior-Manager--Technical-Operations---North-Zone--Mexico-_R-143895",
         "wd-coke-Senior-Manager--Technology-Operations_R-144439",
+        "wd-coke-Senior-Manager--Toxicology_R-148141",
         "wd-coke-Senior-Manager--Transfer-Pricing_R-134764",
         "wd-coke-Senior-Manager--Visual-Design_R-147449",
         "wd-coke-Senior-Manager--Warehouse-Equipment-Platform-Engineering_R-144870-1",
@@ -4650,6 +4664,7 @@
         "gh-datadog-8310668",
         "gh-datadog-8312438",
         "gh-datadog-8314006",
+        "gh-datadog-8314112",
         "gh-datadog-8314268",
         "gh-datadog-8317738",
         "gh-datadog-8318034",
@@ -4661,13 +4676,17 @@
         "gh-datadog-8329276",
         "gh-datadog-8329282",
         "gh-datadog-8330344",
+        "gh-datadog-8330644",
         "gh-datadog-8333737",
         "gh-datadog-8334003",
+        "gh-datadog-8334237",
+        "gh-datadog-8334273",
         "gh-datadog-8335047",
         "gh-datadog-8335306",
         "gh-datadog-8336601",
         "gh-datadog-8336757",
-        "gh-datadog-8337954"
+        "gh-datadog-8337954",
+        "gh-datadog-8346056"
       ]
     },
     "mongodb": {
@@ -5394,7 +5413,11 @@
         "gh-mongodb-8331143",
         "gh-mongodb-8331146",
         "gh-mongodb-8331479",
-        "gh-mongodb-8334108"
+        "gh-mongodb-8333381",
+        "gh-mongodb-8334108",
+        "gh-mongodb-8337355",
+        "gh-mongodb-8337357",
+        "gh-mongodb-8345848"
       ]
     },
     "braze": {
@@ -6141,6 +6164,7 @@
         "gh-classpass-4725931006",
         "gh-classpass-4725936006",
         "gh-classpass-4725983006",
+        "gh-classpass-4726028006",
         "gh-classpass-4726086006",
         "gh-classpass-4726091006",
         "gh-classpass-4726287006",
@@ -6322,6 +6346,7 @@
         "gh-justworks-8257433",
         "gh-justworks-8257440",
         "gh-justworks-8257447",
+        "gh-justworks-8259484",
         "gh-justworks-8263097",
         "gh-justworks-8264370",
         "gh-justworks-8265404",
@@ -6348,6 +6373,7 @@
         "gh-justworks-8327557",
         "gh-justworks-8327564",
         "gh-justworks-8327583",
+        "gh-justworks-8334069",
         "gh-justworks-8334413"
       ]
     },
@@ -6458,6 +6484,7 @@
         "gh-appsflyer-8917820002",
         "gh-appsflyer-8921994002",
         "gh-appsflyer-8923149002",
+        "gh-appsflyer-8923224002",
         "gh-appsflyer-8926348002"
       ]
     },
@@ -6596,7 +6623,8 @@
         "gh-glossier-8304650",
         "gh-glossier-8327677",
         "gh-glossier-8327749",
-        "gh-glossier-8327762"
+        "gh-glossier-8327762",
+        "gh-glossier-8346083"
       ]
     },
     "yext": {
@@ -6662,6 +6690,8 @@
         "gh-yext-8296161",
         "gh-yext-8302454",
         "gh-yext-8325444",
+        "gh-yext-8334849",
+        "gh-yext-8334973",
         "gh-yext-8337870"
       ]
     },
@@ -7535,6 +7565,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-02T09:46:28.832684+00:00",
+  "last_run": "2026-11-02T19:50:09.671032+00:00",
   "pending_notifications": []
 }
