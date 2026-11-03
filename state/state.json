@@ -873,6 +873,7 @@
         "gh-doordashusa-8318219",
         "gh-doordashusa-8318300",
         "gh-doordashusa-8319010",
+        "gh-doordashusa-8319022",
         "gh-doordashusa-8319110",
         "gh-doordashusa-8319116",
         "gh-doordashusa-8324659",
@@ -900,7 +901,11 @@
         "gh-doordashusa-8347940",
         "gh-doordashusa-8348372",
         "gh-doordashusa-8348385",
-        "gh-doordashusa-8348911"
+        "gh-doordashusa-8348911",
+        "gh-doordashusa-8350225",
+        "gh-doordashusa-8350324",
+        "gh-doordashusa-8350408",
+        "gh-doordashusa-8350867"
       ]
     },
     "hubspot": {
@@ -1311,6 +1316,7 @@
         "lever-spotify-973b0b71-e8d2-4d7d-9c4b-1c716bd45c8b",
         "lever-spotify-9761af44-be41-43ca-8c01-79cdbb2aef93",
         "lever-spotify-9838a290-bd6a-4233-acc3-bc5e4e6fa9c4",
+        "lever-spotify-9899871a-4307-4367-9f74-039569d7a650",
         "lever-spotify-99860086-49bc-46b4-97ec-99d8993ffffb",
         "lever-spotify-9ce12867-8c84-40c5-be40-d8831ab98925",
         "lever-spotify-9d0ac2f3-1bef-4e8d-a3cb-a3c855d2b2bd",
@@ -1354,6 +1360,7 @@
         "lever-spotify-c114627b-1306-4581-95a8-77d847ee9962",
         "lever-spotify-c152d042-642d-4a48-862b-8be8d6cdc819",
         "lever-spotify-c19b8f17-74f7-42b0-99a6-aced419b5756",
+        "lever-spotify-c2e4daa7-510f-4a30-ad85-a043481d85ac",
         "lever-spotify-c322d068-5b59-4658-b618-bb2a032eeb9b",
         "lever-spotify-c3f6ea23-97d0-4a9a-a9ad-04f1e745d916",
         "lever-spotify-c526c8de-7101-4ae0-b3f2-62d48d575819",
@@ -1979,6 +1986,7 @@
         "wd-coke-Advisor--Customer-Operations_R-146807",
         "wd-coke-Advisor--Employee-Care_R-144690",
         "wd-coke-Alternance-contrleur-de-gestion-H-F-X--1-an-_R-145941",
+        "wd-coke-Alternant-e--Ingnieur-Automatisme---Systme-Industriel--H-F-X--3-ans_R-148629",
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
         "wd-coke-Apprentice_R-146209",
         "wd-coke-Apprentice_R-148283",
@@ -1989,6 +1997,7 @@
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
         "wd-coke-Assistant-Scientist--Stills--GDI_R-146887",
         "wd-coke-Associate-Manager--Soda-Fountain_R-146055",
+        "wd-coke-Associate-Store-Manager_R-148541",
         "wd-coke-Automation-Analyst_R-144804",
         "wd-coke-Automation-Director--APAC_R-146006-1",
         "wd-coke-Automation-Director--LATAM_R-146008-1",
@@ -2132,6 +2141,7 @@
         "wd-coke-Director--Customer-Solutions_R-147452-1",
         "wd-coke-Director--Customer-Strategic-Insights---Foodservice-and-On-Premise_R-146486",
         "wd-coke-Director--Cyber-Asset-Engineer_R-144518",
+        "wd-coke-Director--Data-Enablement---Standards_R-148442",
         "wd-coke-Director--Data-Governance-Product-Data_R-146881",
         "wd-coke-Director--Data-Science_R-144498-1",
         "wd-coke-Director--Data-Solution-Owner_R-145265",
@@ -2168,7 +2178,9 @@
         "wd-coke-Director--Franchise-Operations---North_R-148044",
         "wd-coke-Director--Franchise-Operations---South--SSD---AH-_R-148025",
         "wd-coke-Director--Franchise-Operations---South_R-148045-1",
+        "wd-coke-Director--Franchise-Operations---Total-Portfolio--Chicago-MU_R-148017-1",
         "wd-coke-Director--Franchise-Operations---Total-Portfolio--NorCal-MU_R-148019-1",
+        "wd-coke-Director--Franchise-Operations---Total-Portfolio--San-Diego-MU_R-148018-1",
         "wd-coke-Director--Franchise-Operations---United-Central_R-148034",
         "wd-coke-Director--Franchise-Operations---United-East_R-148033-1",
         "wd-coke-Director--Franchise-Operations---United-West_R-148035",
@@ -2922,6 +2934,7 @@
         "wd-coke-Utilities-Engineer_R-146670",
         "wd-coke-Utility-Engineer_R-147702",
         "wd-coke-Vending-Machine-Technician--at-World-of-Coca-Cola-_R-147478",
+        "wd-coke-Visual-Merchandising---Product-Coordinator_R-148495",
         "wd-coke-Vulnerability-Analyst_R-145657",
         "wd-coke-WMT-MX-Account-Leadership---Sam-s_R-147683",
         "wd-coke-Warehouse-Automation-Manager_R-142742",
@@ -4730,7 +4743,8 @@
         "gh-datadog-8336757",
         "gh-datadog-8337954",
         "gh-datadog-8346056",
-        "gh-datadog-8346246"
+        "gh-datadog-8346246",
+        "gh-datadog-8350419"
       ]
     },
     "mongodb": {
@@ -5261,6 +5275,7 @@
         "gh-mongodb-8173625",
         "gh-mongodb-8173661",
         "gh-mongodb-8173735",
+        "gh-mongodb-8173737",
         "gh-mongodb-8173745",
         "gh-mongodb-8173777",
         "gh-mongodb-8173795",
@@ -5448,9 +5463,11 @@
         "gh-mongodb-8313598",
         "gh-mongodb-8314019",
         "gh-mongodb-8318370",
+        "gh-mongodb-8318378",
         "gh-mongodb-8323294",
         "gh-mongodb-8323296",
         "gh-mongodb-8323897",
+        "gh-mongodb-8325357",
         "gh-mongodb-8325493",
         "gh-mongodb-8327081",
         "gh-mongodb-8328176",
@@ -6075,6 +6092,7 @@
         "gh-braze-8324580",
         "gh-braze-8324605",
         "gh-braze-8324607",
+        "gh-braze-8324642",
         "gh-braze-8324808",
         "gh-braze-8324873",
         "gh-braze-8324950",
@@ -6084,16 +6102,22 @@
         "gh-braze-8325175",
         "gh-braze-8327012",
         "gh-braze-8327189",
+        "gh-braze-8327835",
         "gh-braze-8327875",
         "gh-braze-8327879",
         "gh-braze-8327885",
         "gh-braze-8327997",
         "gh-braze-8329145",
         "gh-braze-8331540",
+        "gh-braze-8332388",
+        "gh-braze-8332487",
+        "gh-braze-8332488",
+        "gh-braze-8332495",
         "gh-braze-8333866",
         "gh-braze-8335125",
         "gh-braze-8335128",
         "gh-braze-8335152",
+        "gh-braze-8337115",
         "gh-braze-8337439",
         "gh-braze-8337442",
         "gh-braze-8337451",
@@ -6105,7 +6129,22 @@
         "gh-braze-8347917",
         "gh-braze-8349858",
         "gh-braze-8349878",
-        "gh-braze-8349883"
+        "gh-braze-8349883",
+        "gh-braze-8349922",
+        "gh-braze-8350314",
+        "gh-braze-8350316",
+        "gh-braze-8350318",
+        "gh-braze-8350325",
+        "gh-braze-8350514",
+        "gh-braze-8350519",
+        "gh-braze-8350523",
+        "gh-braze-8350530",
+        "gh-braze-8350579",
+        "gh-braze-8350596",
+        "gh-braze-8350602",
+        "gh-braze-8350782",
+        "gh-braze-8350801",
+        "gh-braze-8350806"
       ]
     },
     "classpass": {
@@ -6939,6 +6978,7 @@
         "gh-movableink-8237020",
         "gh-movableink-8281254",
         "gh-movableink-8303583",
+        "gh-movableink-8306266",
         "gh-movableink-8318136",
         "gh-movableink-8318173",
         "gh-movableink-8337730"
@@ -7442,16 +7482,6 @@
       "fit_reason": "Product Manager role with 2\u20134 years requirement (floor: 2 years); candidate has ~3.5 years substantive growth/marketing ops experience plus internships, demonstrating analytical rigor, campaign design, funnel building, and cross-functional execution\u2014core PM skills; SQL comfort, paid social, lifecycle marketing, and data-driven decision-making all present; agent/automation familiarity via Google Apps Script and AI tooling; no hard exclusions apply."
     },
     {
-      "id": "gh-datadog-8179647",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "GTM Strategy/Operations Associate - New York",
-      "location": "New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/8179647/?gh_jid=8179647",
-      "first_seen": "2026-09-08T20:20:01.283032+00:00",
-      "fit_reason": "GTM Strategy & Operations role at high-growth SaaS company aligns with revenue operations target; candidate's 3+ years of data-driven growth work, cross-functional execution, and analytical problem-solving directly transfer; years requirement (2-4 range) is met at the low end."
-    },
-    {
       "id": "gh-flatironhealth-8128223",
       "company_key": "flatironhealth",
       "company_name": "Flatiron Health",
@@ -7622,6 +7652,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-03T17:13:02.352180+00:00",
+  "last_run": "2026-11-03T22:20:31.350848+00:00",
   "pending_notifications": []
 }
