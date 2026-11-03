@@ -63,6 +63,7 @@
         "gh-doordashusa-6166924",
         "gh-doordashusa-6169266",
         "gh-doordashusa-6249056",
+        "gh-doordashusa-6277386",
         "gh-doordashusa-6333525",
         "gh-doordashusa-6338249",
         "gh-doordashusa-6338457",
@@ -894,7 +895,8 @@
         "gh-doordashusa-8337887",
         "gh-doordashusa-8338024",
         "gh-doordashusa-8346800",
-        "gh-doordashusa-8346813"
+        "gh-doordashusa-8346813",
+        "gh-doordashusa-8346926"
       ]
     },
     "hubspot": {
@@ -1450,6 +1452,7 @@
         "ashby-claylabs-73f9d129-1ea8-43cd-b69a-e08015aa057f",
         "ashby-claylabs-76780902-2017-4fca-ae77-36e696391107",
         "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
+        "ashby-claylabs-7b10120b-78a4-4c7f-95e1-e800f969c539",
         "ashby-claylabs-7bd9060f-12cf-4e5b-af99-681008be6967",
         "ashby-claylabs-7f28a375-eb96-4ff9-a186-387dc709c418",
         "ashby-claylabs-80a86e2b-e875-43fb-8b36-8a2c70a0e5b0",
@@ -1532,6 +1535,7 @@
         "wd-snapchat-Agency-Lead_R0046998-1",
         "wd-snapchat-Agency-Partner_R0045546-2",
         "wd-snapchat-Application-Engineer---Level-4_R0047209-1",
+        "wd-snapchat-Application-Engineer--CRM-Technology--Level-4_R0047426-1",
         "wd-snapchat-Applications-Engineer--Level-3_R0047210-1",
         "wd-snapchat-Art-Director--SPECS-Marketing_R0046647-1",
         "wd-snapchat-Art-Director_R0046610-1",
@@ -1740,6 +1744,7 @@
         "wd-snapchat-Product-Design-Engineer_R0045464-2",
         "wd-snapchat-Product-Design-Engineer_R0047101-1",
         "wd-snapchat-Product-Design-Engineer_R0047231-1",
+        "wd-snapchat-Product-Manager--Ads-Product---Brand_R0047422",
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
@@ -1911,6 +1916,7 @@
         "wd-snapchat-Staff-Product-Manager--Spotlight-Monetization---Ad-Marketplace-Growth_R0046922-1",
         "wd-snapchat-Staff-Product-Quality-Engineer_R0047220-2",
         "wd-snapchat-Staff-Research-Scientist--User-Modeling-and-Personalization_R0046120-1",
+        "wd-snapchat-Staff-Security-Engineer--Identity-Access-Management_R0047425-1",
         "wd-snapchat-Staff-Security-Engineer--Level-6--Application-Security_R0047388-1",
         "wd-snapchat-Staff-Software-Engineer--Ads-Signals-and-Measurement_R0047095-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
@@ -2376,6 +2382,7 @@
         "wd-coke-Manager--Field-Execution---Specialty-Retail_R-145227-1",
         "wd-coke-Manager--Finance---Internal-Audit_R-143653-1",
         "wd-coke-Manager--Finance---Retail-Sales_R-145084",
+        "wd-coke-Manager--Financial-Systems_R-147874",
         "wd-coke-Manager--Formula-Intelligence--R-D_R-143126",
         "wd-coke-Manager--Franchise-Finance-SCCL_R-148345-1",
         "wd-coke-Manager--Global-Adult-Sparkling---ARTD--Technical-Consumer-Data-Research_R-146211",
@@ -2458,6 +2465,7 @@
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
         "wd-coke-Production-Operator---PTC_R-146571",
         "wd-coke-Production-Operator---Packaging---Nights_R-147881",
+        "wd-coke-Production-Operator---Packaging_R-148432",
         "wd-coke-Production-Operator---Training-Facilitator--M-F--11pm---7-30am-_R-145295",
         "wd-coke-Production-Operator--Filler--Day-Shift-_R-147709",
         "wd-coke-Production-Operator--Filling---Day-Shift--7am---7pm-_R-145400",
@@ -2491,6 +2499,7 @@
         "wd-coke-Production-Technician--2nd-Shift_R-145823",
         "wd-coke-Production-Technician--2nd-shift---2696-HR-_R-147705",
         "wd-coke-Production-Technician--2nd-shift--2696-HR-_R-146918",
+        "wd-coke-Production-Technician--3rd-Shift---2696_R-148240",
         "wd-coke-Production-Technician--M-F--7a-3-30p-_R-147354",
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-141237",
         "wd-coke-Production-Technician--M-F-7a-3-30p--Min--24-HR-_R-145822",
@@ -2515,6 +2524,7 @@
         "wd-coke-Quality-Assurance---Tech-II_R-145037",
         "wd-coke-Quality-Assurance-Technician---Night-Shift--2450-HR_R-145139",
         "wd-coke-Quality-Assurance-Technician-Night-Shift--2450_R-145067",
+        "wd-coke-Quality-Facilitator_R-148493",
         "wd-coke-RGM-Product-Tech-Lead_R-145115",
         "wd-coke-Recruitment-Analyst_R-144710",
         "wd-coke-Recycling-Technician--Forklift-Exp-Preferred---Night-Shift_R-146430",
@@ -3407,6 +3417,7 @@
         "ashby-runway-ml-ad77d776-ff58-4d04-b6ad-20bdd6d91929",
         "ashby-runway-ml-ae62647f-7ec4-4383-a5ff-d37d73580062",
         "ashby-runway-ml-aec67956-59a4-4633-9faa-0f0a41c48e4c",
+        "ashby-runway-ml-b03fbac5-d23d-4300-ae62-68d6cece1d9b",
         "ashby-runway-ml-b283e7c0-944a-4d4e-be69-49875008c738",
         "ashby-runway-ml-b3b7f8e1-c252-4f61-baaf-c7ab6bfa9572",
         "ashby-runway-ml-b5d136bb-4143-400b-914a-0ae7377ad8ed",
@@ -4686,7 +4697,8 @@
         "gh-datadog-8336601",
         "gh-datadog-8336757",
         "gh-datadog-8337954",
-        "gh-datadog-8346056"
+        "gh-datadog-8346056",
+        "gh-datadog-8346246"
       ]
     },
     "mongodb": {
@@ -6374,7 +6386,8 @@
         "gh-justworks-8327564",
         "gh-justworks-8327583",
         "gh-justworks-8334069",
-        "gh-justworks-8334413"
+        "gh-justworks-8334413",
+        "gh-justworks-8336968"
       ]
     },
     "appsflyer": {
@@ -6786,9 +6799,11 @@
         "ashby-away-441140c4-ceb6-4998-a27a-a288ef8792ec",
         "ashby-away-44d27755-b0e4-4820-be3e-609640727c2d",
         "ashby-away-44fae3fa-930e-4bae-b19e-32448c57a156",
+        "ashby-away-4606241f-d9f4-4059-a76e-6c10f2359bf6",
         "ashby-away-4d854963-10ac-47b5-9f85-3a5cff8b723d",
         "ashby-away-4db8cc00-a880-4efa-ae55-cf2036bd9948",
         "ashby-away-587fce6e-2136-4ce4-99bf-441d612a1046",
+        "ashby-away-592e6ca0-c98a-4a54-b128-bbcb028ca7b7",
         "ashby-away-5a7960f7-b39f-44e7-a818-3553bbb4d978",
         "ashby-away-5efa4c40-c299-483a-a224-9b1cb72935e0",
         "ashby-away-5fd07648-ea65-4eb3-bf1a-b66951463e8a",
@@ -7295,16 +7310,6 @@
       "fit_reason": "Product Marketing Manager is a core target title; candidate meets the 3-year floor with ~3.5 years of growth/marketing hybrid work demonstrating positioning, campaign launches, funnel optimization, and cross-functional execution\u2014transferable PMM skills despite different industry context."
     },
     {
-      "id": "gh-appsflyer-8531937002",
-      "company_key": "appsflyer",
-      "company_name": "AppsFlyer",
-      "title": "GTM Specialist, North America ",
-      "location": "San Francisco",
-      "url": "https://careers.appsflyer.com/jobs/position/8531937002?gh_jid=8531937002",
-      "first_seen": "2026-08-24T22:14:01.814304+00:00",
-      "fit_reason": "Revenue operations role aligned with candidate's target; 2-year floor is met by ~3.5 years of analytical, data-driven operations/marketing hybrid work at Chick-fil-A; AI-native mindset, Salesforce exposure, and cross-functional GTM experience demonstrated; single unfamiliar tools (Gong, Looker, Outreach, Clay) are learnable and shouldn't block an otherwise strong fit."
-    },
-    {
       "id": "gh-thirdlove-8588571002",
       "company_key": "thirdlove",
       "company_name": "ThirdLove",
@@ -7565,6 +7570,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-02T19:50:09.671032+00:00",
+  "last_run": "2026-11-03T01:59:47.778144+00:00",
   "pending_notifications": []
 }
