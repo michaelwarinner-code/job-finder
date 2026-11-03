@@ -896,7 +896,11 @@
         "gh-doordashusa-8338024",
         "gh-doordashusa-8346800",
         "gh-doordashusa-8346813",
-        "gh-doordashusa-8346926"
+        "gh-doordashusa-8346926",
+        "gh-doordashusa-8347940",
+        "gh-doordashusa-8348372",
+        "gh-doordashusa-8348385",
+        "gh-doordashusa-8348911"
       ]
     },
     "hubspot": {
@@ -1316,6 +1320,7 @@
         "lever-spotify-a0fa7da3-4c3c-4fa2-97bd-7d6eb01eb9e5",
         "lever-spotify-a32243c0-dbd2-4552-9360-ab04b983f766",
         "lever-spotify-a343f789-bb7f-41eb-bd85-d7c6b45bda67",
+        "lever-spotify-a3c9129a-2160-4f3b-a2b5-d07868074aa1",
         "lever-spotify-a4b0ebfd-86e2-4fe4-8c3e-3773220224d0",
         "lever-spotify-a4c49acb-a095-4452-ad9e-69e4b778c256",
         "lever-spotify-a57db22d-dc0d-4f36-9a2e-34acdf1ec046",
@@ -2011,6 +2016,7 @@
         "wd-coke-CPS-SG-Financial-Analyst_R-145011",
         "wd-coke-CPS-SG-Integrated-Management-Systems-Specialist--6-months-contract-_R-145526",
         "wd-coke-CPS-SG-Inventory-Controller_R-144078",
+        "wd-coke-CPS-SG-Lab-Technician--1-Year-Contract-_R-148339",
         "wd-coke-CPS-SG-Lab-Technician--1-year-contract-_R-144216",
         "wd-coke-CPS-SG-Master-Data-Specialist--9-months-contract-_R-147002",
         "wd-coke-CPS-SG-Process-QA-Specialist_R-143467",
@@ -2781,6 +2787,7 @@
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
         "wd-coke-Senior-Manager--Legal-Counsel---CPS-and-Irish-Entities_R-145021",
+        "wd-coke-Senior-Manager--Marketing---Consumer-Experience--CRM---1PD-_R-148518",
         "wd-coke-Senior-Manager--Marketing---Emerging-Categories_R-146848",
         "wd-coke-Senior-Manager--Marketing-Finance--Investment-Management_R-146755-1",
         "wd-coke-Senior-Manager--Material-Operations---Sourcing---Japan-Korea_R-135730",
@@ -5420,6 +5427,7 @@
         "gh-mongodb-8325493",
         "gh-mongodb-8327081",
         "gh-mongodb-8328176",
+        "gh-mongodb-8328316",
         "gh-mongodb-8328622",
         "gh-mongodb-8328627",
         "gh-mongodb-8331143",
@@ -6032,6 +6040,7 @@
         "gh-braze-8315913",
         "gh-braze-8315917",
         "gh-braze-8315921",
+        "gh-braze-8324191",
         "gh-braze-8324568",
         "gh-braze-8324580",
         "gh-braze-8324605",
@@ -7570,6 +7579,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-03T01:59:47.778144+00:00",
+  "last_run": "2026-11-03T09:24:58.356876+00:00",
   "pending_notifications": []
 }
