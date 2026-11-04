@@ -1473,6 +1473,7 @@
         "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
         "ashby-claylabs-7b10120b-78a4-4c7f-95e1-e800f969c539",
         "ashby-claylabs-7bd9060f-12cf-4e5b-af99-681008be6967",
+        "ashby-claylabs-7d362dfe-02b5-48a6-bce3-67f9de9724d0",
         "ashby-claylabs-7f28a375-eb96-4ff9-a186-387dc709c418",
         "ashby-claylabs-80a86e2b-e875-43fb-8b36-8a2c70a0e5b0",
         "ashby-claylabs-80dcacfb-0a59-42b0-a38d-49abaf51716c",
@@ -2814,6 +2815,7 @@
         "wd-coke-Senior-Manager--Industrial-Design_R-147677-1",
         "wd-coke-Senior-Manager--Industry-Insights_R-146014",
         "wd-coke-Senior-Manager--Insights_R-144275",
+        "wd-coke-Senior-Manager--Integrated-Marketing--6-Month-Contract-_R-148149",
         "wd-coke-Senior-Manager--Integrated-Marketing-Experience--IMX----EPICS--Philippines-_R-134941",
         "wd-coke-Senior-Manager--Integration---Japan_R-144484",
         "wd-coke-Senior-Manager--Legal-Counsel---CPS-and-Irish-Entities_R-145021",
@@ -3006,6 +3008,7 @@
         "ashby-perplexity-3938a587-e8ba-4cdf-a811-1f58072b51e3",
         "ashby-perplexity-39d520eb-6b81-4b61-8b23-5efcdac4cad9",
         "ashby-perplexity-3b349a2f-360e-44e6-a57d-6a87bc3016a7",
+        "ashby-perplexity-3b523d3a-23bd-4887-8e3c-239d14d66b06",
         "ashby-perplexity-3b6ad2b6-4310-48f1-a71f-dc344c94f2b0",
         "ashby-perplexity-3c16733a-07d1-42d9-ac54-ff9065f702cf",
         "ashby-perplexity-3c656963-876a-458d-bca6-916a42a24c1a",
@@ -3250,6 +3253,7 @@
         "ashby-cursor-2ba388d9-8cb1-4738-a9a2-37d97fc17216",
         "ashby-cursor-2bbe9f02-83a5-4173-98be-9085d1cb5693",
         "ashby-cursor-2bc45647-93ff-497e-8db9-9b4f42d17240",
+        "ashby-cursor-2c7fafcd-0e0a-489a-a54f-20f84f8e55a4",
         "ashby-cursor-2ca532ac-da2a-4f45-ba60-fe4de80ca821",
         "ashby-cursor-2e98f028-1b77-4537-aeee-e2962668c970",
         "ashby-cursor-32350e7d-b6c8-4556-b8ba-3e58490f7cb7",
@@ -4742,6 +4746,8 @@
         "gh-datadog-8336601",
         "gh-datadog-8336757",
         "gh-datadog-8337954",
+        "gh-datadog-8345039",
+        "gh-datadog-8345094",
         "gh-datadog-8346056",
         "gh-datadog-8346246",
         "gh-datadog-8350419"
@@ -5477,6 +5483,7 @@
         "gh-mongodb-8328627",
         "gh-mongodb-8331143",
         "gh-mongodb-8331146",
+        "gh-mongodb-8331447",
         "gh-mongodb-8331479",
         "gh-mongodb-8333381",
         "gh-mongodb-8334108",
@@ -6457,6 +6464,7 @@
         "gh-justworks-8268787",
         "gh-justworks-8278345",
         "gh-justworks-8278368",
+        "gh-justworks-8278376",
         "gh-justworks-8279256",
         "gh-justworks-8281729",
         "gh-justworks-8282252",
@@ -6981,6 +6989,7 @@
         "gh-movableink-8306266",
         "gh-movableink-8318136",
         "gh-movableink-8318173",
+        "gh-movableink-8320434",
         "gh-movableink-8337730"
       ]
     },
@@ -7322,16 +7331,6 @@
       "fit_reason": "Strategic account management role with revenue-growth ownership, data-driven optimization, and cross-functional work aligns with candidate's GTM/growth focus; restaurant/hospitality background and AI fluency are strong matches; 3-5+ years floors at 3, which candidate meets."
     },
     {
-      "id": "gh-doordashusa-7984775",
-      "company_key": "doordash",
-      "company_name": "DoorDash",
-      "title": "Customer Success Manager ",
-      "location": "Los Angeles, CA",
-      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7984775",
-      "first_seen": "2026-08-23T23:31:47.552293+00:00",
-      "fit_reason": "Customer Success role focused on adoption, retention, and expansion within existing accounts; candidate meets 3-year floor, has direct experience managing customer segments, building retention/win-back programs, and driving measurable revenue growth in a hospitality context."
-    },
-    {
       "id": "gh-doordashusa-8026972",
       "company_key": "doordash",
       "company_name": "DoorDash",
@@ -7652,6 +7651,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-03T22:20:31.350848+00:00",
+  "last_run": "2026-11-04T02:33:04.646129+00:00",
   "pending_notifications": []
 }
