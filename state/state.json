@@ -898,15 +898,19 @@
         "gh-doordashusa-8346800",
         "gh-doordashusa-8346813",
         "gh-doordashusa-8346926",
+        "gh-doordashusa-8347812",
         "gh-doordashusa-8347940",
         "gh-doordashusa-8348372",
         "gh-doordashusa-8348385",
+        "gh-doordashusa-8348870",
         "gh-doordashusa-8348911",
         "gh-doordashusa-8349894",
         "gh-doordashusa-8350225",
         "gh-doordashusa-8350324",
         "gh-doordashusa-8350408",
-        "gh-doordashusa-8350867"
+        "gh-doordashusa-8350867",
+        "gh-doordashusa-8350965",
+        "gh-doordashusa-8352563"
       ]
     },
     "hubspot": {
@@ -1383,6 +1387,7 @@
         "lever-spotify-d2489df3-87cb-48bb-81af-83aab5f03bdc",
         "lever-spotify-d5628547-6362-470e-8828-7ab565054eaa",
         "lever-spotify-d7c43743-2240-45b6-bc31-33e50cbaba4a",
+        "lever-spotify-d86e7feb-15df-434d-8054-b7fb65010586",
         "lever-spotify-d87833d0-fb78-4794-b45d-3fe5c8274bc8",
         "lever-spotify-d9e57c3c-1c0a-483b-a783-6d1c9f2ce057",
         "lever-spotify-da45648b-3b35-4e4b-81df-31667aa4a76d",
@@ -1392,6 +1397,7 @@
         "lever-spotify-ddcf0836-4443-4954-be31-7466be1eaff2",
         "lever-spotify-df72f34a-50e2-4095-907b-942c3445bbb8",
         "lever-spotify-e04833c0-9cff-4b5e-b217-91a3bcb57051",
+        "lever-spotify-e0ba7aee-1a0a-43ab-a4c0-d8856c6c2ce3",
         "lever-spotify-e2c7bbb8-f873-42c7-811f-0bd45bf452ae",
         "lever-spotify-e74bfb24-55de-4d93-b228-ae38b8fdfbea",
         "lever-spotify-e7b01c1e-4246-4f31-83ea-9219c8b22c83",
@@ -1493,6 +1499,7 @@
         "ashby-claylabs-9f8067d1-61cf-42cd-aad7-0ac54de8b345",
         "ashby-claylabs-a284a622-0736-4558-be7a-76434f0dd147",
         "ashby-claylabs-a6abd176-8afe-4905-a341-15d89f9acd03",
+        "ashby-claylabs-a8584148-6546-4ffa-991c-6f4976376201",
         "ashby-claylabs-a8a6642c-19a9-4d43-ba01-22608fb70e01",
         "ashby-claylabs-ada9ebd0-bbae-40a3-9c6e-b9701369daaa",
         "ashby-claylabs-b17bd432-72e4-4f03-b8db-2fd677c2cfe8",
@@ -2077,6 +2084,7 @@
         "wd-coke-Consultant--Data-Engineering_R-146503-1",
         "wd-coke-Consultant--Data-Science_R-146501-1",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate--APAC_R-146382",
+        "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-APAC_R-148671",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-Americas_R-146380",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-EMEA_R-146383",
         "wd-coke-Consultant--Global-Master-Data-Management_R-146405-1",
@@ -2496,6 +2504,7 @@
         "wd-coke-Product-Portfolio-Specialist--9-months-contract-_R-145343",
         "wd-coke-Product-and-Portfolio-Manager--CPS-NA_R-145032",
         "wd-coke-Production---Inventory-Clerk--Night-Shift--7pm---7am-_R-145896",
+        "wd-coke-Production-Coordinator---Night-Shift_R-148275",
         "wd-coke-Production-Executive_R-148465-1",
         "wd-coke-Production-Machine-Operator--3rd-Shift--Forklift-Exp-PLUS-_R-145232",
         "wd-coke-Production-Manager_R-142694",
@@ -2898,6 +2907,7 @@
         "wd-coke-Senior-Product-Manager--Service-Enablement---Operations_R-146880",
         "wd-coke-Senior-Sales-Manager---Foodservice---On-Premise_R-147047",
         "wd-coke-Senior-Sales-Manager_R-146185",
+        "wd-coke-Senior-Scientist--Ingredient-Quality---Analytical-Science_R-148533",
         "wd-coke-Senior-Specialist--Operational-Excellence-and-Digitalization_R-148463",
         "wd-coke-Software-Engineer--AI-Augmented-Platforms_R-146491-1",
         "wd-coke-Software-Engineer-I---CRM_R-140128",
@@ -3246,6 +3256,7 @@
         "ashby-cursor-1b422774-a090-455f-a8f8-64f68d7f86e5",
         "ashby-cursor-1cfacf1a-4ba7-4e68-9f65-4fb8e3525bde",
         "ashby-cursor-1d2b496f-c867-40ac-9ca7-cba8436ec2c4",
+        "ashby-cursor-1d3a2047-4739-479b-914d-377046f0fd1a",
         "ashby-cursor-1d56ed97-eee3-406d-91e2-7feed88ce6f0",
         "ashby-cursor-1d6dbbb2-a5af-41a6-a70a-ca97690d9313",
         "ashby-cursor-232223c1-913a-4318-982b-1970e2842710",
@@ -3376,6 +3387,7 @@
         "ashby-cursor-d4308a8f-81b7-4f67-b3ae-111bb0d87197",
         "ashby-cursor-d7f1bf1f-b684-4994-9b70-9ce7c78bacd2",
         "ashby-cursor-d90eb6d1-b1cd-44cd-8115-16e466286c9f",
+        "ashby-cursor-daa01e68-4183-43b3-8599-882ea60d7a60",
         "ashby-cursor-dbdccf8f-cc8f-4701-94ea-5d0a33efad80",
         "ashby-cursor-dbefd2a3-0ea7-42ad-a50d-e85ee186267a",
         "ashby-cursor-dc028792-b500-4d2c-87ec-55a84b61d834",
@@ -3919,6 +3931,7 @@
       "is_priority": false,
       "known_job_ids": [
         "gh-spothopper-4005023009",
+        "gh-spothopper-4005979009",
         "gh-spothopper-4006465009",
         "gh-spothopper-4006553009",
         "gh-spothopper-4006554009",
@@ -5382,6 +5395,7 @@
         "gh-mongodb-8231010",
         "gh-mongodb-8231370",
         "gh-mongodb-8231579",
+        "gh-mongodb-8233734",
         "gh-mongodb-8234338",
         "gh-mongodb-8234520",
         "gh-mongodb-8236841",
@@ -5465,6 +5479,7 @@
         "gh-mongodb-8304692",
         "gh-mongodb-8305331",
         "gh-mongodb-8305915",
+        "gh-mongodb-8306274",
         "gh-mongodb-8309811",
         "gh-mongodb-8311246",
         "gh-mongodb-8312165",
@@ -5494,7 +5509,9 @@
         "gh-mongodb-8337355",
         "gh-mongodb-8337357",
         "gh-mongodb-8337727",
-        "gh-mongodb-8345848"
+        "gh-mongodb-8345848",
+        "gh-mongodb-8350841",
+        "gh-mongodb-8353184"
       ]
     },
     "braze": {
@@ -6486,7 +6503,8 @@
         "gh-justworks-8327583",
         "gh-justworks-8334069",
         "gh-justworks-8334413",
-        "gh-justworks-8336968"
+        "gh-justworks-8336968",
+        "gh-justworks-8350843"
       ]
     },
     "appsflyer": {
@@ -6875,7 +6893,8 @@
         "gh-mavenclinic-8888997002",
         "gh-mavenclinic-8907086002",
         "gh-mavenclinic-8908679002",
-        "gh-mavenclinic-8924628002"
+        "gh-mavenclinic-8924628002",
+        "gh-mavenclinic-8929932002"
       ]
     },
     "away": {
@@ -6990,6 +7009,7 @@
         "gh-movableink-8221933",
         "gh-movableink-8237020",
         "gh-movableink-8281254",
+        "gh-movableink-8301175",
         "gh-movableink-8303583",
         "gh-movableink-8306266",
         "gh-movableink-8318136",
@@ -7656,6 +7676,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-04T09:48:36.159195+00:00",
+  "last_run": "2026-11-04T17:36:22.288467+00:00",
   "pending_notifications": []
 }
