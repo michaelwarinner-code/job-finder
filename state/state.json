@@ -910,7 +910,12 @@
         "gh-doordashusa-8350408",
         "gh-doordashusa-8350867",
         "gh-doordashusa-8350965",
-        "gh-doordashusa-8352563"
+        "gh-doordashusa-8351118",
+        "gh-doordashusa-8352563",
+        "gh-doordashusa-8353649",
+        "gh-doordashusa-8353733",
+        "gh-doordashusa-8353930",
+        "gh-doordashusa-8353943"
       ]
     },
     "hubspot": {
@@ -1178,6 +1183,8 @@
         "gh-hubspotjobs-8201644",
         "gh-hubspotjobs-8202868",
         "gh-hubspotjobs-8208201",
+        "gh-hubspotjobs-8209830",
+        "gh-hubspotjobs-8209853",
         "gh-hubspotjobs-8214455",
         "gh-hubspotjobs-8220502",
         "gh-hubspotjobs-8221496",
@@ -1231,6 +1238,7 @@
         "lever-spotify-1cafb489-9cae-4417-b272-832617484de0",
         "lever-spotify-1d7db6ea-59dd-4ebb-86c5-f0f12ee2db92",
         "lever-spotify-1e8c984e-fa8e-4dbb-8f74-6f608ae3bfa1",
+        "lever-spotify-1ee5dcb7-a5fe-465b-91da-d42ebab374c8",
         "lever-spotify-1f56d4be-4e54-441a-ad05-946b9efcc391",
         "lever-spotify-204f6cd7-98a3-4360-87e3-8876adf087da",
         "lever-spotify-2193db3f-77c5-43b8-b030-8f92c9882bf1",
@@ -1526,6 +1534,7 @@
         "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
         "ashby-claylabs-f12393ce-10b3-4d1c-b3fc-1fa643092c2e",
         "ashby-claylabs-f257525f-dfe1-4a88-9bb5-f14891dc37e5",
+        "ashby-claylabs-f439959f-f04c-4346-9422-62a230a14079",
         "ashby-claylabs-f64feda8-7231-4c39-be5f-71a192efc6b9",
         "ashby-claylabs-f8e696cf-55b8-4c0e-80d3-2c03abaa09a4",
         "ashby-claylabs-f90028b7-6c35-4392-824c-105967ccd406",
@@ -1566,6 +1575,7 @@
         "wd-snapchat-Application-Engineer--CRM-Technology--Level-4_R0047426-1",
         "wd-snapchat-Applications-Engineer--Level-3_R0047210-1",
         "wd-snapchat-Art-Director--SPECS-Marketing_R0046647-1",
+        "wd-snapchat-Art-Director--SPECS-Marketing_R0046726-1",
         "wd-snapchat-Art-Director_R0046610-1",
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0046261-1",
         "wd-snapchat-Associate--Global-Ads-GTM-Strategy-and-Operations_R0047077",
@@ -1715,6 +1725,7 @@
         "wd-snapchat-Manager--Client-Partner_H226MCP102-1",
         "wd-snapchat-Manager--Communications--Advertising---B2B-_R0046237-2",
         "wd-snapchat-Manager--Communications_R0047013-2",
+        "wd-snapchat-Manager--Compliance_R0047447-1",
         "wd-snapchat-Manager--Creative-Strategy_R0046374-1",
         "wd-snapchat-Manager--Electrical-Engineering--Devices_R0044345-1",
         "wd-snapchat-Manager--Environmental-Health---Safety--Specs-Operations_R0045982",
@@ -1775,6 +1786,7 @@
         "wd-snapchat-Product-Design-Engineer_R0047101-1",
         "wd-snapchat-Product-Design-Engineer_R0047231-1",
         "wd-snapchat-Product-Manager--Ads-Product---Brand_R0047422",
+        "wd-snapchat-Product-Manager--Bitmoji_R0047452-1",
         "wd-snapchat-Product-Manager--Business-Experience_R0046415-1",
         "wd-snapchat-Product-Manager--Content-Ranking_R0046378-1",
         "wd-snapchat-Product-Manager--Profile---Media-Partner-Experience_R0045989-1",
@@ -2476,6 +2488,7 @@
         "wd-coke-Materials-Operations-Planner--1-year-Contract-_R-144896",
         "wd-coke-Mixing--Blending-Technician--3rd-Shift-7p-3-30a-_R-145635",
         "wd-coke-Mixing-Blending-Operator--Afternoon-Shift--Ontario-California-USA-_R-147003",
+        "wd-coke-Occupational-Safety-Intern_R-148686-1",
         "wd-coke-Office-Administrator---Executive-Support_R-147004",
         "wd-coke-Operational-Excellence-Manager_R-144726",
         "wd-coke-Operations-Process-Improvement-Specialist_R-148237",
@@ -2484,6 +2497,7 @@
         "wd-coke-Packaging-Analyst_R-141183",
         "wd-coke-Packaging-Manager-I-Temporary-Contract-22mths_R-147020",
         "wd-coke-Packaging-Operator-Nights---2152_R-145827",
+        "wd-coke-Packaging-Operator-Nights_R-148546",
         "wd-coke-Paralegal--Eurasia---Middle-East_R-145204-1",
         "wd-coke-People---Culture-Manager_R-138287",
         "wd-coke-Plant-General-Manager---Singapore_R-145210-1",
@@ -2512,6 +2526,7 @@
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
         "wd-coke-Production-Operator---PTC_R-146571",
         "wd-coke-Production-Operator---Packaging---Nights_R-147881",
+        "wd-coke-Production-Operator---Packaging--Day-Shift-_R-148653",
         "wd-coke-Production-Operator---Packaging_R-148432",
         "wd-coke-Production-Operator---Training-Facilitator--M-F--11pm---7-30am-_R-145295",
         "wd-coke-Production-Operator--Filler--Day-Shift-_R-147709",
@@ -2590,6 +2605,7 @@
         "wd-coke-Retail-Execution-Specialist---Londonderry--New-Hampshire_R-148139",
         "wd-coke-Retail-Execution-Specialist---Phoenix--AZ_R-147327-1",
         "wd-coke-Retail-Execution-Specialist---Pittsburgh--PA_R-147604",
+        "wd-coke-Retail-Execution-Specialist---Seattle--WA_R-148528-1",
         "wd-coke-Retail-Execution-Specialist---Tampa--FL_R-143847",
         "wd-coke-Retail-Execution-Specialist---West-Palm-Beach--FL_R-144385",
         "wd-coke-Retail-Execution-Specialist--Greensboro--NC_R-141439",
@@ -2985,6 +3001,7 @@
         "ashby-perplexity-043d6a58-87a1-4e3c-bf47-4dc351b94cf4",
         "ashby-perplexity-04d73be4-8a69-4e62-9b0d-e9b7968cf860",
         "ashby-perplexity-06dcd116-2b07-4f40-869e-06ed540f7614",
+        "ashby-perplexity-0807f77b-4499-498a-b2bf-3cd44d965138",
         "ashby-perplexity-08f1a218-bdff-4cdd-aefe-0d55529b1ece",
         "ashby-perplexity-09a2f0e5-c38c-49ee-a5af-9a179e137a44",
         "ashby-perplexity-0a74edd7-830a-4825-946c-28801a057127",
@@ -3273,6 +3290,7 @@
         "ashby-cursor-32350e7d-b6c8-4556-b8ba-3e58490f7cb7",
         "ashby-cursor-34cecd0c-c392-4454-8ef5-261310541011",
         "ashby-cursor-3551cdaa-cf08-4c04-adbe-a968185bc769",
+        "ashby-cursor-364b0b05-47d8-428a-90b5-210d81fbc950",
         "ashby-cursor-36e69353-0452-4bf6-9f35-b1e7307959a7",
         "ashby-cursor-3752886b-a6e2-402c-ba2a-47d0659ff335",
         "ashby-cursor-38036e7f-d699-4f45-b569-c8a3a5d4c3db",
@@ -3670,6 +3688,7 @@
         "ashby-elevenlabs-66c91741-b009-48ca-8d08-fad475ffc6e6",
         "ashby-elevenlabs-6797aaec-8471-4af2-ae20-534d7089f734",
         "ashby-elevenlabs-68316753-ec69-428d-bd8a-3adea30f7807",
+        "ashby-elevenlabs-683872e5-6c3b-45b8-bece-b632bd94f69a",
         "ashby-elevenlabs-6848ece5-1ce5-4ab4-9dd6-0704cd0f8ecd",
         "ashby-elevenlabs-687394d7-fbf8-49ed-822e-c0690191330c",
         "ashby-elevenlabs-68a1ad0b-d74e-4ebe-b6d0-877c53c9df7f",
@@ -5511,6 +5530,7 @@
         "gh-mongodb-8337727",
         "gh-mongodb-8345848",
         "gh-mongodb-8350841",
+        "gh-mongodb-8352010",
         "gh-mongodb-8353184"
       ]
     },
@@ -6295,7 +6315,8 @@
         "gh-classpass-4726091006",
         "gh-classpass-4726287006",
         "gh-classpass-4726289006",
-        "gh-classpass-4726432006"
+        "gh-classpass-4726432006",
+        "gh-classpass-4726454006"
       ]
     },
     "justworks": {
@@ -6492,6 +6513,7 @@
         "gh-justworks-8285466",
         "gh-justworks-8286381",
         "gh-justworks-8286388",
+        "gh-justworks-8289444",
         "gh-justworks-8292657",
         "gh-justworks-8301835",
         "gh-justworks-8324732",
@@ -6504,6 +6526,7 @@
         "gh-justworks-8334069",
         "gh-justworks-8334413",
         "gh-justworks-8336968",
+        "gh-justworks-8346227",
         "gh-justworks-8350843"
       ]
     },
@@ -6814,6 +6837,7 @@
         "gh-yext-8239441",
         "gh-yext-8249203",
         "gh-yext-8259075",
+        "gh-yext-8261307",
         "gh-yext-8262920",
         "gh-yext-8264517",
         "gh-yext-8267827",
@@ -6894,7 +6918,8 @@
         "gh-mavenclinic-8907086002",
         "gh-mavenclinic-8908679002",
         "gh-mavenclinic-8924628002",
-        "gh-mavenclinic-8929932002"
+        "gh-mavenclinic-8929932002",
+        "gh-mavenclinic-8930894002"
       ]
     },
     "away": {
@@ -7676,6 +7701,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-04T17:36:22.288467+00:00",
+  "last_run": "2026-11-04T22:51:41.288820+00:00",
   "pending_notifications": []
 }
