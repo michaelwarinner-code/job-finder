@@ -917,7 +917,8 @@
         "gh-doordashusa-8353649",
         "gh-doordashusa-8353733",
         "gh-doordashusa-8353930",
-        "gh-doordashusa-8353943"
+        "gh-doordashusa-8353943",
+        "gh-doordashusa-8355717"
       ]
     },
     "hubspot": {
@@ -956,6 +957,7 @@
         "gh-hubspotjobs-5986346",
         "gh-hubspotjobs-5986372",
         "gh-hubspotjobs-5986374",
+        "gh-hubspotjobs-5986399",
         "gh-hubspotjobs-5986408",
         "gh-hubspotjobs-5986409",
         "gh-hubspotjobs-5986418",
@@ -1004,6 +1006,7 @@
         "gh-hubspotjobs-5990858",
         "gh-hubspotjobs-5990863",
         "gh-hubspotjobs-5990867",
+        "gh-hubspotjobs-6023824",
         "gh-hubspotjobs-6046168",
         "gh-hubspotjobs-6046172",
         "gh-hubspotjobs-6158968",
@@ -1194,12 +1197,14 @@
         "gh-hubspotjobs-8223123",
         "gh-hubspotjobs-8223364",
         "gh-hubspotjobs-8236723",
+        "gh-hubspotjobs-8237769",
         "gh-hubspotjobs-8243591",
         "gh-hubspotjobs-8243598",
         "gh-hubspotjobs-8248552",
         "gh-hubspotjobs-8249167",
         "gh-hubspotjobs-8249201",
         "gh-hubspotjobs-8249262",
+        "gh-hubspotjobs-8249534",
         "gh-hubspotjobs-8250907",
         "gh-hubspotjobs-8256926",
         "gh-hubspotjobs-8266540",
@@ -1265,6 +1270,7 @@
         "lever-spotify-337899c1-cf75-4af4-a020-1b2c82347fd6",
         "lever-spotify-34e3828f-db98-486f-a077-cd67ece45be0",
         "lever-spotify-35e07377-d8a5-47b4-b3f1-c443de3c86dd",
+        "lever-spotify-35fb13f5-27fe-40e4-9ec9-61be91e73a2b",
         "lever-spotify-36022b53-40f0-4799-8d8d-4d89998116a3",
         "lever-spotify-3895bc9e-ca1c-433c-8604-b58ae84aa577",
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
@@ -1279,6 +1285,7 @@
         "lever-spotify-481e84f8-9048-4da3-9ad4-e2fba06e005f",
         "lever-spotify-4852ad53-b028-4161-b53b-24c62759257f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
+        "lever-spotify-4c0aa107-bdb7-4061-b2c7-be616e059340",
         "lever-spotify-4e4ab485-06f1-46b1-88e0-44f3fda4b62a",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
         "lever-spotify-53c07681-f798-4f2c-bef6-513c6d027c9e",
@@ -1787,6 +1794,7 @@
         "wd-snapchat-Privacy-Counsel_R0046401-2",
         "wd-snapchat-Privacy-Engineer--Level-4_R0046612-1",
         "wd-snapchat-Process-Technician_R0046105",
+        "wd-snapchat-Producer_R0047467-1",
         "wd-snapchat-Product-Design-Engineer_R0044316-1",
         "wd-snapchat-Product-Design-Engineer_R0045464-2",
         "wd-snapchat-Product-Design-Engineer_R0047101-1",
@@ -2243,6 +2251,7 @@
         "wd-coke-Director--Key-Account-Management--IC-Channels_R-147935-1",
         "wd-coke-Director--Key-Customer-Management--Digital-Commerce---JD_R-136239-1",
         "wd-coke-Director--Key-Customer-Management--Retail---Rising-Retailers_R-148221-1",
+        "wd-coke-Director--Lead-Product-Data-Analyst---Digital_R-148547",
         "wd-coke-Director--Leadership-Communications-and-Engagement_R-143582",
         "wd-coke-Director--Legal-Counsel---CPS---Irish-Entities_R-145820",
         "wd-coke-Director--Legal-Counsel---Global-Marketing-and-Strategic-Partnerships_R-146333",
@@ -2280,6 +2289,7 @@
         "wd-coke-Director--Public-Policy_R-147082-1",
         "wd-coke-Director--QA-Automation-Support_R-145098-1",
         "wd-coke-Director--Quality-Engineering---Customer-and-Commercial_R-134643",
+        "wd-coke-Director--RGM-Multi-Year-Bottler-Planning_R-148586-1",
         "wd-coke-Director--RGM-Product-Experience-Design_R-145096",
         "wd-coke-Director--RGM-Sports-OBPPC_R-145020",
         "wd-coke-Director--Region-Marketing_R-148051-1",
@@ -2302,6 +2312,7 @@
         "wd-coke-Director--Supply-Chain---Caucasus-and-Central-Asia-Region_R-134321",
         "wd-coke-Director--Supply-Chain-Lead-Data-Architect_R-148441",
         "wd-coke-Director--Supply-Chain-Lead-Product-Data-Analyst_R-148439",
+        "wd-coke-Director--Supply-Chain-SAP-Strategy---Enablement_R-148537",
         "wd-coke-Director--Supply-Chain-Warehouse-Architect_R-144433",
         "wd-coke-Director--Sustainability-Strategy_R-146567",
         "wd-coke-Director--Sustainability_R-143238-1",
@@ -3630,6 +3641,7 @@
         "ashby-elevenlabs-33e129a4-b818-4563-932c-719ce49d138a",
         "ashby-elevenlabs-347282a4-74ff-4e56-a92d-3c4249ee6c28",
         "ashby-elevenlabs-34dbe44c-9815-40b2-81f4-91c607fd84b2",
+        "ashby-elevenlabs-34e2d52b-f57a-4833-87a1-0a7b0c4c5532",
         "ashby-elevenlabs-34e9eed1-3fd4-4a25-8f02-dff7f12bebf6",
         "ashby-elevenlabs-356d08ba-6119-4c76-93ad-362ca7283569",
         "ashby-elevenlabs-35813150-a851-4821-b732-a037b4e6c4fe",
@@ -3784,6 +3796,7 @@
         "ashby-elevenlabs-9aca205e-b2bc-405b-85d6-3d2aadbe49b1",
         "ashby-elevenlabs-9c44055f-3246-42ab-8bb6-d89258a8c43a",
         "ashby-elevenlabs-9ce2cd02-c7f2-4705-8b70-accab2f863e1",
+        "ashby-elevenlabs-9d13a6ac-6dfc-4bd1-bd81-d341b576c44e",
         "ashby-elevenlabs-9d731858-01bf-4d42-89e5-5912ae94cf55",
         "ashby-elevenlabs-9dc3f256-3c42-4368-8d7e-ba9a3b3505e7",
         "ashby-elevenlabs-9e546bae-d86e-4f47-82cc-5b7b2ea28e12",
@@ -4799,7 +4812,9 @@
         "gh-datadog-8345094",
         "gh-datadog-8346056",
         "gh-datadog-8346246",
-        "gh-datadog-8350419"
+        "gh-datadog-8347905",
+        "gh-datadog-8350419",
+        "gh-datadog-8355189"
       ]
     },
     "mongodb": {
@@ -5481,6 +5496,7 @@
         "gh-mongodb-8274029",
         "gh-mongodb-8274031",
         "gh-mongodb-8274032",
+        "gh-mongodb-8274035",
         "gh-mongodb-8274059",
         "gh-mongodb-8274765",
         "gh-mongodb-8274968",
@@ -5528,11 +5544,13 @@
         "gh-mongodb-8325357",
         "gh-mongodb-8325493",
         "gh-mongodb-8327081",
+        "gh-mongodb-8327493",
         "gh-mongodb-8328176",
         "gh-mongodb-8328316",
         "gh-mongodb-8328355",
         "gh-mongodb-8328622",
         "gh-mongodb-8328627",
+        "gh-mongodb-8328780",
         "gh-mongodb-8331143",
         "gh-mongodb-8331146",
         "gh-mongodb-8331447",
@@ -5543,10 +5561,13 @@
         "gh-mongodb-8337357",
         "gh-mongodb-8337727",
         "gh-mongodb-8345848",
+        "gh-mongodb-8348261",
         "gh-mongodb-8350841",
         "gh-mongodb-8352010",
         "gh-mongodb-8352883",
-        "gh-mongodb-8353184"
+        "gh-mongodb-8353184",
+        "gh-mongodb-8355408",
+        "gh-mongodb-8355989"
       ]
     },
     "braze": {
@@ -7181,7 +7202,8 @@
         "gh-yotpo-8300785",
         "gh-yotpo-8301582",
         "gh-yotpo-8303527",
-        "gh-yotpo-8303571"
+        "gh-yotpo-8303571",
+        "gh-yotpo-8355055"
       ]
     },
     "flatironhealth": {
@@ -7707,6 +7729,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-05T10:48:50.732175+00:00",
+  "last_run": "2026-11-05T18:20:46.307253+00:00",
   "pending_notifications": []
 }
