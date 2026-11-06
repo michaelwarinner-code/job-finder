@@ -185,6 +185,7 @@
         "gh-doordashusa-7732457",
         "gh-doordashusa-7732483",
         "gh-doordashusa-7735713",
+        "gh-doordashusa-7749114",
         "gh-doordashusa-7750664",
         "gh-doordashusa-7760003",
         "gh-doordashusa-7767373",
@@ -921,7 +922,9 @@
         "gh-doordashusa-8355717",
         "gh-doordashusa-8356499",
         "gh-doordashusa-8356604",
-        "gh-doordashusa-8356727"
+        "gh-doordashusa-8356727",
+        "gh-doordashusa-8359091",
+        "gh-doordashusa-8359503"
       ]
     },
     "hubspot": {
@@ -936,6 +939,7 @@
         "gh-hubspotjobs-5097150",
         "gh-hubspotjobs-5098982",
         "gh-hubspotjobs-5131015",
+        "gh-hubspotjobs-5774221",
         "gh-hubspotjobs-5831802",
         "gh-hubspotjobs-5898882",
         "gh-hubspotjobs-5913304",
@@ -1196,6 +1200,7 @@
         "gh-hubspotjobs-8214455",
         "gh-hubspotjobs-8220502",
         "gh-hubspotjobs-8221496",
+        "gh-hubspotjobs-8222830",
         "gh-hubspotjobs-8223099",
         "gh-hubspotjobs-8223123",
         "gh-hubspotjobs-8223364",
@@ -2153,6 +2158,7 @@
         "wd-coke-Director--ARTD-Business-Development---Canada_R-145140",
         "wd-coke-Director--Applied-AI---Agentic-Solutions_R-145092",
         "wd-coke-Director--Architect--Data---Analytics_R-148286-1",
+        "wd-coke-Director--Beverage-Application---Process-Research_R-136494",
         "wd-coke-Director--Brand---Platform-Innovation---The-McDonald-s-Division--TMD---North-America_R-145246-1",
         "wd-coke-Director--Brand-Innovation-Platform_R-146451-1",
         "wd-coke-Director--Business-Analyst_R-145097",
@@ -2217,6 +2223,7 @@
         "wd-coke-Director--Franchise-Intelligence_R-148039",
         "wd-coke-Director--Franchise-Operations---AH_R-148049",
         "wd-coke-Director--Franchise-Operations---All-Mainstream_R-148036",
+        "wd-coke-Director--Franchise-Operations---Canada_R-148552",
         "wd-coke-Director--Franchise-Operations---Central--SSD---AH-_R-148024",
         "wd-coke-Director--Franchise-Operations---Mainstream_R-148046-1",
         "wd-coke-Director--Franchise-Operations---North--SSD---AH-_R-148023",
@@ -2254,6 +2261,7 @@
         "wd-coke-Director--IT-Supply-Chain---Plant-Maintenance_R-144534",
         "wd-coke-Director--Industry-Insights---Strategy_R-146464",
         "wd-coke-Director--Integrated-Marketing---Advanced-Hydration_R-141499-1",
+        "wd-coke-Director--Integrated-Marketing-Experiences--IMX--Local-Brands--Mexico_R-148655",
         "wd-coke-Director--International-Treasury_R-145047",
         "wd-coke-Director--Japan-System-Performance---Bottler-Excellence_R-146095",
         "wd-coke-Director--Key-Account-Management--IC-Channels_R-147935-1",
@@ -2290,6 +2298,7 @@
         "wd-coke-Director--People-Analytics_R-147312",
         "wd-coke-Director--People-and-Culture_R-147302",
         "wd-coke-Director--People-and-Culture_R-147303-1",
+        "wd-coke-Director--Portfolio-Operations---Merchandising_R-148569",
         "wd-coke-Director--Portfolio-and-Planning---Corporate_R-147301",
         "wd-coke-Director--Portfolio-and-Planning---T-D_R-147316",
         "wd-coke-Director--Product-Life-Cycle-Management_R-145256",
@@ -2297,6 +2306,8 @@
         "wd-coke-Director--Public-Policy_R-147082-1",
         "wd-coke-Director--QA-Automation-Support_R-145098-1",
         "wd-coke-Director--Quality-Engineering---Customer-and-Commercial_R-134643",
+        "wd-coke-Director--RGM-Execution-Walmart-Digital-an-Still_R-148324",
+        "wd-coke-Director--RGM-Franchise-Execution-Southwest_R-148321",
         "wd-coke-Director--RGM-Multi-Year-Bottler-Planning_R-148586-1",
         "wd-coke-Director--RGM-Product-Experience-Design_R-145096",
         "wd-coke-Director--RGM-Sports-OBPPC_R-145020",
@@ -2304,6 +2315,7 @@
         "wd-coke-Director--Region-Order-Management_R-147485",
         "wd-coke-Director--Regulatory---Governance_R-144005",
         "wd-coke-Director--Resource-Allocation_R-137458-1",
+        "wd-coke-Director--Revenue-Growth-Management-Franchise-Execution--Florida-_R-148322",
         "wd-coke-Director--Safety---Eurasia---Middle-East_R-146909",
         "wd-coke-Director--Sales---Albertsons_R-145064",
         "wd-coke-Director--Scientific---Regulatory-Affairs---Nutrition_R-147450",
@@ -2743,6 +2755,7 @@
         "wd-coke-Senior-Director--Global-Marketing-Procurement_R-138986",
         "wd-coke-Senior-Director--Global-Media-AI-Governance---Investment-Integrity_R-145072-1",
         "wd-coke-Senior-Director--Global-Product-Integrations---ASEAN---South-Pacific_R-144516-1",
+        "wd-coke-Senior-Director--Global-Product-Integrations-Europe_R-146514-1",
         "wd-coke-Senior-Director--Global-Product-Integrations-GCM_R-144511-1",
         "wd-coke-Senior-Director--HR-Policy-and-Compliance_R-147296-1",
         "wd-coke-Senior-Director--Hydration---Advanced-Hydration--Global-Development---Innovation_R-136011",
@@ -2771,6 +2784,7 @@
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Sourcing-and-Procurement_R-145460",
         "wd-coke-Senior-Director--Public-Affairs--Communications-and-Sustainability---Trkiye_R-146360",
         "wd-coke-Senior-Director--QA-Automation-Lead_R-145117-1",
+        "wd-coke-Senior-Director--RGM-Customer-Execution-Walmart---Ecomm_R-148585",
         "wd-coke-Senior-Director--RGM-Product-AI-Engineering_R-145116",
         "wd-coke-Senior-Director--RGM-Product-Transformation-Lead_R-145114",
         "wd-coke-Senior-Director--RGM-Retail-Strategy_R-147168-1",
@@ -2794,8 +2808,12 @@
         "wd-coke-Senior-Director--Tax_R-147742-1",
         "wd-coke-Senior-Director--Vendor-Management---Governance-Lead_R-147717",
         "wd-coke-Senior-Director--smartwater_R-146065",
+        "wd-coke-Senior-Director-I--RGM-Value-Realization_R-148319-1",
+        "wd-coke-Senior-Director-I--Revenue-Growth-Management-Execution-CR---Planning--Northeast-Corridor-_R-148323",
+        "wd-coke-Senior-Director-I--Revenue-Growth-Management-Franchise-Execution-United_R-148320",
         "wd-coke-Senior-Director-I--Scientific---Regulatory-Affairs---Compliance---Innovation_R-143590",
         "wd-coke-Senior-Director-II--Engineering---Southeast_R-147871",
+        "wd-coke-Senior-Director-II--RGM-OBPPC-E-Commerce_R-148312-1",
         "wd-coke-Senior-Director-II--Specialty-Retail_R-145774-1",
         "wd-coke-Senior-Director-Modern-Trade-and-Customer-Strategy_R-147119",
         "wd-coke-Senior-Director-Occupational-Safety-LATAM_R-146686",
@@ -2838,12 +2856,14 @@
         "wd-coke-Senior-Manager--Content-Data-and-Integration_R-144553",
         "wd-coke-Senior-Manager--Controls--Policies-and-Governance_R-143680",
         "wd-coke-Senior-Manager--Corporate-Communications_R-147992",
+        "wd-coke-Senior-Manager--Corporate-Communications_R-148707",
         "wd-coke-Senior-Manager--Customer-Innovation--Global-Development---Innovation_R-143922-1",
         "wd-coke-Senior-Manager--Customer-Service-Bottler-Network_R-147486",
         "wd-coke-Senior-Manager--Customer-Service-FSOP_R-147487",
         "wd-coke-Senior-Manager--Cybersecurity_R-146493-1",
         "wd-coke-Senior-Manager--Data-Architecture--Streaming-_R-144557",
         "wd-coke-Senior-Manager--Data-Governance_R-144499-1",
+        "wd-coke-Senior-Manager--Data-Governance_R-148615",
         "wd-coke-Senior-Manager--Data-Product-Management---Japan_R-144508-1",
         "wd-coke-Senior-Manager--Data-Science-and-Agentic-AI_R-144496",
         "wd-coke-Senior-Manager--Digital--SAF_R-135116-1",
@@ -4277,6 +4297,7 @@
         "gh-datadog-7807783",
         "gh-datadog-7809909",
         "gh-datadog-7811537",
+        "gh-datadog-7811662",
         "gh-datadog-7815616",
         "gh-datadog-7834545",
         "gh-datadog-7843331",
@@ -4832,7 +4853,9 @@
         "gh-datadog-8346246",
         "gh-datadog-8347905",
         "gh-datadog-8350419",
-        "gh-datadog-8355189"
+        "gh-datadog-8355189",
+        "gh-datadog-8358479",
+        "gh-datadog-8359339"
       ]
     },
     "mongodb": {
@@ -5059,6 +5082,7 @@
         "gh-mongodb-7974991",
         "gh-mongodb-7975692",
         "gh-mongodb-7975695",
+        "gh-mongodb-7976421",
         "gh-mongodb-7979277",
         "gh-mongodb-7982613",
         "gh-mongodb-7982616",
@@ -5464,6 +5488,7 @@
         "gh-mongodb-8233734",
         "gh-mongodb-8234338",
         "gh-mongodb-8234520",
+        "gh-mongodb-8234586",
         "gh-mongodb-8236841",
         "gh-mongodb-8237572",
         "gh-mongodb-8238617",
@@ -5577,10 +5602,13 @@
         "gh-mongodb-8334108",
         "gh-mongodb-8337355",
         "gh-mongodb-8337357",
+        "gh-mongodb-8337438",
         "gh-mongodb-8337727",
         "gh-mongodb-8340799",
         "gh-mongodb-8345848",
         "gh-mongodb-8348261",
+        "gh-mongodb-8349115",
+        "gh-mongodb-8349239",
         "gh-mongodb-8350841",
         "gh-mongodb-8352010",
         "gh-mongodb-8352433",
@@ -5588,7 +5616,9 @@
         "gh-mongodb-8353184",
         "gh-mongodb-8353315",
         "gh-mongodb-8355408",
-        "gh-mongodb-8355989"
+        "gh-mongodb-8355989",
+        "gh-mongodb-8358879",
+        "gh-mongodb-8359541"
       ]
     },
     "braze": {
@@ -6252,7 +6282,10 @@
         "gh-braze-8350782",
         "gh-braze-8350801",
         "gh-braze-8350806",
-        "gh-braze-8356534"
+        "gh-braze-8355269",
+        "gh-braze-8356534",
+        "gh-braze-8358094",
+        "gh-braze-8358304"
       ]
     },
     "classpass": {
@@ -6379,6 +6412,7 @@
         "gh-classpass-4726454006",
         "gh-classpass-4726534006",
         "gh-classpass-4727320006",
+        "gh-classpass-4727513006",
         "gh-classpass-4727638006"
       ]
     },
@@ -6590,7 +6624,9 @@
         "gh-justworks-8334413",
         "gh-justworks-8336968",
         "gh-justworks-8346227",
-        "gh-justworks-8350843"
+        "gh-justworks-8350843",
+        "gh-justworks-8359307",
+        "gh-justworks-8359309"
       ]
     },
     "appsflyer": {
@@ -7662,16 +7698,6 @@
       "fit_reason": "Account management/partnerships role with strategic, cross-functional execution work (business planning, product testing, partner enablement) aligns with candidate's GTM/revenue-operations target; 3-5 year range floors at 3, which candidate meets; travel/field component is manageable for an early-career bridge role, and core work is relationship/strategy-driven, not pure prospecting."
     },
     {
-      "id": "lever-spotify-29252640-3fc6-4ba9-8dac-2838093bab96",
-      "company_key": "spotify",
-      "company_name": "Spotify",
-      "title": "Performance Marketing Activation Specialist",
-      "location": "New York, NY",
-      "url": "https://jobs.lever.co/spotify/29252640-3fc6-4ba9-8dac-2838093bab96",
-      "first_seen": "2026-10-08T23:59:03.063218+00:00",
-      "fit_reason": "Performance Marketing Activation Specialist is a core target role (performance marketing); candidate meets the 3-year floor with ~3.5 years of increasingly senior marketing/growth work including campaign management, A/B testing, paid social (Meta Ads), analytics, and cross-functional execution; lacks deep Google Search hands-on experience but has demonstrated performance marketing fundamentals, data orientation, and AI/automation skills that transfer directly."
-    },
-    {
       "id": "ashby-claylabs-c78e8cfd-51f2-4450-be13-bfa02f6d9259",
       "company_key": "clay",
       "company_name": "Clay",
@@ -7722,16 +7748,6 @@
       "fit_reason": "GTM enablement and operations role aligns with revenue operations / GTM target; candidate's 3.5 years of cross-functional growth, campaign operations, and data-driven program management directly transfer to onboarding/enablement operations, OKR tracking, and stakeholder coordination\u2014no cold calling, strong analytical/execution fit."
     },
     {
-      "id": "wd-coke-Sales-Manager_R-147267",
-      "company_key": "cocacola",
-      "company_name": "Coca-Cola",
-      "title": "Sales Manager",
-      "location": "US - GA - Atlanta",
-      "url": "https://coke.wd1.myworkdayjobs.com/en-US/coca-cola-careers/job/US---GA---Atlanta/Sales-Manager_R-147267",
-      "first_seen": "2026-10-30T02:39:44.559641+00:00",
-      "fit_reason": "Coca-Cola Sales Manager role meets the candidate's 3-year floor, aligns with revenue operations/sales strategy target, emphasizes account portfolio growth and business planning over cold calling, and the candidate's Chick-fil-A experience demonstrates direct transferable skills in account relationship building, growth strategy, and cross-functional execution\u2014plus the Coca-Cola exception applies."
-    },
-    {
       "id": "ashby-cursor-539edb8a-b82a-48f8-ae7a-5c94fffbfa0a",
       "company_key": "cursor",
       "company_name": "Cursor",
@@ -7762,6 +7778,6 @@
       "fit_reason": "Account Manager role focused on client relationship growth, campaign performance optimization, and data-driven strategy aligns with candidate's demonstrated growth/lifecycle marketing work and analytical skills; 3+ years requirement matches candidate's ~3 years relevant experience."
     }
   ],
-  "last_run": "2026-11-06T03:42:21.284389+00:00",
+  "last_run": "2026-11-06T18:25:16.085882+00:00",
   "pending_notifications": []
 }
