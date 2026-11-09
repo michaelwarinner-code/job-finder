@@ -923,12 +923,15 @@
         "gh-doordashusa-8356499",
         "gh-doordashusa-8356604",
         "gh-doordashusa-8356727",
+        "gh-doordashusa-8358082",
         "gh-doordashusa-8358145",
         "gh-doordashusa-8359091",
         "gh-doordashusa-8359271",
         "gh-doordashusa-8359503",
         "gh-doordashusa-8359599",
-        "gh-doordashusa-8359671"
+        "gh-doordashusa-8359671",
+        "gh-doordashusa-8362725",
+        "gh-doordashusa-8365234"
       ]
     },
     "hubspot": {
@@ -1208,6 +1211,7 @@
         "gh-hubspotjobs-8223099",
         "gh-hubspotjobs-8223123",
         "gh-hubspotjobs-8223364",
+        "gh-hubspotjobs-8225811",
         "gh-hubspotjobs-8236723",
         "gh-hubspotjobs-8237769",
         "gh-hubspotjobs-8243591",
@@ -2000,6 +2004,7 @@
         "wd-snapchat-Staff-Software-Engineer--Ads-Signals-and-Measurement_R0047095-1",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q326SWEB9",
         "wd-snapchat-Staff-Software-Engineer--Backend--Level-6_Q426SWEB9",
+        "wd-snapchat-Staff-Software-Engineer--Content_R0047479-1",
         "wd-snapchat-Staff-Software-Engineer--Core-Infrastructure_R0046092-1",
         "wd-snapchat-Staff-Software-Engineer--Delivery-Platform_R0046999-2",
         "wd-snapchat-Staff-Software-Engineer--Growth-Notifications--Level-6_R0044414-1",
@@ -2330,6 +2335,7 @@
         "wd-coke-Director--Resource-Allocation_R-137458-1",
         "wd-coke-Director--Revenue--Growth-Management-Execution---Albertson-s_R-148325",
         "wd-coke-Director--Revenue-Growth-Management-Franchise-Execution--Florida-_R-148322",
+        "wd-coke-Director--Revenue-Growth-Management-Retail-Strategy---Portfolio_R-148740",
         "wd-coke-Director--Safety---Eurasia---Middle-East_R-146909",
         "wd-coke-Director--Sales---Albertsons_R-145064",
         "wd-coke-Director--Scientific---Regulatory-Affairs---Nutrition_R-147450",
@@ -2437,6 +2443,7 @@
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
         "wd-coke-Lead-Retail-Sales-Associate_R-142512",
         "wd-coke-Legal-Intern_R-146785",
+        "wd-coke-Legal-Trainee---Spain--Spanish---French-Speaking-_R-148504",
         "wd-coke-Logistic-Automation-Maintenance-Engineer_R-148168-1",
         "wd-coke-Logistics-Intern_R-146837",
         "wd-coke-MX-CPS-Lab-Analyst_R-147349",
@@ -2672,6 +2679,7 @@
         "wd-coke-Retail-Lead-Ambassador_R-145828",
         "wd-coke-Retail-Lead-Associate--Coca-Cola-Store--Disney-Springs-_R-144957",
         "wd-coke-Retail-Lead-Associate--Coca-Cola-Store--Disney-Springs-_R-145364",
+        "wd-coke-Retail-Lead-Associate--Coca-Cola-Store-Disney-Springs-_R-148710",
         "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-143188",
         "wd-coke-Retail-Replenishment-and-Warehouse-Receiver-Driver_R-146675-1",
         "wd-coke-Retail-Sales-Associate--Part-Time-_R-143654",
@@ -2796,6 +2804,7 @@
         "wd-coke-Senior-Director--Privacy-Governance---Compliance_R-145736-1",
         "wd-coke-Senior-Director--Procurement-Plastic-Packaging--EMEA_R-147363",
         "wd-coke-Senior-Director--Product---Operations-Lead_R-144512-1",
+        "wd-coke-Senior-Director--Product---Operations-Lead_R-146508-1",
         "wd-coke-Senior-Director--Product-Design_R-145108-1",
         "wd-coke-Senior-Director--Product-Development_R-132385",
         "wd-coke-Senior-Director--Product-Management---Supply-Chain-Order-Fulfillment_R-144756-1",
@@ -3013,6 +3022,7 @@
         "wd-coke-Software-Engineer_R-147407",
         "wd-coke-Software-Engineering-Manager--AI-Platforms_R-146490-1",
         "wd-coke-Solution-Architect---Japan_R-144485",
+        "wd-coke-Specialist--Customer-Service_R-148782",
         "wd-coke-Sr-Data-Engineer---Integrations_R-144556",
         "wd-coke-Sr-Data-Engineer_R-144457",
         "wd-coke-Sr-Data-Engineer_R-144458",
@@ -3178,6 +3188,7 @@
         "ashby-perplexity-7fdc5304-423a-4504-8036-aafbac685486",
         "ashby-perplexity-82ccb259-a9e7-4fb0-bf9a-04be588e015f",
         "ashby-perplexity-846e6848-dfb5-4f60-ac5d-5803f6a5e73d",
+        "ashby-perplexity-849874fd-ccb4-4d7e-8551-29c5a418e2c7",
         "ashby-perplexity-883bd78f-c9cd-4ae5-afbf-b21f16f06a6f",
         "ashby-perplexity-886f4ab3-e691-45ed-b2db-069edf6f5413",
         "ashby-perplexity-89750227-f7fe-4e9f-bcdd-eada353163fd",
@@ -4731,6 +4742,7 @@
         "gh-datadog-8219989",
         "gh-datadog-8220277",
         "gh-datadog-8220473",
+        "gh-datadog-8221611",
         "gh-datadog-8221667",
         "gh-datadog-8222279",
         "gh-datadog-8223272",
@@ -4887,11 +4899,14 @@
         "gh-datadog-8349721",
         "gh-datadog-8350101",
         "gh-datadog-8350419",
+        "gh-datadog-8350824",
         "gh-datadog-8351509",
         "gh-datadog-8354556",
         "gh-datadog-8355189",
         "gh-datadog-8358479",
-        "gh-datadog-8359339"
+        "gh-datadog-8359339",
+        "gh-datadog-8364908",
+        "gh-datadog-8365206"
       ]
     },
     "mongodb": {
@@ -5551,6 +5566,7 @@
         "gh-mongodb-8258710",
         "gh-mongodb-8258712",
         "gh-mongodb-8259719",
+        "gh-mongodb-8259884",
         "gh-mongodb-8260947",
         "gh-mongodb-8262052",
         "gh-mongodb-8262077",
@@ -5618,6 +5634,7 @@
         "gh-mongodb-8313598",
         "gh-mongodb-8314019",
         "gh-mongodb-8318370",
+        "gh-mongodb-8318375",
         "gh-mongodb-8318378",
         "gh-mongodb-8323294",
         "gh-mongodb-8323296",
@@ -5655,6 +5672,7 @@
         "gh-mongodb-8352883",
         "gh-mongodb-8353184",
         "gh-mongodb-8353315",
+        "gh-mongodb-8355268",
         "gh-mongodb-8355408",
         "gh-mongodb-8355989",
         "gh-mongodb-8358879",
@@ -6331,7 +6349,8 @@
         "gh-braze-8358304",
         "gh-braze-8359901",
         "gh-braze-8359913",
-        "gh-braze-8359951"
+        "gh-braze-8359951",
+        "gh-braze-8365269"
       ]
     },
     "classpass": {
@@ -7192,10 +7211,15 @@
         "gh-movableink-8301175",
         "gh-movableink-8303583",
         "gh-movableink-8306266",
+        "gh-movableink-8313117",
+        "gh-movableink-8313321",
         "gh-movableink-8318136",
         "gh-movableink-8318173",
         "gh-movableink-8320434",
-        "gh-movableink-8337730"
+        "gh-movableink-8337730",
+        "gh-movableink-8365279",
+        "gh-movableink-8365288",
+        "gh-movableink-8365324"
       ]
     },
     "thefarmersdog": {
@@ -7387,7 +7411,8 @@
         "gh-flatironhealth-8315844",
         "gh-flatironhealth-8325161",
         "gh-flatironhealth-8337134",
-        "gh-flatironhealth-8356530"
+        "gh-flatironhealth-8356530",
+        "gh-flatironhealth-8363180"
       ]
     },
     "bombas": {
@@ -7828,6 +7853,6 @@
       "fit_reason": "Enterprise demand generation role with paid campaigns, ABM, webinars, and pipeline ownership aligns directly with candidate's growth/performance marketing targets; 3+ years requirement matches candidate's ~3.5 years substantive experience; paid social, campaign optimization, and cross-functional execution are demonstrated strengths."
     }
   ],
-  "last_run": "2026-11-09T05:59:17.662603+00:00",
+  "last_run": "2026-11-09T15:58:08.289091+00:00",
   "pending_notifications": []
 }
