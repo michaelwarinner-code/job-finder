@@ -2451,6 +2451,7 @@
         "wd-coke-Lab-Analyst--Temporal-_R-145260",
         "wd-coke-Lab-Process---Innovation-Specialist_R-146975-1",
         "wd-coke-Laboratory-Analyst_R-145915",
+        "wd-coke-Lead--Construction-Safety_R-148784-6",
         "wd-coke-Lead-Ambassador--Guest-Experience_R-146611-1",
         "wd-coke-Lead-Ambassador--Guest-Experience_R-148108",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
@@ -3455,6 +3456,7 @@
         "ashby-cursor-5ac08fc5-e486-498b-a5b5-991ddb490059",
         "ashby-cursor-5afc044a-00ed-4392-8759-59c7effe179d",
         "ashby-cursor-5aff7957-9655-4cc1-98d8-813e33aeb380",
+        "ashby-cursor-5b744208-cb2c-4c31-9217-e0cbbf8ad7af",
         "ashby-cursor-5df283dc-d53e-4769-9b30-1190a06a9adc",
         "ashby-cursor-5f17ee48-29e8-4f48-bbc4-dc250731250b",
         "ashby-cursor-5f3be2c8-1b47-4074-a61e-7bfeb2ad0536",
@@ -3499,6 +3501,7 @@
         "ashby-cursor-85c98417-583b-412e-b31a-e4052195b703",
         "ashby-cursor-8759ece1-451e-4074-93dd-9d247a648ef7",
         "ashby-cursor-8790d158-7bdc-43c0-bcb1-bbacb6e8f720",
+        "ashby-cursor-87d82c14-ed50-43c9-b8c0-a2e495169148",
         "ashby-cursor-88c6e423-1217-42f0-ada4-8cbaf9c24790",
         "ashby-cursor-88d47f97-0bea-448c-9abb-4720e4acf17a",
         "ashby-cursor-88fce75b-ea16-4f6c-8828-15ed7790bdd7",
@@ -3518,6 +3521,7 @@
         "ashby-cursor-9287df8c-4138-4d75-ae92-cc98d3963856",
         "ashby-cursor-934a1ef1-78e7-408e-aa47-974a930665e5",
         "ashby-cursor-94cc6684-9dbf-43f9-8ffc-405614e64ddd",
+        "ashby-cursor-95dbf92c-6593-4f2b-af1f-7deccf155750",
         "ashby-cursor-9764046f-8303-4fca-8386-4e743dfc8722",
         "ashby-cursor-978087b5-59fa-442f-8b58-97950d7169f7",
         "ashby-cursor-9879627d-b996-4213-bbdf-82a18884015f",
@@ -3576,6 +3580,7 @@
         "ashby-cursor-d02cb5cc-496f-4998-80a7-87c20312c82c",
         "ashby-cursor-d0cf5203-2db2-40b6-b1fe-1656ec288ce3",
         "ashby-cursor-d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
+        "ashby-cursor-d1c5031a-bf6c-48fa-9a6b-26a75136504e",
         "ashby-cursor-d225fc95-a56f-466a-9588-d75a7f38c426",
         "ashby-cursor-d4308a8f-81b7-4f67-b3ae-111bb0d87197",
         "ashby-cursor-d59a1083-dce8-4d51-8a48-aebe31577fc4",
@@ -5630,6 +5635,7 @@
         "gh-mongodb-8234338",
         "gh-mongodb-8234520",
         "gh-mongodb-8234586",
+        "gh-mongodb-8236734",
         "gh-mongodb-8236841",
         "gh-mongodb-8237572",
         "gh-mongodb-8238617",
@@ -6572,7 +6578,8 @@
         "gh-classpass-4727320006",
         "gh-classpass-4727421006",
         "gh-classpass-4727513006",
-        "gh-classpass-4727638006"
+        "gh-classpass-4727638006",
+        "gh-classpass-4728443006"
       ]
     },
     "justworks": {
@@ -6786,7 +6793,8 @@
         "gh-justworks-8350843",
         "gh-justworks-8359307",
         "gh-justworks-8359309",
-        "gh-justworks-8359466"
+        "gh-justworks-8359466",
+        "gh-justworks-8368766"
       ]
     },
     "appsflyer": {
@@ -7560,7 +7568,8 @@
         "gh-cleo-4742841005",
         "gh-cleo-4744339005",
         "gh-cleo-4747888005",
-        "gh-cleo-4747892005"
+        "gh-cleo-4747892005",
+        "gh-cleo-4752959005"
       ]
     },
     "microsoft": {
@@ -7930,6 +7939,6 @@
       "fit_reason": "Account expansion, renewal, and multi-threaded selling within existing customer portfolios aligns with revenue operations and account management targets; candidate's 3+ years at Chick-fil-A demonstrates owned-book growth, retention/win-back campaigns, and cross-functional expansion work that transfers directly to this role's core functions."
     }
   ],
-  "last_run": "2026-11-10T00:03:54.384340+00:00",
+  "last_run": "2026-11-10T07:08:45.846400+00:00",
   "pending_notifications": []
 }
