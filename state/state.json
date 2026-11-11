@@ -946,7 +946,8 @@
         "gh-doordashusa-8372879",
         "gh-doordashusa-8374039",
         "gh-doordashusa-8374064",
-        "gh-doordashusa-8374237"
+        "gh-doordashusa-8374237",
+        "gh-doordashusa-8375008"
       ]
     },
     "hubspot": {
@@ -1414,6 +1415,7 @@
         "lever-spotify-b441bb85-24c0-4ef4-971a-1372952c1c32",
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-b4f6cd01-1d5d-41a9-b287-6d10416da03c",
+        "lever-spotify-b9533f31-7bff-43f6-aaf0-60003f017d88",
         "lever-spotify-ba2760c3-6461-45bf-b67b-0508d10c8659",
         "lever-spotify-ba9d817a-a4aa-4452-ab56-ddd7cbc10943",
         "lever-spotify-babebec3-0061-4c39-a4ad-c51a54d23567",
@@ -3639,6 +3641,7 @@
         "ashby-cursor-d7f1bf1f-b684-4994-9b70-9ce7c78bacd2",
         "ashby-cursor-d90eb6d1-b1cd-44cd-8115-16e466286c9f",
         "ashby-cursor-daa01e68-4183-43b3-8599-882ea60d7a60",
+        "ashby-cursor-db5d0c48-7c24-474d-a662-c960c3770d44",
         "ashby-cursor-dbdccf8f-cc8f-4701-94ea-5d0a33efad80",
         "ashby-cursor-dbefd2a3-0ea7-42ad-a50d-e85ee186267a",
         "ashby-cursor-dc028792-b500-4d2c-87ec-55a84b61d834",
@@ -5840,7 +5843,9 @@
         "gh-mongodb-8360183",
         "gh-mongodb-8360713",
         "gh-mongodb-8360715",
-        "gh-mongodb-8367280"
+        "gh-mongodb-8367280",
+        "gh-mongodb-8368141",
+        "gh-mongodb-8371294"
       ]
     },
     "braze": {
@@ -6515,6 +6520,7 @@
         "gh-braze-8359913",
         "gh-braze-8359951",
         "gh-braze-8365269",
+        "gh-braze-8365280",
         "gh-braze-8366830",
         "gh-braze-8373965",
         "gh-braze-8373990"
@@ -6648,7 +6654,8 @@
         "gh-classpass-4727513006",
         "gh-classpass-4727600006",
         "gh-classpass-4727638006",
-        "gh-classpass-4728443006"
+        "gh-classpass-4728443006",
+        "gh-classpass-4728446006"
       ]
     },
     "justworks": {
@@ -7641,6 +7648,7 @@
         "gh-cleo-4744339005",
         "gh-cleo-4747888005",
         "gh-cleo-4747892005",
+        "gh-cleo-4752752005",
         "gh-cleo-4752959005"
       ]
     },
@@ -7991,6 +7999,6 @@
       "fit_reason": "Account expansion, renewal, and multi-threaded selling within existing customer portfolios aligns with revenue operations and account management targets; candidate's 3+ years at Chick-fil-A demonstrates owned-book growth, retention/win-back campaigns, and cross-functional expansion work that transfers directly to this role's core functions."
     }
   ],
-  "last_run": "2026-11-10T21:24:28.984810+00:00",
+  "last_run": "2026-11-11T01:22:13.770367+00:00",
   "pending_notifications": []
 }
