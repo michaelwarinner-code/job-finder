@@ -985,6 +985,8 @@
         "gh-hubspotjobs-5986326",
         "gh-hubspotjobs-5986345",
         "gh-hubspotjobs-5986346",
+        "gh-hubspotjobs-5986358",
+        "gh-hubspotjobs-5986360",
         "gh-hubspotjobs-5986372",
         "gh-hubspotjobs-5986374",
         "gh-hubspotjobs-5986399",
@@ -1247,6 +1249,7 @@
         "gh-hubspotjobs-8330841",
         "gh-hubspotjobs-8333090",
         "gh-hubspotjobs-8346343",
+        "gh-hubspotjobs-8346345",
         "gh-hubspotjobs-8354521",
         "gh-hubspotjobs-8367283",
         "gh-hubspotjobs-8373973",
@@ -1409,6 +1412,7 @@
         "lever-spotify-a8606ee6-84b9-4677-af2f-b57f1e71fd91",
         "lever-spotify-a88002db-cb15-49f4-a0e7-efc5c79c347b",
         "lever-spotify-a8d3838e-01d8-457e-b21c-a5468c10a116",
+        "lever-spotify-a9d581f9-1361-4227-b230-94a0d6ffdef4",
         "lever-spotify-ab407f05-063e-4bf7-a7fc-be03b4097f14",
         "lever-spotify-abcc8b41-7553-4054-b5eb-8d3e49e00e25",
         "lever-spotify-aca5697a-a87a-415e-8d58-627bb782cce8",
@@ -2178,6 +2182,7 @@
         "wd-coke-Consultant--Data-Engineering_R-146503-1",
         "wd-coke-Consultant--Data-Science_R-146501-1",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate--APAC_R-146382",
+        "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-APAC_R-148667-1",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-APAC_R-148671",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-Americas_R-146380",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate-EMEA_R-146383",
@@ -2319,6 +2324,7 @@
         "wd-coke-Director--Industry-Insights---Strategy_R-146464",
         "wd-coke-Director--Integrated-Marketing---Advanced-Hydration_R-141499-1",
         "wd-coke-Director--Integrated-Marketing-Experiences--IMX--Local-Brands--Mexico_R-148655",
+        "wd-coke-Director--International-Quality-Strategy-Lead---The-McDonald-s-Division_R-148397-1",
         "wd-coke-Director--International-Treasury_R-145047",
         "wd-coke-Director--Japan-System-Performance---Bottler-Excellence_R-146095",
         "wd-coke-Director--Key-Account-Management--IC-Channels_R-147935-1",
@@ -2487,6 +2493,7 @@
         "wd-coke-Lead-Ambassador--Guest-Experience_R-148108",
         "wd-coke-Lead-Retail-Sales-Associate--Stock-Room-_R-145496",
         "wd-coke-Lead-Retail-Sales-Associate_R-142512",
+        "wd-coke-Lead-Wastewater-Operator_R-148851",
         "wd-coke-Legal-Intern_R-146785",
         "wd-coke-Legal-Trainee---Spain--Spanish---French-Speaking-_R-148504",
         "wd-coke-Logistic-Automation-Maintenance-Engineer_R-148168-1",
@@ -2720,6 +2727,7 @@
         "wd-coke-Retail-Execution-Specialist---Knoxville--TN_R-141062",
         "wd-coke-Retail-Execution-Specialist---Londonderry--New-Hampshire_R-148139",
         "wd-coke-Retail-Execution-Specialist---Phoenix--AZ_R-147327-1",
+        "wd-coke-Retail-Execution-Specialist---Phoenix_R-148529",
         "wd-coke-Retail-Execution-Specialist---Pittsburgh--PA_R-147604",
         "wd-coke-Retail-Execution-Specialist---Seattle--WA_R-148528-1",
         "wd-coke-Retail-Execution-Specialist---Tampa--FL_R-143847",
@@ -3046,6 +3054,7 @@
         "wd-coke-Senior-Manager--Visual-Design_R-147449",
         "wd-coke-Senior-Manager--Warehouse-Equipment-Platform-Engineering_R-144870-1",
         "wd-coke-Senior-Manager-Finance_R-147420",
+        "wd-coke-Senior-Manager-Franchise-Operations_R-148765",
         "wd-coke-Senior-Manager-OXXO-Account_R-148500-1",
         "wd-coke-Senior-Manger--Legal-Entity-Controller_R-145366",
         "wd-coke-Senior-Marketing-Director--Coca-Cola-Trademark---Philippines_R-145207",
@@ -5072,7 +5081,9 @@
         "gh-datadog-8359339",
         "gh-datadog-8360403",
         "gh-datadog-8364908",
-        "gh-datadog-8365206"
+        "gh-datadog-8365206",
+        "gh-datadog-8368886",
+        "gh-datadog-8378768"
       ]
     },
     "mongodb": {
@@ -5852,6 +5863,7 @@
         "gh-mongodb-8360183",
         "gh-mongodb-8360713",
         "gh-mongodb-8360715",
+        "gh-mongodb-8367108",
         "gh-mongodb-8367280",
         "gh-mongodb-8368141",
         "gh-mongodb-8371294",
@@ -7203,6 +7215,7 @@
         "gh-yext-8282426",
         "gh-yext-8288963",
         "gh-yext-8296161",
+        "gh-yext-8301609",
         "gh-yext-8302454",
         "gh-yext-8325444",
         "gh-yext-8334849",
@@ -8020,6 +8033,6 @@
       "fit_reason": "Performance marketing, campaign management, and data-driven optimization align with candidate's growth/lifecycle marketing targets; 3+ years experience exceeds the 2-year floor; Salesforce and analytics skills demonstrated; Arabic fluency is a nice-to-have bonus."
     }
   ],
-  "last_run": "2026-11-11T08:01:24.723692+00:00",
+  "last_run": "2026-11-11T16:05:30.842443+00:00",
   "pending_notifications": []
 }
