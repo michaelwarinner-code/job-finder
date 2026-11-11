@@ -161,6 +161,7 @@
         "gh-doordashusa-7580407",
         "gh-doordashusa-7580712",
         "gh-doordashusa-7592588",
+        "gh-doordashusa-7597425",
         "gh-doordashusa-7611520",
         "gh-doordashusa-7612469",
         "gh-doordashusa-7612643",
@@ -923,6 +924,7 @@
         "gh-doordashusa-8355717",
         "gh-doordashusa-8356499",
         "gh-doordashusa-8356604",
+        "gh-doordashusa-8356616",
         "gh-doordashusa-8356727",
         "gh-doordashusa-8358082",
         "gh-doordashusa-8358145",
@@ -947,7 +949,8 @@
         "gh-doordashusa-8374039",
         "gh-doordashusa-8374064",
         "gh-doordashusa-8374237",
-        "gh-doordashusa-8375008"
+        "gh-doordashusa-8375008",
+        "gh-doordashusa-8381364"
       ]
     },
     "hubspot": {
@@ -1234,6 +1237,7 @@
         "gh-hubspotjobs-8225811",
         "gh-hubspotjobs-8236723",
         "gh-hubspotjobs-8237769",
+        "gh-hubspotjobs-8243547",
         "gh-hubspotjobs-8243591",
         "gh-hubspotjobs-8243598",
         "gh-hubspotjobs-8248552",
@@ -2096,12 +2100,14 @@
         "wd-coke-Analyst--Material-Operation-Planning_R-141544-5",
         "wd-coke-Apprentice_R-146209",
         "wd-coke-Apprentice_R-148283",
+        "wd-coke-Aprendiz--Vaga-afirmativa-para-PCD-_R-149012",
         "wd-coke-Area-Owner_R-138105",
         "wd-coke-Assistant-Chemist--Quality-Assurance--Open-Availability-Requested-_R-147114",
         "wd-coke-Assistant-Engineer--Operations_R-141776-1",
         "wd-coke-Assistant-Scientist--Product--GDI_R-146914",
         "wd-coke-Assistant-Scientist--Product-Development--R-D_R-144857",
         "wd-coke-Assistant-Scientist--Stills--GDI_R-146887",
+        "wd-coke-Assistente-Administrativo-de-OE--Temporary----Vaga-afirmativa-para-PCD_R-149002",
         "wd-coke-Associate-Manager--Soda-Fountain_R-146055",
         "wd-coke-Associate-Store-Manager_R-148541",
         "wd-coke-Automation-Analyst_R-144804",
@@ -2179,6 +2185,7 @@
         "wd-coke-Consultant--Business-Operations_R-140475",
         "wd-coke-Consultant--Data---Analytics--NA_R-146600",
         "wd-coke-Consultant--Data---Analytics_R-145069",
+        "wd-coke-Consultant--Data---Digital-Solutions-Engineer_R-148738",
         "wd-coke-Consultant--Data-Engineering_R-146503-1",
         "wd-coke-Consultant--Data-Science_R-146501-1",
         "wd-coke-Consultant--FP-A-Supply-Chain-Corporate--APAC_R-146382",
@@ -2210,6 +2217,7 @@
         "wd-coke-Cybersecurity-Auditor---Identity---Access-Management_R-147639",
         "wd-coke-Cybersecurity-Auditor---Network---Firewall-Management-and-Operational-Technology--OT-_R-147836",
         "wd-coke-Data-Engineer_R-144507-1",
+        "wd-coke-Data-Governance-Lead-LATAM_R-148621",
         "wd-coke-Data-Machine-Learning-Engineer-II_R-147097",
         "wd-coke-Data-Scientist---Global-Equipment-Platforms--Coca-Cola-GEP-_R-143205",
         "wd-coke-Demand-Planning-Specialist_R-146199",
@@ -2229,6 +2237,7 @@
         "wd-coke-Director--Care---PACS-Digital-Services---Japan_R-144521-1",
         "wd-coke-Director--Care---PACS-Digital-Services--NAOU_R-144606",
         "wd-coke-Director--Category-Leadership--Walmart_R-145579",
+        "wd-coke-Director--Category-Strategy---Insights---Walmart--Sam-s-and-Value-Channel_R-148835",
         "wd-coke-Director--Channel---Portfolio--Benelux_R-138608-1",
         "wd-coke-Director--Cloud-Software-Architect_R-147930",
         "wd-coke-Director--Coca-Cola-TradeMark-Marketing-Pakistan_R-142999",
@@ -2642,6 +2651,7 @@
         "wd-coke-Production-Coordinator---Night-Shift_R-148275",
         "wd-coke-Production-Executive_R-148465-1",
         "wd-coke-Production-Machine-Operator--3rd-Shift--Forklift-Exp-PLUS-_R-145232",
+        "wd-coke-Production-Manager-Blending---Nights_R-148562",
         "wd-coke-Production-Manager_R-142694",
         "wd-coke-Production-Manager_R-145528",
         "wd-coke-Production-Operator---3060-hr--Rotating-7am-7pm---7pm-7am-schedule-_R-144947",
@@ -3089,6 +3099,8 @@
         "wd-coke-Software-Engineering-Manager--AI-Platforms_R-146490-1",
         "wd-coke-Solution-Architect---Japan_R-144485",
         "wd-coke-Specialist--Customer-Service_R-148782",
+        "wd-coke-Specialist--Safety_R-148915-4",
+        "wd-coke-Specialist--Sustainability_R-148928",
         "wd-coke-Sr-Data-Engineer---Integrations_R-144556",
         "wd-coke-Sr-Data-Engineer_R-144457",
         "wd-coke-Sr-Data-Engineer_R-144458",
@@ -4405,6 +4417,7 @@
         "gh-datadog-7343626",
         "gh-datadog-7405822",
         "gh-datadog-7405831",
+        "gh-datadog-7405834",
         "gh-datadog-7409175",
         "gh-datadog-7409198",
         "gh-datadog-7409236",
@@ -5076,6 +5089,7 @@
         "gh-datadog-8351509",
         "gh-datadog-8354556",
         "gh-datadog-8355189",
+        "gh-datadog-8356637",
         "gh-datadog-8357178",
         "gh-datadog-8358479",
         "gh-datadog-8359339",
@@ -5822,6 +5836,7 @@
         "gh-mongodb-8325357",
         "gh-mongodb-8325493",
         "gh-mongodb-8327081",
+        "gh-mongodb-8327106",
         "gh-mongodb-8327493",
         "gh-mongodb-8328176",
         "gh-mongodb-8328316",
@@ -5863,12 +5878,14 @@
         "gh-mongodb-8360183",
         "gh-mongodb-8360713",
         "gh-mongodb-8360715",
+        "gh-mongodb-8366823",
         "gh-mongodb-8367108",
         "gh-mongodb-8367280",
         "gh-mongodb-8368141",
         "gh-mongodb-8371294",
         "gh-mongodb-8372135",
-        "gh-mongodb-8372137"
+        "gh-mongodb-8372137",
+        "gh-mongodb-8378846"
       ]
     },
     "braze": {
@@ -6677,6 +6694,7 @@
         "gh-classpass-4727513006",
         "gh-classpass-4727600006",
         "gh-classpass-4727638006",
+        "gh-classpass-4727966006",
         "gh-classpass-4728443006",
         "gh-classpass-4728446006"
       ]
@@ -6893,7 +6911,9 @@
         "gh-justworks-8359307",
         "gh-justworks-8359309",
         "gh-justworks-8359466",
-        "gh-justworks-8368766"
+        "gh-justworks-8368766",
+        "gh-justworks-8373089",
+        "gh-justworks-8375411"
       ]
     },
     "appsflyer": {
@@ -7085,7 +7105,8 @@
         "gh-attentive-4469280009",
         "gh-attentive-4471774009",
         "gh-attentive-4473284009",
-        "gh-attentive-4480576009"
+        "gh-attentive-4480576009",
+        "gh-attentive-4484326009"
       ]
     },
     "glossier": {
@@ -7485,7 +7506,8 @@
         "gh-thefarmersdog-8887933002",
         "gh-thefarmersdog-8888342002",
         "gh-thefarmersdog-8894333002",
-        "gh-thefarmersdog-8917158002"
+        "gh-thefarmersdog-8917158002",
+        "gh-thefarmersdog-8937798002"
       ]
     },
     "kargo": {
@@ -7602,6 +7624,7 @@
         "gh-flatironhealth-8128712",
         "gh-flatironhealth-8156417",
         "gh-flatironhealth-8162286",
+        "gh-flatironhealth-8189157",
         "gh-flatironhealth-8200990",
         "gh-flatironhealth-8201111",
         "gh-flatironhealth-8210867",
@@ -7673,7 +7696,8 @@
         "gh-cleo-4747888005",
         "gh-cleo-4747892005",
         "gh-cleo-4752752005",
-        "gh-cleo-4752959005"
+        "gh-cleo-4752959005",
+        "gh-cleo-4753532005"
       ]
     },
     "microsoft": {
@@ -8033,6 +8057,6 @@
       "fit_reason": "Performance marketing, campaign management, and data-driven optimization align with candidate's growth/lifecycle marketing targets; 3+ years experience exceeds the 2-year floor; Salesforce and analytics skills demonstrated; Arabic fluency is a nice-to-have bonus."
     }
   ],
-  "last_run": "2026-11-11T16:05:30.842443+00:00",
+  "last_run": "2026-11-11T22:39:10.337923+00:00",
   "pending_notifications": []
 }
