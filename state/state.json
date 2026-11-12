@@ -946,6 +946,7 @@
         "gh-doordashusa-8368010",
         "gh-doordashusa-8371205",
         "gh-doordashusa-8372879",
+        "gh-doordashusa-8373664",
         "gh-doordashusa-8374039",
         "gh-doordashusa-8374064",
         "gh-doordashusa-8374237",
@@ -961,6 +962,8 @@
       "needs_resync": false,
       "is_priority": false,
       "known_job_ids": [
+        "gh-hubspotjobs-4991221",
+        "gh-hubspotjobs-4991223",
         "gh-hubspotjobs-5094673",
         "gh-hubspotjobs-5097150",
         "gh-hubspotjobs-5098982",
@@ -995,6 +998,8 @@
         "gh-hubspotjobs-5986399",
         "gh-hubspotjobs-5986408",
         "gh-hubspotjobs-5986409",
+        "gh-hubspotjobs-5986410",
+        "gh-hubspotjobs-5986411",
         "gh-hubspotjobs-5986418",
         "gh-hubspotjobs-5986419",
         "gh-hubspotjobs-5986425",
@@ -1699,6 +1704,7 @@
         "wd-snapchat-Design-Engineer--Core-Snapchat_R0047473-2",
         "wd-snapchat-Digital-IC-Design-Manager_R0046980-2",
         "wd-snapchat-Digital-IC-Design-Verification-Engineer_R0047100-1",
+        "wd-snapchat-Director--Americas-Marketing_R0047507",
         "wd-snapchat-Director--Corporate---Brand-Communications_R0046250",
         "wd-snapchat-Director--Global-Brand-Experience_R0045380-1",
         "wd-snapchat-Director--Integrity-and-Compliance_R0047157",
@@ -2986,6 +2992,7 @@
         "wd-coke-Senior-Manager--Franchise-Operations---Shandong_R-147694-1",
         "wd-coke-Senior-Manager--Franchise-Stills_R-146445",
         "wd-coke-Senior-Manager--Frontline-Marketing--Iraq_R-134297",
+        "wd-coke-Senior-Manager--Frontline-Marketing--Kazakhstan_R-148899",
         "wd-coke-Senior-Manager--Functional-Ingredient-Research---Application-and-Ingredient-Delivery_R-145918",
         "wd-coke-Senior-Manager--Global-Category---Innovation-Intelligence-Services_R-146513-1",
         "wd-coke-Senior-Manager--Global-Financial-Planning---Analysis_R-145462",
@@ -3506,6 +3513,7 @@
         "ashby-cursor-3b1ec65c-0d2b-43e1-81db-4d33a9a2faa4",
         "ashby-cursor-3d35fde4-b950-40ae-8ed8-aaac9f371693",
         "ashby-cursor-3d9da649-b3e6-4b4c-943d-1d081dae9497",
+        "ashby-cursor-3f5456d1-5ebc-4dab-8e3d-d7ac8ac0b8c9",
         "ashby-cursor-409d6bff-d60c-45b7-8d4c-21f6574010de",
         "ashby-cursor-413e0e15-4b48-4c9c-be9d-85dc46ff60c2",
         "ashby-cursor-41f0d1a2-9449-4980-8592-f23290a9b65e",
@@ -3687,6 +3695,7 @@
         "ashby-cursor-e076ddca-ad40-4dd3-adbc-1da0740a92e6",
         "ashby-cursor-e08262e8-c089-488d-9b59-9e21f7702b64",
         "ashby-cursor-e22c4770-1776-4adb-b347-46b9c2ed9452",
+        "ashby-cursor-e32955ea-a4ed-45c7-a74a-b0f3eb56196c",
         "ashby-cursor-e3ccb495-a8a3-4ff0-a27b-262188abb9df",
         "ashby-cursor-e57836e8-c864-4817-aaa2-1b1263f0a352",
         "ashby-cursor-e5ae8495-1aad-4ac2-ae6f-36c58d936d12",
@@ -4205,6 +4214,7 @@
         "ashby-elevenlabs-f5e4cf91-f444-4b0b-9913-9d749fb9ba85",
         "ashby-elevenlabs-f805267e-2f77-4cdf-8d8a-a3ed5b07e726",
         "ashby-elevenlabs-f80d0420-b6e6-4110-940c-293f64b9761e",
+        "ashby-elevenlabs-f82da674-f6c8-4035-86ef-ff61a7f9cf9c",
         "ashby-elevenlabs-f8b19a29-af85-4a5d-87ae-1ba0a1b6dd9b",
         "ashby-elevenlabs-f9df85c5-bcb0-4d75-9728-775e746a0383",
         "ashby-elevenlabs-fa20a6f3-247a-4dd8-aaf4-f2eb2b58c6b1",
@@ -5626,6 +5636,7 @@
         "gh-mongodb-8168951",
         "gh-mongodb-8169006",
         "gh-mongodb-8170615",
+        "gh-mongodb-8170620",
         "gh-mongodb-8170628",
         "gh-mongodb-8170631",
         "gh-mongodb-8170634",
@@ -5897,7 +5908,12 @@
         "gh-mongodb-8371294",
         "gh-mongodb-8372135",
         "gh-mongodb-8372137",
-        "gh-mongodb-8378846"
+        "gh-mongodb-8378846",
+        "gh-mongodb-8381821",
+        "gh-mongodb-8381869",
+        "gh-mongodb-8381870",
+        "gh-mongodb-8383063",
+        "gh-mongodb-8383136"
       ]
     },
     "braze": {
@@ -6925,7 +6941,9 @@
         "gh-justworks-8359466",
         "gh-justworks-8368766",
         "gh-justworks-8373089",
-        "gh-justworks-8375411"
+        "gh-justworks-8375411",
+        "gh-justworks-8383270",
+        "gh-justworks-8383665"
       ]
     },
     "appsflyer": {
@@ -7112,6 +7130,7 @@
         "gh-attentive-4443888009",
         "gh-attentive-4452679009",
         "gh-attentive-4453769009",
+        "gh-attentive-4454234009",
         "gh-attentive-4456112009",
         "gh-attentive-4463317009",
         "gh-attentive-4463318009",
@@ -7246,6 +7265,7 @@
         "gh-yext-8264517",
         "gh-yext-8267827",
         "gh-yext-8282372",
+        "gh-yext-8282396",
         "gh-yext-8282426",
         "gh-yext-8288963",
         "gh-yext-8296161",
@@ -7456,6 +7476,7 @@
         "gh-movableink-8318173",
         "gh-movableink-8320434",
         "gh-movableink-8337730",
+        "gh-movableink-8348548",
         "gh-movableink-8353176",
         "gh-movableink-8365279",
         "gh-movableink-8365288",
@@ -7891,16 +7912,6 @@
       "fit_reason": "CSM role managing existing restaurant portfolio with expansion/retention focus, strong analytical and campaign-optimization components, and direct restaurant/SMB experience alignment; candidate meets 3-year floor and demonstrates transferable portfolio management, data-driven optimization, and restaurant domain expertise from Chick-fil-A."
     },
     {
-      "id": "gh-datadog-8171303",
-      "company_key": "datadog",
-      "company_name": "Datadog",
-      "title": "GTM Strategy/Operations Associate",
-      "location": "New York, New York, USA",
-      "url": "https://careers.datadoghq.com/detail/8171303/?gh_jid=8171303",
-      "first_seen": "2026-09-01T19:39:08.651982+00:00",
-      "fit_reason": "GTM Strategy/Operations role aligns directly with revenue operations target; candidate's 3+ years of data-driven growth strategy, quota/planning work, and dashboard building at Chick-fil-A exceeds the 1-3 year requirement; SQL/BI tools are learnable per posting's own language."
-    },
-    {
       "id": "ashby-perplexity-182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
       "company_key": "perplexity",
       "company_name": "Perplexity",
@@ -8069,8 +8080,18 @@
       "url": "https://snapchat.wd1.myworkdayjobs.com/en-US/snap/job/Doha-Qatar/Global-Partnerships-Specialist_R0047501",
       "first_seen": "2026-11-11T08:01:24.723692+00:00",
       "fit_reason": "Performance marketing, campaign management, and data-driven optimization align with candidate's growth/lifecycle marketing targets; 3+ years experience exceeds the 2-year floor; Salesforce and analytics skills demonstrated; Arabic fluency is a nice-to-have bonus."
+    },
+    {
+      "id": "gh-justworks-8383270",
+      "company_key": "justworks",
+      "company_name": "Justworks",
+      "title": "Associate GTM Engineer",
+      "location": "New York, New York",
+      "url": "https://boards.greenhouse.io/justworks/jobs/8383270?gh_jid=8383270",
+      "first_seen": "2026-11-12T19:07:53.628857+00:00",
+      "fit_reason": "GTM operations role with AI/automation focus aligns with candidate's growth/lifecycle/revenue-operations trajectory; 2\u20133 years requirement is met; SQL fundamentals and Google Apps Script automation directly transfer; Salesforce Customer 360 experience is relevant; candidate's demonstrated ability to build internal tools and optimize workflows matches the role's emphasis on engineering away manual work."
     }
   ],
-  "last_run": "2026-11-12T11:39:06.316420+00:00",
+  "last_run": "2026-11-12T19:07:53.628857+00:00",
   "pending_notifications": []
 }
