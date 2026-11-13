@@ -3203,6 +3203,7 @@
         "ashby-perplexity-1523826c-80ca-4e32-95f2-ddd6604afd26",
         "ashby-perplexity-182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
         "ashby-perplexity-18509f15-ab49-450d-8a01-4b280e464ad0",
+        "ashby-perplexity-190962f1-a955-4690-8025-6943dcbf063c",
         "ashby-perplexity-19d535e2-e0f5-42b6-a995-662d69772168",
         "ashby-perplexity-19d8bcfd-e493-4b3a-b8fd-11a2a6502da2",
         "ashby-perplexity-1a3df802-9238-4827-ab1f-12a9d1e4b81c",
@@ -3293,6 +3294,7 @@
         "ashby-perplexity-82ccb259-a9e7-4fb0-bf9a-04be588e015f",
         "ashby-perplexity-846e6848-dfb5-4f60-ac5d-5803f6a5e73d",
         "ashby-perplexity-849874fd-ccb4-4d7e-8551-29c5a418e2c7",
+        "ashby-perplexity-859604e1-9ada-4833-97b3-51fe185b6ff7",
         "ashby-perplexity-883bd78f-c9cd-4ae5-afbf-b21f16f06a6f",
         "ashby-perplexity-886f4ab3-e691-45ed-b2db-069edf6f5413",
         "ashby-perplexity-89750227-f7fe-4e9f-bcdd-eada353163fd",
@@ -3373,6 +3375,7 @@
         "ashby-perplexity-ef269656-94ef-463a-ae0e-6102ca3a94dd",
         "ashby-perplexity-f05bd47b-bed8-4f00-9d9c-026c72578e82",
         "ashby-perplexity-f25e190e-0508-4707-b575-fcaed358dc13",
+        "ashby-perplexity-f32bb0d4-fb91-4fa6-8d7d-bd1a70ce2836",
         "ashby-perplexity-f3814af2-55a3-49a5-b0cb-67199a2a45fb",
         "ashby-perplexity-f3c7ce0d-026e-4b5d-b22d-8b6041746c3d",
         "ashby-perplexity-f4312e0a-7d39-4af9-9a7d-b0fe041a228a",
@@ -5932,7 +5935,8 @@
         "gh-mongodb-8381869",
         "gh-mongodb-8381870",
         "gh-mongodb-8383063",
-        "gh-mongodb-8383136"
+        "gh-mongodb-8383136",
+        "gh-mongodb-8384766"
       ]
     },
     "braze": {
@@ -6610,7 +6614,8 @@
         "gh-braze-8365280",
         "gh-braze-8366830",
         "gh-braze-8373965",
-        "gh-braze-8373990"
+        "gh-braze-8373990",
+        "gh-braze-8384453"
       ]
     },
     "classpass": {
@@ -8111,6 +8116,6 @@
       "fit_reason": "GTM operations role with AI/automation focus aligns with candidate's growth/lifecycle/revenue-operations trajectory; 2\u20133 years requirement is met; SQL fundamentals and Google Apps Script automation directly transfer; Salesforce Customer 360 experience is relevant; candidate's demonstrated ability to build internal tools and optimize workflows matches the role's emphasis on engineering away manual work."
     }
   ],
-  "last_run": "2026-11-13T00:16:58.420518+00:00",
+  "last_run": "2026-11-13T06:56:11.600654+00:00",
   "pending_notifications": []
 }
