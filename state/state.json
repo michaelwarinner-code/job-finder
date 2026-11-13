@@ -956,7 +956,8 @@
         "gh-doordashusa-8383988",
         "gh-doordashusa-8384030",
         "gh-doordashusa-8384127",
-        "gh-doordashusa-8384214"
+        "gh-doordashusa-8384214",
+        "gh-doordashusa-8384411"
       ]
     },
     "hubspot": {
@@ -1257,17 +1258,26 @@
         "gh-hubspotjobs-8249534",
         "gh-hubspotjobs-8250907",
         "gh-hubspotjobs-8256926",
+        "gh-hubspotjobs-8256969",
         "gh-hubspotjobs-8266540",
         "gh-hubspotjobs-8266546",
         "gh-hubspotjobs-8316770",
+        "gh-hubspotjobs-8330617",
         "gh-hubspotjobs-8330841",
         "gh-hubspotjobs-8333090",
         "gh-hubspotjobs-8346343",
         "gh-hubspotjobs-8346345",
+        "gh-hubspotjobs-8351667",
         "gh-hubspotjobs-8354521",
+        "gh-hubspotjobs-8355637",
+        "gh-hubspotjobs-8355639",
+        "gh-hubspotjobs-8355641",
+        "gh-hubspotjobs-8355643",
         "gh-hubspotjobs-8367283",
         "gh-hubspotjobs-8373973",
-        "gh-hubspotjobs-8373974"
+        "gh-hubspotjobs-8373974",
+        "gh-hubspotjobs-8382758",
+        "gh-hubspotjobs-8385439"
       ]
     },
     "spotify": {
@@ -1429,11 +1439,13 @@
         "lever-spotify-a9d581f9-1361-4227-b230-94a0d6ffdef4",
         "lever-spotify-ab407f05-063e-4bf7-a7fc-be03b4097f14",
         "lever-spotify-abcc8b41-7553-4054-b5eb-8d3e49e00e25",
+        "lever-spotify-ac7b1bb0-2300-47a4-8d9d-f80e9392bd19",
         "lever-spotify-aca5697a-a87a-415e-8d58-627bb782cce8",
         "lever-spotify-ae44a3a6-ce50-45c1-9a17-76644c0a234d",
         "lever-spotify-b12565d7-30fb-4eee-84df-9ea90da70174",
         "lever-spotify-b27f51aa-9702-486b-ba24-157263d623e9",
         "lever-spotify-b441bb85-24c0-4ef4-971a-1372952c1c32",
+        "lever-spotify-b459a23c-18bd-43f6-a8fa-2a3165c8dac7",
         "lever-spotify-b4ad9572-e20f-4185-a284-99d9740d04f0",
         "lever-spotify-b4f6cd01-1d5d-41a9-b287-6d10416da03c",
         "lever-spotify-b9533f31-7bff-43f6-aaf0-60003f017d88",
@@ -1731,6 +1743,7 @@
         "wd-snapchat-Enterprise-Partner-Development-Manager_R0045910-1",
         "wd-snapchat-Equipement-Engineer_R0045386-1",
         "wd-snapchat-Executive-Assistant---1-year-FTC_R0047053-1",
+        "wd-snapchat-Executive-Assistant_R0047516",
         "wd-snapchat-Executive-Producer--Global-Studio-Services_R0047397-1",
         "wd-snapchat-Executive-Protection-Specialist_R0044952-1",
         "wd-snapchat-Executive-Protection-Specialist_R0047307-2",
@@ -1752,6 +1765,7 @@
         "wd-snapchat-Group-Product-Marketing-Manager_R0045424-1",
         "wd-snapchat-Group-Product-Marketing-Manager_R0047216-2",
         "wd-snapchat-H010088---Technical-Advertiser-Solutions-Consultant-II_R0047476-1",
+        "wd-snapchat-H010114---Sales-Operations-Associate_R0047513-1",
         "wd-snapchat-Head-of-Growth-Strategy---Operations_R0045740",
         "wd-snapchat-Head-of-Measurement-Partnerships_R0044405",
         "wd-snapchat-Head-of-Public-Policy--Benelux_R0046955",
@@ -1852,6 +1866,7 @@
         "wd-snapchat-Nanophotonics-Engineer_R0045256-1",
         "wd-snapchat-Nanophotonics-Engineer_R0045872-1",
         "wd-snapchat-Network-Engineer_R0047027",
+        "wd-snapchat-Operator--12-Month-FTC-_R0047517-1",
         "wd-snapchat-Optical-Engineer--Waveguide-Experiments_R0046479-1",
         "wd-snapchat-Optical-Engineer_R0047457-1",
         "wd-snapchat-PCB-Design-Engineer_R0045397-1",
@@ -1914,6 +1929,7 @@
         "wd-snapchat-Sales-Operations-Associate_H226SO3-1",
         "wd-snapchat-Sales-Operations-Lead_H226SOL7",
         "wd-snapchat-Sales-Operations-Lead_R0047018-2",
+        "wd-snapchat-Sales-Operations-Lead_R0047515-1",
         "wd-snapchat-Security-Engineer---Threat-Intelligence_R0043738-2",
         "wd-snapchat-Security-Engineer--Level-4_H226SWES2-1",
         "wd-snapchat-Security-Engineer--Level-5--Detection---Response_H226SE6",
@@ -3934,6 +3950,7 @@
         "ashby-elevenlabs-36bdb528-004b-482c-8924-33b27b76121f",
         "ashby-elevenlabs-3717c857-9f59-40fd-b9eb-7d5e507082ee",
         "ashby-elevenlabs-37701c94-715c-40c9-b02f-4a6217552b01",
+        "ashby-elevenlabs-3809888d-a838-420a-8474-d217e48cef88",
         "ashby-elevenlabs-38bac641-02de-414d-96f3-d0adb603cb89",
         "ashby-elevenlabs-38e0b741-5bfa-4481-891e-e95b503d4aff",
         "ashby-elevenlabs-3953e70b-86e8-47a0-9300-3113f64f5d44",
@@ -3990,6 +4007,7 @@
         "ashby-elevenlabs-5da4bb46-0bac-4e35-8731-9e182ad02bee",
         "ashby-elevenlabs-5db6aeaa-1074-41cd-8f2c-10ccfac73918",
         "ashby-elevenlabs-5e43ae90-da6a-4a94-b497-458fd6b160e2",
+        "ashby-elevenlabs-5f83c6ff-bc79-4199-ba59-6abab6d69567",
         "ashby-elevenlabs-60dcd870-86a1-4a00-b892-9ad30fc862f7",
         "ashby-elevenlabs-61192904-2123-48ff-83ad-5e3012d8601b",
         "ashby-elevenlabs-620d2558-77c0-4783-97fb-f51a79e6b392",
@@ -5133,7 +5151,10 @@
         "gh-datadog-8368886",
         "gh-datadog-8377133",
         "gh-datadog-8377430",
-        "gh-datadog-8378768"
+        "gh-datadog-8378413",
+        "gh-datadog-8378768",
+        "gh-datadog-8385200",
+        "gh-datadog-8385205"
       ]
     },
     "mongodb": {
@@ -5888,6 +5909,7 @@
         "gh-mongodb-8331479",
         "gh-mongodb-8333381",
         "gh-mongodb-8334108",
+        "gh-mongodb-8335237",
         "gh-mongodb-8337010",
         "gh-mongodb-8337355",
         "gh-mongodb-8337357",
@@ -5935,6 +5957,7 @@
         "gh-mongodb-8381869",
         "gh-mongodb-8381870",
         "gh-mongodb-8383063",
+        "gh-mongodb-8383089",
         "gh-mongodb-8383136",
         "gh-mongodb-8384766"
       ]
@@ -7682,6 +7705,7 @@
         "gh-flatironhealth-8128712",
         "gh-flatironhealth-8156417",
         "gh-flatironhealth-8162286",
+        "gh-flatironhealth-8171879",
         "gh-flatironhealth-8189157",
         "gh-flatironhealth-8200990",
         "gh-flatironhealth-8201111",
@@ -8116,6 +8140,6 @@
       "fit_reason": "GTM operations role with AI/automation focus aligns with candidate's growth/lifecycle/revenue-operations trajectory; 2\u20133 years requirement is met; SQL fundamentals and Google Apps Script automation directly transfer; Salesforce Customer 360 experience is relevant; candidate's demonstrated ability to build internal tools and optimize workflows matches the role's emphasis on engineering away manual work."
     }
   ],
-  "last_run": "2026-11-13T06:56:11.600654+00:00",
+  "last_run": "2026-11-13T15:09:27.602748+00:00",
   "pending_notifications": []
 }
