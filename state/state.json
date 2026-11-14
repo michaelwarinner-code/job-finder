@@ -1639,6 +1639,7 @@
         "ashby-claylabs-f439959f-f04c-4346-9422-62a230a14079",
         "ashby-claylabs-f64feda8-7231-4c39-be5f-71a192efc6b9",
         "ashby-claylabs-f6bc1d35-d9ce-4b4b-8fa7-fd50398829f2",
+        "ashby-claylabs-f8d2a754-8ac4-4ba8-9c36-ed56184132a7",
         "ashby-claylabs-f8e696cf-55b8-4c0e-80d3-2c03abaa09a4",
         "ashby-claylabs-f90028b7-6c35-4392-824c-105967ccd406",
         "ashby-claylabs-fe6c6fa6-67e0-40e7-bf2c-496134f983d3"
@@ -7818,7 +7819,8 @@
         "gh-cleo-4752032005",
         "gh-cleo-4752752005",
         "gh-cleo-4752959005",
-        "gh-cleo-4753532005"
+        "gh-cleo-4753532005",
+        "gh-cleo-4754360005"
       ]
     },
     "microsoft": {
@@ -8176,8 +8178,18 @@
       "url": "https://boards.greenhouse.io/justworks/jobs/8383270?gh_jid=8383270",
       "first_seen": "2026-11-12T19:07:53.628857+00:00",
       "fit_reason": "GTM operations role with AI/automation focus aligns with candidate's growth/lifecycle/revenue-operations trajectory; 2\u20133 years requirement is met; SQL fundamentals and Google Apps Script automation directly transfer; Salesforce Customer 360 experience is relevant; candidate's demonstrated ability to build internal tools and optimize workflows matches the role's emphasis on engineering away manual work."
+    },
+    {
+      "id": "gh-cleo-4754360005",
+      "company_key": "cleo",
+      "company_name": "Cleo",
+      "title": "Account Executive, Install Base",
+      "location": "Remote -USA",
+      "url": "https://job-boards.greenhouse.io/cleo/jobs/4754360005",
+      "first_seen": "2026-11-14T07:59:01.864954+00:00",
+      "fit_reason": "Account Executive, Install Base is a sales-adjacent commercial role focused on expansion, renewal, and account growth within an existing customer base\u2014directly aligned with the candidate's revenue operations/GTM target and demonstrated account management and lifecycle marketing work at Chick-fil-A; the 3-5 year range floors at 3, which the candidate meets, and the role emphasizes data-driven expansion and AI-assisted analysis rather than cold prospecting."
     }
   ],
-  "last_run": "2026-11-14T01:33:52.492149+00:00",
+  "last_run": "2026-11-14T07:59:01.864954+00:00",
   "pending_notifications": []
 }
