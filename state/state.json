@@ -959,7 +959,9 @@
         "gh-doordashusa-8384127",
         "gh-doordashusa-8384214",
         "gh-doordashusa-8384411",
-        "gh-doordashusa-8386180"
+        "gh-doordashusa-8386082",
+        "gh-doordashusa-8386180",
+        "gh-doordashusa-8386816"
       ]
     },
     "hubspot": {
@@ -3805,6 +3807,7 @@
         "ashby-runway-ml-4ab5877c-1289-439e-a885-8e6942a2409f",
         "ashby-runway-ml-4c1990b2-b2f9-495e-8a35-f9af295c475a",
         "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
+        "ashby-runway-ml-54ae5057-1bd1-4b14-9444-e01e3643f6cc",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
         "ashby-runway-ml-5d5a91ae-b091-425c-96b5-2d4a88d0c796",
         "ashby-runway-ml-5e8d6c9b-0d30-4bb2-90a9-df7d937aa44e",
@@ -6661,9 +6664,11 @@
         "gh-braze-8366830",
         "gh-braze-8373965",
         "gh-braze-8373990",
+        "gh-braze-8380968",
         "gh-braze-8384453",
         "gh-braze-8385668",
         "gh-braze-8385967",
+        "gh-braze-8386030",
         "gh-braze-8386107",
         "gh-braze-8386114"
       ]
@@ -7215,8 +7220,10 @@
         "gh-attentive-4473284009",
         "gh-attentive-4480576009",
         "gh-attentive-4484326009",
+        "gh-attentive-4504231009",
         "gh-attentive-4505506009",
-        "gh-attentive-4507227009"
+        "gh-attentive-4507227009",
+        "gh-attentive-4507440009"
       ]
     },
     "glossier": {
@@ -8171,6 +8178,6 @@
       "fit_reason": "GTM operations role with AI/automation focus aligns with candidate's growth/lifecycle/revenue-operations trajectory; 2\u20133 years requirement is met; SQL fundamentals and Google Apps Script automation directly transfer; Salesforce Customer 360 experience is relevant; candidate's demonstrated ability to build internal tools and optimize workflows matches the role's emphasis on engineering away manual work."
     }
   ],
-  "last_run": "2026-11-13T21:25:08.587341+00:00",
+  "last_run": "2026-11-14T01:33:52.492149+00:00",
   "pending_notifications": []
 }
