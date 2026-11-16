@@ -4483,6 +4483,7 @@
         "gh-datadog-7214964",
         "gh-datadog-7228240",
         "gh-datadog-7232590",
+        "gh-datadog-7244867",
         "gh-datadog-7255532",
         "gh-datadog-7297575",
         "gh-datadog-7314667",
@@ -6676,7 +6677,8 @@
         "gh-braze-8385967",
         "gh-braze-8386030",
         "gh-braze-8386107",
-        "gh-braze-8386114"
+        "gh-braze-8386114",
+        "gh-braze-8391932"
       ]
     },
     "classpass": {
@@ -8196,6 +8198,6 @@
       "fit_reason": "Account Executive, Install Base is a sales-adjacent commercial role focused on expansion, renewal, and account growth within an existing customer base\u2014directly aligned with the candidate's revenue operations/GTM target and demonstrated account management and lifecycle marketing work at Chick-fil-A; the 3-5 year range floors at 3, which the candidate meets, and the role emphasizes data-driven expansion and AI-assisted analysis rather than cold prospecting."
     }
   ],
-  "last_run": "2026-11-16T01:43:10.543982+00:00",
+  "last_run": "2026-11-16T08:37:44.952478+00:00",
   "pending_notifications": []
 }
