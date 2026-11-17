@@ -968,7 +968,9 @@
         "gh-doordashusa-8392708",
         "gh-doordashusa-8392790",
         "gh-doordashusa-8393450",
-        "gh-doordashusa-8394370"
+        "gh-doordashusa-8394370",
+        "gh-doordashusa-8396300",
+        "gh-doordashusa-8396696"
       ]
     },
     "hubspot": {
@@ -1285,6 +1287,7 @@
         "gh-hubspotjobs-8355641",
         "gh-hubspotjobs-8355643",
         "gh-hubspotjobs-8355664",
+        "gh-hubspotjobs-8356758",
         "gh-hubspotjobs-8358993",
         "gh-hubspotjobs-8367283",
         "gh-hubspotjobs-8373973",
@@ -1292,7 +1295,8 @@
         "gh-hubspotjobs-8382758",
         "gh-hubspotjobs-8385439",
         "gh-hubspotjobs-8385609",
-        "gh-hubspotjobs-8385611"
+        "gh-hubspotjobs-8385611",
+        "gh-hubspotjobs-8395598"
       ]
     },
     "spotify": {
@@ -4328,6 +4332,7 @@
       "known_job_ids": [
         "gh-spothopper-4005023009",
         "gh-spothopper-4005979009",
+        "gh-spothopper-4005983009",
         "gh-spothopper-4006465009",
         "gh-spothopper-4006553009",
         "gh-spothopper-4006554009",
@@ -4344,11 +4349,13 @@
         "gh-spothopper-4010210009",
         "gh-spothopper-4012508009",
         "gh-spothopper-4012796009",
+        "gh-spothopper-4012812009",
         "gh-spothopper-4012816009",
         "gh-spothopper-4012876009",
         "gh-spothopper-4012890009",
         "gh-spothopper-4013026009",
         "gh-spothopper-4013029009",
+        "gh-spothopper-4013033009",
         "gh-spothopper-4013073009",
         "gh-spothopper-4013162009",
         "gh-spothopper-4013163009",
@@ -4360,13 +4367,16 @@
         "gh-spothopper-4029292009",
         "gh-spothopper-4030150009",
         "gh-spothopper-4033820009",
+        "gh-spothopper-4050893009",
         "gh-spothopper-4056212009",
         "gh-spothopper-4060403009",
         "gh-spothopper-4060438009",
+        "gh-spothopper-4060618009",
         "gh-spothopper-4064597009",
         "gh-spothopper-4067519009",
         "gh-spothopper-4069850009",
         "gh-spothopper-4071465009",
+        "gh-spothopper-4071470009",
         "gh-spothopper-4101439009",
         "gh-spothopper-4110850009",
         "gh-spothopper-4110853009",
@@ -4400,7 +4410,8 @@
         "gh-spothopper-4430281009",
         "gh-spothopper-4430290009",
         "gh-spothopper-4444242009",
-        "gh-spothopper-4444245009"
+        "gh-spothopper-4444245009",
+        "gh-spothopper-4448687009"
       ]
     },
     "datadog": {
@@ -5970,6 +5981,7 @@
         "gh-mongodb-8348261",
         "gh-mongodb-8349115",
         "gh-mongodb-8349239",
+        "gh-mongodb-8349259",
         "gh-mongodb-8350841",
         "gh-mongodb-8351199",
         "gh-mongodb-8352010",
@@ -5981,6 +5993,7 @@
         "gh-mongodb-8355268",
         "gh-mongodb-8355408",
         "gh-mongodb-8355989",
+        "gh-mongodb-8358101",
         "gh-mongodb-8358879",
         "gh-mongodb-8359541",
         "gh-mongodb-8359903",
@@ -6027,7 +6040,9 @@
         "gh-mongodb-8385839",
         "gh-mongodb-8386087",
         "gh-mongodb-8386495",
-        "gh-mongodb-8393203"
+        "gh-mongodb-8393203",
+        "gh-mongodb-8395479",
+        "gh-mongodb-8396867"
       ]
     },
     "braze": {
@@ -6704,7 +6719,9 @@
         "gh-braze-8359951",
         "gh-braze-8365269",
         "gh-braze-8365280",
+        "gh-braze-8366772",
         "gh-braze-8366830",
+        "gh-braze-8370787",
         "gh-braze-8373965",
         "gh-braze-8373990",
         "gh-braze-8380968",
@@ -7058,6 +7075,7 @@
         "gh-justworks-8327564",
         "gh-justworks-8327583",
         "gh-justworks-8334069",
+        "gh-justworks-8334093",
         "gh-justworks-8334413",
         "gh-justworks-8336968",
         "gh-justworks-8346227",
@@ -7187,6 +7205,7 @@
         "gh-appsflyer-8926348002",
         "gh-appsflyer-8928119002",
         "gh-appsflyer-8929686002",
+        "gh-appsflyer-8937554002",
         "gh-appsflyer-8938973002",
         "gh-appsflyer-8944334002",
         "gh-appsflyer-8944605002"
@@ -7414,6 +7433,7 @@
         "gh-yext-8335083",
         "gh-yext-8337870",
         "gh-yext-8346018",
+        "gh-yext-8360307",
         "gh-yext-8366280",
         "gh-yext-8372630"
       ]
@@ -7489,7 +7509,9 @@
         "gh-mavenclinic-8935207002",
         "gh-mavenclinic-8945207002",
         "gh-mavenclinic-8946493002",
-        "gh-mavenclinic-8946515002"
+        "gh-mavenclinic-8946515002",
+        "gh-mavenclinic-8947884002",
+        "gh-mavenclinic-8948506002"
       ]
     },
     "away": {
@@ -7620,7 +7642,8 @@
         "gh-movableink-8353176",
         "gh-movableink-8365279",
         "gh-movableink-8365288",
-        "gh-movableink-8365324"
+        "gh-movableink-8365324",
+        "gh-movableink-8393164"
       ]
     },
     "thefarmersdog": {
@@ -8267,8 +8290,18 @@
       "url": "https://job-boards.greenhouse.io/bombas/jobs/8331398",
       "first_seen": "2026-11-16T18:53:57.098522+00:00",
       "fit_reason": "Performance Marketing Manager is a core target role (performance marketing); candidate has 3+ years of demonstrated testing, optimization, paid social (Meta Ads), campaign management, data-driven decision-making, and cross-functional collaboration\u2014no years floor stated, and no hard exclusions apply."
+    },
+    {
+      "id": "gh-doordashusa-8396300",
+      "company_key": "doordash",
+      "company_name": "DoorDash",
+      "title": "Senior Associate, Commercial Operations",
+      "location": "San Francisco, CA; New York City, NY; Atlanta, GA; Chicago, IL; Denver, CO;  Washington D.C.; Austin, TX; Phoenix, AZ; Los Angeles, CA; Seattle, WA; Boston, MA",
+      "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8396300",
+      "first_seen": "2026-11-17T19:37:24.886718+00:00",
+      "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-11-17T10:51:08.260605+00:00",
+  "last_run": "2026-11-17T19:37:24.886718+00:00",
   "pending_notifications": []
 }
