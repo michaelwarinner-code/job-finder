@@ -967,7 +967,8 @@
         "gh-doordashusa-8386816",
         "gh-doordashusa-8392708",
         "gh-doordashusa-8392790",
-        "gh-doordashusa-8393450"
+        "gh-doordashusa-8393450",
+        "gh-doordashusa-8394370"
       ]
     },
     "hubspot": {
@@ -1564,6 +1565,7 @@
         "ashby-claylabs-1b1c004f-0e6a-41b6-bac3-971448b63a07",
         "ashby-claylabs-1b3189ed-13b8-4389-bee6-fa080054be3d",
         "ashby-claylabs-1cd80341-4e0d-4db8-890e-ad916ebba1c0",
+        "ashby-claylabs-232ab8c1-36d7-4114-91c1-0f9c9e4064bc",
         "ashby-claylabs-234bb7bc-5cb8-4df9-9fdf-6320d01519d4",
         "ashby-claylabs-235c38ee-4c08-462d-b9b3-eadc156b1810",
         "ashby-claylabs-242be863-2f62-44a7-909d-6c351dee81d1",
@@ -1581,6 +1583,7 @@
         "ashby-claylabs-4b20eb92-c27c-46fb-8d5b-ead32765a7d8",
         "ashby-claylabs-4be52dd6-244b-4e27-bf4a-757a1094a82a",
         "ashby-claylabs-4f064364-a433-4eb2-bb42-4c902d2199d3",
+        "ashby-claylabs-53dc7490-8d61-4a0b-a458-17d732b1fd61",
         "ashby-claylabs-546b27c1-8808-4808-bd98-5c6cad88d88c",
         "ashby-claylabs-5b7eced2-36bd-4265-a2a8-da0f786e47aa",
         "ashby-claylabs-5c842630-800d-4288-977c-d3e6088ebda9",
@@ -3242,6 +3245,7 @@
         "ashby-perplexity-1354f2e8-56c8-4a66-81f8-eb5d5b944506",
         "ashby-perplexity-14a45e74-9cde-4622-8172-1b6968810802",
         "ashby-perplexity-1523826c-80ca-4e32-95f2-ddd6604afd26",
+        "ashby-perplexity-15829848-2f10-4130-9409-415bafe0a028",
         "ashby-perplexity-182ab2ec-6fb1-409b-a2dc-63c7832b0a13",
         "ashby-perplexity-18509f15-ab49-450d-8a01-4b280e464ad0",
         "ashby-perplexity-190962f1-a955-4690-8025-6943dcbf063c",
@@ -3257,6 +3261,7 @@
         "ashby-perplexity-2be717cb-ad3e-4052-a464-79b107a70406",
         "ashby-perplexity-2c5fdd71-472a-4c62-bc53-deafb66e7941",
         "ashby-perplexity-2c6ae16b-d03e-4e33-9d32-362c5388e956",
+        "ashby-perplexity-2cfb391c-eaa4-4a97-83da-18ca275d50a5",
         "ashby-perplexity-2d510148-8cce-4b67-be25-5784106bbff4",
         "ashby-perplexity-2df92d4a-48eb-422f-af9c-4a963fd6135c",
         "ashby-perplexity-2e1ee70c-b070-4ccc-a2bf-8b394161bbde",
@@ -3409,6 +3414,7 @@
         "ashby-perplexity-e028e104-e070-4a62-85f2-ebcf982889ea",
         "ashby-perplexity-e03bf342-0407-45aa-b084-9aaf6939eea5",
         "ashby-perplexity-e0e8188a-9c92-4795-82a5-7384f1b25bc7",
+        "ashby-perplexity-e148b984-eafe-48fa-a679-78a55d371f37",
         "ashby-perplexity-e4777627-ff8f-4257-8612-3a016bb58592",
         "ashby-perplexity-e7ab0be5-68ba-4a2c-abb1-ee33886d955d",
         "ashby-perplexity-e916f0c8-5a31-4bb6-b4e3-7c4a64b95fda",
@@ -5021,6 +5027,7 @@
         "gh-datadog-8221667",
         "gh-datadog-8222279",
         "gh-datadog-8223272",
+        "gh-datadog-8223733",
         "gh-datadog-8223819",
         "gh-datadog-8223855",
         "gh-datadog-8223858",
@@ -5152,6 +5159,7 @@
         "gh-datadog-8329282",
         "gh-datadog-8330344",
         "gh-datadog-8330644",
+        "gh-datadog-8331059",
         "gh-datadog-8333737",
         "gh-datadog-8334003",
         "gh-datadog-8334237",
@@ -5169,6 +5177,7 @@
         "gh-datadog-8345039",
         "gh-datadog-8345094",
         "gh-datadog-8346056",
+        "gh-datadog-8346224",
         "gh-datadog-8346246",
         "gh-datadog-8347905",
         "gh-datadog-8349721",
@@ -5987,6 +5996,7 @@
         "gh-mongodb-8367108",
         "gh-mongodb-8367109",
         "gh-mongodb-8367280",
+        "gh-mongodb-8367498",
         "gh-mongodb-8367902",
         "gh-mongodb-8368141",
         "gh-mongodb-8371294",
@@ -6006,6 +6016,9 @@
         "gh-mongodb-8383089",
         "gh-mongodb-8383136",
         "gh-mongodb-8383215",
+        "gh-mongodb-8383708",
+        "gh-mongodb-8383710",
+        "gh-mongodb-8384213",
         "gh-mongodb-8384442",
         "gh-mongodb-8384766",
         "gh-mongodb-8385636",
@@ -7055,7 +7068,8 @@
         "gh-justworks-8375325",
         "gh-justworks-8375411",
         "gh-justworks-8383270",
-        "gh-justworks-8383665"
+        "gh-justworks-8383665",
+        "gh-justworks-8393792"
       ]
     },
     "appsflyer": {
@@ -7469,7 +7483,8 @@
         "gh-mavenclinic-8929932002",
         "gh-mavenclinic-8930894002",
         "gh-mavenclinic-8932349002",
-        "gh-mavenclinic-8935207002"
+        "gh-mavenclinic-8935207002",
+        "gh-mavenclinic-8945207002"
       ]
     },
     "away": {
@@ -7832,7 +7847,8 @@
         "gh-bombas-8221093",
         "gh-bombas-8318188",
         "gh-bombas-8322128",
-        "gh-bombas-8331398"
+        "gh-bombas-8331398",
+        "gh-bombas-8393747"
       ]
     },
     "cleo": {
@@ -8248,6 +8264,6 @@
       "fit_reason": "Performance Marketing Manager is a core target role (performance marketing); candidate has 3+ years of demonstrated testing, optimization, paid social (Meta Ads), campaign management, data-driven decision-making, and cross-functional collaboration\u2014no years floor stated, and no hard exclusions apply."
     }
   ],
-  "last_run": "2026-11-16T18:53:57.098522+00:00",
+  "last_run": "2026-11-17T02:18:22.679028+00:00",
   "pending_notifications": []
 }
