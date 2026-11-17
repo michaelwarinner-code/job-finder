@@ -3337,6 +3337,7 @@
         "ashby-perplexity-7dedcdea-42be-4bb0-b603-791146ff73f0",
         "ashby-perplexity-7e4a95c3-6322-4300-9455-96c511ab2621",
         "ashby-perplexity-7f2b3619-5ffa-467b-be6f-7a6b7d487892",
+        "ashby-perplexity-7f3dc848-6e0b-4ad1-85bc-d24a30179b74",
         "ashby-perplexity-7f880194-7276-4b46-8a50-58b48da8882e",
         "ashby-perplexity-7fdc5304-423a-4504-8036-aafbac685486",
         "ashby-perplexity-82ccb259-a9e7-4fb0-bf9a-04be588e015f",
@@ -6011,6 +6012,7 @@
         "gh-mongodb-8381898",
         "gh-mongodb-8381910",
         "gh-mongodb-8381920",
+        "gh-mongodb-8381944",
         "gh-mongodb-8383022",
         "gh-mongodb-8383063",
         "gh-mongodb-8383089",
@@ -6618,6 +6620,7 @@
         "gh-braze-8304482",
         "gh-braze-8304484",
         "gh-braze-8306112",
+        "gh-braze-8306114",
         "gh-braze-8306409",
         "gh-braze-8306869",
         "gh-braze-8306881",
@@ -7484,7 +7487,9 @@
         "gh-mavenclinic-8930894002",
         "gh-mavenclinic-8932349002",
         "gh-mavenclinic-8935207002",
-        "gh-mavenclinic-8945207002"
+        "gh-mavenclinic-8945207002",
+        "gh-mavenclinic-8946493002",
+        "gh-mavenclinic-8946515002"
       ]
     },
     "away": {
@@ -8264,6 +8269,6 @@
       "fit_reason": "Performance Marketing Manager is a core target role (performance marketing); candidate has 3+ years of demonstrated testing, optimization, paid social (Meta Ads), campaign management, data-driven decision-making, and cross-functional collaboration\u2014no years floor stated, and no hard exclusions apply."
     }
   ],
-  "last_run": "2026-11-17T02:18:22.679028+00:00",
+  "last_run": "2026-11-17T10:51:08.260605+00:00",
   "pending_notifications": []
 }
