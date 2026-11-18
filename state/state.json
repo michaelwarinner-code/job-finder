@@ -83,6 +83,7 @@
         "gh-doordashusa-6631675",
         "gh-doordashusa-6661519",
         "gh-doordashusa-6679810",
+        "gh-doordashusa-6681604",
         "gh-doordashusa-6682078",
         "gh-doordashusa-6702411",
         "gh-doordashusa-6706184",
@@ -972,7 +973,8 @@
         "gh-doordashusa-8394370",
         "gh-doordashusa-8396300",
         "gh-doordashusa-8396696",
-        "gh-doordashusa-8397297"
+        "gh-doordashusa-8397297",
+        "gh-doordashusa-8399363"
       ]
     },
     "hubspot": {
@@ -1347,6 +1349,7 @@
         "lever-spotify-2517cbbf-5640-4467-a3ae-08577e76bead",
         "lever-spotify-25fac63d-d4ba-48b9-80b1-b8e87b55e448",
         "lever-spotify-281e7db9-86ba-4a1c-8773-c23b96ed32dc",
+        "lever-spotify-288ef608-a1e5-4127-b606-3a9981640f91",
         "lever-spotify-29252640-3fc6-4ba9-8dac-2838093bab96",
         "lever-spotify-29b0056f-f163-4728-a32a-214bcb3232e8",
         "lever-spotify-2a55d6c9-c564-443a-be3e-a3851db5a93b",
@@ -1368,6 +1371,7 @@
         "lever-spotify-3f78e5c3-95c2-4d32-8ad5-54a215ccee0f",
         "lever-spotify-423ab477-2304-4ea4-bb60-7ac04bc9848c",
         "lever-spotify-4310f31c-90e1-4e8d-bdcf-dce39c145b8c",
+        "lever-spotify-436046d9-6ac2-4d0f-92ee-a36d957cb566",
         "lever-spotify-439b6276-df60-4a26-be26-ebdbc0891d4c",
         "lever-spotify-43e0d904-84f7-4cfa-a293-579fb9ac271f",
         "lever-spotify-46c223d0-7b9c-4bff-9035-c0c6cc67bbdf",
@@ -1468,6 +1472,7 @@
         "lever-spotify-aca5697a-a87a-415e-8d58-627bb782cce8",
         "lever-spotify-ae44a3a6-ce50-45c1-9a17-76644c0a234d",
         "lever-spotify-b12565d7-30fb-4eee-84df-9ea90da70174",
+        "lever-spotify-b24fe5e5-dcb2-4238-a883-5fdb6bd404db",
         "lever-spotify-b27f51aa-9702-486b-ba24-157263d623e9",
         "lever-spotify-b441bb85-24c0-4ef4-971a-1372952c1c32",
         "lever-spotify-b459a23c-18bd-43f6-a8fa-2a3165c8dac7",
@@ -1479,6 +1484,7 @@
         "lever-spotify-babebec3-0061-4c39-a4ad-c51a54d23567",
         "lever-spotify-bb2c10a2-2bf8-4b21-901e-48b0e2e09cc8",
         "lever-spotify-bc70c9af-212e-48d5-b00b-eab26e4c0658",
+        "lever-spotify-bcd66391-12eb-4b15-b938-2b5b844e4f2b",
         "lever-spotify-bcdf7880-6ad8-447d-822a-8265a24fd336",
         "lever-spotify-be2d7d1e-939e-47f9-8db7-278caa101a60",
         "lever-spotify-bf0984d7-c54f-4a8a-9a15-f870633d62c0",
@@ -1507,6 +1513,7 @@
         "lever-spotify-d2489df3-87cb-48bb-81af-83aab5f03bdc",
         "lever-spotify-d5628547-6362-470e-8828-7ab565054eaa",
         "lever-spotify-d7c43743-2240-45b6-bc31-33e50cbaba4a",
+        "lever-spotify-d83cbddf-871a-4f9a-9b29-52cd676e2b3c",
         "lever-spotify-d86e7feb-15df-434d-8054-b7fb65010586",
         "lever-spotify-d87833d0-fb78-4794-b45d-3fe5c8274bc8",
         "lever-spotify-d9e57c3c-1c0a-483b-a783-6d1c9f2ce057",
@@ -3703,6 +3710,7 @@
         "ashby-cursor-9d7c8f36-eeb7-4e9f-acbe-d959f6280e46",
         "ashby-cursor-9e81fd85-59cd-4138-8386-6ad768ed6dc1",
         "ashby-cursor-9f1b3e17-4ab5-4d70-acc2-be1d1972b922",
+        "ashby-cursor-9f5d7596-501a-4934-9a25-daba53412e95",
         "ashby-cursor-a4e8f126-9761-4a01-ab21-84e20c8b5de9",
         "ashby-cursor-a4fcfac1-8bf1-4804-a0fb-0ea97037772e",
         "ashby-cursor-a577902e-28e9-4e68-9ee9-91e34d1b59c4",
@@ -3786,6 +3794,7 @@
         "ashby-cursor-eabcff15-deb2-4e5c-a17d-8c36eb7f6c1d",
         "ashby-cursor-eb238291-8a00-4385-8108-4e4d634c2be0",
         "ashby-cursor-ef96e7fc-5d91-48b2-a8af-26dca8caab77",
+        "ashby-cursor-f1857f79-e079-40d8-9a93-05edb771809b",
         "ashby-cursor-f277b2d6-c27e-4cb9-9d0b-644e9730f06c",
         "ashby-cursor-f27e0997-e283-4015-be61-e13d844a2834",
         "ashby-cursor-f2cf204b-f469-4997-9508-f218c5869706",
@@ -3821,6 +3830,7 @@
         "ashby-runway-ml-1045dd51-cdaa-4d3f-9d25-bebce9f40a44",
         "ashby-runway-ml-15b2fbc9-a6a4-4c87-84bb-527f6616cf7d",
         "ashby-runway-ml-1c757b83-d669-4100-9ccd-5d50d7a68986",
+        "ashby-runway-ml-1dba21b4-f123-442d-af97-d8060b7684c7",
         "ashby-runway-ml-2185626a-657a-4772-9519-50b2e7b2af1a",
         "ashby-runway-ml-28e151ac-cb29-4695-9041-a9e352624111",
         "ashby-runway-ml-2975a88e-1519-4094-93a2-b6e66ed1a98c",
@@ -4311,6 +4321,7 @@
         "ashby-elevenlabs-fa20a6f3-247a-4dd8-aaf4-f2eb2b58c6b1",
         "ashby-elevenlabs-fa4fc307-a0fb-47aa-9336-f202f2265440",
         "ashby-elevenlabs-faafe518-01b1-4f17-8600-57eca335aeed",
+        "ashby-elevenlabs-fabef09e-b84d-44a8-a987-a3cdfd99a974",
         "ashby-elevenlabs-faf6f3a3-c215-4f25-aaee-5111dddde3c9",
         "ashby-elevenlabs-fb1fd9cc-bd6d-4895-be29-4bc37d0c31a0",
         "ashby-elevenlabs-fef4499d-6191-43ad-b4f4-e646544f510d",
@@ -4566,6 +4577,7 @@
         "gh-datadog-7466155",
         "gh-datadog-7476847",
         "gh-datadog-7487353",
+        "gh-datadog-7492312",
         "gh-datadog-7496207",
         "gh-datadog-7496237",
         "gh-datadog-7496253",
@@ -5221,7 +5233,8 @@
         "gh-datadog-8378413",
         "gh-datadog-8378768",
         "gh-datadog-8385200",
-        "gh-datadog-8385205"
+        "gh-datadog-8385205",
+        "gh-datadog-8393631"
       ]
     },
     "mongodb": {
@@ -5990,7 +6003,9 @@
         "gh-mongodb-8348261",
         "gh-mongodb-8349115",
         "gh-mongodb-8349239",
+        "gh-mongodb-8349256",
         "gh-mongodb-8349259",
+        "gh-mongodb-8349265",
         "gh-mongodb-8350841",
         "gh-mongodb-8351199",
         "gh-mongodb-8352010",
@@ -6034,6 +6049,7 @@
         "gh-mongodb-8381898",
         "gh-mongodb-8381910",
         "gh-mongodb-8381920",
+        "gh-mongodb-8381934",
         "gh-mongodb-8381944",
         "gh-mongodb-8383022",
         "gh-mongodb-8383063",
@@ -6051,7 +6067,10 @@
         "gh-mongodb-8386495",
         "gh-mongodb-8393203",
         "gh-mongodb-8395479",
-        "gh-mongodb-8396867"
+        "gh-mongodb-8395592",
+        "gh-mongodb-8396867",
+        "gh-mongodb-8398664",
+        "gh-mongodb-8398670"
       ]
     },
     "braze": {
@@ -7849,6 +7868,7 @@
         "gh-flatironhealth-8249709",
         "gh-flatironhealth-8265541",
         "gh-flatironhealth-8292596",
+        "gh-flatironhealth-8304817",
         "gh-flatironhealth-8306279",
         "gh-flatironhealth-8315819",
         "gh-flatironhealth-8315844",
@@ -8316,6 +8336,6 @@
       "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-11-18T09:44:10.433764+00:00",
+  "last_run": "2026-11-18T18:25:55.138204+00:00",
   "pending_notifications": []
 }
