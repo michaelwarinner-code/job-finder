@@ -138,6 +138,7 @@
         "gh-doordashusa-7380096",
         "gh-doordashusa-7394179",
         "gh-doordashusa-7406475",
+        "gh-doordashusa-7430335",
         "gh-doordashusa-7436100",
         "gh-doordashusa-7436104",
         "gh-doordashusa-7454878",
@@ -970,7 +971,8 @@
         "gh-doordashusa-8393450",
         "gh-doordashusa-8394370",
         "gh-doordashusa-8396300",
-        "gh-doordashusa-8396696"
+        "gh-doordashusa-8396696",
+        "gh-doordashusa-8397297"
       ]
     },
     "hubspot": {
@@ -1402,6 +1404,7 @@
         "lever-spotify-759f6c62-e450-4112-9db6-0c01eef47c76",
         "lever-spotify-76458bae-8a16-4c42-8780-f9452206f0e0",
         "lever-spotify-77526d53-3811-4336-9c0d-72f6ac0242c7",
+        "lever-spotify-77d3435e-569e-4644-876d-afc960da8d0a",
         "lever-spotify-785989a6-b219-43b1-92d9-750a67054f24",
         "lever-spotify-785d6398-f58b-430c-b300-7928d1d2f9f6",
         "lever-spotify-7aeec299-4653-4c5d-aafb-d537e1232208",
@@ -3624,6 +3627,7 @@
         "ashby-cursor-61d5c4d4-726e-44fa-b943-6b64ab761a64",
         "ashby-cursor-61e4677d-cf3d-458a-bf6c-02287d5d2c39",
         "ashby-cursor-6222602a-f0ca-4558-8364-06970723e917",
+        "ashby-cursor-62dbe8b8-74d9-464e-b6f0-5370d79332bd",
         "ashby-cursor-635bd64f-b554-4d37-9128-cefad35913af",
         "ashby-cursor-64606b00-0273-4f74-966b-19f3ea01c469",
         "ashby-cursor-646f20fa-9cea-4a23-a245-4339619a5497",
@@ -4156,6 +4160,7 @@
         "ashby-elevenlabs-a03536c8-8728-4007-aef2-460def03173e",
         "ashby-elevenlabs-a0389dc2-77d8-439b-960b-2acb8712991e",
         "ashby-elevenlabs-a1c86d02-e9df-4580-87e4-1333f2b83e94",
+        "ashby-elevenlabs-a1dba952-6682-431c-ac7f-a40b5d4f9ccb",
         "ashby-elevenlabs-a21ec926-88d3-4f95-98be-c551fe1ec49f",
         "ashby-elevenlabs-a2910e63-1dcc-4da2-a8ee-bc2a044e4613",
         "ashby-elevenlabs-a3097257-a07a-4a7e-b9fe-b8555c1a0fa7",
@@ -4188,6 +4193,7 @@
         "ashby-elevenlabs-b28719ff-833d-49b4-8286-f59082732186",
         "ashby-elevenlabs-b36c7a45-a888-49b5-9130-584eb7c2aa95",
         "ashby-elevenlabs-b380fb97-bb18-46a5-91db-5132e6693e93",
+        "ashby-elevenlabs-b3dd0a00-6223-405b-9064-8619e98fa6e6",
         "ashby-elevenlabs-b42a0f43-f5e9-4a9d-83d0-8b8bc2d669fa",
         "ashby-elevenlabs-b43e388f-f204-41c5-a2bc-ee3bc1281e39",
         "ashby-elevenlabs-b5852812-73ee-48f2-aee3-265e95056eab",
@@ -5206,6 +5212,7 @@
         "gh-datadog-8360403",
         "gh-datadog-8364908",
         "gh-datadog-8365206",
+        "gh-datadog-8366583",
         "gh-datadog-8368886",
         "gh-datadog-8377133",
         "gh-datadog-8377430",
@@ -6725,6 +6732,7 @@
         "gh-braze-8373965",
         "gh-braze-8373990",
         "gh-braze-8380968",
+        "gh-braze-8383835",
         "gh-braze-8384453",
         "gh-braze-8385668",
         "gh-braze-8385967",
@@ -6733,7 +6741,10 @@
         "gh-braze-8386114",
         "gh-braze-8386178",
         "gh-braze-8391932",
-        "gh-braze-8393209"
+        "gh-braze-8393209",
+        "gh-braze-8397315",
+        "gh-braze-8397318",
+        "gh-braze-8397325"
       ]
     },
     "classpass": {
@@ -8302,6 +8313,6 @@
       "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-11-17T19:37:24.886718+00:00",
+  "last_run": "2026-11-18T01:51:43.271108+00:00",
   "pending_notifications": []
 }
