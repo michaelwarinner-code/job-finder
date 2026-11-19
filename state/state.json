@@ -195,6 +195,7 @@
         "gh-doordashusa-7749114",
         "gh-doordashusa-7750664",
         "gh-doordashusa-7760003",
+        "gh-doordashusa-7763162",
         "gh-doordashusa-7767373",
         "gh-doordashusa-7778759",
         "gh-doordashusa-7791630",
@@ -976,7 +977,8 @@
         "gh-doordashusa-8397292",
         "gh-doordashusa-8397297",
         "gh-doordashusa-8399363",
-        "gh-doordashusa-8400022"
+        "gh-doordashusa-8400022",
+        "gh-doordashusa-8400132"
       ]
     },
     "hubspot": {
@@ -1134,6 +1136,7 @@
         "gh-hubspotjobs-7779509",
         "gh-hubspotjobs-7830281",
         "gh-hubspotjobs-7845167",
+        "gh-hubspotjobs-7873690",
         "gh-hubspotjobs-7906651",
         "gh-hubspotjobs-7953436",
         "gh-hubspotjobs-7962567",
@@ -1302,7 +1305,8 @@
         "gh-hubspotjobs-8385439",
         "gh-hubspotjobs-8385609",
         "gh-hubspotjobs-8385611",
-        "gh-hubspotjobs-8395598"
+        "gh-hubspotjobs-8395598",
+        "gh-hubspotjobs-8401399"
       ]
     },
     "spotify": {
@@ -6049,8 +6053,10 @@
         "gh-mongodb-8379386",
         "gh-mongodb-8379840",
         "gh-mongodb-8381821",
+        "gh-mongodb-8381861",
         "gh-mongodb-8381869",
         "gh-mongodb-8381870",
+        "gh-mongodb-8381890",
         "gh-mongodb-8381898",
         "gh-mongodb-8381910",
         "gh-mongodb-8381920",
@@ -8350,6 +8356,6 @@
       "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-11-19T00:38:52.582586+00:00",
+  "last_run": "2026-11-19T07:56:08.475011+00:00",
   "pending_notifications": []
 }
