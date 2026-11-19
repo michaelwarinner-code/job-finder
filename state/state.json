@@ -973,8 +973,10 @@
         "gh-doordashusa-8394370",
         "gh-doordashusa-8396300",
         "gh-doordashusa-8396696",
+        "gh-doordashusa-8397292",
         "gh-doordashusa-8397297",
-        "gh-doordashusa-8399363"
+        "gh-doordashusa-8399363",
+        "gh-doordashusa-8400022"
       ]
     },
     "hubspot": {
@@ -1388,6 +1390,7 @@
         "lever-spotify-5861816e-7ac4-4921-8e90-8e093707e27d",
         "lever-spotify-58b112cc-7798-4083-9b88-589ab2ad04d7",
         "lever-spotify-5992c673-e493-48b1-bb63-9b82a4c31876",
+        "lever-spotify-5ddb2fa1-4494-48a9-84c0-b646da91edb8",
         "lever-spotify-5fce53f3-83dd-4b6a-9058-a2c295560966",
         "lever-spotify-600a4ac7-6ffa-4ced-8d34-253d00147aa9",
         "lever-spotify-638f1177-8a2b-4b43-9363-c7056b8ef929",
@@ -5631,6 +5634,7 @@
         "gh-mongodb-8098695",
         "gh-mongodb-8099122",
         "gh-mongodb-8100224",
+        "gh-mongodb-8100427",
         "gh-mongodb-8103967",
         "gh-mongodb-8104941",
         "gh-mongodb-8105037",
@@ -6014,6 +6018,7 @@
         "gh-mongodb-8353184",
         "gh-mongodb-8353315",
         "gh-mongodb-8354988",
+        "gh-mongodb-8355201",
         "gh-mongodb-8355268",
         "gh-mongodb-8355408",
         "gh-mongodb-8355989",
@@ -6069,8 +6074,11 @@
         "gh-mongodb-8395479",
         "gh-mongodb-8395592",
         "gh-mongodb-8396867",
+        "gh-mongodb-8397699",
+        "gh-mongodb-8397701",
         "gh-mongodb-8398664",
-        "gh-mongodb-8398670"
+        "gh-mongodb-8398670",
+        "gh-mongodb-8399041"
       ]
     },
     "braze": {
@@ -6762,10 +6770,14 @@
         "gh-braze-8386114",
         "gh-braze-8386178",
         "gh-braze-8391932",
+        "gh-braze-8393048",
         "gh-braze-8393209",
         "gh-braze-8397315",
         "gh-braze-8397318",
-        "gh-braze-8397325"
+        "gh-braze-8397325",
+        "gh-braze-8400539",
+        "gh-braze-8400557",
+        "gh-braze-8400574"
       ]
     },
     "classpass": {
@@ -6915,6 +6927,7 @@
         "gh-justworks-5136582",
         "gh-justworks-5803389",
         "gh-justworks-5890231",
+        "gh-justworks-5891994",
         "gh-justworks-6318505",
         "gh-justworks-6522701",
         "gh-justworks-6522713",
@@ -7738,7 +7751,8 @@
         "gh-thefarmersdog-8894333002",
         "gh-thefarmersdog-8917158002",
         "gh-thefarmersdog-8937798002",
-        "gh-thefarmersdog-8943805002"
+        "gh-thefarmersdog-8943805002",
+        "gh-thefarmersdog-8950356002"
       ]
     },
     "kargo": {
@@ -8336,6 +8350,6 @@
       "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
     }
   ],
-  "last_run": "2026-11-18T18:25:55.138204+00:00",
+  "last_run": "2026-11-19T00:38:52.582586+00:00",
   "pending_notifications": []
 }
