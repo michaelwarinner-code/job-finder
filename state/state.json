@@ -978,7 +978,9 @@
         "gh-doordashusa-8397297",
         "gh-doordashusa-8399363",
         "gh-doordashusa-8400022",
-        "gh-doordashusa-8400132"
+        "gh-doordashusa-8400132",
+        "gh-doordashusa-8402171",
+        "gh-doordashusa-8402404"
       ]
     },
     "hubspot": {
@@ -1305,7 +1307,9 @@
         "gh-hubspotjobs-8385439",
         "gh-hubspotjobs-8385609",
         "gh-hubspotjobs-8385611",
+        "gh-hubspotjobs-8395247",
         "gh-hubspotjobs-8395598",
+        "gh-hubspotjobs-8397522",
         "gh-hubspotjobs-8401399"
       ]
     },
@@ -1510,6 +1514,7 @@
         "lever-spotify-cb29d857-395b-401d-9749-367e666ff870",
         "lever-spotify-cb45b193-9f92-4e9b-b936-8a738eed5fdc",
         "lever-spotify-cc21db45-9354-496b-b1a1-d5f293c4feb8",
+        "lever-spotify-ced2c220-6b5c-4e74-8e06-37d50985097c",
         "lever-spotify-cefcda32-523e-418b-a327-383104741153",
         "lever-spotify-cf13d272-92ac-407d-89bf-7f20d20f7961",
         "lever-spotify-cfbb2765-b4e9-445a-b558-d1fa7876863d",
@@ -4108,6 +4113,7 @@
         "ashby-elevenlabs-71b1f886-593a-43a3-86db-1ab8e2a83496",
         "ashby-elevenlabs-71cf2fcc-ec19-45dd-b6c6-439f702779bb",
         "ashby-elevenlabs-71f84d23-fda9-45af-a249-8bbdb258bc18",
+        "ashby-elevenlabs-71fe2339-de89-41f6-afd3-e1daa05e7fa1",
         "ashby-elevenlabs-7209ce9f-3c69-4dbb-adbb-6c6c068ebad0",
         "ashby-elevenlabs-7389c057-3e25-4e7a-8a03-5e80f40a15a0",
         "ashby-elevenlabs-73ba8a21-bf66-4f37-8e94-05143a481fb8",
@@ -4199,6 +4205,7 @@
         "ashby-elevenlabs-aabab672-e4da-4e1f-bdf1-bf7f28622adf",
         "ashby-elevenlabs-aac94946-449f-4822-8299-2c0c19cf6a7d",
         "ashby-elevenlabs-aadb1c7a-c88d-4aa4-8900-a18f5e4934bf",
+        "ashby-elevenlabs-ab51c926-63fe-43ff-b7f1-7859e6032b12",
         "ashby-elevenlabs-ac7cc39a-a58b-4ef2-961a-ca16e060a361",
         "ashby-elevenlabs-ada7cd2c-8b9f-4f19-a88b-7c2ca1be1fde",
         "ashby-elevenlabs-af017d44-96d3-4ee7-9684-b414376a71b9",
@@ -4297,6 +4304,7 @@
         "ashby-elevenlabs-e6924f60-c8cc-42b3-9d05-2442ec30e12d",
         "ashby-elevenlabs-e7b83599-1b70-4830-85da-7132b99a3b57",
         "ashby-elevenlabs-e815e2a8-e3bd-4e41-bbc3-ebe57277927b",
+        "ashby-elevenlabs-e9075e24-5dc2-4ae5-b7ce-37ccae8c4270",
         "ashby-elevenlabs-ea45b306-c62d-4aba-98ba-ee2e62adf91a",
         "ashby-elevenlabs-ea5ed1d0-332d-4777-ba7a-4662c6f0b4d2",
         "ashby-elevenlabs-eb0cc725-ac18-46a7-a0b5-a8ca58f5779d",
@@ -5239,6 +5247,7 @@
         "gh-datadog-8377430",
         "gh-datadog-8378413",
         "gh-datadog-8378768",
+        "gh-datadog-8383542",
         "gh-datadog-8385200",
         "gh-datadog-8385205",
         "gh-datadog-8393631"
@@ -5961,6 +5970,7 @@
         "gh-mongodb-8300746",
         "gh-mongodb-8300961",
         "gh-mongodb-8301805",
+        "gh-mongodb-8301842",
         "gh-mongodb-8304146",
         "gh-mongodb-8304447",
         "gh-mongodb-8304692",
@@ -6006,6 +6016,7 @@
         "gh-mongodb-8337727",
         "gh-mongodb-8340799",
         "gh-mongodb-8345848",
+        "gh-mongodb-8346138",
         "gh-mongodb-8346181",
         "gh-mongodb-8348102",
         "gh-mongodb-8348261",
@@ -6021,6 +6032,7 @@
         "gh-mongodb-8352883",
         "gh-mongodb-8353184",
         "gh-mongodb-8353315",
+        "gh-mongodb-8354295",
         "gh-mongodb-8354988",
         "gh-mongodb-8355201",
         "gh-mongodb-8355268",
@@ -6079,12 +6091,15 @@
         "gh-mongodb-8393203",
         "gh-mongodb-8395479",
         "gh-mongodb-8395592",
+        "gh-mongodb-8395822",
         "gh-mongodb-8396867",
+        "gh-mongodb-8397251",
         "gh-mongodb-8397699",
         "gh-mongodb-8397701",
         "gh-mongodb-8398664",
         "gh-mongodb-8398670",
-        "gh-mongodb-8399041"
+        "gh-mongodb-8399041",
+        "gh-mongodb-8399277"
       ]
     },
     "braze": {
@@ -7260,7 +7275,9 @@
         "gh-appsflyer-8938973002",
         "gh-appsflyer-8944334002",
         "gh-appsflyer-8944605002",
-        "gh-appsflyer-8949591002"
+        "gh-appsflyer-8949591002",
+        "gh-appsflyer-8951220002",
+        "gh-appsflyer-8951255002"
       ]
     },
     "attentive": {
@@ -7563,7 +7580,8 @@
         "gh-mavenclinic-8946493002",
         "gh-mavenclinic-8946515002",
         "gh-mavenclinic-8947884002",
-        "gh-mavenclinic-8948506002"
+        "gh-mavenclinic-8948506002",
+        "gh-mavenclinic-8951510002"
       ]
     },
     "away": {
@@ -7695,6 +7713,7 @@
         "gh-movableink-8365279",
         "gh-movableink-8365288",
         "gh-movableink-8365324",
+        "gh-movableink-8366064",
         "gh-movableink-8393164"
       ]
     },
@@ -7956,7 +7975,8 @@
         "gh-cleo-4752752005",
         "gh-cleo-4752959005",
         "gh-cleo-4753532005",
-        "gh-cleo-4754360005"
+        "gh-cleo-4754360005",
+        "gh-cleo-4756418005"
       ]
     },
     "microsoft": {
@@ -8354,8 +8374,18 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8396300",
       "first_seen": "2026-11-17T19:37:24.886718+00:00",
       "fit_reason": "Revenue operations / sales strategy role with data-driven optimization focus; candidate meets 3-year floor and has directly transferable analytics, process design, and cross-functional execution experience from Chick-fil-A and internships."
+    },
+    {
+      "id": "gh-cleo-4756418005",
+      "company_key": "cleo",
+      "company_name": "Cleo",
+      "title": "Digital Marketing Analyst",
+      "location": "Remote",
+      "url": "https://job-boards.greenhouse.io/cleo/jobs/4756418005",
+      "first_seen": "2026-11-19T17:07:22.625327+00:00",
+      "fit_reason": "Digital Marketing Analyst is a strong fit for growth/performance marketing path; candidate exceeds 2\u20134 year range with ~3.5 years substantive experience, demonstrates campaign execution, conversion optimization, analytics, and cross-functional collaboration; lacks Drupal and GA4 specifically but has transferable CMS, HTML/CSS, analytics fundamentals, and proven AI fluency."
     }
   ],
-  "last_run": "2026-11-19T07:56:08.475011+00:00",
+  "last_run": "2026-11-19T17:07:22.625327+00:00",
   "pending_notifications": []
 }
