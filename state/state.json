@@ -5256,7 +5256,10 @@
         "gh-datadog-8384194",
         "gh-datadog-8385200",
         "gh-datadog-8385205",
+        "gh-datadog-8386199",
+        "gh-datadog-8386590",
         "gh-datadog-8393631",
+        "gh-datadog-8398016",
         "gh-datadog-8400585",
         "gh-datadog-8402937",
         "gh-datadog-8404061"
@@ -8421,6 +8424,6 @@
       "fit_reason": "Account Manager, SMB at Braze is a growth-focused, expansion-driven role managing existing portfolio with Net Retention/Upsell targets\u2014directly aligned with candidate's revenue operations/account management target; candidate's 3+ years at Chick-fil-A (catering channel growth, win-back campaigns, retention funnels, cross-functional execution) demonstrates transferable analytical and strategic skills; Salesforce and MarTech bonus points are covered; no cold-calling or field-sales exclusions apply."
     }
   ],
-  "last_run": "2026-11-19T23:33:27.704115+00:00",
+  "last_run": "2026-11-20T04:15:19.446448+00:00",
   "pending_notifications": []
 }
