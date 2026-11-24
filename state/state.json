@@ -1681,6 +1681,7 @@
         "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
         "ashby-claylabs-dca9faf7-a118-4237-bcf8-d7562aab3c49",
         "ashby-claylabs-ddc46515-89d2-4f98-a383-437dfd38b123",
+        "ashby-claylabs-df13e46a-c847-4805-8495-936a296edaec",
         "ashby-claylabs-e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
         "ashby-claylabs-e9c90955-db04-4fc3-b70d-ebc115557e83",
         "ashby-claylabs-ea299008-9502-4ede-96f3-d5cb94627f51",
@@ -8037,7 +8038,9 @@
         "gh-flatironhealth-8363180",
         "gh-flatironhealth-8371660",
         "gh-flatironhealth-8392902",
-        "gh-flatironhealth-8403021"
+        "gh-flatironhealth-8403021",
+        "gh-flatironhealth-8405775",
+        "gh-flatironhealth-8405778"
       ]
     },
     "bombas": {
@@ -8519,6 +8522,6 @@
       "fit_reason": "Account Manager role managing existing retailer relationships, campaign optimization, and platform adoption aligns with candidate's growth/lifecycle marketing and account management experience; 2\u20135 years stated (floor is 2), candidate has ~3.5 years relevant experience; responsibilities center on execution, optimization, and relationship-building rather than net-new prospecting."
     }
   ],
-  "last_run": "2026-11-24T00:46:45.073791+00:00",
+  "last_run": "2026-11-24T10:28:34.122205+00:00",
   "pending_notifications": []
 }
