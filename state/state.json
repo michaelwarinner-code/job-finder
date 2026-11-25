@@ -148,6 +148,7 @@
         "gh-doordashusa-7468130",
         "gh-doordashusa-7473132",
         "gh-doordashusa-7481871",
+        "gh-doordashusa-7485779",
         "gh-doordashusa-7488724",
         "gh-doordashusa-7490108",
         "gh-doordashusa-7490373",
@@ -231,6 +232,7 @@
         "gh-doordashusa-7858932",
         "gh-doordashusa-7859504",
         "gh-doordashusa-7859605",
+        "gh-doordashusa-7859661",
         "gh-doordashusa-7863361",
         "gh-doordashusa-7863636",
         "gh-doordashusa-7868724",
@@ -984,7 +986,8 @@
         "gh-doordashusa-8403160",
         "gh-doordashusa-8403286",
         "gh-doordashusa-8403631",
-        "gh-doordashusa-8416784"
+        "gh-doordashusa-8416784",
+        "gh-doordashusa-8417670"
       ]
     },
     "hubspot": {
@@ -1406,6 +1409,7 @@
         "lever-spotify-4852ad53-b028-4161-b53b-24c62759257f",
         "lever-spotify-499543e3-78e7-473a-8a1d-a82ce9ce9030",
         "lever-spotify-4c0aa107-bdb7-4061-b2c7-be616e059340",
+        "lever-spotify-4e375351-b130-4f51-b9f1-e0fffee023d2",
         "lever-spotify-4e4ab485-06f1-46b1-88e0-44f3fda4b62a",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
         "lever-spotify-529a1618-32b9-4619-b727-ae28ddf0dc61",
@@ -1452,6 +1456,7 @@
         "lever-spotify-819f584f-84a5-485d-8082-3412545f6c8a",
         "lever-spotify-8251142e-f213-45df-89a9-914e814bd7a7",
         "lever-spotify-827bfa7b-cc50-46d7-bdac-f642a14fe92b",
+        "lever-spotify-82c278ac-c73b-460a-b955-f11097447bff",
         "lever-spotify-88b0a5ea-65d8-4c0c-8d1f-c30989ea5c16",
         "lever-spotify-890b2c0f-f46f-4a4b-bb73-3a6af6e0edd5",
         "lever-spotify-89e139e7-76fd-4063-8850-ba13c555446c",
@@ -1549,6 +1554,7 @@
         "lever-spotify-d9e57c3c-1c0a-483b-a783-6d1c9f2ce057",
         "lever-spotify-da45648b-3b35-4e4b-81df-31667aa4a76d",
         "lever-spotify-da93b18f-3f08-49d1-8725-15b5b70cb75c",
+        "lever-spotify-dbf22fdf-5dd4-4a7e-9a2a-2438ca93790e",
         "lever-spotify-ddb5dfa9-c5ef-4199-bd19-c179af568cc8",
         "lever-spotify-ddc10181-6ecc-4dfc-9d02-2c5ce820cfdd",
         "lever-spotify-ddcf0836-4443-4954-be31-7466be1eaff2",
@@ -1626,6 +1632,7 @@
         "ashby-claylabs-43c1c1d3-29d2-43cd-aaa9-fcf9c8b60544",
         "ashby-claylabs-45fbd224-6a30-4b8e-8938-139ae0a0127f",
         "ashby-claylabs-4623405b-1062-4019-9979-129a86408d7b",
+        "ashby-claylabs-49be9f38-09e2-4b89-8d06-eeac07c30f55",
         "ashby-claylabs-4ad300ac-8c5f-4485-95d9-f1e9377c2243",
         "ashby-claylabs-4b20eb92-c27c-46fb-8d5b-ead32765a7d8",
         "ashby-claylabs-4be52dd6-244b-4e27-bf4a-757a1094a82a",
@@ -1644,6 +1651,7 @@
         "ashby-claylabs-6c65bbb9-8205-400c-b971-cd91897b6d8f",
         "ashby-claylabs-7111f7da-3405-433a-8814-f2504c32210b",
         "ashby-claylabs-720908d9-52a7-406d-bf47-01eff8ae259e",
+        "ashby-claylabs-72660287-4da2-4b23-8dcf-f5ce8a998e3b",
         "ashby-claylabs-73f9d129-1ea8-43cd-b69a-e08015aa057f",
         "ashby-claylabs-76780902-2017-4fca-ae77-36e696391107",
         "ashby-claylabs-771aabc8-f18e-4890-8813-95132972c2ac",
@@ -3861,6 +3869,7 @@
       "known_job_ids": [
         "ashby-runway-ml-06590ce3-fe8f-493f-8545-3f905c74f05f",
         "ashby-runway-ml-07c09e07-3dcd-44c3-a59e-86603d9d007d",
+        "ashby-runway-ml-08647ea7-af95-42cc-9e41-5cedba9c839e",
         "ashby-runway-ml-08d42c3a-7ac6-4576-ad4a-75a0d80bf0d6",
         "ashby-runway-ml-09021655-a511-47c6-8132-edd77a5ee86c",
         "ashby-runway-ml-09442bd6-8749-45a0-bac3-cb4de65bc6f2",
@@ -4159,6 +4168,7 @@
         "ashby-elevenlabs-7758cdc5-b5c9-4a5c-8c80-11678f7cba9d",
         "ashby-elevenlabs-77f23be6-16c0-40c5-87b6-29dc2ee752ab",
         "ashby-elevenlabs-78c564eb-ee87-46d9-b2fd-4322a223a547",
+        "ashby-elevenlabs-78fdf018-aa20-456b-8cc1-66eb7d4fed67",
         "ashby-elevenlabs-792d35d9-5a8e-4f57-bf79-5a1cdac463fb",
         "ashby-elevenlabs-7a235499-7cee-48f5-9fe4-3f4764b91865",
         "ashby-elevenlabs-7a27a4f4-e32f-4ff2-a6b0-a01a5e187db0",
@@ -5304,7 +5314,13 @@
         "gh-datadog-8403219",
         "gh-datadog-8404061",
         "gh-datadog-8405975",
-        "gh-datadog-8414413"
+        "gh-datadog-8411119",
+        "gh-datadog-8414413",
+        "gh-datadog-8414502",
+        "gh-datadog-8416965",
+        "gh-datadog-8417250",
+        "gh-datadog-8417469",
+        "gh-datadog-8418089"
       ]
     },
     "mongodb": {
@@ -5499,6 +5515,7 @@
         "gh-mongodb-7858876",
         "gh-mongodb-7861722",
         "gh-mongodb-7870623",
+        "gh-mongodb-7870848",
         "gh-mongodb-7870876",
         "gh-mongodb-7887608",
         "gh-mongodb-7891161",
@@ -6164,6 +6181,7 @@
         "gh-mongodb-8398670",
         "gh-mongodb-8399041",
         "gh-mongodb-8399277",
+        "gh-mongodb-8400945",
         "gh-mongodb-8401388",
         "gh-mongodb-8401393",
         "gh-mongodb-8401912",
@@ -6182,7 +6200,9 @@
         "gh-mongodb-8406857",
         "gh-mongodb-8411524",
         "gh-mongodb-8412006",
-        "gh-mongodb-8412160"
+        "gh-mongodb-8412160",
+        "gh-mongodb-8414057",
+        "gh-mongodb-8414731"
       ]
     },
     "braze": {
@@ -6757,6 +6777,7 @@
         "gh-braze-8285494",
         "gh-braze-8285499",
         "gh-braze-8286853",
+        "gh-braze-8289257",
         "gh-braze-8289729",
         "gh-braze-8289921",
         "gh-braze-8290003",
@@ -6824,6 +6845,7 @@
         "gh-braze-8337451",
         "gh-braze-8337918",
         "gh-braze-8337945",
+        "gh-braze-8337947",
         "gh-braze-8337961",
         "gh-braze-8337972",
         "gh-braze-8345225",
@@ -6855,6 +6877,9 @@
         "gh-braze-8350801",
         "gh-braze-8350806",
         "gh-braze-8351214",
+        "gh-braze-8354050",
+        "gh-braze-8354053",
+        "gh-braze-8354056",
         "gh-braze-8355269",
         "gh-braze-8356534",
         "gh-braze-8358094",
@@ -7294,7 +7319,8 @@
         "gh-justworks-8393792",
         "gh-justworks-8393878",
         "gh-justworks-8399747",
-        "gh-justworks-8404062"
+        "gh-justworks-8404062",
+        "gh-justworks-8417181"
       ]
     },
     "appsflyer": {
@@ -7651,7 +7677,11 @@
         "gh-yext-8393419",
         "gh-yext-8399029",
         "gh-yext-8399033",
-        "gh-yext-8402139"
+        "gh-yext-8402139",
+        "gh-yext-8413580",
+        "gh-yext-8413605",
+        "gh-yext-8413617",
+        "gh-yext-8417079"
       ]
     },
     "mavenclinic": {
@@ -8068,6 +8098,7 @@
         "gh-flatironhealth-8315819",
         "gh-flatironhealth-8315844",
         "gh-flatironhealth-8325161",
+        "gh-flatironhealth-8327183",
         "gh-flatironhealth-8337134",
         "gh-flatironhealth-8356530",
         "gh-flatironhealth-8363180",
@@ -8570,6 +8601,6 @@
       "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities center on analytics, dashboards, account segmentation, and revenue programs\u2014all aligned with revenue operations target; candidate has demonstrated data-driven sales/growth work, BI/reporting skills, and AI tool familiarity."
     }
   ],
-  "last_run": "2026-11-25T13:38:36.552019+00:00",
+  "last_run": "2026-11-25T22:45:29.402477+00:00",
   "pending_notifications": []
 }
