@@ -983,7 +983,8 @@
         "gh-doordashusa-8402404",
         "gh-doordashusa-8403160",
         "gh-doordashusa-8403286",
-        "gh-doordashusa-8403631"
+        "gh-doordashusa-8403631",
+        "gh-doordashusa-8416784"
       ]
     },
     "hubspot": {
@@ -6153,6 +6154,7 @@
         "gh-mongodb-8395479",
         "gh-mongodb-8395592",
         "gh-mongodb-8395596",
+        "gh-mongodb-8395701",
         "gh-mongodb-8395822",
         "gh-mongodb-8396867",
         "gh-mongodb-8397251",
@@ -6168,6 +6170,7 @@
         "gh-mongodb-8402068",
         "gh-mongodb-8403104",
         "gh-mongodb-8403216",
+        "gh-mongodb-8403226",
         "gh-mongodb-8403312",
         "gh-mongodb-8403315",
         "gh-mongodb-8403318",
@@ -6177,6 +6180,7 @@
         "gh-mongodb-8406252",
         "gh-mongodb-8406812",
         "gh-mongodb-8406857",
+        "gh-mongodb-8411524",
         "gh-mongodb-8412006",
         "gh-mongodb-8412160"
       ]
@@ -6925,6 +6929,7 @@
         "gh-braze-8412509",
         "gh-braze-8412513",
         "gh-braze-8412517",
+        "gh-braze-8414639",
         "gh-braze-8415902"
       ]
     },
@@ -8072,7 +8077,8 @@
         "gh-flatironhealth-8402128",
         "gh-flatironhealth-8403021",
         "gh-flatironhealth-8405775",
-        "gh-flatironhealth-8405778"
+        "gh-flatironhealth-8405778",
+        "gh-flatironhealth-8414409"
       ]
     },
     "bombas": {
@@ -8564,6 +8570,6 @@
       "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities center on analytics, dashboards, account segmentation, and revenue programs\u2014all aligned with revenue operations target; candidate has demonstrated data-driven sales/growth work, BI/reporting skills, and AI tool familiarity."
     }
   ],
-  "last_run": "2026-11-25T03:49:17.782482+00:00",
+  "last_run": "2026-11-25T13:38:36.552019+00:00",
   "pending_notifications": []
 }
