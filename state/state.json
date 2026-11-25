@@ -1389,6 +1389,7 @@
         "lever-spotify-3895bc9e-ca1c-433c-8604-b58ae84aa577",
         "lever-spotify-3a0d23b5-5dda-456a-967b-0fcada78daf1",
         "lever-spotify-3cf07bc7-2b9f-4531-af88-a09cfdf7b3ab",
+        "lever-spotify-3dee8969-3910-4624-a401-45222202522c",
         "lever-spotify-3f6aae92-7ae9-45cc-8b84-85b3bf0241c2",
         "lever-spotify-3f78e5c3-95c2-4d32-8ad5-54a215ccee0f",
         "lever-spotify-419c2f72-1e1f-4832-a375-7d19fba8cd6a",
@@ -1406,6 +1407,7 @@
         "lever-spotify-4c0aa107-bdb7-4061-b2c7-be616e059340",
         "lever-spotify-4e4ab485-06f1-46b1-88e0-44f3fda4b62a",
         "lever-spotify-5089cbe3-5e62-4c24-89a2-9a1487eb5034",
+        "lever-spotify-529a1618-32b9-4619-b727-ae28ddf0dc61",
         "lever-spotify-53c07681-f798-4f2c-bef6-513c6d027c9e",
         "lever-spotify-56ea6f2e-f20b-4e46-ab94-d3eb0a89482d",
         "lever-spotify-5861816e-7ac4-4921-8e90-8e093707e27d",
@@ -1636,6 +1638,7 @@
         "ashby-claylabs-5f7806b2-41b5-4b85-a9d3-68c2971edef2",
         "ashby-claylabs-5fa3fb18-16cf-4a4a-94e3-18934c7f422c",
         "ashby-claylabs-6579de6f-b5df-46df-bb73-e8d82955f293",
+        "ashby-claylabs-66c5d4ae-32cc-43a1-bc72-8e203dd7a2d2",
         "ashby-claylabs-67a53448-184d-48e4-a040-d17fc7f59b37",
         "ashby-claylabs-6c65bbb9-8205-400c-b971-cd91897b6d8f",
         "ashby-claylabs-7111f7da-3405-433a-8814-f2504c32210b",
@@ -3885,6 +3888,7 @@
         "ashby-runway-ml-4ab5877c-1289-439e-a885-8e6942a2409f",
         "ashby-runway-ml-4c1990b2-b2f9-495e-8a35-f9af295c475a",
         "ashby-runway-ml-4f8e18a4-0f26-4b28-a44d-3ba1afaada74",
+        "ashby-runway-ml-51eb1ef0-032a-45d4-bcb6-8686cfcf53c2",
         "ashby-runway-ml-54ae5057-1bd1-4b14-9444-e01e3643f6cc",
         "ashby-runway-ml-54d1390a-0697-4102-88d2-68fa2da8bf0a",
         "ashby-runway-ml-5d5a91ae-b091-425c-96b5-2d4a88d0c796",
@@ -3929,6 +3933,7 @@
         "ashby-runway-ml-e27165f8-f71d-4954-9912-8ce7488d6534",
         "ashby-runway-ml-e9cb4bde-bb05-402d-98a7-a7eb86747d2d",
         "ashby-runway-ml-edf266aa-771c-42f5-bb36-bcd159a41989",
+        "ashby-runway-ml-ef93c82b-498d-4a33-b12c-3056337cff51",
         "ashby-runway-ml-f003ebc6-923d-44cc-b299-01a0d93c6859",
         "ashby-runway-ml-f4aa3f24-a6ff-4168-97ef-7e9d140ee19e",
         "ashby-runway-ml-f65e164b-d577-4bd3-993b-7868d51fab5d",
@@ -5288,6 +5293,7 @@
         "gh-datadog-8386199",
         "gh-datadog-8386590",
         "gh-datadog-8393631",
+        "gh-datadog-8394802",
         "gh-datadog-8398016",
         "gh-datadog-8398414",
         "gh-datadog-8398963",
@@ -5428,6 +5434,7 @@
         "gh-mongodb-7658084",
         "gh-mongodb-7662950",
         "gh-mongodb-7668289",
+        "gh-mongodb-7669637",
         "gh-mongodb-7672303",
         "gh-mongodb-7678147",
         "gh-mongodb-7683484",
@@ -6911,12 +6918,14 @@
         "gh-braze-8407570",
         "gh-braze-8407572",
         "gh-braze-8407769",
+        "gh-braze-8411811",
         "gh-braze-8412084",
         "gh-braze-8412086",
         "gh-braze-8412097",
         "gh-braze-8412509",
         "gh-braze-8412513",
-        "gh-braze-8412517"
+        "gh-braze-8412517",
+        "gh-braze-8415902"
       ]
     },
     "classpass": {
@@ -7097,6 +7106,7 @@
         "gh-justworks-7797381",
         "gh-justworks-7801522",
         "gh-justworks-7808862",
+        "gh-justworks-7822111",
         "gh-justworks-7826423",
         "gh-justworks-7839622",
         "gh-justworks-7846681",
@@ -7716,7 +7726,9 @@
         "gh-mavenclinic-8948506002",
         "gh-mavenclinic-8951510002",
         "gh-mavenclinic-8957323002",
-        "gh-mavenclinic-8959141002"
+        "gh-mavenclinic-8959141002",
+        "gh-mavenclinic-8961537002",
+        "gh-mavenclinic-8961614002"
       ]
     },
     "away": {
@@ -8540,8 +8552,18 @@
       "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8403631",
       "first_seen": "2026-11-20T21:01:35.244986+00:00",
       "fit_reason": "Account Manager role managing existing retailer relationships, campaign optimization, and platform adoption aligns with candidate's growth/lifecycle marketing and account management experience; 2\u20135 years stated (floor is 2), candidate has ~3.5 years relevant experience; responsibilities center on execution, optimization, and relationship-building rather than net-new prospecting."
+    },
+    {
+      "id": "lever-spotify-3dee8969-3910-4624-a401-45222202522c",
+      "company_key": "spotify",
+      "company_name": "Spotify",
+      "title": "Senior Analyst, Sales Strategy & Operations - North America",
+      "location": "New York, NY",
+      "url": "https://jobs.lever.co/spotify/3dee8969-3910-4624-a401-45222202522c",
+      "first_seen": "2026-11-25T03:49:17.782482+00:00",
+      "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities center on analytics, dashboards, account segmentation, and revenue programs\u2014all aligned with revenue operations target; candidate has demonstrated data-driven sales/growth work, BI/reporting skills, and AI tool familiarity."
     }
   ],
-  "last_run": "2026-11-24T20:48:56.433670+00:00",
+  "last_run": "2026-11-25T03:49:17.782482+00:00",
   "pending_notifications": []
 }
