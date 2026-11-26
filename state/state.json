@@ -3425,8 +3425,10 @@
         "ashby-perplexity-9ca67ae3-8507-40b9-9d7f-d81b249c1041",
         "ashby-perplexity-9ce0fef8-7ead-4c0d-a71e-433bdd5b4d82",
         "ashby-perplexity-9cec9b33-06f2-4ba1-8c9e-20a598361ca2",
+        "ashby-perplexity-9dfec7e8-33eb-490a-af21-263602426826",
         "ashby-perplexity-9e3a4516-b893-4579-9a6a-3720658e4b6d",
         "ashby-perplexity-9e738c21-f2ab-49d7-b545-b519bb2cf8ae",
+        "ashby-perplexity-9f9f7f1a-df07-4b40-8e2b-bcf453af6c85",
         "ashby-perplexity-9ffca709-f4e1-40e7-81bf-270ff73c7a50",
         "ashby-perplexity-a14c4626-ed07-4151-a923-3a710fb66de2",
         "ashby-perplexity-a172ada5-1a6e-4646-8e0d-26747422af24",
@@ -6199,10 +6201,12 @@
         "gh-mongodb-8406812",
         "gh-mongodb-8406857",
         "gh-mongodb-8411524",
+        "gh-mongodb-8411720",
         "gh-mongodb-8412006",
         "gh-mongodb-8412160",
         "gh-mongodb-8414057",
-        "gh-mongodb-8414731"
+        "gh-mongodb-8414731",
+        "gh-mongodb-8418513"
       ]
     },
     "braze": {
@@ -6919,6 +6923,7 @@
         "gh-braze-8397325",
         "gh-braze-8399181",
         "gh-braze-8399184",
+        "gh-braze-8399723",
         "gh-braze-8400539",
         "gh-braze-8400557",
         "gh-braze-8400574",
@@ -6955,7 +6960,8 @@
         "gh-braze-8412513",
         "gh-braze-8412517",
         "gh-braze-8414639",
-        "gh-braze-8415902"
+        "gh-braze-8415902",
+        "gh-braze-8417915"
       ]
     },
     "classpass": {
@@ -8601,6 +8607,6 @@
       "fit_reason": "Sales Strategy & Operations role with 3+ years requirement (candidate meets floor); core responsibilities center on analytics, dashboards, account segmentation, and revenue programs\u2014all aligned with revenue operations target; candidate has demonstrated data-driven sales/growth work, BI/reporting skills, and AI tool familiarity."
     }
   ],
-  "last_run": "2026-11-25T22:45:29.402477+00:00",
+  "last_run": "2026-11-26T04:30:42.169863+00:00",
   "pending_notifications": []
 }
