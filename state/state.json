@@ -5316,6 +5316,7 @@
         "gh-datadog-8398963",
         "gh-datadog-8400585",
         "gh-datadog-8400860",
+        "gh-datadog-8401334",
         "gh-datadog-8402937",
         "gh-datadog-8403219",
         "gh-datadog-8404061",
@@ -6204,6 +6205,8 @@
         "gh-mongodb-8403318",
         "gh-mongodb-8403443",
         "gh-mongodb-8404811",
+        "gh-mongodb-8406014",
+        "gh-mongodb-8406025",
         "gh-mongodb-8406130",
         "gh-mongodb-8406252",
         "gh-mongodb-8406812",
@@ -6216,7 +6219,12 @@
         "gh-mongodb-8414731",
         "gh-mongodb-8418513",
         "gh-mongodb-8418729",
-        "gh-mongodb-8418808"
+        "gh-mongodb-8418808",
+        "gh-mongodb-8419289",
+        "gh-mongodb-8419294",
+        "gh-mongodb-8419307",
+        "gh-mongodb-8419310",
+        "gh-mongodb-8419313"
       ]
     },
     "braze": {
@@ -8628,6 +8636,6 @@
       "fit_reason": "Core product marketing role with no stated years requirement; candidate's 3+ years of growth/campaign work, product launch experience (events, funnels), and technical fluency (Salesforce, Power BI, HTML, AI tooling) align well with the positioning, content, and launch responsibilities described."
     }
   ],
-  "last_run": "2026-11-27T05:06:34.986696+00:00",
+  "last_run": "2026-11-27T14:58:11.538454+00:00",
   "pending_notifications": []
 }
